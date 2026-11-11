@@ -1,0 +1,67 @@
+{
+  "run": "W0006",
+  "counts": {
+    "animation_numeric_pass": 5028,
+    "animation_audit_error": 6
+  },
+  "model_count": 5034,
+  "complete_pass_animation_floats": 10396461,
+  "model_hashes_match_W0001": true,
+  "model_paths_match_W0002": true,
+  "both_W0002_and_W0006_pass": 5023,
+  "errors": [
+    {
+      "path": "Item/dark_05.bmd",
+      "sha256": "ad93d71192b9e8a1142819bce0b6abf47ec7fe440a7a7d2106e02754125c5333",
+      "status": "animation_audit_error",
+      "error": "position bone=3 action=0: invalid float nan at payload offset 8653"
+    },
+    {
+      "path": "Object3/Object25.bmd",
+      "sha256": "d30f2332ca2d120f7e51fb7ae874f0e1f09349adc1768551d7daefa00a2492fc",
+      "status": "animation_audit_error",
+      "error": "unsupported model version 0"
+    },
+    {
+      "path": "Object3/Object27.bmd",
+      "sha256": "d30f2332ca2d120f7e51fb7ae874f0e1f09349adc1768551d7daefa00a2492fc",
+      "status": "animation_audit_error",
+      "error": "unsupported model version 0"
+    },
+    {
+      "path": "Object3/Object33.bmd",
+      "sha256": "d30f2332ca2d120f7e51fb7ae874f0e1f09349adc1768551d7daefa00a2492fc",
+      "status": "animation_audit_error",
+      "error": "unsupported model version 0"
+    },
+    {
+      "path": "Object3/Object90.bmd",
+      "sha256": "d30f2332ca2d120f7e51fb7ae874f0e1f09349adc1768551d7daefa00a2492fc",
+      "status": "animation_audit_error",
+      "error": "unsupported model version 0"
+    },
+    {
+      "path": "Object79/Object05.bmd",
+      "sha256": "1ce939401586d538837a5495941303a3e14f6eb6456e94c0c9a9c70ca20a31fd",
+      "status": "animation_audit_error",
+      "error": "locked position action=2: invalid float 7.036660046424137e+22 at payload offset 113549"
+    }
+  ],
+  "new_animation_findings": [
+    "Item/dark_05.bmd",
+    "Object79/Object05.bmd"
+  ],
+  "W0002_mesh_errors_still_open": [
+    "Object35/Object36.bmd",
+    "Object52/Object90.bmd",
+    "Object57/Object36.bmd",
+    "Player/HelmMale20.bmd",
+    "Skill/CW_Bow_Skill.bmd"
+  ],
+  "full_report_sha256": "cbf10e7e7e766c86074764ebe61cefcee9d291c013832f252a48b80e7668269f",
+  "limits": [
+    "Mesh blocks skipped after bounded counts; use W0002 for mesh/index/texture checks.",
+    "Finite bounded floats do not prove correct animation, timing, interpolation or Windows parity.",
+    "Only BMD versions 10 and 12 supported; no production parser changed."
+  ]
+}

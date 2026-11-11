@@ -1,0 +1,43 @@
+{
+  "version": "emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 6.0.13-git",
+  "flags": [
+    "-std=c++17",
+    "-O2",
+    "-fexceptions",
+    "-sDISABLE_EXCEPTION_CATCHING=0",
+    "-sALLOW_MEMORY_GROWTH=1",
+    "-sMAXIMUM_MEMORY=134217728",
+    "-sENVIRONMENT=web,node"
+  ],
+  "installed_formula": "emscripten 6.0.13 (Homebrew minimal install)",
+  "launcher": "project Python/config adapter; global Homebrew em++ wrapper still requires missing python@3.15",
+  "runtime": "Node v26.11.1; Python 3.14.6",
+  "artifacts": [
+    {
+      "path": "contract.cjs",
+      "bytes": 63860,
+      "sha256": "f56db04b4858cb39bab28c1cc24de75be20870304f59912e4e3591650d8b2af7"
+    },
+    {
+      "path": "contract.wasm",
+      "bytes": 191887,
+      "sha256": "6ef1cd9c6f6e1a84eddbab5d9aedbb5854219ec90d9d9bac575585cc5da1c596"
+    },
+    {
+      "path": "frame-reader.mjs",
+      "bytes": 47282,
+      "sha256": "291abb6c27d7025c36fbd46be86c9aac2363d36ec4345b412903b4e2f718324d"
+    },
+    {
+      "path": "frame-reader.wasm",
+      "bytes": 24840,
+      "sha256": "548e5ef5586108f45820edaed715af51af2aad00b3553b8dc29288b36dcb2502"
+    }
+  ],
+  "verification": {
+    "wasm_cpp_contract": "passed",
+    "wasm_js_bridge": "passed",
+    "browser": "not tested",
+    "login_crypto_gateway": "not implemented"
+  }
+}

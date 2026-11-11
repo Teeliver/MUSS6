@@ -1,0 +1,21 @@
+✔ Crywolf and Swamp dispatch source subtypes/probabilities and hide only documented marker meshes (2.576ms)
+✔ TRUE_FIRE5 and SMOKE21 keep native lifetime, scale, gravity, movement and original textures (1.522833ms)
+✔ SMOKE49 substitutes cloud texture; CLOUD20 retains source colors and rise/fall transition (0.170334ms)
+✔ original Crywolf/Swamp trees retain live branches and safely discard only the zero-area sentinel mesh (16.606709ms)
+✔ empty-mesh exception rejects near misses instead of accepting arbitrary damaged skin (1983.337416ms)
+✔ original padded clouds JPEG keeps the outer 256x256 image and rejects missing EOI or nonzero garbage (1.292625ms)
+✔ non-Lorencia environment keeps placements beyond the former spawn radius and reports unresolved objects (4.079208ms)
+✔ legacy water and fire-object animation rates preserve source direction, mesh and scale (0.456292ms)
+✔ source fire emitter offsets rotate with the object and fire lifetime advances on native ticks (0.302291ms)
+✔ Elbeland native waterfall markers use the correct atlas, probability and particle updates (0.281334ms)
+✔ projection culling retains intersecting bounds and does not depend on spawn coordinates (0.260625ms)
+✔ map-specific animation rates retain MapManager and NewTown overrides (0.078875ms)
+✔ native missing world-texture lookup accepts only same-name candidates with identical contents (1.942916ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2124.194875

@@ -1,0 +1,6 @@
+HelmClass01.bmd z=153.805..189.06
+ArmorClass01.bmd z=110.729..159.294
+PantClass01.bmd z=50.81..118.73
+GloveClass01.bmd z=68.1952..114.541
+BootClass01.bmd z=-6.59186..55.1374
+PASS: real Lorencia 256x256, two tile layers, height/attributes, minimap 1024x1024, OZJ, five player BMD parts, original skeleton; triangles=640; malformed texture and cyclic skeleton rejected.

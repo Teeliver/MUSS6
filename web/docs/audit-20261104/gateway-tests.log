@@ -1,0 +1,24 @@
+✔ full discovery then select use independent CS connections through gateway (26.065458ms)
+✔ real network wrong endpoint and silent handshake are rejected (208.498958ms)
+✔ game greeting encrypted with derived keys passes WS/TCP with MHP off/on (24.451625ms)
+✔ network probe rejects server denial/code mismatch/key mismatch (1013.970583ms)
+✔ silent GameServer fixture times out without sending login data (152.573208ms)
+✔ real loopback WS/TCP preserves all bytes and client isolation (25.439917ms)
+✔ unknown/query routes, Origin and connection cap reject upgrades (11.135667ms)
+✔ text and oversized binary are closed; TCP EOF closes WS (8.646416ms)
+✔ byte budget and idle deadline close both sides (1004.165708ms)
+✔ config cannot expose listener or arbitrary remote TCP targets (0.225792ms)
+✔ browser transport adapter + WASM + real gateway/TCP work together (5.047166ms)
+✔ heartbeat closes a client that does not pong (42.5835ms)
+✔ helper restricts origin/host/path/method and never calls identity before authorized request (54.139375ms)
+✔ helper hides provider errors and rejects invalid identity/key shapes (6.397125ms)
+✔ Data helper allowlist excludes keys/config/traversal and confines world folders (1.006ms)
+✔ authorized asset route returns binary original bytes with content hash (3.912583ms)
+ℹ tests 16
+ℹ suites 0
+ℹ pass 16
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1376.475209

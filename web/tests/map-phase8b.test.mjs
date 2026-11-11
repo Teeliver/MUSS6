@@ -1,0 +1,19 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {mapSpriteEmitters,mapSpriteState,mapSpriteGeometry,mapSpriteTexture,mapSpriteLimit} from '../client/src/world/map-sprite-policy.js';import {createMapSprites} from '../client/src/world/map-sprites.js';import {hiddenObject} from '../client/src/world/resource-policy.js';import {objectAnimationRate} from '../client/src/world/object-motion-policy.js';
+const node=type=>({type,x:10000,y:11000,z:200,rx:0,ry:0,rz:180,scale:2});
+test('Santa sprite markers use exact map/type, original texture and separate native sprite limit',()=>{
+ assert.equal(mapSpriteTexture,'Effect/flare01.OZJ');assert.equal(mapSpriteLimit,1000);const objects=[16,26,27,28,51].map(node);assert.deepEqual(mapSpriteEmitters(62,objects).map(e=>e.type),[26,27,28]);assert.deepEqual(mapSpriteEmitters(61,objects),[]);for(const type of [26,27,28]){assert.equal(hiddenObject(62,type),true);assert.equal(!!hiddenObject(61,type),false);}assert.equal(!!hiddenObject(62,51),false);assert.equal(objectAnimationRate(62,16),1.5);assert.equal(objectAnimationRate(61,16),4);
+});
+test('Santa lamps preserve red/blue/cyan RGB pulse at5 radians/sec and placement scale',()=>{
+ for(const [type,color] of [[26,[.8,.2,0]],[27,[0,.2,.8]],[28,[0,.6,.6]]]){const [e]=mapSpriteEmitters(62,[node(type)]),p=mapSpriteState(e,0);assert.deepEqual(p,{x:100,y:110,z:2,scale:16,light:color});const peak=mapSpriteState(e,Math.PI/2/.005),low=mapSpriteState(e,3*Math.PI/2/.005);for(let i=0;i<3;i++){assert.ok(Math.abs(peak.light[i]-color[i]*1.1)<1e-9);assert.ok(Math.abs(low.light[i]-color[i]*.9)<1e-9);}}
+});
+test('sprite geometry stays anchored in world coordinates and updates existing typed arrays',()=>{
+ const e=mapSpriteEmitters(62,[node(26)]),image={width:64,height:32},entry={x:100,y:110},g=mapSpriteGeometry(e,image,0,entry,1);assert.equal(g.positions.length,18);assert.equal(g.colors.length,24);assert.ok(Math.abs(g.positions[2]-(1-.686*2.56))<1e-6);assert.equal(g.colors[3],1);const next=mapSpriteGeometry(e,image,200,entry,1,g);assert.equal(next.positions,g.positions);assert.equal(next.colors,g.colors);assert.notEqual(next.colors[0],Math.fround(.8));
+});
+function fake(){const counts={draw:0,textures:0,deleted:0},gl=new Proxy({COMPILE_STATUS:1,LINK_STATUS:2,NO_ERROR:0,getShaderParameter:()=>true,getProgramParameter:()=>true,getError:()=>0,getUniformLocation:()=>0,createShader:()=>({}),createProgram:()=>({}),createBuffer:()=>({}),createVertexArray:()=>({}),createTexture:()=>{counts.textures++;return {};},deleteTexture:()=>counts.deleted++,drawArrays:()=>counts.draw++},{get:(o,k)=>k in o?o[k]:()=>{}});return {gl,counts};}
+test('sprite layer shares one texture, keeps allocation bounded and releases resources once',async()=>{
+ const {gl,counts}=fake(),canvas={dataset:{},getContext:()=>gl},terrain={height:()=>0,heightAt:()=>0},layer=await createMapSprites({canvas,entry:{map:62,x:100,y:110},terrain,objects:Array.from({length:1002},()=>node(26)),texture:async()=>({kind:'rgba',width:1,height:1,pixels:new Uint8Array(4)})});layer.draw(800,600,0,{x:100,y:110});layer.draw(800,600,200,{x:100,y:110});assert.equal(canvas.dataset.nativeMapSprites,'1000');assert.equal(canvas.dataset.nativeMapSpritesDropped,'2');assert.equal(counts.textures,1);assert.equal(counts.draw,2);layer.dispose();layer.dispose();layer.draw(800,600,300,{x:100,y:110});assert.equal(counts.deleted,1);assert.equal(counts.draw,2);assert.equal(canvas.dataset.nativeMapSprites,undefined);
+});
+test('empty sprite layer needs no texture or GL, and texture failures retain map/path context',async()=>{
+ const options={canvas:{getContext(){throw Error('unexpected GL');}},entry:{map:0},objects:[node(26)],texture:async()=>{throw Error('missing');}};const empty=await createMapSprites(options);empty.draw();empty.dispose();await assert.rejects(createMapSprites({...options,entry:{map:62}}),/Map 62 sprite Effect\/flare01.OZJ: missing/);
+});

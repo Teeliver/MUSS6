@@ -1,0 +1,102 @@
+{
+  "scope": "All physical maps; explicit bone recipes only, not full native effect coverage",
+  "rows": [
+    {
+      "map": 51,
+      "type": 121,
+      "path": "Object52/Object122.bmd",
+      "spriteRecipes": 156,
+      "particleRecipes": 0,
+      "requiredBones": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "modelBones": 9,
+      "status": "pass"
+    },
+    {
+      "map": 51,
+      "type": 63,
+      "path": "Object52/Object64.bmd",
+      "spriteRecipes": 6,
+      "particleRecipes": 0,
+      "requiredBones": [
+        5
+      ],
+      "modelBones": 29,
+      "status": "pass"
+    },
+    {
+      "map": 72,
+      "type": 37,
+      "path": "Object73/Object38.bmd",
+      "spriteRecipes": 20,
+      "particleRecipes": 0,
+      "requiredBones": [
+        1
+      ],
+      "modelBones": 5,
+      "status": "pass"
+    },
+    {
+      "map": 72,
+      "type": 50,
+      "path": "Object73/Object51.bmd",
+      "spriteRecipes": 0,
+      "particleRecipes": 12,
+      "requiredBones": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "modelBones": 1,
+      "status": "blocked",
+      "issue": "Requested bone out of bounds"
+    },
+    {
+      "map": 73,
+      "type": 37,
+      "path": "Object74/Object38.bmd",
+      "spriteRecipes": 10,
+      "particleRecipes": 0,
+      "requiredBones": [
+        1
+      ],
+      "modelBones": 5,
+      "status": "pass"
+    },
+    {
+      "map": 79,
+      "type": 35,
+      "path": "Object80/Object36.bmd",
+      "spriteRecipes": 8,
+      "particleRecipes": 0,
+      "requiredBones": [
+        2
+      ],
+      "modelBones": 3,
+      "status": "pass"
+    },
+    {
+      "map": 79,
+      "type": 30,
+      "path": "Object80/Object31.bmd",
+      "spriteRecipes": 12,
+      "particleRecipes": 0,
+      "requiredBones": [
+        1,
+        2,
+        3
+      ],
+      "modelBones": 4,
+      "status": "pass"
+    }
+  ]
+}

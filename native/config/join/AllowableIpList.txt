@@ -1,0 +1,4 @@
+// Original AllowableIpList token format, permitting localhost GameServer peers.
+0
+"127.0.0.1"
+end

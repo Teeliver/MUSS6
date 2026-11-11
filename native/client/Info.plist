@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+<key>CFBundleExecutable</key><string>MuClient-native</string>
+<key>CFBundleIdentifier</key><string>local.muonline.ex603.client</string>
+<key>CFBundleName</key><string>MU Native Client</string>
+<key>CFBundlePackageType</key><string>APPL</string>
+<key>CFBundleVersion</key><string>0.29.7</string>
+<key>CFBundleShortVersionString</key><string>0.29.7</string>
+<key>NSHighResolutionCapable</key><true/>
+</dict></plist>

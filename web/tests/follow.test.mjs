@@ -1,0 +1,20 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {createWorldControls} from '../client/src/world/world-controls.js';
+import {createRouteMotion} from '../client/src/world/navigation.js';
+const terrain=()=>({flags:new Uint16Array(65536),height:()=>0,heightAt:()=>0});
+test('Follow command paths to the selected player and stops when the target dies',async()=>{
+ const entry={x:100,y:100,direction:3,map:0},t=terrain(),motion=createRouteMotion(entry,t),handlers=new Map(),docHandlers=new Map(),moves=[];
+ const target={addEventListener:(k,v)=>handlers.set(k,v),removeEventListener:k=>handlers.delete(k)};
+ const canvas={getBoundingClientRect:()=>({left:0,top:0,width:1280,height:720}),addEventListener:(k,v)=>handlers.set('canvas:'+k,v),removeEventListener:k=>handlers.delete('canvas:'+k),ownerDocument:{addEventListener:(k,v)=>docHandlers.set(k,v),removeEventListener:k=>docHandlers.delete(k)}};
+ let dead=false;const leader={index:7,kind:'player',name:'Leader',x:103,y:100,dead:false};
+ const control=createWorldControls({target,canvas,entry,terrain:t,motion,move:async directions=>{moves.push(directions);const x=entry.x+directions.reduce((n,d)=>n+(d===3?1:d===7?-1:0),0);return {x,y:100,direction:3};},resources:{actors:{}},entities:()=>[{...leader,dead}]});
+ docHandlers.get('mu-follow-player')({detail:{index:7}});
+ control.tick();
+ assert.ok(moves.length>0,'follow must send a move packet');
+ assert.ok(moves[0].every(d=>d===3),'follow must move toward the target');
+ await Promise.resolve();
+ dead=true;
+ const before=moves.length;control.tick();control.tick();
+ assert.equal(moves.length,before,'dead follow target must stop movement');
+ control.dispose();
+});

@@ -1,0 +1,331 @@
+[
+  {
+    "name": "QCombatA",
+    "event": "notice",
+    "message": "MU Helper stopped."
+  },
+  {
+    "name": "QCombatA",
+    "event": "entered",
+    "index": 11900,
+    "map": 0,
+    "x": 140,
+    "y": 125
+  },
+  {
+    "name": "QCombatA",
+    "event": "notice",
+    "message": "Welcome back QCombatA!"
+  },
+  {
+    "name": "QCombatA",
+    "event": "notice",
+    "message": "Account type: Free"
+  },
+  {
+    "name": "QCombatB",
+    "event": "entered",
+    "index": 11901,
+    "map": 0,
+    "x": 140,
+    "y": 125
+  },
+  {
+    "name": "QCombatB",
+    "event": "notice",
+    "message": "MU Helper stopped."
+  },
+  {
+    "name": "QCombatB",
+    "event": "notice",
+    "message": "Welcome back QCombatB!"
+  },
+  {
+    "name": "QCombatB",
+    "event": "notice",
+    "message": "Account type: Free"
+  },
+  {
+    "name": "QCombatB",
+    "event": "duelPacket",
+    "bytes": [
+      193,
+      16,
+      170,
+      2,
+      46,
+      124,
+      81,
+      67,
+      111,
+      109,
+      98,
+      97,
+      116,
+      65,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "QCombatB",
+    "event": "map",
+    "map": 64,
+    "x": 101,
+    "y": 64
+  },
+  {
+    "name": "QCombatB",
+    "event": "duelPacket",
+    "bytes": [
+      193,
+      17,
+      170,
+      1,
+      0,
+      46,
+      124,
+      81,
+      67,
+      111,
+      109,
+      98,
+      97,
+      116,
+      65,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "QCombatB",
+    "event": "duelPacket",
+    "bytes": [
+      193,
+      10,
+      170,
+      4,
+      46,
+      125,
+      46,
+      124,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "QCombatA",
+    "event": "map",
+    "map": 64,
+    "x": 101,
+    "y": 75
+  },
+  {
+    "name": "QCombatA",
+    "event": "duelPacket",
+    "bytes": [
+      193,
+      17,
+      170,
+      1,
+      0,
+      46,
+      125,
+      81,
+      67,
+      111,
+      109,
+      98,
+      97,
+      116,
+      66,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "QCombatA",
+    "event": "duelPacket",
+    "bytes": [
+      193,
+      10,
+      170,
+      4,
+      46,
+      125,
+      46,
+      124,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "QCombatA",
+    "event": "inRange",
+    "position": {
+      "x": 101,
+      "y": 66,
+      "map": 64,
+      "direction": 1,
+      "baseClass": 0,
+      "pkLevel": 3,
+      "money": 0,
+      "hp": 2329,
+      "maxHp": 2329,
+      "gate": 1,
+      "mapEpoch": 1,
+      "correction": false,
+      "index": 11900
+    },
+    "target": {
+      "x": 101,
+      "y": 64,
+      "map": 64,
+      "direction": 0,
+      "baseClass": 0,
+      "pkLevel": 3,
+      "money": 0,
+      "hp": 2329,
+      "maxHp": 2329,
+      "gate": 1,
+      "mapEpoch": 1,
+      "correction": false
+    },
+    "skills": [
+      4,
+      9,
+      17,
+      45,
+      67,
+      68,
+      69,
+      70,
+      71
+    ]
+  },
+  {
+    "name": "QCombatA",
+    "event": "damage",
+    "kind": "damage",
+    "index": 11901,
+    "damage": 4,
+    "shieldDamage": 29,
+    "hp": 2325,
+    "sd": 9033,
+    "type": 0,
+    "self": false
+  },
+  {
+    "name": "QCombatB",
+    "event": "damage",
+    "kind": "damage",
+    "index": 11901,
+    "damage": 4,
+    "shieldDamage": 29,
+    "hp": 2325,
+    "sd": 9033,
+    "type": 0,
+    "self": true
+  },
+  {
+    "name": "QA",
+    "event": "damagePass",
+    "kind": "normal attack",
+    "events": 1
+  },
+  {
+    "name": "QCombatA",
+    "event": "damage",
+    "kind": "damage",
+    "index": 11901,
+    "damage": 4,
+    "shieldDamage": 31,
+    "hp": 2321,
+    "sd": 9002,
+    "type": 0,
+    "self": false
+  },
+  {
+    "name": "QCombatB",
+    "event": "damage",
+    "kind": "damage",
+    "index": 11901,
+    "damage": 4,
+    "shieldDamage": 31,
+    "hp": 2321,
+    "sd": 9002,
+    "type": 0,
+    "self": true
+  },
+  {
+    "name": "QA",
+    "event": "damagePass",
+    "kind": "Fire Ball",
+    "events": 1
+  },
+  {
+    "name": "QCombatA",
+    "event": "damage",
+    "kind": "damage",
+    "index": 11901,
+    "damage": 4,
+    "shieldDamage": 35,
+    "hp": 2317,
+    "sd": 8967,
+    "type": 0,
+    "self": false
+  },
+  {
+    "name": "QCombatB",
+    "event": "damage",
+    "kind": "damage",
+    "index": 11901,
+    "damage": 4,
+    "shieldDamage": 35,
+    "hp": 2317,
+    "sd": 8967,
+    "type": 0,
+    "self": true
+  },
+  {
+    "name": "QA",
+    "event": "damagePass",
+    "kind": "Evil Spirit",
+    "events": 1
+  },
+  {
+    "name": "QCombatB",
+    "event": "duelPacket",
+    "bytes": [
+      193,
+      5,
+      170,
+      3,
+      0
+    ]
+  },
+  {
+    "name": "QCombatA",
+    "event": "duelPacket",
+    "bytes": [
+      193,
+      5,
+      170,
+      3,
+      0
+    ]
+  },
+  {
+    "name": "QA",
+    "event": "PASS",
+    "flow": "invite/accept/normal damage/Fire Ball damage/Evil Spirit damage/end"
+  },
+  {
+    "name": "QCombatA",
+    "event": "closed"
+  },
+  {
+    "name": "QCombatB",
+    "event": "closed"
+  }
+]

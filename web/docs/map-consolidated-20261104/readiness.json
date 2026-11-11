@@ -1,0 +1,3638 @@
+{
+  "scope": "47-map terrain readiness and all unresolved placement path/decode triage; not source effect completeness or pixel parity",
+  "summary": {
+    "maps": 47,
+    "terrainLoadable": 43,
+    "unresolvedPlacements": 254,
+    "placementCategories": {
+      "unmapped-type": 1,
+      "missing-or-ambiguous-texture": 9,
+      "missing-model-at-current-binding": 243,
+      "invalid-model-or-decode": 1
+    }
+  },
+  "rows": [
+    {
+      "map": 0,
+      "terrain": "loadable",
+      "terrainIssues": [],
+      "terrainMissing": [],
+      "ignoredTextureIndices": [],
+      "totalPlacements": 2865,
+      "unresolvedPlacements": 1,
+      "unresolved": [
+        {
+          "type": 168,
+          "placements": 1,
+          "category": "unmapped-type",
+          "binding": null,
+          "issues": [
+            "No explicit model mapping"
+          ],
+          "paths": [],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        }
+      ]
+    },
+    {
+      "map": 1,
+      "terrain": "loadable",
+      "terrainIssues": [],
+      "terrainMissing": [],
+      "ignoredTextureIndices": [],
+      "totalPlacements": 4488,
+      "unresolvedPlacements": 0,
+      "unresolved": []
+    },
+    {
+      "map": 2,
+      "terrain": "loadable",
+      "terrainIssues": [],
+      "terrainMissing": [],
+      "ignoredTextureIndices": [],
+      "totalPlacements": 2235,
+      "unresolvedPlacements": 1,
+      "unresolved": [
+        {
+          "type": 101,
+          "placements": 1,
+          "category": "missing-or-ambiguous-texture",
+          "binding": "Object3/Object102.bmd",
+          "issues": [
+            "Missing/ambiguous Object3/sword06.OZJ"
+          ],
+          "paths": [
+            {
+              "logical": "Object3/sword06.OZJ",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Item/sword06.OZJ",
+                "NPC/sword06.OZJ"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        }
+      ]
+    },
+    {
+      "map": 3,
+      "terrain": "loadable",
+      "terrainIssues": [],
+      "terrainMissing": [],
+      "ignoredTextureIndices": [
+        1
+      ],
+      "totalPlacements": 9399,
+      "unresolvedPlacements": 1,
+      "unresolved": [
+        {
+          "type": 43,
+          "placements": 1,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object4/Object44.bmd",
+          "issues": [
+            "Missing/ambiguous Object4/Object44.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object4/Object44.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Object2/Object44.bmd",
+                "Object25/Object44.bmd",
+                "Object3/Object44.bmd",
+                "Object31/Object44.bmd",
+                "Object32/Object44.bmd",
+                "Object34/Object44.bmd",
+                "Object35/Object44.bmd",
+                "Object38/Object44.bmd",
+                "Object40/Object44.bmd",
+                "Object42/Object44.bmd",
+                "Object43/Object44.bmd",
+                "Object47/Object44.bmd",
+                "Object52/Object44.bmd",
+                "Object55/Object44.bmd",
+                "Object57/Object44.bmd",
+                "Object58/Object44.bmd",
+                "Object64/Object44.bmd",
+                "Object68/Object44.bmd",
+                "Object70/Object44.bmd",
+                "Object71/Object44.bmd",
+                "Object72/Object44.bmd",
+                "Object80/Object44.bmd",
+                "Object81/Object44.bmd",
+                "Object82/Object44.bmd",
+                "Object9/Object44.bmd"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        }
+      ]
+    },
+    {
+      "map": 4,
+      "terrain": "loadable",
+      "terrainIssues": [],
+      "terrainMissing": [],
+      "ignoredTextureIndices": [],
+      "totalPlacements": 5380,
+      "unresolvedPlacements": 1,
+      "unresolved": [
+        {
+          "type": 40,
+          "placements": 1,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object5/Object41.bmd",
+          "issues": [
+            "Missing/ambiguous Object5/Object41.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object5/Object41.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Object2/Object41.bmd",
+                "Object25/Object41.bmd",
+                "Object3/Object41.bmd",
+                "Object31/Object41.bmd",
+                "Object32/Object41.bmd",
+                "Object34/Object41.bmd",
+                "Object35/Object41.bmd",
+                "Object38/Object41.bmd",
+                "Object4/Object41.bmd",
+                "Object40/Object41.bmd",
+                "Object42/Object41.bmd",
+                "Object43/Object41.bmd",
+                "Object47/Object41.bmd",
+                "Object52/Object41.bmd",
+                "Object55/Object41.bmd",
+                "Object57/Object41.bmd",
+                "Object58/Object41.bmd",
+                "Object59/Object41.bmd",
+                "Object64/Object41.bmd",
+                "Object7/Object41.bmd",
+                "Object70/Object41.bmd",
+                "Object71/Object41.bmd",
+                "Object72/Object41.bmd",
+                "Object79/Object41.bmd",
+                "Object8/Object41.bmd",
+                "Object80/Object41.bmd",
+                "Object81/Object41.bmd",
+                "Object82/Object41.bmd",
+                "Object9/Object41.bmd"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        }
+      ]
+    },
+    {
+      "map": 6,
+      "terrain": "loadable",
+      "terrainIssues": [],
+      "terrainMissing": [],
+      "ignoredTextureIndices": [],
+      "totalPlacements": 1485,
+      "unresolvedPlacements": 0,
+      "unresolved": []
+    },
+    {
+      "map": 7,
+      "terrain": "loadable",
+      "terrainIssues": [],
+      "terrainMissing": [],
+      "ignoredTextureIndices": [
+        5
+      ],
+      "totalPlacements": 5215,
+      "unresolvedPlacements": 0,
+      "unresolved": []
+    },
+    {
+      "map": 8,
+      "terrain": "loadable",
+      "terrainIssues": [],
+      "terrainMissing": [],
+      "ignoredTextureIndices": [],
+      "totalPlacements": 3381,
+      "unresolvedPlacements": 49,
+      "unresolved": [
+        {
+          "type": 0,
+          "placements": 2,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object9/Object01.bmd",
+          "issues": [
+            "Missing/ambiguous Object9/Object01.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object9/Object01.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Object10/Object01.bmd",
+                "Object11/Object01.bmd",
+                "Object12/Object01.bmd",
+                "Object19/Object01.bmd",
+                "Object2/Object01.bmd",
+                "Object25/Object01.bmd",
+                "Object3/Object01.bmd",
+                "Object31/Object01.bmd",
+                "Object32/Object01.bmd",
+                "Object34/Object01.bmd",
+                "Object35/Object01.bmd",
+                "Object38/Object01.bmd",
+                "Object39/Object01.bmd",
+                "Object4/Object01.bmd",
+                "Object40/Object01.bmd",
+                "Object41/Object01.bmd",
+                "Object42/Object01.bmd",
+                "Object43/Object01.bmd",
+                "Object47/Object01.bmd",
+                "Object5/Object01.bmd",
+                "Object52/Object01.bmd",
+                "Object55/Object01.bmd",
+                "Object57/Object01.bmd",
+                "Object58/Object01.bmd",
+                "Object63/Object01.bmd",
+                "Object64/Object01.bmd",
+                "Object65/Object01.bmd",
+                "Object66/Object01.bmd",
+                "Object68/Object01.bmd",
+                "Object69/Object01.bmd",
+                "Object7/Object01.bmd",
+                "Object70/Object01.bmd",
+                "Object71/Object01.bmd",
+                "Object72/Object01.bmd",
+                "Object73/Object01.bmd",
+                "Object74/Object01.bmd",
+                "Object78/Object01.bmd",
+                "Object8/Object01.bmd",
+                "Object81/Object01.bmd",
+                "Object82/Object01.bmd"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        },
+        {
+          "type": 35,
+          "placements": 38,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object9/Object36.bmd",
+          "issues": [
+            "Missing/ambiguous Object9/Object36.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object9/Object36.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Object12/Object36.bmd",
+                "Object19/Object36.bmd",
+                "Object2/Object36.bmd",
+                "Object25/Object36.bmd",
+                "Object3/Object36.bmd",
+                "Object32/Object36.bmd",
+                "Object34/Object36.bmd",
+                "Object35/Object36.bmd",
+                "Object38/Object36.bmd",
+                "Object39/Object36.bmd",
+                "Object4/Object36.bmd",
+                "Object40/Object36.bmd",
+                "Object42/Object36.bmd",
+                "Object43/Object36.bmd",
+                "Object47/Object36.bmd",
+                "Object5/Object36.bmd",
+                "Object52/Object36.bmd",
+                "Object55/Object36.bmd",
+                "Object57/Object36.bmd",
+                "Object58/Object36.bmd",
+                "Object63/Object36.bmd",
+                "Object64/Object36.bmd",
+                "Object65/Object36.bmd",
+                "Object68/Object36.bmd",
+                "Object7/Object36.bmd",
+                "Object70/Object36.bmd",
+                "Object71/Object36.bmd",
+                "Object72/Object36.bmd",
+                "Object78/Object36.bmd",
+                "Object8/Object36.bmd",
+                "Object80/Object36.bmd",
+                "Object81/Object36.bmd",
+                "Object82/Object36.bmd"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        },
+        {
+          "type": 3,
+          "placements": 2,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object9/Object04.bmd",
+          "issues": [
+            "Missing/ambiguous Object9/Object04.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object9/Object04.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Object10/Object04.bmd",
+                "Object11/Object04.bmd",
+                "Object12/Object04.bmd",
+                "Object19/Object04.bmd",
+                "Object2/Object04.bmd",
+                "Object25/Object04.bmd",
+                "Object3/Object04.bmd",
+                "Object31/Object04.bmd",
+                "Object32/Object04.bmd",
+                "Object34/Object04.bmd",
+                "Object35/Object04.bmd",
+                "Object38/Object04.bmd",
+                "Object39/Object04.bmd",
+                "Object4/Object04.bmd",
+                "Object40/Object04.bmd",
+                "Object41/Object04.bmd",
+                "Object42/Object04.bmd",
+                "Object43/Object04.bmd",
+                "Object47/Object04.bmd",
+                "Object5/Object04.bmd",
+                "Object52/Object04.bmd",
+                "Object55/Object04.bmd",
+                "Object57/Object04.bmd",
+                "Object58/Object04.bmd",
+                "Object63/Object04.bmd",
+                "Object64/Object04.bmd",
+                "Object65/Object04.bmd",
+                "Object66/Object04.bmd",
+                "Object67/Object04.bmd",
+                "Object68/Object04.bmd",
+                "Object69/Object04.bmd",
+                "Object7/Object04.bmd",
+                "Object70/Object04.bmd",
+                "Object71/Object04.bmd",
+                "Object72/Object04.bmd",
+                "Object8/Object04.bmd",
+                "Object80/Object04.bmd",
+                "Object81/Object04.bmd",
+                "Object82/Object04.bmd"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        },
+        {
+          "type": 4,
+          "placements": 1,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object9/Object05.bmd",
+          "issues": [
+            "Missing/ambiguous Object9/Object05.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object9/Object05.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Object10/Object05.bmd",
+                "Object11/Object05.bmd",
+                "Object12/Object05.bmd",
+                "Object19/Object05.bmd",
+                "Object2/Object05.bmd",
+                "Object25/Object05.bmd",
+                "Object3/Object05.bmd",
+                "Object31/Object05.bmd",
+                "Object32/Object05.bmd",
+                "Object34/Object05.bmd",
+                "Object35/Object05.bmd",
+                "Object38/Object05.bmd",
+                "Object39/Object05.bmd",
+                "Object4/Object05.bmd",
+                "Object40/Object05.bmd",
+                "Object41/Object05.bmd",
+                "Object42/Object05.bmd",
+                "Object43/Object05.bmd",
+                "Object47/Object05.bmd",
+                "Object5/Object05.bmd",
+                "Object52/Object05.bmd",
+                "Object55/Object05.bmd",
+                "Object57/Object05.bmd",
+                "Object58/Object05.bmd",
+                "Object63/Object05.bmd",
+                "Object65/Object05.bmd",
+                "Object68/Object05.bmd",
+                "Object69/Object05.bmd",
+                "Object7/Object05.bmd",
+                "Object73/Object05.bmd",
+                "Object74/Object05.bmd",
+                "Object79/Object05.bmd",
+                "Object8/Object05.bmd",
+                "Object80/Object05.bmd",
+                "Object81/Object05.bmd",
+                "Object82/Object05.bmd"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        },
+        {
+          "type": 38,
+          "placements": 6,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object9/Object39.bmd",
+          "issues": [
+            "Missing/ambiguous Object9/Object39.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object9/Object39.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Object2/Object39.bmd",
+                "Object25/Object39.bmd",
+                "Object3/Object39.bmd",
+                "Object31/Object39.bmd",
+                "Object32/Object39.bmd",
+                "Object34/Object39.bmd",
+                "Object35/Object39.bmd",
+                "Object38/Object39.bmd",
+                "Object39/Object39.bmd",
+                "Object4/Object39.bmd",
+                "Object40/Object39.bmd",
+                "Object42/Object39.bmd",
+                "Object43/Object39.bmd",
+                "Object47/Object39.bmd",
+                "Object5/Object39.bmd",
+                "Object52/Object39.bmd",
+                "Object55/Object39.bmd",
+                "Object57/Object39.bmd",
+                "Object58/Object39.bmd",
+                "Object64/Object39.bmd",
+                "Object68/Object39.bmd",
+                "Object7/Object39.bmd",
+                "Object70/Object39.bmd",
+                "Object71/Object39.bmd",
+                "Object72/Object39.bmd",
+                "Object73/Object39.bmd",
+                "Object74/Object39.bmd",
+                "Object75/Object39.bmd",
+                "Object78/Object39.bmd",
+                "Object8/Object39.bmd",
+                "Object80/Object39.bmd",
+                "Object81/Object39.bmd",
+                "Object82/Object39.bmd"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        }
+      ]
+    },
+    {
+      "map": 9,
+      "terrain": "loadable",
+      "terrainIssues": [],
+      "terrainMissing": [],
+      "ignoredTextureIndices": [],
+      "totalPlacements": 564,
+      "unresolvedPlacements": 0,
+      "unresolved": []
+    },
+    {
+      "map": 10,
+      "terrain": "blocked",
+      "terrainIssues": [
+        "Missing/ambiguous texture World11/TileGrass02.OZJ",
+        "Missing/ambiguous texture World11/TileRock01.OZJ",
+        "Missing/ambiguous texture World11/TileRock02.OZJ",
+        "Missing/ambiguous texture World11/TileRock03.OZJ",
+        "Missing/ambiguous texture World11/TileRock04.OZJ"
+      ],
+      "terrainMissing": [
+        {
+          "logical": "World11/TileGrass02.OZJ",
+          "exactCaseInsensitive": [],
+          "sameNameElsewhere": [
+            "World1/TileGrass02.OZJ",
+            "World10/TileGrass02.OZJ",
+            "World12/TileGrass02.OZJ",
+            "World19/TileGrass02.OZJ",
+            "World2/TileGrass02.OZJ",
+            "World25/TileGrass02.OZJ",
+            "World3/TileGrass02.OZJ",
+            "World31/TileGrass02.OZJ",
+            "World32/TileGrass02.OZJ",
+            "World34/TileGrass02.OZJ",
+            "World35/TileGrass02.OZJ",
+            "World38/TileGrass02.OZJ",
+            "World39/TileGrass02.OZJ",
+            "World40/TileGrass02.OZJ",
+            "World41/TileGrass02.OZJ",
+            "World42/TileGrass02.OZJ",
+            "World43/TileGrass02.OZJ",
+            "World47/TileGrass02.OZJ",
+            "World5/TileGrass02.OZJ",
+            "World52/TileGrass02.OZJ",
+            "World55/TileGrass02.OZJ",
+            "World57/TileGrass02.OZJ",
+            "World58/TileGrass02.OZJ",
+            "World59/TileGrass02.OZJ",
+            "World63/TileGrass02.OZJ",
+            "World64/TileGrass02.OZJ",
+            "World65/TileGrass02.OZJ",
+            "World66/TileGrass02.OZJ",
+            "World67/TileGrass02.OZJ",
+            "World68/TileGrass02.OZJ",
+            "World69/TileGrass02.OZJ",
+            "World7/TileGrass02.OZJ",
+            "World70/TileGrass02.OZJ",
+            "World71/TileGrass02.OZJ",
+            "World72/TileGrass02.OZJ",
+            "World73/TileGrass02.OZJ",
+            "World74/TileGrass02.OZJ",
+            "World75/TileGrass02.OZJ",
+            "World78/TileGrass02.OZJ",
+            "World79/TileGrass02.OZJ",
+            "World8/TileGrass02.OZJ",
+            "World80/TileGrass02.OZJ",
+            "World81/TileGrass02.OZJ",
+            "World82/TileGrass02.OZJ",
+            "World9/TileGrass02.OZJ"
+          ],
+          "note": "Same filename elsewhere is not permission to substitute this resource"
+        },
+        {
+          "logical": "World11/TileRock01.OZJ",
+          "exactCaseInsensitive": [],
+          "sameNameElsewhere": [
+            "Object2/TileRock01.OZJ",
+            "World1/TileRock01.OZJ",
+            "World10/TileRock01.OZJ",
+            "World12/TileRock01.OZJ",
+            "World19/TileRock01.OZJ",
+            "World2/TileRock01.OZJ",
+            "World25/TileRock01.OZJ",
+            "World3/TileRock01.OZJ",
+            "World31/TileRock01.OZJ",
+            "World32/TileRock01.OZJ",
+            "World34/TileRock01.OZJ",
+            "World35/TileRock01.OZJ",
+            "World38/TileRock01.OZJ",
+            "World39/TileRock01.OZJ",
+            "World4/TileRock01.OZJ",
+            "World41/TileRock01.OZJ",
+            "World42/TileRock01.OZJ",
+            "World43/TileRock01.OZJ",
+            "World47/TileRock01.OZJ",
+            "World5/TileRock01.OZJ",
+            "World52/TileRock01.OZJ",
+            "World55/TileRock01.OZJ",
+            "World57/TileRock01.OZJ",
+            "World58/TileRock01.OZJ",
+            "World59/TileRock01.OZJ",
+            "World63/TileRock01.OZJ",
+            "World64/TileRock01.OZJ",
+            "World65/TileRock01.OZJ",
+            "World66/TileRock01.OZJ",
+            "World67/TileRock01.OZJ",
+            "World68/TileRock01.OZJ",
+            "World69/TileRock01.OZJ",
+            "World7/TileRock01.OZJ",
+            "World70/TileRock01.OZJ",
+            "World71/TileRock01.OZJ",
+            "World72/TileRock01.OZJ",
+            "World73/TileRock01.OZJ",
+            "World74/TileRock01.OZJ",
+            "World75/TileRock01.OZJ",
+            "World78/TileRock01.OZJ",
+            "World79/TileRock01.OZJ",
+            "World8/TileRock01.OZJ",
+            "World80/TileRock01.OZJ",
+            "World81/TileRock01.OZJ",
+            "World82/TileRock01.OZJ",
+            "World9/TileRock01.OZJ"
+          ],
+          "note": "Same filename elsewhere is not permission to substitute this resource"
+        },
+        {
+          "logical": "World11/TileRock02.OZJ",
+          "exactCaseInsensitive": [],
+          "sameNameElsewhere": [
+            "World1/TileRock02.OZJ",
+            "World10/TileRock02.OZJ",
+            "World12/TileRock02.OZJ",
+            "World19/TileRock02.OZJ",
+            "World2/TileRock02.OZJ",
+            "World25/TileRock02.OZJ",
+            "World3/TileRock02.OZJ",
+            "World31/TileRock02.OZJ",
+            "World32/TileRock02.OZJ",
+            "World34/TileRock02.OZJ",
+            "World35/TileRock02.OZJ",
+            "World38/TileRock02.OZJ",
+            "World39/TileRock02.OZJ",
+            "World4/TileRock02.OZJ",
+            "World41/TileRock02.OZJ",
+            "World42/TileRock02.OZJ",
+            "World43/TileRock02.OZJ",
+            "World47/TileRock02.OZJ",
+            "World5/TileRock02.OZJ",
+            "World52/TileRock02.OZJ",
+            "World55/TileRock02.OZJ",
+            "World57/TileRock02.OZJ",
+            "World58/TileRock02.OZJ",
+            "World59/TileRock02.OZJ",
+            "World63/TileRock02.OZJ",
+            "World64/TileRock02.OZJ",
+            "World65/TileRock02.OZJ",
+            "World66/TileRock02.OZJ",
+            "World67/TileRock02.OZJ",
+            "World68/TileRock02.OZJ",
+            "World69/TileRock02.OZJ",
+            "World7/TileRock02.OZJ",
+            "World70/TileRock02.OZJ",
+            "World71/TileRock02.OZJ",
+            "World72/TileRock02.OZJ",
+            "World73/TileRock02.OZJ",
+            "World74/TileRock02.OZJ",
+            "World75/TileRock02.OZJ",
+            "World78/TileRock02.OZJ",
+            "World79/TileRock02.OZJ",
+            "World8/TileRock02.OZJ",
+            "World80/TileRock02.OZJ",
+            "World81/TileRock02.OZJ",
+            "World82/TileRock02.OZJ",
+            "World9/TileRock02.OZJ"
+          ],
+          "note": "Same filename elsewhere is not permission to substitute this resource"
+        },
+        {
+          "logical": "World11/TileRock03.OZJ",
+          "exactCaseInsensitive": [],
+          "sameNameElsewhere": [
+            "World10/TileRock03.OZJ",
+            "World12/TileRock03.OZJ",
+            "World19/TileRock03.OZJ",
+            "World25/TileRock03.OZJ",
+            "World3/TileRock03.OZJ",
+            "World31/TileRock03.OZJ",
+            "World32/TileRock03.OZJ",
+            "World34/TileRock03.OZJ",
+            "World35/TileRock03.OZJ",
+            "World38/TileRock03.OZJ",
+            "World39/TileRock03.OZJ",
+            "World4/TileRock03.OZJ",
+            "World41/TileRock03.OZJ",
+            "World42/TileRock03.OZJ",
+            "World43/TileRock03.OZJ",
+            "World47/TileRock03.OZJ",
+            "World5/TileRock03.OZJ",
+            "World52/TileRock03.OZJ",
+            "World55/TileRock03.OZJ",
+            "World57/TileRock03.OZJ",
+            "World58/TileRock03.OZJ",
+            "World59/TileRock03.OZJ",
+            "World63/TileRock03.OZJ",
+            "World64/TileRock03.OZJ",
+            "World65/TileRock03.OZJ",
+            "World66/TileRock03.OZJ",
+            "World67/TileRock03.OZJ",
+            "World68/TileRock03.OZJ",
+            "World69/TileRock03.OZJ",
+            "World7/TileRock03.OZJ",
+            "World70/TileRock03.OZJ",
+            "World71/TileRock03.OZJ",
+            "World72/TileRock03.OZJ",
+            "World73/TileRock03.OZJ",
+            "World74/TileRock03.OZJ",
+            "World75/TileRock03.OZJ",
+            "World78/TileRock03.OZJ",
+            "World79/TileRock03.OZJ",
+            "World8/TileRock03.OZJ",
+            "World80/TileRock03.OZJ",
+            "World81/TileRock03.OZJ",
+            "World82/TileRock03.OZJ",
+            "World9/TileRock03.OZJ"
+          ],
+          "note": "Same filename elsewhere is not permission to substitute this resource"
+        },
+        {
+          "logical": "World11/TileRock04.OZJ",
+          "exactCaseInsensitive": [],
+          "sameNameElsewhere": [
+            "World10/TileRock04.OZJ",
+            "World12/TileRock04.OZJ",
+            "World19/TileRock04.OZJ",
+            "World25/TileRock04.OZJ",
+            "World3/TileRock04.OZJ",
+            "World31/TileRock04.OZJ",
+            "World32/TileRock04.OZJ",
+            "World34/TileRock04.OZJ",
+            "World35/TileRock04.OZJ",
+            "World38/TileRock04.OZJ",
+            "World39/TileRock04.OZJ",
+            "World4/TileRock04.OZJ",
+            "World42/TileRock04.OZJ",
+            "World43/TileRock04.OZJ",
+            "World47/TileRock04.OZJ",
+            "World5/TileRock04.OZJ",
+            "World52/TileRock04.OZJ",
+            "World55/TileRock04.OZJ",
+            "World57/TileRock04.OZJ",
+            "World58/TileRock04.OZJ",
+            "World59/TileRock04.OZJ",
+            "World63/TileRock04.OZJ",
+            "World64/TileRock04.OZJ",
+            "World65/TileRock04.OZJ",
+            "World66/TileRock04.OZJ",
+            "World67/TileRock04.OZJ",
+            "World68/TileRock04.OZJ",
+            "World69/TileRock04.OZJ",
+            "World7/TileRock04.OZJ",
+            "World70/TileRock04.OZJ",
+            "World71/TileRock04.OZJ",
+            "World72/TileRock04.OZJ",
+            "World73/TileRock04.OZJ",
+            "World74/TileRock04.OZJ",
+            "World75/TileRock04.OZJ",
+            "World78/TileRock04.OZJ",
+            "World79/TileRock04.OZJ",
+            "World8/TileRock04.OZJ",
+            "World80/TileRock04.OZJ",
+            "World81/TileRock04.OZJ",
+            "World82/TileRock04.OZJ",
+            "World9/TileRock04.OZJ"
+          ],
+          "note": "Same filename elsewhere is not permission to substitute this resource"
+        }
+      ],
+      "ignoredTextureIndices": [],
+      "totalPlacements": 670,
+      "unresolvedPlacements": 0,
+      "unresolved": []
+    },
+    {
+      "map": 11,
+      "terrain": "loadable",
+      "terrainIssues": [],
+      "terrainMissing": [],
+      "ignoredTextureIndices": [
+        8
+      ],
+      "totalPlacements": 210,
+      "unresolvedPlacements": 9,
+      "unresolved": [
+        {
+          "type": 37,
+          "placements": 9,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object12/Object38.bmd",
+          "issues": [
+            "Missing/ambiguous Object12/Object38.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object12/Object38.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Object2/Object38.bmd",
+                "Object25/Object38.bmd",
+                "Object3/Object38.bmd",
+                "Object31/Object38.bmd",
+                "Object32/Object38.bmd",
+                "Object34/Object38.bmd",
+                "Object35/Object38.bmd",
+                "Object38/Object38.bmd",
+                "Object39/Object38.bmd",
+                "Object4/Object38.bmd",
+                "Object40/Object38.bmd",
+                "Object41/Object38.bmd",
+                "Object42/Object38.bmd",
+                "Object43/Object38.bmd",
+                "Object47/Object38.bmd",
+                "Object5/Object38.bmd",
+                "Object52/Object38.bmd",
+                "Object55/Object38.bmd",
+                "Object57/Object38.bmd",
+                "Object58/Object38.bmd",
+                "Object64/Object38.bmd",
+                "Object69/Object38.bmd",
+                "Object7/Object38.bmd",
+                "Object70/Object38.bmd",
+                "Object71/Object38.bmd",
+                "Object72/Object38.bmd",
+                "Object73/Object38.bmd",
+                "Object74/Object38.bmd",
+                "Object78/Object38.bmd",
+                "Object8/Object38.bmd",
+                "Object80/Object38.bmd",
+                "Object81/Object38.bmd",
+                "Object82/Object38.bmd",
+                "Object9/Object38.bmd"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        }
+      ]
+    },
+    {
+      "map": 18,
+      "terrain": "loadable",
+      "terrainIssues": [],
+      "terrainMissing": [],
+      "ignoredTextureIndices": [],
+      "totalPlacements": 194,
+      "unresolvedPlacements": 0,
+      "unresolved": []
+    },
+    {
+      "map": 24,
+      "terrain": "loadable",
+      "terrainIssues": [],
+      "terrainMissing": [],
+      "ignoredTextureIndices": [],
+      "totalPlacements": 2266,
+      "unresolvedPlacements": 0,
+      "unresolved": []
+    },
+    {
+      "map": 30,
+      "terrain": "loadable",
+      "terrainIssues": [],
+      "terrainMissing": [],
+      "ignoredTextureIndices": [],
+      "totalPlacements": 3724,
+      "unresolvedPlacements": 1,
+      "unresolved": [
+        {
+          "type": 35,
+          "placements": 1,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object31/Object36.bmd",
+          "issues": [
+            "Missing/ambiguous Object31/Object36.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object31/Object36.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Object12/Object36.bmd",
+                "Object19/Object36.bmd",
+                "Object2/Object36.bmd",
+                "Object25/Object36.bmd",
+                "Object3/Object36.bmd",
+                "Object32/Object36.bmd",
+                "Object34/Object36.bmd",
+                "Object35/Object36.bmd",
+                "Object38/Object36.bmd",
+                "Object39/Object36.bmd",
+                "Object4/Object36.bmd",
+                "Object40/Object36.bmd",
+                "Object42/Object36.bmd",
+                "Object43/Object36.bmd",
+                "Object47/Object36.bmd",
+                "Object5/Object36.bmd",
+                "Object52/Object36.bmd",
+                "Object55/Object36.bmd",
+                "Object57/Object36.bmd",
+                "Object58/Object36.bmd",
+                "Object63/Object36.bmd",
+                "Object64/Object36.bmd",
+                "Object65/Object36.bmd",
+                "Object68/Object36.bmd",
+                "Object7/Object36.bmd",
+                "Object70/Object36.bmd",
+                "Object71/Object36.bmd",
+                "Object72/Object36.bmd",
+                "Object78/Object36.bmd",
+                "Object8/Object36.bmd",
+                "Object80/Object36.bmd",
+                "Object81/Object36.bmd",
+                "Object82/Object36.bmd"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        }
+      ]
+    },
+    {
+      "map": 31,
+      "terrain": "loadable",
+      "terrainIssues": [],
+      "terrainMissing": [],
+      "ignoredTextureIndices": [],
+      "totalPlacements": 7789,
+      "unresolvedPlacements": 0,
+      "unresolved": []
+    },
+    {
+      "map": 33,
+      "terrain": "loadable",
+      "terrainIssues": [],
+      "terrainMissing": [],
+      "ignoredTextureIndices": [],
+      "totalPlacements": 3752,
+      "unresolvedPlacements": 0,
+      "unresolved": []
+    },
+    {
+      "map": 34,
+      "terrain": "loadable",
+      "terrainIssues": [],
+      "terrainMissing": [],
+      "ignoredTextureIndices": [],
+      "totalPlacements": 6644,
+      "unresolvedPlacements": 2,
+      "unresolved": [
+        {
+          "type": 79,
+          "placements": 1,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object35/Object80.bmd",
+          "issues": [
+            "Missing/ambiguous Object35/Object80.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object35/Object80.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Object3/Object80.bmd",
+                "Object31/Object80.bmd",
+                "Object38/Object80.bmd",
+                "Object39/Object80.bmd",
+                "Object41/Object80.bmd",
+                "Object43/Object80.bmd",
+                "Object47/Object80.bmd",
+                "Object52/Object80.bmd",
+                "Object55/Object80.bmd",
+                "Object57/Object80.bmd",
+                "Object58/Object80.bmd",
+                "Object69/Object80.bmd",
+                "Object70/Object80.bmd",
+                "Object71/Object80.bmd",
+                "Object72/Object80.bmd",
+                "Object73/Object80.bmd",
+                "Object74/Object80.bmd",
+                "Object75/Object80.bmd",
+                "Object79/Object80.bmd",
+                "Object81/Object80.bmd",
+                "Object82/Object80.bmd",
+                "Object9/Object80.bmd"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        },
+        {
+          "type": 80,
+          "placements": 1,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object35/Object81.bmd",
+          "issues": [
+            "Missing/ambiguous Object35/Object81.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object35/Object81.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Object3/Object81.bmd",
+                "Object31/Object81.bmd",
+                "Object38/Object81.bmd",
+                "Object39/Object81.bmd",
+                "Object42/Object81.bmd",
+                "Object47/Object81.bmd",
+                "Object52/Object81.bmd",
+                "Object57/Object81.bmd",
+                "Object58/Object81.bmd",
+                "Object67/Object81.bmd",
+                "Object69/Object81.bmd",
+                "Object70/Object81.bmd",
+                "Object71/Object81.bmd",
+                "Object72/Object81.bmd",
+                "Object81/Object81.bmd",
+                "Object82/Object81.bmd",
+                "Object9/Object81.bmd"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        }
+      ]
+    },
+    {
+      "map": 37,
+      "terrain": "loadable",
+      "terrainIssues": [],
+      "terrainMissing": [],
+      "ignoredTextureIndices": [],
+      "totalPlacements": 3645,
+      "unresolvedPlacements": 0,
+      "unresolved": []
+    },
+    {
+      "map": 38,
+      "terrain": "loadable",
+      "terrainIssues": [],
+      "terrainMissing": [],
+      "ignoredTextureIndices": [],
+      "totalPlacements": 2014,
+      "unresolvedPlacements": 22,
+      "unresolved": [
+        {
+          "type": 69,
+          "placements": 1,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object39/Object70.bmd",
+          "issues": [
+            "Missing/ambiguous Object39/Object70.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object39/Object70.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Object3/Object70.bmd",
+                "Object31/Object70.bmd",
+                "Object34/Object70.bmd",
+                "Object35/Object70.bmd",
+                "Object38/Object70.bmd",
+                "Object40/Object70.bmd",
+                "Object41/Object70.bmd",
+                "Object42/Object70.bmd",
+                "Object43/Object70.bmd",
+                "Object47/Object70.bmd",
+                "Object52/Object70.bmd",
+                "Object55/Object70.bmd",
+                "Object57/Object70.bmd",
+                "Object58/Object70.bmd",
+                "Object59/Object70.bmd",
+                "Object67/Object70.bmd",
+                "Object69/Object70.bmd",
+                "Object70/Object70.bmd",
+                "Object71/Object70.bmd",
+                "Object72/Object70.bmd",
+                "Object78/Object70.bmd",
+                "Object81/Object70.bmd",
+                "Object82/Object70.bmd",
+                "Object9/Object70.bmd"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        },
+        {
+          "type": 84,
+          "placements": 5,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object39/Object85.bmd",
+          "issues": [
+            "Missing/ambiguous Object39/Object85.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object39/Object85.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Object3/Object85.bmd",
+                "Object31/Object85.bmd",
+                "Object35/Object85.bmd",
+                "Object38/Object85.bmd",
+                "Object43/Object85.bmd",
+                "Object52/Object85.bmd",
+                "Object57/Object85.bmd",
+                "Object67/Object85.bmd",
+                "Object70/Object85.bmd",
+                "Object71/Object85.bmd",
+                "Object72/Object85.bmd",
+                "Object81/Object85.bmd",
+                "Object82/Object85.bmd"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        },
+        {
+          "type": 39,
+          "placements": 1,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object39/Object40.bmd",
+          "issues": [
+            "Missing/ambiguous Object39/Object40.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object39/Object40.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Object2/Object40.bmd",
+                "Object25/Object40.bmd",
+                "Object3/Object40.bmd",
+                "Object31/Object40.bmd",
+                "Object32/Object40.bmd",
+                "Object34/Object40.bmd",
+                "Object35/Object40.bmd",
+                "Object38/Object40.bmd",
+                "Object4/Object40.bmd",
+                "Object42/Object40.bmd",
+                "Object43/Object40.bmd",
+                "Object47/Object40.bmd",
+                "Object5/Object40.bmd",
+                "Object52/Object40.bmd",
+                "Object55/Object40.bmd",
+                "Object57/Object40.bmd",
+                "Object58/Object40.bmd",
+                "Object64/Object40.bmd",
+                "Object7/Object40.bmd",
+                "Object70/Object40.bmd",
+                "Object71/Object40.bmd",
+                "Object72/Object40.bmd",
+                "Object73/Object40.bmd",
+                "Object74/Object40.bmd",
+                "Object8/Object40.bmd",
+                "Object80/Object40.bmd",
+                "Object81/Object40.bmd",
+                "Object82/Object40.bmd",
+                "Object9/Object40.bmd"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        },
+        {
+          "type": 25,
+          "placements": 1,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object39/Object26.bmd",
+          "issues": [
+            "Missing/ambiguous Object39/Object26.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object39/Object26.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Object12/Object26.bmd",
+                "Object19/Object26.bmd",
+                "Object2/Object26.bmd",
+                "Object25/Object26.bmd",
+                "Object3/Object26.bmd",
+                "Object31/Object26.bmd",
+                "Object32/Object26.bmd",
+                "Object34/Object26.bmd",
+                "Object35/Object26.bmd",
+                "Object38/Object26.bmd",
+                "Object4/Object26.bmd",
+                "Object40/Object26.bmd",
+                "Object42/Object26.bmd",
+                "Object43/Object26.bmd",
+                "Object47/Object26.bmd",
+                "Object5/Object26.bmd",
+                "Object52/Object26.bmd",
+                "Object55/Object26.bmd",
+                "Object57/Object26.bmd",
+                "Object58/Object26.bmd",
+                "Object63/Object26.bmd",
+                "Object64/Object26.bmd",
+                "Object67/Object26.bmd",
+                "Object68/Object26.bmd",
+                "Object7/Object26.bmd",
+                "Object70/Object26.bmd",
+                "Object71/Object26.bmd",
+                "Object72/Object26.bmd",
+                "Object73/Object26.bmd",
+                "Object74/Object26.bmd",
+                "Object78/Object26.bmd",
+                "Object8/Object26.bmd",
+                "Object80/Object26.bmd",
+                "Object81/Object26.bmd",
+                "Object82/Object26.bmd",
+                "Object9/Object26.bmd"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        },
+        {
+          "type": 22,
+          "placements": 4,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object39/Object23.bmd",
+          "issues": [
+            "Missing/ambiguous Object39/Object23.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object39/Object23.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Object12/Object23.bmd",
+                "Object19/Object23.bmd",
+                "Object2/Object23.bmd",
+                "Object25/Object23.bmd",
+                "Object3/Object23.bmd",
+                "Object31/Object23.bmd",
+                "Object32/Object23.bmd",
+                "Object34/Object23.bmd",
+                "Object35/Object23.bmd",
+                "Object38/Object23.bmd",
+                "Object4/Object23.bmd",
+                "Object40/Object23.bmd",
+                "Object42/Object23.bmd",
+                "Object43/Object23.bmd",
+                "Object47/Object23.bmd",
+                "Object5/Object23.bmd",
+                "Object52/Object23.bmd",
+                "Object55/Object23.bmd",
+                "Object57/Object23.bmd",
+                "Object58/Object23.bmd",
+                "Object63/Object23.bmd",
+                "Object64/Object23.bmd",
+                "Object65/Object23.bmd",
+                "Object66/Object23.bmd",
+                "Object67/Object23.bmd",
+                "Object68/Object23.bmd",
+                "Object7/Object23.bmd",
+                "Object70/Object23.bmd",
+                "Object71/Object23.bmd",
+                "Object72/Object23.bmd",
+                "Object8/Object23.bmd",
+                "Object80/Object23.bmd",
+                "Object81/Object23.bmd",
+                "Object82/Object23.bmd",
+                "Object9/Object23.bmd"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        },
+        {
+          "type": 21,
+          "placements": 4,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object39/Object22.bmd",
+          "issues": [
+            "Missing/ambiguous Object39/Object22.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object39/Object22.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Object12/Object22.bmd",
+                "Object19/Object22.bmd",
+                "Object2/Object22.bmd",
+                "Object25/Object22.bmd",
+                "Object3/Object22.bmd",
+                "Object31/Object22.bmd",
+                "Object32/Object22.bmd",
+                "Object34/Object22.bmd",
+                "Object35/Object22.bmd",
+                "Object38/Object22.bmd",
+                "Object4/Object22.bmd",
+                "Object40/Object22.bmd",
+                "Object42/Object22.bmd",
+                "Object43/Object22.bmd",
+                "Object47/Object22.bmd",
+                "Object5/Object22.bmd",
+                "Object52/Object22.bmd",
+                "Object55/Object22.bmd",
+                "Object57/Object22.bmd",
+                "Object58/Object22.bmd",
+                "Object63/Object22.bmd",
+                "Object64/Object22.bmd",
+                "Object65/Object22.bmd",
+                "Object7/Object22.bmd",
+                "Object70/Object22.bmd",
+                "Object71/Object22.bmd",
+                "Object72/Object22.bmd",
+                "Object79/Object22.bmd",
+                "Object8/Object22.bmd",
+                "Object80/Object22.bmd",
+                "Object81/Object22.bmd",
+                "Object82/Object22.bmd",
+                "Object9/Object22.bmd"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        },
+        {
+          "type": 42,
+          "placements": 3,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object39/Object43.bmd",
+          "issues": [
+            "Missing/ambiguous Object39/Object43.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object39/Object43.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Object2/Object43.bmd",
+                "Object25/Object43.bmd",
+                "Object3/Object43.bmd",
+                "Object31/Object43.bmd",
+                "Object32/Object43.bmd",
+                "Object34/Object43.bmd",
+                "Object35/Object43.bmd",
+                "Object38/Object43.bmd",
+                "Object4/Object43.bmd",
+                "Object40/Object43.bmd",
+                "Object42/Object43.bmd",
+                "Object43/Object43.bmd",
+                "Object47/Object43.bmd",
+                "Object52/Object43.bmd",
+                "Object55/Object43.bmd",
+                "Object57/Object43.bmd",
+                "Object58/Object43.bmd",
+                "Object64/Object43.bmd",
+                "Object68/Object43.bmd",
+                "Object70/Object43.bmd",
+                "Object71/Object43.bmd",
+                "Object72/Object43.bmd",
+                "Object80/Object43.bmd",
+                "Object81/Object43.bmd",
+                "Object82/Object43.bmd",
+                "Object9/Object43.bmd"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        },
+        {
+          "type": 43,
+          "placements": 1,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object39/Object44.bmd",
+          "issues": [
+            "Missing/ambiguous Object39/Object44.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object39/Object44.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Object2/Object44.bmd",
+                "Object25/Object44.bmd",
+                "Object3/Object44.bmd",
+                "Object31/Object44.bmd",
+                "Object32/Object44.bmd",
+                "Object34/Object44.bmd",
+                "Object35/Object44.bmd",
+                "Object38/Object44.bmd",
+                "Object40/Object44.bmd",
+                "Object42/Object44.bmd",
+                "Object43/Object44.bmd",
+                "Object47/Object44.bmd",
+                "Object52/Object44.bmd",
+                "Object55/Object44.bmd",
+                "Object57/Object44.bmd",
+                "Object58/Object44.bmd",
+                "Object64/Object44.bmd",
+                "Object68/Object44.bmd",
+                "Object70/Object44.bmd",
+                "Object71/Object44.bmd",
+                "Object72/Object44.bmd",
+                "Object80/Object44.bmd",
+                "Object81/Object44.bmd",
+                "Object82/Object44.bmd",
+                "Object9/Object44.bmd"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        },
+        {
+          "type": 28,
+          "placements": 1,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object39/Object29.bmd",
+          "issues": [
+            "Missing/ambiguous Object39/Object29.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object39/Object29.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Object12/Object29.bmd",
+                "Object19/Object29.bmd",
+                "Object2/Object29.bmd",
+                "Object25/Object29.bmd",
+                "Object3/Object29.bmd",
+                "Object31/Object29.bmd",
+                "Object32/Object29.bmd",
+                "Object34/Object29.bmd",
+                "Object35/Object29.bmd",
+                "Object38/Object29.bmd",
+                "Object4/Object29.bmd",
+                "Object40/Object29.bmd",
+                "Object42/Object29.bmd",
+                "Object43/Object29.bmd",
+                "Object47/Object29.bmd",
+                "Object5/Object29.bmd",
+                "Object52/Object29.bmd",
+                "Object55/Object29.bmd",
+                "Object57/Object29.bmd",
+                "Object58/Object29.bmd",
+                "Object63/Object29.bmd",
+                "Object64/Object29.bmd",
+                "Object67/Object29.bmd",
+                "Object68/Object29.bmd",
+                "Object7/Object29.bmd",
+                "Object70/Object29.bmd",
+                "Object71/Object29.bmd",
+                "Object72/Object29.bmd",
+                "Object73/Object29.bmd",
+                "Object74/Object29.bmd",
+                "Object78/Object29.bmd",
+                "Object8/Object29.bmd",
+                "Object80/Object29.bmd",
+                "Object81/Object29.bmd",
+                "Object82/Object29.bmd",
+                "Object9/Object29.bmd"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        },
+        {
+          "type": 40,
+          "placements": 1,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object39/Object41.bmd",
+          "issues": [
+            "Missing/ambiguous Object39/Object41.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object39/Object41.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Object2/Object41.bmd",
+                "Object25/Object41.bmd",
+                "Object3/Object41.bmd",
+                "Object31/Object41.bmd",
+                "Object32/Object41.bmd",
+                "Object34/Object41.bmd",
+                "Object35/Object41.bmd",
+                "Object38/Object41.bmd",
+                "Object4/Object41.bmd",
+                "Object40/Object41.bmd",
+                "Object42/Object41.bmd",
+                "Object43/Object41.bmd",
+                "Object47/Object41.bmd",
+                "Object52/Object41.bmd",
+                "Object55/Object41.bmd",
+                "Object57/Object41.bmd",
+                "Object58/Object41.bmd",
+                "Object59/Object41.bmd",
+                "Object64/Object41.bmd",
+                "Object7/Object41.bmd",
+                "Object70/Object41.bmd",
+                "Object71/Object41.bmd",
+                "Object72/Object41.bmd",
+                "Object79/Object41.bmd",
+                "Object8/Object41.bmd",
+                "Object80/Object41.bmd",
+                "Object81/Object41.bmd",
+                "Object82/Object41.bmd",
+                "Object9/Object41.bmd"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        }
+      ]
+    },
+    {
+      "map": 39,
+      "terrain": "blocked",
+      "terrainIssues": [
+        "Missing/ambiguous texture World40/TileWood01.OZJ",
+        "Missing/ambiguous texture World40/TileRock05.OZJ"
+      ],
+      "terrainMissing": [
+        {
+          "logical": "World40/TileWood01.OZJ",
+          "exactCaseInsensitive": [],
+          "sameNameElsewhere": [
+            "World1/TileWood01.OZJ",
+            "World10/TileWood01.OZJ",
+            "World12/TileWood01.OZJ",
+            "World19/TileWood01.OZJ",
+            "World2/TileWood01.OZJ",
+            "World25/TileWood01.OZJ",
+            "World3/TileWood01.OZJ",
+            "World31/TileWood01.OZJ",
+            "World32/TileWood01.OZJ",
+            "World34/TileWood01.OZJ",
+            "World35/TileWood01.OZJ",
+            "World38/TileWood01.OZJ",
+            "World39/TileWood01.OZJ",
+            "World4/TileWood01.OZJ",
+            "World42/TileWood01.OZJ",
+            "World43/TileWood01.OZJ",
+            "World5/TileWood01.OZJ",
+            "World52/TileWood01.OZJ",
+            "World55/TileWood01.OZJ",
+            "World57/TileWood01.OZJ",
+            "World58/TileWood01.OZJ",
+            "World59/TileWood01.OZJ",
+            "World63/TileWood01.OZJ",
+            "World64/TileWood01.OZJ",
+            "World65/TileWood01.OZJ",
+            "World66/TileWood01.OZJ",
+            "World67/TileWood01.OZJ",
+            "World68/TileWood01.OZJ",
+            "World69/TileWood01.OZJ",
+            "World7/TileWood01.OZJ",
+            "World70/TileWood01.OZJ",
+            "World71/TileWood01.OZJ",
+            "World72/TileWood01.OZJ",
+            "World73/TileWood01.OZJ",
+            "World74/TileWood01.OZJ",
+            "World75/TileWood01.OZJ",
+            "World78/TileWood01.OZJ",
+            "World79/TileWood01.OZJ",
+            "World8/TileWood01.OZJ",
+            "World80/TileWood01.OZJ",
+            "World81/TileWood01.OZJ",
+            "World82/TileWood01.OZJ",
+            "World9/TileWood01.OZJ"
+          ],
+          "note": "Same filename elsewhere is not permission to substitute this resource"
+        },
+        {
+          "logical": "World40/TileRock05.OZJ",
+          "exactCaseInsensitive": [],
+          "sameNameElsewhere": [
+            "World19/TileRock05.OZJ",
+            "World3/TileRock05.OZJ",
+            "World31/TileRock05.OZJ",
+            "World32/TileRock05.OZJ",
+            "World34/TileRock05.OZJ",
+            "World35/TileRock05.OZJ",
+            "World38/TileRock05.OZJ",
+            "World41/TileRock05.OZJ",
+            "World47/TileRock05.OZJ",
+            "World52/TileRock05.OZJ",
+            "World55/TileRock05.OZJ",
+            "World58/TileRock05.OZJ",
+            "World59/TileRock05.OZJ",
+            "World63/TileRock05.OZJ",
+            "World65/TileRock05.OZJ",
+            "World66/TileRock05.OZJ",
+            "World69/TileRock05.OZJ",
+            "World70/TileRock05.OZJ",
+            "World71/TileRock05.OZJ",
+            "World72/TileRock05.OZJ",
+            "World73/TileRock05.OZJ",
+            "World74/TileRock05.OZJ",
+            "World75/TileRock05.OZJ",
+            "World78/TileRock05.OZJ",
+            "World79/TileRock05.OZJ",
+            "World80/TileRock05.OZJ",
+            "World81/TileRock05.OZJ",
+            "World82/TileRock05.OZJ"
+          ],
+          "note": "Same filename elsewhere is not permission to substitute this resource"
+        }
+      ],
+      "ignoredTextureIndices": [
+        5
+      ],
+      "totalPlacements": 1459,
+      "unresolvedPlacements": 0,
+      "unresolved": []
+    },
+    {
+      "map": 40,
+      "terrain": "loadable",
+      "terrainIssues": [],
+      "terrainMissing": [],
+      "ignoredTextureIndices": [
+        9,
+        11,
+        12,
+        10,
+        6
+      ],
+      "totalPlacements": 670,
+      "unresolvedPlacements": 8,
+      "unresolved": [
+        {
+          "type": 52,
+          "placements": 1,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object41/Object53.bmd",
+          "issues": [
+            "Missing/ambiguous Object41/Object53.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object41/Object53.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Object2/Object53.bmd",
+                "Object25/Object53.bmd",
+                "Object3/Object53.bmd",
+                "Object31/Object53.bmd",
+                "Object32/Object53.bmd",
+                "Object34/Object53.bmd",
+                "Object35/Object53.bmd",
+                "Object38/Object53.bmd",
+                "Object39/Object53.bmd",
+                "Object40/Object53.bmd",
+                "Object42/Object53.bmd",
+                "Object43/Object53.bmd",
+                "Object47/Object53.bmd",
+                "Object52/Object53.bmd",
+                "Object55/Object53.bmd",
+                "Object57/Object53.bmd",
+                "Object58/Object53.bmd",
+                "Object64/Object53.bmd",
+                "Object66/Object53.bmd",
+                "Object70/Object53.bmd",
+                "Object71/Object53.bmd",
+                "Object72/Object53.bmd",
+                "Object78/Object53.bmd",
+                "Object81/Object53.bmd",
+                "Object82/Object53.bmd",
+                "Object9/Object53.bmd"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        },
+        {
+          "type": 15,
+          "placements": 3,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object41/Object16.bmd",
+          "issues": [
+            "Missing/ambiguous Object41/Object16.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object41/Object16.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Object11/Object16.bmd",
+                "Object12/Object16.bmd",
+                "Object19/Object16.bmd",
+                "Object2/Object16.bmd",
+                "Object25/Object16.bmd",
+                "Object3/Object16.bmd",
+                "Object31/Object16.bmd",
+                "Object32/Object16.bmd",
+                "Object34/Object16.bmd",
+                "Object35/Object16.bmd",
+                "Object38/Object16.bmd",
+                "Object39/Object16.bmd",
+                "Object4/Object16.bmd",
+                "Object40/Object16.bmd",
+                "Object42/Object16.bmd",
+                "Object43/Object16.bmd",
+                "Object47/Object16.bmd",
+                "Object5/Object16.bmd",
+                "Object52/Object16.bmd",
+                "Object55/Object16.bmd",
+                "Object57/Object16.bmd",
+                "Object58/Object16.bmd",
+                "Object63/Object16.bmd",
+                "Object64/Object16.bmd",
+                "Object65/Object16.bmd",
+                "Object69/Object16.bmd",
+                "Object7/Object16.bmd",
+                "Object70/Object16.bmd",
+                "Object71/Object16.bmd",
+                "Object72/Object16.bmd",
+                "Object73/Object16.bmd",
+                "Object74/Object16.bmd",
+                "Object8/Object16.bmd",
+                "Object80/Object16.bmd",
+                "Object81/Object16.bmd",
+                "Object82/Object16.bmd",
+                "Object9/Object16.bmd"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        },
+        {
+          "type": 74,
+          "placements": 3,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object41/Object75.bmd",
+          "issues": [
+            "Missing/ambiguous Object41/Object75.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object41/Object75.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Object3/Object75.bmd",
+                "Object31/Object75.bmd",
+                "Object34/Object75.bmd",
+                "Object35/Object75.bmd",
+                "Object38/Object75.bmd",
+                "Object39/Object75.bmd",
+                "Object40/Object75.bmd",
+                "Object42/Object75.bmd",
+                "Object43/Object75.bmd",
+                "Object47/Object75.bmd",
+                "Object52/Object75.bmd",
+                "Object55/Object75.bmd",
+                "Object57/Object75.bmd",
+                "Object58/Object75.bmd",
+                "Object67/Object75.bmd",
+                "Object69/Object75.bmd",
+                "Object70/Object75.bmd",
+                "Object71/Object75.bmd",
+                "Object72/Object75.bmd",
+                "Object78/Object75.bmd",
+                "Object81/Object75.bmd",
+                "Object82/Object75.bmd",
+                "Object9/Object75.bmd"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        },
+        {
+          "type": 33,
+          "placements": 1,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object41/Object34.bmd",
+          "issues": [
+            "Missing/ambiguous Object41/Object34.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object41/Object34.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Object12/Object34.bmd",
+                "Object19/Object34.bmd",
+                "Object2/Object34.bmd",
+                "Object25/Object34.bmd",
+                "Object3/Object34.bmd",
+                "Object31/Object34.bmd",
+                "Object32/Object34.bmd",
+                "Object34/Object34.bmd",
+                "Object35/Object34.bmd",
+                "Object38/Object34.bmd",
+                "Object39/Object34.bmd",
+                "Object4/Object34.bmd",
+                "Object40/Object34.bmd",
+                "Object42/Object34.bmd",
+                "Object43/Object34.bmd",
+                "Object47/Object34.bmd",
+                "Object5/Object34.bmd",
+                "Object52/Object34.bmd",
+                "Object55/Object34.bmd",
+                "Object57/Object34.bmd",
+                "Object58/Object34.bmd",
+                "Object63/Object34.bmd",
+                "Object64/Object34.bmd",
+                "Object65/Object34.bmd",
+                "Object66/Object34.bmd",
+                "Object67/Object34.bmd",
+                "Object68/Object34.bmd",
+                "Object69/Object34.bmd",
+                "Object7/Object34.bmd",
+                "Object70/Object34.bmd",
+                "Object71/Object34.bmd",
+                "Object72/Object34.bmd",
+                "Object73/Object34.bmd",
+                "Object74/Object34.bmd",
+                "Object78/Object34.bmd",
+                "Object8/Object34.bmd",
+                "Object80/Object34.bmd",
+                "Object81/Object34.bmd",
+                "Object82/Object34.bmd",
+                "Object9/Object34.bmd"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        }
+      ]
+    },
+    {
+      "map": 41,
+      "terrain": "blocked",
+      "terrainIssues": [
+        "Missing/ambiguous texture World42/TileRock05.OZJ"
+      ],
+      "terrainMissing": [
+        {
+          "logical": "World42/TileRock05.OZJ",
+          "exactCaseInsensitive": [],
+          "sameNameElsewhere": [
+            "World19/TileRock05.OZJ",
+            "World3/TileRock05.OZJ",
+            "World31/TileRock05.OZJ",
+            "World32/TileRock05.OZJ",
+            "World34/TileRock05.OZJ",
+            "World35/TileRock05.OZJ",
+            "World38/TileRock05.OZJ",
+            "World41/TileRock05.OZJ",
+            "World47/TileRock05.OZJ",
+            "World52/TileRock05.OZJ",
+            "World55/TileRock05.OZJ",
+            "World58/TileRock05.OZJ",
+            "World59/TileRock05.OZJ",
+            "World63/TileRock05.OZJ",
+            "World65/TileRock05.OZJ",
+            "World66/TileRock05.OZJ",
+            "World69/TileRock05.OZJ",
+            "World70/TileRock05.OZJ",
+            "World71/TileRock05.OZJ",
+            "World72/TileRock05.OZJ",
+            "World73/TileRock05.OZJ",
+            "World74/TileRock05.OZJ",
+            "World75/TileRock05.OZJ",
+            "World78/TileRock05.OZJ",
+            "World79/TileRock05.OZJ",
+            "World80/TileRock05.OZJ",
+            "World81/TileRock05.OZJ",
+            "World82/TileRock05.OZJ"
+          ],
+          "note": "Same filename elsewhere is not permission to substitute this resource"
+        }
+      ],
+      "ignoredTextureIndices": [],
+      "totalPlacements": 1531,
+      "unresolvedPlacements": 0,
+      "unresolved": []
+    },
+    {
+      "map": 42,
+      "terrain": "loadable",
+      "terrainIssues": [],
+      "terrainMissing": [],
+      "ignoredTextureIndices": [
+        11
+      ],
+      "totalPlacements": 354,
+      "unresolvedPlacements": 0,
+      "unresolved": []
+    },
+    {
+      "map": 46,
+      "terrain": "loadable",
+      "terrainIssues": [],
+      "terrainMissing": [],
+      "ignoredTextureIndices": [
+        6
+      ],
+      "totalPlacements": 1964,
+      "unresolvedPlacements": 3,
+      "unresolved": [
+        {
+          "type": 81,
+          "placements": 3,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object47/Object82.bmd",
+          "issues": [
+            "Missing/ambiguous Object47/Object82.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object47/Object82.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Object3/Object82.bmd",
+                "Object31/Object82.bmd",
+                "Object35/Object82.bmd",
+                "Object38/Object82.bmd",
+                "Object39/Object82.bmd",
+                "Object41/Object82.bmd",
+                "Object42/Object82.bmd",
+                "Object43/Object82.bmd",
+                "Object52/Object82.bmd",
+                "Object57/Object82.bmd",
+                "Object58/Object82.bmd",
+                "Object70/Object82.bmd",
+                "Object71/Object82.bmd",
+                "Object72/Object82.bmd",
+                "Object73/Object82.bmd",
+                "Object74/Object82.bmd",
+                "Object81/Object82.bmd",
+                "Object82/Object82.bmd",
+                "Object9/Object82.bmd"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        }
+      ]
+    },
+    {
+      "map": 51,
+      "terrain": "loadable",
+      "terrainIssues": [],
+      "terrainMissing": [],
+      "ignoredTextureIndices": [],
+      "totalPlacements": 5136,
+      "unresolvedPlacements": 5,
+      "unresolved": [
+        {
+          "type": 102,
+          "placements": 3,
+          "category": "missing-or-ambiguous-texture",
+          "binding": "Object52/Object103.bmd",
+          "issues": [
+            "Missing/ambiguous Object52/sword02.OZJ"
+          ],
+          "paths": [
+            {
+              "logical": "Object52/sword02.OZJ",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Item/sword02.OZJ",
+                "NPC/sword02.OZJ"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        },
+        {
+          "type": 114,
+          "placements": 1,
+          "category": "missing-or-ambiguous-texture",
+          "binding": "Object52/Object115.bmd",
+          "issues": [
+            "Missing/ambiguous Object52/medicine1.OZJ"
+          ],
+          "paths": [
+            {
+              "logical": "Object52/medicine1.OZJ",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Item/medicine1.OZJ",
+                "NPC/medicine1.OZJ"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        },
+        {
+          "type": 165,
+          "placements": 1,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object52/Object166.bmd",
+          "issues": [
+            "Missing/ambiguous Object52/Object166.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object52/Object166.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        }
+      ]
+    },
+    {
+      "map": 54,
+      "terrain": "loadable",
+      "terrainIssues": [],
+      "terrainMissing": [],
+      "ignoredTextureIndices": [
+        7,
+        1,
+        2,
+        9,
+        4,
+        5
+      ],
+      "totalPlacements": 194,
+      "unresolvedPlacements": 0,
+      "unresolved": []
+    },
+    {
+      "map": 56,
+      "terrain": "loadable",
+      "terrainIssues": [],
+      "terrainMissing": [],
+      "ignoredTextureIndices": [],
+      "totalPlacements": 4176,
+      "unresolvedPlacements": 3,
+      "unresolved": [
+        {
+          "type": 58,
+          "placements": 1,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object57/Object59.bmd",
+          "issues": [
+            "Missing/ambiguous Object57/Object59.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object57/Object59.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Object2/Object59.bmd",
+                "Object25/Object59.bmd",
+                "Object3/Object59.bmd",
+                "Object31/Object59.bmd",
+                "Object34/Object59.bmd",
+                "Object35/Object59.bmd",
+                "Object38/Object59.bmd",
+                "Object40/Object59.bmd",
+                "Object42/Object59.bmd",
+                "Object47/Object59.bmd",
+                "Object52/Object59.bmd",
+                "Object55/Object59.bmd",
+                "Object58/Object59.bmd",
+                "Object64/Object59.bmd",
+                "Object70/Object59.bmd",
+                "Object71/Object59.bmd",
+                "Object72/Object59.bmd",
+                "Object79/Object59.bmd",
+                "Object80/Object59.bmd",
+                "Object81/Object59.bmd",
+                "Object82/Object59.bmd",
+                "Object9/Object59.bmd"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        },
+        {
+          "type": 64,
+          "placements": 1,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object57/Object65.bmd",
+          "issues": [
+            "Missing/ambiguous Object57/Object65.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object57/Object65.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Object3/Object65.bmd",
+                "Object31/Object65.bmd",
+                "Object34/Object65.bmd",
+                "Object35/Object65.bmd",
+                "Object38/Object65.bmd",
+                "Object39/Object65.bmd",
+                "Object40/Object65.bmd",
+                "Object42/Object65.bmd",
+                "Object43/Object65.bmd",
+                "Object47/Object65.bmd",
+                "Object55/Object65.bmd",
+                "Object58/Object65.bmd",
+                "Object59/Object65.bmd",
+                "Object70/Object65.bmd",
+                "Object71/Object65.bmd",
+                "Object72/Object65.bmd",
+                "Object73/Object65.bmd",
+                "Object74/Object65.bmd",
+                "Object75/Object65.bmd",
+                "Object81/Object65.bmd",
+                "Object82/Object65.bmd"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        },
+        {
+          "type": 59,
+          "placements": 1,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object57/Object60.bmd",
+          "issues": [
+            "Missing/ambiguous Object57/Object60.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object57/Object60.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Object2/Object60.bmd",
+                "Object3/Object60.bmd",
+                "Object31/Object60.bmd",
+                "Object34/Object60.bmd",
+                "Object35/Object60.bmd",
+                "Object38/Object60.bmd",
+                "Object39/Object60.bmd",
+                "Object40/Object60.bmd",
+                "Object41/Object60.bmd",
+                "Object47/Object60.bmd",
+                "Object52/Object60.bmd",
+                "Object55/Object60.bmd",
+                "Object58/Object60.bmd",
+                "Object59/Object60.bmd",
+                "Object64/Object60.bmd",
+                "Object70/Object60.bmd",
+                "Object71/Object60.bmd",
+                "Object72/Object60.bmd",
+                "Object73/Object60.bmd",
+                "Object74/Object60.bmd",
+                "Object78/Object60.bmd",
+                "Object79/Object60.bmd",
+                "Object81/Object60.bmd",
+                "Object82/Object60.bmd",
+                "Object9/Object60.bmd"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        }
+      ]
+    },
+    {
+      "map": 57,
+      "terrain": "loadable",
+      "terrainIssues": [],
+      "terrainMissing": [],
+      "ignoredTextureIndices": [],
+      "totalPlacements": 1474,
+      "unresolvedPlacements": 65,
+      "unresolved": [
+        {
+          "type": 247,
+          "placements": 65,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object58/Object248.bmd",
+          "issues": [
+            "Missing/ambiguous Object58/Object248.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object58/Object248.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        }
+      ]
+    },
+    {
+      "map": 58,
+      "terrain": "loadable",
+      "terrainIssues": [],
+      "terrainMissing": [],
+      "ignoredTextureIndices": [
+        7,
+        9,
+        3,
+        11
+      ],
+      "totalPlacements": 162,
+      "unresolvedPlacements": 13,
+      "unresolved": [
+        {
+          "type": 83,
+          "placements": 6,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object59/Object84.bmd",
+          "issues": [
+            "Missing/ambiguous Object59/Object84.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object59/Object84.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Object3/Object84.bmd",
+                "Object31/Object84.bmd",
+                "Object35/Object84.bmd",
+                "Object38/Object84.bmd",
+                "Object39/Object84.bmd",
+                "Object41/Object84.bmd",
+                "Object43/Object84.bmd",
+                "Object52/Object84.bmd",
+                "Object57/Object84.bmd",
+                "Object66/Object84.bmd",
+                "Object67/Object84.bmd",
+                "Object70/Object84.bmd",
+                "Object71/Object84.bmd",
+                "Object72/Object84.bmd",
+                "Object73/Object84.bmd",
+                "Object74/Object84.bmd",
+                "Object81/Object84.bmd",
+                "Object82/Object84.bmd",
+                "Object9/Object84.bmd"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        },
+        {
+          "type": 247,
+          "placements": 7,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object59/Object248.bmd",
+          "issues": [
+            "Missing/ambiguous Object59/Object248.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object59/Object248.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        }
+      ]
+    },
+    {
+      "map": 62,
+      "terrain": "loadable",
+      "terrainIssues": [],
+      "terrainMissing": [],
+      "ignoredTextureIndices": [],
+      "totalPlacements": 679,
+      "unresolvedPlacements": 6,
+      "unresolved": [
+        {
+          "type": 40,
+          "placements": 1,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object63/Object41.bmd",
+          "issues": [
+            "Missing/ambiguous Object63/Object41.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object63/Object41.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Object2/Object41.bmd",
+                "Object25/Object41.bmd",
+                "Object3/Object41.bmd",
+                "Object31/Object41.bmd",
+                "Object32/Object41.bmd",
+                "Object34/Object41.bmd",
+                "Object35/Object41.bmd",
+                "Object38/Object41.bmd",
+                "Object4/Object41.bmd",
+                "Object40/Object41.bmd",
+                "Object42/Object41.bmd",
+                "Object43/Object41.bmd",
+                "Object47/Object41.bmd",
+                "Object52/Object41.bmd",
+                "Object55/Object41.bmd",
+                "Object57/Object41.bmd",
+                "Object58/Object41.bmd",
+                "Object59/Object41.bmd",
+                "Object64/Object41.bmd",
+                "Object7/Object41.bmd",
+                "Object70/Object41.bmd",
+                "Object71/Object41.bmd",
+                "Object72/Object41.bmd",
+                "Object79/Object41.bmd",
+                "Object8/Object41.bmd",
+                "Object80/Object41.bmd",
+                "Object81/Object41.bmd",
+                "Object82/Object41.bmd",
+                "Object9/Object41.bmd"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        },
+        {
+          "type": 37,
+          "placements": 1,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object63/Object38.bmd",
+          "issues": [
+            "Missing/ambiguous Object63/Object38.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object63/Object38.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Object2/Object38.bmd",
+                "Object25/Object38.bmd",
+                "Object3/Object38.bmd",
+                "Object31/Object38.bmd",
+                "Object32/Object38.bmd",
+                "Object34/Object38.bmd",
+                "Object35/Object38.bmd",
+                "Object38/Object38.bmd",
+                "Object39/Object38.bmd",
+                "Object4/Object38.bmd",
+                "Object40/Object38.bmd",
+                "Object41/Object38.bmd",
+                "Object42/Object38.bmd",
+                "Object43/Object38.bmd",
+                "Object47/Object38.bmd",
+                "Object5/Object38.bmd",
+                "Object52/Object38.bmd",
+                "Object55/Object38.bmd",
+                "Object57/Object38.bmd",
+                "Object58/Object38.bmd",
+                "Object64/Object38.bmd",
+                "Object69/Object38.bmd",
+                "Object7/Object38.bmd",
+                "Object70/Object38.bmd",
+                "Object71/Object38.bmd",
+                "Object72/Object38.bmd",
+                "Object73/Object38.bmd",
+                "Object74/Object38.bmd",
+                "Object78/Object38.bmd",
+                "Object8/Object38.bmd",
+                "Object80/Object38.bmd",
+                "Object81/Object38.bmd",
+                "Object82/Object38.bmd",
+                "Object9/Object38.bmd"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        },
+        {
+          "type": 51,
+          "placements": 4,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object63/Object52.bmd",
+          "issues": [
+            "Missing/ambiguous Object63/Object52.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object63/Object52.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Object2/Object52.bmd",
+                "Object25/Object52.bmd",
+                "Object3/Object52.bmd",
+                "Object31/Object52.bmd",
+                "Object32/Object52.bmd",
+                "Object34/Object52.bmd",
+                "Object35/Object52.bmd",
+                "Object38/Object52.bmd",
+                "Object40/Object52.bmd",
+                "Object42/Object52.bmd",
+                "Object43/Object52.bmd",
+                "Object47/Object52.bmd",
+                "Object52/Object52.bmd",
+                "Object55/Object52.bmd",
+                "Object57/Object52.bmd",
+                "Object58/Object52.bmd",
+                "Object70/Object52.bmd",
+                "Object71/Object52.bmd",
+                "Object72/Object52.bmd",
+                "Object81/Object52.bmd",
+                "Object82/Object52.bmd",
+                "Object9/Object52.bmd"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        }
+      ]
+    },
+    {
+      "map": 63,
+      "terrain": "blocked",
+      "terrainIssues": [
+        "Missing/ambiguous texture World64/TileRock06.OZJ"
+      ],
+      "terrainMissing": [
+        {
+          "logical": "World64/TileRock06.OZJ",
+          "exactCaseInsensitive": [],
+          "sameNameElsewhere": [
+            "Object69/TileRock06.OZJ",
+            "World19/TileRock06.OZJ",
+            "World3/TileRock06.OZJ",
+            "World31/TileRock06.OZJ",
+            "World32/TileRock06.OZJ",
+            "World34/TileRock06.OZJ",
+            "World35/TileRock06.OZJ",
+            "World38/TileRock06.OZJ",
+            "World41/TileRock06.OZJ",
+            "World47/TileRock06.OZJ",
+            "World52/TileRock06.OZJ",
+            "World55/TileRock06.OZJ",
+            "World58/TileRock06.OZJ",
+            "World59/TileRock06.OZJ",
+            "World63/TileRock06.OZJ",
+            "World66/TileRock06.OZJ",
+            "World69/TileRock06.OZJ",
+            "World70/TileRock06.OZJ",
+            "World71/TileRock06.OZJ",
+            "World72/TileRock06.OZJ",
+            "World73/TileRock06.OZJ",
+            "World74/TileRock06.OZJ",
+            "World75/TileRock06.OZJ",
+            "World78/TileRock06.OZJ",
+            "World79/TileRock06.OZJ",
+            "World80/TileRock06.OZJ",
+            "World81/TileRock06.OZJ",
+            "World82/TileRock06.OZJ"
+          ],
+          "note": "Same filename elsewhere is not permission to substitute this resource"
+        }
+      ],
+      "ignoredTextureIndices": [],
+      "totalPlacements": 2290,
+      "unresolvedPlacements": 1,
+      "unresolved": [
+        {
+          "type": 54,
+          "placements": 1,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object64/Object55.bmd",
+          "issues": [
+            "Missing/ambiguous Object64/Object55.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object64/Object55.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Object2/Object55.bmd",
+                "Object25/Object55.bmd",
+                "Object3/Object55.bmd",
+                "Object31/Object55.bmd",
+                "Object32/Object55.bmd",
+                "Object34/Object55.bmd",
+                "Object35/Object55.bmd",
+                "Object38/Object55.bmd",
+                "Object39/Object55.bmd",
+                "Object40/Object55.bmd",
+                "Object42/Object55.bmd",
+                "Object43/Object55.bmd",
+                "Object47/Object55.bmd",
+                "Object52/Object55.bmd",
+                "Object55/Object55.bmd",
+                "Object57/Object55.bmd",
+                "Object58/Object55.bmd",
+                "Object66/Object55.bmd",
+                "Object70/Object55.bmd",
+                "Object71/Object55.bmd",
+                "Object72/Object55.bmd",
+                "Object78/Object55.bmd",
+                "Object79/Object55.bmd",
+                "Object80/Object55.bmd",
+                "Object81/Object55.bmd",
+                "Object82/Object55.bmd",
+                "Object9/Object55.bmd"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        }
+      ]
+    },
+    {
+      "map": 64,
+      "terrain": "loadable",
+      "terrainIssues": [],
+      "terrainMissing": [],
+      "ignoredTextureIndices": [
+        0,
+        11
+      ],
+      "totalPlacements": 1347,
+      "unresolvedPlacements": 2,
+      "unresolved": [
+        {
+          "type": 39,
+          "placements": 2,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object65/Object40.bmd",
+          "issues": [
+            "Missing/ambiguous Object65/Object40.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object65/Object40.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Object2/Object40.bmd",
+                "Object25/Object40.bmd",
+                "Object3/Object40.bmd",
+                "Object31/Object40.bmd",
+                "Object32/Object40.bmd",
+                "Object34/Object40.bmd",
+                "Object35/Object40.bmd",
+                "Object38/Object40.bmd",
+                "Object4/Object40.bmd",
+                "Object42/Object40.bmd",
+                "Object43/Object40.bmd",
+                "Object47/Object40.bmd",
+                "Object5/Object40.bmd",
+                "Object52/Object40.bmd",
+                "Object55/Object40.bmd",
+                "Object57/Object40.bmd",
+                "Object58/Object40.bmd",
+                "Object64/Object40.bmd",
+                "Object7/Object40.bmd",
+                "Object70/Object40.bmd",
+                "Object71/Object40.bmd",
+                "Object72/Object40.bmd",
+                "Object73/Object40.bmd",
+                "Object74/Object40.bmd",
+                "Object8/Object40.bmd",
+                "Object80/Object40.bmd",
+                "Object81/Object40.bmd",
+                "Object82/Object40.bmd",
+                "Object9/Object40.bmd"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        }
+      ]
+    },
+    {
+      "map": 65,
+      "terrain": "loadable",
+      "terrainIssues": [],
+      "terrainMissing": [],
+      "ignoredTextureIndices": [
+        6,
+        1,
+        11
+      ],
+      "totalPlacements": 421,
+      "unresolvedPlacements": 23,
+      "unresolved": [
+        {
+          "type": 6,
+          "placements": 6,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object66/Object07.bmd",
+          "issues": [
+            "Missing/ambiguous Object66/Object07.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object66/Object07.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Object10/Object07.bmd",
+                "Object11/Object07.bmd",
+                "Object12/Object07.bmd",
+                "Object19/Object07.bmd",
+                "Object2/Object07.bmd",
+                "Object25/Object07.bmd",
+                "Object3/Object07.bmd",
+                "Object31/Object07.bmd",
+                "Object32/Object07.bmd",
+                "Object34/Object07.bmd",
+                "Object35/Object07.bmd",
+                "Object38/Object07.bmd",
+                "Object39/Object07.bmd",
+                "Object4/Object07.bmd",
+                "Object40/Object07.bmd",
+                "Object41/Object07.bmd",
+                "Object42/Object07.bmd",
+                "Object47/Object07.bmd",
+                "Object5/Object07.bmd",
+                "Object52/Object07.bmd",
+                "Object55/Object07.bmd",
+                "Object57/Object07.bmd",
+                "Object58/Object07.bmd",
+                "Object59/Object07.bmd",
+                "Object63/Object07.bmd",
+                "Object64/Object07.bmd",
+                "Object65/Object07.bmd",
+                "Object67/Object07.bmd",
+                "Object68/Object07.bmd",
+                "Object69/Object07.bmd",
+                "Object7/Object07.bmd",
+                "Object70/Object07.bmd",
+                "Object71/Object07.bmd",
+                "Object72/Object07.bmd",
+                "Object73/Object07.bmd",
+                "Object74/Object07.bmd",
+                "Object8/Object07.bmd",
+                "Object80/Object07.bmd",
+                "Object81/Object07.bmd",
+                "Object82/Object07.bmd",
+                "Object9/Object07.bmd"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        },
+        {
+          "type": 96,
+          "placements": 1,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object66/Object97.bmd",
+          "issues": [
+            "Missing/ambiguous Object66/Object97.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object66/Object97.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Object3/Object97.bmd",
+                "Object38/Object97.bmd",
+                "Object52/Object97.bmd",
+                "Object70/Object97.bmd",
+                "Object71/Object97.bmd",
+                "Object72/Object97.bmd",
+                "Object73/Object97.bmd",
+                "Object74/Object97.bmd",
+                "Object75/Object97.bmd",
+                "Object81/Object97.bmd",
+                "Object82/Object97.bmd"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        },
+        {
+          "type": 247,
+          "placements": 3,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object66/Object248.bmd",
+          "issues": [
+            "Missing/ambiguous Object66/Object248.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object66/Object248.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        },
+        {
+          "type": 32,
+          "placements": 13,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object66/Object33.bmd",
+          "issues": [
+            "Missing/ambiguous Object66/Object33.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object66/Object33.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Object12/Object33.bmd",
+                "Object19/Object33.bmd",
+                "Object2/Object33.bmd",
+                "Object25/Object33.bmd",
+                "Object3/Object33.bmd",
+                "Object31/Object33.bmd",
+                "Object32/Object33.bmd",
+                "Object34/Object33.bmd",
+                "Object35/Object33.bmd",
+                "Object38/Object33.bmd",
+                "Object39/Object33.bmd",
+                "Object4/Object33.bmd",
+                "Object40/Object33.bmd",
+                "Object41/Object33.bmd",
+                "Object42/Object33.bmd",
+                "Object43/Object33.bmd",
+                "Object47/Object33.bmd",
+                "Object5/Object33.bmd",
+                "Object52/Object33.bmd",
+                "Object55/Object33.bmd",
+                "Object57/Object33.bmd",
+                "Object58/Object33.bmd",
+                "Object63/Object33.bmd",
+                "Object64/Object33.bmd",
+                "Object65/Object33.bmd",
+                "Object69/Object33.bmd",
+                "Object7/Object33.bmd",
+                "Object70/Object33.bmd",
+                "Object71/Object33.bmd",
+                "Object72/Object33.bmd",
+                "Object73/Object33.bmd",
+                "Object74/Object33.bmd",
+                "Object78/Object33.bmd",
+                "Object8/Object33.bmd",
+                "Object80/Object33.bmd",
+                "Object81/Object33.bmd",
+                "Object82/Object33.bmd",
+                "Object9/Object33.bmd"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        }
+      ]
+    },
+    {
+      "map": 66,
+      "terrain": "loadable",
+      "terrainIssues": [],
+      "terrainMissing": [],
+      "ignoredTextureIndices": [],
+      "totalPlacements": 253,
+      "unresolvedPlacements": 0,
+      "unresolved": []
+    },
+    {
+      "map": 67,
+      "terrain": "loadable",
+      "terrainIssues": [],
+      "terrainMissing": [],
+      "ignoredTextureIndices": [
+        5,
+        2
+      ],
+      "totalPlacements": 373,
+      "unresolvedPlacements": 0,
+      "unresolved": []
+    },
+    {
+      "map": 68,
+      "terrain": "loadable",
+      "terrainIssues": [],
+      "terrainMissing": [],
+      "ignoredTextureIndices": [
+        3
+      ],
+      "totalPlacements": 433,
+      "unresolvedPlacements": 3,
+      "unresolved": [
+        {
+          "type": 175,
+          "placements": 1,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object69/Object176.bmd",
+          "issues": [
+            "Missing/ambiguous Object69/Object176.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object69/Object176.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        },
+        {
+          "type": 34,
+          "placements": 2,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object69/Object35.bmd",
+          "issues": [
+            "Missing/ambiguous Object69/Object35.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object69/Object35.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Object12/Object35.bmd",
+                "Object19/Object35.bmd",
+                "Object2/Object35.bmd",
+                "Object25/Object35.bmd",
+                "Object3/Object35.bmd",
+                "Object31/Object35.bmd",
+                "Object32/Object35.bmd",
+                "Object34/Object35.bmd",
+                "Object35/Object35.bmd",
+                "Object38/Object35.bmd",
+                "Object4/Object35.bmd",
+                "Object40/Object35.bmd",
+                "Object42/Object35.bmd",
+                "Object43/Object35.bmd",
+                "Object47/Object35.bmd",
+                "Object5/Object35.bmd",
+                "Object52/Object35.bmd",
+                "Object55/Object35.bmd",
+                "Object57/Object35.bmd",
+                "Object58/Object35.bmd",
+                "Object63/Object35.bmd",
+                "Object64/Object35.bmd",
+                "Object65/Object35.bmd",
+                "Object68/Object35.bmd",
+                "Object7/Object35.bmd",
+                "Object70/Object35.bmd",
+                "Object71/Object35.bmd",
+                "Object72/Object35.bmd",
+                "Object73/Object35.bmd",
+                "Object74/Object35.bmd",
+                "Object75/Object35.bmd",
+                "Object8/Object35.bmd",
+                "Object80/Object35.bmd",
+                "Object81/Object35.bmd",
+                "Object82/Object35.bmd"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        }
+      ]
+    },
+    {
+      "map": 69,
+      "terrain": "loadable",
+      "terrainIssues": [],
+      "terrainMissing": [],
+      "ignoredTextureIndices": [],
+      "totalPlacements": 836,
+      "unresolvedPlacements": 4,
+      "unresolved": [
+        {
+          "type": 126,
+          "placements": 1,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object70/Object127.bmd",
+          "issues": [
+            "Missing/ambiguous Object70/Object127.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object70/Object127.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Object52/Object127.bmd",
+                "Object74/Object127.bmd",
+                "Object79/Object127.bmd"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        },
+        {
+          "type": 95,
+          "placements": 3,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object70/Object96.bmd",
+          "issues": [
+            "Missing/ambiguous Object70/Object96.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object70/Object96.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Object3/Object96.bmd",
+                "Object38/Object96.bmd",
+                "Object52/Object96.bmd",
+                "Object69/Object96.bmd",
+                "Object73/Object96.bmd",
+                "Object74/Object96.bmd",
+                "Object81/Object96.bmd",
+                "Object82/Object96.bmd"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        }
+      ]
+    },
+    {
+      "map": 70,
+      "terrain": "loadable",
+      "terrainIssues": [],
+      "terrainMissing": [],
+      "ignoredTextureIndices": [
+        10,
+        12,
+        1
+      ],
+      "totalPlacements": 729,
+      "unresolvedPlacements": 0,
+      "unresolved": []
+    },
+    {
+      "map": 71,
+      "terrain": "loadable",
+      "terrainIssues": [],
+      "terrainMissing": [],
+      "ignoredTextureIndices": [
+        10
+      ],
+      "totalPlacements": 748,
+      "unresolvedPlacements": 0,
+      "unresolved": []
+    },
+    {
+      "map": 72,
+      "terrain": "loadable",
+      "terrainIssues": [],
+      "terrainMissing": [],
+      "ignoredTextureIndices": [
+        1,
+        6
+      ],
+      "totalPlacements": 1670,
+      "unresolvedPlacements": 5,
+      "unresolved": [
+        {
+          "type": 160,
+          "placements": 2,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object73/Object161.bmd",
+          "issues": [
+            "Missing/ambiguous Object73/Object161.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object73/Object161.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Object52/Object161.bmd"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        },
+        {
+          "type": 159,
+          "placements": 1,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object73/Object160.bmd",
+          "issues": [
+            "Missing/ambiguous Object73/Object160.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object73/Object160.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Object52/Object160.bmd",
+                "Object74/Object160.bmd",
+                "Object78/Object160.bmd"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        },
+        {
+          "type": 163,
+          "placements": 1,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object73/Object164.bmd",
+          "issues": [
+            "Missing/ambiguous Object73/Object164.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object73/Object164.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Object52/Object164.bmd"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        },
+        {
+          "type": 75,
+          "placements": 1,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object73/Object76.bmd",
+          "issues": [
+            "Missing/ambiguous Object73/Object76.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object73/Object76.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Object3/Object76.bmd",
+                "Object31/Object76.bmd",
+                "Object34/Object76.bmd",
+                "Object35/Object76.bmd",
+                "Object38/Object76.bmd",
+                "Object42/Object76.bmd",
+                "Object43/Object76.bmd",
+                "Object47/Object76.bmd",
+                "Object52/Object76.bmd",
+                "Object57/Object76.bmd",
+                "Object58/Object76.bmd",
+                "Object59/Object76.bmd",
+                "Object67/Object76.bmd",
+                "Object69/Object76.bmd",
+                "Object70/Object76.bmd",
+                "Object71/Object76.bmd",
+                "Object72/Object76.bmd",
+                "Object78/Object76.bmd",
+                "Object81/Object76.bmd",
+                "Object82/Object76.bmd",
+                "Object9/Object76.bmd"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        }
+      ]
+    },
+    {
+      "map": 73,
+      "terrain": "loadable",
+      "terrainIssues": [],
+      "terrainMissing": [],
+      "ignoredTextureIndices": [
+        1,
+        6
+      ],
+      "totalPlacements": 375,
+      "unresolvedPlacements": 10,
+      "unresolved": [
+        {
+          "type": 160,
+          "placements": 2,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object74/Object161.bmd",
+          "issues": [
+            "Missing/ambiguous Object74/Object161.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object74/Object161.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Object52/Object161.bmd"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        },
+        {
+          "type": 164,
+          "placements": 1,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object74/Object165.bmd",
+          "issues": [
+            "Missing/ambiguous Object74/Object165.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object74/Object165.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Object52/Object165.bmd"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        },
+        {
+          "type": 162,
+          "placements": 1,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object74/Object163.bmd",
+          "issues": [
+            "Missing/ambiguous Object74/Object163.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object74/Object163.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Object52/Object163.bmd"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        },
+        {
+          "type": 163,
+          "placements": 1,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object74/Object164.bmd",
+          "issues": [
+            "Missing/ambiguous Object74/Object164.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object74/Object164.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Object52/Object164.bmd"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        },
+        {
+          "type": 75,
+          "placements": 1,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object74/Object76.bmd",
+          "issues": [
+            "Missing/ambiguous Object74/Object76.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object74/Object76.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Object3/Object76.bmd",
+                "Object31/Object76.bmd",
+                "Object34/Object76.bmd",
+                "Object35/Object76.bmd",
+                "Object38/Object76.bmd",
+                "Object42/Object76.bmd",
+                "Object43/Object76.bmd",
+                "Object47/Object76.bmd",
+                "Object52/Object76.bmd",
+                "Object57/Object76.bmd",
+                "Object58/Object76.bmd",
+                "Object59/Object76.bmd",
+                "Object67/Object76.bmd",
+                "Object69/Object76.bmd",
+                "Object70/Object76.bmd",
+                "Object71/Object76.bmd",
+                "Object72/Object76.bmd",
+                "Object78/Object76.bmd",
+                "Object81/Object76.bmd",
+                "Object82/Object76.bmd",
+                "Object9/Object76.bmd"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        },
+        {
+          "type": 1,
+          "placements": 2,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object74/Object02.bmd",
+          "issues": [
+            "Missing/ambiguous Object74/Object02.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object74/Object02.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Object10/Object02.bmd",
+                "Object11/Object02.bmd",
+                "Object12/Object02.bmd",
+                "Object19/Object02.bmd",
+                "Object2/Object02.bmd",
+                "Object25/Object02.bmd",
+                "Object3/Object02.bmd",
+                "Object31/Object02.bmd",
+                "Object32/Object02.bmd",
+                "Object34/Object02.bmd",
+                "Object35/Object02.bmd",
+                "Object38/Object02.bmd",
+                "Object39/Object02.bmd",
+                "Object4/Object02.bmd",
+                "Object40/Object02.bmd",
+                "Object41/Object02.bmd",
+                "Object42/Object02.bmd",
+                "Object43/Object02.bmd",
+                "Object47/Object02.bmd",
+                "Object5/Object02.bmd",
+                "Object52/Object02.bmd",
+                "Object55/Object02.bmd",
+                "Object57/Object02.bmd",
+                "Object58/Object02.bmd",
+                "Object63/Object02.bmd",
+                "Object64/Object02.bmd",
+                "Object65/Object02.bmd",
+                "Object66/Object02.bmd",
+                "Object68/Object02.bmd",
+                "Object69/Object02.bmd",
+                "Object7/Object02.bmd",
+                "Object70/Object02.bmd",
+                "Object71/Object02.bmd",
+                "Object72/Object02.bmd",
+                "Object78/Object02.bmd",
+                "Object79/Object02.bmd",
+                "Object8/Object02.bmd",
+                "Object80/Object02.bmd",
+                "Object81/Object02.bmd",
+                "Object82/Object02.bmd",
+                "Object9/Object02.bmd"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        },
+        {
+          "type": 48,
+          "placements": 2,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object74/Object49.bmd",
+          "issues": [
+            "Missing/ambiguous Object74/Object49.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object74/Object49.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Object2/Object49.bmd",
+                "Object25/Object49.bmd",
+                "Object3/Object49.bmd",
+                "Object31/Object49.bmd",
+                "Object32/Object49.bmd",
+                "Object34/Object49.bmd",
+                "Object35/Object49.bmd",
+                "Object38/Object49.bmd",
+                "Object39/Object49.bmd",
+                "Object40/Object49.bmd",
+                "Object42/Object49.bmd",
+                "Object43/Object49.bmd",
+                "Object47/Object49.bmd",
+                "Object52/Object49.bmd",
+                "Object55/Object49.bmd",
+                "Object57/Object49.bmd",
+                "Object58/Object49.bmd",
+                "Object64/Object49.bmd",
+                "Object67/Object49.bmd",
+                "Object68/Object49.bmd",
+                "Object69/Object49.bmd",
+                "Object70/Object49.bmd",
+                "Object71/Object49.bmd",
+                "Object72/Object49.bmd",
+                "Object78/Object49.bmd",
+                "Object80/Object49.bmd",
+                "Object81/Object49.bmd",
+                "Object82/Object49.bmd",
+                "Object9/Object49.bmd"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        }
+      ]
+    },
+    {
+      "map": 74,
+      "terrain": "loadable",
+      "terrainIssues": [],
+      "terrainMissing": [],
+      "ignoredTextureIndices": [
+        7,
+        1,
+        6,
+        11,
+        10
+      ],
+      "totalPlacements": 112,
+      "unresolvedPlacements": 7,
+      "unresolved": [
+        {
+          "type": 124,
+          "placements": 2,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object75/Object125.bmd",
+          "issues": [
+            "Missing/ambiguous Object75/Object125.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object75/Object125.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Object52/Object125.bmd",
+                "Object70/Object125.bmd",
+                "Object71/Object125.bmd",
+                "Object72/Object125.bmd",
+                "Object74/Object125.bmd"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        },
+        {
+          "type": 126,
+          "placements": 4,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object75/Object127.bmd",
+          "issues": [
+            "Missing/ambiguous Object75/Object127.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object75/Object127.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Object52/Object127.bmd",
+                "Object74/Object127.bmd",
+                "Object79/Object127.bmd"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        },
+        {
+          "type": 11,
+          "placements": 1,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object75/Object12.bmd",
+          "issues": [
+            "Missing/ambiguous Object75/Object12.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object75/Object12.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Object12/Object12.bmd",
+                "Object19/Object12.bmd",
+                "Object2/Object12.bmd",
+                "Object25/Object12.bmd",
+                "Object3/Object12.bmd",
+                "Object31/Object12.bmd",
+                "Object32/Object12.bmd",
+                "Object34/Object12.bmd",
+                "Object35/Object12.bmd",
+                "Object38/Object12.bmd",
+                "Object39/Object12.bmd",
+                "Object4/Object12.bmd",
+                "Object40/Object12.bmd",
+                "Object41/Object12.bmd",
+                "Object42/Object12.bmd",
+                "Object43/Object12.bmd",
+                "Object47/Object12.bmd",
+                "Object5/Object12.bmd",
+                "Object52/Object12.bmd",
+                "Object55/Object12.bmd",
+                "Object57/Object12.bmd",
+                "Object58/Object12.bmd",
+                "Object63/Object12.bmd",
+                "Object65/Object12.bmd",
+                "Object69/Object12.bmd",
+                "Object7/Object12.bmd",
+                "Object70/Object12.bmd",
+                "Object71/Object12.bmd",
+                "Object72/Object12.bmd",
+                "Object78/Object12.bmd",
+                "Object8/Object12.bmd",
+                "Object80/Object12.bmd",
+                "Object81/Object12.bmd",
+                "Object82/Object12.bmd",
+                "Object9/Object12.bmd"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        }
+      ]
+    },
+    {
+      "map": 77,
+      "terrain": "loadable",
+      "terrainIssues": [],
+      "terrainMissing": [],
+      "ignoredTextureIndices": [
+        0,
+        11,
+        2,
+        4
+      ],
+      "totalPlacements": 628,
+      "unresolvedPlacements": 0,
+      "unresolved": []
+    },
+    {
+      "map": 78,
+      "terrain": "loadable",
+      "terrainIssues": [],
+      "terrainMissing": [],
+      "ignoredTextureIndices": [
+        11,
+        2,
+        6,
+        4,
+        8,
+        10
+      ],
+      "totalPlacements": 96,
+      "unresolvedPlacements": 1,
+      "unresolved": [
+        {
+          "type": 4,
+          "placements": 1,
+          "category": "invalid-model-or-decode",
+          "binding": "Object79/Object05.bmd",
+          "issues": [
+            "Invalid model float"
+          ],
+          "paths": [],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        }
+      ]
+    },
+    {
+      "map": 79,
+      "terrain": "loadable",
+      "terrainIssues": [],
+      "terrainMissing": [],
+      "ignoredTextureIndices": [],
+      "totalPlacements": 517,
+      "unresolvedPlacements": 4,
+      "unresolved": [
+        {
+          "type": 51,
+          "placements": 4,
+          "category": "missing-model-at-current-binding",
+          "binding": "Object80/Object52.bmd",
+          "issues": [
+            "Missing/ambiguous Object80/Object52.bmd"
+          ],
+          "paths": [
+            {
+              "logical": "Object80/Object52.bmd",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Object2/Object52.bmd",
+                "Object25/Object52.bmd",
+                "Object3/Object52.bmd",
+                "Object31/Object52.bmd",
+                "Object32/Object52.bmd",
+                "Object34/Object52.bmd",
+                "Object35/Object52.bmd",
+                "Object38/Object52.bmd",
+                "Object40/Object52.bmd",
+                "Object42/Object52.bmd",
+                "Object43/Object52.bmd",
+                "Object47/Object52.bmd",
+                "Object52/Object52.bmd",
+                "Object55/Object52.bmd",
+                "Object57/Object52.bmd",
+                "Object58/Object52.bmd",
+                "Object70/Object52.bmd",
+                "Object71/Object52.bmd",
+                "Object72/Object52.bmd",
+                "Object81/Object52.bmd",
+                "Object82/Object52.bmd",
+                "Object9/Object52.bmd"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        }
+      ]
+    },
+    {
+      "map": 80,
+      "terrain": "loadable",
+      "terrainIssues": [],
+      "terrainMissing": [],
+      "ignoredTextureIndices": [],
+      "totalPlacements": 2086,
+      "unresolvedPlacements": 3,
+      "unresolved": [
+        {
+          "type": 108,
+          "placements": 1,
+          "category": "missing-or-ambiguous-texture",
+          "binding": "Object81/Object109.bmd",
+          "issues": [
+            "Missing/ambiguous Object81/medicine1.OZJ"
+          ],
+          "paths": [
+            {
+              "logical": "Object81/medicine1.OZJ",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Item/medicine1.OZJ",
+                "NPC/medicine1.OZJ"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        },
+        {
+          "type": 110,
+          "placements": 2,
+          "category": "missing-or-ambiguous-texture",
+          "binding": "Object81/Object111.bmd",
+          "issues": [
+            "Missing/ambiguous Object81/sword02.OZJ"
+          ],
+          "paths": [
+            {
+              "logical": "Object81/sword02.OZJ",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Item/sword02.OZJ",
+                "NPC/sword02.OZJ"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        }
+      ]
+    },
+    {
+      "map": 81,
+      "terrain": "loadable",
+      "terrainIssues": [],
+      "terrainMissing": [],
+      "ignoredTextureIndices": [],
+      "totalPlacements": 1720,
+      "unresolvedPlacements": 1,
+      "unresolved": [
+        {
+          "type": 110,
+          "placements": 1,
+          "category": "missing-or-ambiguous-texture",
+          "binding": "Object82/Object111.bmd",
+          "issues": [
+            "Missing/ambiguous Object82/sword02.OZJ"
+          ],
+          "paths": [
+            {
+              "logical": "Object82/sword02.OZJ",
+              "exactCaseInsensitive": [],
+              "sameNameElsewhere": [
+                "Item/sword02.OZJ",
+                "NPC/sword02.OZJ"
+              ],
+              "note": "Same filename elsewhere is not permission to substitute this resource"
+            }
+          ],
+          "sourceMarkerStatus": "Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding."
+        }
+      ]
+    }
+  ]
+}

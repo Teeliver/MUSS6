@@ -1,0 +1,393 @@
+{
+  "scope": "Original mounted world model/texture bytes, source scale/action selection; 43 valid mount-color/class pairs. No certification of all special combat particles or native pixel parity.",
+  "models": [
+    {
+      "index": 6658,
+      "variant": 0,
+      "name": "Horn of Uniria",
+      "classes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "requirements": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        25
+      ],
+      "policy": {
+        "type": 2,
+        "path": "Skill/Rider01.bmd",
+        "scale": 0.9
+      },
+      "sha256": "5c540f44f9d65e6f8cb8bf0f4838add9b53c323d72afcfaf4cd37ff08950d5df",
+      "textures": [
+        {
+          "path": "Item/unicon.OZJ",
+          "sha256": "766fbca944033e37d6ed7689afd499371f19112a297ae9b0b5731b2516592356",
+          "width": 128,
+          "height": 128
+        },
+        {
+          "path": "Item/unicon01.OZT",
+          "sha256": "37c89ef8984c6713b4f073fed38d540a4a9364e37d96eb9827116676dae0c550",
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "samples": 30,
+      "status": "sampled"
+    },
+    {
+      "index": 6659,
+      "variant": 0,
+      "name": "Horn of Dinorant",
+      "classes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "requirements": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        110
+      ],
+      "policy": {
+        "type": 3,
+        "path": "Skill/Rider02.bmd",
+        "scale": 0.9
+      },
+      "sha256": "fe95da785bbaa1e4830269c4d992c24f8cb9e48e10967cc247652b4491cfc1b4",
+      "textures": [
+        {
+          "path": "Skill/RDgon.OZJ",
+          "sha256": "8834bbac6e257bab61ab1551cf27cca9074512fcb126cef1cf2d29e0165628de",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "path": "Skill/RDgonW.OZT",
+          "sha256": "6a070f9b12d95b88b66e9aba57e898015b4272144eb7886f41e85bbe358442c0",
+          "width": 128,
+          "height": 64
+        }
+      ],
+      "samples": 30,
+      "status": "sampled"
+    },
+    {
+      "index": 6660,
+      "variant": 0,
+      "name": "Dark Horse",
+      "classes": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "requirements": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        218
+      ],
+      "policy": {
+        "type": 4,
+        "path": "Skill/DarkHorse.bmd",
+        "scale": 1.1
+      },
+      "sha256": "b92437f6f8b6c555d0aaffb1f2d888f78e4341a7a580df662c610cd5031438c5",
+      "textures": [
+        {
+          "path": "Skill/dkfurop.OZT",
+          "sha256": "49419c27d1b33bc688b22b75a22f4f5e1b3fc8a0dfaf43c5701129c9f3597607",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "Skill/dkfrontleg.OZJ",
+          "sha256": "9cc304c2cb26c5949a20e94c04a53b3e136c2f55fe7313269fb5e460f7e66a74",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "Skill/dkhead2.OZJ",
+          "sha256": "bf15671b6c2d26a3c9e7e1d4be587ddd613e6f7c3931e354c1ad45fe50a07b8a",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "Skill/dkhip.OZJ",
+          "sha256": "4c418cbc4d73dead4ad473b27a061cec3ba5e2f8ba50d4adc26364c61871d20a",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "Skill/dksaddle.OZJ",
+          "sha256": "754eebd780ed1f4cf11ba627a49c7b43603e02105132386ffa24f9af90e34f91",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "Skill/dkbackleg.OZJ",
+          "sha256": "15fa0d22f93d48cf8607dceae0514b6880459b88c0046371559fe8fc4c7ca45e",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "Skill/dkneck.OZJ",
+          "sha256": "6ca4b594a8ab9ab6cf39ec7b28900fb65ec6bd8fb680bcb79430576e21e2fcc1",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "Skill/dkfrontShd.OZJ",
+          "sha256": "6fb333fa84ea766112c01d54a99d5351922a2324f49be36a1715e93fac7fe4ef",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "Skill/dkhorsebase.OZJ",
+          "sha256": "1fdd2b983372876689a23d6031e64960f6519fd6f4f750cc3c9a0c9b86822e74",
+          "width": 128,
+          "height": 128
+        },
+        {
+          "path": "Skill/dkfrontleg2.OZJ",
+          "sha256": "f8ee5ddb4423160ec319844657685b2663ec4e19e5acb62c3a7191fb07e13b3a",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "Skill/dkbackleg2.OZJ",
+          "sha256": "26447b3a89e9acea7841cfe155c6854f6e16c4d87f4d2dc96eb629fb584e9fc6",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "Skill/dkheadwing.OZJ",
+          "sha256": "8aca4a098452540c6d764bdd2c182c501b0587ffd1a2a1845b361372e266c023",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "Skill/dkneck2.OZJ",
+          "sha256": "1fce75a4b8cc5ebc25c14d1082673cbc252d5321f1f2be1beb330d5ec848b1ac",
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "samples": 30,
+      "status": "sampled"
+    },
+    {
+      "index": 6693,
+      "variant": 0,
+      "name": "Horn of Fenrir",
+      "classes": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        2,
+        1
+      ],
+      "requirements": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        300
+      ],
+      "policy": {
+        "type": 37,
+        "path": "Skill/fenril_red.bmd",
+        "scale": 1
+      },
+      "sha256": "d82fe1edb2dd350bc6ebd9121e9d27c4b884aea0d7191c94fdb95f0ba36e40c4",
+      "textures": [
+        {
+          "path": "Skill/fenril02.OZJ",
+          "sha256": "30c0216bb4a0496b7decddf3a0c4323c6590a225b62049504e1738cee3f0c858",
+          "width": 128,
+          "height": 128
+        },
+        {
+          "path": "Skill/fenril_red.OZJ",
+          "sha256": "312f72ced598fede8122047061d2fcb163d3b69c68534148d4f2f69e03b07b3c",
+          "width": 256,
+          "height": 256
+        }
+      ],
+      "samples": 30,
+      "status": "sampled"
+    },
+    {
+      "index": 6693,
+      "variant": 1,
+      "name": "Horn of Fenrir",
+      "classes": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        2,
+        1
+      ],
+      "requirements": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        300
+      ],
+      "policy": {
+        "type": 37,
+        "path": "Skill/fenril_black.bmd",
+        "scale": 1
+      },
+      "sha256": "7a3d808fff61d7c052fac3e78303adcf77b7836aee3963b56afb78bdaedd41c1",
+      "textures": [
+        {
+          "path": "Skill/fenril02.OZJ",
+          "sha256": "30c0216bb4a0496b7decddf3a0c4323c6590a225b62049504e1738cee3f0c858",
+          "width": 128,
+          "height": 128
+        },
+        {
+          "path": "Skill/fenril_black.OZJ",
+          "sha256": "4d953990aace36f955eba970461dd26375635e378d2bd896be7ec7187ca16ce0",
+          "width": 256,
+          "height": 256
+        }
+      ],
+      "samples": 30,
+      "status": "sampled"
+    },
+    {
+      "index": 6693,
+      "variant": 2,
+      "name": "Horn of Fenrir",
+      "classes": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        2,
+        1
+      ],
+      "requirements": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        300
+      ],
+      "policy": {
+        "type": 37,
+        "path": "Skill/fenril_blue.bmd",
+        "scale": 1
+      },
+      "sha256": "0704e747bb8847299aeaf785387ec361d8bd8270ac18439db5185d0129866ee1",
+      "textures": [
+        {
+          "path": "Skill/fenril02.OZJ",
+          "sha256": "30c0216bb4a0496b7decddf3a0c4323c6590a225b62049504e1738cee3f0c858",
+          "width": 128,
+          "height": 128
+        },
+        {
+          "path": "Skill/fenril_blue.OZJ",
+          "sha256": "6d1cdc2153cb7b0bac0c7b79699078fd0720b2ccfe67c35466c7447c154b6086",
+          "width": 256,
+          "height": 256
+        }
+      ],
+      "samples": 30,
+      "status": "sampled"
+    },
+    {
+      "index": 6693,
+      "variant": 4,
+      "name": "Horn of Fenrir",
+      "classes": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        2,
+        1
+      ],
+      "requirements": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        300
+      ],
+      "policy": {
+        "type": 37,
+        "path": "Skill/fenril_gold.bmd",
+        "scale": 1
+      },
+      "sha256": "0eab85d7e46cd9d98fb55859df5a77f02b36861b84bfc01a5719cfe3f246678d",
+      "textures": [
+        {
+          "path": "Skill/panril_golden.OZJ",
+          "sha256": "1914a79a9bf7b1cc31f0965c9c1a16ad3532427d559e0fe19a4b4502a17db5c3",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "path": "Skill/panril03.OZJ",
+          "sha256": "57f664146b631a9ad9e46ba259c8511264130e8ffc7441c1318c47d03d34b67b",
+          "width": 128,
+          "height": 128
+        }
+      ],
+      "samples": 30,
+      "status": "sampled"
+    }
+  ],
+  "health": [
+    {
+      "path": "Interface/newui_Pet_Back.OZT",
+      "sha256": "a128c4699d943d6da5bf8d749fd045372c6c1410d50a2bd0dfb36802047e6b09",
+      "width": 57,
+      "height": 23
+    },
+    {
+      "path": "Interface/newui_Pet_HpBar.OZJ",
+      "sha256": "2228948a0a4e3a0545e9c742049043cd6cc267167ca35cefcdd12b743eabe537",
+      "width": 49,
+      "height": 3
+    }
+  ]
+}

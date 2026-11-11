@@ -1,0 +1,41 @@
+✔ Helper config preserves reserved bytes/conditions and follows native bit offsets (4.604458ms)
+✔ Helper packets use original C2 AE and C1 BF:51, status includes aligned DWORDs (0.352125ms)
+✔ Helper server struct ABI matches actual headers (1068.220375ms)
+✔ No automation before server ACK; potion priority, target policy, stop and return (0.568583ms)
+✔ Pickup filters separate ancient, excellent, Zen and explicit extra names (0.207958ms)
+✔ Session waits for status ACK, saves exactly 256 bytes, stops on close (79.083292ms)
+✔ Helper handles sync errors and rejected async actions without overlapping requests (1.784917ms)
+✔ Helper stays stopped after a map change until the server stop ACK, with bounded retries (0.447792ms)
+✔ failed icon build can recover on next attachment and retains serialized GPU work (0.828ms)
+✔ EXC/ancient icons have separate cache entries, visible icons are not evicted (0.191625ms)
+✔ closing while a build is pending disposes its completed renderer exactly once (1.730625ms)
+✔ Zen colors use original four exact thresholds (0.838958ms)
+✔ item occupied-cell colors follow actual durability thresholds and level/excellent durability (0.183375ms)
+✔ maximum durability keeps calcMaxDurability staff36 exclusion, helper 4/5, lucky 255 and unclamped bonus (0.100917ms)
+✔ equipment stats separate BOOK/scroll Energy, cepter and ItemConvert excellent exclusions (0.205833ms)
+✔ upgrade tiers follow source pass order instead of assigning one glow to every +level (0.231667ms)
+✔ upgrade geometry reuses posed positions/normals and overlay never casts additional shadow (0.280875ms)
+✔ palette artifact reproduces supplied source functions compiled with explicit item constants (1504.629083ms)
+✔ new source fallback distinguishes staffs and equipment armor offset (0.198459ms)
+✔ tooltip normal equipment includes upgrades and source integer requirement arithmetic (0.144708ms)
+✔ ItemTRS artifact reproduces the supplied source table (77.842916ms)
+✔ inventory hides skin/hair/light-texture meshes but retains actual helmet texture (0.931791ms)
+✔ ItemTRSData decodes per-item angles/anchors and source icon scale (0.616125ms)
+✔ actual Staff06 retains its long projected shaft and Bone Helm skin can be removed (21.321541ms)
+✔ event and helper items use original effective levels rather than silently skipping their upgrades (0.175542ms)
+✔ Armor of Guardsman and nested original model bindings resolve their actual texture directories (2.326541ms)
+✔ Illusion Sorcerer Covenant retains source special Chrome2/Chrome4 even with forced level zero (0.06175ms)
+✔ effective item levels reproduce the compiled original source switch (812.377459ms)
+✔ inventory strips embedded face/hair body textures without stripping armor panels (0.18725ms)
+✔ native wing material passes remove black-key backgrounds and add MG chrome (0.249167ms)
+✔ Wing of Storm draws opaque frame before both native light passes (0.286125ms)
+✔ Excellent uses source time tint and original texture after level passes, excluding wings/cape (0.414084ms)
+✔ UI loading bounds decoding to three workers and cleans completed images after another decoder fails (129.528584ms)
+ℹ tests 33
+ℹ suites 0
+ℹ pass 33
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2561.564416

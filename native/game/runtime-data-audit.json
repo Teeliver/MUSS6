@@ -1,0 +1,16 @@
+{
+  "runtimeData": "/Users/angelale/Downloads/MuServerEX603/Data",
+  "profile": "EX603ENG",
+  "auditType": "referenced input paths, excluding generated Item/Item.bmd",
+  "referencedCount": 117,
+  "inputCount": 116,
+  "missingCount": 0,
+  "missing": [],
+  "generatedOutputs": [
+    "Item/Item.bmd"
+  ],
+  "spawnFileCount": 61,
+  "startupValidated": true,
+  "startupPort": 55900,
+  "validationLimit": "World initialization and TCP links validated; database procedures and client gameplay remain unverified."
+}

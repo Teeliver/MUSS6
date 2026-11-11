@@ -1,0 +1,6 @@
+#include "skill_catalog.hpp"
+#include "localization.hpp"
+#include <stdexcept>
+namespace mu::ui {
+std::vector<SkillInfo> load_skill_catalog(const std::filesystem::path& data,const std::string& language){auto b=mu::assets::read_file(local_data_file(data,language,"Skill"));constexpr unsigned stride=88,count=650,size=stride*count;if(b.size()!=size+4)throw std::runtime_error("Unsupported EX603 Skill BMD layout");auto word=[&](unsigned n){return unsigned(b[n])|(unsigned(b[n+1])<<8);};auto dword=[&](unsigned n){return std::uint32_t(word(n))|(std::uint32_t(word(n+2))<<16);};std::uint32_t key=0x5A18,sum=key<<9;for(unsigned o=0;o<size;o+=4){if((o/4+key)%2)sum+=dword(o);else sum^=dword(o);if(o%16==0)sum^=(key+sum)>>(o/4%8+1);}if(sum!=dword(size))throw std::runtime_error("Skill BMD checksum mismatch");std::vector<SkillInfo> out(count);constexpr unsigned char xorKey[]={0xFC,0xCF,0xAB};for(unsigned i=0;i<count;i++){std::array<unsigned char,stride> row{};for(unsigned j=0;j<stride;j++)row[j]=b[i*stride+j]^xorKey[j%3];auto& s=out[i];unsigned len=0;while(len<32&&row[len])len++;s.name.assign(reinterpret_cast<const char*>(row.data()),len);auto w=[&](unsigned n){return unsigned(row[n])|(unsigned(row[n+1])<<8);};s.level=w(32);s.damage=w(34);s.mana=w(36);s.ag=w(38);s.range=row[40];}return out;}
+}

@@ -1,0 +1,12 @@
+; Placeholder configuration for --check-config only. This does not identify a real database.
+; Local MySQL is already configured in native/mysql.ini; do not overwrite it with this template.
+; For another database, copy to a separate private file and set its MySQL endpoint/database/user.
+; Keep the password out of source control; MU_MYSQL_PASSWORD can supply it.
+[MySQL]
+Host=mysql-vps.example.invalid
+Port=3306
+Database=replace_with_mu_database
+User=replace_with_db_user
+Password=
+SslMode=required
+SslCa=

@@ -1,0 +1,4341 @@
+{
+  "scope": "Native registered operate placements; castle throne gated, live Castle Siege state not available",
+  "rows": [
+    {
+      "map": 0,
+      "points": [
+        {
+          "type": 6,
+          "x": 11,
+          "y": 134,
+          "z": 165.00003051757812,
+          "angle": 1620,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 133,
+          "x": 113,
+          "y": 117,
+          "z": 165.00003051757812,
+          "angle": -270,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 133,
+          "x": 113,
+          "y": 120,
+          "z": 165.00001525878906,
+          "angle": -270,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 133,
+          "x": 113,
+          "y": 121,
+          "z": 164.99996948242188,
+          "angle": 2610,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 133,
+          "x": 113,
+          "y": 123,
+          "z": 165.00003051757812,
+          "angle": -270,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 133,
+          "x": 113,
+          "y": 124,
+          "z": 164.99996948242188,
+          "angle": -270,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 133,
+          "x": 113,
+          "y": 129,
+          "z": 165.00001525878906,
+          "angle": 2520,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 133,
+          "x": 113,
+          "y": 131,
+          "z": 164.99998474121094,
+          "angle": -270,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 133,
+          "x": 113,
+          "y": 132,
+          "z": 165.00001525878906,
+          "angle": -270,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 133,
+          "x": 113,
+          "y": 133,
+          "z": 164.99996948242188,
+          "angle": 1170,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 133,
+          "x": 113,
+          "y": 134,
+          "z": 165.00001525878906,
+          "angle": 1170,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 133,
+          "x": 113,
+          "y": 137,
+          "z": 165,
+          "angle": -270,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 133,
+          "x": 113,
+          "y": 138,
+          "z": 165.00003051757812,
+          "angle": -270,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 133,
+          "x": 115,
+          "y": 140,
+          "z": 164.99998474121094,
+          "angle": 2610,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 133,
+          "x": 115,
+          "y": 141,
+          "z": 165,
+          "angle": 2610,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 6,
+          "x": 12,
+          "y": 234,
+          "z": 165.00003051757812,
+          "angle": 1830,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 133,
+          "x": 121,
+          "y": 123,
+          "z": 165.00003051757812,
+          "angle": 2250,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 145,
+          "x": 121,
+          "y": 124,
+          "z": 165.00003051757812,
+          "angle": 120,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 145,
+          "x": 121,
+          "y": 126,
+          "z": 165,
+          "angle": 0,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 145,
+          "x": 121,
+          "y": 128,
+          "z": 164.99996948242188,
+          "angle": 150,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 145,
+          "x": 121,
+          "y": 130,
+          "z": 165.00001525878906,
+          "angle": 0,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 133,
+          "x": 122,
+          "y": 108,
+          "z": 165.00001525878906,
+          "angle": -270,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 133,
+          "x": 122,
+          "y": 109,
+          "z": 165.00001525878906,
+          "angle": -270,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 133,
+          "x": 122,
+          "y": 110,
+          "z": 165,
+          "angle": -270,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 133,
+          "x": 122,
+          "y": 111,
+          "z": 165,
+          "angle": -270,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 133,
+          "x": 122,
+          "y": 114,
+          "z": 165.00003051757812,
+          "angle": -270,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 133,
+          "x": 122,
+          "y": 115,
+          "z": 164.99998474121094,
+          "angle": -270,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 133,
+          "x": 122,
+          "y": 143,
+          "z": 164.99996948242188,
+          "angle": 2520,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 145,
+          "x": 122,
+          "y": 124,
+          "z": 164.9999542236328,
+          "angle": -180,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 145,
+          "x": 122,
+          "y": 126,
+          "z": 165,
+          "angle": 0,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 145,
+          "x": 122,
+          "y": 128,
+          "z": 164.99998474121094,
+          "angle": 150,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 145,
+          "x": 122,
+          "y": 130,
+          "z": 165.00001525878906,
+          "angle": 300,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 146,
+          "x": 122,
+          "y": 133,
+          "z": 164.99998474121094,
+          "angle": 2490,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 146,
+          "x": 124,
+          "y": 133,
+          "z": 165.00001525878906,
+          "angle": 90,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 133,
+          "x": 125,
+          "y": 148,
+          "z": 165.00003051757812,
+          "angle": 2520,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 145,
+          "x": 125,
+          "y": 123,
+          "z": 164.99996948242188,
+          "angle": -30,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 145,
+          "x": 125,
+          "y": 127,
+          "z": 164.99996948242188,
+          "angle": 90,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 145,
+          "x": 125,
+          "y": 128,
+          "z": 164.99996948242188,
+          "angle": 60,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 133,
+          "x": 126,
+          "y": 148,
+          "z": 164.99996948242188,
+          "angle": -360,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 145,
+          "x": 126,
+          "y": 126,
+          "z": 165.00001525878906,
+          "angle": 150,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 145,
+          "x": 126,
+          "y": 129,
+          "z": 164.99998474121094,
+          "angle": 360,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 146,
+          "x": 126,
+          "y": 133,
+          "z": 164.9999542236328,
+          "angle": 90,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 133,
+          "x": 127,
+          "y": 148,
+          "z": 165.00001525878906,
+          "angle": -360,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 145,
+          "x": 127,
+          "y": 126,
+          "z": 165.00001525878906,
+          "angle": 210,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 145,
+          "x": 127,
+          "y": 129,
+          "z": 165,
+          "angle": 360,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 133,
+          "x": 128,
+          "y": 148,
+          "z": 165,
+          "angle": -360,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 133,
+          "x": 129,
+          "y": 148,
+          "z": 165.00001525878906,
+          "angle": -360,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 133,
+          "x": 130,
+          "y": 148,
+          "z": 165.00003051757812,
+          "angle": 720,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 133,
+          "x": 132,
+          "y": 106,
+          "z": 165.00001525878906,
+          "angle": 2610,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 133,
+          "x": 132,
+          "y": 149,
+          "z": 164.99996948242188,
+          "angle": 810,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 133,
+          "x": 137,
+          "y": 148,
+          "z": 164.99996948242188,
+          "angle": 720,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 133,
+          "x": 138,
+          "y": 140,
+          "z": 165.00003051757812,
+          "angle": 720,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 133,
+          "x": 139,
+          "y": 140,
+          "z": 164.99998474121094,
+          "angle": 720,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 133,
+          "x": 140,
+          "y": 140,
+          "z": 165.00001525878906,
+          "angle": 720,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 133,
+          "x": 141,
+          "y": 140,
+          "z": 164.99996948242188,
+          "angle": 720,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 133,
+          "x": 143,
+          "y": 144,
+          "z": 164.99996948242188,
+          "angle": 720,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 133,
+          "x": 144,
+          "y": 140,
+          "z": 164.99996948242188,
+          "angle": 0,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 133,
+          "x": 145,
+          "y": 140,
+          "z": 165,
+          "angle": 720,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 133,
+          "x": 145,
+          "y": 144,
+          "z": 165,
+          "angle": 720,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 133,
+          "x": 146,
+          "y": 141,
+          "z": 164.99996948242188,
+          "angle": -270,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 133,
+          "x": 150,
+          "y": 140,
+          "z": 164.99996948242188,
+          "angle": 720,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 133,
+          "x": 153,
+          "y": 140,
+          "z": 165.00001525878906,
+          "angle": 720,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 133,
+          "x": 155,
+          "y": 129,
+          "z": 164.99996948242188,
+          "angle": -360,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 133,
+          "x": 172,
+          "y": 129,
+          "z": 165.00001525878906,
+          "angle": -360,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 6,
+          "x": 178,
+          "y": 130,
+          "z": 165.00001525878906,
+          "angle": 300,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 6,
+          "x": 178,
+          "y": 218,
+          "z": 165,
+          "angle": 1230,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 6,
+          "x": 182,
+          "y": 133,
+          "z": 165.00003051757812,
+          "angle": -150,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 6,
+          "x": 184,
+          "y": 132,
+          "z": 164.99996948242188,
+          "angle": 0,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 6,
+          "x": 185,
+          "y": 135,
+          "z": 164.99998474121094,
+          "angle": -150,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 6,
+          "x": 198,
+          "y": 219,
+          "z": 164.99998474121094,
+          "angle": 120,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 133,
+          "x": 210,
+          "y": 142,
+          "z": 164.99996948242188,
+          "angle": -990,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 6,
+          "x": 216,
+          "y": 145,
+          "z": 191.46348571777344,
+          "angle": 1650,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 133,
+          "x": 219,
+          "y": 136,
+          "z": 167.99998474121094,
+          "angle": -360,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 6,
+          "x": 219,
+          "y": 76,
+          "z": 284.30291748046875,
+          "angle": 30,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 6,
+          "x": 219,
+          "y": 78,
+          "z": 288.43377685546875,
+          "angle": 30,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 6,
+          "x": 221,
+          "y": 170,
+          "z": 168,
+          "angle": 0,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 6,
+          "x": 221,
+          "y": 75,
+          "z": 282.3662109375,
+          "angle": 180,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 6,
+          "x": 221,
+          "y": 79,
+          "z": 298.8002014160156,
+          "angle": 180,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 6,
+          "x": 222,
+          "y": 166,
+          "z": 164.99998474121094,
+          "angle": 0,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 6,
+          "x": 223,
+          "y": 137,
+          "z": 168,
+          "angle": 1650,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 6,
+          "x": 223,
+          "y": 180,
+          "z": 183.3155975341797,
+          "angle": -510,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 6,
+          "x": 223,
+          "y": 77,
+          "z": 282.6773986816406,
+          "angle": 30,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 6,
+          "x": 224,
+          "y": 163,
+          "z": 165,
+          "angle": 0,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 6,
+          "x": 224,
+          "y": 170,
+          "z": 166.5,
+          "angle": 0,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 6,
+          "x": 225,
+          "y": 75,
+          "z": 279.96295166015625,
+          "angle": 180,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 6,
+          "x": 225,
+          "y": 79,
+          "z": 274.10198974609375,
+          "angle": 30,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 6,
+          "x": 227,
+          "y": 172,
+          "z": 164.9999542236328,
+          "angle": 0,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 6,
+          "x": 227,
+          "y": 75,
+          "z": 282.27740478515625,
+          "angle": 30,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 6,
+          "x": 227,
+          "y": 78,
+          "z": 273.8275146484375,
+          "angle": 210,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 6,
+          "x": 228,
+          "y": 168,
+          "z": 164.99998474121094,
+          "angle": 0,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 6,
+          "x": 231,
+          "y": 165,
+          "z": 164.99998474121094,
+          "angle": 0,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 6,
+          "x": 24,
+          "y": 130,
+          "z": 161.27902221679688,
+          "angle": 2070,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 6,
+          "x": 33,
+          "y": 50,
+          "z": 187.15963745117188,
+          "angle": 1260,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 6,
+          "x": 34,
+          "y": 53,
+          "z": 165.83412170410156,
+          "angle": 1260,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 6,
+          "x": 36,
+          "y": 50,
+          "z": 215.0601806640625,
+          "angle": 1290,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 133,
+          "x": 6,
+          "y": 41,
+          "z": 172.56565856933594,
+          "angle": -360,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 6,
+          "x": 62,
+          "y": 124,
+          "z": 164.99998474121094,
+          "angle": 3240,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 6,
+          "x": 62,
+          "y": 121,
+          "z": 165.00003051757812,
+          "angle": 3240,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 6,
+          "x": 64,
+          "y": 121,
+          "z": 165.00003051757812,
+          "angle": 3060,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 6,
+          "x": 64,
+          "y": 124,
+          "z": 164.99998474121094,
+          "angle": 3240,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 6,
+          "x": 65,
+          "y": 122,
+          "z": 165.00001525878906,
+          "angle": 3240,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 133,
+          "x": 7,
+          "y": 37,
+          "z": 186.30616760253906,
+          "angle": -270,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 133,
+          "x": 75,
+          "y": 150,
+          "z": 178.30662536621094,
+          "angle": 90,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 133,
+          "x": 75,
+          "y": 151,
+          "z": 179.22445678710938,
+          "angle": 90,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 133,
+          "x": 75,
+          "y": 152,
+          "z": 178.4937286376953,
+          "angle": 90,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 133,
+          "x": 76,
+          "y": 156,
+          "z": 169.27395629882812,
+          "angle": 0,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 145,
+          "x": 78,
+          "y": 152,
+          "z": 192.72601318359375,
+          "angle": 90,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 145,
+          "x": 78,
+          "y": 153,
+          "z": 192.53500366210938,
+          "angle": 90,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 145,
+          "x": 79,
+          "y": 154,
+          "z": 195.57432556152344,
+          "angle": 0,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        }
+      ]
+    },
+    {
+      "map": 1,
+      "points": [
+        {
+          "type": 60,
+          "x": 1,
+          "y": 8,
+          "z": 185.13827514648438,
+          "angle": 450,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 59,
+          "x": 5,
+          "y": 6,
+          "z": 169.50003051757812,
+          "angle": 480,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 59,
+          "x": 8,
+          "y": 7,
+          "z": 169.50003051757812,
+          "angle": 300,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 59,
+          "x": 7,
+          "y": 5,
+          "z": 179.52272033691406,
+          "angle": 300,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 59,
+          "x": 4,
+          "y": 8,
+          "z": 169.50001525878906,
+          "angle": 300,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 59,
+          "x": 7,
+          "y": 9,
+          "z": 171.5209197998047,
+          "angle": 300,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 60,
+          "x": 10,
+          "y": 23,
+          "z": 169.50001525878906,
+          "angle": 450,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 60,
+          "x": 8,
+          "y": 22,
+          "z": 203.74267578125,
+          "angle": 360,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 60,
+          "x": 10,
+          "y": 34,
+          "z": 178.7757110595703,
+          "angle": 360,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 59,
+          "x": 110,
+          "y": 157,
+          "z": 169.5000457763672,
+          "angle": 510,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 59,
+          "x": 109,
+          "y": 155,
+          "z": 169.4999542236328,
+          "angle": 510,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 59,
+          "x": 108,
+          "y": 157,
+          "z": 169.49996948242188,
+          "angle": 510,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 59,
+          "x": 119,
+          "y": 46,
+          "z": 162.6105499267578,
+          "angle": 270,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 59,
+          "x": 121,
+          "y": 44,
+          "z": 170.90354919433594,
+          "angle": 270,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 59,
+          "x": 123,
+          "y": 46,
+          "z": 169.93128967285156,
+          "angle": 270,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 59,
+          "x": 122,
+          "y": 48,
+          "z": 169.1561737060547,
+          "angle": 270,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 59,
+          "x": 120,
+          "y": 48,
+          "z": 166.2615203857422,
+          "angle": 270,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 59,
+          "x": 174,
+          "y": 211,
+          "z": 169.49996948242188,
+          "angle": 450,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 59,
+          "x": 174,
+          "y": 208,
+          "z": 169.49998474121094,
+          "angle": 450,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 60,
+          "x": 175,
+          "y": 215,
+          "z": 169.49996948242188,
+          "angle": 360,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 60,
+          "x": 171,
+          "y": 210,
+          "z": 169.49998474121094,
+          "angle": 450,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 59,
+          "x": 177,
+          "y": 212,
+          "z": 169.49996948242188,
+          "angle": 390,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 59,
+          "x": 178,
+          "y": 208,
+          "z": 169.49998474121094,
+          "angle": 420,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 59,
+          "x": 178,
+          "y": 210,
+          "z": 169.50003051757812,
+          "angle": 270,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 60,
+          "x": 203,
+          "y": 235,
+          "z": 169.36856079101562,
+          "angle": 360,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 60,
+          "x": 199,
+          "y": 231,
+          "z": 169.49996948242188,
+          "angle": 450,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 59,
+          "x": 204,
+          "y": 232,
+          "z": 169.4999542236328,
+          "angle": 420,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 59,
+          "x": 205,
+          "y": 229,
+          "z": 169.7589111328125,
+          "angle": 540,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 59,
+          "x": 201,
+          "y": 230,
+          "z": 169.50003051757812,
+          "angle": 510,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 59,
+          "x": 226,
+          "y": 127,
+          "z": 169.6099395751953,
+          "angle": 450,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 59,
+          "x": 225,
+          "y": 124,
+          "z": 168.02734375,
+          "angle": 510,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 59,
+          "x": 227,
+          "y": 125,
+          "z": 169.27862548828125,
+          "angle": 600,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 59,
+          "x": 224,
+          "y": 126,
+          "z": 164.97618103027344,
+          "angle": 420,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 60,
+          "x": 226,
+          "y": 130,
+          "z": 169.49996948242188,
+          "angle": 360,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 59,
+          "x": 248,
+          "y": 143,
+          "z": 174.20474243164062,
+          "angle": 450,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 59,
+          "x": 245,
+          "y": 143,
+          "z": 170.6761932373047,
+          "angle": 450,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 59,
+          "x": 244,
+          "y": 145,
+          "z": 169.50003051757812,
+          "angle": 450,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 59,
+          "x": 247,
+          "y": 146,
+          "z": 171.6022186279297,
+          "angle": 450,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 59,
+          "x": 248,
+          "y": 145,
+          "z": 169.49996948242188,
+          "angle": 450,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        }
+      ]
+    },
+    {
+      "map": 2,
+      "points": [
+        {
+          "type": 25,
+          "x": 14,
+          "y": 33,
+          "z": 165.00003051757812,
+          "angle": 360,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 73,
+          "x": 11,
+          "y": 75,
+          "z": 169.56857299804688,
+          "angle": 450,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 73,
+          "x": 13,
+          "y": 75,
+          "z": 171.05145263671875,
+          "angle": 450,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 73,
+          "x": 11,
+          "y": 79,
+          "z": 174.14840698242188,
+          "angle": 450,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 73,
+          "x": 13,
+          "y": 77,
+          "z": 171.63661193847656,
+          "angle": 450,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 91,
+          "x": 29,
+          "y": 27,
+          "z": 167.82467651367188,
+          "angle": 2520,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 91,
+          "x": 26,
+          "y": 45,
+          "z": 178.43943786621094,
+          "angle": 2520,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 91,
+          "x": 30,
+          "y": 45,
+          "z": 167.5515899658203,
+          "angle": 2520,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 91,
+          "x": 18,
+          "y": 45,
+          "z": 165,
+          "angle": 360,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 25,
+          "x": 22,
+          "y": 33,
+          "z": 165.0000457763672,
+          "angle": 1440,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 25,
+          "x": 18,
+          "y": 33,
+          "z": 165.0000457763672,
+          "angle": 1440,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 91,
+          "x": 45,
+          "y": 29,
+          "z": 172.9191436767578,
+          "angle": 360,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 73,
+          "x": 107,
+          "y": 244,
+          "z": 94.0011215209961,
+          "angle": 630,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 73,
+          "x": 109,
+          "y": 244,
+          "z": 99.27876281738281,
+          "angle": 630,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 73,
+          "x": 110,
+          "y": 241,
+          "z": 129.263671875,
+          "angle": 630,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 73,
+          "x": 106,
+          "y": 241,
+          "z": 126.67913818359375,
+          "angle": 630,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 73,
+          "x": 136,
+          "y": 201,
+          "z": 184.42127990722656,
+          "angle": 450,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 73,
+          "x": 138,
+          "y": 202,
+          "z": 188.3063507080078,
+          "angle": 450,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 73,
+          "x": 138,
+          "y": 199,
+          "z": 187.1321563720703,
+          "angle": 510,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 91,
+          "x": 172,
+          "y": 44,
+          "z": 220.4500274658203,
+          "angle": 2520,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 91,
+          "x": 173,
+          "y": 44,
+          "z": 220.87643432617188,
+          "angle": 2520,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 91,
+          "x": 174,
+          "y": 44,
+          "z": 204.37445068359375,
+          "angle": 2520,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 91,
+          "x": 175,
+          "y": 44,
+          "z": 191.473388671875,
+          "angle": 2520,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 73,
+          "x": 173,
+          "y": 190,
+          "z": 143.91323852539062,
+          "angle": 510,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 73,
+          "x": 173,
+          "y": 193,
+          "z": 143.5366973876953,
+          "angle": 510,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 73,
+          "x": 175,
+          "y": 192,
+          "z": 149.7312469482422,
+          "angle": 510,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 73,
+          "x": 163,
+          "y": 235,
+          "z": 180.50328063964844,
+          "angle": 420,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 73,
+          "x": 160,
+          "y": 234,
+          "z": 160.68939208984375,
+          "angle": 690,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 73,
+          "x": 160,
+          "y": 232,
+          "z": 145.42318725585938,
+          "angle": 930,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 73,
+          "x": 163,
+          "y": 231,
+          "z": 190.21014404296875,
+          "angle": 300,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 73,
+          "x": 165,
+          "y": 233,
+          "z": 239.44418334960938,
+          "angle": 630,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 91,
+          "x": 182,
+          "y": 28,
+          "z": 174.87200927734375,
+          "angle": 2640,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 91,
+          "x": 183,
+          "y": 27,
+          "z": 173.6334991455078,
+          "angle": 2640,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 91,
+          "x": 183,
+          "y": 26,
+          "z": 167.13525390625,
+          "angle": 2640,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 91,
+          "x": 184,
+          "y": 25,
+          "z": 167.23837280273438,
+          "angle": 2640,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 91,
+          "x": 177,
+          "y": 44,
+          "z": 169.678466796875,
+          "angle": 2520,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 91,
+          "x": 181,
+          "y": 44,
+          "z": 169.93246459960938,
+          "angle": 2520,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 91,
+          "x": 182,
+          "y": 44,
+          "z": 171.40625,
+          "angle": 2520,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 91,
+          "x": 183,
+          "y": 44,
+          "z": 170.56568908691406,
+          "angle": 2520,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 91,
+          "x": 176,
+          "y": 44,
+          "z": 177.07989501953125,
+          "angle": 2520,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 73,
+          "x": 187,
+          "y": 153,
+          "z": 173.13706970214844,
+          "angle": 300,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 73,
+          "x": 189,
+          "y": 155,
+          "z": 173.9736328125,
+          "angle": 300,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 73,
+          "x": 190,
+          "y": 151,
+          "z": 171.1430206298828,
+          "angle": 300,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 22,
+          "x": 207,
+          "y": 14,
+          "z": 170.90805053710938,
+          "angle": 1170,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 22,
+          "x": 206,
+          "y": 17,
+          "z": 169.31619262695312,
+          "angle": 1080,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 22,
+          "x": 206,
+          "y": 19,
+          "z": 169.2825927734375,
+          "angle": 1080,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 22,
+          "x": 206,
+          "y": 21,
+          "z": 165.50143432617188,
+          "angle": 1080,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 22,
+          "x": 206,
+          "y": 23,
+          "z": 169.49998474121094,
+          "angle": 1080,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 40,
+          "x": 205,
+          "y": 29,
+          "z": 170.49986267089844,
+          "angle": 3870,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 55,
+          "x": 204,
+          "y": 26,
+          "z": 168.7634735107422,
+          "angle": 810,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 55,
+          "x": 204,
+          "y": 25,
+          "z": 168.6066131591797,
+          "angle": 810,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 22,
+          "x": 204,
+          "y": 18,
+          "z": 169.50001525878906,
+          "angle": 1170,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 22,
+          "x": 204,
+          "y": 17,
+          "z": 169.64584350585938,
+          "angle": 1170,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 22,
+          "x": 204,
+          "y": 16,
+          "z": 170.76873779296875,
+          "angle": 1170,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 25,
+          "x": 208,
+          "y": 23,
+          "z": 169.33934020996094,
+          "angle": 1440,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 25,
+          "x": 208,
+          "y": 17,
+          "z": 169.5,
+          "angle": 1080,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 25,
+          "x": 208,
+          "y": 19,
+          "z": 169.50001525878906,
+          "angle": 1080,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 25,
+          "x": 208,
+          "y": 21,
+          "z": 166.9887237548828,
+          "angle": 1440,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 91,
+          "x": 195,
+          "y": 55,
+          "z": 170.344482421875,
+          "angle": 360,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 91,
+          "x": 198,
+          "y": 56,
+          "z": 169.50001525878906,
+          "angle": 360,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 91,
+          "x": 199,
+          "y": 56,
+          "z": 169.50003051757812,
+          "angle": 360,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 45,
+          "x": 203,
+          "y": 56,
+          "z": 169.5000457763672,
+          "angle": 1260,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 73,
+          "x": 199,
+          "y": 87,
+          "z": 161.38658142089844,
+          "angle": 450,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 73,
+          "x": 201,
+          "y": 87,
+          "z": 160.49996948242188,
+          "angle": 450,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 73,
+          "x": 201,
+          "y": 89,
+          "z": 158.99996948242188,
+          "angle": 450,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 91,
+          "x": 217,
+          "y": 10,
+          "z": 170.52687072753906,
+          "angle": 2610,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 91,
+          "x": 217,
+          "y": 9,
+          "z": 169.81549072265625,
+          "angle": 2610,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 91,
+          "x": 218,
+          "y": 7,
+          "z": 172.54092407226562,
+          "angle": 2640,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 22,
+          "x": 213,
+          "y": 23,
+          "z": 169.88485717773438,
+          "angle": 1080,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 22,
+          "x": 213,
+          "y": 21,
+          "z": 169.84576416015625,
+          "angle": 1080,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 22,
+          "x": 213,
+          "y": 19,
+          "z": 169.49998474121094,
+          "angle": 1080,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 22,
+          "x": 213,
+          "y": 17,
+          "z": 167.99063110351562,
+          "angle": 1080,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 91,
+          "x": 214,
+          "y": 31,
+          "z": 169.50003051757812,
+          "angle": 2520,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 25,
+          "x": 212,
+          "y": 17,
+          "z": 168.63563537597656,
+          "angle": 1440,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 25,
+          "x": 212,
+          "y": 19,
+          "z": 169.50001525878906,
+          "angle": 1080,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 25,
+          "x": 212,
+          "y": 21,
+          "z": 169.86143493652344,
+          "angle": 1080,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 25,
+          "x": 212,
+          "y": 23,
+          "z": 171.15599060058594,
+          "angle": 1080,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 91,
+          "x": 220,
+          "y": 67,
+          "z": 174.8095703125,
+          "angle": 2610,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 91,
+          "x": 210,
+          "y": 65,
+          "z": 186.89540100097656,
+          "angle": 2520,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 91,
+          "x": 218,
+          "y": 74,
+          "z": 185.90753173828125,
+          "angle": 2610,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 91,
+          "x": 218,
+          "y": 73,
+          "z": 179.98260498046875,
+          "angle": 2610,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 91,
+          "x": 218,
+          "y": 72,
+          "z": 176.98709106445312,
+          "angle": 2610,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 91,
+          "x": 218,
+          "y": 71,
+          "z": 172.2657928466797,
+          "angle": 2610,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 91,
+          "x": 218,
+          "y": 70,
+          "z": 175.94552612304688,
+          "angle": 2610,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 91,
+          "x": 218,
+          "y": 75,
+          "z": 187.38221740722656,
+          "angle": 450,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 91,
+          "x": 222,
+          "y": 206,
+          "z": 163.5666961669922,
+          "angle": 2610,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 22,
+          "x": 223,
+          "y": 234,
+          "z": 165.00001525878906,
+          "angle": 3330,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 22,
+          "x": 223,
+          "y": 232,
+          "z": 164.99998474121094,
+          "angle": 3330,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 22,
+          "x": 223,
+          "y": 230,
+          "z": 164.99996948242188,
+          "angle": 3330,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 22,
+          "x": 223,
+          "y": 228,
+          "z": 165.00003051757812,
+          "angle": 3330,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 25,
+          "x": 221,
+          "y": 234,
+          "z": 164.99998474121094,
+          "angle": 3690,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 25,
+          "x": 221,
+          "y": 229,
+          "z": 165.00001525878906,
+          "angle": 3690,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 91,
+          "x": 218,
+          "y": 230,
+          "z": 164.99996948242188,
+          "angle": 2610,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 91,
+          "x": 218,
+          "y": 236,
+          "z": 165,
+          "angle": 2610,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 91,
+          "x": 219,
+          "y": 238,
+          "z": 164.66757202148438,
+          "angle": 2520,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 91,
+          "x": 218,
+          "y": 228,
+          "z": 164.99996948242188,
+          "angle": 2610,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 91,
+          "x": 218,
+          "y": 232,
+          "z": 164.99998474121094,
+          "angle": 2610,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 91,
+          "x": 222,
+          "y": 238,
+          "z": 165.00003051757812,
+          "angle": 2520,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 40,
+          "x": 229,
+          "y": 27,
+          "z": 169.5,
+          "angle": 3330,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 40,
+          "x": 233,
+          "y": 23,
+          "z": 169.49998474121094,
+          "angle": 3330,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 40,
+          "x": 233,
+          "y": 24,
+          "z": 169.49998474121094,
+          "angle": 3330,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 40,
+          "x": 233,
+          "y": 27,
+          "z": 169.49998474121094,
+          "angle": 3330,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 40,
+          "x": 229,
+          "y": 26,
+          "z": 169.5,
+          "angle": 3330,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 40,
+          "x": 235,
+          "y": 27,
+          "z": 169.5,
+          "angle": 3510,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 40,
+          "x": 235,
+          "y": 24,
+          "z": 169.49998474121094,
+          "angle": 3510,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 40,
+          "x": 235,
+          "y": 23,
+          "z": 169.50001525878906,
+          "angle": 3510,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 40,
+          "x": 235,
+          "y": 26,
+          "z": 169.49998474121094,
+          "angle": 3510,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 40,
+          "x": 233,
+          "y": 26,
+          "z": 169.49998474121094,
+          "angle": 3690,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 40,
+          "x": 230,
+          "y": 25,
+          "z": 169.50003051757812,
+          "angle": 3420,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 91,
+          "x": 228,
+          "y": 27,
+          "z": 169.50001525878906,
+          "angle": 2520,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 40,
+          "x": 225,
+          "y": 42,
+          "z": 169.4999237060547,
+          "angle": 3690,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 73,
+          "x": 238,
+          "y": 192,
+          "z": 202.07736206054688,
+          "angle": 300,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 73,
+          "x": 239,
+          "y": 196,
+          "z": 170.3622283935547,
+          "angle": 300,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 73,
+          "x": 236,
+          "y": 194,
+          "z": 147.05482482910156,
+          "angle": 300,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 91,
+          "x": 224,
+          "y": 223,
+          "z": 165.55120849609375,
+          "angle": 2610,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 22,
+          "x": 228,
+          "y": 234,
+          "z": 165.0000457763672,
+          "angle": 3510,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 22,
+          "x": 228,
+          "y": 232,
+          "z": 164.99996948242188,
+          "angle": 3510,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 22,
+          "x": 228,
+          "y": 230,
+          "z": 165.00003051757812,
+          "angle": 3510,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 22,
+          "x": 228,
+          "y": 228,
+          "z": 164.99996948242188,
+          "angle": 3510,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 22,
+          "x": 225,
+          "y": 237,
+          "z": 221.87107849121094,
+          "angle": 3600,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 22,
+          "x": 226,
+          "y": 237,
+          "z": 219.90011596679688,
+          "angle": 3600,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 25,
+          "x": 230,
+          "y": 229,
+          "z": 165.00003051757812,
+          "angle": 3870,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 25,
+          "x": 230,
+          "y": 234,
+          "z": 165,
+          "angle": 3870,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 91,
+          "x": 229,
+          "y": 238,
+          "z": 166.26380920410156,
+          "angle": 2520,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 91,
+          "x": 231,
+          "y": 238,
+          "z": 164.6785888671875,
+          "angle": 2520,
+          "kind": "lean",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 73,
+          "x": 243,
+          "y": 83,
+          "z": 224.8297576904297,
+          "angle": 450,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 73,
+          "x": 244,
+          "y": 81,
+          "z": 199.52569580078125,
+          "angle": 450,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 73,
+          "x": 241,
+          "y": 81,
+          "z": 194.14974975585938,
+          "angle": 450,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 73,
+          "x": 240,
+          "y": 194,
+          "z": 155.01539611816406,
+          "angle": 300,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        }
+      ]
+    },
+    {
+      "map": 3,
+      "points": [
+        {
+          "type": 8,
+          "x": 7,
+          "y": 13,
+          "z": 169.49996948242188,
+          "angle": 1170,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 8,
+          "x": 8,
+          "y": 14,
+          "z": 169.49996948242188,
+          "angle": 1170,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 8,
+          "x": 9,
+          "y": 27,
+          "z": 169.50003051757812,
+          "angle": 2760,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 8,
+          "x": 8,
+          "y": 25,
+          "z": 169.50001525878906,
+          "angle": 2760,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 8,
+          "x": 20,
+          "y": 15,
+          "z": 170.63360595703125,
+          "angle": 2760,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 8,
+          "x": 20,
+          "y": 13,
+          "z": 179.5537567138672,
+          "angle": 2760,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 8,
+          "x": 20,
+          "y": 26,
+          "z": 169.50003051757812,
+          "angle": 2760,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 8,
+          "x": 19,
+          "y": 25,
+          "z": 169.50001525878906,
+          "angle": 2760,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 38,
+          "x": 172,
+          "y": 91,
+          "z": 171.102783203125,
+          "angle": 30,
+          "kind": "healing",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 38,
+          "x": 170,
+          "y": 89,
+          "z": 169.49996948242188,
+          "angle": 90,
+          "kind": "healing",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 38,
+          "x": 172,
+          "y": 89,
+          "z": 169.50003051757812,
+          "angle": 30,
+          "kind": "healing",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 38,
+          "x": 168,
+          "y": 88,
+          "z": 169.50001525878906,
+          "angle": 30,
+          "kind": "healing",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 38,
+          "x": 168,
+          "y": 86,
+          "z": 169.49998474121094,
+          "angle": 90,
+          "kind": "healing",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 38,
+          "x": 169,
+          "y": 87,
+          "z": 169.5,
+          "angle": 30,
+          "kind": "healing",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 38,
+          "x": 170,
+          "y": 107,
+          "z": 169.50001525878906,
+          "angle": 30,
+          "kind": "healing",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 38,
+          "x": 172,
+          "y": 107,
+          "z": 169.5,
+          "angle": 30,
+          "kind": "healing",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 38,
+          "x": 170,
+          "y": 105,
+          "z": 169.5,
+          "angle": 90,
+          "kind": "healing",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 38,
+          "x": 172,
+          "y": 105,
+          "z": 169.5000457763672,
+          "angle": 30,
+          "kind": "healing",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 38,
+          "x": 171,
+          "y": 104,
+          "z": 169.49996948242188,
+          "angle": 30,
+          "kind": "healing",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 38,
+          "x": 169,
+          "y": 103,
+          "z": 169.77642822265625,
+          "angle": 90,
+          "kind": "healing",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 38,
+          "x": 170,
+          "y": 101,
+          "z": 169.49996948242188,
+          "angle": 60,
+          "kind": "healing",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 38,
+          "x": 172,
+          "y": 102,
+          "z": 169.49996948242188,
+          "angle": 0,
+          "kind": "healing",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 38,
+          "x": 163,
+          "y": 98,
+          "z": 169.50001525878906,
+          "angle": 60,
+          "kind": "healing",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 38,
+          "x": 165,
+          "y": 99,
+          "z": 169.50003051757812,
+          "angle": 0,
+          "kind": "healing",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 38,
+          "x": 165,
+          "y": 97,
+          "z": 170.815673828125,
+          "angle": 90,
+          "kind": "healing",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 38,
+          "x": 166,
+          "y": 98,
+          "z": 169.5000457763672,
+          "angle": 30,
+          "kind": "healing",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 8,
+          "x": 174,
+          "y": 124,
+          "z": 169.50001525878906,
+          "angle": 180,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 8,
+          "x": 174,
+          "y": 123,
+          "z": 169.50001525878906,
+          "angle": 60,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 38,
+          "x": 190,
+          "y": 108,
+          "z": 169.50001525878906,
+          "angle": 90,
+          "kind": "healing",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 38,
+          "x": 191,
+          "y": 106,
+          "z": 169.49998474121094,
+          "angle": 60,
+          "kind": "healing",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 38,
+          "x": 187,
+          "y": 107,
+          "z": 169.50003051757812,
+          "angle": 0,
+          "kind": "healing",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 38,
+          "x": 186,
+          "y": 106,
+          "z": 169.49998474121094,
+          "angle": 90,
+          "kind": "healing",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 38,
+          "x": 188,
+          "y": 106,
+          "z": 169.49996948242188,
+          "angle": 0,
+          "kind": "healing",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 38,
+          "x": 187,
+          "y": 105,
+          "z": 169.50003051757812,
+          "angle": 60,
+          "kind": "healing",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 38,
+          "x": 184,
+          "y": 105,
+          "z": 169.5,
+          "angle": 30,
+          "kind": "healing",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 38,
+          "x": 183,
+          "y": 104,
+          "z": 169.5,
+          "angle": 90,
+          "kind": "healing",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 38,
+          "x": 184,
+          "y": 103,
+          "z": 169.5,
+          "angle": 30,
+          "kind": "healing",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 38,
+          "x": 185,
+          "y": 104,
+          "z": 169.5,
+          "angle": 0,
+          "kind": "healing",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 38,
+          "x": 178,
+          "y": 108,
+          "z": 169.5,
+          "angle": 0,
+          "kind": "healing",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 38,
+          "x": 176,
+          "y": 108,
+          "z": 169.5,
+          "angle": 60,
+          "kind": "healing",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 38,
+          "x": 176,
+          "y": 106,
+          "z": 169.50001525878906,
+          "angle": 90,
+          "kind": "healing",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 38,
+          "x": 178,
+          "y": 106,
+          "z": 171.1786651611328,
+          "angle": 30,
+          "kind": "healing",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 8,
+          "x": 180,
+          "y": 123,
+          "z": 169.50003051757812,
+          "angle": 180,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 8,
+          "x": 180,
+          "y": 126,
+          "z": 169.50001525878906,
+          "angle": 180,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 8,
+          "x": 179,
+          "y": 125,
+          "z": 169.49998474121094,
+          "angle": 60,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 8,
+          "x": 176,
+          "y": 125,
+          "z": 169.50003051757812,
+          "angle": 120,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 8,
+          "x": 176,
+          "y": 119,
+          "z": 169.5,
+          "angle": 330,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 8,
+          "x": 176,
+          "y": 121,
+          "z": 169.5000762939453,
+          "angle": 360,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 38,
+          "x": 181,
+          "y": 116,
+          "z": 173.07232666015625,
+          "angle": 60,
+          "kind": "healing",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 38,
+          "x": 182,
+          "y": 114,
+          "z": 176.38963317871094,
+          "angle": 90,
+          "kind": "healing",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 38,
+          "x": 184,
+          "y": 114,
+          "z": 169.50001525878906,
+          "angle": 30,
+          "kind": "healing",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 38,
+          "x": 184,
+          "y": 125,
+          "z": 169.5,
+          "angle": 90,
+          "kind": "healing",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 38,
+          "x": 187,
+          "y": 125,
+          "z": 169.49996948242188,
+          "angle": 30,
+          "kind": "healing",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 38,
+          "x": 186,
+          "y": 127,
+          "z": 172.5572509765625,
+          "angle": 0,
+          "kind": "healing",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 38,
+          "x": 188,
+          "y": 127,
+          "z": 178.33453369140625,
+          "angle": 0,
+          "kind": "healing",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 38,
+          "x": 184,
+          "y": 127,
+          "z": 176.64852905273438,
+          "angle": 60,
+          "kind": "healing",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 38,
+          "x": 193,
+          "y": 111,
+          "z": 169.49996948242188,
+          "angle": 60,
+          "kind": "healing",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 38,
+          "x": 194,
+          "y": 110,
+          "z": 169.49998474121094,
+          "angle": 150,
+          "kind": "healing",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 38,
+          "x": 196,
+          "y": 110,
+          "z": 169.50001525878906,
+          "angle": 0,
+          "kind": "healing",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 38,
+          "x": 192,
+          "y": 109,
+          "z": 169.5000457763672,
+          "angle": 0,
+          "kind": "healing",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 38,
+          "x": 192,
+          "y": 107,
+          "z": 169.49996948242188,
+          "angle": 0,
+          "kind": "healing",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 38,
+          "x": 201,
+          "y": 108,
+          "z": 169.4999542236328,
+          "angle": 0,
+          "kind": "healing",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 38,
+          "x": 200,
+          "y": 106,
+          "z": 175.13204956054688,
+          "angle": 90,
+          "kind": "healing",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 38,
+          "x": 197,
+          "y": 116,
+          "z": 169.5,
+          "angle": 60,
+          "kind": "healing",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 38,
+          "x": 196,
+          "y": 114,
+          "z": 169.49996948242188,
+          "angle": 60,
+          "kind": "healing",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 38,
+          "x": 198,
+          "y": 115,
+          "z": 169.49996948242188,
+          "angle": 0,
+          "kind": "healing",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 38,
+          "x": 197,
+          "y": 113,
+          "z": 169.49996948242188,
+          "angle": 90,
+          "kind": "healing",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 38,
+          "x": 194,
+          "y": 112,
+          "z": 169.49998474121094,
+          "angle": 30,
+          "kind": "healing",
+          "cursor": "lean",
+          "faceObject": true
+        },
+        {
+          "type": 38,
+          "x": 196,
+          "y": 112,
+          "z": 169.49998474121094,
+          "angle": -30,
+          "kind": "healing",
+          "cursor": "lean",
+          "faceObject": true
+        }
+      ]
+    },
+    {
+      "map": 7,
+      "points": [
+        {
+          "type": 39,
+          "x": 15,
+          "y": 23,
+          "z": 223.53089904785156,
+          "angle": 360,
+          "kind": "lean",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 39,
+          "x": 28,
+          "y": 8,
+          "z": 235.11587524414062,
+          "angle": 180,
+          "kind": "lean",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 39,
+          "x": 16,
+          "y": 24,
+          "z": 225.56529235839844,
+          "angle": 90,
+          "kind": "lean",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 39,
+          "x": 23,
+          "y": 26,
+          "z": 229.3953399658203,
+          "angle": 0,
+          "kind": "lean",
+          "cursor": "sit",
+          "faceObject": true
+        }
+      ]
+    },
+    {
+      "map": 8,
+      "points": [
+        {
+          "type": 78,
+          "x": 39,
+          "y": 54,
+          "z": 171.63331604003906,
+          "angle": -360,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 78,
+          "x": 39,
+          "y": 56,
+          "z": 170.9525604248047,
+          "angle": -360,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 78,
+          "x": 42,
+          "y": 53,
+          "z": 171.63331604003906,
+          "angle": -180,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 78,
+          "x": 43,
+          "y": 55,
+          "z": 173.55616760253906,
+          "angle": -180,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 78,
+          "x": 189,
+          "y": 74,
+          "z": 199.44894409179688,
+          "angle": -360,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 78,
+          "x": 190,
+          "y": 71,
+          "z": 197.94888305664062,
+          "angle": -360,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 78,
+          "x": 190,
+          "y": 75,
+          "z": 200.7014617919922,
+          "angle": -360,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 78,
+          "x": 205,
+          "y": 60,
+          "z": 201.2746124267578,
+          "angle": -180,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 78,
+          "x": 206,
+          "y": 61,
+          "z": 193.15724182128906,
+          "angle": -180,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 78,
+          "x": 206,
+          "y": 63,
+          "z": 201.94728088378906,
+          "angle": -180,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 78,
+          "x": 192,
+          "y": 76,
+          "z": 202.53817749023438,
+          "angle": -540,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 78,
+          "x": 194,
+          "y": 74,
+          "z": 201.772705078125,
+          "angle": -540,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 78,
+          "x": 204,
+          "y": 64,
+          "z": 209.29078674316406,
+          "angle": -180,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        }
+      ]
+    },
+    {
+      "map": 30,
+      "points": [
+        {
+          "type": 84,
+          "x": 173,
+          "y": 201,
+          "z": 1200,
+          "angle": 90,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 84,
+          "x": 173,
+          "y": 206,
+          "z": 1200,
+          "angle": 90,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 84,
+          "x": 170,
+          "y": 201,
+          "z": 1200,
+          "angle": 90,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 84,
+          "x": 170,
+          "y": 206,
+          "z": 1200,
+          "angle": 90,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 84,
+          "x": 170,
+          "y": 207,
+          "z": 1200,
+          "angle": 90,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 84,
+          "x": 170,
+          "y": 205,
+          "z": 1200,
+          "angle": 90,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 84,
+          "x": 173,
+          "y": 205,
+          "z": 1200,
+          "angle": 90,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 84,
+          "x": 173,
+          "y": 207,
+          "z": 1200,
+          "angle": 90,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 84,
+          "x": 170,
+          "y": 202,
+          "z": 1200,
+          "angle": 90,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 84,
+          "x": 170,
+          "y": 200,
+          "z": 1200,
+          "angle": 90,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 84,
+          "x": 173,
+          "y": 202,
+          "z": 1200,
+          "angle": 90,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 84,
+          "x": 173,
+          "y": 200,
+          "z": 1200,
+          "angle": 90,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 84,
+          "x": 173,
+          "y": 211,
+          "z": 1200,
+          "angle": 90,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 84,
+          "x": 170,
+          "y": 211,
+          "z": 1200,
+          "angle": 90,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 84,
+          "x": 173,
+          "y": 212,
+          "z": 1200,
+          "angle": 90,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 84,
+          "x": 173,
+          "y": 210,
+          "z": 1200,
+          "angle": 90,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 84,
+          "x": 170,
+          "y": 212,
+          "z": 1200,
+          "angle": 90,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 84,
+          "x": 170,
+          "y": 210,
+          "z": 1200,
+          "angle": 90,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 84,
+          "x": 181,
+          "y": 206,
+          "z": 1200,
+          "angle": -90,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 84,
+          "x": 181,
+          "y": 201,
+          "z": 1200,
+          "angle": -90,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 84,
+          "x": 178,
+          "y": 201,
+          "z": 1200,
+          "angle": -90,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 84,
+          "x": 178,
+          "y": 200,
+          "z": 1200,
+          "angle": -90,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 84,
+          "x": 178,
+          "y": 202,
+          "z": 1200,
+          "angle": -90,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 84,
+          "x": 181,
+          "y": 202,
+          "z": 1200,
+          "angle": -90,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 84,
+          "x": 181,
+          "y": 200,
+          "z": 1200,
+          "angle": -90,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 84,
+          "x": 178,
+          "y": 206,
+          "z": 1200,
+          "angle": -90,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 84,
+          "x": 178,
+          "y": 206,
+          "z": 1200,
+          "angle": -90,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 84,
+          "x": 178,
+          "y": 205,
+          "z": 1200,
+          "angle": -90,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 84,
+          "x": 178,
+          "y": 207,
+          "z": 1200,
+          "angle": -90,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 84,
+          "x": 181,
+          "y": 207,
+          "z": 1200,
+          "angle": -90,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 84,
+          "x": 181,
+          "y": 205,
+          "z": 1200,
+          "angle": -90,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 77,
+          "x": 176,
+          "y": 216,
+          "z": 1200,
+          "angle": 0,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true,
+          "restriction": "guildMaster"
+        },
+        {
+          "type": 84,
+          "x": 178,
+          "y": 211,
+          "z": 1200,
+          "angle": -90,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 84,
+          "x": 181,
+          "y": 211,
+          "z": 1200,
+          "angle": -90,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 84,
+          "x": 178,
+          "y": 212,
+          "z": 1200,
+          "angle": -90,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 84,
+          "x": 178,
+          "y": 210,
+          "z": 1200,
+          "angle": -90,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 84,
+          "x": 181,
+          "y": 212,
+          "z": 1200,
+          "angle": -90,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 84,
+          "x": 181,
+          "y": 210,
+          "z": 1200,
+          "angle": -90,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        }
+      ]
+    },
+    {
+      "map": 38,
+      "points": [
+        {
+          "type": 3,
+          "x": 76,
+          "y": 108,
+          "z": 167.499755859375,
+          "angle": 0,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 3,
+          "x": 73,
+          "y": 108,
+          "z": 167.49978637695312,
+          "angle": 0,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 3,
+          "x": 79,
+          "y": 108,
+          "z": 167.4996337890625,
+          "angle": 0,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 3,
+          "x": 73,
+          "y": 103,
+          "z": 167.4998016357422,
+          "angle": 0,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 3,
+          "x": 79,
+          "y": 103,
+          "z": 167.49984741210938,
+          "angle": 0,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 3,
+          "x": 76,
+          "y": 103,
+          "z": 167.49989318847656,
+          "angle": 0,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 3,
+          "x": 82,
+          "y": 108,
+          "z": 167.4996337890625,
+          "angle": 0,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 3,
+          "x": 82,
+          "y": 103,
+          "z": 167.4999237060547,
+          "angle": 0,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        },
+        {
+          "type": 3,
+          "x": 86,
+          "y": 120,
+          "z": 24.499908447265625,
+          "angle": 90,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": false
+        }
+      ]
+    },
+    {
+      "map": 51,
+      "points": [
+        {
+          "type": 103,
+          "x": 26,
+          "y": 200,
+          "z": 169.5001220703125,
+          "angle": 125,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 103,
+          "x": 31,
+          "y": 195,
+          "z": 169.50001525878906,
+          "angle": 138,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 103,
+          "x": 23,
+          "y": 204,
+          "z": 169.5001220703125,
+          "angle": 122,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 103,
+          "x": 19,
+          "y": 215,
+          "z": 161.50010681152344,
+          "angle": 96,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 103,
+          "x": 26,
+          "y": 216,
+          "z": 161.50010681152344,
+          "angle": 271,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 103,
+          "x": 26,
+          "y": 214,
+          "z": 161.50013732910156,
+          "angle": 271,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 103,
+          "x": 27,
+          "y": 212,
+          "z": 161.50009155273438,
+          "angle": 271,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 103,
+          "x": 27,
+          "y": 210,
+          "z": 161.50009155273438,
+          "angle": 271,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 103,
+          "x": 24,
+          "y": 235,
+          "z": 169.50009155273438,
+          "angle": 60,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 103,
+          "x": 31,
+          "y": 239,
+          "z": 166.5001220703125,
+          "angle": 19,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 103,
+          "x": 44,
+          "y": 198,
+          "z": 169.49990844726562,
+          "angle": 4,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 103,
+          "x": 42,
+          "y": 198,
+          "z": 169.49989318847656,
+          "angle": -3,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 103,
+          "x": 46,
+          "y": 245,
+          "z": 164.86146545410156,
+          "angle": 4,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 103,
+          "x": 66,
+          "y": 221,
+          "z": 169.49989318847656,
+          "angle": 88,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 103,
+          "x": 66,
+          "y": 223,
+          "z": 169.5,
+          "angle": 112,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 103,
+          "x": 66,
+          "y": 216,
+          "z": 169.4999542236328,
+          "angle": 88,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 103,
+          "x": 66,
+          "y": 213,
+          "z": 169.49986267089844,
+          "angle": 80,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 103,
+          "x": 65,
+          "y": 225,
+          "z": 169.4999237060547,
+          "angle": 120,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        },
+        {
+          "type": 103,
+          "x": 65,
+          "y": 227,
+          "z": 169.50001525878906,
+          "angle": 120,
+          "kind": "sit",
+          "cursor": "sit",
+          "faceObject": true
+        }
+      ]
+    }
+  ]
+}

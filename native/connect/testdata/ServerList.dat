@@ -1,0 +1,3 @@
+// Fixture for original CMemScript/CServerList; no GameServer is implied to exist.
+0 "EX603ENG" "127.0.0.1" 55901 1
+end

@@ -1,0 +1,8435 @@
+{
+  "scope": "Actual WASM sampling of 3 points per retained clip; finite coordinates and death terminal hold, not visual/effect parity",
+  "uniqueModels": 207,
+  "results": [
+    {
+      "type": 0,
+      "model": "Monster/Monster01.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 20,
+          "maxAbsUnits": 228.68
+        },
+        {
+          "action": 2,
+          "frames": 7,
+          "maxAbsUnits": 222.79
+        },
+        {
+          "action": 3,
+          "frames": 9,
+          "maxAbsUnits": 215.15
+        },
+        {
+          "action": 4,
+          "frames": 9,
+          "maxAbsUnits": 198.1
+        },
+        {
+          "action": 5,
+          "frames": 13,
+          "maxAbsUnits": 238.01
+        },
+        {
+          "action": 6,
+          "frames": 9,
+          "maxAbsUnits": 231.43
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 1,
+      "model": "Monster/Monster02.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 7,
+          "maxAbsUnits": 235.49
+        },
+        {
+          "action": 2,
+          "frames": 7,
+          "maxAbsUnits": 234.21
+        },
+        {
+          "action": 3,
+          "frames": 9,
+          "maxAbsUnits": 227.97
+        },
+        {
+          "action": 4,
+          "frames": 9,
+          "maxAbsUnits": 227.97
+        },
+        {
+          "action": 5,
+          "frames": 13,
+          "maxAbsUnits": 251.77
+        },
+        {
+          "action": 6,
+          "frames": 13,
+          "maxAbsUnits": 330.2
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 2,
+      "model": "Monster/Monster03.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 6,
+          "maxAbsUnits": 181.85
+        },
+        {
+          "action": 2,
+          "frames": 7,
+          "maxAbsUnits": 163.85
+        },
+        {
+          "action": 3,
+          "frames": 7,
+          "maxAbsUnits": 132.82
+        },
+        {
+          "action": 4,
+          "frames": 7,
+          "maxAbsUnits": 183.51
+        },
+        {
+          "action": 5,
+          "frames": 7,
+          "maxAbsUnits": 215.01
+        },
+        {
+          "action": 6,
+          "frames": 7,
+          "maxAbsUnits": 206.51
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 3,
+      "model": "Monster/Monster10.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 6,
+          "maxAbsUnits": 140.58
+        },
+        {
+          "action": 2,
+          "frames": 5,
+          "maxAbsUnits": 142.83
+        },
+        {
+          "action": 3,
+          "frames": 7,
+          "maxAbsUnits": 147.72
+        },
+        {
+          "action": 4,
+          "frames": 7,
+          "maxAbsUnits": 139.83
+        },
+        {
+          "action": 5,
+          "frames": 7,
+          "maxAbsUnits": 138.85
+        },
+        {
+          "action": 6,
+          "frames": 13,
+          "maxAbsUnits": 146.57
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 4,
+      "model": "Monster/Monster01.bmd",
+      "sharedWith": 0
+    },
+    {
+      "type": 5,
+      "model": "Monster/Monster02.bmd",
+      "sharedWith": 1
+    },
+    {
+      "type": 6,
+      "model": "Monster/Monster05.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 20,
+          "maxAbsUnits": 183.14
+        },
+        {
+          "action": 2,
+          "frames": 7,
+          "maxAbsUnits": 182.27
+        },
+        {
+          "action": 3,
+          "frames": 12,
+          "maxAbsUnits": 179.08
+        },
+        {
+          "action": 4,
+          "frames": 8,
+          "maxAbsUnits": 183.14
+        },
+        {
+          "action": 5,
+          "frames": 20,
+          "maxAbsUnits": 183.14
+        },
+        {
+          "action": 6,
+          "frames": 12,
+          "maxAbsUnits": 322.22
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 7,
+      "model": "Monster/Monster06.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 20,
+          "maxAbsUnits": 190.96
+        },
+        {
+          "action": 2,
+          "frames": 7,
+          "maxAbsUnits": 189.48
+        },
+        {
+          "action": 3,
+          "frames": 8,
+          "maxAbsUnits": 191.04
+        },
+        {
+          "action": 4,
+          "frames": 8,
+          "maxAbsUnits": 191.69
+        },
+        {
+          "action": 5,
+          "frames": 20,
+          "maxAbsUnits": 191.04
+        },
+        {
+          "action": 6,
+          "frames": 11,
+          "maxAbsUnits": 178.71
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 8,
+      "model": "Monster/Monster01.bmd",
+      "sharedWith": 0
+    },
+    {
+      "type": 9,
+      "model": "Monster/Monster05.bmd",
+      "sharedWith": 6
+    },
+    {
+      "type": 10,
+      "model": "Monster/Monster04.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 20,
+          "maxAbsUnits": 197.28
+        },
+        {
+          "action": 2,
+          "frames": 7,
+          "maxAbsUnits": 237.71
+        },
+        {
+          "action": 3,
+          "frames": 12,
+          "maxAbsUnits": 253.2
+        },
+        {
+          "action": 4,
+          "frames": 12,
+          "maxAbsUnits": 254.67
+        },
+        {
+          "action": 5,
+          "frames": 13,
+          "maxAbsUnits": 253.4
+        },
+        {
+          "action": 6,
+          "frames": 8,
+          "maxAbsUnits": 319.77
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 11,
+      "model": "Monster/Monster08.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 6,
+          "maxAbsUnits": 202.27
+        },
+        {
+          "action": 2,
+          "frames": 6,
+          "maxAbsUnits": 201.8
+        },
+        {
+          "action": 3,
+          "frames": 7,
+          "maxAbsUnits": 192.15
+        },
+        {
+          "action": 4,
+          "frames": 7,
+          "maxAbsUnits": 192.15
+        },
+        {
+          "action": 5,
+          "frames": 7,
+          "maxAbsUnits": 192.15
+        },
+        {
+          "action": 6,
+          "frames": 13,
+          "maxAbsUnits": 237.58
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 12,
+      "model": "Monster/Monster07.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 12,
+          "maxAbsUnits": 143
+        },
+        {
+          "action": 2,
+          "frames": 6,
+          "maxAbsUnits": 145.41
+        },
+        {
+          "action": 3,
+          "frames": 7,
+          "maxAbsUnits": 174.16
+        },
+        {
+          "action": 4,
+          "frames": 7,
+          "maxAbsUnits": 170.06
+        },
+        {
+          "action": 5,
+          "frames": 7,
+          "maxAbsUnits": 170.06
+        },
+        {
+          "action": 6,
+          "frames": 21,
+          "maxAbsUnits": 145.58
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 13,
+      "model": "Monster/Monster09.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 6,
+          "maxAbsUnits": 199.33
+        },
+        {
+          "action": 2,
+          "frames": 6,
+          "maxAbsUnits": 191.5
+        },
+        {
+          "action": 3,
+          "frames": 7,
+          "maxAbsUnits": 191.5
+        },
+        {
+          "action": 4,
+          "frames": 7,
+          "maxAbsUnits": 226.29
+        },
+        {
+          "action": 5,
+          "frames": 7,
+          "maxAbsUnits": 202.82
+        },
+        {
+          "action": 6,
+          "frames": 13,
+          "maxAbsUnits": 204.84
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 17,
+      "model": "Monster/Monster11.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 20,
+          "maxAbsUnits": 243.69
+        },
+        {
+          "action": 2,
+          "frames": 6,
+          "maxAbsUnits": 229.62
+        },
+        {
+          "action": 3,
+          "frames": 8,
+          "maxAbsUnits": 268.72
+        },
+        {
+          "action": 4,
+          "frames": 8,
+          "maxAbsUnits": 242.41
+        },
+        {
+          "action": 5,
+          "frames": 8,
+          "maxAbsUnits": 245.51
+        },
+        {
+          "action": 6,
+          "frames": 9,
+          "maxAbsUnits": 236.51
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 18,
+      "model": "Monster/Monster12.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 12,
+          "maxAbsUnits": 200.15
+        },
+        {
+          "action": 2,
+          "frames": 12,
+          "maxAbsUnits": 208.36
+        },
+        {
+          "action": 3,
+          "frames": 12,
+          "maxAbsUnits": 191.46
+        },
+        {
+          "action": 4,
+          "frames": 12,
+          "maxAbsUnits": 229.76
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 199.02
+        },
+        {
+          "action": 6,
+          "frames": 22,
+          "maxAbsUnits": 208.41
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 19,
+      "model": "Monster/Monster13.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 20,
+          "maxAbsUnits": 165.04
+        },
+        {
+          "action": 2,
+          "frames": 7,
+          "maxAbsUnits": 163.32
+        },
+        {
+          "action": 3,
+          "frames": 7,
+          "maxAbsUnits": 212.48
+        },
+        {
+          "action": 4,
+          "frames": 7,
+          "maxAbsUnits": 204.78
+        },
+        {
+          "action": 5,
+          "frames": 7,
+          "maxAbsUnits": 195.12
+        },
+        {
+          "action": 6,
+          "frames": 16,
+          "maxAbsUnits": 155.53
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 20,
+      "model": "Monster/Monster14.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 20,
+          "maxAbsUnits": 180.81
+        },
+        {
+          "action": 2,
+          "frames": 7,
+          "maxAbsUnits": 180.25
+        },
+        {
+          "action": 3,
+          "frames": 7,
+          "maxAbsUnits": 189.29
+        },
+        {
+          "action": 4,
+          "frames": 7,
+          "maxAbsUnits": 182.94
+        },
+        {
+          "action": 5,
+          "frames": 7,
+          "maxAbsUnits": 182.94
+        },
+        {
+          "action": 6,
+          "frames": 16,
+          "maxAbsUnits": 205.19
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 21,
+      "model": "Monster/Monster15.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 20,
+          "maxAbsUnits": 171.17
+        },
+        {
+          "action": 2,
+          "frames": 7,
+          "maxAbsUnits": 163.65
+        },
+        {
+          "action": 3,
+          "frames": 7,
+          "maxAbsUnits": 196.75
+        },
+        {
+          "action": 4,
+          "frames": 7,
+          "maxAbsUnits": 173.11
+        },
+        {
+          "action": 5,
+          "frames": 7,
+          "maxAbsUnits": 171.17
+        },
+        {
+          "action": 6,
+          "frames": 7,
+          "maxAbsUnits": 221.86
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 22,
+      "model": "Monster/Monster16.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 6,
+          "maxAbsUnits": 201.28
+        },
+        {
+          "action": 2,
+          "frames": 7,
+          "maxAbsUnits": 224.43
+        },
+        {
+          "action": 3,
+          "frames": 7,
+          "maxAbsUnits": 195.47
+        },
+        {
+          "action": 4,
+          "frames": 7,
+          "maxAbsUnits": 194.1
+        },
+        {
+          "action": 5,
+          "frames": 7,
+          "maxAbsUnits": 196.17
+        },
+        {
+          "action": 6,
+          "frames": 7,
+          "maxAbsUnits": 195
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 23,
+      "model": "Monster/Monster17.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 20,
+          "maxAbsUnits": 194.99
+        },
+        {
+          "action": 2,
+          "frames": 7,
+          "maxAbsUnits": 198.5
+        },
+        {
+          "action": 3,
+          "frames": 7,
+          "maxAbsUnits": 209.24
+        },
+        {
+          "action": 4,
+          "frames": 7,
+          "maxAbsUnits": 209.24
+        },
+        {
+          "action": 5,
+          "frames": 7,
+          "maxAbsUnits": 209.24
+        },
+        {
+          "action": 6,
+          "frames": 13,
+          "maxAbsUnits": 245.25
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 24,
+      "model": "Monster/Monster18.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 12,
+          "maxAbsUnits": 94.81
+        },
+        {
+          "action": 2,
+          "frames": 7,
+          "maxAbsUnits": 100.64
+        },
+        {
+          "action": 3,
+          "frames": 9,
+          "maxAbsUnits": 115.66
+        },
+        {
+          "action": 4,
+          "frames": 9,
+          "maxAbsUnits": 154.17
+        },
+        {
+          "action": 5,
+          "frames": 13,
+          "maxAbsUnits": 132.22
+        },
+        {
+          "action": 6,
+          "frames": 11,
+          "maxAbsUnits": 103.8
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 25,
+      "model": "Monster/Monster19.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 20,
+          "maxAbsUnits": 379.16
+        },
+        {
+          "action": 2,
+          "frames": 13,
+          "maxAbsUnits": 366.5
+        },
+        {
+          "action": 3,
+          "frames": 8,
+          "maxAbsUnits": 289.42
+        },
+        {
+          "action": 4,
+          "frames": 8,
+          "maxAbsUnits": 291.75
+        },
+        {
+          "action": 5,
+          "frames": 8,
+          "maxAbsUnits": 318.81
+        },
+        {
+          "action": 6,
+          "frames": 31,
+          "maxAbsUnits": 324.4
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 26,
+      "model": "Monster/Monster20.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 12,
+          "maxAbsUnits": 115.79
+        },
+        {
+          "action": 2,
+          "frames": 7,
+          "maxAbsUnits": 125.79
+        },
+        {
+          "action": 3,
+          "frames": 6,
+          "maxAbsUnits": 110.46
+        },
+        {
+          "action": 4,
+          "frames": 6,
+          "maxAbsUnits": 111.86
+        },
+        {
+          "action": 5,
+          "frames": 7,
+          "maxAbsUnits": 144.43
+        },
+        {
+          "action": 6,
+          "frames": 8,
+          "maxAbsUnits": 182.33
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 27,
+      "model": "Monster/Monster21.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 6,
+          "maxAbsUnits": 92.74
+        },
+        {
+          "action": 2,
+          "frames": 6,
+          "maxAbsUnits": 79.4
+        },
+        {
+          "action": 3,
+          "frames": 6,
+          "maxAbsUnits": 203.67
+        },
+        {
+          "action": 4,
+          "frames": 6,
+          "maxAbsUnits": 203.67
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 101.59
+        },
+        {
+          "action": 6,
+          "frames": 7,
+          "maxAbsUnits": 110.56
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 28,
+      "model": "Monster/Monster22.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 20,
+          "maxAbsUnits": 182.2
+        },
+        {
+          "action": 2,
+          "frames": 7,
+          "maxAbsUnits": 259.27
+        },
+        {
+          "action": 3,
+          "frames": 6,
+          "maxAbsUnits": 185.21
+        },
+        {
+          "action": 4,
+          "frames": 6,
+          "maxAbsUnits": 231.16
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 182.2
+        },
+        {
+          "action": 6,
+          "frames": 13,
+          "maxAbsUnits": 195.22
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 29,
+      "model": "Monster/Monster23.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 25,
+          "maxAbsUnits": 180.43
+        },
+        {
+          "action": 2,
+          "frames": 7,
+          "maxAbsUnits": 180.18
+        },
+        {
+          "action": 3,
+          "frames": 6,
+          "maxAbsUnits": 180.96
+        },
+        {
+          "action": 4,
+          "frames": 6,
+          "maxAbsUnits": 153.39
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 180.96
+        },
+        {
+          "action": 6,
+          "frames": 7,
+          "maxAbsUnits": 180.96
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 30,
+      "model": "Monster/Monster24.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 30,
+          "maxAbsUnits": 260.94
+        },
+        {
+          "action": 2,
+          "frames": 7,
+          "maxAbsUnits": 294.32
+        },
+        {
+          "action": 3,
+          "frames": 6,
+          "maxAbsUnits": 319.33
+        },
+        {
+          "action": 4,
+          "frames": 6,
+          "maxAbsUnits": 330.14
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 215.19
+        },
+        {
+          "action": 6,
+          "frames": 9,
+          "maxAbsUnits": 251.45
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 31,
+      "model": "Monster/Monster25.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 20,
+          "maxAbsUnits": 170.63
+        },
+        {
+          "action": 2,
+          "frames": 7,
+          "maxAbsUnits": 174.94
+        },
+        {
+          "action": 3,
+          "frames": 7,
+          "maxAbsUnits": 166.3
+        },
+        {
+          "action": 4,
+          "frames": 7,
+          "maxAbsUnits": 160.32
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 170.63
+        },
+        {
+          "action": 6,
+          "frames": 13,
+          "maxAbsUnits": 170.73
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 32,
+      "model": "Monster/Monster26.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 20,
+          "maxAbsUnits": 315.24
+        },
+        {
+          "action": 2,
+          "frames": 7,
+          "maxAbsUnits": 310.93
+        },
+        {
+          "action": 3,
+          "frames": 6,
+          "maxAbsUnits": 329.6
+        },
+        {
+          "action": 4,
+          "frames": 6,
+          "maxAbsUnits": 335.04
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 315.24
+        },
+        {
+          "action": 6,
+          "frames": 6,
+          "maxAbsUnits": 315.24
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 33,
+      "model": "Monster/Monster20.bmd",
+      "sharedWith": 26
+    },
+    {
+      "type": 35,
+      "model": "Monster/Monster12.bmd",
+      "sharedWith": 18
+    },
+    {
+      "type": 36,
+      "model": "Monster/Monster29.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 12,
+          "maxAbsUnits": 159.59
+        },
+        {
+          "action": 2,
+          "frames": 7,
+          "maxAbsUnits": 161.67
+        },
+        {
+          "action": 3,
+          "frames": 6,
+          "maxAbsUnits": 299.03
+        },
+        {
+          "action": 4,
+          "frames": 6,
+          "maxAbsUnits": 311.75
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 164.08
+        },
+        {
+          "action": 6,
+          "frames": 7,
+          "maxAbsUnits": 186.71
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 37,
+      "model": "Monster/Monster27.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 6,
+          "maxAbsUnits": 187.95
+        },
+        {
+          "action": 2,
+          "frames": 7,
+          "maxAbsUnits": 301.54
+        },
+        {
+          "action": 3,
+          "frames": 6,
+          "maxAbsUnits": 302.24
+        },
+        {
+          "action": 4,
+          "frames": 6,
+          "maxAbsUnits": 303.99
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 267.62
+        },
+        {
+          "action": 6,
+          "frames": 11,
+          "maxAbsUnits": 312.19
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 38,
+      "model": "Monster/Monster28.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 12,
+          "maxAbsUnits": 208.24
+        },
+        {
+          "action": 2,
+          "frames": 6,
+          "maxAbsUnits": 225.98
+        },
+        {
+          "action": 3,
+          "frames": 6,
+          "maxAbsUnits": 205.95
+        },
+        {
+          "action": 4,
+          "frames": 6,
+          "maxAbsUnits": 205.95
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 225.67
+        },
+        {
+          "action": 6,
+          "frames": 7,
+          "maxAbsUnits": 206.92
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 39,
+      "model": "Monster/Monster29.bmd",
+      "sharedWith": 36
+    },
+    {
+      "type": 40,
+      "model": "Monster/Monster30.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 12,
+          "maxAbsUnits": 256.2
+        },
+        {
+          "action": 2,
+          "frames": 7,
+          "maxAbsUnits": 250.12
+        },
+        {
+          "action": 3,
+          "frames": 7,
+          "maxAbsUnits": 257.04
+        },
+        {
+          "action": 4,
+          "frames": 7,
+          "maxAbsUnits": 257.04
+        },
+        {
+          "action": 5,
+          "frames": 8,
+          "maxAbsUnits": 264.96
+        },
+        {
+          "action": 6,
+          "frames": 11,
+          "maxAbsUnits": 256.2
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 41,
+      "model": "Monster/Monster31.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 20,
+          "maxAbsUnits": 202.95
+        },
+        {
+          "action": 2,
+          "frames": 7,
+          "maxAbsUnits": 188.24
+        },
+        {
+          "action": 3,
+          "frames": 8,
+          "maxAbsUnits": 197.45
+        },
+        {
+          "action": 4,
+          "frames": 8,
+          "maxAbsUnits": 189.21
+        },
+        {
+          "action": 5,
+          "frames": 12,
+          "maxAbsUnits": 207.04
+        },
+        {
+          "action": 6,
+          "frames": 12,
+          "maxAbsUnits": 207.04
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 42,
+      "model": "Monster/Monster32.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 15,
+          "maxAbsUnits": 501.44
+        },
+        {
+          "action": 2,
+          "frames": 9,
+          "maxAbsUnits": 466.36
+        },
+        {
+          "action": 3,
+          "frames": 14,
+          "maxAbsUnits": 497.48
+        },
+        {
+          "action": 4,
+          "frames": 14,
+          "maxAbsUnits": 505.92
+        },
+        {
+          "action": 5,
+          "frames": 14,
+          "maxAbsUnits": 494.4
+        },
+        {
+          "action": 6,
+          "frames": 21,
+          "maxAbsUnits": 501.44
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 43,
+      "model": "Monster/Monster03.bmd",
+      "sharedWith": 2
+    },
+    {
+      "type": 44,
+      "model": "Monster/Monster32.bmd",
+      "sharedWith": 42
+    },
+    {
+      "type": 45,
+      "model": "Monster/Monster34.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 30,
+          "maxAbsUnits": 205.41
+        },
+        {
+          "action": 2,
+          "frames": 11,
+          "maxAbsUnits": 230.61
+        },
+        {
+          "action": 3,
+          "frames": 9,
+          "maxAbsUnits": 251.57
+        },
+        {
+          "action": 4,
+          "frames": 9,
+          "maxAbsUnits": 255.49
+        },
+        {
+          "action": 5,
+          "frames": 11,
+          "maxAbsUnits": 384.65
+        },
+        {
+          "action": 6,
+          "frames": 11,
+          "maxAbsUnits": 220.26
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 46,
+      "model": "Monster/Monster35.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 12,
+          "maxAbsUnits": 253.66
+        },
+        {
+          "action": 2,
+          "frames": 7,
+          "maxAbsUnits": 195.53
+        },
+        {
+          "action": 3,
+          "frames": 7,
+          "maxAbsUnits": 244.96
+        },
+        {
+          "action": 4,
+          "frames": 7,
+          "maxAbsUnits": 244.96
+        },
+        {
+          "action": 5,
+          "frames": 7,
+          "maxAbsUnits": 244.96
+        },
+        {
+          "action": 6,
+          "frames": 14,
+          "maxAbsUnits": 289.8
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 47,
+      "model": "Monster/Monster36.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 12,
+          "maxAbsUnits": 209.54
+        },
+        {
+          "action": 2,
+          "frames": 7,
+          "maxAbsUnits": 197.08
+        },
+        {
+          "action": 3,
+          "frames": 7,
+          "maxAbsUnits": 210.36
+        },
+        {
+          "action": 4,
+          "frames": 7,
+          "maxAbsUnits": 210.36
+        },
+        {
+          "action": 5,
+          "frames": 7,
+          "maxAbsUnits": 211.73
+        },
+        {
+          "action": 6,
+          "frames": 16,
+          "maxAbsUnits": 217.51
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 48,
+      "model": "Monster/Monster37.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 6,
+          "maxAbsUnits": 177.1
+        },
+        {
+          "action": 2,
+          "frames": 7,
+          "maxAbsUnits": 149.24
+        },
+        {
+          "action": 3,
+          "frames": 7,
+          "maxAbsUnits": 201.51
+        },
+        {
+          "action": 4,
+          "frames": 7,
+          "maxAbsUnits": 201.51
+        },
+        {
+          "action": 5,
+          "frames": 7,
+          "maxAbsUnits": 193.95
+        },
+        {
+          "action": 6,
+          "frames": 7,
+          "maxAbsUnits": 243.33
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 49,
+      "model": "Monster/Monster38.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 6,
+          "maxAbsUnits": 1498.91
+        },
+        {
+          "action": 2,
+          "frames": 7,
+          "maxAbsUnits": 1496.05
+        },
+        {
+          "action": 3,
+          "frames": 7,
+          "maxAbsUnits": 1508.51
+        },
+        {
+          "action": 4,
+          "frames": 7,
+          "maxAbsUnits": 1492.21
+        },
+        {
+          "action": 5,
+          "frames": 7,
+          "maxAbsUnits": 1492.21
+        },
+        {
+          "action": 6,
+          "frames": 7,
+          "maxAbsUnits": 1500.44
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 51,
+      "model": "Monster/Monster34.bmd",
+      "sharedWith": 45
+    },
+    {
+      "type": 52,
+      "model": "Monster/Monster36.bmd",
+      "sharedWith": 47
+    },
+    {
+      "type": 53,
+      "model": "Monster/Monster40.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 12,
+          "maxAbsUnits": 187.82
+        },
+        {
+          "action": 2,
+          "frames": 7,
+          "maxAbsUnits": 216.15
+        },
+        {
+          "action": 3,
+          "frames": 7,
+          "maxAbsUnits": 193.14
+        },
+        {
+          "action": 4,
+          "frames": 13,
+          "maxAbsUnits": 187.82
+        },
+        {
+          "action": 5,
+          "frames": 7,
+          "maxAbsUnits": 196.12
+        },
+        {
+          "action": 6,
+          "frames": 13,
+          "maxAbsUnits": 187.82
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 57,
+      "model": "Monster/Monster42.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 4,
+          "maxAbsUnits": 213.12
+        },
+        {
+          "action": 2,
+          "frames": 7,
+          "maxAbsUnits": 213.49
+        },
+        {
+          "action": 3,
+          "frames": 2,
+          "maxAbsUnits": 211.8
+        },
+        {
+          "action": 4,
+          "frames": 2,
+          "maxAbsUnits": 211.8
+        },
+        {
+          "action": 5,
+          "frames": 2,
+          "maxAbsUnits": 215.68
+        },
+        {
+          "action": 6,
+          "frames": 6,
+          "maxAbsUnits": 214.27
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 58,
+      "model": "Monster/Monster43.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 6,
+          "maxAbsUnits": 210.99
+        },
+        {
+          "action": 2,
+          "frames": 7,
+          "maxAbsUnits": 217.82
+        },
+        {
+          "action": 3,
+          "frames": 7,
+          "maxAbsUnits": 227.54
+        },
+        {
+          "action": 4,
+          "frames": 7,
+          "maxAbsUnits": 219.59
+        },
+        {
+          "action": 5,
+          "frames": 7,
+          "maxAbsUnits": 210.99
+        },
+        {
+          "action": 6,
+          "frames": 13,
+          "maxAbsUnits": 231.88
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 59,
+      "model": "Monster/Monster43.bmd",
+      "sharedWith": 58
+    },
+    {
+      "type": 60,
+      "model": "Monster/Monster44.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 6,
+          "maxAbsUnits": 119.48
+        },
+        {
+          "action": 2,
+          "frames": 7,
+          "maxAbsUnits": 117.04
+        },
+        {
+          "action": 3,
+          "frames": 7,
+          "maxAbsUnits": 134.21
+        },
+        {
+          "action": 4,
+          "frames": 7,
+          "maxAbsUnits": 134.21
+        },
+        {
+          "action": 5,
+          "frames": 7,
+          "maxAbsUnits": 99.31
+        },
+        {
+          "action": 6,
+          "frames": 9,
+          "maxAbsUnits": 119.78
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 61,
+      "model": "Monster/Monster45.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 7,
+          "maxAbsUnits": 281.5
+        },
+        {
+          "action": 2,
+          "frames": 7,
+          "maxAbsUnits": 330.42
+        },
+        {
+          "action": 3,
+          "frames": 5,
+          "maxAbsUnits": 207.72
+        },
+        {
+          "action": 4,
+          "frames": 5,
+          "maxAbsUnits": 207.72
+        },
+        {
+          "action": 5,
+          "frames": 3,
+          "maxAbsUnits": 215.43
+        },
+        {
+          "action": 6,
+          "frames": 11,
+          "maxAbsUnits": 283.14
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 62,
+      "model": "Monster/Monster46.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 10,
+          "maxAbsUnits": 192.62
+        },
+        {
+          "action": 2,
+          "frames": 7,
+          "maxAbsUnits": 218.33
+        },
+        {
+          "action": 3,
+          "frames": 8,
+          "maxAbsUnits": 196.86
+        },
+        {
+          "action": 4,
+          "frames": 8,
+          "maxAbsUnits": 196.86
+        },
+        {
+          "action": 5,
+          "frames": 2,
+          "maxAbsUnits": 199.5
+        },
+        {
+          "action": 6,
+          "frames": 6,
+          "maxAbsUnits": 200.94
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 63,
+      "model": "Monster/Monster45.bmd",
+      "sharedWith": 61
+    },
+    {
+      "type": 64,
+      "model": "Monster/Monster47.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 6,
+          "maxAbsUnits": 214.84
+        },
+        {
+          "action": 2,
+          "frames": 7,
+          "maxAbsUnits": 207.64
+        },
+        {
+          "action": 3,
+          "frames": 7,
+          "maxAbsUnits": 207.03
+        },
+        {
+          "action": 4,
+          "frames": 7,
+          "maxAbsUnits": 207.03
+        },
+        {
+          "action": 5,
+          "frames": 7,
+          "maxAbsUnits": 204.67
+        },
+        {
+          "action": 6,
+          "frames": 7,
+          "maxAbsUnits": 204.67
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 65,
+      "model": "Monster/Monster48.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 6,
+          "maxAbsUnits": 217.51
+        },
+        {
+          "action": 2,
+          "frames": 7,
+          "maxAbsUnits": 204.33
+        },
+        {
+          "action": 3,
+          "frames": 7,
+          "maxAbsUnits": 214.84
+        },
+        {
+          "action": 4,
+          "frames": 7,
+          "maxAbsUnits": 214.84
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 219.59
+        },
+        {
+          "action": 6,
+          "frames": 11,
+          "maxAbsUnits": 192.19
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 66,
+      "model": "Monster/Monster49.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 20,
+          "maxAbsUnits": 222.29
+        },
+        {
+          "action": 2,
+          "frames": 7,
+          "maxAbsUnits": 219.05
+        },
+        {
+          "action": 3,
+          "frames": 12,
+          "maxAbsUnits": 213.79
+        },
+        {
+          "action": 4,
+          "frames": 12,
+          "maxAbsUnits": 213.79
+        },
+        {
+          "action": 5,
+          "frames": 12,
+          "maxAbsUnits": 221.82
+        },
+        {
+          "action": 6,
+          "frames": 12,
+          "maxAbsUnits": 363.81
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 67,
+      "model": "Monster/Monster28.bmd",
+      "sharedWith": 38
+    },
+    {
+      "type": 69,
+      "model": "Monster/Monster51.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 6,
+          "maxAbsUnits": 293.5
+        },
+        {
+          "action": 2,
+          "frames": 7,
+          "maxAbsUnits": 290.31
+        },
+        {
+          "action": 3,
+          "frames": 7,
+          "maxAbsUnits": 290.31
+        },
+        {
+          "action": 4,
+          "frames": 7,
+          "maxAbsUnits": 290.31
+        },
+        {
+          "action": 5,
+          "frames": 7,
+          "maxAbsUnits": 290.31
+        },
+        {
+          "action": 6,
+          "frames": 7,
+          "maxAbsUnits": 545.39
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 70,
+      "model": "Monster/Monster52.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 6,
+          "maxAbsUnits": 212.33
+        },
+        {
+          "action": 2,
+          "frames": 7,
+          "maxAbsUnits": 210.11
+        },
+        {
+          "action": 3,
+          "frames": 7,
+          "maxAbsUnits": 223.33
+        },
+        {
+          "action": 4,
+          "frames": 7,
+          "maxAbsUnits": 236.37
+        },
+        {
+          "action": 5,
+          "frames": 7,
+          "maxAbsUnits": 197.53
+        },
+        {
+          "action": 6,
+          "frames": 7,
+          "maxAbsUnits": 357.04
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 71,
+      "model": "Monster/Monster53.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 6,
+          "maxAbsUnits": 225.48
+        },
+        {
+          "action": 2,
+          "frames": 7,
+          "maxAbsUnits": 245.45
+        },
+        {
+          "action": 3,
+          "frames": 7,
+          "maxAbsUnits": 259.46
+        },
+        {
+          "action": 4,
+          "frames": 7,
+          "maxAbsUnits": 245.48
+        },
+        {
+          "action": 5,
+          "frames": 7,
+          "maxAbsUnits": 246.03
+        },
+        {
+          "action": 6,
+          "frames": 7,
+          "maxAbsUnits": 634.63
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 72,
+      "model": "Monster/Monster54.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 6,
+          "maxAbsUnits": 329.44
+        },
+        {
+          "action": 2,
+          "frames": 7,
+          "maxAbsUnits": 290.22
+        },
+        {
+          "action": 3,
+          "frames": 7,
+          "maxAbsUnits": 288.89
+        },
+        {
+          "action": 4,
+          "frames": 7,
+          "maxAbsUnits": 292.73
+        },
+        {
+          "action": 5,
+          "frames": 7,
+          "maxAbsUnits": 284.35
+        },
+        {
+          "action": 6,
+          "frames": 7,
+          "maxAbsUnits": 284.35
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 73,
+      "model": "Monster/Monster55.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 13,
+          "maxAbsUnits": 380.85
+        },
+        {
+          "action": 2,
+          "frames": 13,
+          "maxAbsUnits": 435.34
+        },
+        {
+          "action": 3,
+          "frames": 7,
+          "maxAbsUnits": 459.46
+        },
+        {
+          "action": 4,
+          "frames": 7,
+          "maxAbsUnits": 440.04
+        },
+        {
+          "action": 5,
+          "frames": 7,
+          "maxAbsUnits": 406.64
+        },
+        {
+          "action": 6,
+          "frames": 7,
+          "maxAbsUnits": 1146.81
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 74,
+      "model": "Monster/Monster53.bmd",
+      "sharedWith": 71
+    },
+    {
+      "type": 75,
+      "model": "Monster/Monster55.bmd",
+      "sharedWith": 73
+    },
+    {
+      "type": 77,
+      "model": "Monster/Monster56.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 8,
+          "maxAbsUnits": 480.1
+        },
+        {
+          "action": 2,
+          "frames": 8,
+          "maxAbsUnits": 475.97
+        },
+        {
+          "action": 3,
+          "frames": 7,
+          "maxAbsUnits": 453.78
+        },
+        {
+          "action": 4,
+          "frames": 7,
+          "maxAbsUnits": 453.78
+        },
+        {
+          "action": 5,
+          "frames": 4,
+          "maxAbsUnits": 452.71
+        },
+        {
+          "action": 6,
+          "frames": 19,
+          "maxAbsUnits": 485.19
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 78,
+      "model": "Monster/Monster20.bmd",
+      "sharedWith": 26
+    },
+    {
+      "type": 79,
+      "model": "Monster/Monster32.bmd",
+      "sharedWith": 42
+    },
+    {
+      "type": 80,
+      "model": "Monster/Monster37.bmd",
+      "sharedWith": 48
+    },
+    {
+      "type": 81,
+      "model": "Monster/Monster35.bmd",
+      "sharedWith": 46
+    },
+    {
+      "type": 82,
+      "model": "Monster/Monster43.bmd",
+      "sharedWith": 58
+    },
+    {
+      "type": 83,
+      "model": "Monster/Monster42.bmd",
+      "sharedWith": 57
+    },
+    {
+      "type": 84,
+      "model": "Monster/Monster48.bmd",
+      "sharedWith": 65
+    },
+    {
+      "type": 85,
+      "model": "Monster/Monster47.bmd",
+      "sharedWith": 64
+    },
+    {
+      "type": 86,
+      "model": "Monster/Monster60.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 6,
+          "maxAbsUnits": 229.52
+        },
+        {
+          "action": 2,
+          "frames": 7,
+          "maxAbsUnits": 219
+        },
+        {
+          "action": 3,
+          "frames": 7,
+          "maxAbsUnits": 229.52
+        },
+        {
+          "action": 4,
+          "frames": 7,
+          "maxAbsUnits": 229.52
+        },
+        {
+          "action": 5,
+          "frames": 7,
+          "maxAbsUnits": 220.86
+        },
+        {
+          "action": 6,
+          "frames": 7,
+          "maxAbsUnits": 220.86
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 87,
+      "model": "Monster/Monster59.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 6,
+          "maxAbsUnits": 207.13
+        },
+        {
+          "action": 2,
+          "frames": 7,
+          "maxAbsUnits": 212.74
+        },
+        {
+          "action": 3,
+          "frames": 7,
+          "maxAbsUnits": 206.18
+        },
+        {
+          "action": 4,
+          "frames": 13,
+          "maxAbsUnits": 208.24
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 196.49
+        },
+        {
+          "action": 6,
+          "frames": 7,
+          "maxAbsUnits": 295.86
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 88,
+      "model": "Monster/Monster58.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 7,
+          "maxAbsUnits": 210.38
+        },
+        {
+          "action": 2,
+          "frames": 7,
+          "maxAbsUnits": 201.31
+        },
+        {
+          "action": 3,
+          "frames": 7,
+          "maxAbsUnits": 218.66
+        },
+        {
+          "action": 4,
+          "frames": 7,
+          "maxAbsUnits": 218.66
+        },
+        {
+          "action": 5,
+          "frames": 7,
+          "maxAbsUnits": 211.02
+        },
+        {
+          "action": 6,
+          "frames": 7,
+          "maxAbsUnits": 211.02
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 89,
+      "model": "Monster/Monster63.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 6,
+          "maxAbsUnits": 205.99
+        },
+        {
+          "action": 2,
+          "frames": 7,
+          "maxAbsUnits": 197.07
+        },
+        {
+          "action": 3,
+          "frames": 13,
+          "maxAbsUnits": 188.47
+        },
+        {
+          "action": 4,
+          "frames": 13,
+          "maxAbsUnits": 188.47
+        },
+        {
+          "action": 5,
+          "frames": 7,
+          "maxAbsUnits": 196.27
+        },
+        {
+          "action": 6,
+          "frames": 7,
+          "maxAbsUnits": 196.27
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 90,
+      "model": "Monster/Monster48.bmd",
+      "sharedWith": 65
+    },
+    {
+      "type": 91,
+      "model": "Monster/Monster47.bmd",
+      "sharedWith": 64
+    },
+    {
+      "type": 92,
+      "model": "Monster/Monster60.bmd",
+      "sharedWith": 86
+    },
+    {
+      "type": 93,
+      "model": "Monster/Monster59.bmd",
+      "sharedWith": 87
+    },
+    {
+      "type": 94,
+      "model": "Monster/Monster58.bmd",
+      "sharedWith": 88
+    },
+    {
+      "type": 95,
+      "model": "Monster/Monster63.bmd",
+      "sharedWith": 89
+    },
+    {
+      "type": 96,
+      "model": "Monster/Monster48.bmd",
+      "sharedWith": 65
+    },
+    {
+      "type": 97,
+      "model": "Monster/Monster47.bmd",
+      "sharedWith": 64
+    },
+    {
+      "type": 98,
+      "model": "Monster/Monster60.bmd",
+      "sharedWith": 86
+    },
+    {
+      "type": 99,
+      "model": "Monster/Monster59.bmd",
+      "sharedWith": 87
+    },
+    {
+      "type": 100,
+      "model": "Object2/Object40.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 1,
+          "maxAbsUnits": 199.83
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 101,
+      "model": "Object2/Object41.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 1,
+          "maxAbsUnits": 173.58
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 102,
+      "model": "Object2/Object52.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 1,
+          "maxAbsUnits": 200.01
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 103,
+      "model": "Object5/Object26.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 1,
+          "maxAbsUnits": 62.89
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 105,
+      "model": "Npc/c_mon.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 1,
+          "maxAbsUnits": 67.76
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 111,
+      "model": "Monster/Monster58.bmd",
+      "sharedWith": 88
+    },
+    {
+      "type": 112,
+      "model": "Monster/Monster63.bmd",
+      "sharedWith": 89
+    },
+    {
+      "type": 113,
+      "model": "Monster/Monster48.bmd",
+      "sharedWith": 65
+    },
+    {
+      "type": 114,
+      "model": "Monster/Monster47.bmd",
+      "sharedWith": 64
+    },
+    {
+      "type": 115,
+      "model": "Monster/Monster60.bmd",
+      "sharedWith": 86
+    },
+    {
+      "type": 116,
+      "model": "Monster/Monster59.bmd",
+      "sharedWith": 87
+    },
+    {
+      "type": 117,
+      "model": "Monster/Monster58.bmd",
+      "sharedWith": 88
+    },
+    {
+      "type": 118,
+      "model": "Monster/Monster63.bmd",
+      "sharedWith": 89
+    },
+    {
+      "type": 119,
+      "model": "Monster/Monster48.bmd",
+      "sharedWith": 65
+    },
+    {
+      "type": 120,
+      "model": "Monster/Monster47.bmd",
+      "sharedWith": 64
+    },
+    {
+      "type": 121,
+      "model": "Monster/Monster60.bmd",
+      "sharedWith": 86
+    },
+    {
+      "type": 122,
+      "model": "Monster/Monster59.bmd",
+      "sharedWith": 87
+    },
+    {
+      "type": 123,
+      "model": "Monster/Monster58.bmd",
+      "sharedWith": 88
+    },
+    {
+      "type": 124,
+      "model": "Monster/Monster63.bmd",
+      "sharedWith": 89
+    },
+    {
+      "type": 125,
+      "model": "Monster/Monster48.bmd",
+      "sharedWith": 65
+    },
+    {
+      "type": 126,
+      "model": "Monster/Monster47.bmd",
+      "sharedWith": 64
+    },
+    {
+      "type": 127,
+      "model": "Monster/Monster60.bmd",
+      "sharedWith": 86
+    },
+    {
+      "type": 128,
+      "model": "Monster/Monster59.bmd",
+      "sharedWith": 87
+    },
+    {
+      "type": 129,
+      "model": "Monster/Monster58.bmd",
+      "sharedWith": 88
+    },
+    {
+      "type": 130,
+      "model": "Monster/Monster63.bmd",
+      "sharedWith": 89
+    },
+    {
+      "type": 131,
+      "model": "Monster/Monster62.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 1,
+          "maxAbsUnits": 400.08
+        },
+        {
+          "action": 2,
+          "frames": 1,
+          "maxAbsUnits": 400.08
+        },
+        {
+          "action": 3,
+          "frames": 1,
+          "maxAbsUnits": 400.08
+        },
+        {
+          "action": 4,
+          "frames": 1,
+          "maxAbsUnits": 400.08
+        },
+        {
+          "action": 5,
+          "frames": 7,
+          "maxAbsUnits": 400.08
+        },
+        {
+          "action": 6,
+          "frames": 1,
+          "maxAbsUnits": 400.08
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 132,
+      "model": "Monster/Monster61.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 1,
+          "maxAbsUnits": 237.28
+        },
+        {
+          "action": 2,
+          "frames": 1,
+          "maxAbsUnits": 237.28
+        },
+        {
+          "action": 3,
+          "frames": 1,
+          "maxAbsUnits": 237.28
+        },
+        {
+          "action": 4,
+          "frames": 1,
+          "maxAbsUnits": 237.28
+        },
+        {
+          "action": 5,
+          "frames": 1,
+          "maxAbsUnits": 237.28
+        },
+        {
+          "action": 6,
+          "frames": 1,
+          "maxAbsUnits": 237.28
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 133,
+      "model": "Monster/Monster61.bmd",
+      "sharedWith": 132
+    },
+    {
+      "type": 134,
+      "model": "Monster/Monster61.bmd",
+      "sharedWith": 132
+    },
+    {
+      "type": 135,
+      "model": "Monster/Monster49.bmd",
+      "sharedWith": 66
+    },
+    {
+      "type": 136,
+      "model": "Monster/Monster48.bmd",
+      "sharedWith": 65
+    },
+    {
+      "type": 137,
+      "model": "Monster/Monster47.bmd",
+      "sharedWith": 64
+    },
+    {
+      "type": 138,
+      "model": "Monster/Monster48.bmd",
+      "sharedWith": 65
+    },
+    {
+      "type": 139,
+      "model": "Monster/Monster47.bmd",
+      "sharedWith": 64
+    },
+    {
+      "type": 140,
+      "model": "Monster/Monster60.bmd",
+      "sharedWith": 86
+    },
+    {
+      "type": 141,
+      "model": "Monster/Monster59.bmd",
+      "sharedWith": 87
+    },
+    {
+      "type": 142,
+      "model": "Monster/Monster58.bmd",
+      "sharedWith": 88
+    },
+    {
+      "type": 143,
+      "model": "Monster/Monster63.bmd",
+      "sharedWith": 89
+    },
+    {
+      "type": 144,
+      "model": "Monster/Monster64.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 6,
+          "maxAbsUnits": 198.7
+        },
+        {
+          "action": 2,
+          "frames": 6,
+          "maxAbsUnits": 221.22
+        },
+        {
+          "action": 3,
+          "frames": 7,
+          "maxAbsUnits": 217.4
+        },
+        {
+          "action": 4,
+          "frames": 7,
+          "maxAbsUnits": 217.4
+        },
+        {
+          "action": 5,
+          "frames": 4,
+          "maxAbsUnits": 197.9
+        },
+        {
+          "action": 6,
+          "frames": 7,
+          "maxAbsUnits": 197.76
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 145,
+      "model": "Monster/Monster68.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 7,
+          "maxAbsUnits": 238.75
+        },
+        {
+          "action": 2,
+          "frames": 8,
+          "maxAbsUnits": 239.29
+        },
+        {
+          "action": 3,
+          "frames": 7,
+          "maxAbsUnits": 238.91
+        },
+        {
+          "action": 4,
+          "frames": 9,
+          "maxAbsUnits": 361.09
+        },
+        {
+          "action": 5,
+          "frames": 7,
+          "maxAbsUnits": 232.39
+        },
+        {
+          "action": 6,
+          "frames": 7,
+          "maxAbsUnits": 261.66
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 146,
+      "model": "Monster/Monster66.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 6,
+          "maxAbsUnits": 354.41
+        },
+        {
+          "action": 2,
+          "frames": 6,
+          "maxAbsUnits": 358.17
+        },
+        {
+          "action": 3,
+          "frames": 7,
+          "maxAbsUnits": 386.91
+        },
+        {
+          "action": 4,
+          "frames": 6,
+          "maxAbsUnits": 381.54
+        },
+        {
+          "action": 5,
+          "frames": 3,
+          "maxAbsUnits": 333.88
+        },
+        {
+          "action": 6,
+          "frames": 7,
+          "maxAbsUnits": 341.45
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 147,
+      "model": "Monster/Monster67.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 6,
+          "maxAbsUnits": 213.06
+        },
+        {
+          "action": 2,
+          "frames": 6,
+          "maxAbsUnits": 189.78
+        },
+        {
+          "action": 3,
+          "frames": 6,
+          "maxAbsUnits": 205.4
+        },
+        {
+          "action": 4,
+          "frames": 6,
+          "maxAbsUnits": 216.86
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 222.7
+        },
+        {
+          "action": 6,
+          "frames": 6,
+          "maxAbsUnits": 212.9
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 148,
+      "model": "Monster/Monster68.bmd",
+      "sharedWith": 145
+    },
+    {
+      "type": 149,
+      "model": "Monster/Monster69.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 7,
+          "maxAbsUnits": 206.66
+        },
+        {
+          "action": 2,
+          "frames": 7,
+          "maxAbsUnits": 199.92
+        },
+        {
+          "action": 3,
+          "frames": 7,
+          "maxAbsUnits": 209.83
+        },
+        {
+          "action": 4,
+          "frames": 7,
+          "maxAbsUnits": 210.34
+        },
+        {
+          "action": 5,
+          "frames": 7,
+          "maxAbsUnits": 209.82
+        },
+        {
+          "action": 6,
+          "frames": 7,
+          "maxAbsUnits": 206.43
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 150,
+      "model": "Monster/Monster33.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 6,
+          "maxAbsUnits": 1880.39
+        },
+        {
+          "action": 2,
+          "frames": 7,
+          "maxAbsUnits": 2026.34
+        },
+        {
+          "action": 3,
+          "frames": 7,
+          "maxAbsUnits": 1954.88
+        },
+        {
+          "action": 4,
+          "frames": 7,
+          "maxAbsUnits": 2075.58
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 1859.84
+        },
+        {
+          "action": 6,
+          "frames": 13,
+          "maxAbsUnits": 3508.36
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 160,
+      "model": "Monster/Monster70.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 6,
+          "maxAbsUnits": 328.08
+        },
+        {
+          "action": 2,
+          "frames": 6,
+          "maxAbsUnits": 323.54
+        },
+        {
+          "action": 3,
+          "frames": 6,
+          "maxAbsUnits": 387.88
+        },
+        {
+          "action": 4,
+          "frames": 7,
+          "maxAbsUnits": 319.67
+        },
+        {
+          "action": 5,
+          "frames": 2,
+          "maxAbsUnits": 319.67
+        },
+        {
+          "action": 6,
+          "frames": 7,
+          "maxAbsUnits": 319.67
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 161,
+      "model": "Monster/Monster70.bmd",
+      "sharedWith": 160
+    },
+    {
+      "type": 162,
+      "model": "Monster/Monster71.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 7,
+          "maxAbsUnits": 218.39
+        },
+        {
+          "action": 2,
+          "frames": 7,
+          "maxAbsUnits": 226.26
+        },
+        {
+          "action": 3,
+          "frames": 7,
+          "maxAbsUnits": 248.01
+        },
+        {
+          "action": 4,
+          "frames": 7,
+          "maxAbsUnits": 218.28
+        },
+        {
+          "action": 5,
+          "frames": 7,
+          "maxAbsUnits": 209.12
+        },
+        {
+          "action": 6,
+          "frames": 7,
+          "maxAbsUnits": 212.45
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 163,
+      "model": "Monster/Monster72.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 6,
+          "maxAbsUnits": 217.05
+        },
+        {
+          "action": 2,
+          "frames": 7,
+          "maxAbsUnits": 224.53
+        },
+        {
+          "action": 3,
+          "frames": 7,
+          "maxAbsUnits": 210.55
+        },
+        {
+          "action": 4,
+          "frames": 7,
+          "maxAbsUnits": 210.55
+        },
+        {
+          "action": 5,
+          "frames": 7,
+          "maxAbsUnits": 209.12
+        },
+        {
+          "action": 6,
+          "frames": 7,
+          "maxAbsUnits": 212.45
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 164,
+      "model": "Monster/Monster71.bmd",
+      "sharedWith": 162
+    },
+    {
+      "type": 165,
+      "model": "Monster/Monster72.bmd",
+      "sharedWith": 163
+    },
+    {
+      "type": 166,
+      "model": "Monster/Monster71.bmd",
+      "sharedWith": 162
+    },
+    {
+      "type": 167,
+      "model": "Monster/Monster72.bmd",
+      "sharedWith": 163
+    },
+    {
+      "type": 168,
+      "model": "Monster/Monster71.bmd",
+      "sharedWith": 162
+    },
+    {
+      "type": 169,
+      "model": "Monster/Monster72.bmd",
+      "sharedWith": 163
+    },
+    {
+      "type": 170,
+      "model": "Monster/Monster71.bmd",
+      "sharedWith": 162
+    },
+    {
+      "type": 171,
+      "model": "Monster/Monster72.bmd",
+      "sharedWith": 163
+    },
+    {
+      "type": 172,
+      "model": "Monster/Monster71.bmd",
+      "sharedWith": 162
+    },
+    {
+      "type": 173,
+      "model": "Monster/Monster72.bmd",
+      "sharedWith": 163
+    },
+    {
+      "type": 174,
+      "model": "Monster/Monster64.bmd",
+      "sharedWith": 144
+    },
+    {
+      "type": 175,
+      "model": "Monster/Monster68.bmd",
+      "sharedWith": 145
+    },
+    {
+      "type": 176,
+      "model": "Monster/Monster66.bmd",
+      "sharedWith": 146
+    },
+    {
+      "type": 177,
+      "model": "Monster/Monster67.bmd",
+      "sharedWith": 147
+    },
+    {
+      "type": 178,
+      "model": "Monster/Monster68.bmd",
+      "sharedWith": 145
+    },
+    {
+      "type": 179,
+      "model": "Monster/Monster69.bmd",
+      "sharedWith": 149
+    },
+    {
+      "type": 180,
+      "model": "Monster/Monster70.bmd",
+      "sharedWith": 160
+    },
+    {
+      "type": 181,
+      "model": "Monster/Monster70.bmd",
+      "sharedWith": 160
+    },
+    {
+      "type": 182,
+      "model": "Monster/Monster64.bmd",
+      "sharedWith": 144
+    },
+    {
+      "type": 183,
+      "model": "Monster/Monster68.bmd",
+      "sharedWith": 145
+    },
+    {
+      "type": 184,
+      "model": "Monster/Monster66.bmd",
+      "sharedWith": 146
+    },
+    {
+      "type": 185,
+      "model": "Monster/Monster67.bmd",
+      "sharedWith": 147
+    },
+    {
+      "type": 186,
+      "model": "Monster/Monster68.bmd",
+      "sharedWith": 145
+    },
+    {
+      "type": 187,
+      "model": "Monster/Monster69.bmd",
+      "sharedWith": 149
+    },
+    {
+      "type": 188,
+      "model": "Monster/Monster70.bmd",
+      "sharedWith": 160
+    },
+    {
+      "type": 189,
+      "model": "Monster/Monster70.bmd",
+      "sharedWith": 160
+    },
+    {
+      "type": 190,
+      "model": "Monster/Monster64.bmd",
+      "sharedWith": 144
+    },
+    {
+      "type": 191,
+      "model": "Monster/Monster68.bmd",
+      "sharedWith": 145
+    },
+    {
+      "type": 192,
+      "model": "Monster/Monster66.bmd",
+      "sharedWith": 146
+    },
+    {
+      "type": 193,
+      "model": "Monster/Monster67.bmd",
+      "sharedWith": 147
+    },
+    {
+      "type": 194,
+      "model": "Monster/Monster68.bmd",
+      "sharedWith": 145
+    },
+    {
+      "type": 195,
+      "model": "Monster/Monster69.bmd",
+      "sharedWith": 149
+    },
+    {
+      "type": 196,
+      "model": "Monster/Monster70.bmd",
+      "sharedWith": 160
+    },
+    {
+      "type": 197,
+      "model": "Monster/Monster70.bmd",
+      "sharedWith": 160
+    },
+    {
+      "type": 200,
+      "model": "Skill/Ball01.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 4,
+          "maxAbsUnits": 33.51
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 260,
+      "model": "Monster/Monster64.bmd",
+      "sharedWith": 144
+    },
+    {
+      "type": 261,
+      "model": "Monster/Monster68.bmd",
+      "sharedWith": 145
+    },
+    {
+      "type": 262,
+      "model": "Monster/Monster66.bmd",
+      "sharedWith": 146
+    },
+    {
+      "type": 263,
+      "model": "Monster/Monster67.bmd",
+      "sharedWith": 147
+    },
+    {
+      "type": 264,
+      "model": "Monster/Monster68.bmd",
+      "sharedWith": 145
+    },
+    {
+      "type": 265,
+      "model": "Monster/Monster69.bmd",
+      "sharedWith": 149
+    },
+    {
+      "type": 266,
+      "model": "Monster/Monster70.bmd",
+      "sharedWith": 160
+    },
+    {
+      "type": 267,
+      "model": "Monster/Monster70.bmd",
+      "sharedWith": 160
+    },
+    {
+      "type": 268,
+      "model": "Monster/Monster64.bmd",
+      "sharedWith": 144
+    },
+    {
+      "type": 269,
+      "model": "Monster/Monster68.bmd",
+      "sharedWith": 145
+    },
+    {
+      "type": 270,
+      "model": "Monster/Monster66.bmd",
+      "sharedWith": 146
+    },
+    {
+      "type": 271,
+      "model": "Monster/Monster67.bmd",
+      "sharedWith": 147
+    },
+    {
+      "type": 272,
+      "model": "Monster/Monster68.bmd",
+      "sharedWith": 145
+    },
+    {
+      "type": 273,
+      "model": "Monster/Monster69.bmd",
+      "sharedWith": 149
+    },
+    {
+      "type": 274,
+      "model": "Monster/Monster70.bmd",
+      "sharedWith": 160
+    },
+    {
+      "type": 275,
+      "model": "Monster/Monster65.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 6,
+          "maxAbsUnits": 244.74
+        },
+        {
+          "action": 2,
+          "frames": 6,
+          "maxAbsUnits": 237.88
+        },
+        {
+          "action": 3,
+          "frames": 9,
+          "maxAbsUnits": 241.27
+        },
+        {
+          "action": 4,
+          "frames": 11,
+          "maxAbsUnits": 239.3
+        },
+        {
+          "action": 5,
+          "frames": 19,
+          "maxAbsUnits": 248.87
+        },
+        {
+          "action": 6,
+          "frames": 15,
+          "maxAbsUnits": 280.08
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 277,
+      "model": "Monster/Monster74.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 2,
+          "maxAbsUnits": 338.18
+        },
+        {
+          "action": 2,
+          "frames": 2,
+          "maxAbsUnits": 338.18
+        },
+        {
+          "action": 3,
+          "frames": 2,
+          "maxAbsUnits": 338.18
+        },
+        {
+          "action": 4,
+          "frames": 2,
+          "maxAbsUnits": 338.18
+        },
+        {
+          "action": 5,
+          "frames": 2,
+          "maxAbsUnits": 338.18
+        },
+        {
+          "action": 6,
+          "frames": 2,
+          "maxAbsUnits": 338.18
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 278,
+      "model": "Monster/Monster87.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 6,
+          "maxAbsUnits": 287.18
+        },
+        {
+          "action": 2,
+          "frames": 6,
+          "maxAbsUnits": 287.18
+        },
+        {
+          "action": 3,
+          "frames": 6,
+          "maxAbsUnits": 287.18
+        },
+        {
+          "action": 4,
+          "frames": 6,
+          "maxAbsUnits": 287.18
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 287.18
+        },
+        {
+          "action": 6,
+          "frames": 6,
+          "maxAbsUnits": 287.18
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 283,
+      "model": "Monster/Monster75.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 8,
+          "maxAbsUnits": 459.92
+        },
+        {
+          "action": 2,
+          "frames": 8,
+          "maxAbsUnits": 459.92
+        },
+        {
+          "action": 3,
+          "frames": 8,
+          "maxAbsUnits": 459.92
+        },
+        {
+          "action": 4,
+          "frames": 8,
+          "maxAbsUnits": 459.92
+        },
+        {
+          "action": 5,
+          "frames": 8,
+          "maxAbsUnits": 459.92
+        },
+        {
+          "action": 6,
+          "frames": 8,
+          "maxAbsUnits": 459.92
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 285,
+      "model": "Monster/Monster75.bmd",
+      "sharedWith": 283
+    },
+    {
+      "type": 286,
+      "model": "Monster/Monster77.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 7,
+          "maxAbsUnits": 199.64
+        },
+        {
+          "action": 2,
+          "frames": 8,
+          "maxAbsUnits": 238.41
+        },
+        {
+          "action": 3,
+          "frames": 8,
+          "maxAbsUnits": 238.41
+        },
+        {
+          "action": 4,
+          "frames": 8,
+          "maxAbsUnits": 238.41
+        },
+        {
+          "action": 5,
+          "frames": 7,
+          "maxAbsUnits": 236.49
+        },
+        {
+          "action": 6,
+          "frames": 7,
+          "maxAbsUnits": 192.7
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 287,
+      "model": "Monster/Monster78.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 7,
+          "maxAbsUnits": 350.62
+        },
+        {
+          "action": 2,
+          "frames": 7,
+          "maxAbsUnits": 368.35
+        },
+        {
+          "action": 3,
+          "frames": 7,
+          "maxAbsUnits": 368.35
+        },
+        {
+          "action": 4,
+          "frames": 7,
+          "maxAbsUnits": 273.19
+        },
+        {
+          "action": 5,
+          "frames": 7,
+          "maxAbsUnits": 408.16
+        },
+        {
+          "action": 6,
+          "frames": 7,
+          "maxAbsUnits": 368.22
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 288,
+      "model": "Monster/Monster80.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 1,
+          "maxAbsUnits": 327.3
+        },
+        {
+          "action": 2,
+          "frames": 1,
+          "maxAbsUnits": 327.3
+        },
+        {
+          "action": 3,
+          "frames": 1,
+          "maxAbsUnits": 327.3
+        },
+        {
+          "action": 4,
+          "frames": 1,
+          "maxAbsUnits": 327.3
+        },
+        {
+          "action": 5,
+          "frames": 1,
+          "maxAbsUnits": 327.3
+        },
+        {
+          "action": 6,
+          "frames": 1,
+          "maxAbsUnits": 327.3
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 290,
+      "model": "Monster/Monster82.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 7,
+          "maxAbsUnits": 267.37
+        },
+        {
+          "action": 2,
+          "frames": 7,
+          "maxAbsUnits": 259.36
+        },
+        {
+          "action": 3,
+          "frames": 11,
+          "maxAbsUnits": 290.09
+        },
+        {
+          "action": 4,
+          "frames": 11,
+          "maxAbsUnits": 290.09
+        },
+        {
+          "action": 5,
+          "frames": 3,
+          "maxAbsUnits": 253.74
+        },
+        {
+          "action": 6,
+          "frames": 7,
+          "maxAbsUnits": 354.52
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 291,
+      "model": "Monster/Monster83.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 7,
+          "maxAbsUnits": 192.29
+        },
+        {
+          "action": 2,
+          "frames": 7,
+          "maxAbsUnits": 200.26
+        },
+        {
+          "action": 3,
+          "frames": 11,
+          "maxAbsUnits": 257
+        },
+        {
+          "action": 4,
+          "frames": 10,
+          "maxAbsUnits": 193.8
+        },
+        {
+          "action": 5,
+          "frames": 3,
+          "maxAbsUnits": 192.29
+        },
+        {
+          "action": 6,
+          "frames": 3,
+          "maxAbsUnits": 192.29
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 292,
+      "model": "Monster/Monster84.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 8,
+          "maxAbsUnits": 246.59
+        },
+        {
+          "action": 2,
+          "frames": 8,
+          "maxAbsUnits": 254.5
+        },
+        {
+          "action": 3,
+          "frames": 8,
+          "maxAbsUnits": 253.55
+        },
+        {
+          "action": 4,
+          "frames": 8,
+          "maxAbsUnits": 249.19
+        },
+        {
+          "action": 5,
+          "frames": 8,
+          "maxAbsUnits": 247.01
+        },
+        {
+          "action": 6,
+          "frames": 12,
+          "maxAbsUnits": 246.55
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 293,
+      "model": "Monster/Monster85.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 7,
+          "maxAbsUnits": 195.67
+        },
+        {
+          "action": 2,
+          "frames": 7,
+          "maxAbsUnits": 204.82
+        },
+        {
+          "action": 3,
+          "frames": 7,
+          "maxAbsUnits": 201.93
+        },
+        {
+          "action": 4,
+          "frames": 7,
+          "maxAbsUnits": 230.57
+        },
+        {
+          "action": 5,
+          "frames": 3,
+          "maxAbsUnits": 203.61
+        },
+        {
+          "action": 6,
+          "frames": 9,
+          "maxAbsUnits": 260.68
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 294,
+      "model": "Monster/Monster86.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 8,
+          "maxAbsUnits": 342.78
+        },
+        {
+          "action": 2,
+          "frames": 8,
+          "maxAbsUnits": 387.16
+        },
+        {
+          "action": 3,
+          "frames": 8,
+          "maxAbsUnits": 531.78
+        },
+        {
+          "action": 4,
+          "frames": 10,
+          "maxAbsUnits": 439.24
+        },
+        {
+          "action": 5,
+          "frames": 8,
+          "maxAbsUnits": 343.91
+        },
+        {
+          "action": 6,
+          "frames": 7,
+          "maxAbsUnits": 372.11
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 295,
+      "model": "Monster/Monster88.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 7,
+          "maxAbsUnits": 224.17
+        },
+        {
+          "action": 2,
+          "frames": 7,
+          "maxAbsUnits": 224.62
+        },
+        {
+          "action": 3,
+          "frames": 8,
+          "maxAbsUnits": 228.1
+        },
+        {
+          "action": 4,
+          "frames": 14,
+          "maxAbsUnits": 225.31
+        },
+        {
+          "action": 5,
+          "frames": 3,
+          "maxAbsUnits": 224.17
+        },
+        {
+          "action": 6,
+          "frames": 9,
+          "maxAbsUnits": 224.16
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 300,
+      "model": "Monster/Monster46.bmd",
+      "sharedWith": 62
+    },
+    {
+      "type": 301,
+      "model": "Monster/Monster53.bmd",
+      "sharedWith": 71
+    },
+    {
+      "type": 302,
+      "model": "Monster/Monster86.bmd",
+      "sharedWith": 294
+    },
+    {
+      "type": 303,
+      "model": "Monster/Monster85.bmd",
+      "sharedWith": 293
+    },
+    {
+      "type": 304,
+      "model": "Monster/Monster101.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 8,
+          "maxAbsUnits": 172.27
+        },
+        {
+          "action": 2,
+          "frames": 8,
+          "maxAbsUnits": 181.77
+        },
+        {
+          "action": 3,
+          "frames": 8,
+          "maxAbsUnits": 216.5
+        },
+        {
+          "action": 4,
+          "frames": 12,
+          "maxAbsUnits": 220.56
+        },
+        {
+          "action": 5,
+          "frames": 4,
+          "maxAbsUnits": 152.22
+        },
+        {
+          "action": 6,
+          "frames": 7,
+          "maxAbsUnits": 283.02
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 305,
+      "model": "Monster/Monster102.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 6,
+          "maxAbsUnits": 228.78
+        },
+        {
+          "action": 2,
+          "frames": 8,
+          "maxAbsUnits": 220.62
+        },
+        {
+          "action": 3,
+          "frames": 8,
+          "maxAbsUnits": 229.42
+        },
+        {
+          "action": 4,
+          "frames": 8,
+          "maxAbsUnits": 229.32
+        },
+        {
+          "action": 5,
+          "frames": 2,
+          "maxAbsUnits": 228.78
+        },
+        {
+          "action": 6,
+          "frames": 9,
+          "maxAbsUnits": 278.76
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 306,
+      "model": "Monster/Monster103.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 2,
+          "maxAbsUnits": 249.82
+        },
+        {
+          "action": 2,
+          "frames": 6,
+          "maxAbsUnits": 251.55
+        },
+        {
+          "action": 3,
+          "frames": 7,
+          "maxAbsUnits": 251.13
+        },
+        {
+          "action": 4,
+          "frames": 7,
+          "maxAbsUnits": 251.13
+        },
+        {
+          "action": 5,
+          "frames": 3,
+          "maxAbsUnits": 252.15
+        },
+        {
+          "action": 6,
+          "frames": 5,
+          "maxAbsUnits": 259.41
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 307,
+      "model": "Monster/Monster104.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 6,
+          "maxAbsUnits": 199.38
+        },
+        {
+          "action": 2,
+          "frames": 6,
+          "maxAbsUnits": 209.18
+        },
+        {
+          "action": 3,
+          "frames": 8,
+          "maxAbsUnits": 250.38
+        },
+        {
+          "action": 4,
+          "frames": 8,
+          "maxAbsUnits": 237.29
+        },
+        {
+          "action": 5,
+          "frames": 3,
+          "maxAbsUnits": 208.4
+        },
+        {
+          "action": 6,
+          "frames": 11,
+          "maxAbsUnits": 291.5
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 308,
+      "model": "Monster/Monster105.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 6,
+          "maxAbsUnits": 235.79
+        },
+        {
+          "action": 2,
+          "frames": 6,
+          "maxAbsUnits": 243.97
+        },
+        {
+          "action": 3,
+          "frames": 7,
+          "maxAbsUnits": 235.7
+        },
+        {
+          "action": 4,
+          "frames": 8,
+          "maxAbsUnits": 235.7
+        },
+        {
+          "action": 5,
+          "frames": 3,
+          "maxAbsUnits": 235.47
+        },
+        {
+          "action": 6,
+          "frames": 9,
+          "maxAbsUnits": 235.9
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 309,
+      "model": "Monster/Monster106.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 6,
+          "maxAbsUnits": 251.6
+        },
+        {
+          "action": 2,
+          "frames": 6,
+          "maxAbsUnits": 253.79
+        },
+        {
+          "action": 3,
+          "frames": 12,
+          "maxAbsUnits": 303.06
+        },
+        {
+          "action": 4,
+          "frames": 11,
+          "maxAbsUnits": 253.1
+        },
+        {
+          "action": 5,
+          "frames": 3,
+          "maxAbsUnits": 256.58
+        },
+        {
+          "action": 6,
+          "frames": 13,
+          "maxAbsUnits": 253.8
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 310,
+      "model": "Monster/Monster99.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 6,
+          "maxAbsUnits": 198.17
+        },
+        {
+          "action": 2,
+          "frames": 6,
+          "maxAbsUnits": 209.04
+        },
+        {
+          "action": 3,
+          "frames": 9,
+          "maxAbsUnits": 315.82
+        },
+        {
+          "action": 4,
+          "frames": 8,
+          "maxAbsUnits": 188.53
+        },
+        {
+          "action": 5,
+          "frames": 3,
+          "maxAbsUnits": 194.92
+        },
+        {
+          "action": 6,
+          "frames": 9,
+          "maxAbsUnits": 200.75
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 311,
+      "model": "Monster/Monster98.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 6,
+          "maxAbsUnits": 198.54
+        },
+        {
+          "action": 2,
+          "frames": 8,
+          "maxAbsUnits": 186.66
+        },
+        {
+          "action": 3,
+          "frames": 7,
+          "maxAbsUnits": 332.83
+        },
+        {
+          "action": 4,
+          "frames": 7,
+          "maxAbsUnits": 348.12
+        },
+        {
+          "action": 5,
+          "frames": 3,
+          "maxAbsUnits": 199.74
+        },
+        {
+          "action": 6,
+          "frames": 11,
+          "maxAbsUnits": 351.71
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 312,
+      "model": "Monster/Monster97.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 6,
+          "maxAbsUnits": 201.28
+        },
+        {
+          "action": 2,
+          "frames": 8,
+          "maxAbsUnits": 184.63
+        },
+        {
+          "action": 3,
+          "frames": 8,
+          "maxAbsUnits": 200.32
+        },
+        {
+          "action": 4,
+          "frames": 8,
+          "maxAbsUnits": 200.32
+        },
+        {
+          "action": 5,
+          "frames": 3,
+          "maxAbsUnits": 205.4
+        },
+        {
+          "action": 6,
+          "frames": 9,
+          "maxAbsUnits": 225.71
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 313,
+      "model": "Monster/Monster96.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 6,
+          "maxAbsUnits": 220.76
+        },
+        {
+          "action": 2,
+          "frames": 8,
+          "maxAbsUnits": 220.77
+        },
+        {
+          "action": 3,
+          "frames": 7,
+          "maxAbsUnits": 342.04
+        },
+        {
+          "action": 4,
+          "frames": 10,
+          "maxAbsUnits": 233.86
+        },
+        {
+          "action": 5,
+          "frames": 3,
+          "maxAbsUnits": 226.9
+        },
+        {
+          "action": 6,
+          "frames": 17,
+          "maxAbsUnits": 231.32
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 314,
+      "model": "Monster/Monster99.bmd",
+      "sharedWith": 310
+    },
+    {
+      "type": 315,
+      "model": "Monster/Monster96.bmd",
+      "sharedWith": 313
+    },
+    {
+      "type": 316,
+      "model": "Monster/Monster92.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 6,
+          "maxAbsUnits": 205.66
+        },
+        {
+          "action": 2,
+          "frames": 6,
+          "maxAbsUnits": 198.41
+        },
+        {
+          "action": 3,
+          "frames": 10,
+          "maxAbsUnits": 244.02
+        },
+        {
+          "action": 4,
+          "frames": 10,
+          "maxAbsUnits": 244.02
+        },
+        {
+          "action": 5,
+          "frames": 5,
+          "maxAbsUnits": 203.83
+        },
+        {
+          "action": 6,
+          "frames": 8,
+          "maxAbsUnits": 333.2
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 317,
+      "model": "Monster/Monster95.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 6,
+          "maxAbsUnits": 262.39
+        },
+        {
+          "action": 2,
+          "frames": 6,
+          "maxAbsUnits": 259.07
+        },
+        {
+          "action": 3,
+          "frames": 11,
+          "maxAbsUnits": 306.25
+        },
+        {
+          "action": 4,
+          "frames": 10,
+          "maxAbsUnits": 356.53
+        },
+        {
+          "action": 5,
+          "frames": 3,
+          "maxAbsUnits": 262.39
+        },
+        {
+          "action": 6,
+          "frames": 11,
+          "maxAbsUnits": 375.26
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 331,
+      "model": "Monster/Monster67.bmd",
+      "sharedWith": 147
+    },
+    {
+      "type": 332,
+      "model": "Monster/Monster68.bmd",
+      "sharedWith": 145
+    },
+    {
+      "type": 333,
+      "model": "Monster/Monster66.bmd",
+      "sharedWith": 146
+    },
+    {
+      "type": 334,
+      "model": "Monster/Monster64.bmd",
+      "sharedWith": 144
+    },
+    {
+      "type": 335,
+      "model": "Monster/Monster69.bmd",
+      "sharedWith": 149
+    },
+    {
+      "type": 336,
+      "model": "Monster/Monster68.bmd",
+      "sharedWith": 145
+    },
+    {
+      "type": 337,
+      "model": "Monster/Monster70.bmd",
+      "sharedWith": 160
+    },
+    {
+      "type": 338,
+      "model": "Monster/Monster70.bmd",
+      "sharedWith": 160
+    },
+    {
+      "type": 340,
+      "model": "Monster/Monster93.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 6,
+          "maxAbsUnits": 194.74
+        },
+        {
+          "action": 2,
+          "frames": 6,
+          "maxAbsUnits": 188.09
+        },
+        {
+          "action": 3,
+          "frames": 7,
+          "maxAbsUnits": 194.19
+        },
+        {
+          "action": 4,
+          "frames": 7,
+          "maxAbsUnits": 194.19
+        },
+        {
+          "action": 5,
+          "frames": 5,
+          "maxAbsUnits": 194.19
+        },
+        {
+          "action": 6,
+          "frames": 7,
+          "maxAbsUnits": 222.57
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 341,
+      "model": "Monster/Monster95.bmd",
+      "sharedWith": 317
+    },
+    {
+      "type": 344,
+      "model": "Monster/Monster92.bmd",
+      "sharedWith": 316
+    },
+    {
+      "type": 345,
+      "model": "Monster/Monster94.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 6,
+          "maxAbsUnits": 216.33
+        },
+        {
+          "action": 2,
+          "frames": 8,
+          "maxAbsUnits": 206.76
+        },
+        {
+          "action": 3,
+          "frames": 9,
+          "maxAbsUnits": 248.39
+        },
+        {
+          "action": 4,
+          "frames": 9,
+          "maxAbsUnits": 248.39
+        },
+        {
+          "action": 5,
+          "frames": 3,
+          "maxAbsUnits": 221.92
+        },
+        {
+          "action": 6,
+          "frames": 7,
+          "maxAbsUnits": 277.35
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 348,
+      "model": "Monster/Monster100.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 2,
+          "maxAbsUnits": 233.75
+        },
+        {
+          "action": 2,
+          "frames": 2,
+          "maxAbsUnits": 223.23
+        },
+        {
+          "action": 3,
+          "frames": 9,
+          "maxAbsUnits": 265.68
+        },
+        {
+          "action": 4,
+          "frames": 9,
+          "maxAbsUnits": 265.68
+        },
+        {
+          "action": 5,
+          "frames": 2,
+          "maxAbsUnits": 233.75
+        },
+        {
+          "action": 6,
+          "frames": 11,
+          "maxAbsUnits": 410.35
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 349,
+      "model": "Monster/Monster90.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 6,
+          "maxAbsUnits": 189.98
+        },
+        {
+          "action": 2,
+          "frames": 6,
+          "maxAbsUnits": 176.19
+        },
+        {
+          "action": 3,
+          "frames": 8,
+          "maxAbsUnits": 181.27
+        },
+        {
+          "action": 4,
+          "frames": 9,
+          "maxAbsUnits": 202.28
+        },
+        {
+          "action": 5,
+          "frames": 2,
+          "maxAbsUnits": 187.2
+        },
+        {
+          "action": 6,
+          "frames": 10,
+          "maxAbsUnits": 288.97
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 350,
+      "model": "Monster/Monster107.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 8,
+          "maxAbsUnits": 234.84
+        },
+        {
+          "action": 2,
+          "frames": 8,
+          "maxAbsUnits": 230.51
+        },
+        {
+          "action": 3,
+          "frames": 9,
+          "maxAbsUnits": 234.84
+        },
+        {
+          "action": 4,
+          "frames": 9,
+          "maxAbsUnits": 234.84
+        },
+        {
+          "action": 5,
+          "frames": 5,
+          "maxAbsUnits": 234.84
+        },
+        {
+          "action": 6,
+          "frames": 11,
+          "maxAbsUnits": 234.84
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 351,
+      "model": "Monster/Monster108.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 9,
+          "maxAbsUnits": 330.04
+        },
+        {
+          "action": 2,
+          "frames": 8,
+          "maxAbsUnits": 350.4
+        },
+        {
+          "action": 3,
+          "frames": 7,
+          "maxAbsUnits": 400.72
+        },
+        {
+          "action": 4,
+          "frames": 7,
+          "maxAbsUnits": 400.72
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 349.75
+        },
+        {
+          "action": 6,
+          "frames": 9,
+          "maxAbsUnits": 378.28
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 352,
+      "model": "Monster/Monster109.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 9,
+          "maxAbsUnits": 194.27
+        },
+        {
+          "action": 2,
+          "frames": 8,
+          "maxAbsUnits": 194.24
+        },
+        {
+          "action": 3,
+          "frames": 8,
+          "maxAbsUnits": 230.96
+        },
+        {
+          "action": 4,
+          "frames": 8,
+          "maxAbsUnits": 230.96
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 194.27
+        },
+        {
+          "action": 6,
+          "frames": 8,
+          "maxAbsUnits": 194.27
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 353,
+      "model": "Monster/Monster110.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 9,
+          "maxAbsUnits": 206.12
+        },
+        {
+          "action": 2,
+          "frames": 8,
+          "maxAbsUnits": 214.94
+        },
+        {
+          "action": 3,
+          "frames": 9,
+          "maxAbsUnits": 222.09
+        },
+        {
+          "action": 4,
+          "frames": 9,
+          "maxAbsUnits": 222.09
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 228.99
+        },
+        {
+          "action": 6,
+          "frames": 10,
+          "maxAbsUnits": 275.59
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 354,
+      "model": "Monster/Monster111.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 9,
+          "maxAbsUnits": 206.76
+        },
+        {
+          "action": 2,
+          "frames": 9,
+          "maxAbsUnits": 201.62
+        },
+        {
+          "action": 3,
+          "frames": 10,
+          "maxAbsUnits": 206.76
+        },
+        {
+          "action": 4,
+          "frames": 10,
+          "maxAbsUnits": 206.76
+        },
+        {
+          "action": 5,
+          "frames": 7,
+          "maxAbsUnits": 206.76
+        },
+        {
+          "action": 6,
+          "frames": 4,
+          "maxAbsUnits": 206.76
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 355,
+      "model": "Monster/Monster112.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 8,
+          "maxAbsUnits": 256.28
+        },
+        {
+          "action": 2,
+          "frames": 8,
+          "maxAbsUnits": 270.38
+        },
+        {
+          "action": 3,
+          "frames": 11,
+          "maxAbsUnits": 327.45
+        },
+        {
+          "action": 4,
+          "frames": 11,
+          "maxAbsUnits": 265.42
+        },
+        {
+          "action": 5,
+          "frames": 7,
+          "maxAbsUnits": 287.77
+        },
+        {
+          "action": 6,
+          "frames": 11,
+          "maxAbsUnits": 390.85
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 356,
+      "model": "Monster/Monster113.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 9,
+          "maxAbsUnits": 224.95
+        },
+        {
+          "action": 2,
+          "frames": 9,
+          "maxAbsUnits": 244.09
+        },
+        {
+          "action": 3,
+          "frames": 8,
+          "maxAbsUnits": 224.95
+        },
+        {
+          "action": 4,
+          "frames": 8,
+          "maxAbsUnits": 224.95
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 224.95
+        },
+        {
+          "action": 6,
+          "frames": 6,
+          "maxAbsUnits": 224.95
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 357,
+      "model": "Monster/Monster114.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 9,
+          "maxAbsUnits": 235.61
+        },
+        {
+          "action": 2,
+          "frames": 8,
+          "maxAbsUnits": 245.94
+        },
+        {
+          "action": 3,
+          "frames": 9,
+          "maxAbsUnits": 330.65
+        },
+        {
+          "action": 4,
+          "frames": 9,
+          "maxAbsUnits": 330.65
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 247.05
+        },
+        {
+          "action": 6,
+          "frames": 11,
+          "maxAbsUnits": 287.66
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 358,
+      "model": "Monster/Monster115.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 8,
+          "maxAbsUnits": 235.22
+        },
+        {
+          "action": 2,
+          "frames": 9,
+          "maxAbsUnits": 251.04
+        },
+        {
+          "action": 3,
+          "frames": 7,
+          "maxAbsUnits": 249.49
+        },
+        {
+          "action": 4,
+          "frames": 7,
+          "maxAbsUnits": 247.54
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 268.47
+        },
+        {
+          "action": 6,
+          "frames": 5,
+          "maxAbsUnits": 274.93
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 359,
+      "model": "Monster/Monster116.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 9,
+          "maxAbsUnits": 209.31
+        },
+        {
+          "action": 2,
+          "frames": 9,
+          "maxAbsUnits": 212.52
+        },
+        {
+          "action": 3,
+          "frames": 7,
+          "maxAbsUnits": 240.84
+        },
+        {
+          "action": 4,
+          "frames": 8,
+          "maxAbsUnits": 238.23
+        },
+        {
+          "action": 5,
+          "frames": 7,
+          "maxAbsUnits": 209.84
+        },
+        {
+          "action": 6,
+          "frames": 10,
+          "maxAbsUnits": 218.72
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 360,
+      "model": "Monster/Monster117.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 9,
+          "maxAbsUnits": 219.89
+        },
+        {
+          "action": 2,
+          "frames": 8,
+          "maxAbsUnits": 306.5
+        },
+        {
+          "action": 3,
+          "frames": 8,
+          "maxAbsUnits": 287.87
+        },
+        {
+          "action": 4,
+          "frames": 12,
+          "maxAbsUnits": 221.42
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 219.89
+        },
+        {
+          "action": 6,
+          "frames": 9,
+          "maxAbsUnits": 219.89
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 361,
+      "model": "Monster/Monster122.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 17,
+          "maxAbsUnits": 283.96
+        },
+        {
+          "action": 2,
+          "frames": 8,
+          "maxAbsUnits": 279.87
+        },
+        {
+          "action": 3,
+          "frames": 8,
+          "maxAbsUnits": 281.92
+        },
+        {
+          "action": 4,
+          "frames": 9,
+          "maxAbsUnits": 281.92
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 281.92
+        },
+        {
+          "action": 6,
+          "frames": 9,
+          "maxAbsUnits": 281.92
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 362,
+      "model": "Monster/Monster119.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 11,
+          "maxAbsUnits": 217.48
+        },
+        {
+          "action": 2,
+          "frames": 9,
+          "maxAbsUnits": 219.87
+        },
+        {
+          "action": 3,
+          "frames": 11,
+          "maxAbsUnits": 217.48
+        },
+        {
+          "action": 4,
+          "frames": 10,
+          "maxAbsUnits": 217.48
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 221.59
+        },
+        {
+          "action": 6,
+          "frames": 17,
+          "maxAbsUnits": 1112.84
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 363,
+      "model": "Monster/Monster120.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 11,
+          "maxAbsUnits": 211.75
+        },
+        {
+          "action": 2,
+          "frames": 8,
+          "maxAbsUnits": 210.49
+        },
+        {
+          "action": 3,
+          "frames": 11,
+          "maxAbsUnits": 211.75
+        },
+        {
+          "action": 4,
+          "frames": 10,
+          "maxAbsUnits": 211.75
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 211.75
+        },
+        {
+          "action": 6,
+          "frames": 15,
+          "maxAbsUnits": 1028.07
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 365,
+      "model": "Monster/Monster123.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 8,
+          "maxAbsUnits": 80.55
+        },
+        {
+          "action": 2,
+          "frames": 8,
+          "maxAbsUnits": 82.52
+        },
+        {
+          "action": 3,
+          "frames": 8,
+          "maxAbsUnits": 80.55
+        },
+        {
+          "action": 4,
+          "frames": 8,
+          "maxAbsUnits": 80.55
+        },
+        {
+          "action": 5,
+          "frames": 7,
+          "maxAbsUnits": 67.76
+        },
+        {
+          "action": 6,
+          "frames": 8,
+          "maxAbsUnits": 735.59
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 386,
+      "model": "Monster/Monster124.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 8,
+          "maxAbsUnits": 184.99
+        },
+        {
+          "action": 2,
+          "frames": 7,
+          "maxAbsUnits": 186.53
+        },
+        {
+          "action": 3,
+          "frames": 9,
+          "maxAbsUnits": 252.45
+        },
+        {
+          "action": 4,
+          "frames": 9,
+          "maxAbsUnits": 252.45
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 184.99
+        },
+        {
+          "action": 6,
+          "frames": 10,
+          "maxAbsUnits": 192.46
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 387,
+      "model": "Monster/Monster125.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 8,
+          "maxAbsUnits": 184.99
+        },
+        {
+          "action": 2,
+          "frames": 7,
+          "maxAbsUnits": 186.53
+        },
+        {
+          "action": 3,
+          "frames": 9,
+          "maxAbsUnits": 252.45
+        },
+        {
+          "action": 4,
+          "frames": 9,
+          "maxAbsUnits": 252.45
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 184.99
+        },
+        {
+          "action": 6,
+          "frames": 10,
+          "maxAbsUnits": 192.46
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 388,
+      "model": "Monster/Monster126.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 10,
+          "maxAbsUnits": 120.39
+        },
+        {
+          "action": 2,
+          "frames": 8,
+          "maxAbsUnits": 117.84
+        },
+        {
+          "action": 3,
+          "frames": 10,
+          "maxAbsUnits": 152.21
+        },
+        {
+          "action": 4,
+          "frames": 11,
+          "maxAbsUnits": 148.34
+        },
+        {
+          "action": 5,
+          "frames": 5,
+          "maxAbsUnits": 123.39
+        },
+        {
+          "action": 6,
+          "frames": 11,
+          "maxAbsUnits": 120.39
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 389,
+      "model": "Monster/Monster124.bmd",
+      "sharedWith": 386
+    },
+    {
+      "type": 390,
+      "model": "Monster/Monster125.bmd",
+      "sharedWith": 387
+    },
+    {
+      "type": 391,
+      "model": "Monster/Monster126.bmd",
+      "sharedWith": 388
+    },
+    {
+      "type": 392,
+      "model": "Monster/Monster124.bmd",
+      "sharedWith": 386
+    },
+    {
+      "type": 393,
+      "model": "Monster/Monster125.bmd",
+      "sharedWith": 387
+    },
+    {
+      "type": 394,
+      "model": "Monster/Monster126.bmd",
+      "sharedWith": 388
+    },
+    {
+      "type": 395,
+      "model": "Monster/Monster124.bmd",
+      "sharedWith": 386
+    },
+    {
+      "type": 396,
+      "model": "Monster/Monster125.bmd",
+      "sharedWith": 387
+    },
+    {
+      "type": 397,
+      "model": "Monster/Monster126.bmd",
+      "sharedWith": 388
+    },
+    {
+      "type": 398,
+      "model": "Monster/Monster124.bmd",
+      "sharedWith": 386
+    },
+    {
+      "type": 399,
+      "model": "Monster/Monster125.bmd",
+      "sharedWith": 387
+    },
+    {
+      "type": 400,
+      "model": "Monster/Monster126.bmd",
+      "sharedWith": 388
+    },
+    {
+      "type": 401,
+      "model": "Monster/Monster124.bmd",
+      "sharedWith": 386
+    },
+    {
+      "type": 402,
+      "model": "Monster/Monster125.bmd",
+      "sharedWith": 387
+    },
+    {
+      "type": 403,
+      "model": "Monster/Monster126.bmd",
+      "sharedWith": 388
+    },
+    {
+      "type": 409,
+      "model": "Monster/Monster92.bmd",
+      "sharedWith": 316
+    },
+    {
+      "type": 410,
+      "model": "Monster/Monster94.bmd",
+      "sharedWith": 345
+    },
+    {
+      "type": 411,
+      "model": "Monster/Monster95.bmd",
+      "sharedWith": 317
+    },
+    {
+      "type": 412,
+      "model": "Monster/Monster127.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 6,
+          "maxAbsUnits": 194.74
+        },
+        {
+          "action": 2,
+          "frames": 6,
+          "maxAbsUnits": 188.09
+        },
+        {
+          "action": 3,
+          "frames": 7,
+          "maxAbsUnits": 194.19
+        },
+        {
+          "action": 4,
+          "frames": 7,
+          "maxAbsUnits": 194.19
+        },
+        {
+          "action": 5,
+          "frames": 5,
+          "maxAbsUnits": 194.19
+        },
+        {
+          "action": 6,
+          "frames": 7,
+          "maxAbsUnits": 222.57
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 413,
+      "model": "Monster/Monster128.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 8,
+          "maxAbsUnits": 108.58
+        },
+        {
+          "action": 2,
+          "frames": 6,
+          "maxAbsUnits": 108.14
+        },
+        {
+          "action": 3,
+          "frames": 8,
+          "maxAbsUnits": 108.58
+        },
+        {
+          "action": 4,
+          "frames": 13,
+          "maxAbsUnits": 108.58
+        },
+        {
+          "action": 5,
+          "frames": 5,
+          "maxAbsUnits": 113.2
+        },
+        {
+          "action": 6,
+          "frames": 11,
+          "maxAbsUnits": 416.02
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 418,
+      "model": "Monster/Monster129.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 8,
+          "maxAbsUnits": 109.33
+        },
+        {
+          "action": 2,
+          "frames": 6,
+          "maxAbsUnits": 102.44
+        },
+        {
+          "action": 3,
+          "frames": 10,
+          "maxAbsUnits": 107.23
+        },
+        {
+          "action": 4,
+          "frames": 10,
+          "maxAbsUnits": 107.23
+        },
+        {
+          "action": 5,
+          "frames": 5,
+          "maxAbsUnits": 97.64
+        },
+        {
+          "action": 6,
+          "frames": 11,
+          "maxAbsUnits": 190.36
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 419,
+      "model": "Monster/Monster130.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 9,
+          "maxAbsUnits": 197.44
+        },
+        {
+          "action": 2,
+          "frames": 9,
+          "maxAbsUnits": 225.18
+        },
+        {
+          "action": 3,
+          "frames": 9,
+          "maxAbsUnits": 281.93
+        },
+        {
+          "action": 4,
+          "frames": 9,
+          "maxAbsUnits": 281.93
+        },
+        {
+          "action": 5,
+          "frames": 5,
+          "maxAbsUnits": 262.42
+        },
+        {
+          "action": 6,
+          "frames": 9,
+          "maxAbsUnits": 834.52
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 420,
+      "model": "Monster/Monster131.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 8,
+          "maxAbsUnits": 195.24
+        },
+        {
+          "action": 2,
+          "frames": 8,
+          "maxAbsUnits": 200.48
+        },
+        {
+          "action": 3,
+          "frames": 10,
+          "maxAbsUnits": 196.18
+        },
+        {
+          "action": 4,
+          "frames": 10,
+          "maxAbsUnits": 196.18
+        },
+        {
+          "action": 5,
+          "frames": 4,
+          "maxAbsUnits": 211.95
+        },
+        {
+          "action": 6,
+          "frames": 10,
+          "maxAbsUnits": 333.23
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 421,
+      "model": "Monster/Monster132.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 24,
+          "maxAbsUnits": 223.09
+        },
+        {
+          "action": 2,
+          "frames": 16,
+          "maxAbsUnits": 255.56
+        },
+        {
+          "action": 3,
+          "frames": 21,
+          "maxAbsUnits": 259.47
+        },
+        {
+          "action": 4,
+          "frames": 21,
+          "maxAbsUnits": 259.47
+        },
+        {
+          "action": 5,
+          "frames": 8,
+          "maxAbsUnits": 223.09
+        },
+        {
+          "action": 6,
+          "frames": 26,
+          "maxAbsUnits": 223.09
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 422,
+      "model": "Monster/Monster133.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 8,
+          "maxAbsUnits": 200.72
+        },
+        {
+          "action": 2,
+          "frames": 8,
+          "maxAbsUnits": 201.67
+        },
+        {
+          "action": 3,
+          "frames": 8,
+          "maxAbsUnits": 244.57
+        },
+        {
+          "action": 4,
+          "frames": 8,
+          "maxAbsUnits": 244.57
+        },
+        {
+          "action": 5,
+          "frames": 5,
+          "maxAbsUnits": 200.72
+        },
+        {
+          "action": 6,
+          "frames": 9,
+          "maxAbsUnits": 301.61
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 423,
+      "model": "Monster/Monster134.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 10,
+          "maxAbsUnits": 1960.54
+        },
+        {
+          "action": 2,
+          "frames": 10,
+          "maxAbsUnits": 1988.8
+        },
+        {
+          "action": 3,
+          "frames": 12,
+          "maxAbsUnits": 1916.07
+        },
+        {
+          "action": 4,
+          "frames": 12,
+          "maxAbsUnits": 2158.19
+        },
+        {
+          "action": 5,
+          "frames": 5,
+          "maxAbsUnits": 1916.07
+        },
+        {
+          "action": 6,
+          "frames": 10,
+          "maxAbsUnits": 2045.78
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 424,
+      "model": "Monster/Monster135.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 8,
+          "maxAbsUnits": 154.34
+        },
+        {
+          "action": 2,
+          "frames": 8,
+          "maxAbsUnits": 161.74
+        },
+        {
+          "action": 3,
+          "frames": 8,
+          "maxAbsUnits": 179.27
+        },
+        {
+          "action": 4,
+          "frames": 8,
+          "maxAbsUnits": 179.27
+        },
+        {
+          "action": 5,
+          "frames": 5,
+          "maxAbsUnits": 160.83
+        },
+        {
+          "action": 6,
+          "frames": 11,
+          "maxAbsUnits": 154.34
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 425,
+      "model": "Monster/Monster136.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 9,
+          "maxAbsUnits": 210.36
+        },
+        {
+          "action": 2,
+          "frames": 8,
+          "maxAbsUnits": 212.47
+        },
+        {
+          "action": 3,
+          "frames": 12,
+          "maxAbsUnits": 311.59
+        },
+        {
+          "action": 4,
+          "frames": 12,
+          "maxAbsUnits": 311.59
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 218.88
+        },
+        {
+          "action": 6,
+          "frames": 14,
+          "maxAbsUnits": 282.57
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 426,
+      "model": "Monster/Monster71.bmd",
+      "sharedWith": 162
+    },
+    {
+      "type": 427,
+      "model": "Monster/Monster72.bmd",
+      "sharedWith": 163
+    },
+    {
+      "type": 428,
+      "model": "Monster/Monster48.bmd",
+      "sharedWith": 65
+    },
+    {
+      "type": 429,
+      "model": "Monster/Monster47.bmd",
+      "sharedWith": 64
+    },
+    {
+      "type": 430,
+      "model": "Monster/Monster60.bmd",
+      "sharedWith": 86
+    },
+    {
+      "type": 431,
+      "model": "Monster/Monster59.bmd",
+      "sharedWith": 87
+    },
+    {
+      "type": 432,
+      "model": "Monster/Monster58.bmd",
+      "sharedWith": 88
+    },
+    {
+      "type": 433,
+      "model": "Monster/Monster63.bmd",
+      "sharedWith": 89
+    },
+    {
+      "type": 434,
+      "model": "Monster/Monster113.bmd",
+      "sharedWith": 356
+    },
+    {
+      "type": 435,
+      "model": "Monster/Monster107.bmd",
+      "sharedWith": 350
+    },
+    {
+      "type": 436,
+      "model": "Monster/Monster92.bmd",
+      "sharedWith": 316
+    },
+    {
+      "type": 437,
+      "model": "Monster/Monster95.bmd",
+      "sharedWith": 317
+    },
+    {
+      "type": 438,
+      "model": "Monster/Monster115.bmd",
+      "sharedWith": 358
+    },
+    {
+      "type": 439,
+      "model": "Monster/Monster117.bmd",
+      "sharedWith": 360
+    },
+    {
+      "type": 440,
+      "model": "Monster/Monster93.bmd",
+      "sharedWith": 340
+    },
+    {
+      "type": 441,
+      "model": "Monster/Monster137.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 8,
+          "maxAbsUnits": 195.45
+        },
+        {
+          "action": 2,
+          "frames": 8,
+          "maxAbsUnits": 195.5
+        },
+        {
+          "action": 3,
+          "frames": 13,
+          "maxAbsUnits": 194.99
+        },
+        {
+          "action": 4,
+          "frames": 13,
+          "maxAbsUnits": 194.99
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 194.99
+        },
+        {
+          "action": 6,
+          "frames": 16,
+          "maxAbsUnits": 194.99
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 442,
+      "model": "Monster/Monster138.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 8,
+          "maxAbsUnits": 194.09
+        },
+        {
+          "action": 2,
+          "frames": 8,
+          "maxAbsUnits": 194.15
+        },
+        {
+          "action": 3,
+          "frames": 12,
+          "maxAbsUnits": 194.09
+        },
+        {
+          "action": 4,
+          "frames": 12,
+          "maxAbsUnits": 194.09
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 193.64
+        },
+        {
+          "action": 6,
+          "frames": 16,
+          "maxAbsUnits": 193.64
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 443,
+      "model": "Monster/Monster139.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 8,
+          "maxAbsUnits": 194.09
+        },
+        {
+          "action": 2,
+          "frames": 8,
+          "maxAbsUnits": 194.15
+        },
+        {
+          "action": 3,
+          "frames": 19,
+          "maxAbsUnits": 193.64
+        },
+        {
+          "action": 4,
+          "frames": 19,
+          "maxAbsUnits": 193.64
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 193.64
+        },
+        {
+          "action": 6,
+          "frames": 16,
+          "maxAbsUnits": 193.64
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 444,
+      "model": "Monster/Monster140.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 8,
+          "maxAbsUnits": 215.19
+        },
+        {
+          "action": 2,
+          "frames": 8,
+          "maxAbsUnits": 223.09
+        },
+        {
+          "action": 3,
+          "frames": 12,
+          "maxAbsUnits": 215.19
+        },
+        {
+          "action": 4,
+          "frames": 12,
+          "maxAbsUnits": 215.19
+        },
+        {
+          "action": 5,
+          "frames": 4,
+          "maxAbsUnits": 222.61
+        },
+        {
+          "action": 6,
+          "frames": 13,
+          "maxAbsUnits": 292.99
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 445,
+      "model": "Monster/Monster141.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 8,
+          "maxAbsUnits": 219.29
+        },
+        {
+          "action": 2,
+          "frames": 8,
+          "maxAbsUnits": 222.71
+        },
+        {
+          "action": 3,
+          "frames": 9,
+          "maxAbsUnits": 325.64
+        },
+        {
+          "action": 4,
+          "frames": 9,
+          "maxAbsUnits": 325.64
+        },
+        {
+          "action": 5,
+          "frames": 4,
+          "maxAbsUnits": 214.64
+        },
+        {
+          "action": 6,
+          "frames": 13,
+          "maxAbsUnits": 292.78
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 446,
+      "model": "Monster/Monster142.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 8,
+          "maxAbsUnits": 228.14
+        },
+        {
+          "action": 2,
+          "frames": 8,
+          "maxAbsUnits": 236.34
+        },
+        {
+          "action": 3,
+          "frames": 12,
+          "maxAbsUnits": 228.14
+        },
+        {
+          "action": 4,
+          "frames": 12,
+          "maxAbsUnits": 228.14
+        },
+        {
+          "action": 5,
+          "frames": 4,
+          "maxAbsUnits": 228.14
+        },
+        {
+          "action": 6,
+          "frames": 13,
+          "maxAbsUnits": 281.22
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 447,
+      "model": "Monster/Monster143.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 10,
+          "maxAbsUnits": 291.93
+        },
+        {
+          "action": 2,
+          "frames": 12,
+          "maxAbsUnits": 303.1
+        },
+        {
+          "action": 3,
+          "frames": 9,
+          "maxAbsUnits": 291.93
+        },
+        {
+          "action": 4,
+          "frames": 11,
+          "maxAbsUnits": 371.21
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 298.15
+        },
+        {
+          "action": 6,
+          "frames": 11,
+          "maxAbsUnits": 291.93
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 448,
+      "model": "Monster/Monster144.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 10,
+          "maxAbsUnits": 366.12
+        },
+        {
+          "action": 2,
+          "frames": 12,
+          "maxAbsUnits": 381.71
+        },
+        {
+          "action": 3,
+          "frames": 12,
+          "maxAbsUnits": 366.12
+        },
+        {
+          "action": 4,
+          "frames": 12,
+          "maxAbsUnits": 366.12
+        },
+        {
+          "action": 5,
+          "frames": 5,
+          "maxAbsUnits": 364.26
+        },
+        {
+          "action": 6,
+          "frames": 13,
+          "maxAbsUnits": 363.8
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 449,
+      "model": "Monster/Monster145.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 10,
+          "maxAbsUnits": 353.49
+        },
+        {
+          "action": 2,
+          "frames": 12,
+          "maxAbsUnits": 355.49
+        },
+        {
+          "action": 3,
+          "frames": 10,
+          "maxAbsUnits": 350.19
+        },
+        {
+          "action": 4,
+          "frames": 10,
+          "maxAbsUnits": 350.19
+        },
+        {
+          "action": 5,
+          "frames": 5,
+          "maxAbsUnits": 351.48
+        },
+        {
+          "action": 6,
+          "frames": 11,
+          "maxAbsUnits": 351.51
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 454,
+      "model": "Monster/Monster146.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 9,
+          "maxAbsUnits": 205.51
+        },
+        {
+          "action": 2,
+          "frames": 13,
+          "maxAbsUnits": 204.28
+        },
+        {
+          "action": 3,
+          "frames": 9,
+          "maxAbsUnits": 205.51
+        },
+        {
+          "action": 4,
+          "frames": 11,
+          "maxAbsUnits": 223.44
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 216.84
+        },
+        {
+          "action": 6,
+          "frames": 11,
+          "maxAbsUnits": 205.51
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 455,
+      "model": "Monster/Monster147.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 8,
+          "maxAbsUnits": 194.1
+        },
+        {
+          "action": 2,
+          "frames": 12,
+          "maxAbsUnits": 184.46
+        },
+        {
+          "action": 3,
+          "frames": 14,
+          "maxAbsUnits": 230.93
+        },
+        {
+          "action": 4,
+          "frames": 13,
+          "maxAbsUnits": 286.57
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 194.1
+        },
+        {
+          "action": 6,
+          "frames": 14,
+          "maxAbsUnits": 212.3
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 456,
+      "model": "Monster/Monster148.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 8,
+          "maxAbsUnits": 279.19
+        },
+        {
+          "action": 2,
+          "frames": 8,
+          "maxAbsUnits": 289.4
+        },
+        {
+          "action": 3,
+          "frames": 10,
+          "maxAbsUnits": 302.78
+        },
+        {
+          "action": 4,
+          "frames": 12,
+          "maxAbsUnits": 365.29
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 291.07
+        },
+        {
+          "action": 6,
+          "frames": 9,
+          "maxAbsUnits": 353.43
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 457,
+      "model": "Monster/Monster149.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 14,
+          "maxAbsUnits": 181.61
+        },
+        {
+          "action": 2,
+          "frames": 8,
+          "maxAbsUnits": 171.81
+        },
+        {
+          "action": 3,
+          "frames": 7,
+          "maxAbsUnits": 229.76
+        },
+        {
+          "action": 4,
+          "frames": 7,
+          "maxAbsUnits": 193.39
+        },
+        {
+          "action": 5,
+          "frames": 5,
+          "maxAbsUnits": 173.76
+        },
+        {
+          "action": 6,
+          "frames": 17,
+          "maxAbsUnits": 275.39
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 458,
+      "model": "Monster/Monster150.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 8,
+          "maxAbsUnits": 210.16
+        },
+        {
+          "action": 2,
+          "frames": 8,
+          "maxAbsUnits": 210.12
+        },
+        {
+          "action": 3,
+          "frames": 8,
+          "maxAbsUnits": 209.86
+        },
+        {
+          "action": 4,
+          "frames": 9,
+          "maxAbsUnits": 252.46
+        },
+        {
+          "action": 5,
+          "frames": 5,
+          "maxAbsUnits": 210.16
+        },
+        {
+          "action": 6,
+          "frames": 12,
+          "maxAbsUnits": 291.25
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 459,
+      "model": "Monster/Monster151.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 8,
+          "maxAbsUnits": 243.65
+        },
+        {
+          "action": 2,
+          "frames": 8,
+          "maxAbsUnits": 267.3
+        },
+        {
+          "action": 3,
+          "frames": 9,
+          "maxAbsUnits": 294.35
+        },
+        {
+          "action": 4,
+          "frames": 13,
+          "maxAbsUnits": 267.09
+        },
+        {
+          "action": 5,
+          "frames": 5,
+          "maxAbsUnits": 243.65
+        },
+        {
+          "action": 6,
+          "frames": 10,
+          "maxAbsUnits": 302.94
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 460,
+      "model": "Monster/Monster152.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 8,
+          "maxAbsUnits": 302.61
+        },
+        {
+          "action": 2,
+          "frames": 8,
+          "maxAbsUnits": 302.61
+        },
+        {
+          "action": 3,
+          "frames": 8,
+          "maxAbsUnits": 302.61
+        },
+        {
+          "action": 4,
+          "frames": 8,
+          "maxAbsUnits": 302.61
+        },
+        {
+          "action": 5,
+          "frames": 8,
+          "maxAbsUnits": 302.61
+        },
+        {
+          "action": 6,
+          "frames": 13,
+          "maxAbsUnits": 302.61
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 461,
+      "model": "Monster/Monster153.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 8,
+          "maxAbsUnits": 281.5
+        },
+        {
+          "action": 2,
+          "frames": 8,
+          "maxAbsUnits": 281.5
+        },
+        {
+          "action": 3,
+          "frames": 8,
+          "maxAbsUnits": 281.5
+        },
+        {
+          "action": 4,
+          "frames": 8,
+          "maxAbsUnits": 281.5
+        },
+        {
+          "action": 5,
+          "frames": 8,
+          "maxAbsUnits": 281.5
+        },
+        {
+          "action": 6,
+          "frames": 14,
+          "maxAbsUnits": 408.45
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 462,
+      "model": "Monster/Monster154.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 8,
+          "maxAbsUnits": 471.12
+        },
+        {
+          "action": 2,
+          "frames": 8,
+          "maxAbsUnits": 471.12
+        },
+        {
+          "action": 3,
+          "frames": 8,
+          "maxAbsUnits": 471.12
+        },
+        {
+          "action": 4,
+          "frames": 8,
+          "maxAbsUnits": 471.12
+        },
+        {
+          "action": 5,
+          "frames": 8,
+          "maxAbsUnits": 471.12
+        },
+        {
+          "action": 6,
+          "frames": 15,
+          "maxAbsUnits": 538.93
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 466,
+      "model": "Monster/Monster157.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 12,
+          "maxAbsUnits": 138.49
+        },
+        {
+          "action": 2,
+          "frames": 7,
+          "maxAbsUnits": 140.52
+        },
+        {
+          "action": 3,
+          "frames": 7,
+          "maxAbsUnits": 127.74
+        },
+        {
+          "action": 4,
+          "frames": 7,
+          "maxAbsUnits": 127.74
+        },
+        {
+          "action": 5,
+          "frames": 8,
+          "maxAbsUnits": 142.95
+        },
+        {
+          "action": 6,
+          "frames": 9,
+          "maxAbsUnits": 190.65
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 476,
+      "model": "Monster/Monster156.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 10,
+          "maxAbsUnits": 132.75
+        },
+        {
+          "action": 2,
+          "frames": 13,
+          "maxAbsUnits": 130.96
+        },
+        {
+          "action": 3,
+          "frames": 12,
+          "maxAbsUnits": 132.06
+        },
+        {
+          "action": 4,
+          "frames": 12,
+          "maxAbsUnits": 132.06
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 132.75
+        },
+        {
+          "action": 6,
+          "frames": 17,
+          "maxAbsUnits": 173.26
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 480,
+      "model": "Monster/Monster158.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 9,
+          "maxAbsUnits": 214.8
+        },
+        {
+          "action": 2,
+          "frames": 13,
+          "maxAbsUnits": 200.43
+        },
+        {
+          "action": 3,
+          "frames": 11,
+          "maxAbsUnits": 214.8
+        },
+        {
+          "action": 4,
+          "frames": 11,
+          "maxAbsUnits": 214.8
+        },
+        {
+          "action": 5,
+          "frames": 5,
+          "maxAbsUnits": 214.8
+        },
+        {
+          "action": 6,
+          "frames": 9,
+          "maxAbsUnits": 214.8
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 481,
+      "model": "Monster/Monster158.bmd",
+      "sharedWith": 480
+    },
+    {
+      "type": 482,
+      "model": "Monster/Monster159.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 9,
+          "maxAbsUnits": 211.66
+        },
+        {
+          "action": 2,
+          "frames": 13,
+          "maxAbsUnits": 209.02
+        },
+        {
+          "action": 3,
+          "frames": 9,
+          "maxAbsUnits": 211.66
+        },
+        {
+          "action": 4,
+          "frames": 9,
+          "maxAbsUnits": 211.66
+        },
+        {
+          "action": 5,
+          "frames": 7,
+          "maxAbsUnits": 211.66
+        },
+        {
+          "action": 6,
+          "frames": 10,
+          "maxAbsUnits": 217.84
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 483,
+      "model": "Monster/Monster159.bmd",
+      "sharedWith": 482
+    },
+    {
+      "type": 484,
+      "model": "Monster/Monster160.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 10,
+          "maxAbsUnits": 345.55
+        },
+        {
+          "action": 2,
+          "frames": 12,
+          "maxAbsUnits": 342.31
+        },
+        {
+          "action": 3,
+          "frames": 9,
+          "maxAbsUnits": 525.44
+        },
+        {
+          "action": 4,
+          "frames": 9,
+          "maxAbsUnits": 525.44
+        },
+        {
+          "action": 5,
+          "frames": 4,
+          "maxAbsUnits": 348.12
+        },
+        {
+          "action": 6,
+          "frames": 9,
+          "maxAbsUnits": 390.74
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 485,
+      "model": "Monster/Monster160.bmd",
+      "sharedWith": 484
+    },
+    {
+      "type": 486,
+      "model": "Monster/Monster161.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 24,
+          "maxAbsUnits": 214.8
+        },
+        {
+          "action": 2,
+          "frames": 12,
+          "maxAbsUnits": 201.92
+        },
+        {
+          "action": 3,
+          "frames": 10,
+          "maxAbsUnits": 247.21
+        },
+        {
+          "action": 4,
+          "frames": 10,
+          "maxAbsUnits": 247.21
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 194.58
+        },
+        {
+          "action": 6,
+          "frames": 14,
+          "maxAbsUnits": 195.84
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 487,
+      "model": "Monster/Monster162.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 24,
+          "maxAbsUnits": 214.8
+        },
+        {
+          "action": 2,
+          "frames": 12,
+          "maxAbsUnits": 201.92
+        },
+        {
+          "action": 3,
+          "frames": 10,
+          "maxAbsUnits": 247.21
+        },
+        {
+          "action": 4,
+          "frames": 10,
+          "maxAbsUnits": 247.21
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 194.58
+        },
+        {
+          "action": 6,
+          "frames": 14,
+          "maxAbsUnits": 195.84
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 488,
+      "model": "Monster/Monster162.bmd",
+      "sharedWith": 487
+    },
+    {
+      "type": 489,
+      "model": "Monster/Monster164.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 8,
+          "maxAbsUnits": 304.71
+        },
+        {
+          "action": 2,
+          "frames": 10,
+          "maxAbsUnits": 322.03
+        },
+        {
+          "action": 3,
+          "frames": 13,
+          "maxAbsUnits": 346.6
+        },
+        {
+          "action": 4,
+          "frames": 10,
+          "maxAbsUnits": 304.71
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 318.85
+        },
+        {
+          "action": 6,
+          "frames": 9,
+          "maxAbsUnits": 304.71
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 490,
+      "model": "Monster/Monster163.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 8,
+          "maxAbsUnits": 304.71
+        },
+        {
+          "action": 2,
+          "frames": 10,
+          "maxAbsUnits": 322.03
+        },
+        {
+          "action": 3,
+          "frames": 13,
+          "maxAbsUnits": 346.6
+        },
+        {
+          "action": 4,
+          "frames": 10,
+          "maxAbsUnits": 304.71
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 318.85
+        },
+        {
+          "action": 6,
+          "frames": 9,
+          "maxAbsUnits": 304.71
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 491,
+      "model": "Monster/Monster163.bmd",
+      "sharedWith": 490
+    },
+    {
+      "type": 493,
+      "model": "Monster/Monster04.bmd",
+      "sharedWith": 10
+    },
+    {
+      "type": 494,
+      "model": "Monster/Monster27.bmd",
+      "sharedWith": 37
+    },
+    {
+      "type": 495,
+      "model": "Monster/Monster102.bmd",
+      "sharedWith": 305
+    },
+    {
+      "type": 496,
+      "model": "Monster/Monster53.bmd",
+      "sharedWith": 71
+    },
+    {
+      "type": 497,
+      "model": "Monster/Monster110.bmd",
+      "sharedWith": 353
+    },
+    {
+      "type": 498,
+      "model": "Monster/Monster116.bmd",
+      "sharedWith": 359
+    },
+    {
+      "type": 499,
+      "model": "Monster/Monster150.bmd",
+      "sharedWith": 458
+    },
+    {
+      "type": 500,
+      "model": "Monster/Monster143.bmd",
+      "sharedWith": 447
+    },
+    {
+      "type": 501,
+      "model": "Monster/Monster32.bmd",
+      "sharedWith": 42
+    },
+    {
+      "type": 502,
+      "model": "Monster/Monster129.bmd",
+      "sharedWith": 418
+    },
+    {
+      "type": 504,
+      "model": "Monster/Monster165.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 13,
+          "maxAbsUnits": 226.28
+        },
+        {
+          "action": 2,
+          "frames": 9,
+          "maxAbsUnits": 242.14
+        },
+        {
+          "action": 3,
+          "frames": 19,
+          "maxAbsUnits": 231.7
+        },
+        {
+          "action": 4,
+          "frames": 19,
+          "maxAbsUnits": 231.7
+        },
+        {
+          "action": 5,
+          "frames": 5,
+          "maxAbsUnits": 226.34
+        },
+        {
+          "action": 6,
+          "frames": 11,
+          "maxAbsUnits": 226.28
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 505,
+      "model": "Monster/Monster166.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 12,
+          "maxAbsUnits": 288.53
+        },
+        {
+          "action": 2,
+          "frames": 12,
+          "maxAbsUnits": 221.89
+        },
+        {
+          "action": 3,
+          "frames": 19,
+          "maxAbsUnits": 288.53
+        },
+        {
+          "action": 4,
+          "frames": 19,
+          "maxAbsUnits": 288.53
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 288.53
+        },
+        {
+          "action": 6,
+          "frames": 13,
+          "maxAbsUnits": 288.53
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 506,
+      "model": "Monster/Monster167.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 16,
+          "maxAbsUnits": 354.22
+        },
+        {
+          "action": 2,
+          "frames": 16,
+          "maxAbsUnits": 239.69
+        },
+        {
+          "action": 3,
+          "frames": 17,
+          "maxAbsUnits": 354.22
+        },
+        {
+          "action": 4,
+          "frames": 12,
+          "maxAbsUnits": 354.22
+        },
+        {
+          "action": 5,
+          "frames": 5,
+          "maxAbsUnits": 354.22
+        },
+        {
+          "action": 6,
+          "frames": 17,
+          "maxAbsUnits": 354.22
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 507,
+      "model": "Monster/Monster168.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 16,
+          "maxAbsUnits": 263.62
+        },
+        {
+          "action": 2,
+          "frames": 16,
+          "maxAbsUnits": 257.85
+        },
+        {
+          "action": 3,
+          "frames": 18,
+          "maxAbsUnits": 277.99
+        },
+        {
+          "action": 4,
+          "frames": 10,
+          "maxAbsUnits": 263.62
+        },
+        {
+          "action": 5,
+          "frames": 5,
+          "maxAbsUnits": 282.04
+        },
+        {
+          "action": 6,
+          "frames": 17,
+          "maxAbsUnits": 318.4
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 508,
+      "model": "Monster/Monster169.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 12,
+          "maxAbsUnits": 188.2
+        },
+        {
+          "action": 2,
+          "frames": 12,
+          "maxAbsUnits": 182.54
+        },
+        {
+          "action": 3,
+          "frames": 16,
+          "maxAbsUnits": 259.29
+        },
+        {
+          "action": 4,
+          "frames": 10,
+          "maxAbsUnits": 230.13
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 188.18
+        },
+        {
+          "action": 6,
+          "frames": 14,
+          "maxAbsUnits": 216.58
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 509,
+      "model": "Monster/Monster170.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 12,
+          "maxAbsUnits": 234.64
+        },
+        {
+          "action": 2,
+          "frames": 12,
+          "maxAbsUnits": 230.19
+        },
+        {
+          "action": 3,
+          "frames": 11,
+          "maxAbsUnits": 234.64
+        },
+        {
+          "action": 4,
+          "frames": 14,
+          "maxAbsUnits": 289.43
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 234.64
+        },
+        {
+          "action": 6,
+          "frames": 11,
+          "maxAbsUnits": 319.26
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 510,
+      "model": "Monster/Monster171.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 12,
+          "maxAbsUnits": 276.09
+        },
+        {
+          "action": 2,
+          "frames": 8,
+          "maxAbsUnits": 363.2
+        },
+        {
+          "action": 3,
+          "frames": 15,
+          "maxAbsUnits": 295.69
+        },
+        {
+          "action": 4,
+          "frames": 12,
+          "maxAbsUnits": 273.6
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 303.77
+        },
+        {
+          "action": 6,
+          "frames": 9,
+          "maxAbsUnits": 401.21
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 511,
+      "model": "Monster/Monster172.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 12,
+          "maxAbsUnits": 281.73
+        },
+        {
+          "action": 2,
+          "frames": 9,
+          "maxAbsUnits": 357.09
+        },
+        {
+          "action": 3,
+          "frames": 10,
+          "maxAbsUnits": 295.43
+        },
+        {
+          "action": 4,
+          "frames": 14,
+          "maxAbsUnits": 280.88
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 280.88
+        },
+        {
+          "action": 6,
+          "frames": 9,
+          "maxAbsUnits": 463.95
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 512,
+      "model": "Monster/Monster173.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 12,
+          "maxAbsUnits": 242
+        },
+        {
+          "action": 2,
+          "frames": 16,
+          "maxAbsUnits": 242.53
+        },
+        {
+          "action": 3,
+          "frames": 17,
+          "maxAbsUnits": 242
+        },
+        {
+          "action": 4,
+          "frames": 18,
+          "maxAbsUnits": 331.18
+        },
+        {
+          "action": 5,
+          "frames": 5,
+          "maxAbsUnits": 242
+        },
+        {
+          "action": 6,
+          "frames": 14,
+          "maxAbsUnits": 323.6
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 513,
+      "model": "Monster/Monster174.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 12,
+          "maxAbsUnits": 348.3
+        },
+        {
+          "action": 2,
+          "frames": 12,
+          "maxAbsUnits": 349.12
+        },
+        {
+          "action": 3,
+          "frames": 19,
+          "maxAbsUnits": 348.3
+        },
+        {
+          "action": 4,
+          "frames": 10,
+          "maxAbsUnits": 348.3
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 348.95
+        },
+        {
+          "action": 6,
+          "frames": 10,
+          "maxAbsUnits": 378.63
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 514,
+      "model": "Monster/Monster175.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 12,
+          "maxAbsUnits": 199.95
+        },
+        {
+          "action": 2,
+          "frames": 16,
+          "maxAbsUnits": 200.91
+        },
+        {
+          "action": 3,
+          "frames": 18,
+          "maxAbsUnits": 380.77
+        },
+        {
+          "action": 4,
+          "frames": 18,
+          "maxAbsUnits": 439.45
+        },
+        {
+          "action": 5,
+          "frames": 5,
+          "maxAbsUnits": 199.95
+        },
+        {
+          "action": 6,
+          "frames": 12,
+          "maxAbsUnits": 347.79
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 515,
+      "model": "Monster/Monster176.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 16,
+          "maxAbsUnits": 265.86
+        },
+        {
+          "action": 2,
+          "frames": 20,
+          "maxAbsUnits": 227.66
+        },
+        {
+          "action": 3,
+          "frames": 21,
+          "maxAbsUnits": 244.98
+        },
+        {
+          "action": 4,
+          "frames": 21,
+          "maxAbsUnits": 244.98
+        },
+        {
+          "action": 5,
+          "frames": 9,
+          "maxAbsUnits": 244.98
+        },
+        {
+          "action": 6,
+          "frames": 21,
+          "maxAbsUnits": 247.57
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 516,
+      "model": "Monster/Monster177.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 8,
+          "maxAbsUnits": 221.3
+        },
+        {
+          "action": 2,
+          "frames": 8,
+          "maxAbsUnits": 218.75
+        },
+        {
+          "action": 3,
+          "frames": 19,
+          "maxAbsUnits": 267.09
+        },
+        {
+          "action": 4,
+          "frames": 9,
+          "maxAbsUnits": 234.36
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 217.04
+        },
+        {
+          "action": 6,
+          "frames": 11,
+          "maxAbsUnits": 217.04
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 517,
+      "model": "Monster/Monster178.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 12,
+          "maxAbsUnits": 271.04
+        },
+        {
+          "action": 2,
+          "frames": 12,
+          "maxAbsUnits": 273.13
+        },
+        {
+          "action": 3,
+          "frames": 10,
+          "maxAbsUnits": 292.78
+        },
+        {
+          "action": 4,
+          "frames": 14,
+          "maxAbsUnits": 380.45
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 272.69
+        },
+        {
+          "action": 6,
+          "frames": 12,
+          "maxAbsUnits": 271.93
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 518,
+      "model": "Monster/Monster179.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 8,
+          "maxAbsUnits": 175.58
+        },
+        {
+          "action": 2,
+          "frames": 8,
+          "maxAbsUnits": 174.73
+        },
+        {
+          "action": 3,
+          "frames": 8,
+          "maxAbsUnits": 177.06
+        },
+        {
+          "action": 4,
+          "frames": 8,
+          "maxAbsUnits": 176.24
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 177.68
+        },
+        {
+          "action": 6,
+          "frames": 9,
+          "maxAbsUnits": 396.05
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 519,
+      "model": "Monster/Monster180.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 12,
+          "maxAbsUnits": 240.48
+        },
+        {
+          "action": 2,
+          "frames": 16,
+          "maxAbsUnits": 224.13
+        },
+        {
+          "action": 3,
+          "frames": 17,
+          "maxAbsUnits": 281.06
+        },
+        {
+          "action": 4,
+          "frames": 17,
+          "maxAbsUnits": 281.06
+        },
+        {
+          "action": 5,
+          "frames": 5,
+          "maxAbsUnits": 228.85
+        },
+        {
+          "action": 6,
+          "frames": 13,
+          "maxAbsUnits": 313.31
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 520,
+      "model": "Monster/Monster181.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 12,
+          "maxAbsUnits": 208.86
+        },
+        {
+          "action": 2,
+          "frames": 16,
+          "maxAbsUnits": 205.34
+        },
+        {
+          "action": 3,
+          "frames": 17,
+          "maxAbsUnits": 210.75
+        },
+        {
+          "action": 4,
+          "frames": 17,
+          "maxAbsUnits": 210.75
+        },
+        {
+          "action": 5,
+          "frames": 5,
+          "maxAbsUnits": 208.86
+        },
+        {
+          "action": 6,
+          "frames": 15,
+          "maxAbsUnits": 208.86
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 521,
+      "model": "Monster/Monster182.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 9,
+          "maxAbsUnits": 238.21
+        },
+        {
+          "action": 2,
+          "frames": 9,
+          "maxAbsUnits": 235.67
+        },
+        {
+          "action": 3,
+          "frames": 14,
+          "maxAbsUnits": 385.68
+        },
+        {
+          "action": 4,
+          "frames": 14,
+          "maxAbsUnits": 385.68
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 238.21
+        },
+        {
+          "action": 6,
+          "frames": 10,
+          "maxAbsUnits": 370.58
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 524,
+      "model": "Monster/Monster184.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 1,
+          "maxAbsUnits": 583.08
+        },
+        {
+          "action": 2,
+          "frames": 1,
+          "maxAbsUnits": 583.08
+        },
+        {
+          "action": 3,
+          "frames": 1,
+          "maxAbsUnits": 583.08
+        },
+        {
+          "action": 4,
+          "frames": 1,
+          "maxAbsUnits": 583.08
+        },
+        {
+          "action": 5,
+          "frames": 1,
+          "maxAbsUnits": 583.08
+        },
+        {
+          "action": 6,
+          "frames": 21,
+          "maxAbsUnits": 583.08
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 525,
+      "model": "Monster/Monster185.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 1,
+          "maxAbsUnits": 339.72
+        },
+        {
+          "action": 2,
+          "frames": 1,
+          "maxAbsUnits": 339.72
+        },
+        {
+          "action": 3,
+          "frames": 1,
+          "maxAbsUnits": 339.72
+        },
+        {
+          "action": 4,
+          "frames": 1,
+          "maxAbsUnits": 339.72
+        },
+        {
+          "action": 5,
+          "frames": 21,
+          "maxAbsUnits": 339.89
+        },
+        {
+          "action": 6,
+          "frames": 1,
+          "maxAbsUnits": 339.72
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 526,
+      "model": "Monster/Monster186.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 1,
+          "maxAbsUnits": 595.88
+        },
+        {
+          "action": 2,
+          "frames": 1,
+          "maxAbsUnits": 595.88
+        },
+        {
+          "action": 3,
+          "frames": 1,
+          "maxAbsUnits": 595.88
+        },
+        {
+          "action": 4,
+          "frames": 1,
+          "maxAbsUnits": 595.88
+        },
+        {
+          "action": 5,
+          "frames": 21,
+          "maxAbsUnits": 596.04
+        },
+        {
+          "action": 6,
+          "frames": 1,
+          "maxAbsUnits": 595.88
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 527,
+      "model": "Monster/Monster187.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 1,
+          "maxAbsUnits": 390.66
+        },
+        {
+          "action": 2,
+          "frames": 1,
+          "maxAbsUnits": 390.66
+        },
+        {
+          "action": 3,
+          "frames": 1,
+          "maxAbsUnits": 390.66
+        },
+        {
+          "action": 4,
+          "frames": 1,
+          "maxAbsUnits": 390.66
+        },
+        {
+          "action": 5,
+          "frames": 1,
+          "maxAbsUnits": 390.66
+        },
+        {
+          "action": 6,
+          "frames": 9,
+          "maxAbsUnits": 394.37
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 528,
+      "model": "Monster/Monster188.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 1,
+          "maxAbsUnits": 498.57
+        },
+        {
+          "action": 2,
+          "frames": 1,
+          "maxAbsUnits": 498.57
+        },
+        {
+          "action": 3,
+          "frames": 1,
+          "maxAbsUnits": 498.57
+        },
+        {
+          "action": 4,
+          "frames": 1,
+          "maxAbsUnits": 498.57
+        },
+        {
+          "action": 5,
+          "frames": 21,
+          "maxAbsUnits": 498.63
+        },
+        {
+          "action": 6,
+          "frames": 1,
+          "maxAbsUnits": 498.57
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 529,
+      "model": "Monster/Monster191.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 10,
+          "maxAbsUnits": 454.68
+        },
+        {
+          "action": 2,
+          "frames": 11,
+          "maxAbsUnits": 454.68
+        },
+        {
+          "action": 3,
+          "frames": 10,
+          "maxAbsUnits": 454.68
+        },
+        {
+          "action": 4,
+          "frames": 10,
+          "maxAbsUnits": 454.68
+        },
+        {
+          "action": 5,
+          "frames": 5,
+          "maxAbsUnits": 345.96
+        },
+        {
+          "action": 6,
+          "frames": 9,
+          "maxAbsUnits": 390.74
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 530,
+      "model": "Monster/Monster190.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 10,
+          "maxAbsUnits": 454.68
+        },
+        {
+          "action": 2,
+          "frames": 11,
+          "maxAbsUnits": 454.68
+        },
+        {
+          "action": 3,
+          "frames": 10,
+          "maxAbsUnits": 454.68
+        },
+        {
+          "action": 4,
+          "frames": 10,
+          "maxAbsUnits": 454.68
+        },
+        {
+          "action": 5,
+          "frames": 5,
+          "maxAbsUnits": 345.96
+        },
+        {
+          "action": 6,
+          "frames": 9,
+          "maxAbsUnits": 390.74
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 531,
+      "model": "Monster/Monster146.bmd",
+      "sharedWith": 454
+    },
+    {
+      "type": 532,
+      "model": "Monster/Monster07.bmd",
+      "sharedWith": 12
+    },
+    {
+      "type": 533,
+      "model": "Monster/Monster192.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 24,
+          "maxAbsUnits": 127.63
+        },
+        {
+          "action": 2,
+          "frames": 14,
+          "maxAbsUnits": 155.85
+        },
+        {
+          "action": 3,
+          "frames": 24,
+          "maxAbsUnits": 127.63
+        },
+        {
+          "action": 4,
+          "frames": 24,
+          "maxAbsUnits": 127.63
+        },
+        {
+          "action": 5,
+          "frames": 9,
+          "maxAbsUnits": 150.89
+        },
+        {
+          "action": 6,
+          "frames": 16,
+          "maxAbsUnits": 137.12
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 549,
+      "model": "Monster/Monster194.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 6,
+          "maxAbsUnits": 199.38
+        },
+        {
+          "action": 2,
+          "frames": 6,
+          "maxAbsUnits": 213.53
+        },
+        {
+          "action": 3,
+          "frames": 8,
+          "maxAbsUnits": 250.38
+        },
+        {
+          "action": 4,
+          "frames": 8,
+          "maxAbsUnits": 237.29
+        },
+        {
+          "action": 5,
+          "frames": 3,
+          "maxAbsUnits": 209.24
+        },
+        {
+          "action": 6,
+          "frames": 11,
+          "maxAbsUnits": 199.35
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 550,
+      "model": "Monster/Monster195.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 2,
+          "maxAbsUnits": 249.82
+        },
+        {
+          "action": 2,
+          "frames": 6,
+          "maxAbsUnits": 251.55
+        },
+        {
+          "action": 3,
+          "frames": 7,
+          "maxAbsUnits": 251.13
+        },
+        {
+          "action": 4,
+          "frames": 7,
+          "maxAbsUnits": 251.13
+        },
+        {
+          "action": 5,
+          "frames": 3,
+          "maxAbsUnits": 252.15
+        },
+        {
+          "action": 6,
+          "frames": 5,
+          "maxAbsUnits": 259.41
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 551,
+      "model": "Monster/Monster196.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 6,
+          "maxAbsUnits": 228.78
+        },
+        {
+          "action": 2,
+          "frames": 8,
+          "maxAbsUnits": 227.53
+        },
+        {
+          "action": 3,
+          "frames": 8,
+          "maxAbsUnits": 229.42
+        },
+        {
+          "action": 4,
+          "frames": 8,
+          "maxAbsUnits": 229.32
+        },
+        {
+          "action": 5,
+          "frames": 2,
+          "maxAbsUnits": 228.78
+        },
+        {
+          "action": 6,
+          "frames": 9,
+          "maxAbsUnits": 229.32
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 552,
+      "model": "Monster/Monster197.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 8,
+          "maxAbsUnits": 172.27
+        },
+        {
+          "action": 2,
+          "frames": 8,
+          "maxAbsUnits": 181.77
+        },
+        {
+          "action": 3,
+          "frames": 8,
+          "maxAbsUnits": 216.5
+        },
+        {
+          "action": 4,
+          "frames": 12,
+          "maxAbsUnits": 220.56
+        },
+        {
+          "action": 5,
+          "frames": 4,
+          "maxAbsUnits": 152.22
+        },
+        {
+          "action": 6,
+          "frames": 7,
+          "maxAbsUnits": 232.65
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 553,
+      "model": "Monster/Monster198.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 8,
+          "maxAbsUnits": 234.84
+        },
+        {
+          "action": 2,
+          "frames": 8,
+          "maxAbsUnits": 237.49
+        },
+        {
+          "action": 3,
+          "frames": 9,
+          "maxAbsUnits": 234.84
+        },
+        {
+          "action": 4,
+          "frames": 9,
+          "maxAbsUnits": 234.84
+        },
+        {
+          "action": 5,
+          "frames": 5,
+          "maxAbsUnits": 234.84
+        },
+        {
+          "action": 6,
+          "frames": 11,
+          "maxAbsUnits": 234.84
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 554,
+      "model": "Monster/Monster199.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 8,
+          "maxAbsUnits": 256.28
+        },
+        {
+          "action": 2,
+          "frames": 8,
+          "maxAbsUnits": 270.38
+        },
+        {
+          "action": 3,
+          "frames": 11,
+          "maxAbsUnits": 327.45
+        },
+        {
+          "action": 4,
+          "frames": 11,
+          "maxAbsUnits": 265.42
+        },
+        {
+          "action": 5,
+          "frames": 7,
+          "maxAbsUnits": 290.75
+        },
+        {
+          "action": 6,
+          "frames": 11,
+          "maxAbsUnits": 320.5
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 555,
+      "model": "Monster/Monster200.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 9,
+          "maxAbsUnits": 224.95
+        },
+        {
+          "action": 2,
+          "frames": 9,
+          "maxAbsUnits": 244.09
+        },
+        {
+          "action": 3,
+          "frames": 8,
+          "maxAbsUnits": 224.95
+        },
+        {
+          "action": 4,
+          "frames": 8,
+          "maxAbsUnits": 224.95
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 224.95
+        },
+        {
+          "action": 6,
+          "frames": 6,
+          "maxAbsUnits": 224.95
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 556,
+      "model": "Monster/Monster201.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 9,
+          "maxAbsUnits": 235.61
+        },
+        {
+          "action": 2,
+          "frames": 8,
+          "maxAbsUnits": 246.88
+        },
+        {
+          "action": 3,
+          "frames": 9,
+          "maxAbsUnits": 330.65
+        },
+        {
+          "action": 4,
+          "frames": 9,
+          "maxAbsUnits": 330.65
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 247.05
+        },
+        {
+          "action": 6,
+          "frames": 11,
+          "maxAbsUnits": 234.75
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 557,
+      "model": "Monster/Monster202.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 8,
+          "maxAbsUnits": 195.45
+        },
+        {
+          "action": 2,
+          "frames": 8,
+          "maxAbsUnits": 196.07
+        },
+        {
+          "action": 3,
+          "frames": 13,
+          "maxAbsUnits": 194.99
+        },
+        {
+          "action": 4,
+          "frames": 13,
+          "maxAbsUnits": 194.99
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 194.99
+        },
+        {
+          "action": 6,
+          "frames": 16,
+          "maxAbsUnits": 194.99
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 558,
+      "model": "Monster/Monster203.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 10,
+          "maxAbsUnits": 353.49
+        },
+        {
+          "action": 2,
+          "frames": 12,
+          "maxAbsUnits": 356.23
+        },
+        {
+          "action": 3,
+          "frames": 10,
+          "maxAbsUnits": 350.19
+        },
+        {
+          "action": 4,
+          "frames": 10,
+          "maxAbsUnits": 350.19
+        },
+        {
+          "action": 5,
+          "frames": 5,
+          "maxAbsUnits": 351.48
+        },
+        {
+          "action": 6,
+          "frames": 11,
+          "maxAbsUnits": 351.51
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 559,
+      "model": "Monster/Monster204.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 8,
+          "maxAbsUnits": 228.14
+        },
+        {
+          "action": 2,
+          "frames": 8,
+          "maxAbsUnits": 240.97
+        },
+        {
+          "action": 3,
+          "frames": 12,
+          "maxAbsUnits": 228.14
+        },
+        {
+          "action": 4,
+          "frames": 12,
+          "maxAbsUnits": 228.14
+        },
+        {
+          "action": 5,
+          "frames": 4,
+          "maxAbsUnits": 228.14
+        },
+        {
+          "action": 6,
+          "frames": 13,
+          "maxAbsUnits": 286.54
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 560,
+      "model": "Monster/Monster202.bmd",
+      "sharedWith": 557
+    },
+    {
+      "type": 561,
+      "model": "Monster/Monster193.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 9,
+          "maxAbsUnits": 294.26
+        },
+        {
+          "action": 2,
+          "frames": 9,
+          "maxAbsUnits": 338.07
+        },
+        {
+          "action": 3,
+          "frames": 10,
+          "maxAbsUnits": 346.13
+        },
+        {
+          "action": 4,
+          "frames": 10,
+          "maxAbsUnits": 314.94
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 294.09
+        },
+        {
+          "action": 6,
+          "frames": 12,
+          "maxAbsUnits": 294.24
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 562,
+      "model": "Monster/Monster206.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 8,
+          "maxAbsUnits": 194.1
+        },
+        {
+          "action": 2,
+          "frames": 12,
+          "maxAbsUnits": 184.46
+        },
+        {
+          "action": 3,
+          "frames": 13,
+          "maxAbsUnits": 257.21
+        },
+        {
+          "action": 4,
+          "frames": 13,
+          "maxAbsUnits": 286.57
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 194.1
+        },
+        {
+          "action": 6,
+          "frames": 13,
+          "maxAbsUnits": 204.56
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 563,
+      "model": "Monster/Monster207.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 8,
+          "maxAbsUnits": 279.19
+        },
+        {
+          "action": 2,
+          "frames": 8,
+          "maxAbsUnits": 292.6
+        },
+        {
+          "action": 3,
+          "frames": 10,
+          "maxAbsUnits": 302.78
+        },
+        {
+          "action": 4,
+          "frames": 12,
+          "maxAbsUnits": 341.18
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 291.07
+        },
+        {
+          "action": 6,
+          "frames": 9,
+          "maxAbsUnits": 279.19
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 564,
+      "model": "Monster/Monster208.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 14,
+          "maxAbsUnits": 181.61
+        },
+        {
+          "action": 2,
+          "frames": 8,
+          "maxAbsUnits": 171.81
+        },
+        {
+          "action": 3,
+          "frames": 7,
+          "maxAbsUnits": 229.76
+        },
+        {
+          "action": 4,
+          "frames": 7,
+          "maxAbsUnits": 172.85
+        },
+        {
+          "action": 5,
+          "frames": 5,
+          "maxAbsUnits": 196.26
+        },
+        {
+          "action": 6,
+          "frames": 17,
+          "maxAbsUnits": 172.85
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 565,
+      "model": "Monster/Monster209.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 8,
+          "maxAbsUnits": 210.16
+        },
+        {
+          "action": 2,
+          "frames": 8,
+          "maxAbsUnits": 211.46
+        },
+        {
+          "action": 3,
+          "frames": 8,
+          "maxAbsUnits": 209.86
+        },
+        {
+          "action": 4,
+          "frames": 9,
+          "maxAbsUnits": 210.16
+        },
+        {
+          "action": 5,
+          "frames": 5,
+          "maxAbsUnits": 210.16
+        },
+        {
+          "action": 6,
+          "frames": 12,
+          "maxAbsUnits": 210.16
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 569,
+      "model": "Monster/Monster210.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 16,
+          "maxAbsUnits": 163.81
+        },
+        {
+          "action": 2,
+          "frames": 8,
+          "maxAbsUnits": 155.63
+        },
+        {
+          "action": 3,
+          "frames": 7,
+          "maxAbsUnits": 207.17
+        },
+        {
+          "action": 4,
+          "frames": 7,
+          "maxAbsUnits": 162.81
+        },
+        {
+          "action": 5,
+          "frames": 4,
+          "maxAbsUnits": 152.44
+        },
+        {
+          "action": 6,
+          "frames": 15,
+          "maxAbsUnits": 277.17
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 570,
+      "model": "Monster/Monster211.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 8,
+          "maxAbsUnits": 315.33
+        },
+        {
+          "action": 2,
+          "frames": 13,
+          "maxAbsUnits": 308.68
+        },
+        {
+          "action": 3,
+          "frames": 10,
+          "maxAbsUnits": 352.02
+        },
+        {
+          "action": 4,
+          "frames": 10,
+          "maxAbsUnits": 352.02
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 314.89
+        },
+        {
+          "action": 6,
+          "frames": 11,
+          "maxAbsUnits": 623.22
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 571,
+      "model": "Monster/Monster212.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 14,
+          "maxAbsUnits": 377.5
+        },
+        {
+          "action": 2,
+          "frames": 14,
+          "maxAbsUnits": 379.84
+        },
+        {
+          "action": 3,
+          "frames": 20,
+          "maxAbsUnits": 753.62
+        },
+        {
+          "action": 4,
+          "frames": 21,
+          "maxAbsUnits": 396.74
+        },
+        {
+          "action": 5,
+          "frames": 5,
+          "maxAbsUnits": 423.75
+        },
+        {
+          "action": 6,
+          "frames": 26,
+          "maxAbsUnits": 476.77
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 572,
+      "model": "Monster/Monster213.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 8,
+          "maxAbsUnits": 200.56
+        },
+        {
+          "action": 2,
+          "frames": 10,
+          "maxAbsUnits": 202.72
+        },
+        {
+          "action": 3,
+          "frames": 11,
+          "maxAbsUnits": 211.51
+        },
+        {
+          "action": 4,
+          "frames": 11,
+          "maxAbsUnits": 211.51
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 217.04
+        },
+        {
+          "action": 6,
+          "frames": 9,
+          "maxAbsUnits": 231.35
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 573,
+      "model": "Monster/Monster214.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 10,
+          "maxAbsUnits": 166.72
+        },
+        {
+          "action": 2,
+          "frames": 13,
+          "maxAbsUnits": 157.03
+        },
+        {
+          "action": 3,
+          "frames": 16,
+          "maxAbsUnits": 191.35
+        },
+        {
+          "action": 4,
+          "frames": 16,
+          "maxAbsUnits": 191.35
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 167.34
+        },
+        {
+          "action": 6,
+          "frames": 9,
+          "maxAbsUnits": 182.24
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 574,
+      "model": "Monster/Monster215.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 10,
+          "maxAbsUnits": 243.8
+        },
+        {
+          "action": 2,
+          "frames": 8,
+          "maxAbsUnits": 245.89
+        },
+        {
+          "action": 3,
+          "frames": 10,
+          "maxAbsUnits": 255.69
+        },
+        {
+          "action": 4,
+          "frames": 11,
+          "maxAbsUnits": 243.8
+        },
+        {
+          "action": 5,
+          "frames": 6,
+          "maxAbsUnits": 243.8
+        },
+        {
+          "action": 6,
+          "frames": 9,
+          "maxAbsUnits": 308.85
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 575,
+      "model": "Monster/Monster216.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 12,
+          "maxAbsUnits": 294.9
+        },
+        {
+          "action": 2,
+          "frames": 12,
+          "maxAbsUnits": 315.52
+        },
+        {
+          "action": 3,
+          "frames": 23,
+          "maxAbsUnits": 319.99
+        },
+        {
+          "action": 4,
+          "frames": 23,
+          "maxAbsUnits": 319.99
+        },
+        {
+          "action": 5,
+          "frames": 5,
+          "maxAbsUnits": 323.75
+        },
+        {
+          "action": 6,
+          "frames": 5,
+          "maxAbsUnits": 323.75
+        }
+      ],
+      "status": "sampled"
+    },
+    {
+      "type": 576,
+      "model": "Monster/Monster217.bmd",
+      "clips": [
+        {
+          "action": 0,
+          "frames": 12,
+          "maxAbsUnits": 287.27
+        },
+        {
+          "action": 2,
+          "frames": 12,
+          "maxAbsUnits": 314.28
+        },
+        {
+          "action": 3,
+          "frames": 21,
+          "maxAbsUnits": 300.78
+        },
+        {
+          "action": 4,
+          "frames": 21,
+          "maxAbsUnits": 300.78
+        },
+        {
+          "action": 5,
+          "frames": 5,
+          "maxAbsUnits": 315.81
+        },
+        {
+          "action": 6,
+          "frames": 5,
+          "maxAbsUnits": 315.81
+        }
+      ],
+      "status": "sampled"
+    }
+  ]
+}

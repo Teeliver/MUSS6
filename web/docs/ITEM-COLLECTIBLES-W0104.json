@@ -1,0 +1,366 @@
+{
+  "dataRoot": "/Users/angelale/Downloads/MuClientEX603/Data",
+  "items": 32,
+  "rows": [
+    {
+      "index": 6151,
+      "model": "Item/Gem01.bmd",
+      "sha256": "be3fb57e45fb79b785be2fae1f023674f48489786ff8f8c08867a7ff18d08673",
+      "textures": [
+        {
+          "path": "Item/pearl.OZJ",
+          "sha256": "84346c482bd09186a4fe903a0e85d4765d27e4717b4e815339839ee15cbdd4ce"
+        }
+      ]
+    },
+    {
+      "index": 6152,
+      "model": "Item/Gem02.bmd",
+      "sha256": "be3fb57e45fb79b785be2fae1f023674f48489786ff8f8c08867a7ff18d08673",
+      "textures": [
+        {
+          "path": "Item/pearl.OZJ",
+          "sha256": "84346c482bd09186a4fe903a0e85d4765d27e4717b4e815339839ee15cbdd4ce"
+        }
+      ]
+    },
+    {
+      "index": 6153,
+      "model": "Item/Gem03.bmd",
+      "sha256": "be3fb57e45fb79b785be2fae1f023674f48489786ff8f8c08867a7ff18d08673",
+      "textures": [
+        {
+          "path": "Item/pearl.OZJ",
+          "sha256": "84346c482bd09186a4fe903a0e85d4765d27e4717b4e815339839ee15cbdd4ce"
+        }
+      ]
+    },
+    {
+      "index": 6154,
+      "model": "Item/Gem04.bmd",
+      "sha256": "be3fb57e45fb79b785be2fae1f023674f48489786ff8f8c08867a7ff18d08673",
+      "textures": [
+        {
+          "path": "Item/pearl.OZJ",
+          "sha256": "84346c482bd09186a4fe903a0e85d4765d27e4717b4e815339839ee15cbdd4ce"
+        }
+      ]
+    },
+    {
+      "index": 6155,
+      "model": "Item/Gem05.bmd",
+      "sha256": "be3fb57e45fb79b785be2fae1f023674f48489786ff8f8c08867a7ff18d08673",
+      "textures": [
+        {
+          "path": "Item/pearl.OZJ",
+          "sha256": "84346c482bd09186a4fe903a0e85d4765d27e4717b4e815339839ee15cbdd4ce"
+        }
+      ]
+    },
+    {
+      "index": 6156,
+      "model": "Item/Gem06.bmd",
+      "sha256": "a272db2c20f3efe6b564eef2152e2b00ef1e32c79b2048fb347ac8b2a347b84a",
+      "textures": [
+        {
+          "path": "Item/pearl.OZJ",
+          "sha256": "84346c482bd09186a4fe903a0e85d4765d27e4717b4e815339839ee15cbdd4ce"
+        }
+      ]
+    },
+    {
+      "index": 6157,
+      "model": "Item/Gem07.bmd",
+      "sha256": "9780f0afbb63f16b652693b64c77ce62f57dd436476da91482fd9335c4cbc9f8",
+      "textures": [
+        {
+          "path": "Item/pearl.OZJ",
+          "sha256": "84346c482bd09186a4fe903a0e85d4765d27e4717b4e815339839ee15cbdd4ce"
+        }
+      ]
+    },
+    {
+      "index": 6158,
+      "model": "Item/Gem08.bmd",
+      "sha256": "9780f0afbb63f16b652693b64c77ce62f57dd436476da91482fd9335c4cbc9f8",
+      "textures": [
+        {
+          "path": "Item/pearl.OZJ",
+          "sha256": "84346c482bd09186a4fe903a0e85d4765d27e4717b4e815339839ee15cbdd4ce"
+        }
+      ]
+    },
+    {
+      "index": 6160,
+      "model": "Item/Gem10.bmd",
+      "sha256": "9780f0afbb63f16b652693b64c77ce62f57dd436476da91482fd9335c4cbc9f8",
+      "textures": [
+        {
+          "path": "Item/pearl.OZJ",
+          "sha256": "84346c482bd09186a4fe903a0e85d4765d27e4717b4e815339839ee15cbdd4ce"
+        }
+      ]
+    },
+    {
+      "index": 6161,
+      "model": "Item/Gem11.bmd",
+      "sha256": "9780f0afbb63f16b652693b64c77ce62f57dd436476da91482fd9335c4cbc9f8",
+      "textures": [
+        {
+          "path": "Item/pearl.OZJ",
+          "sha256": "84346c482bd09186a4fe903a0e85d4765d27e4717b4e815339839ee15cbdd4ce"
+        }
+      ]
+    },
+    {
+      "index": 6162,
+      "model": "Item/Gem12.bmd",
+      "sha256": "9780f0afbb63f16b652693b64c77ce62f57dd436476da91482fd9335c4cbc9f8",
+      "textures": [
+        {
+          "path": "Item/pearl.OZJ",
+          "sha256": "84346c482bd09186a4fe903a0e85d4765d27e4717b4e815339839ee15cbdd4ce"
+        }
+      ]
+    },
+    {
+      "index": 6163,
+      "model": "Item/Gem13.bmd",
+      "sha256": "9780f0afbb63f16b652693b64c77ce62f57dd436476da91482fd9335c4cbc9f8",
+      "textures": [
+        {
+          "path": "Item/pearl.OZJ",
+          "sha256": "84346c482bd09186a4fe903a0e85d4765d27e4717b4e815339839ee15cbdd4ce"
+        }
+      ]
+    },
+    {
+      "index": 6159,
+      "model": "Item/Jewel15.bmd",
+      "sha256": "9436819b5cc5dd1e0061cc127cb3df09dba54dcb83b964ad1ddf1972bb5f9a2c",
+      "textures": [
+        {
+          "path": "Item/yellow_jewel.OZJ",
+          "sha256": "a5c1fbe2798fbecc89661b61eb1b190cb124978bd74eb735e85d7dd1c3d72783"
+        }
+      ]
+    },
+    {
+      "index": 6174,
+      "model": "Item/Jewel01.bmd",
+      "sha256": "2c028c84f692f6ee0a13d3911090c81fd9393b95c74de510bbe80ab04de77565",
+      "textures": [
+        {
+          "path": "Item/blue_jewel.OZJ",
+          "sha256": "780a6484d223eaa43d65fd5906e637593a4f309778e8eb0329f02c0834f7db98"
+        }
+      ]
+    },
+    {
+      "index": 6175,
+      "model": "Item/Jewel02.bmd",
+      "sha256": "5ef6ba527498d0e04156c7ccde690f99fd0621f45f972945eb25eeb4cb97c279",
+      "textures": [
+        {
+          "path": "Item/red_jewel.OZJ",
+          "sha256": "f6a0def177ef68b5ef2e627e0c055ea043d4937a186a173b7ffeb58df6043041"
+        }
+      ]
+    },
+    {
+      "index": 6280,
+      "model": "Item/Jewel03.bmd",
+      "sha256": "7ee173eaab03850e4ada343ae4758200cd433bacc30ef8dbd9fac525e85059b2",
+      "textures": [
+        {
+          "path": "Item/wolf02.OZJ",
+          "sha256": "969ee61cefce7af3bf27990f1f9eb23f2168392345a75713bcb469e8213b16d8"
+        }
+      ]
+    },
+    {
+      "index": 6281,
+      "model": "Item/jewel22.bmd",
+      "sha256": "e36a57f8b36ac7d5a3335e60616fa4a9dd253c8090594c5535e4e8b6c31da3b0",
+      "textures": [
+        {
+          "path": "Item/red_jewel.OZJ",
+          "sha256": "f6a0def177ef68b5ef2e627e0c055ea043d4937a186a173b7ffeb58df6043041"
+        },
+        {
+          "path": "Item/blue_jewel.OZJ",
+          "sha256": "780a6484d223eaa43d65fd5906e637593a4f309778e8eb0329f02c0834f7db98"
+        }
+      ]
+    },
+    {
+      "index": 6282,
+      "model": "Item/suho.bmd",
+      "sha256": "55a918d071d969cc70a3dec983aa6117c6fb77b3cb3c12aafc46821364e4d0fb",
+      "textures": [
+        {
+          "path": "Item/suhojewel.OZJ",
+          "sha256": "be05484d7f945b601d13ea8d8253c12be8753312773db01a9e72ec96f8b14795"
+        }
+      ]
+    },
+    {
+      "index": 6283,
+      "model": "Item/rs.bmd",
+      "sha256": "f340eb771994320da15e172cf937b17aa5d9638ee4499811f6952c185d69a7c9",
+      "textures": [
+        {
+          "path": "Item/rs.OZJ",
+          "sha256": "6043d0144a98c1ad9ff582b2a33997aecce5cbda36f3980011deaad4f8fe4bee"
+        }
+      ]
+    },
+    {
+      "index": 6284,
+      "model": "Item/jos.bmd",
+      "sha256": "fa64801b3eeef73d04cde2ec07f7cc3ce877d9a26254068314d2b91aac6df382",
+      "textures": [
+        {
+          "path": "Item/jos.OZJ",
+          "sha256": "30b15051f3f750e021d82982cb547e634fdbf08bb2bc2f4d80c50c252816cbbf"
+        }
+      ]
+    },
+    {
+      "index": 6285,
+      "model": "Item/Jewel15.bmd",
+      "sha256": "9436819b5cc5dd1e0061cc127cb3df09dba54dcb83b964ad1ddf1972bb5f9a2c",
+      "textures": [
+        {
+          "path": "Item/yellow_jewel.OZJ",
+          "sha256": "a5c1fbe2798fbecc89661b61eb1b190cb124978bd74eb735e85d7dd1c3d72783"
+        }
+      ]
+    },
+    {
+      "index": 6286,
+      "model": "Item/LowRefineStone.bmd",
+      "sha256": "0a2487dc23cc0cfd8d794519629eed9687c0dffbc2a2423d7a0ea22f021dfcfb",
+      "textures": [
+        {
+          "path": "Item/LowRefineStone.OZJ",
+          "sha256": "bc6f1d3cafc5c1a93a0eebab02f7e4e4a6c292a5f9a5eaffa33ce26bcadac0fc"
+        }
+      ]
+    },
+    {
+      "index": 6287,
+      "model": "Item/HighRefineStone.bmd",
+      "sha256": "e3f959fb60f1cf677d5390fa8bc8a1e2bd4da5666155c0edd56e1ef4395427b2",
+      "textures": [
+        {
+          "path": "Item/HighRefineStone.OZJ",
+          "sha256": "daa61219714cdff4ab36320f36bd96ce3c58024c022ec10d39a7f5a05682967c"
+        }
+      ]
+    },
+    {
+      "index": 7181,
+      "model": "Item/Jewel01.bmd",
+      "sha256": "2c028c84f692f6ee0a13d3911090c81fd9393b95c74de510bbe80ab04de77565",
+      "textures": [
+        {
+          "path": "Item/blue_jewel.OZJ",
+          "sha256": "780a6484d223eaa43d65fd5906e637593a4f309778e8eb0329f02c0834f7db98"
+        }
+      ]
+    },
+    {
+      "index": 7182,
+      "model": "Item/Jewel02.bmd",
+      "sha256": "5ef6ba527498d0e04156c7ccde690f99fd0621f45f972945eb25eeb4cb97c279",
+      "textures": [
+        {
+          "path": "Item/red_jewel.OZJ",
+          "sha256": "f6a0def177ef68b5ef2e627e0c055ea043d4937a186a173b7ffeb58df6043041"
+        }
+      ]
+    },
+    {
+      "index": 7184,
+      "model": "Item/Jewel03.bmd",
+      "sha256": "7ee173eaab03850e4ada343ae4758200cd433bacc30ef8dbd9fac525e85059b2",
+      "textures": [
+        {
+          "path": "Item/wolf02.OZJ",
+          "sha256": "969ee61cefce7af3bf27990f1f9eb23f2168392345a75713bcb469e8213b16d8"
+        }
+      ]
+    },
+    {
+      "index": 7190,
+      "model": "Item/Jewel22.bmd",
+      "sha256": "e36a57f8b36ac7d5a3335e60616fa4a9dd253c8090594c5535e4e8b6c31da3b0",
+      "textures": [
+        {
+          "path": "Item/red_jewel.OZJ",
+          "sha256": "f6a0def177ef68b5ef2e627e0c055ea043d4937a186a173b7ffeb58df6043041"
+        },
+        {
+          "path": "Item/blue_jewel.OZJ",
+          "sha256": "780a6484d223eaa43d65fd5906e637593a4f309778e8eb0329f02c0834f7db98"
+        }
+      ]
+    },
+    {
+      "index": 7199,
+      "model": "Item/suho.bmd",
+      "sha256": "55a918d071d969cc70a3dec983aa6117c6fb77b3cb3c12aafc46821364e4d0fb",
+      "textures": [
+        {
+          "path": "Item/suhojewel.OZJ",
+          "sha256": "be05484d7f945b601d13ea8d8253c12be8753312773db01a9e72ec96f8b14795"
+        }
+      ]
+    },
+    {
+      "index": 7209,
+      "model": "Item/rs.bmd",
+      "sha256": "f340eb771994320da15e172cf937b17aa5d9638ee4499811f6952c185d69a7c9",
+      "textures": [
+        {
+          "path": "Item/rs.OZJ",
+          "sha256": "6043d0144a98c1ad9ff582b2a33997aecce5cbda36f3980011deaad4f8fe4bee"
+        }
+      ]
+    },
+    {
+      "index": 7210,
+      "model": "Item/jos.bmd",
+      "sha256": "fa64801b3eeef73d04cde2ec07f7cc3ce877d9a26254068314d2b91aac6df382",
+      "textures": [
+        {
+          "path": "Item/jos.OZJ",
+          "sha256": "30b15051f3f750e021d82982cb547e634fdbf08bb2bc2f4d80c50c252816cbbf"
+        }
+      ]
+    },
+    {
+      "index": 7211,
+      "model": "Item/LowRefineStone.bmd",
+      "sha256": "0a2487dc23cc0cfd8d794519629eed9687c0dffbc2a2423d7a0ea22f021dfcfb",
+      "textures": [
+        {
+          "path": "Item/LowRefineStone.OZJ",
+          "sha256": "bc6f1d3cafc5c1a93a0eebab02f7e4e4a6c292a5f9a5eaffa33ce26bcadac0fc"
+        }
+      ]
+    },
+    {
+      "index": 7212,
+      "model": "Item/HighRefineStone.bmd",
+      "sha256": "e3f959fb60f1cf677d5390fa8bc8a1e2bd4da5666155c0edd56e1ef4395427b2",
+      "textures": [
+        {
+          "path": "Item/HighRefineStone.OZJ",
+          "sha256": "daa61219714cdff4ab36320f36bd96ce3c58024c022ec10d39a7f5a05682967c"
+        }
+      ]
+    }
+  ]
+}

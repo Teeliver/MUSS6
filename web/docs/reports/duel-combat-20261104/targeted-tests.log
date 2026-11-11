@@ -1,0 +1,48 @@
+✔ actual Duel leave handler retains membership and buffs when gate fails; commits only successful exit (1576.765959ms)
+✔ Duel watch wire sizes/offsets match compiler-generated UPDATE603 structs, encrypted requests and result zero (1.102958ms)
+✔ spectator codec validates lengths, room and count instead of parsing beyond frame (0.168292ms)
+✔ watch scores/HP use both gladiator indexes independently of self and snapshots do not leak mutations (0.743875ms)
+✔ spectators deduplicate, cap at ten, remove correctly and ignore updates outside room (0.151042ms)
+✔ join survives teleport-before-ACK and ACK-before-teleport, leave resolves on teleport without invented ACK (7.789958ms)
+✔ watch deadlines permit retry; forced kick and disconnect clear pending timers (0.86575ms)
+✔ malformed spectator frames do not disconnect the world or consume pending response; stale join after leave is ignored (0.400167ms)
+✔ native gauge decay is bounded, frame-rate independent and round reset can snap to full (0.280042ms)
+✔ watch UI owns one RAF, defers native button until assets load and cancels cleanly on exit/dispose (1.539375ms)
+✔ gate refusal/current-map teleport releases leave request, retains watch room and permits retry (0.556791ms)
+✔ native invitation answers once and destroys dialog before sending, including Cancel and send failure (0.480625ms)
+✔ duel score/HP/round/win broadcasts decode UPDATE603 layouts (3.051875ms)
+✔ game state tracks duel orientation, score, HP, round reset and winner (1.529958ms)
+✔ pathfinding routes around walls, rejects blocked corners, bounds and unreachable targets (129.589208ms)
+✔ route interpolation has no stop between cells; equal 60/120Hz; run outside safe after40 ticks; correction clears path (0.798708ms)
+✔ screen picking inverts actual following camera including terrain elevation and viewport ratio (0.759125ms)
+✔ normal attack and authoritative extended damage/reward use native layout; malformed rejected (0.590375ms)
+✔ held keyboard prefetches ACK paths and ignores stale ACK after correction/dispose (2.664459ms)
+✔ combat structs and offsets are checked against actual server headers (968.0715ms)
+✔ world session attacks only live known monsters in range; damage/death/regen preserve server authority (26.906667ms)
+✔ original click marker resolves only safe Effect texture references (8.644291ms)
+✔ foot run policy uses MG/DL/RF or visible boots+5, safe zone still prevents running (0.2295ms)
+✔ click combat targets visible live monsters, never NPCs/safe-zone/dead targets and stops on death (1.1ms)
+✔ arrival marker waits for ACK and completed visual movement, and redirects pending clicks (2.49325ms)
+✔ skill catalog keeps PC client names/range alongside server rules (1.579542ms)
+✔ cast range prefers server range/radius, then PC client range (0.227542ms)
+✔ mọi skill chủ động của 7 class đều có effect tường minh (2.647375ms)
+✔ không tự sinh effect cho skill thụ động hoặc id lạ (0.656917ms)
+✔ chỉ 10 master skill có handler server mới được gán effect (0.099875ms)
+✔ mỗi họ effect trỏ tới texture Data/Effect hợp lệ và không trùng (0.6685ms)
+✔ mọi mode dựng hình học hữu hạn và giữ nguyên số mesh qua thời gian (7.919333ms)
+✔ model effect source cho Earthquake/Force Wave giải mã được (71.398042ms)
+✔ coverage đếm đúng prototype/nguồn/họ và không còn missing (0.240792ms)
+✔ 5 skill không có visual trong PC client được đánh dấu no-visual, không gán effect giả (0.092208ms)
+✔ catalog giữ đúng 7 class và id gốc (0.225292ms)
+✔ ba prototype gốc giữ nhãn preview riêng (1.501083ms)
+✔ skill chủ động khác báo đúng nguồn hoặc họ, không giả lập fixture (0.399ms)
+✔ coverage tách prototype, nguồn, họ và missing (1.027875ms)
+✔ trả bản sao, không cho sửa registry (0.454666ms)
+ℹ tests 40
+ℹ suites 0
+ℹ pass 40
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1721.796834

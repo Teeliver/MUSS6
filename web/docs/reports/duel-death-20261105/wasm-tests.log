@@ -1,0 +1,12 @@
+WASM bridge checks passed; identical C++ contract passed in WASM.
+ConnectServer/transport codec JS-WASM checks and native-equivalent C++ contract passed.
+Game profile derivation/source-reference and EXTRA1 greeting checks passed.
+Identity wire format and C1/C2 XOR checks passed; no identity provider was installed.
+SimpleModulus/source-reference, key-file and serial checks passed in WASM.
+EX603 account layout and server credential-transform reference passed in WASM.
+EX603 character-list and creation-policy ABI contract passed in WASM.
+Appearance decoder/source packer contract passed in WASM.
+Wing/pet decoder/source packer contract passed in WASM.
+Portable item resource domain contract passed in WASM; native comparison is host-only.
+Direct BMD v10/v12 mesh/bone/animation parser contract passed in WASM.
+OZT channel/alpha/origin contract passed in WASM.

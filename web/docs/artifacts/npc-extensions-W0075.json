@@ -1,0 +1,745 @@
+{
+  "scope": "Configured static NPC spawns in resource catalog; regular shop inventory is handled separately. Source/type gating remains authoritative.",
+  "sourceSha256": "eb9ede27bdc25fdc381ea00355164a7226236b8f33a58cd0ef2bf27d9206803e",
+  "rows": [
+    {
+      "type": 204,
+      "name": "Wolf Status",
+      "group": "castleServer",
+      "maps": [
+        34
+      ],
+      "placements": 1,
+      "modelMapped": true
+    },
+    {
+      "type": 205,
+      "name": "Wolf Altar1",
+      "group": "castleServer",
+      "handler": "NpcCrywolfAltar",
+      "maps": [
+        34
+      ],
+      "placements": 1,
+      "modelMapped": true
+    },
+    {
+      "type": 206,
+      "name": "Wolf Altar2",
+      "group": "castleServer",
+      "handler": "NpcCrywolfAltar",
+      "maps": [
+        34
+      ],
+      "placements": 1,
+      "modelMapped": true
+    },
+    {
+      "type": 207,
+      "name": "Wolf Altar3",
+      "group": "castleServer",
+      "handler": "NpcCrywolfAltar",
+      "maps": [
+        34
+      ],
+      "placements": 1,
+      "modelMapped": true
+    },
+    {
+      "type": 208,
+      "name": "Wolf Altar4",
+      "group": "castleServer",
+      "handler": "NpcCrywolfAltar",
+      "maps": [
+        34
+      ],
+      "placements": 1,
+      "modelMapped": true
+    },
+    {
+      "type": 209,
+      "name": "Wolf Altar5",
+      "group": "castleServer",
+      "handler": "NpcCrywolfAltar",
+      "maps": [
+        34
+      ],
+      "placements": 1,
+      "modelMapped": true
+    },
+    {
+      "type": 216,
+      "name": "Crown",
+      "group": "castleServer",
+      "handler": "NpcCastleSiegeCrown",
+      "maps": [
+        30
+      ],
+      "placements": 1,
+      "modelMapped": false
+    },
+    {
+      "type": 217,
+      "name": "Crown Switch2",
+      "group": "castleServer",
+      "handler": "NpcCastleSiegeCrownSwitch",
+      "maps": [
+        30
+      ],
+      "placements": 1,
+      "modelMapped": false
+    },
+    {
+      "type": 218,
+      "name": "Crown Switch1",
+      "group": "castleServer",
+      "handler": "NpcCastleSiegeCrownSwitch",
+      "maps": [
+        30
+      ],
+      "placements": 1,
+      "modelMapped": false
+    },
+    {
+      "type": 220,
+      "name": "Gatekeeper",
+      "group": "castleServer",
+      "handler": "NpcCastleSiegeGuard",
+      "maps": [
+        30
+      ],
+      "placements": 1,
+      "modelMapped": false
+    },
+    {
+      "type": 223,
+      "name": "Senior",
+      "group": "castleServer",
+      "handler": "NpcCastleSiegeSenior",
+      "maps": [
+        30
+      ],
+      "placements": 1,
+      "modelMapped": false
+    },
+    {
+      "type": 224,
+      "name": "Guardsman",
+      "group": "castleServer",
+      "handler": "NpcCastleSiegeGuardsman",
+      "maps": [
+        30,
+        34
+      ],
+      "placements": 3,
+      "modelMapped": true
+    },
+    {
+      "type": 226,
+      "name": "Trainer",
+      "group": "mix",
+      "handler": "NpcTrainer",
+      "maps": [
+        0,
+        34
+      ],
+      "placements": 2,
+      "modelMapped": true
+    },
+    {
+      "type": 232,
+      "name": "Archangel",
+      "group": "serverImmediate",
+      "handler": "NpcAngelKing",
+      "maps": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        52
+      ],
+      "placements": 8,
+      "modelMapped": true
+    },
+    {
+      "type": 233,
+      "name": "Messenger of Archangel",
+      "group": "eventEntry",
+      "handler": "NpcAngelMessenger",
+      "maps": [
+        2
+      ],
+      "placements": 2,
+      "modelMapped": true
+    },
+    {
+      "type": 235,
+      "name": "Sebina the Priest",
+      "group": "questLegacy",
+      "maps": [
+        2
+      ],
+      "placements": 1,
+      "modelMapped": true
+    },
+    {
+      "type": 236,
+      "name": "Golden Archer",
+      "group": "eventCoin",
+      "handler": "NpcGoldenArcher",
+      "maps": [
+        0
+      ],
+      "placements": 1,
+      "modelMapped": false
+    },
+    {
+      "type": 237,
+      "name": "Charon",
+      "group": "eventEntry",
+      "handler": "NpcCharon",
+      "maps": [
+        3
+      ],
+      "placements": 1,
+      "modelMapped": true
+    },
+    {
+      "type": 238,
+      "name": "Chaos Goblin",
+      "group": "mix",
+      "handler": "NpcChaosGoblin",
+      "maps": [
+        3
+      ],
+      "placements": 1,
+      "modelMapped": true
+    },
+    {
+      "type": 240,
+      "name": "Safety Guardian",
+      "group": "warehouse",
+      "handler": "NpcWarehouse",
+      "maps": [
+        0,
+        2,
+        3,
+        34,
+        51,
+        80
+      ],
+      "placements": 9,
+      "modelMapped": true
+    },
+    {
+      "type": 241,
+      "name": "Royal Guard Captain Lorence",
+      "group": "guild",
+      "handler": "NpcGuildMaster",
+      "maps": [
+        2
+      ],
+      "placements": 1,
+      "modelMapped": true
+    },
+    {
+      "type": 247,
+      "name": "Guard",
+      "group": "serverChatOrDecoration",
+      "maps": [
+        2
+      ],
+      "placements": 4,
+      "modelMapped": false
+    },
+    {
+      "type": 249,
+      "name": "Guard",
+      "group": "serverChatOrDecoration",
+      "maps": [
+        0
+      ],
+      "placements": 5,
+      "modelMapped": false
+    },
+    {
+      "type": 256,
+      "name": "Lahap",
+      "group": "jewel",
+      "handler": "NpcLehap",
+      "maps": [
+        34,
+        51
+      ],
+      "placements": 2,
+      "modelMapped": true
+    },
+    {
+      "type": 257,
+      "name": "Shadow Phantom Soldier",
+      "group": "questWorld",
+      "handler": "NpcElfBuffer",
+      "maps": [
+        0,
+        2,
+        3,
+        51
+      ],
+      "placements": 12,
+      "modelMapped": false
+    },
+    {
+      "type": 367,
+      "name": "Gateway Machine",
+      "group": "travel",
+      "handler": "NpcKanturuGate",
+      "maps": [
+        38
+      ],
+      "placements": 1,
+      "modelMapped": false
+    },
+    {
+      "type": 368,
+      "name": "Elpis",
+      "group": "mix",
+      "handler": "NpcElpis",
+      "maps": [
+        39
+      ],
+      "placements": 1,
+      "modelMapped": true
+    },
+    {
+      "type": 369,
+      "name": "Osbourne",
+      "group": "mix",
+      "handler": "NpcOsbourne",
+      "maps": [
+        33
+      ],
+      "placements": 1,
+      "modelMapped": true
+    },
+    {
+      "type": 370,
+      "name": "Jerridon",
+      "group": "mix",
+      "handler": "NpcJerridon",
+      "maps": [
+        33
+      ],
+      "placements": 1,
+      "modelMapped": true
+    },
+    {
+      "type": 371,
+      "name": "Leo the Helper",
+      "group": "gift",
+      "handler": "NpcLeoTheHelper",
+      "maps": [
+        2
+      ],
+      "placements": 1,
+      "modelMapped": true
+    },
+    {
+      "type": 375,
+      "name": "Chaos Card Master",
+      "group": "mix",
+      "handler": "NpcChaosCardMaster",
+      "maps": [
+        0
+      ],
+      "placements": 1,
+      "modelMapped": false
+    },
+    {
+      "type": 381,
+      "name": "MU Allies General",
+      "group": "serverChatOrDecoration",
+      "maps": [
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "placements": 6,
+      "modelMapped": false
+    },
+    {
+      "type": 382,
+      "name": "Illusion Sorcerer Elder",
+      "group": "serverChatOrDecoration",
+      "maps": [
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "placements": 6,
+      "modelMapped": false
+    },
+    {
+      "type": 383,
+      "name": "Alliance Sacred Item Storage",
+      "group": "serverImmediate",
+      "handler": "NpcYellowStorage",
+      "maps": [
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "placements": 6,
+      "modelMapped": false
+    },
+    {
+      "type": 384,
+      "name": "Illusion Castle Sacred Item Sto",
+      "group": "serverImmediate",
+      "handler": "NpcBlueStorage",
+      "maps": [
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "placements": 6,
+      "modelMapped": false
+    },
+    {
+      "type": 385,
+      "name": "Mirage",
+      "group": "eventEntry",
+      "handler": "NpcMirageTheMummy",
+      "maps": [
+        51
+      ],
+      "placements": 1,
+      "modelMapped": false
+    },
+    {
+      "type": 406,
+      "name": "Apostle Devin",
+      "group": "questLegacy",
+      "maps": [
+        34
+      ],
+      "placements": 1,
+      "modelMapped": true
+    },
+    {
+      "type": 407,
+      "name": "Werewolf Quarel",
+      "group": "questGate",
+      "maps": [
+        34
+      ],
+      "placements": 1,
+      "modelMapped": true
+    },
+    {
+      "type": 408,
+      "name": "Gatekeeper",
+      "group": "questGate",
+      "maps": [
+        41
+      ],
+      "placements": 1,
+      "modelMapped": true
+    },
+    {
+      "type": 450,
+      "name": "Cherry Blossom Spirit",
+      "group": "mix",
+      "handler": "NpcGovernorBlossom",
+      "maps": [
+        3
+      ],
+      "placements": 1,
+      "modelMapped": true
+    },
+    {
+      "type": 451,
+      "name": "Cherry Blossom Tree",
+      "group": "serverChatOrDecoration",
+      "maps": [
+        3
+      ],
+      "placements": 1,
+      "modelMapped": true
+    },
+    {
+      "type": 452,
+      "name": "Seed Master",
+      "group": "mix",
+      "handler": "NpcSeedMaster",
+      "maps": [
+        51
+      ],
+      "placements": 1,
+      "modelMapped": true
+    },
+    {
+      "type": 453,
+      "name": "Seed Researcher",
+      "group": "mix",
+      "handler": "NpcSeedResearcher",
+      "maps": [
+        51
+      ],
+      "placements": 1,
+      "modelMapped": true
+    },
+    {
+      "type": 465,
+      "name": "Santa Claus",
+      "group": "gift",
+      "handler": "NpcSantaClaus",
+      "maps": [
+        62
+      ],
+      "placements": 1,
+      "modelMapped": false
+    },
+    {
+      "type": 467,
+      "name": "Snowman",
+      "group": "gift",
+      "handler": "NpcSnowman",
+      "maps": [
+        62
+      ],
+      "placements": 1,
+      "modelMapped": false
+    },
+    {
+      "type": 468,
+      "name": "Dasher",
+      "group": "serverImmediate",
+      "handler": "NpcChristmas",
+      "maps": [
+        62
+      ],
+      "placements": 1,
+      "modelMapped": false
+    },
+    {
+      "type": 469,
+      "name": "Kermit",
+      "group": "serverImmediate",
+      "handler": "NpcChristmas",
+      "maps": [
+        62
+      ],
+      "placements": 1,
+      "modelMapped": false
+    },
+    {
+      "type": 470,
+      "name": "Dancer",
+      "group": "serverImmediate",
+      "handler": "NpcChristmas",
+      "maps": [
+        62
+      ],
+      "placements": 1,
+      "modelMapped": false
+    },
+    {
+      "type": 471,
+      "name": "Cupid",
+      "group": "serverImmediate",
+      "handler": "NpcChristmas",
+      "maps": [
+        62
+      ],
+      "placements": 1,
+      "modelMapped": false
+    },
+    {
+      "type": 472,
+      "name": "Prancer",
+      "group": "serverImmediate",
+      "handler": "NpcChristmas",
+      "maps": [
+        62
+      ],
+      "placements": 1,
+      "modelMapped": false
+    },
+    {
+      "type": 473,
+      "name": "Donner",
+      "group": "serverImmediate",
+      "handler": "NpcChristmas",
+      "maps": [
+        62
+      ],
+      "placements": 1,
+      "modelMapped": false
+    },
+    {
+      "type": 474,
+      "name": "Vixen",
+      "group": "serverImmediate",
+      "handler": "NpcChristmas",
+      "maps": [
+        62
+      ],
+      "placements": 1,
+      "modelMapped": false
+    },
+    {
+      "type": 475,
+      "name": "Blitzen",
+      "group": "serverImmediate",
+      "handler": "NpcChristmas",
+      "maps": [
+        62
+      ],
+      "placements": 1,
+      "modelMapped": false
+    },
+    {
+      "type": 478,
+      "name": "Delgado",
+      "group": "eventCoin",
+      "handler": "NpcDelgado",
+      "maps": [
+        2
+      ],
+      "placements": 1,
+      "modelMapped": true
+    },
+    {
+      "type": 479,
+      "name": "Doorkeeper Titus",
+      "group": "duelWatch",
+      "handler": "NpcTitus",
+      "maps": [
+        63
+      ],
+      "placements": 1,
+      "modelMapped": true
+    },
+    {
+      "type": 522,
+      "name": "Jerint the Assistant",
+      "group": "eventEntry",
+      "handler": "NpcJerryTheAdviser",
+      "maps": [
+        2
+      ],
+      "placements": 1,
+      "modelMapped": false
+    },
+    {
+      "type": 540,
+      "name": "Lugard",
+      "group": "eventEntry",
+      "handler": "NpcSartiganTheAngel",
+      "maps": [
+        51
+      ],
+      "placements": 1,
+      "modelMapped": true
+    },
+    {
+      "type": 543,
+      "name": "Gens Duprian Steward",
+      "group": "gens",
+      "handler": "NpcGensDuprianSteward",
+      "maps": [
+        0
+      ],
+      "placements": 1,
+      "modelMapped": true
+    },
+    {
+      "type": 544,
+      "name": "Gens Vanert Steward",
+      "group": "gens",
+      "handler": "NpcGensVarnertSteward",
+      "maps": [
+        3
+      ],
+      "placements": 1,
+      "modelMapped": true
+    },
+    {
+      "type": 546,
+      "name": "Jeweler Raul",
+      "group": "jewel",
+      "handler": "NpcRaul",
+      "maps": [
+        79
+      ],
+      "placements": 1,
+      "modelMapped": true
+    },
+    {
+      "type": 547,
+      "name": "Market Union Member Julia",
+      "group": "travel",
+      "handler": "NpcJulia",
+      "maps": [
+        0,
+        79
+      ],
+      "placements": 2,
+      "modelMapped": true
+    },
+    {
+      "type": 566,
+      "name": "Mercenary Guild Manager Tercia",
+      "group": "questWorld",
+      "handler": "NpcTercia",
+      "maps": [
+        2
+      ],
+      "placements": 1,
+      "modelMapped": true
+    },
+    {
+      "type": 567,
+      "name": "Priestess Veina",
+      "group": "questWorld",
+      "handler": "NpcVeina",
+      "maps": [
+        29
+      ],
+      "placements": 1,
+      "modelMapped": true
+    },
+    {
+      "type": 579,
+      "name": "David",
+      "group": "mix",
+      "handler": "NpcDavid",
+      "maps": [
+        51
+      ],
+      "placements": 1,
+      "modelMapped": true
+    }
+  ],
+  "limitations": [
+    "Castle interactions need CS server; not live-tested here.",
+    "No real mix, guild creation, Gens membership, quest reward or paid NPC action performed by agent.",
+    "Native UI parity remains incomplete: recipe selector and several confirmation/dialog layouts are adapted.",
+    "Custom Reset/PK config schema differs from parser; these actors are absent from current spawn catalog, unchanged."
+  ]
+}

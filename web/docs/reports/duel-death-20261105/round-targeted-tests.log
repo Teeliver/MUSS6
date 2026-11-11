@@ -1,0 +1,19 @@
+✔ Duel permits normal and targeted skill attacks on the registered opponent only; ending removes permission (17.689125ms)
+✔ Evil Spirit multi-hit includes Duel opponent, excludes bystanders and omits player targets after Duel ends (3.622042ms)
+✔ opponent hover selects original attack cursor; click/right-click attacks, then becomes ordinary player selection after Duel (4.72275ms)
+✔ Duel round same-map teleport repositions without reload and still sends FinishLoading (11.459833ms)
+✔ move/teleport ABI verified with actual server struct source and native compiler (3491.457333ms)
+✔ map request waits for authoritative teleport, cancels movement, allows late ACK after timeout (4.434417ms)
+✔ Teleport cùng map (gate=0) chỉ cập nhật vị trí, không reload lại map (0.404791ms)
+✔ map close rejects pending and malformed teleport closes without publishing map (0.924042ms)
+✔ source height loaders cover raw non-BMP and extended RGB integer/minheight (132.787958ms)
+✔ forced teleport cancels pending movement deadline instead of disconnecting the new map (4.883ms)
+✔ FinishLoading follows native C1:F3:12 and only releases the current scene once (0.4ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4080.100666

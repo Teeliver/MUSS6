@@ -1,0 +1,3256 @@
+{
+  "tables": [
+    {
+      "entries": 3258,
+      "path": "Local/Eng/Text_eng.bmd",
+      "status": "parsed"
+    },
+    {
+      "entries": 8192,
+      "path": "Local/Eng/Item_eng.bmd",
+      "status": "parsed"
+    },
+    {
+      "entries": 650,
+      "path": "Local/Eng/Skill_eng.bmd",
+      "status": "parsed"
+    },
+    {
+      "entries": 3258,
+      "path": "Local/Por/Text_por.bmd",
+      "status": "parsed"
+    },
+    {
+      "entries": 8192,
+      "path": "Local/Por/Item_por.bmd",
+      "status": "parsed"
+    },
+    {
+      "entries": 650,
+      "path": "Local/Por/Skill_por.bmd",
+      "status": "parsed"
+    },
+    {
+      "entries": 3258,
+      "path": "Local/Spn/Text_spn.bmd",
+      "status": "parsed"
+    },
+    {
+      "entries": 8192,
+      "path": "Local/Spn/Item_spn.bmd",
+      "status": "parsed"
+    },
+    {
+      "entries": 650,
+      "path": "Local/Spn/Skill_spn.bmd",
+      "status": "parsed"
+    }
+  ],
+  "worlds": [
+    {
+      "objects": {
+        "active": 2865,
+        "declared": 2871,
+        "dependencies": [
+          {
+            "model": "Object1/Tree01.bmd",
+            "placements": 80,
+            "status": "present",
+            "type": 0
+          },
+          {
+            "model": "Object1/Tree02.bmd",
+            "placements": 23,
+            "status": "present",
+            "type": 1
+          },
+          {
+            "model": "Object1/Tree03.bmd",
+            "placements": 22,
+            "status": "present",
+            "type": 2
+          },
+          {
+            "model": "Object1/Tree04.bmd",
+            "placements": 15,
+            "status": "present",
+            "type": 3
+          },
+          {
+            "model": "Object1/Tree05.bmd",
+            "placements": 20,
+            "status": "present",
+            "type": 4
+          },
+          {
+            "model": "Object1/Tree06.bmd",
+            "placements": 52,
+            "status": "present",
+            "type": 5
+          },
+          {
+            "model": "Object1/Tree07.bmd",
+            "placements": 36,
+            "status": "present",
+            "type": 6
+          },
+          {
+            "model": "Object1/Tree08.bmd",
+            "placements": 8,
+            "status": "present",
+            "type": 7
+          },
+          {
+            "model": "Object1/Tree09.bmd",
+            "placements": 42,
+            "status": "present",
+            "type": 8
+          },
+          {
+            "model": "Object1/Tree10.bmd",
+            "placements": 252,
+            "status": "present",
+            "type": 9
+          },
+          {
+            "model": "Object1/Tree11.bmd",
+            "placements": 165,
+            "status": "present",
+            "type": 10
+          },
+          {
+            "model": "Object1/Tree12.bmd",
+            "placements": 2,
+            "status": "present",
+            "type": 11
+          },
+          {
+            "model": "Object1/Tree13.bmd",
+            "placements": 4,
+            "status": "present",
+            "type": 12
+          },
+          {
+            "model": "Object1/Grass01.bmd",
+            "placements": 172,
+            "status": "present",
+            "type": 20
+          },
+          {
+            "model": "Object1/Grass02.bmd",
+            "placements": 184,
+            "status": "present",
+            "type": 21
+          },
+          {
+            "model": "Object1/Grass03.bmd",
+            "placements": 119,
+            "status": "present",
+            "type": 22
+          },
+          {
+            "model": "Object1/Grass04.bmd",
+            "placements": 118,
+            "status": "present",
+            "type": 23
+          },
+          {
+            "model": "Object1/Grass05.bmd",
+            "placements": 316,
+            "status": "present",
+            "type": 24
+          },
+          {
+            "model": "Object1/Grass06.bmd",
+            "placements": 81,
+            "status": "present",
+            "type": 25
+          },
+          {
+            "model": "Object1/Grass07.bmd",
+            "placements": 35,
+            "status": "present",
+            "type": 26
+          },
+          {
+            "model": "Object1/Grass08.bmd",
+            "placements": 7,
+            "status": "present",
+            "type": 27
+          },
+          {
+            "model": "Object1/Stone01.bmd",
+            "placements": 29,
+            "status": "present",
+            "type": 30
+          },
+          {
+            "model": "Object1/Stone02.bmd",
+            "placements": 42,
+            "status": "present",
+            "type": 31
+          },
+          {
+            "model": "Object1/Stone03.bmd",
+            "placements": 50,
+            "status": "present",
+            "type": 32
+          },
+          {
+            "model": "Object1/Stone04.bmd",
+            "placements": 69,
+            "status": "present",
+            "type": 33
+          },
+          {
+            "model": "Object1/Stone05.bmd",
+            "placements": 8,
+            "status": "present",
+            "type": 34
+          },
+          {
+            "model": "Object1/StoneStatue01.bmd",
+            "placements": 8,
+            "status": "present",
+            "type": 40
+          },
+          {
+            "model": "Object1/StoneStatue02.bmd",
+            "placements": 7,
+            "status": "present",
+            "type": 41
+          },
+          {
+            "model": "Object1/StoneStatue03.bmd",
+            "placements": 4,
+            "status": "present",
+            "type": 42
+          },
+          {
+            "model": "Object1/SteelStatue01.bmd",
+            "placements": 4,
+            "status": "present",
+            "type": 43
+          },
+          {
+            "model": "Object1/Tomb01.bmd",
+            "placements": 4,
+            "status": "present",
+            "type": 44
+          },
+          {
+            "model": "Object1/Tomb02.bmd",
+            "placements": 4,
+            "status": "present",
+            "type": 45
+          },
+          {
+            "model": "Object1/Tomb03.bmd",
+            "placements": 5,
+            "status": "present",
+            "type": 46
+          },
+          {
+            "model": "Object1/FireLight01.bmd",
+            "placements": 26,
+            "status": "present",
+            "type": 50
+          },
+          {
+            "model": "Object1/FireLight02.bmd",
+            "placements": 18,
+            "status": "present",
+            "type": 51
+          },
+          {
+            "model": "Object1/Bonfire01.bmd",
+            "placements": 9,
+            "status": "present",
+            "type": 52
+          },
+          {
+            "model": "Object1/DoungeonGate01.bmd",
+            "placements": 1,
+            "status": "present",
+            "type": 55
+          },
+          {
+            "model": "Object1/MerchantAnimal01.bmd",
+            "placements": 2,
+            "status": "present",
+            "type": 56
+          },
+          {
+            "model": "Object1/MerchantAnimal02.bmd",
+            "placements": 4,
+            "status": "present",
+            "type": 57
+          },
+          {
+            "model": "Object1/TreasureDrum01.bmd",
+            "placements": 64,
+            "status": "present",
+            "type": 58
+          },
+          {
+            "model": "Object1/TreasureChest01.bmd",
+            "placements": 3,
+            "status": "present",
+            "type": 59
+          },
+          {
+            "model": "Object1/Ship01.bmd",
+            "placements": 4,
+            "status": "present",
+            "type": 60
+          },
+          {
+            "model": "Object1/SteelWall01.bmd",
+            "placements": 2,
+            "status": "present",
+            "type": 65
+          },
+          {
+            "model": "Object1/SteelWall02.bmd",
+            "placements": 21,
+            "status": "present",
+            "type": 66
+          },
+          {
+            "model": "Object1/SteelWall03.bmd",
+            "placements": 5,
+            "status": "present",
+            "type": 67
+          },
+          {
+            "model": "Object1/SteelDoor01.bmd",
+            "placements": 8,
+            "status": "present",
+            "type": 68
+          },
+          {
+            "model": "Object1/StoneWall01.bmd",
+            "placements": 8,
+            "status": "present",
+            "type": 69
+          },
+          {
+            "model": "Object1/StoneWall02.bmd",
+            "placements": 6,
+            "status": "present",
+            "type": 70
+          },
+          {
+            "model": "Object1/StoneWall03.bmd",
+            "placements": 2,
+            "status": "present",
+            "type": 71
+          },
+          {
+            "model": "Object1/StoneWall04.bmd",
+            "placements": 12,
+            "status": "present",
+            "type": 72
+          },
+          {
+            "model": "Object1/StoneWall06.bmd",
+            "placements": 2,
+            "status": "present",
+            "type": 74
+          },
+          {
+            "model": "Object1/StoneMuWall01.bmd",
+            "placements": 4,
+            "status": "present",
+            "type": 75
+          },
+          {
+            "model": "Object1/StoneMuWall02.bmd",
+            "placements": 32,
+            "status": "present",
+            "type": 76
+          },
+          {
+            "model": "Object1/StoneMuWall03.bmd",
+            "placements": 45,
+            "status": "present",
+            "type": 77
+          },
+          {
+            "model": "Object1/StoneMuWall04.bmd",
+            "placements": 3,
+            "status": "present",
+            "type": 78
+          },
+          {
+            "model": "Object1/Bridge01.bmd",
+            "placements": 16,
+            "status": "present",
+            "type": 80
+          },
+          {
+            "model": "Object1/Fence01.bmd",
+            "placements": 180,
+            "status": "present",
+            "type": 81
+          },
+          {
+            "model": "Object1/Fence02.bmd",
+            "placements": 33,
+            "status": "present",
+            "type": 82
+          },
+          {
+            "model": "Object1/Fence03.bmd",
+            "placements": 34,
+            "status": "present",
+            "type": 83
+          },
+          {
+            "model": "Object1/Fence04.bmd",
+            "placements": 17,
+            "status": "present",
+            "type": 84
+          },
+          {
+            "model": "Object1/BridgeStone01.bmd",
+            "placements": 14,
+            "status": "present",
+            "type": 85
+          },
+          {
+            "model": "Object1/StreetLight01.bmd",
+            "placements": 10,
+            "status": "present",
+            "type": 90
+          },
+          {
+            "model": "Object1/Cannon01.bmd",
+            "placements": 1,
+            "status": "present",
+            "type": 91
+          },
+          {
+            "model": "Object1/Cannon02.bmd",
+            "placements": 2,
+            "status": "present",
+            "type": 92
+          },
+          {
+            "model": "Object1/Cannon03.bmd",
+            "placements": 3,
+            "status": "present",
+            "type": 93
+          },
+          {
+            "model": "Object1/Curtain01.bmd",
+            "placements": 6,
+            "status": "present",
+            "type": 95
+          },
+          {
+            "model": "Object1/Sign01.bmd",
+            "placements": 3,
+            "status": "present",
+            "type": 96
+          },
+          {
+            "model": "Object1/Sign02.bmd",
+            "placements": 5,
+            "status": "present",
+            "type": 97
+          },
+          {
+            "model": "Object1/Carriage01.bmd",
+            "placements": 4,
+            "status": "present",
+            "type": 98
+          },
+          {
+            "model": "Object1/Carriage02.bmd",
+            "placements": 7,
+            "status": "present",
+            "type": 99
+          },
+          {
+            "model": "Object1/Carriage04.bmd",
+            "placements": 2,
+            "status": "present",
+            "type": 101
+          },
+          {
+            "model": "Object1/Straw01.bmd",
+            "placements": 8,
+            "status": "present",
+            "type": 102
+          },
+          {
+            "model": "Object1/Straw02.bmd",
+            "placements": 2,
+            "status": "present",
+            "type": 103
+          },
+          {
+            "model": "Object1/Well02.bmd",
+            "placements": 1,
+            "status": "present",
+            "type": 107
+          },
+          {
+            "model": "Object1/Well03.bmd",
+            "placements": 2,
+            "status": "present",
+            "type": 108
+          },
+          {
+            "model": "Object1/Well04.bmd",
+            "placements": 2,
+            "status": "present",
+            "type": 109
+          },
+          {
+            "model": "Object1/Hanging01.bmd",
+            "placements": 1,
+            "status": "present",
+            "type": 110
+          },
+          {
+            "model": "Object1/Stair01.bmd",
+            "placements": 3,
+            "status": "present",
+            "type": 111
+          },
+          {
+            "model": "Object1/House01.bmd",
+            "placements": 2,
+            "status": "present",
+            "type": 115
+          },
+          {
+            "model": "Object1/House02.bmd",
+            "placements": 7,
+            "status": "present",
+            "type": 116
+          },
+          {
+            "model": "Object1/House03.bmd",
+            "placements": 1,
+            "status": "present",
+            "type": 117
+          },
+          {
+            "model": "Object1/House04.bmd",
+            "placements": 1,
+            "status": "present",
+            "type": 118
+          },
+          {
+            "model": "Object1/House05.bmd",
+            "placements": 1,
+            "status": "present",
+            "type": 119
+          },
+          {
+            "model": "Object1/Tent01.bmd",
+            "placements": 2,
+            "status": "present",
+            "type": 120
+          },
+          {
+            "model": "Object1/HouseWall01.bmd",
+            "placements": 3,
+            "status": "present",
+            "type": 121
+          },
+          {
+            "model": "Object1/HouseWall02.bmd",
+            "placements": 14,
+            "status": "present",
+            "type": 122
+          },
+          {
+            "model": "Object1/HouseWall03.bmd",
+            "placements": 5,
+            "status": "present",
+            "type": 123
+          },
+          {
+            "model": "Object1/HouseWall04.bmd",
+            "placements": 8,
+            "status": "present",
+            "type": 124
+          },
+          {
+            "model": "Object1/HouseWall05.bmd",
+            "placements": 8,
+            "status": "present",
+            "type": 125
+          },
+          {
+            "model": "Object1/HouseWall06.bmd",
+            "placements": 4,
+            "status": "present",
+            "type": 126
+          },
+          {
+            "model": "Object1/HouseEtc01.bmd",
+            "placements": 48,
+            "status": "present",
+            "type": 127
+          },
+          {
+            "model": "Object1/HouseEtc02.bmd",
+            "placements": 1,
+            "status": "present",
+            "type": 128
+          },
+          {
+            "model": "Object1/HouseEtc03.bmd",
+            "placements": 8,
+            "status": "present",
+            "type": 129
+          },
+          {
+            "model": "Object1/Light01.bmd",
+            "placements": 2,
+            "status": "native_marker_skipped",
+            "type": 130
+          },
+          {
+            "model": "Object1/Light02.bmd",
+            "placements": 18,
+            "status": "native_marker_skipped",
+            "type": 131
+          },
+          {
+            "model": "Object1/Light03.bmd",
+            "placements": 5,
+            "status": "native_marker_skipped",
+            "type": 132
+          },
+          {
+            "model": "Object1/PoseBox01.bmd",
+            "placements": 52,
+            "status": "native_marker_skipped",
+            "type": 133
+          },
+          {
+            "model": "Object1/Furniture01.bmd",
+            "placements": 2,
+            "status": "present",
+            "type": 140
+          },
+          {
+            "model": "Object1/Furniture02.bmd",
+            "placements": 3,
+            "status": "present",
+            "type": 141
+          },
+          {
+            "model": "Object1/Furniture03.bmd",
+            "placements": 5,
+            "status": "present",
+            "type": 142
+          },
+          {
+            "model": "Object1/Furniture04.bmd",
+            "placements": 3,
+            "status": "present",
+            "type": 143
+          },
+          {
+            "model": "Object1/Furniture05.bmd",
+            "placements": 3,
+            "status": "present",
+            "type": 144
+          },
+          {
+            "model": "Object1/Furniture06.bmd",
+            "placements": 18,
+            "status": "present",
+            "type": 145
+          },
+          {
+            "model": "Object1/Furniture07.bmd",
+            "placements": 3,
+            "status": "present",
+            "type": 146
+          },
+          {
+            "model": "Object1/Candle01.bmd",
+            "placements": 6,
+            "status": "present",
+            "type": 150
+          },
+          {
+            "model": "Object1/Beer01.bmd",
+            "placements": 1,
+            "status": "present",
+            "type": 151
+          },
+          {
+            "model": "Object1/Beer02.bmd",
+            "placements": 2,
+            "status": "present",
+            "type": 152
+          },
+          {
+            "model": "Object1/Beer03.bmd",
+            "placements": 4,
+            "status": "present",
+            "type": 153
+          },
+          {
+            "model": "Object1/",
+            "placements": 1,
+            "status": "unmapped_type",
+            "type": 168
+          }
+        ],
+        "records": 2870,
+        "status": "parsed"
+      },
+      "server_map": 0,
+      "status": "audited_supported_world",
+      "terrain": {
+        "attributes": 65536,
+        "heights": 65536,
+        "status": "parsed"
+      },
+      "world": 1
+    },
+    {
+      "server_map": 1,
+      "status": "unsupported_by_native_parser",
+      "world": 2
+    },
+    {
+      "server_map": 2,
+      "status": "unsupported_by_native_parser",
+      "world": 3
+    },
+    {
+      "objects": {
+        "active": 9399,
+        "declared": 9399,
+        "dependencies": [
+          {
+            "model": "Object4/Object01.bmd",
+            "placements": 524,
+            "status": "present",
+            "type": 0
+          },
+          {
+            "model": "Object4/Object02.bmd",
+            "placements": 2336,
+            "status": "present",
+            "type": 1
+          },
+          {
+            "model": "Object4/Object03.bmd",
+            "placements": 75,
+            "status": "present",
+            "type": 2
+          },
+          {
+            "model": "Object4/Object04.bmd",
+            "placements": 144,
+            "status": "present",
+            "type": 3
+          },
+          {
+            "model": "Object4/Object05.bmd",
+            "placements": 245,
+            "status": "present",
+            "type": 4
+          },
+          {
+            "model": "Object4/Object06.bmd",
+            "placements": 915,
+            "status": "present",
+            "type": 5
+          },
+          {
+            "model": "Object4/Object07.bmd",
+            "placements": 29,
+            "status": "present",
+            "type": 6
+          },
+          {
+            "model": "Object4/Object08.bmd",
+            "placements": 742,
+            "status": "present",
+            "type": 7
+          },
+          {
+            "model": "Object4/Object09.bmd",
+            "placements": 16,
+            "status": "present",
+            "type": 8
+          },
+          {
+            "model": "Object4/Object10.bmd",
+            "placements": 14,
+            "status": "present",
+            "type": 9
+          },
+          {
+            "model": "Object4/Object11.bmd",
+            "placements": 7,
+            "status": "present",
+            "type": 10
+          },
+          {
+            "model": "Object4/Object12.bmd",
+            "placements": 362,
+            "status": "present",
+            "type": 11
+          },
+          {
+            "model": "Object4/Object13.bmd",
+            "placements": 241,
+            "status": "present",
+            "type": 12
+          },
+          {
+            "model": "Object4/Object14.bmd",
+            "placements": 665,
+            "status": "present",
+            "type": 13
+          },
+          {
+            "model": "Object4/Object15.bmd",
+            "placements": 193,
+            "status": "present",
+            "type": 14
+          },
+          {
+            "model": "Object4/Object16.bmd",
+            "placements": 548,
+            "status": "present",
+            "type": 15
+          },
+          {
+            "model": "Object4/Object17.bmd",
+            "placements": 216,
+            "status": "present",
+            "type": 16
+          },
+          {
+            "model": "Object4/Object18.bmd",
+            "placements": 3,
+            "status": "present",
+            "type": 17
+          },
+          {
+            "model": "Object4/Object19.bmd",
+            "placements": 2,
+            "status": "present",
+            "type": 18
+          },
+          {
+            "model": "Object4/Object20.bmd",
+            "placements": 79,
+            "status": "present",
+            "type": 19
+          },
+          {
+            "model": "Object4/Object21.bmd",
+            "placements": 8,
+            "status": "present",
+            "type": 20
+          },
+          {
+            "model": "Object4/Object22.bmd",
+            "placements": 3,
+            "status": "present",
+            "type": 21
+          },
+          {
+            "model": "Object4/Object23.bmd",
+            "placements": 159,
+            "status": "present",
+            "type": 22
+          },
+          {
+            "model": "Object4/Object24.bmd",
+            "placements": 152,
+            "status": "present",
+            "type": 23
+          },
+          {
+            "model": "Object4/Object25.bmd",
+            "placements": 47,
+            "status": "present",
+            "type": 24
+          },
+          {
+            "model": "Object4/Object26.bmd",
+            "placements": 7,
+            "status": "present",
+            "type": 25
+          },
+          {
+            "model": "Object4/Object27.bmd",
+            "placements": 64,
+            "status": "present",
+            "type": 26
+          },
+          {
+            "model": "Object4/Object28.bmd",
+            "placements": 51,
+            "status": "present",
+            "type": 27
+          },
+          {
+            "model": "Object4/Object29.bmd",
+            "placements": 18,
+            "status": "present",
+            "type": 28
+          },
+          {
+            "model": "Object4/Object30.bmd",
+            "placements": 26,
+            "status": "present",
+            "type": 29
+          },
+          {
+            "model": "Object4/Object31.bmd",
+            "placements": 5,
+            "status": "present",
+            "type": 30
+          },
+          {
+            "model": "Object4/Object32.bmd",
+            "placements": 44,
+            "status": "present",
+            "type": 31
+          },
+          {
+            "model": "Object4/Object33.bmd",
+            "placements": 90,
+            "status": "present",
+            "type": 32
+          },
+          {
+            "model": "Object4/Object34.bmd",
+            "placements": 69,
+            "status": "present",
+            "type": 33
+          },
+          {
+            "model": "Object4/Object35.bmd",
+            "placements": 240,
+            "status": "present",
+            "type": 34
+          },
+          {
+            "model": "Object4/Object36.bmd",
+            "placements": 228,
+            "status": "present",
+            "type": 35
+          },
+          {
+            "model": "Object4/Object37.bmd",
+            "placements": 683,
+            "status": "present",
+            "type": 36
+          },
+          {
+            "model": "Object4/Object38.bmd",
+            "placements": 91,
+            "status": "present",
+            "type": 37
+          },
+          {
+            "model": "Object4/Object39.bmd",
+            "placements": 53,
+            "status": "native_marker_skipped",
+            "type": 38
+          },
+          {
+            "model": "Object4/Object40.bmd",
+            "placements": 1,
+            "status": "present",
+            "type": 39
+          },
+          {
+            "model": "Object4/Object41.bmd",
+            "placements": 1,
+            "status": "present",
+            "type": 40
+          },
+          {
+            "model": "Object4/Object42.bmd",
+            "placements": 1,
+            "status": "present",
+            "type": 41
+          },
+          {
+            "model": "Object4/Object43.bmd",
+            "placements": 1,
+            "status": "present",
+            "type": 42
+          },
+          {
+            "model": "Object4/Object44.bmd",
+            "placements": 1,
+            "status": "missing",
+            "type": 43
+          }
+        ],
+        "records": 9399,
+        "status": "parsed"
+      },
+      "server_map": 3,
+      "status": "audited_supported_world",
+      "terrain": {
+        "attributes": 65536,
+        "heights": 65536,
+        "status": "parsed"
+      },
+      "world": 4
+    },
+    {
+      "server_map": 4,
+      "status": "unsupported_by_native_parser",
+      "world": 5
+    },
+    {
+      "server_map": 6,
+      "status": "unsupported_by_native_parser",
+      "world": 7
+    },
+    {
+      "server_map": 7,
+      "status": "unsupported_by_native_parser",
+      "world": 8
+    },
+    {
+      "server_map": 8,
+      "status": "unsupported_by_native_parser",
+      "world": 9
+    },
+    {
+      "server_map": 9,
+      "status": "unsupported_by_native_parser",
+      "world": 10
+    },
+    {
+      "server_map": 10,
+      "status": "unsupported_by_native_parser",
+      "world": 11
+    },
+    {
+      "server_map": 11,
+      "status": "unsupported_by_native_parser",
+      "world": 12
+    },
+    {
+      "server_map": 18,
+      "status": "unsupported_by_native_parser",
+      "world": 19
+    },
+    {
+      "server_map": 24,
+      "status": "unsupported_by_native_parser",
+      "world": 25
+    },
+    {
+      "server_map": 30,
+      "status": "unsupported_by_native_parser",
+      "world": 31
+    },
+    {
+      "server_map": 31,
+      "status": "unsupported_by_native_parser",
+      "world": 32
+    },
+    {
+      "server_map": 33,
+      "status": "unsupported_by_native_parser",
+      "world": 34
+    },
+    {
+      "server_map": 34,
+      "status": "unsupported_by_native_parser",
+      "world": 35
+    },
+    {
+      "server_map": 37,
+      "status": "unsupported_by_native_parser",
+      "world": 38
+    },
+    {
+      "server_map": 38,
+      "status": "unsupported_by_native_parser",
+      "world": 39
+    },
+    {
+      "server_map": 39,
+      "status": "unsupported_by_native_parser",
+      "world": 40
+    },
+    {
+      "server_map": 40,
+      "status": "unsupported_by_native_parser",
+      "world": 41
+    },
+    {
+      "server_map": 41,
+      "status": "unsupported_by_native_parser",
+      "world": 42
+    },
+    {
+      "server_map": 42,
+      "status": "unsupported_by_native_parser",
+      "world": 43
+    },
+    {
+      "server_map": 46,
+      "status": "unsupported_by_native_parser",
+      "world": 47
+    },
+    {
+      "objects": {
+        "active": 5136,
+        "declared": 5136,
+        "dependencies": [
+          {
+            "model": "Object52/Object01.bmd",
+            "placements": 27,
+            "status": "native_marker_skipped",
+            "type": 0
+          },
+          {
+            "model": "Object52/Object02.bmd",
+            "placements": 37,
+            "status": "present",
+            "type": 1
+          },
+          {
+            "model": "Object52/Object03.bmd",
+            "placements": 18,
+            "status": "present",
+            "type": 2
+          },
+          {
+            "model": "Object52/Object04.bmd",
+            "placements": 26,
+            "status": "present",
+            "type": 3
+          },
+          {
+            "model": "Object52/Object05.bmd",
+            "placements": 17,
+            "status": "present",
+            "type": 4
+          },
+          {
+            "model": "Object52/Object06.bmd",
+            "placements": 3,
+            "status": "present",
+            "type": 5
+          },
+          {
+            "model": "Object52/Object07.bmd",
+            "placements": 11,
+            "status": "present",
+            "type": 6
+          },
+          {
+            "model": "Object52/Object08.bmd",
+            "placements": 165,
+            "status": "present",
+            "type": 7
+          },
+          {
+            "model": "Object52/Object09.bmd",
+            "placements": 21,
+            "status": "present",
+            "type": 8
+          },
+          {
+            "model": "Object52/Object10.bmd",
+            "placements": 488,
+            "status": "present",
+            "type": 9
+          },
+          {
+            "model": "Object52/Object11.bmd",
+            "placements": 281,
+            "status": "present",
+            "type": 10
+          },
+          {
+            "model": "Object52/Object12.bmd",
+            "placements": 84,
+            "status": "present",
+            "type": 11
+          },
+          {
+            "model": "Object52/Object13.bmd",
+            "placements": 487,
+            "status": "present",
+            "type": 12
+          },
+          {
+            "model": "Object52/Object14.bmd",
+            "placements": 201,
+            "status": "present",
+            "type": 13
+          },
+          {
+            "model": "Object52/Object15.bmd",
+            "placements": 10,
+            "status": "present",
+            "type": 14
+          },
+          {
+            "model": "Object52/Object16.bmd",
+            "placements": 39,
+            "status": "present",
+            "type": 15
+          },
+          {
+            "model": "Object52/Object17.bmd",
+            "placements": 54,
+            "status": "present",
+            "type": 16
+          },
+          {
+            "model": "Object52/Object18.bmd",
+            "placements": 15,
+            "status": "present",
+            "type": 17
+          },
+          {
+            "model": "Object52/Object19.bmd",
+            "placements": 8,
+            "status": "present",
+            "type": 18
+          },
+          {
+            "model": "Object52/Object20.bmd",
+            "placements": 3,
+            "status": "present",
+            "type": 19
+          },
+          {
+            "model": "Object52/Object21.bmd",
+            "placements": 80,
+            "status": "present",
+            "type": 20
+          },
+          {
+            "model": "Object52/Object23.bmd",
+            "placements": 27,
+            "status": "present",
+            "type": 22
+          },
+          {
+            "model": "Object52/Object24.bmd",
+            "placements": 6,
+            "status": "present",
+            "type": 23
+          },
+          {
+            "model": "Object52/Object25.bmd",
+            "placements": 19,
+            "status": "present",
+            "type": 24
+          },
+          {
+            "model": "Object52/Object26.bmd",
+            "placements": 41,
+            "status": "present",
+            "type": 25
+          },
+          {
+            "model": "Object52/Object27.bmd",
+            "placements": 10,
+            "status": "present",
+            "type": 26
+          },
+          {
+            "model": "Object52/Object28.bmd",
+            "placements": 14,
+            "status": "present",
+            "type": 27
+          },
+          {
+            "model": "Object52/Object29.bmd",
+            "placements": 19,
+            "status": "present",
+            "type": 28
+          },
+          {
+            "model": "Object52/Object30.bmd",
+            "placements": 10,
+            "status": "present",
+            "type": 29
+          },
+          {
+            "model": "Object52/Object31.bmd",
+            "placements": 38,
+            "status": "present",
+            "type": 30
+          },
+          {
+            "model": "Object52/Object32.bmd",
+            "placements": 8,
+            "status": "present",
+            "type": 31
+          },
+          {
+            "model": "Object52/Object33.bmd",
+            "placements": 12,
+            "status": "present",
+            "type": 32
+          },
+          {
+            "model": "Object52/Object34.bmd",
+            "placements": 5,
+            "status": "present",
+            "type": 33
+          },
+          {
+            "model": "Object52/Object35.bmd",
+            "placements": 22,
+            "status": "present",
+            "type": 34
+          },
+          {
+            "model": "Object52/Object36.bmd",
+            "placements": 2,
+            "status": "present",
+            "type": 35
+          },
+          {
+            "model": "Object52/Object37.bmd",
+            "placements": 10,
+            "status": "present",
+            "type": 36
+          },
+          {
+            "model": "Object52/Object38.bmd",
+            "placements": 5,
+            "status": "present",
+            "type": 37
+          },
+          {
+            "model": "Object52/Object39.bmd",
+            "placements": 44,
+            "status": "present",
+            "type": 38
+          },
+          {
+            "model": "Object52/Object40.bmd",
+            "placements": 28,
+            "status": "present",
+            "type": 39
+          },
+          {
+            "model": "Object52/Object41.bmd",
+            "placements": 24,
+            "status": "present",
+            "type": 40
+          },
+          {
+            "model": "Object52/Object42.bmd",
+            "placements": 10,
+            "status": "present",
+            "type": 41
+          },
+          {
+            "model": "Object52/Object43.bmd",
+            "placements": 4,
+            "status": "present",
+            "type": 42
+          },
+          {
+            "model": "Object52/Object44.bmd",
+            "placements": 60,
+            "status": "present",
+            "type": 43
+          },
+          {
+            "model": "Object52/Object45.bmd",
+            "placements": 8,
+            "status": "present",
+            "type": 44
+          },
+          {
+            "model": "Object52/Object46.bmd",
+            "placements": 20,
+            "status": "present",
+            "type": 45
+          },
+          {
+            "model": "Object52/Object48.bmd",
+            "placements": 87,
+            "status": "present",
+            "type": 47
+          },
+          {
+            "model": "Object52/Object49.bmd",
+            "placements": 3,
+            "status": "present",
+            "type": 48
+          },
+          {
+            "model": "Object52/Object50.bmd",
+            "placements": 6,
+            "status": "present",
+            "type": 49
+          },
+          {
+            "model": "Object52/Object51.bmd",
+            "placements": 4,
+            "status": "present",
+            "type": 50
+          },
+          {
+            "model": "Object52/Object52.bmd",
+            "placements": 8,
+            "status": "present",
+            "type": 51
+          },
+          {
+            "model": "Object52/Object53.bmd",
+            "placements": 99,
+            "status": "present",
+            "type": 52
+          },
+          {
+            "model": "Object52/Object54.bmd",
+            "placements": 81,
+            "status": "present",
+            "type": 53
+          },
+          {
+            "model": "Object52/Object55.bmd",
+            "placements": 37,
+            "status": "native_marker_skipped",
+            "type": 54
+          },
+          {
+            "model": "Object52/Object56.bmd",
+            "placements": 14,
+            "status": "present",
+            "type": 55
+          },
+          {
+            "model": "Object52/Object57.bmd",
+            "placements": 4,
+            "status": "present",
+            "type": 56
+          },
+          {
+            "model": "Object52/Object58.bmd",
+            "placements": 29,
+            "status": "present",
+            "type": 57
+          },
+          {
+            "model": "Object52/Object59.bmd",
+            "placements": 141,
+            "status": "native_marker_skipped",
+            "type": 58
+          },
+          {
+            "model": "Object52/Object60.bmd",
+            "placements": 73,
+            "status": "native_marker_skipped",
+            "type": 59
+          },
+          {
+            "model": "Object52/Object61.bmd",
+            "placements": 162,
+            "status": "native_marker_skipped",
+            "type": 60
+          },
+          {
+            "model": "Object52/Object62.bmd",
+            "placements": 23,
+            "status": "native_marker_skipped",
+            "type": 61
+          },
+          {
+            "model": "Object52/Object63.bmd",
+            "placements": 13,
+            "status": "native_marker_skipped",
+            "type": 62
+          },
+          {
+            "model": "Object52/Object64.bmd",
+            "placements": 6,
+            "status": "present",
+            "type": 63
+          },
+          {
+            "model": "Object52/Object67.bmd",
+            "placements": 27,
+            "status": "present",
+            "type": 66
+          },
+          {
+            "model": "Object52/Object68.bmd",
+            "placements": 65,
+            "status": "present",
+            "type": 67
+          },
+          {
+            "model": "Object52/Object69.bmd",
+            "placements": 18,
+            "status": "present",
+            "type": 68
+          },
+          {
+            "model": "Object52/Object70.bmd",
+            "placements": 7,
+            "status": "present",
+            "type": 69
+          },
+          {
+            "model": "Object52/Object71.bmd",
+            "placements": 48,
+            "status": "present",
+            "type": 70
+          },
+          {
+            "model": "Object52/Object72.bmd",
+            "placements": 8,
+            "status": "present",
+            "type": 71
+          },
+          {
+            "model": "Object52/Object73.bmd",
+            "placements": 17,
+            "status": "present",
+            "type": 72
+          },
+          {
+            "model": "Object52/Object74.bmd",
+            "placements": 2,
+            "status": "present",
+            "type": 73
+          },
+          {
+            "model": "Object52/Object75.bmd",
+            "placements": 7,
+            "status": "present",
+            "type": 74
+          },
+          {
+            "model": "Object52/Object76.bmd",
+            "placements": 17,
+            "status": "present",
+            "type": 75
+          },
+          {
+            "model": "Object52/Object77.bmd",
+            "placements": 17,
+            "status": "present",
+            "type": 76
+          },
+          {
+            "model": "Object52/Object78.bmd",
+            "placements": 5,
+            "status": "present",
+            "type": 77
+          },
+          {
+            "model": "Object52/Object79.bmd",
+            "placements": 1,
+            "status": "present",
+            "type": 78
+          },
+          {
+            "model": "Object52/Object80.bmd",
+            "placements": 38,
+            "status": "present",
+            "type": 79
+          },
+          {
+            "model": "Object52/Object81.bmd",
+            "placements": 10,
+            "status": "present",
+            "type": 80
+          },
+          {
+            "model": "Object52/Object82.bmd",
+            "placements": 15,
+            "status": "present",
+            "type": 81
+          },
+          {
+            "model": "Object52/Object83.bmd",
+            "placements": 38,
+            "status": "present",
+            "type": 82
+          },
+          {
+            "model": "Object52/Object84.bmd",
+            "placements": 49,
+            "status": "present",
+            "type": 83
+          },
+          {
+            "model": "Object52/Object85.bmd",
+            "placements": 4,
+            "status": "present",
+            "type": 84
+          },
+          {
+            "model": "Object52/Object86.bmd",
+            "placements": 2,
+            "status": "present",
+            "type": 85
+          },
+          {
+            "model": "Object52/Object87.bmd",
+            "placements": 9,
+            "status": "present",
+            "type": 86
+          },
+          {
+            "model": "Object52/Object88.bmd",
+            "placements": 4,
+            "status": "present",
+            "type": 87
+          },
+          {
+            "model": "Object52/Object89.bmd",
+            "placements": 4,
+            "status": "present",
+            "type": 88
+          },
+          {
+            "model": "Object52/Object90.bmd",
+            "placements": 16,
+            "status": "present",
+            "type": 89
+          },
+          {
+            "model": "Object52/Object91.bmd",
+            "placements": 6,
+            "status": "present",
+            "type": 90
+          },
+          {
+            "model": "Object52/Object92.bmd",
+            "placements": 21,
+            "status": "present",
+            "type": 91
+          },
+          {
+            "model": "Object52/Object93.bmd",
+            "placements": 24,
+            "status": "present",
+            "type": 92
+          },
+          {
+            "model": "Object52/Object94.bmd",
+            "placements": 9,
+            "status": "present",
+            "type": 93
+          },
+          {
+            "model": "Object52/Object95.bmd",
+            "placements": 15,
+            "status": "present",
+            "type": 94
+          },
+          {
+            "model": "Object52/Object96.bmd",
+            "placements": 18,
+            "status": "present",
+            "type": 95
+          },
+          {
+            "model": "Object52/Object97.bmd",
+            "placements": 2,
+            "status": "present",
+            "type": 96
+          },
+          {
+            "model": "Object52/Object98.bmd",
+            "placements": 2,
+            "status": "present",
+            "type": 97
+          },
+          {
+            "model": "Object52/Object99.bmd",
+            "placements": 10,
+            "status": "present",
+            "type": 98
+          },
+          {
+            "model": "Object52/Object100.bmd",
+            "placements": 13,
+            "status": "present",
+            "type": 99
+          },
+          {
+            "model": "Object52/Object101.bmd",
+            "placements": 7,
+            "status": "present",
+            "type": 100
+          },
+          {
+            "model": "Object52/Object102.bmd",
+            "placements": 6,
+            "status": "present",
+            "type": 101
+          },
+          {
+            "model": "Object52/Object103.bmd",
+            "placements": 3,
+            "status": "present",
+            "type": 102
+          },
+          {
+            "model": "Object52/Object104.bmd",
+            "placements": 19,
+            "status": "present",
+            "type": 103
+          },
+          {
+            "model": "Object52/Object105.bmd",
+            "placements": 1,
+            "status": "present",
+            "type": 104
+          },
+          {
+            "model": "Object52/Object106.bmd",
+            "placements": 4,
+            "status": "present",
+            "type": 105
+          },
+          {
+            "model": "Object52/Object107.bmd",
+            "placements": 32,
+            "status": "present",
+            "type": 106
+          },
+          {
+            "model": "Object52/Object108.bmd",
+            "placements": 41,
+            "status": "present",
+            "type": 107
+          },
+          {
+            "model": "Object52/Object109.bmd",
+            "placements": 1,
+            "status": "present",
+            "type": 108
+          },
+          {
+            "model": "Object52/Object110.bmd",
+            "placements": 8,
+            "status": "present",
+            "type": 109
+          },
+          {
+            "model": "Object52/Object111.bmd",
+            "placements": 1,
+            "status": "present",
+            "type": 110
+          },
+          {
+            "model": "Object52/Object112.bmd",
+            "placements": 14,
+            "status": "present",
+            "type": 111
+          },
+          {
+            "model": "Object52/Object113.bmd",
+            "placements": 2,
+            "status": "present",
+            "type": 112
+          },
+          {
+            "model": "Object52/Object114.bmd",
+            "placements": 1,
+            "status": "present",
+            "type": 113
+          },
+          {
+            "model": "Object52/Object115.bmd",
+            "placements": 1,
+            "status": "present",
+            "type": 114
+          },
+          {
+            "model": "Object52/Object116.bmd",
+            "placements": 4,
+            "status": "present",
+            "type": 115
+          },
+          {
+            "model": "Object52/Object117.bmd",
+            "placements": 46,
+            "status": "present",
+            "type": 116
+          },
+          {
+            "model": "Object52/Object118.bmd",
+            "placements": 5,
+            "status": "present",
+            "type": 117
+          },
+          {
+            "model": "Object52/Object119.bmd",
+            "placements": 8,
+            "status": "present",
+            "type": 118
+          },
+          {
+            "model": "Object52/Object120.bmd",
+            "placements": 4,
+            "status": "present",
+            "type": 119
+          },
+          {
+            "model": "Object52/Object121.bmd",
+            "placements": 14,
+            "status": "present",
+            "type": 120
+          },
+          {
+            "model": "Object52/Object122.bmd",
+            "placements": 26,
+            "status": "present",
+            "type": 121
+          },
+          {
+            "model": "Object52/Object123.bmd",
+            "placements": 12,
+            "status": "present",
+            "type": 122
+          },
+          {
+            "model": "Object52/Object124.bmd",
+            "placements": 10,
+            "status": "present",
+            "type": 123
+          },
+          {
+            "model": "Object52/Object125.bmd",
+            "placements": 269,
+            "status": "present",
+            "type": 124
+          },
+          {
+            "model": "Object52/Object126.bmd",
+            "placements": 26,
+            "status": "present",
+            "type": 125
+          },
+          {
+            "model": "Object52/Object127.bmd",
+            "placements": 16,
+            "status": "present",
+            "type": 126
+          },
+          {
+            "model": "Object52/Object129.bmd",
+            "placements": 50,
+            "status": "present",
+            "type": 128
+          },
+          {
+            "model": "Object52/Object130.bmd",
+            "placements": 107,
+            "status": "present",
+            "type": 129
+          },
+          {
+            "model": "Object52/Object131.bmd",
+            "placements": 226,
+            "status": "present",
+            "type": 130
+          },
+          {
+            "model": "Object52/Object132.bmd",
+            "placements": 83,
+            "status": "present",
+            "type": 131
+          },
+          {
+            "model": "Object52/Object133.bmd",
+            "placements": 228,
+            "status": "present",
+            "type": 132
+          },
+          {
+            "model": "Object52/Object149.bmd",
+            "placements": 1,
+            "status": "present",
+            "type": 148
+          },
+          {
+            "model": "Object52/Object166.bmd",
+            "placements": 1,
+            "status": "missing",
+            "type": 165
+          }
+        ],
+        "records": 5136,
+        "status": "parsed"
+      },
+      "server_map": 51,
+      "status": "audited_supported_world",
+      "terrain": {
+        "attributes": 65536,
+        "heights": 65536,
+        "status": "parsed"
+      },
+      "world": 52
+    },
+    {
+      "server_map": 54,
+      "status": "unsupported_by_native_parser",
+      "world": 55
+    },
+    {
+      "server_map": 56,
+      "status": "unsupported_by_native_parser",
+      "world": 57
+    },
+    {
+      "server_map": 57,
+      "status": "unsupported_by_native_parser",
+      "world": 58
+    },
+    {
+      "server_map": 58,
+      "status": "unsupported_by_native_parser",
+      "world": 59
+    },
+    {
+      "server_map": 62,
+      "status": "unsupported_by_native_parser",
+      "world": 63
+    },
+    {
+      "server_map": 63,
+      "status": "unsupported_by_native_parser",
+      "world": 64
+    },
+    {
+      "server_map": 64,
+      "status": "unsupported_by_native_parser",
+      "world": 65
+    },
+    {
+      "server_map": 65,
+      "status": "unsupported_by_native_parser",
+      "world": 66
+    },
+    {
+      "server_map": 66,
+      "status": "unsupported_by_native_parser",
+      "world": 67
+    },
+    {
+      "server_map": 67,
+      "status": "unsupported_by_native_parser",
+      "world": 68
+    },
+    {
+      "server_map": 68,
+      "status": "unsupported_by_native_parser",
+      "world": 69
+    },
+    {
+      "server_map": 69,
+      "status": "unsupported_by_native_parser",
+      "world": 70
+    },
+    {
+      "server_map": 70,
+      "status": "unsupported_by_native_parser",
+      "world": 71
+    },
+    {
+      "server_map": 71,
+      "status": "unsupported_by_native_parser",
+      "world": 72
+    },
+    {
+      "server_map": 72,
+      "status": "unsupported_by_native_parser",
+      "world": 73
+    },
+    {
+      "objects": {
+        "active": 375,
+        "declared": 375,
+        "dependencies": [
+          {
+            "model": "Object74/Object02.bmd",
+            "placements": 2,
+            "status": "missing",
+            "type": 1
+          },
+          {
+            "model": "Object74/Object09.bmd",
+            "placements": 2,
+            "status": "present",
+            "type": 8
+          },
+          {
+            "model": "Object74/Object11.bmd",
+            "placements": 1,
+            "status": "present",
+            "type": 10
+          },
+          {
+            "model": "Object74/Object21.bmd",
+            "placements": 10,
+            "status": "present",
+            "type": 20
+          },
+          {
+            "model": "Object74/Object26.bmd",
+            "placements": 2,
+            "status": "present",
+            "type": 25
+          },
+          {
+            "model": "Object74/Object38.bmd",
+            "placements": 10,
+            "status": "present",
+            "type": 37
+          },
+          {
+            "model": "Object74/Object39.bmd",
+            "placements": 8,
+            "status": "present",
+            "type": 38
+          },
+          {
+            "model": "Object74/Object40.bmd",
+            "placements": 1,
+            "status": "present",
+            "type": 39
+          },
+          {
+            "model": "Object74/Object49.bmd",
+            "placements": 2,
+            "status": "missing",
+            "type": 48
+          },
+          {
+            "model": "Object74/Object57.bmd",
+            "placements": 8,
+            "status": "present",
+            "type": 56
+          },
+          {
+            "model": "Object74/Object66.bmd",
+            "placements": 2,
+            "status": "present",
+            "type": 65
+          },
+          {
+            "model": "Object74/Object67.bmd",
+            "placements": 2,
+            "status": "present",
+            "type": 66
+          },
+          {
+            "model": "Object74/Object71.bmd",
+            "placements": 3,
+            "status": "present",
+            "type": 70
+          },
+          {
+            "model": "Object74/Object76.bmd",
+            "placements": 1,
+            "status": "missing",
+            "type": 75
+          },
+          {
+            "model": "Object74/Object78.bmd",
+            "placements": 17,
+            "status": "present",
+            "type": 77
+          },
+          {
+            "model": "Object74/Object80.bmd",
+            "placements": 53,
+            "status": "present",
+            "type": 79
+          },
+          {
+            "model": "Object74/Object83.bmd",
+            "placements": 1,
+            "status": "present",
+            "type": 82
+          },
+          {
+            "model": "Object74/Object87.bmd",
+            "placements": 2,
+            "status": "present",
+            "type": 86
+          },
+          {
+            "model": "Object74/Object94.bmd",
+            "placements": 4,
+            "status": "present",
+            "type": 93
+          },
+          {
+            "model": "Object74/Object95.bmd",
+            "placements": 4,
+            "status": "present",
+            "type": 94
+          },
+          {
+            "model": "Object74/Object96.bmd",
+            "placements": 1,
+            "status": "present",
+            "type": 95
+          },
+          {
+            "model": "Object74/Object97.bmd",
+            "placements": 2,
+            "status": "present",
+            "type": 96
+          },
+          {
+            "model": "Object74/Object98.bmd",
+            "placements": 1,
+            "status": "present",
+            "type": 97
+          },
+          {
+            "model": "Object74/Object101.bmd",
+            "placements": 1,
+            "status": "present",
+            "type": 100
+          },
+          {
+            "model": "Object74/Object103.bmd",
+            "placements": 1,
+            "status": "present",
+            "type": 102
+          },
+          {
+            "model": "Object74/Object111.bmd",
+            "placements": 3,
+            "status": "present",
+            "type": 110
+          },
+          {
+            "model": "Object74/Object114.bmd",
+            "placements": 8,
+            "status": "present",
+            "type": 113
+          },
+          {
+            "model": "Object74/Object123.bmd",
+            "placements": 1,
+            "status": "present",
+            "type": 122
+          },
+          {
+            "model": "Object74/Object124.bmd",
+            "placements": 1,
+            "status": "present",
+            "type": 123
+          },
+          {
+            "model": "Object74/Object125.bmd",
+            "placements": 1,
+            "status": "present",
+            "type": 124
+          },
+          {
+            "model": "Object74/Object127.bmd",
+            "placements": 1,
+            "status": "present",
+            "type": 126
+          },
+          {
+            "model": "Object74/Object128.bmd",
+            "placements": 3,
+            "status": "present",
+            "type": 127
+          },
+          {
+            "model": "Object74/Object129.bmd",
+            "placements": 13,
+            "status": "present",
+            "type": 128
+          },
+          {
+            "model": "Object74/Object130.bmd",
+            "placements": 15,
+            "status": "present",
+            "type": 129
+          },
+          {
+            "model": "Object74/Object134.bmd",
+            "placements": 4,
+            "status": "present",
+            "type": 133
+          },
+          {
+            "model": "Object74/Object135.bmd",
+            "placements": 7,
+            "status": "present",
+            "type": 134
+          },
+          {
+            "model": "Object74/Object136.bmd",
+            "placements": 23,
+            "status": "present",
+            "type": 135
+          },
+          {
+            "model": "Object74/Object137.bmd",
+            "placements": 24,
+            "status": "present",
+            "type": 136
+          },
+          {
+            "model": "Object74/Object138.bmd",
+            "placements": 17,
+            "status": "present",
+            "type": 137
+          },
+          {
+            "model": "Object74/Object139.bmd",
+            "placements": 17,
+            "status": "present",
+            "type": 138
+          },
+          {
+            "model": "Object74/Object140.bmd",
+            "placements": 8,
+            "status": "present",
+            "type": 139
+          },
+          {
+            "model": "Object74/Object146.bmd",
+            "placements": 7,
+            "status": "present",
+            "type": 145
+          },
+          {
+            "model": "Object74/Object147.bmd",
+            "placements": 21,
+            "status": "present",
+            "type": 146
+          },
+          {
+            "model": "Object74/Object148.bmd",
+            "placements": 10,
+            "status": "present",
+            "type": 147
+          },
+          {
+            "model": "Object74/Object156.bmd",
+            "placements": 33,
+            "status": "present",
+            "type": 155
+          },
+          {
+            "model": "Object74/Object157.bmd",
+            "placements": 5,
+            "status": "present",
+            "type": 156
+          },
+          {
+            "model": "Object74/Object158.bmd",
+            "placements": 6,
+            "status": "present",
+            "type": 157
+          },
+          {
+            "model": "Object74/Object160.bmd",
+            "placements": 1,
+            "status": "present",
+            "type": 159
+          },
+          {
+            "model": "Object74/Object161.bmd",
+            "placements": 2,
+            "status": "missing",
+            "type": 160
+          },
+          {
+            "model": "Object74/Object163.bmd",
+            "placements": 1,
+            "status": "missing",
+            "type": 162
+          },
+          {
+            "model": "Object74/Object164.bmd",
+            "placements": 1,
+            "status": "missing",
+            "type": 163
+          },
+          {
+            "model": "Object74/Object165.bmd",
+            "placements": 1,
+            "status": "missing",
+            "type": 164
+          }
+        ],
+        "records": 375,
+        "status": "parsed"
+      },
+      "server_map": 73,
+      "status": "audited_supported_world",
+      "terrain": {
+        "attributes": 65536,
+        "heights": 65536,
+        "status": "parsed"
+      },
+      "world": 74
+    },
+    {
+      "objects": {
+        "active": 112,
+        "declared": 112,
+        "dependencies": [
+          {
+            "model": "Object75/Object06.bmd",
+            "placements": 20,
+            "status": "present",
+            "type": 5
+          },
+          {
+            "model": "Object75/Object12.bmd",
+            "placements": 1,
+            "status": "missing",
+            "type": 11
+          },
+          {
+            "model": "Object75/Object15.bmd",
+            "placements": 6,
+            "status": "present",
+            "type": 14
+          },
+          {
+            "model": "Object75/Object30.bmd",
+            "placements": 2,
+            "status": "present",
+            "type": 29
+          },
+          {
+            "model": "Object75/Object35.bmd",
+            "placements": 1,
+            "status": "present",
+            "type": 34
+          },
+          {
+            "model": "Object75/Object39.bmd",
+            "placements": 4,
+            "status": "present",
+            "type": 38
+          },
+          {
+            "model": "Object75/Object50.bmd",
+            "placements": 1,
+            "status": "present",
+            "type": 49
+          },
+          {
+            "model": "Object75/Object65.bmd",
+            "placements": 2,
+            "status": "present",
+            "type": 64
+          },
+          {
+            "model": "Object75/Object80.bmd",
+            "placements": 5,
+            "status": "present",
+            "type": 79
+          },
+          {
+            "model": "Object75/Object97.bmd",
+            "placements": 2,
+            "status": "present",
+            "type": 96
+          },
+          {
+            "model": "Object75/Object98.bmd",
+            "placements": 4,
+            "status": "present",
+            "type": 97
+          },
+          {
+            "model": "Object75/Object99.bmd",
+            "placements": 6,
+            "status": "present",
+            "type": 98
+          },
+          {
+            "model": "Object75/Object103.bmd",
+            "placements": 12,
+            "status": "present",
+            "type": 102
+          },
+          {
+            "model": "Object75/Object104.bmd",
+            "placements": 4,
+            "status": "present",
+            "type": 103
+          },
+          {
+            "model": "Object75/Object107.bmd",
+            "placements": 2,
+            "status": "present",
+            "type": 106
+          },
+          {
+            "model": "Object75/Object111.bmd",
+            "placements": 3,
+            "status": "present",
+            "type": 110
+          },
+          {
+            "model": "Object75/Object112.bmd",
+            "placements": 4,
+            "status": "present",
+            "type": 111
+          },
+          {
+            "model": "Object75/Object122.bmd",
+            "placements": 20,
+            "status": "present",
+            "type": 121
+          },
+          {
+            "model": "Object75/Object125.bmd",
+            "placements": 2,
+            "status": "missing",
+            "type": 124
+          },
+          {
+            "model": "Object75/Object127.bmd",
+            "placements": 4,
+            "status": "missing",
+            "type": 126
+          },
+          {
+            "model": "Object75/Object130.bmd",
+            "placements": 4,
+            "status": "present",
+            "type": 129
+          },
+          {
+            "model": "Object75/Object133.bmd",
+            "placements": 3,
+            "status": "missing",
+            "type": 132
+          }
+        ],
+        "records": 112,
+        "status": "parsed"
+      },
+      "server_map": 74,
+      "status": "audited_supported_world",
+      "terrain": {
+        "attributes": 65536,
+        "heights": 65536,
+        "status": "parsed"
+      },
+      "world": 75
+    },
+    {
+      "server_map": 77,
+      "status": "unsupported_by_native_parser",
+      "world": 78
+    },
+    {
+      "server_map": 78,
+      "status": "unsupported_by_native_parser",
+      "world": 79
+    },
+    {
+      "server_map": 79,
+      "status": "unsupported_by_native_parser",
+      "world": 80
+    },
+    {
+      "server_map": 80,
+      "status": "unsupported_by_native_parser",
+      "world": 81
+    },
+    {
+      "server_map": 81,
+      "status": "unsupported_by_native_parser",
+      "world": 82
+    }
+  ],
+  "non_model_bmd": [
+    {
+      "path": "Item/Itemtest.bmd",
+      "category": "unclassified_non_model",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Item/item.bmd",
+      "category": "unclassified_non_model",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Credit.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Eng/BuffEffect_eng.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Eng/Dialog_eng.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Eng/ItemLevelTooltip_eng.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Eng/ItemSetOption_eng.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Eng/ItemToolTip_eng.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Eng/ItemTooltipText_eng.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Eng/Item_eng.bmd",
+      "category": "supported_local_table",
+      "status": "parsed"
+    },
+    {
+      "path": "Local/Eng/JewelOfHarmonyOption_eng.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Eng/JewelOfHarmonySmelt_eng.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Eng/MasterSkillTooltip_eng.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Eng/Minimap/Minimap_World11_eng.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Eng/Minimap/Minimap_World1_eng.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Eng/Minimap/Minimap_World2_eng.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Eng/Minimap/Minimap_World32_eng.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Eng/Minimap/Minimap_World34_eng.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Eng/Minimap/Minimap_World35_eng.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Eng/Minimap/Minimap_World38_eng.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Eng/Minimap/Minimap_World39_eng.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Eng/Minimap/Minimap_World3_eng.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Eng/Minimap/Minimap_World42_eng.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Eng/Minimap/Minimap_World4_eng.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Eng/Minimap/Minimap_World52_eng.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Eng/Minimap/Minimap_World57_eng.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Eng/Minimap/Minimap_World58_eng.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Eng/Minimap/Minimap_World5_eng.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Eng/Minimap/Minimap_World64_eng.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Eng/Minimap/Minimap_World81_eng.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Eng/Minimap/Minimap_World82_eng.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Eng/Minimap/Minimap_World8_eng.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Eng/Minimap/Minimap_World9_eng.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Eng/MoveReq_eng.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Eng/QuestWords_eng.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Eng/Quest_eng.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Eng/Skill_eng.bmd",
+      "category": "supported_local_table",
+      "status": "parsed"
+    },
+    {
+      "path": "Local/Eng/Slide_eng.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Eng/SocketItem_eng.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Eng/Text_eng.bmd",
+      "category": "supported_local_table",
+      "status": "parsed"
+    },
+    {
+      "path": "Local/Filter.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/FilterName.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/ItemAddOption.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/ItemSetType.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/MapCharacters.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/MasterSkillTree.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/MasterSkillTreeData.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Mix.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/MonsterSkill.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/NPCDialogue.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Pet.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/PetData.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Por/BuffEffect_por.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Por/Dialog_por.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Por/ItemLevelTooltip_por.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Por/ItemSetOption_por.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Por/ItemToolTip_por.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Por/ItemTooltipText_por.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Por/Item_por.bmd",
+      "category": "supported_local_table",
+      "status": "parsed"
+    },
+    {
+      "path": "Local/Por/JewelOfHarmonyOption_por.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Por/JewelOfHarmonySmelt_por.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Por/MasterSkillTooltip_por.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Por/Minimap/Minimap_World11_por.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Por/Minimap/Minimap_World1_por.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Por/Minimap/Minimap_World2_por.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Por/Minimap/Minimap_World32_por.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Por/Minimap/Minimap_World34_por.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Por/Minimap/Minimap_World35_por.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Por/Minimap/Minimap_World38_por.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Por/Minimap/Minimap_World39_por.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Por/Minimap/Minimap_World3_por.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Por/Minimap/Minimap_World42_por.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Por/Minimap/Minimap_World4_por.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Por/Minimap/Minimap_World52_por.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Por/Minimap/Minimap_World57_por.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Por/Minimap/Minimap_World58_por.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Por/Minimap/Minimap_World5_por.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Por/Minimap/Minimap_World64_por.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Por/Minimap/Minimap_World81_por.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Por/Minimap/Minimap_World82_por.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Por/Minimap/Minimap_World8_por.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Por/Minimap/Minimap_World9_por.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Por/MoveReq_por.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Por/QuestWords_por.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Por/Quest_por.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Por/Skill_por.bmd",
+      "category": "supported_local_table",
+      "status": "parsed"
+    },
+    {
+      "path": "Local/Por/Slide_por.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Por/SocketItem_por.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Por/Text_por.bmd",
+      "category": "supported_local_table",
+      "status": "parsed"
+    },
+    {
+      "path": "Local/QuestProgress.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/ServerList.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Spn/BuffEffect_spn.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Spn/Dialog_spn.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Spn/ItemLevelTooltip_spn.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Spn/ItemSetOption_spn.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Spn/ItemToolTip_spn.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Spn/ItemTooltipText_spn.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Spn/Item_spn.bmd",
+      "category": "supported_local_table",
+      "status": "parsed"
+    },
+    {
+      "path": "Local/Spn/JewelOfHarmonyOption_spn.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Spn/JewelOfHarmonySmelt_spn.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Spn/MasterSkillTooltip_spn.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Spn/Minimap/Minimap_World11_spn.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Spn/Minimap/Minimap_World1_spn.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Spn/Minimap/Minimap_World2_spn.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Spn/Minimap/Minimap_World32_spn.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Spn/Minimap/Minimap_World34_spn.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Spn/Minimap/Minimap_World35_spn.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Spn/Minimap/Minimap_World38_spn.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Spn/Minimap/Minimap_World39_spn.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Spn/Minimap/Minimap_World3_spn.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Spn/Minimap/Minimap_World42_spn.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Spn/Minimap/Minimap_World4_spn.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Spn/Minimap/Minimap_World52_spn.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Spn/Minimap/Minimap_World57_spn.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Spn/Minimap/Minimap_World58_spn.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Spn/Minimap/Minimap_World5_spn.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Spn/Minimap/Minimap_World64_spn.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Spn/Minimap/Minimap_World81_spn.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Spn/Minimap/Minimap_World82_spn.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Spn/Minimap/Minimap_World8_spn.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Spn/Minimap/Minimap_World9_spn.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Spn/MoveReq_spn.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Spn/QuestWords_spn.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Spn/Quest_spn.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Spn/Skill_spn.bmd",
+      "category": "supported_local_table",
+      "status": "parsed"
+    },
+    {
+      "path": "Local/Spn/Slide_spn.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Spn/SocketItem_spn.bmd",
+      "category": "other_local_table_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "Local/Spn/Text_spn.bmd",
+      "category": "supported_local_table",
+      "status": "parsed"
+    },
+    {
+      "path": "Skill/skill.bmd",
+      "category": "unclassified_non_model",
+      "status": "not_decoded"
+    },
+    {
+      "path": "World11/Minimap.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "World2/Minimap.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "World3/Minimap.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "World32/Minimap.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "World34/minimap.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "World35/Minimap.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "World38/Minimap.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "World39/Minimap.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "World4/Minimap.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "World42/Minimap.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "World5/Minimap.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "World52/Minimap.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "World57/Minimap.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "World58/Minimap.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "World64/Minimap.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "World8/Minimap.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "World81/Minimap.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "World82/Minimap.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "World9/Minimap.bmd",
+      "category": "minimap_by_path",
+      "status": "not_decoded"
+    },
+    {
+      "path": "gate.bmd",
+      "category": "unclassified_non_model",
+      "status": "not_decoded"
+    }
+  ],
+  "classification_counts": {
+    "unclassified_non_model": 4,
+    "other_local_table_by_path": 57,
+    "supported_local_table": 9,
+    "minimap_by_path": 79
+  },
+  "limits": [
+    "Classification by path is not format validation.",
+    "World dependency names/marker exclusions follow current native world_view.mm, not a proven complete Windows mapping.",
+    "No render, collision, animation, terrain texture fallback or browser validation.",
+    "Worlds unsupported by native decoder remain unaudited."
+  ],
+  "input_sha256": {
+    "worlds": "1ad1decd3be0b5b28e5f508c36cd53fbffd9b124c72f010b63fe8f1847e85853",
+    "assets_W0002": "3611708fd72567f5e9ad397427fdef6cbb593f660cab08308478f8946ff268e0"
+  }
+}

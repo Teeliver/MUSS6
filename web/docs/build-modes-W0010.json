@@ -1,0 +1,28 @@
+{
+  "run": "W0010",
+  "verification": {
+    "npm_tests": "4/4 passed",
+    "wasm_tests": "passed",
+    "in_app_browser": "WebGL2 and WASM framing observed; debug overlay and release canvas observed",
+    "server_ping": "not connected",
+    "game_fps": "not measured"
+  },
+  "files": [
+    {
+      "path": "web/dist/debug/index.html",
+      "sha256": "3e83003528bb4d2e06e1d3866c191ec44bd3dfa81afcdf2f1c3c8f7124368478"
+    },
+    {
+      "path": "web/dist/debug/style.css",
+      "sha256": "4a2b48e00eb060d4f422abb5478f653037ce9976e244fe577ae62c5673948fa8"
+    },
+    {
+      "path": "web/dist/release/index.html",
+      "sha256": "097b19faeaaffe9da9d566e06f48b2cc449e14a8f4f4748b669a3bd30baff72f"
+    },
+    {
+      "path": "web/dist/release/release.css",
+      "sha256": "fa1063ae0b59433ed3380d609d2ef683fd5e7ceefa68a45b93083c02d6051096"
+    }
+  ]
+}

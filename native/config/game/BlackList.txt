@@ -1,0 +1,8 @@
+// EX603 GameServer blacklist configuration.
+// Section 0: blocked IP addresses. No entries configured yet.
+0
+end
+
+// Section 1: blocked hardware IDs. No entries configured yet.
+1
+end

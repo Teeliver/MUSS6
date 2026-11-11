@@ -1,0 +1,10 @@
+.local-baselines/
+dist/
+node_modules/
+.env
+.env.*
+!.env.example
+
+.build/
+
+gateway/config.local.json

@@ -1,0 +1,66 @@
+{
+  "profile": "EX603ENG",
+  "kind": "syntax-only-original-gameplay",
+  "compiler": "clang++",
+  "flags": [
+    "-fsyntax-only",
+    "-std=c++17",
+    "-fms-extensions",
+    "-Wno-writable-strings",
+    "-Wno-ignored-pragmas",
+    "-Wno-deprecated-declarations",
+    "-ferror-limit=12",
+    "-DMU_NATIVE_MACOS=1",
+    "-DGAMESERVER_UPDATE=603",
+    "-DGAMESERVER_LANGUAGE=1",
+    "-DGAMESERVER_SHOP=3",
+    "-DGAMESERVER_EXTRA=1",
+    "-DENCRYPT_STATE=1",
+    "-I/Users/angelale/Downloads/SOURCE-2.0.7/SOURCE/Source/Emulator/native/include",
+    "-iquote",
+    "/Users/angelale/Downloads/SOURCE-2.0.7/SOURCE/Source/Emulator/GameServer",
+    "-I/Users/angelale/Downloads/SOURCE-2.0.7/SOURCE/Util/lua/include"
+  ],
+  "tested": 5,
+  "passed": 5,
+  "failed": 0,
+  "excludedRuntimeSources": [
+    "Connection.cpp",
+    "GameMain.cpp",
+    "GameServer.cpp",
+    "HackCheck.cpp",
+    "MiniDump.cpp",
+    "QueryManager.cpp",
+    "ServerDisplayer.cpp",
+    "SocketManager.cpp",
+    "SocketManagerUdp.cpp",
+    "Util.cpp"
+  ],
+  "results": [
+    {
+      "source": "GameServer/CashShop.cpp",
+      "exitCode": 0,
+      "diagnostics": ""
+    },
+    {
+      "source": "GameServer/CustomStore.cpp",
+      "exitCode": 0,
+      "diagnostics": ""
+    },
+    {
+      "source": "GameServer/MuCashShop.cpp",
+      "exitCode": 0,
+      "diagnostics": ""
+    },
+    {
+      "source": "GameServer/PcPoint.cpp",
+      "exitCode": 0,
+      "diagnostics": ""
+    },
+    {
+      "source": "GameServer/User.cpp",
+      "exitCode": 0,
+      "diagnostics": "/Users/angelale/Downloads/SOURCE-2.0.7/SOURCE/Source/Emulator/GameServer/User.cpp:424:14: warning: destination for this 'memset' call is a pointer to class containing a dynamic class 'CMonsterAIAgro'; vtable pointer will be overwritten [-Wdynamic-class-memaccess]\n  424 |         memset(gObj.CommonStruct,0,sizeof(OBJECTSTRUCT));\n      |         ~~~~~~      ^\n/Users/angelale/Downloads/SOURCE-2.0.7/SOURCE/Source/Emulator/GameServer/User.cpp:424:14: note: explicitly cast the pointer to silence this warning\n  424 |         memset(gObj.CommonStruct,0,sizeof(OBJECTSTRUCT));\n      |                     ^\n      |                (void*)\n/Users/angelale/Downloads/SOURCE-2.0.7/SOURCE/Source/Emulator/GameServer/User.cpp:530:9: warning: expression result unused [-Wunused-value]\n  530 |         lpObj->BP;\n      |         ~~~~~  ^~\n/Users/angelale/Downloads/SOURCE-2.0.7/SOURCE/Source/Emulator/GameServer/User.cpp:1110:10: warning: destination for this 'memset' call is a pointer to class containing a dynamic class 'CMonsterAIAgro'; vtable pointer will be overwritten [-Wdynamic-class-memaccess]\n 1110 |                 memset(gObj.ObjectStruct[aIndex],0,sizeof(OBJECTSTRUCT));\n      |                 ~~~~~~ ^\n/Users/angelale/Downloads/SOURCE-2.0.7/SOURCE/Source/Emulator/GameServer/User.cpp:1110:10: note: explicitly cast the pointer to silence this warning\n 1110 |                 memset(gObj.ObjectStruct[aIndex],0,sizeof(OBJECTSTRUCT));\n      |                        ^\n      |                        (void*)\n3 warnings generated.\n"
+    }
+  ]
+}

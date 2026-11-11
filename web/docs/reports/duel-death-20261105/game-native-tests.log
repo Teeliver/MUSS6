@@ -1,0 +1,21 @@
+Test project /Users/angelale/Downloads/SOURCE-2.0.7/SOURCE/Source/Emulator/native/build
+    Start 14: mu_game_effect_contract
+1/8 Test #14: mu_game_effect_contract ..........   Passed    0.02 sec
+    Start 15: mu_game_random_contract
+2/8 Test #15: mu_game_random_contract ..........   Passed    0.01 sec
+    Start 16: mu_game_abi_contract
+3/8 Test #16: mu_game_abi_contract .............   Passed    0.01 sec
+    Start 17: mu_game_timer_contract
+4/8 Test #17: mu_game_timer_contract ...........   Passed    0.01 sec
+    Start 18: mu_game_callback_tokens
+5/8 Test #18: mu_game_callback_tokens ..........   Passed    0.01 sec
+    Start 19: mu_game_cash_callback_abi
+6/8 Test #19: mu_game_cash_callback_abi ........   Passed    0.01 sec
+    Start 20: mu_game_packet_crypto
+7/8 Test #20: mu_game_packet_crypto ............   Passed    0.09 sec
+    Start 21: mu_game_book_requirements
+8/8 Test #21: mu_game_book_requirements ........   Passed    0.01 sec
+
+100% tests passed out of 8
+
+Total Test time (real) =   0.17 sec

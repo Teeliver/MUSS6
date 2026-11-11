@@ -1,0 +1,13 @@
+{
+  "scope": "Offline Elbeland 30,218 after culling replacement; observation under changing host workload, not a controlled GPU benchmark",
+  "buffer": [
+    2560,
+    1440
+  ],
+  "worldFPS": 60.1,
+  "worldFrameP95Ms": 18.6,
+  "worldCpuP95Ms": 11.5,
+  "worldCpuLastMs": 9.9,
+  "visibility": "visible",
+  "worldLoadMs": 4896.8
+}

@@ -1,0 +1,66 @@
+{
+  "profile": "EX603ENG",
+  "kind": "syntax-only-original-gameplay",
+  "compiler": "clang++",
+  "flags": [
+    "-fsyntax-only",
+    "-std=c++17",
+    "-fms-extensions",
+    "-Wno-writable-strings",
+    "-Wno-ignored-pragmas",
+    "-Wno-deprecated-declarations",
+    "-ferror-limit=12",
+    "-DMU_NATIVE_MACOS=1",
+    "-DGAMESERVER_UPDATE=603",
+    "-DGAMESERVER_LANGUAGE=1",
+    "-DGAMESERVER_SHOP=3",
+    "-DGAMESERVER_EXTRA=1",
+    "-DENCRYPT_STATE=1",
+    "-I/Users/angelale/Downloads/SOURCE-2.0.7/SOURCE/Source/Emulator/native/include",
+    "-iquote",
+    "/Users/angelale/Downloads/SOURCE-2.0.7/SOURCE/Source/Emulator/GameServer",
+    "-I/Users/angelale/Downloads/SOURCE-2.0.7/SOURCE/Util/lua/include"
+  ],
+  "tested": 5,
+  "passed": 3,
+  "failed": 2,
+  "excludedRuntimeSources": [
+    "Connection.cpp",
+    "GameMain.cpp",
+    "GameServer.cpp",
+    "HackCheck.cpp",
+    "MiniDump.cpp",
+    "QueryManager.cpp",
+    "ServerDisplayer.cpp",
+    "SocketManager.cpp",
+    "SocketManagerUdp.cpp",
+    "Util.cpp"
+  ],
+  "results": [
+    {
+      "source": "GameServer/Attack.cpp",
+      "exitCode": 1,
+      "diagnostics": "In file included from /Users/angelale/Downloads/SOURCE-2.0.7/SOURCE/Source/Emulator/GameServer/Attack.cpp:8:\n/Users/angelale/Downloads/SOURCE-2.0.7/SOURCE/Source/Emulator/GameServer/CastleSiege.h:737:26: error: unknown type name 'LPBYTE'; did you mean 'BYTE'?\n  737 |         void SendAllUserAnyData(LPBYTE lpMsg,int iSize);\n      |                                 ^~~~~~\n      |                                 BYTE\n/Users/angelale/Downloads/SOURCE-2.0.7/SOURCE/Source/Emulator/native/include/mu/platform.hpp:36:7: note: 'BYTE' declared here\n   36 | using BYTE=std::uint8_t;\n      |       ^\nIn file included from /Users/angelale/Downloads/SOURCE-2.0.7/SOURCE/Source/Emulator/GameServer/Attack.cpp:8:\n/Users/angelale/Downloads/SOURCE-2.0.7/SOURCE/Source/Emulator/GameServer/CastleSiege.h:739:25: error: unknown type name 'LPBYTE'; did you mean 'BYTE'?\n  739 |         void SendCsUserAnyData(LPBYTE lpMsg,int iSize);\n      |                                ^~~~~~\n      |                                BYTE\n/Users/angelale/Downloads/SOURCE-2.0.7/SOURCE/Source/Emulator/native/include/mu/platform.hpp:36:7: note: 'BYTE' declared here\n   36 | using BYTE=std::uint8_t;\n      |       ^\n2 errors generated.\n"
+    },
+    {
+      "source": "GameServer/DefaultClassInfo.cpp",
+      "exitCode": 0,
+      "diagnostics": ""
+    },
+    {
+      "source": "GameServer/Effect.cpp",
+      "exitCode": 0,
+      "diagnostics": ""
+    },
+    {
+      "source": "GameServer/ItemManager.cpp",
+      "exitCode": 1,
+      "diagnostics": "In file included from /Users/angelale/Downloads/SOURCE-2.0.7/SOURCE/Source/Emulator/GameServer/ItemManager.cpp:11:\n/Users/angelale/Downloads/SOURCE-2.0.7/SOURCE/Source/Emulator/GameServer/DSProtocol.h:1195:31: error: unknown type name 'LPBYTE'; did you mean 'BYTE'?\n 1195 | void GS_DGAnsOwnerGuildMaster(LPBYTE lpRecv);\n      |                               ^~~~~~\n      |                               BYTE\n/Users/angelale/Downloads/SOURCE-2.0.7/SOURCE/Source/Emulator/native/include/mu/platform.hpp:36:7: note: 'BYTE' declared here\n   36 | using BYTE=std::uint8_t;\n      |       ^\nIn file included from /Users/angelale/Downloads/SOURCE-2.0.7/SOURCE/Source/Emulator/GameServer/ItemManager.cpp:11:\n/Users/angelale/Downloads/SOURCE-2.0.7/SOURCE/Source/Emulator/GameServer/DSProtocol.h:1196:27: error: unknown type name 'LPBYTE'; did you mean 'BYTE'?\n 1196 | void GS_DGAnsCastleNpcBuy(LPBYTE lpRecv);\n      |                           ^~~~~~\n      |                           BYTE\n/Users/angelale/Downloads/SOURCE-2.0.7/SOURCE/Source/Emulator/native/include/mu/platform.hpp:36:7: note: 'BYTE' declared here\n   36 | using BYTE=std::uint8_t;\n      |       ^\nIn file included from /Users/angelale/Downloads/SOURCE-2.0.7/SOURCE/Source/Emulator/GameServer/ItemManager.cpp:11:\n/Users/angelale/Downloads/SOURCE-2.0.7/SOURCE/Source/Emulator/GameServer/DSProtocol.h:1197:30: error: unknown type name 'LPBYTE'; did you mean 'BYTE'?\n 1197 | void GS_DGAnsCastleNpcRepair(LPBYTE lpRecv);\n      |                              ^~~~~~\n      |                              BYTE\n/Users/angelale/Downloads/SOURCE-2.0.7/SOURCE/Source/Emulator/native/include/mu/platform.hpp:36:7: note: 'BYTE' declared here\n   36 | using BYTE=std::uint8_t;\n      |       ^\nIn file included from /Users/angelale/Downloads/SOURCE-2.0.7/SOURCE/Source/Emulator/GameServer/ItemManager.cpp:11:\n/Users/angelale/Downloads/SOURCE-2.0.7/SOURCE/Source/Emulator/GameServer/DSProtocol.h:1198:31: error: unknown type name 'LPBYTE'; did you mean 'BYTE'?\n 1198 | void GS_DGAnsCastleNpcUpgrade(LPBYTE lpRecv);\n      |                               ^~~~~~\n      |                               BYTE\n/Users/angelale/Downloads/SOURCE-2.0.7/SOURCE/Source/Emulator/native/include/mu/platform.hpp:36:7: note: 'BYTE' declared here\n   36 | using BYTE=std::uint8_t;\n      |       ^\nIn file included from /Users/angelale/Downloads/SOURCE-2.0.7/SOURCE/Source/Emulator/GameServer/ItemManager.cpp:11:\n/Users/angelale/Downloads/SOURCE-2.0.7/SOURCE/Source/Emulator/GameServer/DSProtocol.h:1199:22: error: unknown type name 'LPBYTE'; did you mean 'BYTE'?\n 1199 | void GS_DGAnsTaxInfo(LPBYTE lpRecv);\n      |                      ^~~~~~\n      |                      BYTE\n/Users/angelale/Downloads/SOURCE-2.0.7/SOURCE/Source/Emulator/native/include/mu/platform.hpp:36:7: note: 'BYTE' declared here\n   36 | using BYTE=std::uint8_t;\n      |       ^\nIn file included from /Users/angelale/Downloads/SOURCE-2.0.7/SOURCE/Source/Emulator/GameServer/ItemManager.cpp:11:\n/Users/angelale/Downloads/SOURCE-2.0.7/SOURCE/Source/Emulator/GameServer/DSProtocol.h:1200:28: error: unknown type name 'LPBYTE'; did you mean 'BYTE'?\n 1200 | void GS_DGAnsTaxRateChange(LPBYTE lpRecv);\n      |                            ^~~~~~\n      |                            BYTE\n/Users/angelale/Downloads/SOURCE-2.0.7/SOURCE/Source/Emulator/native/include/mu/platform.hpp:36:7: note: 'BYTE' declared here\n   36 | using BYTE=std::uint8_t;\n      |       ^\nIn file included from /Users/angelale/Downloads/SOURCE-2.0.7/SOURCE/Source/Emulator/GameServer/ItemManager.cpp:11:\n/Users/angelale/Downloads/SOURCE-2.0.7/SOURCE/Source/Emulator/GameServer/DSProtocol.h:1201:32: error: unknown type name 'LPBYTE'; did you mean 'BYTE'?\n 1201 | void GS_DGAnsCastleMoneyChange(LPBYTE lpRecv);\n      |                                ^~~~~~\n      |                                BYTE\n/Users/angelale/Downloads/SOURCE-2.0.7/SOURCE/Source/Emulator/native/include/mu/platform.hpp:36:7: note: 'BYTE' declared here\n   36 | using BYTE=std::uint8_t;\n      |       ^\nIn file included from /Users/angelale/Downloads/SOURCE-2.0.7/SOURCE/Source/Emulator/GameServer/ItemManager.cpp:11:\n/Users/angelale/Downloads/SOURCE-2.0.7/SOURCE/Source/Emulator/GameServer/DSProtocol.h:1202:31: error: unknown type name 'LPBYTE'; did you mean 'BYTE'?\n 1202 | void GS_DGAnsGuildMarkRegInfo(LPBYTE lpRecv);\n      |                               ^~~~~~\n      |                               BYTE\n/Users/angelale/Downloads/SOURCE-2.0.7/SOURCE/Source/Emulator/native/include/mu/platform.hpp:36:7: note: 'BYTE' declared here\n   36 | using BYTE=std::uint8_t;\n      |       ^\nIn file included from /Users/angelale/Downloads/SOURCE-2.0.7/SOURCE/Source/Emulator/GameServer/ItemManager.cpp:11:\n/Users/angelale/Downloads/SOURCE-2.0.7/SOURCE/Source/Emulator/GameServer/DSProtocol.h:1203:29: error: unknown type name 'LPBYTE'; did you mean 'BYTE'?\n 1203 | void GS_DGAnsRegAttackGuild(LPBYTE lpRecv);\n      |                             ^~~~~~\n      |                             BYTE\n/Users/angelale/Downloads/SOURCE-2.0.7/SOURCE/Source/Emulator/native/include/mu/platform.hpp:36:7: note: 'BYTE' declared here\n   36 | using BYTE=std::uint8_t;\n      |       ^\nIn file included from /Users/angelale/Downloads/SOURCE-2.0.7/SOURCE/Source/Emulator/GameServer/ItemManager.cpp:11:\n/Users/angelale/Downloads/SOURCE-2.0.7/SOURCE/Source/Emulator/GameServer/DSProtocol.h:1204:33: error: unknown type name 'LPBYTE'; did you mean 'BYTE'?\n 1204 | void GS_DGAnsRestartCastleState(LPBYTE lpRecv);\n      |                                 ^~~~~~\n      |                                 BYTE\n/Users/angelale/Downloads/SOURCE-2.0.7/SOURCE/Source/Emulator/native/include/mu/platform.hpp:36:7: note: 'BYTE' declared here\n   36 | using BYTE=std::uint8_t;\n      |       ^\nIn file included from /Users/angelale/Downloads/SOURCE-2.0.7/SOURCE/Source/Emulator/GameServer/ItemManager.cpp:11:\n/Users/angelale/Downloads/SOURCE-2.0.7/SOURCE/Source/Emulator/GameServer/DSProtocol.h:1205:33: error: unknown type name 'LPBYTE'; did you mean 'BYTE'?\n 1205 | void GS_DGAnsMapSvrMsgMultiCast(LPBYTE lpRecv);\n      |                                 ^~~~~~\n      |                                 BYTE\n/Users/angelale/Downloads/SOURCE-2.0.7/SOURCE/Source/Emulator/native/include/mu/platform.hpp:36:7: note: 'BYTE' declared here\n   36 | using BYTE=std::uint8_t;\n      |       ^\nIn file included from /Users/angelale/Downloads/SOURCE-2.0.7/SOURCE/Source/Emulator/GameServer/ItemManager.cpp:11:\n/Users/angelale/Downloads/SOURCE-2.0.7/SOURCE/Source/Emulator/GameServer/DSProtocol.h:1206:27: error: unknown type name 'LPBYTE'; did you mean 'BYTE'?\n 1206 | void GS_DGAnsRegGuildMark(LPBYTE lpRecv);\n      |                           ^~~~~~\n      |                           BYTE\n/Users/angelale/Downloads/SOURCE-2.0.7/SOURCE/Source/Emulator/native/include/mu/platform.hpp:36:7: note: 'BYTE' declared here\n   36 | using BYTE=std::uint8_t;\n      |       ^\nfatal error: too many errors emitted, stopping now [-ferror-limit=]\n13 errors generated.\n"
+    },
+    {
+      "source": "GameServer/MapPath.cpp",
+      "exitCode": 0,
+      "diagnostics": ""
+    }
+  ]
+}

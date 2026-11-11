@@ -1,0 +1,21 @@
+import {groundItemName} from './ground-item-name.js';
+import {validContainerPlacement} from '../protocol/npc-extensions.js';
+import {attackableMonsterTypes} from './monster-policy.js';
+function matches(text,pattern){let pos=0;return pattern.split('+').every(token=>{const at=text.indexOf(token,pos);if(at<0)return false;pos=at+token.length;return true;});}
+export function helperLootMatches(item,c,catalog){if(c.pickAll)return true;if(!c.pickSelected)return false;const group=item.index>>9,type=item.index&511;return !!(c.zen&&item.money!==undefined||c.ancient&&item.setOption%4||c.excellent&&(item.excellent&63||item.setOption%4)||c.jewel&&(group===14&&[13,14,16,22,31,41,42,43,44].includes(type)||group===12&&[15,30,31,136,137,138,139,140,141,142,143].includes(type))||c.extra&&c.names.some(name=>name&&matches(groundItemName(item,catalog),name)));}
+// Called every 150 ms, as CAIController::WorkAI. All packets still use the ordinary
+// movement/cast/pickup paths; only BF:51's server ACK authorizes automated work.
+export function createHelperController({getWorld,command,catalog,now=()=>performance.now(),blocked=()=>false,onError=()=>{}}){let active=false,origin,lastPotion=-Infinity,lastReturn=0,lastRepair=-Infinity,target,looted=new Map(),auxTimes=[-Infinity,-Infinity],stoppingMap=false,lastStop=-Infinity;
+ const pending=new Set(),errors=new Map();
+ const run=(kind,action)=>{if(pending.has(kind))return;const failed=error=>{const t=now();if(t-(errors.get(kind)??-Infinity)>=5000){errors.set(kind,t);onError(error,kind);}};try{const result=action();if(result&&typeof result.then==='function'){pending.add(kind);void Promise.resolve(result).then(()=>pending.delete(kind),error=>{pending.delete(kind);failed(error);});}}catch(error){failed(error);}}; 
+ const cancel=()=>{if(active)command({kind:'cancel'});active=false;target=undefined;};
+ return {cancel,tick(){const w=getWorld(),s=w?.gameState,p=w?.position,c=s?.helper?.config,t=now();if(!s?.helper?.running||!p||p.hp===0){cancel();stoppingMap=false;return;}if(stoppingMap){if(t-lastStop>=1000){lastStop=t;run('stop',()=>w.toggleHelper(true));}return;}if(!active){active=true;origin={...p};lastReturn=t;looted.clear();auxTimes=[-Infinity,-Infinity];}if(blocked()){command({kind:'cancel'});return;}if(p.map!==origin.map){cancel();stoppingMap=true;lastStop=t;run('stop',()=>w.toggleHelper(true));return;}
+ if(c.potion&&s.vitals.maxHp&&s.vitals.hp/s.vitals.maxHp*100<c.potionPercent&&t-lastPotion>=500){lastPotion=t;for(const type of [0,1,2,3,38,39,40,70,94]){const item=[...s.items].reverse().find(i=>i.slot>=12&&i.index===14*512+type&&i.durability>0);if(item){run('potion',()=>w.useItem(item.slot));return;}}}
+ if(Math.hypot(p.x-origin.x,p.y-origin.y)<=1)lastReturn=t;
+ if(command({kind:'busy'}))return;
+ if(c.returnOrigin&&t-lastReturn>=Math.max(1,c.returnSeconds)*1000&&Math.hypot(p.x-origin.x,p.y-origin.y)>1){command({kind:'move',point:origin});lastReturn=t;target=undefined;return;}
+ const loot=(s.groundItems??[]).filter(i=>Math.hypot(p.x-i.x,p.y-i.y)<=c.pickupRange&&helperLootMatches(i,c,catalog)&&(i.money!==undefined||Array.from({length:64},(_,n)=>n+12).some(slot=>validContainerPlacement(s.items,catalog,i,slot,{offset:12,rows:8})))&&t-(looted.get(i.key)??-Infinity)>5000).sort((a,b)=>Math.hypot(p.x-a.x,p.y-a.y)-Math.hypot(p.x-b.x,p.y-b.y))[0];if(loot){looted.set(loot.key,t);command({kind:'pickup',index:loot.key});target=undefined;return;}
+ if(c.repair&&t-lastRepair>5000){const worn=s.items.find(i=>i.slot<12&&i.durability>0&&i.durability<5);if(worn){lastRepair=t;run('repair',()=>w.repairItem(worn.slot));return;}}
+ const enemies=w.entities.filter(e=>e.kind!=='player'&&!e.dead&&attackableMonsterTypes.has(e.type)&&Math.hypot(p.x-e.x,p.y-e.y)<=c.attackRange);const enemy=enemies.find(e=>e.index===target)??enemies.sort((a,b)=>Math.hypot(p.x-a.x,p.y-a.y)-Math.hypot(p.x-b.x,p.y-b.y))[0];if(!enemy){if(target!==undefined)command({kind:'cancel'});target=undefined;return;}target=enemy.index;let skill=c.mainSkill;for(const [i,id,delay,timed]of [[1,c.skill3,c.delay3,c.timed3],[0,c.skill2,c.delay2,c.timed2]])if(id&&timed&&!(i?c.condition3:c.condition2)&&s.skills.includes(id)&&t-auxTimes[i]>=Math.max(1,delay)*1000){skill=id;auxTimes[i]=t;break;}if(skill&&s.skills.includes(skill))command({kind:'attack',index:target,skill});
+ }};
+}

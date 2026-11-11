@@ -1,0 +1,324 @@
+{
+  "files": [
+    {
+      "path": "World11/TerrainHeight.OZB",
+      "sha256": "5470ece3785118dd314d32229dc0f4c33399269a69a2bc2f4d7bddd5d609422a",
+      "input_unchanged": true,
+      "findings": {
+        "width": 256,
+        "height": 256,
+        "bits": 24,
+        "compression": 0,
+        "bmp_offset": 58,
+        "declared_bmp_bytes": 196664,
+        "actual_bmp_bytes": 66616,
+        "game_height_conversion_verified": false,
+        "required_pixel_end": 196666,
+        "available_bytes": 66620,
+        "status": "truncated_bmp_pixels",
+        "missing_pixel_bytes": 130046,
+        "usable_height": false
+      }
+    },
+    {
+      "path": "World19/TerrainHeight.OZB",
+      "sha256": "aa5c81b13ec74b9d33da6826f25b0bd332ef2b8f488db48e8fc93b2542c61b3e",
+      "input_unchanged": true,
+      "findings": {
+        "status": "all_zero_file",
+        "bytes": 66620,
+        "usable_height": false
+      }
+    },
+    {
+      "path": "World3/EncTerrain3.obj",
+      "sha256": "2c54e5d086e9267ce8b7182f75878cb6a89c1883f01fcd1ba54774cf8c8b9d2a",
+      "input_unchanged": true,
+      "findings": {
+        "status": "placement_policy_issues",
+        "records": 2237,
+        "affected_records": 2,
+        "issues": [
+          {
+            "record": 528,
+            "byte_offset": 15844,
+            "type": 86,
+            "values": [
+              4450.0,
+              "nan",
+              165.85891723632812,
+              0.0,
+              0.0,
+              90.0,
+              1.0
+            ],
+            "reasons": [
+              "nonfinite_float"
+            ]
+          },
+          {
+            "record": 529,
+            "byte_offset": 15874,
+            "type": 86,
+            "values": [
+              4450.0,
+              "nan",
+              164.99998474121094,
+              0.0,
+              0.0,
+              270.0,
+              1.0
+            ],
+            "reasons": [
+              "nonfinite_float"
+            ]
+          }
+        ],
+        "reason_counts": {
+          "nonfinite_float": 2
+        },
+        "interpretation_verified": false
+      }
+    },
+    {
+      "path": "World32/EncTerrain32.obj",
+      "sha256": "7b2d45acb8cd89a7471e2e3092346d56656535c3d4cab205aa125c8cb3a7e0e6",
+      "input_unchanged": true,
+      "findings": {
+        "status": "placement_policy_issues",
+        "records": 7789,
+        "affected_records": 1,
+        "issues": [
+          {
+            "record": 3806,
+            "byte_offset": 114184,
+            "type": 53,
+            "values": [
+              11484.0390625,
+              22120.619140625,
+              150.366943359375,
+              0.0,
+              -20.0,
+              20.0,
+              -0.17999958992004395
+            ],
+            "reasons": [
+              "scale_outside_native_bounds"
+            ]
+          }
+        ],
+        "reason_counts": {
+          "scale_outside_native_bounds": 1
+        },
+        "interpretation_verified": false
+      }
+    },
+    {
+      "path": "World42/TerrainHeight.OZB",
+      "sha256": "cf7d4c193623c11f0c9db4ff4d23e1c844ea828ef274fa8a0710f70755e99c6d",
+      "input_unchanged": true,
+      "findings": {
+        "width": 256,
+        "height": 256,
+        "bits": 8,
+        "compression": 0,
+        "bmp_offset": 538,
+        "declared_bmp_bytes": 66072,
+        "actual_bmp_bytes": 66616,
+        "game_height_conversion_verified": false,
+        "palette_entries": 120,
+        "required_pixel_end": 66074,
+        "available_bytes": 66620,
+        "status": "bmp_pixels_decoded",
+        "decoded_pixel_bytes": 65536,
+        "pixel_sha256": "846ad8aaba0caf2b5ed03182de04a768206400e1f98ad999779a9528d7d160bf",
+        "trailing_bytes": 546,
+        "declared_size_matches": false,
+        "usable_height": false
+      }
+    },
+    {
+      "path": "World43/TerrainHeight.OZB",
+      "sha256": "2527c3e125526b5dbc0852eb54692e424d0ba40c1aa12e324f40fe130fd4ab4b",
+      "input_unchanged": true,
+      "findings": {
+        "width": 256,
+        "height": 256,
+        "bits": 24,
+        "compression": 0,
+        "bmp_offset": 58,
+        "declared_bmp_bytes": 196662,
+        "actual_bmp_bytes": 196662,
+        "game_height_conversion_verified": false,
+        "required_pixel_end": 196666,
+        "available_bytes": 196666,
+        "status": "bmp_pixels_decoded",
+        "decoded_pixel_bytes": 196608,
+        "pixel_sha256": "ffe34c191bce289c82900fd592992304c141cbd49aca4b5780d2371fa49ca5d1",
+        "trailing_bytes": 0,
+        "declared_size_matches": true,
+        "usable_height": false
+      }
+    },
+    {
+      "path": "World55/TerrainHeight.OZB",
+      "sha256": "db46460e4417d287ceb6c04cb31a48562e0f735e1280575e2261b6305d02d3e6",
+      "input_unchanged": true,
+      "findings": {
+        "status": "unclassified",
+        "error": "unknown wrapper"
+      }
+    },
+    {
+      "path": "World64/TerrainHeight.OZB",
+      "sha256": "f984931a77763d523153b87f6284edf084a5a81c0eaabdce60724368fa2a2d40",
+      "input_unchanged": true,
+      "findings": {
+        "width": 256,
+        "height": 256,
+        "bits": 24,
+        "compression": 0,
+        "bmp_offset": 58,
+        "declared_bmp_bytes": 196662,
+        "actual_bmp_bytes": 196662,
+        "game_height_conversion_verified": false,
+        "required_pixel_end": 196666,
+        "available_bytes": 196666,
+        "status": "bmp_pixels_decoded",
+        "decoded_pixel_bytes": 196608,
+        "pixel_sha256": "fbbcb4796b8247209c570078db6a1c2072d3776bf20ed2c93dbe91ac0766ddb4",
+        "trailing_bytes": 0,
+        "declared_size_matches": true,
+        "usable_height": false
+      }
+    },
+    {
+      "path": "World67/TerrainHeight.OZB",
+      "sha256": "642abb8d47be90f9f07d0d86a9c59f130693cfec4f5556ca0b4d2450c8649f24",
+      "input_unchanged": true,
+      "findings": {
+        "width": 256,
+        "height": 256,
+        "bits": 24,
+        "compression": 0,
+        "bmp_offset": 58,
+        "declared_bmp_bytes": 196662,
+        "actual_bmp_bytes": 196662,
+        "game_height_conversion_verified": false,
+        "required_pixel_end": 196666,
+        "available_bytes": 196666,
+        "status": "bmp_pixels_decoded",
+        "decoded_pixel_bytes": 196608,
+        "pixel_sha256": "574937fda865abbab0e2d02bce326f0991289e9ef08c8e02ba5fd36a9048c4e0",
+        "trailing_bytes": 0,
+        "declared_size_matches": true,
+        "usable_height": false
+      }
+    },
+    {
+      "path": "World7/TerrainHeight.OZB",
+      "sha256": "0f022287cbc63a84a66f1797a3ee2d84666e6f6d95dd105540ccea2fadba27b3",
+      "input_unchanged": true,
+      "findings": {
+        "status": "unclassified",
+        "error": "unknown wrapper"
+      }
+    },
+    {
+      "path": "World8/EncTerrain8.obj",
+      "sha256": "96092eccf43f04c260b6810896454a339032d780444fb3455b19de5969186087",
+      "input_unchanged": true,
+      "findings": {
+        "status": "placement_policy_issues",
+        "records": 5215,
+        "affected_records": 2,
+        "issues": [
+          {
+            "record": 2268,
+            "byte_offset": 68044,
+            "type": 40,
+            "values": [
+              8967.5,
+              20631.26953125,
+              470.8388671875,
+              390.0,
+              0.0,
+              870.0,
+              -0.17999958992004395
+            ],
+            "reasons": [
+              "scale_outside_native_bounds"
+            ]
+          },
+          {
+            "record": 3580,
+            "byte_offset": 107404,
+            "type": 40,
+            "values": [
+              16929.587890625,
+              7348.69970703125,
+              434.2624816894531,
+              70.0,
+              0.0,
+              1500.0,
+              -0.27999958395957947
+            ],
+            "reasons": [
+              "scale_outside_native_bounds"
+            ]
+          }
+        ],
+        "reason_counts": {
+          "scale_outside_native_bounds": 2
+        },
+        "interpretation_verified": false
+      }
+    },
+    {
+      "path": "World9/EncTerrain9.obj",
+      "sha256": "78e759d4ae12c00a7e79c6918d21dcefb1bccad9ec99e6a22a76d76a34d9bda1",
+      "input_unchanged": true,
+      "findings": {
+        "status": "placement_policy_issues",
+        "records": 3381,
+        "affected_records": 1,
+        "issues": [
+          {
+            "record": 1702,
+            "byte_offset": 51064,
+            "type": 7,
+            "values": [
+              10958.693359375,
+              18005.517578125,
+              202.92965698242188,
+              0.0,
+              0.0,
+              210.0,
+              -0.07999961078166962
+            ],
+            "reasons": [
+              "scale_outside_native_bounds"
+            ]
+          }
+        ],
+        "reason_counts": {
+          "scale_outside_native_bounds": 1
+        },
+        "interpretation_verified": false
+      }
+    }
+  ],
+  "counts": {
+    "truncated_bmp_pixels": 1,
+    "all_zero_file": 1,
+    "placement_policy_issues": 4,
+    "bmp_pixels_decoded": 4,
+    "unclassified": 2
+  },
+  "limits": [
+    "No production changes or resource repairs.",
+    "BMP pixel decoding does not define MU height conversion or legacy offset policy.",
+    "Negative scale semantics and nonfinite placement handling need original engine evidence."
+  ],
+  "input_report_sha256": "1592a6ea7b03eadec1d8ddb276e7eac2744cbcca04e844d796116e61d48d3117"
+}

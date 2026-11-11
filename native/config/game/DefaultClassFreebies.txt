@@ -1,0 +1,33 @@
+// Converted from MuServer/Data/Custom/CustomStartItem.txt.
+// Additional money/points were not configured in the original file.
+0
+// Class Money LevelUpPoint
+0 0 0
+1 0 0
+2 0 0
+3 0 0
+4 0 0
+5 0 0
+6 0 0
+end
+
+1
+// Class Section Index Level Dur Skill Luck Option Excellent Set SocketCount Duration
+0 7 3 7 0 0 0 0 0 0 0 80000
+0 8 3 7 0 0 0 0 0 0 0 80000
+0 9 3 7 0 0 0 0 0 0 0 80000
+0 10 3 7 0 0 0 0 0 0 0 80000
+0 11 3 7 0 0 0 0 0 0 0 80000
+1 7 1 7 0 0 0 0 0 0 0 80000
+1 8 1 7 0 0 0 0 0 0 0 80000
+1 9 1 7 0 0 0 0 0 0 0 80000
+1 10 1 7 0 0 0 0 0 0 0 80000
+1 11 1 7 0 0 0 0 0 0 0 80000
+end
+
+2
+// Class Effect Type Power1 Power2 Power3 Power4 Duration
+// Conversion choice: Type=0 countdown; original Time is preserved as seconds.
+// Original format has no Type/Power3/Power4. Verify old duration semantics before parity claims.
+0 39 0 30 0 0 0 2
+end

@@ -1,0 +1,6 @@
+{
+  "scope": "Node CPU microbenchmark only; 30000 same AABB checks per sample, median of 5; not game FPS",
+  "sameVisibleCount": true,
+  "beforeMedianMs": 267.338708,
+  "afterMedianMs": 1.7568750000000364
+}

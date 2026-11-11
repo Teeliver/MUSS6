@@ -1,0 +1,15 @@
+import {createModelPreview} from '../platform/rendering/model-preview.js';
+import {waterfallEmitters,spawnWaterfall,stepWaterfall,waterfallCapacity,waterfallLimit} from './waterfall-policy.js';
+export async function createWaterfallEffects({canvas,texture,entry,terrain,objects}){
+ const emitters=waterfallEmitters(entry.map,objects);if(!emitters.length)return {draw(){},dispose(){}};
+ const kinds=[...new Set(emitters.map(e=>e.kind))],capacities=kinds.map(kind=>waterfallCapacity(emitters,kind)),meshes=[],images=[],particles=[];let renderer,disposed=false,last,clock=0,dropped=0;
+ try{for(let n=0;n<kinds.length;n++){const kind=kinds[n],capacity=capacities[n],path='Effect/WATERFALL'+kind+'.OZJ';let image;try{image=await texture(path);}catch(error){throw Error('Map '+entry.map+' waterfall '+path+': '+error.message);}images.push(image);const uv=new Float32Array(capacity*12);for(let i=0;i<capacity;i++)uv.set([0,0,1,0,1,1,0,0,1,1,0,1],i*12);meshes.push({positions:new Float32Array(capacity*18),normals:new Float32Array(capacity*18).fill(1),colors:new Float32Array(capacity*24),uv,image,additive:true,clampUV:true,castsShadow:false});}
+ renderer=createModelPreview(canvas.getContext('webgl2'),[{meshes,bounds:{center:[0,0,0],scale:1}}],{world:true});
+ const corners=[[-1,-1],[1,-1],[1,1],[-1,-1],[1,1],[-1,1]],ground=terrain.height(entry.x,entry.y);
+ return {draw(w,h,time,focus){if(disposed)return;clock+=last===undefined?0:Math.max(0,Math.min(.2,(time-last)/1000));last=time;
+ while(clock>=.04){clock-=.04;for(let i=particles.length-1;i>=0;i--)if(!stepWaterfall(particles[i]))particles.splice(i,1);const populations=kinds.map(kind=>particles.filter(p=>p.kind===kind).length);for(const e of emitters)if(Math.abs(e.x-focus.x)<24&&Math.abs(e.y-focus.y)<24&&Math.random()<e.probability){const n=kinds.indexOf(e.kind);if(particles.length<waterfallLimit&&populations[n]<capacities[n]){particles.push(spawnWaterfall(e));populations[n]++;}else dropped++;}}
+ const counts=kinds.map(()=>0);for(const mesh of meshes){mesh.positions.fill(0);mesh.colors.fill(0);}for(const p of particles){const n=kinds.indexOf(p.kind),slot=counts[n]++,width=images[n].width*p.scale*.005,height=images[n].height*p.scale*.005,c=Math.cos(p.rotation),s=Math.sin(p.rotation);for(let i=0;i<6;i++){const [a,b]=corners[i],u=a*c-b*s,v=a*s+b*c;meshes[n].positions.set([p.x-entry.x+u*.707*width-v*.514*height,p.y-entry.y+u*.707*width+v*.514*height,p.z-ground+v*.686*height],slot*18+i*3);meshes[n].colors.set([p.light,p.light,p.light,1],slot*24+i*4);}}
+ renderer.update(0,{meshes});renderer.setCamera(focus.x-entry.x,focus.y-entry.y,terrain.heightAt(focus.x+.5,focus.y+.5)-ground);renderer.draw(w,h,time,{clear:false,pass:'objects'});canvas.dataset.mapWaterfallParticles=String(particles.length);canvas.dataset.mapWaterfallEmitters=String(emitters.length);canvas.dataset.mapWaterfallDropped=String(dropped);
+ },dispose(){if(disposed)return;disposed=true;renderer.dispose();particles.length=0;delete canvas.dataset.mapWaterfallParticles;delete canvas.dataset.mapWaterfallEmitters;delete canvas.dataset.mapWaterfallDropped;}};
+ }catch(error){renderer?.dispose();throw error;}
+}

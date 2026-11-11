@@ -1,0 +1,11 @@
+// ZzzObject::CreateObject, GMNewTown, GMUnitedMarketPlace, Kanturu2nd;
+// ZzzInterface::ActionMovementOperate and RenderCursor.
+const rules={0:{133:['lean',true],6:['sit'],145:['sit',true],146:['sit']},1:{60:['lean',true],59:['sit']},2:{91:['lean',true],22:['sit',true],25:['sit',true],40:['sit',true],45:['sit'],55:['sit',true],73:['sit']},3:{8:['sit'],38:['healing',true]},7:{39:['lean',true]},8:{78:['sit']},30:{77:['sit',true,'guildMaster'],84:['sit',true]},38:{3:['sit']},51:{103:['sit',true]},79:{67:['lean',true]}};
+export function operateRule(map,type){const r=rules[map]?.[type];if(!r)return;return {kind:r[0],faceObject:!!r[1],restriction:r[2],cursor:map===0&&type===133||map===1&&type===60||map===2&&type===91||map===3&&type===38?'lean':'sit',hidden:map===0&&type===133||map===1&&type===60||map===2&&type===91||map===3&&type===38||map===7&&type===39||map===79&&type===67};}
+export function operatePoints(map,objects){return objects.flatMap((o,id)=>{const rule=operateRule(map,o.type);return rule?[{...o,...rule,id,tx:Math.floor(o.x*.01),ty:Math.floor(o.y*.01),min:[-40,-40,0],max:map===79&&o.type===67?[100,100,160]:rule.hidden&&rule.kind==='lean'?[40,40,160]:[40,40,80]}]:[];});}
+export function operateMode(kind,baseClass){const female=[2,5].includes(baseClass);return kind==='sit'?female?11:10:kind==='lean'?female?13:12:kind==='healing'?female?15:14:undefined;}
+export const operateAction={sit:128,lean:129,healing:130};
+export function operateDirection(angle){return ((Math.floor((angle+22.5)/360*8+1)%8)+8)%8;}
+// BMD::Transform (normal EditFlag): axes remain world-aligned and untranslated
+// bounds are added to BodyOrigin; object angle/scale do not rotate this hit box.
+export function pickOperate(ray,points){if(!ray)return;let hit,near=Infinity;for(const p of points){const a=[ray.origin.x*100-p.x,ray.origin.y*100-p.y,ray.origin.z*100-p.z],d=[ray.direction.x*100,ray.direction.y*100,ray.direction.z*100];let lo=0,hi=ray.length;for(let k=0;k<3;k++){if(Math.abs(d[k])<1e-10){if(a[k]<p.min[k]||a[k]>p.max[k]){hi=-1;break;}}else{const t1=(p.min[k]-a[k])/d[k],t2=(p.max[k]-a[k])/d[k];lo=Math.max(lo,Math.min(t1,t2));hi=Math.min(hi,Math.max(t1,t2));}}if(lo<=hi&&lo<near){hit=p;near=lo;}}return hit;}

@@ -1,0 +1,22 @@
+import fs from 'node:fs/promises';
+import {decodeItemTable} from '../client/src/ui/tables.js';
+import {bodyPaths} from '../client/src/preview/body-geometry.js';
+import {itemResource} from '../client/src/protocol/item-resources.js';
+import {itemTextureReference,inspectTexture} from '../client/src/platform/assets/decode-texture.js';
+const root=process.cwd(),data=process.argv[2]??'/Users/angelale/Downloads/MuClientEX603/Data';
+const {default:create}=await import(root+'/web/.build/wasm/frame-reader.mjs');const core=await create({wasmBinary:await fs.readFile(root+'/web/.build/wasm/frame-reader.wasm')});
+const read=async p=>new Uint8Array(await fs.readFile(data+'/'+p)),player=await read('Player/Player.bmd');
+const classes=['Dark Wizard','Dark Knight','Fairy Elf','Magic Gladiator','Dark Lord','Summoner','Rage Fighter'];
+const tiers=[[1,[0,1,2,41]],[2,[3,4,5,6,42,49]],[3,[36,37,38,39,40,43,50]]];
+const wings=tiers.flatMap(([tier,types])=>types.map(type=>({index:6144+type,tier})));wings.push({index:6686,tier:2});
+const catalog=decodeItemTable(await read('Local/Eng/Item_eng.bmd'));
+const inventory=JSON.parse(await fs.readFile(root+'/web/docs/ITEM-RESOURCES-W0093.json'));const names=new Map((inventory.rows??[]).map(x=>[x.index,x.name]));
+const results=[];
+for(const wing of wings){const resource=itemResource(core,wing.index,0);const record={...wing,name:names.get(wing.index),model:resource.path,textures:[],classes:[],limitations:[]};let bytes;
+ try{bytes=await read(resource.path);const g=core.bmdGeometryResult(bytes);if(!g.ok)throw Error(g.error);for(const mesh of g.meshes){const path=itemTextureReference(wing.index,resource.path,mesh.texture),texture=inspectTexture(core,path.toLowerCase().endsWith('.ozt')?'OZT':'OZJ',await read(path));record.textures.push({path,width:texture.width,height:texture.height});}
+ {const animation=new core.ModelAnimation(bytes);try{const a=animation.sampleResult(0),b=animation.sampleResult(.17);if(!a.ok||!b.ok)throw Error(a.error??b.error);let delta=0;for(let m=0;m<a.meshes.length;m++)for(let i=0;i<a.meshes[m].positions.length;i++)delta=Math.max(delta,Math.abs(a.meshes[m].positions[i]-b.meshes[m].positions[i]));record.independentWingMotionDelta=delta;}finally{animation.delete();}}
+ for(let cls=0;cls<7;cls++){let rig;const requirement=catalog[wing.index].classes[cls];if(!requirement)continue;const tier=requirement-1;const test={class:classes[cls],classIndex:cls,requiredClassStage:requirement,tier,requiredLevel:catalog[wing.index].requirements[5],samples:0};try{const paths=bodyPaths('base',{core,baseClass:cls,tier}),idle=cls===2?2:cls===5?3:1;rig=new core.BodyAnimation(player,idle);for(const path of paths)rig.addPart(await read(path));rig.configureWorld(player,idle,[2,5].includes(cls)?16:15,1,15,23,38);rig.addWeapon(bytes,7,wing.index,true);let time=0,animationDelta=0,previous;for(const mode of [0,1,4,5,8,9])for(let k=0;k<8;k++){time+=.11;const sample=rig.sampleMotionResult(time,mode);if(!sample.ok)throw Error(sample.error);for(const mesh of sample.meshes)for(const v of mesh.positions)if(!Number.isFinite(v)||Math.abs(v)>10000)throw Error('Invalid animated vertex');const positions=sample.meshes.at(-1).positions;if(previous)for(let i=0;i<positions.length;i++)animationDelta=Math.max(animationDelta,Math.abs(positions[i]-previous[i]));previous=positions;test.samples++;}test.animationDelta=animationDelta;test.status='sampled';}catch(e){test.status='error';test.error=e.message;}finally{rig?.delete();}record.classes.push(test);}
+ if([6184,6193,6194,6686].includes(wing.index))record.limitations.push('Native cape cloth/CreateParts/RenderParts path requires separate visual verification; finite sampling does not validate cloth fidelity.');
+ record.status=record.classes.every(c=>c.status==='sampled')?'sampled':'error';
+ }catch(e){record.status='error';record.error=e.message;}results.push(record);console.log(wing.index,record.status,record.classes.filter(c=>c.status==='error').map(c=>c.class+': '+c.error).join(' | '));}
+await fs.writeFile(root+'/web/docs/WINGS-CLASS-AUDIT-W0095.json',JSON.stringify({scope:'Real Data/WASM: resource availability, texture decode, finite pose sampling; only class/item pairs allowed by Item_eng.bmd, at the minimum required advancement. Does not certify visual parity; stats/level eligibility is recorded, not changed on live accounts.',classes,wingCount:wings.length,pairCount:results.reduce((n,r)=>n+r.classes.length,0),results},null,2)+'\n');

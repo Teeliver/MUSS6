@@ -1,0 +1,602 @@
+{
+  "scope": "Dispatch inventory only; excludes legacy effects and does not prove all native source branches are ported",
+  "rows": [
+    {
+      "map": 0,
+      "placements": 2865,
+      "particleEmitters": 0,
+      "particleFamilies": [],
+      "waterEmitters": 0,
+      "sprites": 0,
+      "boneSprites": 0,
+      "boneTypes": [],
+      "visualParity": "not certified"
+    },
+    {
+      "map": 1,
+      "placements": 4488,
+      "particleEmitters": 0,
+      "particleFamilies": [],
+      "waterEmitters": 0,
+      "sprites": 0,
+      "boneSprites": 0,
+      "boneTypes": [],
+      "visualParity": "not certified"
+    },
+    {
+      "map": 2,
+      "placements": 2235,
+      "particleEmitters": 0,
+      "particleFamilies": [],
+      "waterEmitters": 0,
+      "sprites": 0,
+      "boneSprites": 0,
+      "boneTypes": [],
+      "visualParity": "not certified"
+    },
+    {
+      "map": 3,
+      "placements": 9399,
+      "particleEmitters": 0,
+      "particleFamilies": [],
+      "waterEmitters": 0,
+      "sprites": 0,
+      "boneSprites": 0,
+      "boneTypes": [],
+      "visualParity": "not certified"
+    },
+    {
+      "map": 4,
+      "placements": 5380,
+      "particleEmitters": 0,
+      "particleFamilies": [],
+      "waterEmitters": 0,
+      "sprites": 0,
+      "boneSprites": 0,
+      "boneTypes": [],
+      "visualParity": "not certified"
+    },
+    {
+      "map": 6,
+      "placements": 1485,
+      "particleEmitters": 0,
+      "particleFamilies": [],
+      "waterEmitters": 0,
+      "sprites": 0,
+      "boneSprites": 0,
+      "boneTypes": [],
+      "visualParity": "not certified"
+    },
+    {
+      "map": 7,
+      "placements": 5215,
+      "particleEmitters": 845,
+      "particleFamilies": [
+        "bubble"
+      ],
+      "waterEmitters": 0,
+      "sprites": 0,
+      "boneSprites": 0,
+      "boneTypes": [],
+      "visualParity": "not certified"
+    },
+    {
+      "map": 8,
+      "placements": 3381,
+      "particleEmitters": 0,
+      "particleFamilies": [],
+      "waterEmitters": 0,
+      "sprites": 0,
+      "boneSprites": 0,
+      "boneTypes": [],
+      "visualParity": "not certified"
+    },
+    {
+      "map": 9,
+      "placements": 564,
+      "particleEmitters": 0,
+      "particleFamilies": [],
+      "waterEmitters": 0,
+      "sprites": 0,
+      "boneSprites": 0,
+      "boneTypes": [],
+      "visualParity": "not certified"
+    },
+    {
+      "map": 10,
+      "placements": 670,
+      "particleEmitters": 0,
+      "particleFamilies": [],
+      "waterEmitters": 0,
+      "sprites": 0,
+      "boneSprites": 0,
+      "boneTypes": [],
+      "visualParity": "not certified"
+    },
+    {
+      "map": 11,
+      "placements": 210,
+      "particleEmitters": 0,
+      "particleFamilies": [],
+      "waterEmitters": 0,
+      "sprites": 0,
+      "boneSprites": 0,
+      "boneTypes": [],
+      "visualParity": "not certified"
+    },
+    {
+      "map": 18,
+      "placements": 194,
+      "particleEmitters": 0,
+      "particleFamilies": [],
+      "waterEmitters": 0,
+      "sprites": 0,
+      "boneSprites": 0,
+      "boneTypes": [],
+      "visualParity": "not certified"
+    },
+    {
+      "map": 24,
+      "placements": 2266,
+      "particleEmitters": 0,
+      "particleFamilies": [],
+      "waterEmitters": 0,
+      "sprites": 0,
+      "boneSprites": 0,
+      "boneTypes": [],
+      "visualParity": "not certified"
+    },
+    {
+      "map": 30,
+      "placements": 3724,
+      "particleEmitters": 0,
+      "particleFamilies": [],
+      "waterEmitters": 0,
+      "sprites": 0,
+      "boneSprites": 0,
+      "boneTypes": [],
+      "visualParity": "not certified"
+    },
+    {
+      "map": 31,
+      "placements": 7789,
+      "particleEmitters": 0,
+      "particleFamilies": [],
+      "waterEmitters": 0,
+      "sprites": 0,
+      "boneSprites": 0,
+      "boneTypes": [],
+      "visualParity": "not certified"
+    },
+    {
+      "map": 33,
+      "placements": 3752,
+      "particleEmitters": 0,
+      "particleFamilies": [],
+      "waterEmitters": 0,
+      "sprites": 0,
+      "boneSprites": 0,
+      "boneTypes": [],
+      "visualParity": "not certified"
+    },
+    {
+      "map": 34,
+      "placements": 6644,
+      "particleEmitters": 20,
+      "particleFamilies": [
+        "fire",
+        "smoke"
+      ],
+      "waterEmitters": 0,
+      "sprites": 0,
+      "boneSprites": 0,
+      "boneTypes": [],
+      "visualParity": "not certified"
+    },
+    {
+      "map": 37,
+      "placements": 3645,
+      "particleEmitters": 0,
+      "particleFamilies": [],
+      "waterEmitters": 0,
+      "sprites": 0,
+      "boneSprites": 0,
+      "boneTypes": [],
+      "visualParity": "not certified"
+    },
+    {
+      "map": 38,
+      "placements": 2014,
+      "particleEmitters": 103,
+      "particleFamilies": [
+        "water7",
+        "cloudTint",
+        "cloudDark"
+      ],
+      "waterEmitters": 0,
+      "sprites": 0,
+      "boneSprites": 0,
+      "boneTypes": [],
+      "visualParity": "not certified"
+    },
+    {
+      "map": 39,
+      "placements": 1459,
+      "particleEmitters": 0,
+      "particleFamilies": [],
+      "waterEmitters": 0,
+      "sprites": 0,
+      "boneSprites": 0,
+      "boneTypes": [],
+      "visualParity": "not certified"
+    },
+    {
+      "map": 40,
+      "placements": 670,
+      "particleEmitters": 0,
+      "particleFamilies": [],
+      "waterEmitters": 0,
+      "sprites": 0,
+      "boneSprites": 0,
+      "boneTypes": [],
+      "visualParity": "not certified"
+    },
+    {
+      "map": 41,
+      "placements": 1531,
+      "particleEmitters": 0,
+      "particleFamilies": [],
+      "waterEmitters": 0,
+      "sprites": 0,
+      "boneSprites": 0,
+      "boneTypes": [],
+      "visualParity": "not certified"
+    },
+    {
+      "map": 42,
+      "placements": 354,
+      "particleEmitters": 0,
+      "particleFamilies": [],
+      "waterEmitters": 0,
+      "sprites": 0,
+      "boneSprites": 0,
+      "boneTypes": [],
+      "visualParity": "not certified"
+    },
+    {
+      "map": 46,
+      "placements": 1964,
+      "particleEmitters": 0,
+      "particleFamilies": [],
+      "waterEmitters": 0,
+      "sprites": 0,
+      "boneSprites": 0,
+      "boneTypes": [],
+      "visualParity": "not certified"
+    },
+    {
+      "map": 51,
+      "placements": 5136,
+      "particleEmitters": 0,
+      "particleFamilies": [],
+      "waterEmitters": 251,
+      "sprites": 0,
+      "boneSprites": 162,
+      "boneTypes": [
+        121,
+        63
+      ],
+      "visualParity": "not certified"
+    },
+    {
+      "map": 54,
+      "placements": 194,
+      "particleEmitters": 0,
+      "particleFamilies": [],
+      "waterEmitters": 0,
+      "sprites": 0,
+      "boneSprites": 0,
+      "boneTypes": [],
+      "visualParity": "not certified"
+    },
+    {
+      "map": 56,
+      "placements": 4176,
+      "particleEmitters": 300,
+      "particleFamilies": [
+        "cloud",
+        "smoke",
+        "fire",
+        "mist"
+      ],
+      "waterEmitters": 0,
+      "sprites": 0,
+      "boneSprites": 0,
+      "boneTypes": [],
+      "visualParity": "not certified"
+    },
+    {
+      "map": 57,
+      "placements": 1474,
+      "particleEmitters": 4,
+      "particleFamilies": [
+        "hik1",
+        "hik2",
+        "hik3"
+      ],
+      "waterEmitters": 0,
+      "sprites": 0,
+      "boneSprites": 0,
+      "boneTypes": [],
+      "visualParity": "not certified"
+    },
+    {
+      "map": 58,
+      "placements": 162,
+      "particleEmitters": 6,
+      "particleFamilies": [
+        "hik1",
+        "hik2",
+        "hik3"
+      ],
+      "waterEmitters": 0,
+      "sprites": 0,
+      "boneSprites": 0,
+      "boneTypes": [],
+      "visualParity": "not certified"
+    },
+    {
+      "map": 62,
+      "placements": 679,
+      "particleEmitters": 0,
+      "particleFamilies": [],
+      "waterEmitters": 0,
+      "sprites": 169,
+      "boneSprites": 0,
+      "boneTypes": [],
+      "visualParity": "not certified"
+    },
+    {
+      "map": 63,
+      "placements": 2290,
+      "particleEmitters": 0,
+      "particleFamilies": [],
+      "waterEmitters": 0,
+      "sprites": 0,
+      "boneSprites": 0,
+      "boneTypes": [],
+      "visualParity": "not certified"
+    },
+    {
+      "map": 64,
+      "placements": 1347,
+      "particleEmitters": 0,
+      "particleFamilies": [],
+      "waterEmitters": 0,
+      "sprites": 0,
+      "boneSprites": 0,
+      "boneTypes": [],
+      "visualParity": "not certified"
+    },
+    {
+      "map": 65,
+      "placements": 421,
+      "particleEmitters": 0,
+      "particleFamilies": [],
+      "waterEmitters": 0,
+      "sprites": 0,
+      "boneSprites": 0,
+      "boneTypes": [],
+      "visualParity": "not certified"
+    },
+    {
+      "map": 66,
+      "placements": 253,
+      "particleEmitters": 0,
+      "particleFamilies": [],
+      "waterEmitters": 0,
+      "sprites": 0,
+      "boneSprites": 0,
+      "boneTypes": [],
+      "visualParity": "not certified"
+    },
+    {
+      "map": 67,
+      "placements": 373,
+      "particleEmitters": 24,
+      "particleFamilies": [
+        "bubble"
+      ],
+      "waterEmitters": 0,
+      "sprites": 0,
+      "boneSprites": 0,
+      "boneTypes": [],
+      "visualParity": "not certified"
+    },
+    {
+      "map": 68,
+      "placements": 433,
+      "particleEmitters": 0,
+      "particleFamilies": [],
+      "waterEmitters": 0,
+      "sprites": 0,
+      "boneSprites": 0,
+      "boneTypes": [],
+      "visualParity": "not certified"
+    },
+    {
+      "map": 69,
+      "placements": 836,
+      "particleEmitters": 133,
+      "particleFamilies": [
+        "cloud21",
+        "market1",
+        "market2",
+        "market3",
+        "smoke60",
+        "smoke"
+      ],
+      "waterEmitters": 6,
+      "sprites": 66,
+      "boneSprites": 0,
+      "boneTypes": [],
+      "visualParity": "not certified"
+    },
+    {
+      "map": 70,
+      "placements": 729,
+      "particleEmitters": 117,
+      "particleFamilies": [
+        "market1",
+        "market2",
+        "market3",
+        "cloud21",
+        "cloud22"
+      ],
+      "waterEmitters": 6,
+      "sprites": 58,
+      "boneSprites": 0,
+      "boneTypes": [],
+      "visualParity": "not certified"
+    },
+    {
+      "map": 71,
+      "placements": 748,
+      "particleEmitters": 93,
+      "particleFamilies": [
+        "market1",
+        "market2",
+        "market3",
+        "cloud21",
+        "cloud22",
+        "smoke60",
+        "smoke",
+        "smoke22"
+      ],
+      "waterEmitters": 6,
+      "sprites": 71,
+      "boneSprites": 0,
+      "boneTypes": [],
+      "visualParity": "not certified"
+    },
+    {
+      "map": 72,
+      "placements": 1670,
+      "particleEmitters": 182,
+      "particleFamilies": [
+        "flame12",
+        "market1",
+        "market2",
+        "market3",
+        "cloud21",
+        "cloud22"
+      ],
+      "waterEmitters": 57,
+      "sprites": 120,
+      "boneSprites": 20,
+      "boneTypes": [
+        37
+      ],
+      "visualParity": "not certified"
+    },
+    {
+      "map": 73,
+      "placements": 375,
+      "particleEmitters": 70,
+      "particleFamilies": [
+        "cloud21",
+        "market1",
+        "market2",
+        "market3"
+      ],
+      "waterEmitters": 1,
+      "sprites": 53,
+      "boneSprites": 10,
+      "boneTypes": [
+        37
+      ],
+      "visualParity": "not certified"
+    },
+    {
+      "map": 74,
+      "placements": 112,
+      "particleEmitters": 14,
+      "particleFamilies": [
+        "cloud22",
+        "cloud21",
+        "market1",
+        "market2",
+        "market3",
+        "smoke60",
+        "smoke"
+      ],
+      "waterEmitters": 0,
+      "sprites": 5,
+      "boneSprites": 0,
+      "boneTypes": [],
+      "visualParity": "not certified"
+    },
+    {
+      "map": 77,
+      "placements": 628,
+      "particleEmitters": 0,
+      "particleFamilies": [],
+      "waterEmitters": 0,
+      "sprites": 0,
+      "boneSprites": 0,
+      "boneTypes": [],
+      "visualParity": "not certified"
+    },
+    {
+      "map": 78,
+      "placements": 96,
+      "particleEmitters": 0,
+      "particleFamilies": [],
+      "waterEmitters": 0,
+      "sprites": 0,
+      "boneSprites": 0,
+      "boneTypes": [],
+      "visualParity": "not certified"
+    },
+    {
+      "map": 79,
+      "placements": 517,
+      "particleEmitters": 12,
+      "particleFamilies": [
+        "market1",
+        "market2",
+        "market3"
+      ],
+      "waterEmitters": 14,
+      "sprites": 12,
+      "boneSprites": 20,
+      "boneTypes": [
+        35,
+        30
+      ],
+      "visualParity": "not certified"
+    },
+    {
+      "map": 80,
+      "placements": 2086,
+      "particleEmitters": 0,
+      "particleFamilies": [],
+      "waterEmitters": 0,
+      "sprites": 0,
+      "boneSprites": 0,
+      "boneTypes": [],
+      "visualParity": "not certified"
+    },
+    {
+      "map": 81,
+      "placements": 1720,
+      "particleEmitters": 0,
+      "particleFamilies": [],
+      "waterEmitters": 0,
+      "sprites": 0,
+      "boneSprites": 0,
+      "boneTypes": [],
+      "visualParity": "not certified"
+    }
+  ]
+}

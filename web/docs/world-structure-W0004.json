@@ -1,0 +1,5745 @@
+{
+  "worlds": [
+    {
+      "world": 1,
+      "native_world_supported": true,
+      "files": [
+        {
+          "path": "World1/EncTerrain1.obj",
+          "sha256": "ba2b9f9623751fc097d8fadfbc62ffa00f27e7eb902ddc73437a2f371af7b287",
+          "layout": {
+            "declared": 2871,
+            "records": 2870,
+            "active": 2865,
+            "declared_delta": 1,
+            "types": {
+              "0": 80,
+              "1": 23,
+              "2": 22,
+              "3": 15,
+              "4": 20,
+              "5": 52,
+              "6": 36,
+              "7": 8,
+              "8": 42,
+              "9": 252,
+              "10": 165,
+              "11": 2,
+              "12": 4,
+              "20": 172,
+              "21": 184,
+              "22": 119,
+              "23": 118,
+              "24": 316,
+              "25": 81,
+              "26": 35,
+              "27": 7,
+              "30": 29,
+              "31": 42,
+              "32": 50,
+              "33": 69,
+              "34": 8,
+              "40": 8,
+              "41": 7,
+              "42": 4,
+              "43": 4,
+              "44": 4,
+              "45": 4,
+              "46": 5,
+              "50": 26,
+              "51": 18,
+              "52": 9,
+              "55": 1,
+              "56": 2,
+              "57": 4,
+              "58": 64,
+              "59": 3,
+              "60": 4,
+              "65": 2,
+              "66": 21,
+              "67": 5,
+              "68": 8,
+              "69": 8,
+              "70": 6,
+              "71": 2,
+              "72": 12,
+              "74": 2,
+              "75": 4,
+              "76": 32,
+              "77": 45,
+              "78": 3,
+              "80": 16,
+              "81": 180,
+              "82": 33,
+              "83": 34,
+              "84": 17,
+              "85": 14,
+              "90": 10,
+              "91": 1,
+              "92": 2,
+              "93": 3,
+              "95": 6,
+              "96": 3,
+              "97": 5,
+              "98": 4,
+              "99": 7,
+              "101": 2,
+              "102": 8,
+              "103": 2,
+              "107": 1,
+              "108": 2,
+              "109": 2,
+              "110": 1,
+              "111": 3,
+              "115": 2,
+              "116": 7,
+              "117": 1,
+              "118": 1,
+              "119": 1,
+              "120": 2,
+              "121": 3,
+              "122": 14,
+              "123": 5,
+              "124": 8,
+              "125": 8,
+              "126": 4,
+              "127": 48,
+              "128": 1,
+              "129": 8,
+              "130": 2,
+              "131": 18,
+              "132": 5,
+              "133": 52,
+              "140": 2,
+              "141": 3,
+              "142": 5,
+              "143": 3,
+              "144": 3,
+              "145": 18,
+              "146": 3,
+              "150": 6,
+              "151": 1,
+              "152": 2,
+              "153": 4,
+              "168": 1
+            },
+            "native_count_compatible": true
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World1/EncTerrain1.map",
+          "sha256": "0a41f3349c3b50efcbfc7559bf389b611668ad4cba315dfee13310c00af81a54",
+          "layout": {
+            "base_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "overlay_indices": [
+              0,
+              1,
+              2,
+              3,
+              5,
+              7,
+              8,
+              255
+            ],
+            "samples": 65536,
+            "tile_mapping_verified": false
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World1/EncTerrain1.att",
+          "sha256": "aae4c17293b1d87150fd747a1943fbd7154f2797a112a730a38474429980a70b",
+          "layout": {
+            "samples": 65536,
+            "bits": 8
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World1/TerrainHeight.OZB",
+          "sha256": "8be38775c6dd8c5cd0e7b4691a50f930930808ecf471fda2ca91f7cb00db71f8",
+          "layout": {
+            "samples": 65536,
+            "bmp_offset": 1082,
+            "native_offset": 1084,
+            "native_tail_padding": 2,
+            "visual_alignment_verified": false
+          },
+          "status": "schema_parsed"
+        }
+      ]
+    },
+    {
+      "world": 10,
+      "native_world_supported": false,
+      "files": [
+        {
+          "path": "World10/EncTerrain10.obj",
+          "sha256": "4cde901328aae93d1b60bfda0e32fa1ad053f1de2c1bd66c73f9ef82d58cbe6c",
+          "layout": {
+            "declared": 564,
+            "records": 564,
+            "active": 564,
+            "declared_delta": 0,
+            "types": {
+              "0": 52,
+              "1": 12,
+              "2": 200,
+              "3": 191,
+              "4": 55,
+              "5": 44,
+              "6": 10
+            },
+            "native_count_compatible": true
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World10/EncTerrain10.map",
+          "sha256": "146fd07fb01268bfa62d25864e9ebe31fa444518aed9a352b0b83acc55ea34b6",
+          "layout": {
+            "base_indices": [
+              0
+            ],
+            "overlay_indices": [
+              255
+            ],
+            "samples": 65536,
+            "tile_mapping_verified": false
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World10/EncTerrain10.att",
+          "sha256": "376dfd4adea466484039a33afe4e770ba591ccbc594b452e669a6e443ebe89bd",
+          "layout": {
+            "samples": 65536,
+            "bits": 8
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World10/TerrainHeight.OZB",
+          "sha256": "c6daa6fafb595fbba3a541789409d5927d6b7b6043691a41abfcabd06712cbcd",
+          "layout": {
+            "samples": 65536,
+            "bmp_offset": 1082,
+            "native_offset": 1084,
+            "native_tail_padding": 0,
+            "visual_alignment_verified": false
+          },
+          "status": "schema_parsed"
+        }
+      ]
+    },
+    {
+      "world": 11,
+      "native_world_supported": false,
+      "files": [
+        {
+          "path": "World11/EncTerrain11.obj",
+          "sha256": "bb98608eddb8b7f60c223454bb6db179807e689e2e3f26b60737ef29d9cdbbad",
+          "layout": {
+            "declared": 670,
+            "records": 670,
+            "active": 670,
+            "declared_delta": 0,
+            "types": {
+              "0": 16,
+              "1": 21,
+              "2": 8,
+              "3": 115,
+              "4": 61,
+              "5": 114,
+              "6": 17,
+              "7": 13,
+              "8": 12,
+              "9": 14,
+              "10": 180,
+              "12": 31,
+              "13": 11,
+              "14": 39,
+              "15": 18
+            },
+            "native_count_compatible": true
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World11/EncTerrain11.map",
+          "sha256": "87bce08a12ec9a717baeec7e38b1753ddf391ce24555d27dd7e411f83aab4d42",
+          "layout": {
+            "base_indices": [
+              0,
+              1,
+              7
+            ],
+            "overlay_indices": [
+              1,
+              7,
+              8,
+              9,
+              10,
+              255
+            ],
+            "samples": 65536,
+            "tile_mapping_verified": false
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World11/EncTerrain11.att",
+          "sha256": "81f617c4a04eeb40de0de6c3c697f8f46d359f4f419d17d7de97d9ca18279691",
+          "layout": {
+            "samples": 65536,
+            "bits": 16
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World11/TerrainHeight.OZB",
+          "sha256": "5470ece3785118dd314d32229dc0f4c33399269a69a2bc2f4d7bddd5d609422a",
+          "status": "schema_error",
+          "error": "height differs from native schema: header=40, width=256, height=256, planes=1, bits=24, compression=0"
+        }
+      ]
+    },
+    {
+      "world": 12,
+      "native_world_supported": false,
+      "files": [
+        {
+          "path": "World12/EncTerrain12.obj",
+          "sha256": "4f3e9e162df1fc19c1c0ec910eb10bf5666bb772c2945e56c5e36f72b352eeb9",
+          "layout": {
+            "declared": 210,
+            "records": 210,
+            "active": 210,
+            "declared_delta": 0,
+            "types": {
+              "0": 2,
+              "1": 2,
+              "2": 1,
+              "3": 2,
+              "4": 2,
+              "5": 15,
+              "8": 2,
+              "9": 2,
+              "10": 2,
+              "11": 11,
+              "12": 1,
+              "13": 4,
+              "14": 5,
+              "15": 9,
+              "16": 2,
+              "17": 2,
+              "18": 3,
+              "19": 4,
+              "20": 10,
+              "21": 11,
+              "22": 26,
+              "23": 6,
+              "25": 9,
+              "26": 13,
+              "27": 9,
+              "28": 3,
+              "29": 1,
+              "30": 1,
+              "31": 5,
+              "32": 6,
+              "33": 20,
+              "34": 7,
+              "35": 2,
+              "36": 1,
+              "37": 9
+            },
+            "native_count_compatible": true
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World12/EncTerrain12.map",
+          "sha256": "7b235500844543f9a44ed77ecb0ee0162117b6f8d5c8468f625d368b7efb89d9",
+          "layout": {
+            "base_indices": [
+              0,
+              1,
+              3,
+              4,
+              8
+            ],
+            "overlay_indices": [
+              0,
+              1,
+              255
+            ],
+            "samples": 65536,
+            "tile_mapping_verified": false
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World12/EncTerrain12.att",
+          "sha256": "cec830e9a28656af5f1cc8b066b65292349e9cbeba77918c6c1c41c0b4450b37",
+          "layout": {
+            "samples": 65536,
+            "bits": 8
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World12/TerrainHeight.OZB",
+          "sha256": "c73b209d822ab090535a32567f9e00c866f399f8dddc1e1d39bc13e8550d88c3",
+          "layout": {
+            "samples": 65536,
+            "bmp_offset": 1082,
+            "native_offset": 1084,
+            "native_tail_padding": 0,
+            "visual_alignment_verified": false
+          },
+          "status": "schema_parsed"
+        }
+      ]
+    },
+    {
+      "world": 19,
+      "native_world_supported": false,
+      "files": [
+        {
+          "path": "World19/EncTerrain19.obj",
+          "sha256": "d95b490fbd0c3eda66cde9a5f70723cb967ba3b737fe29786ae42a8010edbf28",
+          "layout": {
+            "declared": 194,
+            "records": 194,
+            "active": 194,
+            "declared_delta": 0,
+            "types": {
+              "0": 8,
+              "1": 5,
+              "2": 3,
+              "3": 22,
+              "6": 9,
+              "7": 14,
+              "8": 6,
+              "10": 1,
+              "11": 1,
+              "12": 8,
+              "13": 8,
+              "14": 5,
+              "15": 5,
+              "16": 8,
+              "17": 1,
+              "18": 5,
+              "19": 2,
+              "20": 2,
+              "21": 5,
+              "22": 9,
+              "23": 6,
+              "24": 6,
+              "25": 3,
+              "26": 3,
+              "27": 6,
+              "28": 6,
+              "29": 3,
+              "30": 7,
+              "31": 4,
+              "32": 5,
+              "33": 7,
+              "34": 7,
+              "35": 4
+            },
+            "native_count_compatible": true
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World19/EncTerrain19.map",
+          "sha256": "2e2bdc01273d6a79e1369fda44ba4ece375187b30e24d3ffb1e7f94db048b425",
+          "layout": {
+            "base_indices": [
+              0,
+              1
+            ],
+            "overlay_indices": [
+              1,
+              255
+            ],
+            "samples": 65536,
+            "tile_mapping_verified": false
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World19/EncTerrain19.att",
+          "sha256": "206d324b0b0c655619a887330bf4736400f966faa4eab1b6868c9052b5ceecb7",
+          "layout": {
+            "samples": 65536,
+            "bits": 8
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World19/TerrainHeight.OZB",
+          "sha256": "aa5c81b13ec74b9d33da6826f25b0bd332ef2b8f488db48e8fc93b2542c61b3e",
+          "status": "schema_error",
+          "error": "unsupported height wrapper"
+        }
+      ]
+    },
+    {
+      "world": 2,
+      "native_world_supported": false,
+      "files": [
+        {
+          "path": "World2/EncTerrain2.obj",
+          "sha256": "5ada58ff8defadf4eadf669dc92bd308832d5f9b7e666234813ec5799405eb53",
+          "layout": {
+            "declared": 4488,
+            "records": 4488,
+            "active": 4488,
+            "declared_delta": 0,
+            "types": {
+              "0": 1262,
+              "1": 58,
+              "2": 27,
+              "3": 588,
+              "4": 59,
+              "5": 179,
+              "6": 48,
+              "7": 11,
+              "8": 13,
+              "9": 24,
+              "10": 53,
+              "11": 52,
+              "12": 50,
+              "13": 17,
+              "14": 217,
+              "15": 4,
+              "16": 3,
+              "17": 43,
+              "18": 3,
+              "19": 3,
+              "20": 33,
+              "21": 20,
+              "22": 17,
+              "23": 17,
+              "24": 50,
+              "25": 21,
+              "26": 12,
+              "27": 24,
+              "28": 11,
+              "29": 10,
+              "30": 23,
+              "31": 20,
+              "32": 5,
+              "33": 10,
+              "34": 8,
+              "35": 18,
+              "36": 112,
+              "37": 16,
+              "38": 51,
+              "39": 27,
+              "40": 26,
+              "41": 64,
+              "42": 56,
+              "43": 15,
+              "44": 21,
+              "45": 25,
+              "46": 79,
+              "47": 385,
+              "48": 235,
+              "49": 41,
+              "50": 178,
+              "51": 6,
+              "52": 29,
+              "53": 5,
+              "54": 1,
+              "55": 12,
+              "56": 19,
+              "57": 24,
+              "58": 9,
+              "59": 30,
+              "60": 9
+            },
+            "native_count_compatible": true
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World2/EncTerrain2.map",
+          "sha256": "51668d5aa109755f160514afb283b97dc7f14932a2142b41f849bb49278271e3",
+          "layout": {
+            "base_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "overlay_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              255
+            ],
+            "samples": 65536,
+            "tile_mapping_verified": false
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World2/EncTerrain2.att",
+          "sha256": "28ceef72610a7ab87b53167469a1c34afeefb5cf49358eca0156945e9c82b97f",
+          "layout": {
+            "samples": 65536,
+            "bits": 8
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World2/TerrainHeight.OZB",
+          "sha256": "e2cb7a2cbda176b5d54d8adf648a05c3ce8cdf4c937907ff9ec2a378b9d08326",
+          "layout": {
+            "samples": 65536,
+            "bmp_offset": 1082,
+            "native_offset": 1084,
+            "native_tail_padding": 0,
+            "visual_alignment_verified": false
+          },
+          "status": "schema_parsed"
+        }
+      ]
+    },
+    {
+      "world": 25,
+      "native_world_supported": false,
+      "files": [
+        {
+          "path": "World25/EncTerrain25.obj",
+          "sha256": "e5c3e3a0f82ceaee016688fa9967884b287ffb6077dffefb9e2f08c3173a6e58",
+          "layout": {
+            "declared": 2266,
+            "records": 2266,
+            "active": 2266,
+            "declared_delta": 0,
+            "types": {
+              "0": 7,
+              "1": 5,
+              "2": 17,
+              "3": 23,
+              "4": 37,
+              "5": 2,
+              "6": 110,
+              "7": 17,
+              "8": 2,
+              "9": 16,
+              "10": 35,
+              "11": 29,
+              "12": 49,
+              "13": 31,
+              "14": 49,
+              "15": 13,
+              "16": 4,
+              "17": 35,
+              "18": 7,
+              "19": 3,
+              "20": 24,
+              "21": 9,
+              "22": 38,
+              "23": 56,
+              "24": 20,
+              "25": 19,
+              "26": 23,
+              "27": 105,
+              "28": 26,
+              "29": 280,
+              "30": 109,
+              "31": 35,
+              "32": 14,
+              "33": 29,
+              "34": 18,
+              "35": 25,
+              "36": 6,
+              "37": 62,
+              "38": 32,
+              "39": 52,
+              "40": 50,
+              "41": 90,
+              "42": 54,
+              "43": 249,
+              "44": 2,
+              "45": 3,
+              "47": 4,
+              "48": 16,
+              "49": 13,
+              "50": 5,
+              "51": 6,
+              "52": 66,
+              "53": 46,
+              "54": 44,
+              "55": 13,
+              "56": 7,
+              "57": 42,
+              "58": 83
+            },
+            "native_count_compatible": true
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World25/EncTerrain25.map",
+          "sha256": "11716c7707e7806177527a44274a6714aea807489da8b81f9b670cd003388b34",
+          "layout": {
+            "base_indices": [
+              0,
+              3,
+              4,
+              5
+            ],
+            "overlay_indices": [
+              1,
+              4,
+              5,
+              255
+            ],
+            "samples": 65536,
+            "tile_mapping_verified": false
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World25/EncTerrain25.att",
+          "sha256": "f9abad22f92a0d4076c06315418f6866af7e3a1b0fea99f054dfe1fe79e9f6cc",
+          "layout": {
+            "samples": 65536,
+            "bits": 8
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World25/TerrainHeight.OZB",
+          "sha256": "28eebe93ee69572edd5c61de1e4be3a74378a4a91701080f272437467616a709",
+          "layout": {
+            "samples": 65536,
+            "bmp_offset": 1082,
+            "native_offset": 1084,
+            "native_tail_padding": 0,
+            "visual_alignment_verified": false
+          },
+          "status": "schema_parsed"
+        }
+      ]
+    },
+    {
+      "world": 3,
+      "native_world_supported": false,
+      "files": [
+        {
+          "path": "World3/EncTerrain3.obj",
+          "sha256": "2c54e5d086e9267ce8b7182f75878cb6a89c1883f01fcd1ba54774cf8c8b9d2a",
+          "status": "schema_error",
+          "error": "invalid placement float at record 528: [4450.0, nan, 165.85891723632812, 0.0, 0.0, 90.0, 1.0]"
+        },
+        {
+          "path": "World3/EncTerrain3.map",
+          "sha256": "1f2a4788df58f168d62f1f54be852aba6dee6bd481716e6089d3ffec2670afda",
+          "layout": {
+            "base_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ],
+            "overlay_indices": [
+              0,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              255
+            ],
+            "samples": 65536,
+            "tile_mapping_verified": false
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World3/EncTerrain3.att",
+          "sha256": "9b9ec7832bb262dde9f37a80f4a76b1079b7d0084baacba1834ad56a933a15d0",
+          "layout": {
+            "samples": 65536,
+            "bits": 16
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World3/TerrainHeight.OZB",
+          "sha256": "ded4d670ef930fcb3b530bfe7e4ed44f47804ed7befb2819416f6b81b66fbd13",
+          "layout": {
+            "samples": 65536,
+            "bmp_offset": 1082,
+            "native_offset": 1084,
+            "native_tail_padding": 0,
+            "visual_alignment_verified": false
+          },
+          "status": "schema_parsed"
+        }
+      ]
+    },
+    {
+      "world": 31,
+      "native_world_supported": false,
+      "files": [
+        {
+          "path": "World31/EncTerrain31.obj",
+          "sha256": "3e0c40e4fcf1f2f3c862a08f3bc55e1b7d934bd83f4dcdac0916de3becdd3d2b",
+          "layout": {
+            "declared": 3724,
+            "records": 3724,
+            "active": 3724,
+            "declared_delta": 0,
+            "types": {
+              "0": 39,
+              "1": 101,
+              "2": 134,
+              "3": 127,
+              "4": 1,
+              "5": 18,
+              "6": 70,
+              "7": 39,
+              "8": 11,
+              "9": 17,
+              "10": 6,
+              "11": 6,
+              "12": 13,
+              "13": 24,
+              "14": 11,
+              "15": 1,
+              "16": 6,
+              "17": 26,
+              "18": 18,
+              "19": 4,
+              "20": 13,
+              "21": 124,
+              "22": 10,
+              "23": 36,
+              "24": 15,
+              "25": 13,
+              "26": 9,
+              "27": 616,
+              "28": 105,
+              "29": 16,
+              "30": 30,
+              "31": 41,
+              "32": 55,
+              "33": 1,
+              "34": 1140,
+              "35": 1,
+              "36": 2,
+              "37": 2,
+              "38": 12,
+              "39": 1,
+              "40": 1,
+              "41": 24,
+              "42": 42,
+              "43": 2,
+              "44": 5,
+              "45": 8,
+              "46": 5,
+              "47": 5,
+              "48": 8,
+              "49": 17,
+              "50": 3,
+              "51": 4,
+              "52": 37,
+              "53": 52,
+              "54": 10,
+              "55": 3,
+              "56": 4,
+              "57": 4,
+              "58": 10,
+              "59": 2,
+              "60": 32,
+              "61": 5,
+              "62": 6,
+              "63": 6,
+              "64": 4,
+              "65": 5,
+              "66": 1,
+              "67": 39,
+              "68": 192,
+              "69": 79,
+              "70": 4,
+              "71": 29,
+              "72": 15,
+              "73": 12,
+              "74": 18,
+              "75": 10,
+              "76": 13,
+              "77": 1,
+              "78": 9,
+              "79": 1,
+              "80": 3,
+              "81": 1,
+              "82": 32,
+              "83": 4,
+              "84": 37,
+              "85": 6
+            },
+            "native_count_compatible": true
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World31/EncTerrain31.map",
+          "sha256": "c5a85b9a11438fde0a12d2b17e011920ccc54be1626b963fb490b7ca65057346",
+          "layout": {
+            "base_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ],
+            "overlay_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              8,
+              9,
+              10,
+              11,
+              255
+            ],
+            "samples": 65536,
+            "tile_mapping_verified": false
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World31/EncTerrain31.att",
+          "sha256": "c790e6ffb05769df519fabc4c095829a96fa8a3c6df1b10482adaf74a1b09d93",
+          "layout": {
+            "samples": 65536,
+            "bits": 16
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World31/TerrainHeight.OZB",
+          "sha256": "d0caf200c41b4f5c4f6924c0174dcaabb3598f3e07bbc17e4e5954a6b74472f3",
+          "layout": {
+            "samples": 65536,
+            "bmp_offset": 1082,
+            "native_offset": 1084,
+            "native_tail_padding": 0,
+            "visual_alignment_verified": false
+          },
+          "status": "schema_parsed"
+        }
+      ]
+    },
+    {
+      "world": 32,
+      "native_world_supported": false,
+      "files": [
+        {
+          "path": "World32/EncTerrain32.obj",
+          "sha256": "7b2d45acb8cd89a7471e2e3092346d56656535c3d4cab205aa125c8cb3a7e0e6",
+          "status": "schema_error",
+          "error": "scale outside native schema at record 3806: -0.17999958992004395"
+        },
+        {
+          "path": "World32/EncTerrain32.map",
+          "sha256": "4754c04429077a0c82eabcff33d0b041c1f33cefc26b8670a952e2ff63754773",
+          "layout": {
+            "base_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            "overlay_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              255
+            ],
+            "samples": 65536,
+            "tile_mapping_verified": false
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World32/EncTerrain32.att",
+          "sha256": "601f66563fafbe1ee43ad0a4166b61966599ddad72d6d4a1b04c6cb4ddcf7c7f",
+          "layout": {
+            "samples": 65536,
+            "bits": 16
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World32/TerrainHeight.OZB",
+          "sha256": "d30c7c8f1d2af3b3d2be72c458a3c778020a295bd668d4102802a3e7be02894a",
+          "layout": {
+            "samples": 65536,
+            "bmp_offset": 1082,
+            "native_offset": 1084,
+            "native_tail_padding": 0,
+            "visual_alignment_verified": false
+          },
+          "status": "schema_parsed"
+        }
+      ]
+    },
+    {
+      "world": 34,
+      "native_world_supported": false,
+      "files": [
+        {
+          "path": "World34/EncTerrain34.obj",
+          "sha256": "8e517b09f610b2c715923344542289127b43c09b01841ca215324a15e5a211f2",
+          "layout": {
+            "declared": 3752,
+            "records": 3752,
+            "active": 3752,
+            "declared_delta": 0,
+            "types": {
+              "0": 2,
+              "2": 97,
+              "3": 131,
+              "4": 171,
+              "5": 80,
+              "6": 427,
+              "7": 4,
+              "8": 168,
+              "9": 235,
+              "10": 8,
+              "11": 14,
+              "12": 11,
+              "13": 22,
+              "14": 106,
+              "15": 56,
+              "16": 7,
+              "17": 131,
+              "18": 132,
+              "19": 87,
+              "20": 17,
+              "21": 36,
+              "22": 24,
+              "23": 85,
+              "24": 488,
+              "25": 40,
+              "26": 11,
+              "27": 21,
+              "28": 4,
+              "29": 17,
+              "30": 155,
+              "31": 6,
+              "32": 13,
+              "33": 55,
+              "34": 10,
+              "35": 40,
+              "36": 14,
+              "37": 3,
+              "38": 9,
+              "39": 2,
+              "40": 7,
+              "41": 21,
+              "42": 198,
+              "43": 27,
+              "44": 6,
+              "45": 39,
+              "46": 31,
+              "47": 22,
+              "48": 9,
+              "49": 6,
+              "50": 3,
+              "51": 2,
+              "52": 44,
+              "53": 19,
+              "54": 6,
+              "55": 3,
+              "56": 22,
+              "57": 23,
+              "58": 39,
+              "59": 20,
+              "60": 20,
+              "61": 6,
+              "62": 47,
+              "63": 24,
+              "64": 65,
+              "65": 3,
+              "66": 8,
+              "67": 11,
+              "68": 21,
+              "69": 11,
+              "70": 5,
+              "71": 28,
+              "75": 1,
+              "77": 10,
+              "78": 6
+            },
+            "native_count_compatible": true
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World34/EncTerrain34.map",
+          "sha256": "0dad59a7aed7a158bc72acd18346cac9e94077af260d9a073df7e4d5354dfa57",
+          "layout": {
+            "base_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              11
+            ],
+            "overlay_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              6,
+              7,
+              8,
+              11,
+              255
+            ],
+            "samples": 65536,
+            "tile_mapping_verified": false
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World34/EncTerrain34.att",
+          "sha256": "4f510c8c6c2d246f4f7fe752d704a3f7cdab1c9e8402a46b1b2ae348225ec996",
+          "layout": {
+            "samples": 65536,
+            "bits": 16
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World34/TerrainHeight.OZB",
+          "sha256": "af29c486d411f8c8009bf0071c4ebfabd64ffa07405b9bac6dcae0b13beb5d90",
+          "layout": {
+            "samples": 65536,
+            "bmp_offset": 1082,
+            "native_offset": 1084,
+            "native_tail_padding": 0,
+            "visual_alignment_verified": false
+          },
+          "status": "schema_parsed"
+        }
+      ]
+    },
+    {
+      "world": 35,
+      "native_world_supported": false,
+      "files": [
+        {
+          "path": "World35/EncTerrain35.obj",
+          "sha256": "1010f17c52535878f46f5ea68f14ec488ec3e9978ed2f6d348ebf8c12e5704c8",
+          "layout": {
+            "declared": 6644,
+            "records": 6644,
+            "active": 6644,
+            "declared_delta": 0,
+            "types": {
+              "0": 59,
+              "1": 11,
+              "2": 10,
+              "3": 6,
+              "4": 35,
+              "5": 11,
+              "6": 18,
+              "7": 29,
+              "8": 14,
+              "9": 6,
+              "10": 6,
+              "11": 56,
+              "12": 18,
+              "13": 22,
+              "14": 64,
+              "15": 1947,
+              "16": 230,
+              "17": 581,
+              "18": 231,
+              "19": 148,
+              "20": 150,
+              "21": 152,
+              "22": 118,
+              "23": 9,
+              "24": 93,
+              "25": 29,
+              "26": 48,
+              "27": 161,
+              "28": 24,
+              "29": 2,
+              "30": 14,
+              "31": 7,
+              "32": 2,
+              "33": 1067,
+              "34": 120,
+              "35": 292,
+              "36": 1,
+              "37": 22,
+              "38": 136,
+              "39": 40,
+              "40": 1,
+              "41": 9,
+              "42": 46,
+              "43": 45,
+              "44": 8,
+              "45": 11,
+              "46": 6,
+              "47": 11,
+              "48": 5,
+              "49": 3,
+              "50": 3,
+              "51": 20,
+              "52": 55,
+              "53": 28,
+              "54": 28,
+              "55": 84,
+              "56": 5,
+              "57": 12,
+              "60": 3,
+              "61": 3,
+              "62": 4,
+              "63": 4,
+              "65": 3,
+              "66": 3,
+              "67": 4,
+              "69": 2,
+              "71": 8,
+              "73": 68,
+              "74": 57,
+              "75": 7,
+              "76": 20,
+              "77": 44,
+              "78": 33,
+              "79": 1,
+              "80": 1,
+              "81": 1,
+              "82": 5,
+              "84": 4
+            },
+            "native_count_compatible": true
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World35/EncTerrain35.map",
+          "sha256": "f43fad65a928a8b08f4350bea3ed9a6a15395b972c2688882d2c4276d9f39136",
+          "layout": {
+            "base_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            "overlay_indices": [
+              0,
+              1,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              255
+            ],
+            "samples": 65536,
+            "tile_mapping_verified": false
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World35/EncTerrain35.att",
+          "sha256": "b03bcb088dfd2df8c98c054a12a42ffad1fc4c8015933512310f1fce45770f72",
+          "layout": {
+            "samples": 65536,
+            "bits": 16
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World35/TerrainHeight.OZB",
+          "sha256": "e5cbfd81470e69ceda5b78f0ec09a5f440cdb8715b93b90afde9b19e99a90052",
+          "layout": {
+            "samples": 65536,
+            "bmp_offset": 1082,
+            "native_offset": 1084,
+            "native_tail_padding": 0,
+            "visual_alignment_verified": false
+          },
+          "status": "schema_parsed"
+        }
+      ]
+    },
+    {
+      "world": 38,
+      "native_world_supported": false,
+      "files": [
+        {
+          "path": "World38/EncTerrain38.obj",
+          "sha256": "568dca5b7ec7c73fd5fa8904840a61bf44556d37d30a6d4d6f5680103ecdc4eb",
+          "layout": {
+            "declared": 3645,
+            "records": 3645,
+            "active": 3645,
+            "declared_delta": 0,
+            "types": {
+              "0": 9,
+              "1": 3,
+              "2": 3,
+              "3": 5,
+              "4": 1,
+              "5": 208,
+              "6": 84,
+              "7": 4,
+              "8": 8,
+              "9": 3,
+              "10": 6,
+              "11": 1,
+              "12": 21,
+              "13": 5,
+              "14": 33,
+              "15": 8,
+              "16": 20,
+              "17": 38,
+              "18": 45,
+              "19": 15,
+              "20": 31,
+              "21": 78,
+              "22": 50,
+              "23": 5,
+              "24": 11,
+              "25": 16,
+              "26": 30,
+              "27": 26,
+              "28": 5,
+              "29": 22,
+              "30": 21,
+              "31": 19,
+              "32": 67,
+              "33": 6,
+              "34": 33,
+              "35": 3,
+              "36": 50,
+              "37": 58,
+              "38": 3,
+              "39": 1,
+              "40": 13,
+              "41": 4,
+              "42": 17,
+              "43": 14,
+              "44": 22,
+              "45": 38,
+              "46": 43,
+              "47": 14,
+              "49": 2,
+              "50": 2,
+              "51": 29,
+              "52": 25,
+              "53": 47,
+              "54": 93,
+              "56": 20,
+              "57": 46,
+              "58": 15,
+              "59": 16,
+              "60": 5,
+              "61": 58,
+              "62": 60,
+              "63": 6,
+              "64": 15,
+              "65": 232,
+              "66": 17,
+              "67": 198,
+              "68": 225,
+              "69": 34,
+              "71": 91,
+              "72": 27,
+              "73": 51,
+              "74": 47,
+              "75": 186,
+              "76": 10,
+              "77": 52,
+              "78": 25,
+              "79": 123,
+              "80": 83,
+              "81": 26,
+              "82": 35,
+              "83": 52,
+              "84": 34,
+              "85": 3,
+              "86": 25,
+              "87": 1,
+              "88": 6,
+              "89": 16,
+              "90": 19,
+              "91": 1,
+              "92": 2,
+              "93": 6,
+              "94": 10,
+              "95": 128,
+              "96": 1,
+              "97": 1,
+              "98": 46,
+              "99": 80,
+              "107": 77,
+              "108": 11,
+              "109": 5
+            },
+            "native_count_compatible": true
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World38/EncTerrain38.map",
+          "sha256": "b84c6483d9b1f10ba8417cfe41ff14099a080afa132f899a78098b5330048834",
+          "layout": {
+            "base_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ],
+            "overlay_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              255
+            ],
+            "samples": 65536,
+            "tile_mapping_verified": false
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World38/EncTerrain38.att",
+          "sha256": "cb12942a5acbc6823527c1f2fe8969b87361187f8f5f6dbdabe46315615a36bf",
+          "layout": {
+            "samples": 65536,
+            "bits": 16
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World38/TerrainHeight.OZB",
+          "sha256": "2b7dc33f730f33bb756dd7f8a1e096c7a85678237d0d6092213a329004391d7a",
+          "layout": {
+            "samples": 65536,
+            "bmp_offset": 1082,
+            "native_offset": 1084,
+            "native_tail_padding": 0,
+            "visual_alignment_verified": false
+          },
+          "status": "schema_parsed"
+        }
+      ]
+    },
+    {
+      "world": 39,
+      "native_world_supported": false,
+      "files": [
+        {
+          "path": "World39/EncTerrain39.obj",
+          "sha256": "fbc34ed5dcc30985538db065aaa83439d6374cccd58a43f16ea6ce324e5bc231",
+          "layout": {
+            "declared": 2014,
+            "records": 2014,
+            "active": 2014,
+            "declared_delta": 0,
+            "types": {
+              "0": 539,
+              "1": 125,
+              "2": 175,
+              "3": 9,
+              "4": 21,
+              "5": 10,
+              "6": 21,
+              "8": 18,
+              "9": 6,
+              "10": 21,
+              "11": 9,
+              "12": 3,
+              "13": 12,
+              "14": 22,
+              "15": 4,
+              "16": 5,
+              "17": 7,
+              "18": 30,
+              "19": 39,
+              "20": 31,
+              "21": 4,
+              "22": 4,
+              "23": 14,
+              "24": 16,
+              "25": 1,
+              "26": 20,
+              "27": 17,
+              "28": 1,
+              "29": 10,
+              "30": 3,
+              "31": 10,
+              "33": 10,
+              "35": 10,
+              "36": 15,
+              "37": 2,
+              "38": 107,
+              "39": 1,
+              "40": 1,
+              "41": 17,
+              "42": 3,
+              "43": 1,
+              "44": 3,
+              "45": 1,
+              "47": 23,
+              "48": 60,
+              "49": 4,
+              "50": 18,
+              "51": 4,
+              "53": 34,
+              "54": 18,
+              "55": 32,
+              "56": 13,
+              "57": 58,
+              "59": 29,
+              "60": 51,
+              "61": 109,
+              "64": 91,
+              "65": 2,
+              "67": 1,
+              "69": 1,
+              "72": 6,
+              "73": 1,
+              "74": 4,
+              "76": 5,
+              "79": 44,
+              "80": 9,
+              "81": 6,
+              "82": 4,
+              "83": 4,
+              "84": 5
+            },
+            "native_count_compatible": true
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World39/EncTerrain39.map",
+          "sha256": "ff4f9232b33ba9c32d211b0703433fcd23cc31ec958355e25393278013f04115",
+          "layout": {
+            "base_indices": [
+              0,
+              1,
+              3,
+              4,
+              6,
+              7,
+              8,
+              10
+            ],
+            "overlay_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              7,
+              8,
+              9,
+              10,
+              255
+            ],
+            "samples": 65536,
+            "tile_mapping_verified": false
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World39/EncTerrain39.att",
+          "sha256": "764ad2cbd9e84c45c5e715799773902237ca8add626ffea373d7daffb4fc7be1",
+          "layout": {
+            "samples": 65536,
+            "bits": 16
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World39/TerrainHeight.OZB",
+          "sha256": "c716d86e48c7fa3c793215b260bea35ae18ea8e5b1a6f91e9cbbd2df281d3053",
+          "layout": {
+            "samples": 65536,
+            "bmp_offset": 1082,
+            "native_offset": 1084,
+            "native_tail_padding": 0,
+            "visual_alignment_verified": false
+          },
+          "status": "schema_parsed"
+        }
+      ]
+    },
+    {
+      "world": 4,
+      "native_world_supported": true,
+      "files": [
+        {
+          "path": "World4/EncTerrain4.obj",
+          "sha256": "b189d67f2e036a074f770bf95c9b6145a92c45eb2058fc772bc2bb545333bc33",
+          "layout": {
+            "declared": 9399,
+            "records": 9399,
+            "active": 9399,
+            "declared_delta": 0,
+            "types": {
+              "0": 524,
+              "1": 2336,
+              "2": 75,
+              "3": 144,
+              "4": 245,
+              "5": 915,
+              "6": 29,
+              "7": 742,
+              "8": 16,
+              "9": 14,
+              "10": 7,
+              "11": 362,
+              "12": 241,
+              "13": 665,
+              "14": 193,
+              "15": 548,
+              "16": 216,
+              "17": 3,
+              "18": 2,
+              "19": 79,
+              "20": 8,
+              "21": 3,
+              "22": 159,
+              "23": 152,
+              "24": 47,
+              "25": 7,
+              "26": 64,
+              "27": 51,
+              "28": 18,
+              "29": 26,
+              "30": 5,
+              "31": 44,
+              "32": 90,
+              "33": 69,
+              "34": 240,
+              "35": 228,
+              "36": 683,
+              "37": 91,
+              "38": 53,
+              "39": 1,
+              "40": 1,
+              "41": 1,
+              "42": 1,
+              "43": 1
+            },
+            "native_count_compatible": true
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World4/EncTerrain4.map",
+          "sha256": "7d5dabcb5fd626864ec8340c4a4c7427e5bfa3a5842d791182d430b7059196bb",
+          "layout": {
+            "base_indices": [
+              0,
+              1,
+              2,
+              4,
+              5,
+              6,
+              7,
+              8,
+              10
+            ],
+            "overlay_indices": [
+              0,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              255
+            ],
+            "samples": 65536,
+            "tile_mapping_verified": false
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World4/EncTerrain4.att",
+          "sha256": "cdcaa146118ce2c308d71792ba36d1f3db0ce144fc8e1bfb23b91e99d2be784b",
+          "layout": {
+            "samples": 65536,
+            "bits": 8
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World4/TerrainHeight.OZB",
+          "sha256": "64736a18889bf0b4eaf2aa85697ed1727ad06bddc48d8d32a897724684e76329",
+          "layout": {
+            "samples": 65536,
+            "bmp_offset": 1082,
+            "native_offset": 1084,
+            "native_tail_padding": 0,
+            "visual_alignment_verified": false
+          },
+          "status": "schema_parsed"
+        }
+      ]
+    },
+    {
+      "world": 40,
+      "native_world_supported": false,
+      "files": [
+        {
+          "path": "World40/EncTerrain40.obj",
+          "sha256": "fa1678bff2d784481194a176cbc5f37f1c45152b38b324f309f3fe5092e956e5",
+          "layout": {
+            "declared": 1459,
+            "records": 1459,
+            "active": 1459,
+            "declared_delta": 0,
+            "types": {
+              "0": 1,
+              "1": 21,
+              "2": 1,
+              "3": 57,
+              "5": 13,
+              "8": 3,
+              "9": 11,
+              "10": 2,
+              "11": 50,
+              "12": 5,
+              "13": 3,
+              "14": 3,
+              "15": 2,
+              "16": 2,
+              "17": 56,
+              "18": 1,
+              "19": 4,
+              "20": 2,
+              "21": 3,
+              "22": 85,
+              "23": 38,
+              "24": 1,
+              "25": 11,
+              "26": 2,
+              "27": 3,
+              "28": 1,
+              "29": 25,
+              "30": 33,
+              "31": 54,
+              "32": 5,
+              "33": 94,
+              "34": 39,
+              "35": 121,
+              "36": 40,
+              "37": 17,
+              "40": 5,
+              "41": 11,
+              "42": 5,
+              "43": 4,
+              "44": 28,
+              "45": 26,
+              "46": 49,
+              "47": 105,
+              "48": 13,
+              "49": 24,
+              "50": 20,
+              "52": 8,
+              "53": 32,
+              "54": 45,
+              "55": 94,
+              "56": 4,
+              "57": 1,
+              "58": 1,
+              "59": 2,
+              "61": 10,
+              "62": 20,
+              "63": 5,
+              "64": 18,
+              "65": 11,
+              "66": 22,
+              "67": 16,
+              "68": 18,
+              "69": 3,
+              "70": 1,
+              "71": 6,
+              "72": 30,
+              "73": 1,
+              "74": 12
+            },
+            "native_count_compatible": true
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World40/EncTerrain40.map",
+          "sha256": "87a61ba2cb1e11d12d80e5952db03faeb21e33e433f45dc56a0c70b656af98da",
+          "layout": {
+            "base_indices": [
+              0,
+              1,
+              2,
+              3,
+              5,
+              6,
+              11
+            ],
+            "overlay_indices": [
+              0,
+              1,
+              2,
+              3,
+              255
+            ],
+            "samples": 65536,
+            "tile_mapping_verified": false
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World40/EncTerrain40.att",
+          "sha256": "3f776adcbdbf1f23d8deb80e655e746747effb9b924886119614253de3809d38",
+          "layout": {
+            "samples": 65536,
+            "bits": 16
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World40/TerrainHeight.OZB",
+          "sha256": "818a27625272c89f804c77fb105bc2a7993f042d1a700d2a17c7a0b286c9861f",
+          "layout": {
+            "samples": 65536,
+            "bmp_offset": 1082,
+            "native_offset": 1084,
+            "native_tail_padding": 0,
+            "visual_alignment_verified": false
+          },
+          "status": "schema_parsed"
+        }
+      ]
+    },
+    {
+      "world": 41,
+      "native_world_supported": false,
+      "files": [
+        {
+          "path": "World41/EncTerrain41.obj",
+          "sha256": "e178d58cf9711b9355f5d720b262e2921d926c4b4f0b282e2fb8b0e2e2a371f1",
+          "layout": {
+            "declared": 670,
+            "records": 670,
+            "active": 670,
+            "declared_delta": 0,
+            "types": {
+              "0": 13,
+              "1": 9,
+              "2": 7,
+              "3": 23,
+              "4": 24,
+              "6": 8,
+              "7": 48,
+              "8": 1,
+              "9": 2,
+              "10": 12,
+              "11": 39,
+              "12": 12,
+              "13": 18,
+              "14": 6,
+              "15": 3,
+              "27": 6,
+              "32": 3,
+              "33": 1,
+              "52": 1,
+              "60": 4,
+              "61": 10,
+              "62": 39,
+              "66": 2,
+              "67": 21,
+              "68": 153,
+              "69": 49,
+              "73": 4,
+              "74": 3,
+              "76": 3,
+              "77": 50,
+              "78": 21,
+              "79": 45,
+              "81": 4,
+              "83": 16,
+              "94": 6,
+              "108": 4
+            },
+            "native_count_compatible": true
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World41/EncTerrain41.map",
+          "sha256": "80e72521ed08f16f6e0136ab5c4c6df3171ae6466ed52f98c62dc2ed5fc1b051",
+          "layout": {
+            "base_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ],
+            "overlay_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              255
+            ],
+            "samples": 65536,
+            "tile_mapping_verified": false
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World41/EncTerrain41.att",
+          "sha256": "9ad061a67742eafbb9a31f63c2f8fed4648430c707a8a727d50f4f20e704df88",
+          "layout": {
+            "samples": 65536,
+            "bits": 16
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World41/TerrainHeight.OZB",
+          "sha256": "72d5c81eb7a37ae6a711ac91ce3290d73d3e6eb33e2e9b13d4e38b949435c44f",
+          "layout": {
+            "samples": 65536,
+            "bmp_offset": 1082,
+            "native_offset": 1084,
+            "native_tail_padding": 0,
+            "visual_alignment_verified": false
+          },
+          "status": "schema_parsed"
+        }
+      ]
+    },
+    {
+      "world": 42,
+      "native_world_supported": false,
+      "files": [
+        {
+          "path": "World42/EncTerrain42.obj",
+          "sha256": "892408abac08d4541b9ff76de806c85cfab8e997bdef39dbba5d396969d2f639",
+          "layout": {
+            "declared": 1531,
+            "records": 1531,
+            "active": 1531,
+            "declared_delta": 0,
+            "types": {
+              "0": 15,
+              "1": 5,
+              "2": 45,
+              "3": 39,
+              "4": 37,
+              "7": 182,
+              "10": 20,
+              "11": 11,
+              "13": 36,
+              "16": 2,
+              "17": 4,
+              "18": 30,
+              "19": 4,
+              "21": 1,
+              "22": 14,
+              "23": 16,
+              "24": 5,
+              "25": 28,
+              "26": 8,
+              "27": 2,
+              "28": 9,
+              "29": 3,
+              "30": 9,
+              "31": 8,
+              "32": 11,
+              "33": 14,
+              "34": 9,
+              "35": 11,
+              "36": 2,
+              "44": 7,
+              "46": 6,
+              "47": 6,
+              "48": 186,
+              "49": 267,
+              "50": 62,
+              "51": 27,
+              "52": 1,
+              "53": 15,
+              "54": 7,
+              "55": 48,
+              "61": 54,
+              "62": 30,
+              "63": 8,
+              "64": 15,
+              "65": 4,
+              "66": 8,
+              "67": 1,
+              "68": 9,
+              "69": 85,
+              "70": 11,
+              "71": 10,
+              "72": 1,
+              "74": 1,
+              "75": 2,
+              "76": 4,
+              "77": 9,
+              "78": 2,
+              "81": 5,
+              "85": 6,
+              "88": 4,
+              "89": 50
+            },
+            "native_count_compatible": true
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World42/EncTerrain42.map",
+          "sha256": "0405a06a4d8e53c9aa8c8d5e05534ec94b3f177cbab9f589da6699a010df32e1",
+          "layout": {
+            "base_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "overlay_indices": [
+              0,
+              1,
+              2,
+              4,
+              5,
+              6,
+              7,
+              8,
+              10,
+              255
+            ],
+            "samples": 65536,
+            "tile_mapping_verified": false
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World42/EncTerrain42.att",
+          "sha256": "4aaf18e08be1caf3a2dae839bbbcb2e521451bf112e31abab4304d0f9a4bf9d0",
+          "layout": {
+            "samples": 65536,
+            "bits": 16
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World42/TerrainHeight.OZB",
+          "sha256": "cf7d4c193623c11f0c9db4ff4d23e1c844ea828ef274fa8a0710f70755e99c6d",
+          "status": "schema_error",
+          "error": "height legacy offset incompatible: BMP pixel offset=538, native=1084"
+        }
+      ]
+    },
+    {
+      "world": 43,
+      "native_world_supported": false,
+      "files": [
+        {
+          "path": "World43/EncTerrain43.obj",
+          "sha256": "7661788cd159bba47d8f25cae496f5c48e45badb5d137d3891208c6e81606fcb",
+          "layout": {
+            "declared": 354,
+            "records": 354,
+            "active": 354,
+            "declared_delta": 0,
+            "types": {
+              "2": 10,
+              "3": 17,
+              "4": 6,
+              "7": 19,
+              "16": 24,
+              "17": 5,
+              "20": 2,
+              "21": 1,
+              "22": 5,
+              "25": 1,
+              "31": 3,
+              "32": 1,
+              "33": 17,
+              "34": 3,
+              "35": 22,
+              "36": 29,
+              "46": 26,
+              "48": 17,
+              "49": 25,
+              "50": 1,
+              "51": 1,
+              "61": 26,
+              "68": 2,
+              "69": 13,
+              "72": 3,
+              "73": 1,
+              "74": 8,
+              "77": 5,
+              "79": 15,
+              "81": 13,
+              "82": 2,
+              "83": 2,
+              "84": 19,
+              "88": 1,
+              "89": 4,
+              "92": 5
+            },
+            "native_count_compatible": true
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World43/EncTerrain43.map",
+          "sha256": "d62f050c427a77c87e59b1f528b697682c1b9d27f000de9f942def94892244cb",
+          "layout": {
+            "base_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "overlay_indices": [
+              0,
+              1,
+              2,
+              4,
+              5,
+              6,
+              7,
+              8,
+              10,
+              255
+            ],
+            "samples": 65536,
+            "tile_mapping_verified": false
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World43/EncTerrain43.att",
+          "sha256": "318998417c25b6a261d83949dfbd9d1d1b8874d406fb6f9f1c2cec4b22905e56",
+          "layout": {
+            "samples": 65536,
+            "bits": 16
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World43/TerrainHeight.OZB",
+          "sha256": "2527c3e125526b5dbc0852eb54692e424d0ba40c1aa12e324f40fe130fd4ab4b",
+          "status": "schema_error",
+          "error": "height differs from native schema: header=40, width=256, height=256, planes=1, bits=24, compression=0"
+        }
+      ]
+    },
+    {
+      "world": 47,
+      "native_world_supported": false,
+      "files": [
+        {
+          "path": "World47/EncTerrain47.obj",
+          "sha256": "800a82cd6723ee4d1dbc0b78d3ecdba77b4c9f1179e88b607da94813e290bf24",
+          "layout": {
+            "declared": 1964,
+            "records": 1964,
+            "active": 1964,
+            "declared_delta": 0,
+            "types": {
+              "0": 104,
+              "1": 60,
+              "2": 65,
+              "3": 90,
+              "4": 28,
+              "5": 16,
+              "8": 21,
+              "9": 1,
+              "10": 4,
+              "11": 9,
+              "12": 4,
+              "13": 3,
+              "14": 10,
+              "15": 13,
+              "16": 28,
+              "17": 10,
+              "18": 8,
+              "19": 11,
+              "21": 1,
+              "22": 6,
+              "23": 2,
+              "24": 5,
+              "25": 14,
+              "26": 14,
+              "27": 32,
+              "28": 15,
+              "29": 48,
+              "30": 28,
+              "31": 35,
+              "32": 61,
+              "33": 39,
+              "34": 20,
+              "35": 99,
+              "36": 7,
+              "37": 37,
+              "38": 31,
+              "39": 3,
+              "40": 2,
+              "41": 12,
+              "42": 34,
+              "43": 6,
+              "44": 3,
+              "45": 1,
+              "46": 1,
+              "47": 3,
+              "48": 12,
+              "49": 7,
+              "50": 3,
+              "51": 4,
+              "52": 49,
+              "53": 6,
+              "54": 8,
+              "56": 81,
+              "57": 95,
+              "58": 78,
+              "59": 57,
+              "60": 1,
+              "61": 12,
+              "62": 8,
+              "63": 69,
+              "64": 24,
+              "65": 11,
+              "66": 30,
+              "67": 13,
+              "68": 15,
+              "69": 24,
+              "70": 46,
+              "71": 23,
+              "72": 65,
+              "73": 5,
+              "74": 37,
+              "75": 21,
+              "76": 12,
+              "77": 20,
+              "78": 46,
+              "79": 11,
+              "80": 24,
+              "81": 3
+            },
+            "native_count_compatible": true
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World47/EncTerrain47.map",
+          "sha256": "69be9dbe7815f78f79732da322a9bc4999ad4a9a6f69c928fbbab6728b34ceaa",
+          "layout": {
+            "base_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              11,
+              12,
+              13
+            ],
+            "overlay_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              255
+            ],
+            "samples": 65536,
+            "tile_mapping_verified": false
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World47/EncTerrain47.att",
+          "sha256": "28009fa4ef0ff7004012740dc10901141c8332f4e907140c1a8065aa99e25a2e",
+          "layout": {
+            "samples": 65536,
+            "bits": 16
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World47/TerrainHeight.OZB",
+          "sha256": "f9f521b54c71637095ae0053c3bbd214d43f489e47d754a4b76e79d32bad1191",
+          "layout": {
+            "samples": 65536,
+            "bmp_offset": 1082,
+            "native_offset": 1084,
+            "native_tail_padding": 0,
+            "visual_alignment_verified": false
+          },
+          "status": "schema_parsed"
+        }
+      ]
+    },
+    {
+      "world": 5,
+      "native_world_supported": false,
+      "files": [
+        {
+          "path": "World5/EncTerrain5.obj",
+          "sha256": "0b449fd52edaa21e2df98888a98930da3e94d72802530f1edf2f8a84c033ce6e",
+          "layout": {
+            "declared": 5380,
+            "records": 5380,
+            "active": 5380,
+            "declared_delta": 0,
+            "types": {
+              "1": 872,
+              "3": 211,
+              "4": 399,
+              "5": 357,
+              "6": 351,
+              "7": 65,
+              "8": 172,
+              "9": 200,
+              "10": 14,
+              "11": 8,
+              "12": 11,
+              "13": 25,
+              "14": 10,
+              "15": 7,
+              "16": 418,
+              "17": 51,
+              "18": 68,
+              "19": 14,
+              "20": 6,
+              "21": 86,
+              "22": 123,
+              "23": 163,
+              "24": 95,
+              "25": 148,
+              "26": 15,
+              "27": 142,
+              "28": 15,
+              "29": 25,
+              "30": 18,
+              "31": 21,
+              "32": 14,
+              "33": 32,
+              "34": 57,
+              "35": 13,
+              "36": 20,
+              "37": 21,
+              "38": 777,
+              "39": 335,
+              "40": 1
+            },
+            "native_count_compatible": true
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World5/EncTerrain5.map",
+          "sha256": "d930ebac774a1a8227176acd05de575bbcf4153974c1188d8e961d7ff8ae6204",
+          "layout": {
+            "base_indices": [
+              0,
+              1,
+              2,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            "overlay_indices": [
+              0,
+              1,
+              4,
+              6,
+              8,
+              9,
+              10,
+              255
+            ],
+            "samples": 65536,
+            "tile_mapping_verified": false
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World5/EncTerrain5.att",
+          "sha256": "9e1befcc1415adfe7cc633685709ef1c263fb7ab6b790000b2750b1d9c18d6ba",
+          "layout": {
+            "samples": 65536,
+            "bits": 8
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World5/TerrainHeight.OZB",
+          "sha256": "876792578ff3663403c0b53d5e850beec7adc33d589207cbb7ffebfc9756c709",
+          "layout": {
+            "samples": 65536,
+            "bmp_offset": 1082,
+            "native_offset": 1084,
+            "native_tail_padding": 0,
+            "visual_alignment_verified": false
+          },
+          "status": "schema_parsed"
+        }
+      ]
+    },
+    {
+      "world": 52,
+      "native_world_supported": true,
+      "files": [
+        {
+          "path": "World52/EncTerrain52.obj",
+          "sha256": "efef5bb679a64359ed954b06ff1626353666213128c0f4fb59c741a7abfeeaf2",
+          "layout": {
+            "declared": 5136,
+            "records": 5136,
+            "active": 5136,
+            "declared_delta": 0,
+            "types": {
+              "0": 27,
+              "1": 37,
+              "2": 18,
+              "3": 26,
+              "4": 17,
+              "5": 3,
+              "6": 11,
+              "7": 165,
+              "8": 21,
+              "9": 488,
+              "10": 281,
+              "11": 84,
+              "12": 487,
+              "13": 201,
+              "14": 10,
+              "15": 39,
+              "16": 54,
+              "17": 15,
+              "18": 8,
+              "19": 3,
+              "20": 80,
+              "22": 27,
+              "23": 6,
+              "24": 19,
+              "25": 41,
+              "26": 10,
+              "27": 14,
+              "28": 19,
+              "29": 10,
+              "30": 38,
+              "31": 8,
+              "32": 12,
+              "33": 5,
+              "34": 22,
+              "35": 2,
+              "36": 10,
+              "37": 5,
+              "38": 44,
+              "39": 28,
+              "40": 24,
+              "41": 10,
+              "42": 4,
+              "43": 60,
+              "44": 8,
+              "45": 20,
+              "47": 87,
+              "48": 3,
+              "49": 6,
+              "50": 4,
+              "51": 8,
+              "52": 99,
+              "53": 81,
+              "54": 37,
+              "55": 14,
+              "56": 4,
+              "57": 29,
+              "58": 141,
+              "59": 73,
+              "60": 162,
+              "61": 23,
+              "62": 13,
+              "63": 6,
+              "66": 27,
+              "67": 65,
+              "68": 18,
+              "69": 7,
+              "70": 48,
+              "71": 8,
+              "72": 17,
+              "73": 2,
+              "74": 7,
+              "75": 17,
+              "76": 17,
+              "77": 5,
+              "78": 1,
+              "79": 38,
+              "80": 10,
+              "81": 15,
+              "82": 38,
+              "83": 49,
+              "84": 4,
+              "85": 2,
+              "86": 9,
+              "87": 4,
+              "88": 4,
+              "89": 16,
+              "90": 6,
+              "91": 21,
+              "92": 24,
+              "93": 9,
+              "94": 15,
+              "95": 18,
+              "96": 2,
+              "97": 2,
+              "98": 10,
+              "99": 13,
+              "100": 7,
+              "101": 6,
+              "102": 3,
+              "103": 19,
+              "104": 1,
+              "105": 4,
+              "106": 32,
+              "107": 41,
+              "108": 1,
+              "109": 8,
+              "110": 1,
+              "111": 14,
+              "112": 2,
+              "113": 1,
+              "114": 1,
+              "115": 4,
+              "116": 46,
+              "117": 5,
+              "118": 8,
+              "119": 4,
+              "120": 14,
+              "121": 26,
+              "122": 12,
+              "123": 10,
+              "124": 269,
+              "125": 26,
+              "126": 16,
+              "128": 50,
+              "129": 107,
+              "130": 226,
+              "131": 83,
+              "132": 228,
+              "148": 1,
+              "165": 1
+            },
+            "native_count_compatible": true
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World52/EncTerrain52.map",
+          "sha256": "2eab14dfaf2878efe2a14369ba9883fa520b8b8cf53e02b919c84adb7e440c70",
+          "layout": {
+            "base_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ],
+            "overlay_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              13,
+              255
+            ],
+            "samples": 65536,
+            "tile_mapping_verified": false
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World52/EncTerrain52.att",
+          "sha256": "9019dcb895aa0dd2b96f1fd060ac6d4ff1825daa502cd52d9091264aee191c68",
+          "layout": {
+            "samples": 65536,
+            "bits": 16
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World52/TerrainHeight.OZB",
+          "sha256": "cea5a5f4d6171d2fefaa8796f3dde1d92d011857d328330ff767bfcd95c499c5",
+          "layout": {
+            "samples": 65536,
+            "bmp_offset": 1082,
+            "native_offset": 1084,
+            "native_tail_padding": 0,
+            "visual_alignment_verified": false
+          },
+          "status": "schema_parsed"
+        }
+      ]
+    },
+    {
+      "world": 55,
+      "native_world_supported": false,
+      "files": [
+        {
+          "path": "World55/EncTerrain55.obj",
+          "sha256": "1fe92b8ebac826276a0972bac68eda3dcb1bf8a135d1e93d5e2bdab756cd99bd",
+          "layout": {
+            "declared": 194,
+            "records": 194,
+            "active": 194,
+            "declared_delta": 0,
+            "types": {
+              "0": 1,
+              "3": 1,
+              "4": 7,
+              "5": 4,
+              "16": 1,
+              "23": 2,
+              "24": 26,
+              "25": 3,
+              "26": 81,
+              "27": 5,
+              "28": 2,
+              "30": 9,
+              "31": 1,
+              "34": 5,
+              "35": 1,
+              "37": 2,
+              "38": 1,
+              "39": 1,
+              "42": 15,
+              "43": 3,
+              "44": 1,
+              "45": 2,
+              "46": 1,
+              "47": 1,
+              "48": 2,
+              "56": 3,
+              "57": 2,
+              "58": 6,
+              "59": 1,
+              "60": 3,
+              "67": 1
+            },
+            "native_count_compatible": true
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World55/EncTerrain55.map",
+          "sha256": "7c7543065bf4c008b10ecb9173c75fb1cc1f4b353032dd5b8cd92d3f65131426",
+          "layout": {
+            "base_indices": [
+              0,
+              1,
+              6,
+              7,
+              8
+            ],
+            "overlay_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              9,
+              255
+            ],
+            "samples": 65536,
+            "tile_mapping_verified": false
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World55/EncTerrain55.att",
+          "sha256": "5f0ee3549a336c6a0d7d440defc9f0f97332e388a4ab515c8cd6b3e65b0f4632",
+          "layout": {
+            "samples": 65536,
+            "bits": 8
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World55/TerrainHeight.OZB",
+          "sha256": "db46460e4417d287ceb6c04cb31a48562e0f735e1280575e2261b6305d02d3e6",
+          "status": "schema_error",
+          "error": "unsupported height wrapper"
+        }
+      ]
+    },
+    {
+      "world": 57,
+      "native_world_supported": false,
+      "files": [
+        {
+          "path": "World57/EncTerrain57.obj",
+          "sha256": "870a96023ce172969cf0c1639e8670cc2a40fee2bfc3df5e4b8d5fb016d3eed7",
+          "layout": {
+            "declared": 4176,
+            "records": 4176,
+            "active": 4176,
+            "declared_delta": 0,
+            "types": {
+              "0": 66,
+              "1": 24,
+              "2": 17,
+              "3": 36,
+              "4": 79,
+              "5": 12,
+              "6": 10,
+              "7": 17,
+              "8": 8,
+              "9": 8,
+              "10": 14,
+              "12": 43,
+              "13": 16,
+              "14": 49,
+              "15": 52,
+              "16": 331,
+              "17": 377,
+              "18": 181,
+              "19": 187,
+              "20": 97,
+              "21": 139,
+              "22": 74,
+              "23": 104,
+              "24": 201,
+              "25": 24,
+              "26": 29,
+              "27": 104,
+              "28": 26,
+              "29": 8,
+              "30": 2,
+              "31": 11,
+              "32": 3,
+              "33": 33,
+              "34": 23,
+              "35": 223,
+              "37": 133,
+              "38": 2,
+              "39": 65,
+              "40": 3,
+              "41": 5,
+              "42": 70,
+              "43": 169,
+              "44": 2,
+              "45": 17,
+              "46": 6,
+              "47": 8,
+              "48": 2,
+              "49": 1,
+              "50": 9,
+              "51": 18,
+              "52": 103,
+              "53": 73,
+              "54": 125,
+              "55": 42,
+              "56": 8,
+              "57": 18,
+              "58": 1,
+              "59": 1,
+              "60": 3,
+              "61": 9,
+              "62": 3,
+              "63": 4,
+              "64": 1,
+              "65": 14,
+              "66": 22,
+              "70": 9,
+              "71": 8,
+              "72": 59,
+              "73": 51,
+              "74": 11,
+              "75": 17,
+              "76": 28,
+              "77": 87,
+              "78": 117,
+              "79": 3,
+              "80": 1,
+              "84": 2,
+              "85": 16,
+              "86": 26,
+              "87": 23,
+              "88": 12,
+              "89": 19,
+              "90": 17,
+              "91": 23,
+              "92": 13,
+              "93": 41,
+              "94": 28
+            },
+            "native_count_compatible": true
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World57/EncTerrain57.map",
+          "sha256": "3d91213b03fbedee45d1d88666f33a27bca87c14ec972a214441aa5365b81a31",
+          "layout": {
+            "base_indices": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            "overlay_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              255
+            ],
+            "samples": 65536,
+            "tile_mapping_verified": false
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World57/EncTerrain57.att",
+          "sha256": "5bcdf31e78a559e0944e62aa391c410c7ff5ab44522f8aeb70bcf351bf6dcfc9",
+          "layout": {
+            "samples": 65536,
+            "bits": 16
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World57/TerrainHeight.OZB",
+          "sha256": "d66b6eead34b68a39daf1b03e4704b227b07940a214817b86af7b1a261693bcc",
+          "layout": {
+            "samples": 65536,
+            "bmp_offset": 1082,
+            "native_offset": 1084,
+            "native_tail_padding": 0,
+            "visual_alignment_verified": false
+          },
+          "status": "schema_parsed"
+        }
+      ]
+    },
+    {
+      "world": 58,
+      "native_world_supported": false,
+      "files": [
+        {
+          "path": "World58/EncTerrain58.obj",
+          "sha256": "21917af45d41bd10c0efc3bfe1a40ef518975573171239574277c028210dabcb",
+          "layout": {
+            "declared": 1474,
+            "records": 1474,
+            "active": 1474,
+            "declared_delta": 0,
+            "types": {
+              "0": 6,
+              "1": 6,
+              "2": 66,
+              "3": 5,
+              "4": 16,
+              "5": 58,
+              "6": 121,
+              "7": 110,
+              "8": 2,
+              "9": 10,
+              "10": 17,
+              "11": 15,
+              "12": 10,
+              "13": 10,
+              "14": 12,
+              "15": 5,
+              "16": 11,
+              "17": 2,
+              "18": 29,
+              "19": 2,
+              "20": 3,
+              "21": 8,
+              "22": 15,
+              "23": 24,
+              "24": 56,
+              "25": 77,
+              "26": 11,
+              "27": 12,
+              "28": 2,
+              "29": 14,
+              "30": 6,
+              "31": 4,
+              "32": 6,
+              "33": 2,
+              "34": 3,
+              "35": 5,
+              "36": 3,
+              "37": 15,
+              "38": 1,
+              "39": 10,
+              "40": 1,
+              "41": 1,
+              "42": 75,
+              "43": 17,
+              "44": 23,
+              "45": 13,
+              "46": 26,
+              "47": 4,
+              "48": 4,
+              "52": 21,
+              "53": 14,
+              "54": 12,
+              "55": 16,
+              "56": 120,
+              "57": 6,
+              "59": 51,
+              "60": 8,
+              "65": 1,
+              "66": 20,
+              "72": 4,
+              "73": 3,
+              "74": 111,
+              "76": 43,
+              "77": 7,
+              "78": 6,
+              "79": 1,
+              "80": 4,
+              "81": 6,
+              "82": 1,
+              "247": 65
+            },
+            "native_count_compatible": true
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World58/EncTerrain58.map",
+          "sha256": "52a574304b3f77b53e759a066bf6d26b43ac7f19a75ad687ff24d44071a84f1f",
+          "layout": {
+            "base_indices": [
+              0,
+              2,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "overlay_indices": [
+              0,
+              1,
+              2,
+              3,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              255
+            ],
+            "samples": 65536,
+            "tile_mapping_verified": false
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World58/EncTerrain58.att",
+          "sha256": "14458087577e13e3645bbe06a8204217f4f35f1a003cd52eca0850cc39f05d88",
+          "layout": {
+            "samples": 65536,
+            "bits": 16
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World58/TerrainHeight.OZB",
+          "sha256": "99692738b569bd21574a2bad1099960f49cd10dff0358f82a3d4b44669a0f3f2",
+          "layout": {
+            "samples": 65536,
+            "bmp_offset": 1082,
+            "native_offset": 1084,
+            "native_tail_padding": 0,
+            "visual_alignment_verified": false
+          },
+          "status": "schema_parsed"
+        }
+      ]
+    },
+    {
+      "world": 59,
+      "native_world_supported": false,
+      "files": [
+        {
+          "path": "World59/EncTerrain59.obj",
+          "sha256": "1ce342014a3fec8d2d8c01ea7bf047c14692061c79e23c143f3850dfdf0ca6fb",
+          "layout": {
+            "declared": 162,
+            "records": 162,
+            "active": 162,
+            "declared_delta": 0,
+            "types": {
+              "6": 1,
+              "7": 2,
+              "40": 1,
+              "46": 20,
+              "53": 10,
+              "56": 21,
+              "57": 3,
+              "59": 15,
+              "60": 7,
+              "61": 12,
+              "62": 6,
+              "63": 9,
+              "64": 6,
+              "65": 4,
+              "67": 12,
+              "68": 6,
+              "69": 4,
+              "70": 6,
+              "71": 2,
+              "75": 1,
+              "82": 1,
+              "83": 6,
+              "247": 7
+            },
+            "native_count_compatible": true
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World59/EncTerrain59.map",
+          "sha256": "5d00869a96870b8fe9f9ae2f4de76ddd6873e3998b69b4e5d525289b6f578734",
+          "layout": {
+            "base_indices": [
+              0,
+              2,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            "overlay_indices": [
+              0,
+              1,
+              2,
+              3,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              255
+            ],
+            "samples": 65536,
+            "tile_mapping_verified": false
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World59/EncTerrain59.att",
+          "sha256": "7c7e6f253a13a4fe93cb37bb7caf1b0290e2bc4a5a73a365676bb8ba6ed7df36",
+          "layout": {
+            "samples": 65536,
+            "bits": 16
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World59/TerrainHeight.OZB",
+          "sha256": "19e6594b41b66827ea24f773f7c6df66c0e66cf15d1a0dcdb2141511973d8581",
+          "layout": {
+            "samples": 65536,
+            "bmp_offset": 1082,
+            "native_offset": 1084,
+            "native_tail_padding": 0,
+            "visual_alignment_verified": false
+          },
+          "status": "schema_parsed"
+        }
+      ]
+    },
+    {
+      "world": 63,
+      "native_world_supported": false,
+      "files": [
+        {
+          "path": "World63/EncTerrain63.obj",
+          "sha256": "d710092d210370b34e707b516412ba40c5fa6c4c7eba11b88a48be00d39f1fc0",
+          "layout": {
+            "declared": 679,
+            "records": 679,
+            "active": 679,
+            "declared_delta": 0,
+            "types": {
+              "0": 14,
+              "1": 10,
+              "2": 4,
+              "3": 2,
+              "4": 2,
+              "5": 8,
+              "6": 6,
+              "7": 22,
+              "8": 13,
+              "9": 15,
+              "10": 4,
+              "11": 18,
+              "12": 17,
+              "13": 44,
+              "14": 2,
+              "15": 3,
+              "16": 19,
+              "18": 13,
+              "19": 23,
+              "21": 88,
+              "22": 81,
+              "23": 6,
+              "24": 4,
+              "25": 10,
+              "26": 42,
+              "27": 71,
+              "28": 56,
+              "29": 8,
+              "30": 4,
+              "31": 29,
+              "32": 6,
+              "33": 5,
+              "34": 7,
+              "35": 8,
+              "36": 9,
+              "37": 1,
+              "40": 1,
+              "51": 4
+            },
+            "native_count_compatible": true
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World63/EncTerrain63.map",
+          "sha256": "373f586b31cd9d99bab71c30d70708e35e6743ecfb921728538eb13f1156e461",
+          "layout": {
+            "base_indices": [
+              2,
+              5,
+              6,
+              8,
+              10,
+              11
+            ],
+            "overlay_indices": [
+              5,
+              6,
+              7,
+              8,
+              10,
+              11,
+              255
+            ],
+            "samples": 65536,
+            "tile_mapping_verified": false
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World63/EncTerrain63.att",
+          "sha256": "1b94c37bd6c7878c818c108b9ef6e99fda3ceed4d61b43f3939e31e4cb3e20e4",
+          "layout": {
+            "samples": 65536,
+            "bits": 16
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World63/TerrainHeight.OZB",
+          "sha256": "e46a29ab50bf80ae93177ea77cf0112f4a1d656fbadf63a5ab78a5423cb11083",
+          "layout": {
+            "samples": 65536,
+            "bmp_offset": 1082,
+            "native_offset": 1084,
+            "native_tail_padding": 0,
+            "visual_alignment_verified": false
+          },
+          "status": "schema_parsed"
+        }
+      ]
+    },
+    {
+      "world": 64,
+      "native_world_supported": false,
+      "files": [
+        {
+          "path": "World64/EncTerrain64.obj",
+          "sha256": "01e161fb05f86df25affd5b51bacedd8e448b97f48c41ced71db3180eff7f34d",
+          "layout": {
+            "declared": 2290,
+            "records": 2290,
+            "active": 2290,
+            "declared_delta": 0,
+            "types": {
+              "0": 10,
+              "1": 49,
+              "3": 102,
+              "5": 5,
+              "6": 50,
+              "7": 68,
+              "8": 30,
+              "9": 22,
+              "10": 9,
+              "12": 3,
+              "13": 3,
+              "14": 1,
+              "15": 9,
+              "16": 26,
+              "17": 993,
+              "18": 95,
+              "19": 79,
+              "20": 46,
+              "21": 67,
+              "22": 9,
+              "23": 1,
+              "24": 18,
+              "25": 5,
+              "26": 2,
+              "27": 4,
+              "28": 1,
+              "29": 1,
+              "31": 9,
+              "32": 15,
+              "33": 6,
+              "34": 11,
+              "35": 17,
+              "36": 29,
+              "37": 85,
+              "38": 45,
+              "39": 38,
+              "40": 4,
+              "41": 31,
+              "42": 7,
+              "43": 4,
+              "44": 16,
+              "45": 73,
+              "46": 29,
+              "47": 4,
+              "48": 7,
+              "49": 40,
+              "50": 5,
+              "52": 5,
+              "53": 16,
+              "54": 1,
+              "55": 7,
+              "56": 6,
+              "57": 4,
+              "58": 12,
+              "59": 19,
+              "60": 25,
+              "61": 3,
+              "62": 4,
+              "63": 2,
+              "65": 1,
+              "67": 1,
+              "68": 1
+            },
+            "native_count_compatible": true
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World64/EncTerrain64.map",
+          "sha256": "3764c313b705b8a55d5e13f5dd560eaaa86238fdc728b8341aa53748e7f61a58",
+          "layout": {
+            "base_indices": [
+              0,
+              1,
+              4,
+              5,
+              8,
+              9,
+              11,
+              12
+            ],
+            "overlay_indices": [
+              1,
+              2,
+              3,
+              4,
+              6,
+              7,
+              8,
+              9,
+              255
+            ],
+            "samples": 65536,
+            "tile_mapping_verified": false
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World64/EncTerrain64.att",
+          "sha256": "bcd100b71aa1cfdf09cbd374237085ab9778a3a218ce1ceef783bcc7c32413ce",
+          "layout": {
+            "samples": 65536,
+            "bits": 16
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World64/TerrainHeight.OZB",
+          "sha256": "f984931a77763d523153b87f6284edf084a5a81c0eaabdce60724368fa2a2d40",
+          "status": "schema_error",
+          "error": "height differs from native schema: header=40, width=256, height=256, planes=1, bits=24, compression=0"
+        }
+      ]
+    },
+    {
+      "world": 65,
+      "native_world_supported": false,
+      "files": [
+        {
+          "path": "World65/EncTerrain65.obj",
+          "sha256": "8f76b1fefd81ff82e0f7b8f2332e4a1ed20c716d64f8b664bb639d3b97b01899",
+          "layout": {
+            "declared": 1347,
+            "records": 1347,
+            "active": 1347,
+            "declared_delta": 0,
+            "types": {
+              "0": 26,
+              "1": 45,
+              "2": 28,
+              "3": 4,
+              "4": 21,
+              "5": 45,
+              "6": 16,
+              "7": 56,
+              "8": 45,
+              "9": 31,
+              "10": 20,
+              "11": 26,
+              "12": 18,
+              "13": 7,
+              "14": 150,
+              "15": 8,
+              "16": 42,
+              "17": 129,
+              "18": 5,
+              "19": 27,
+              "20": 12,
+              "21": 49,
+              "22": 15,
+              "23": 35,
+              "24": 98,
+              "32": 39,
+              "33": 124,
+              "34": 131,
+              "35": 34,
+              "36": 59,
+              "39": 2
+            },
+            "native_count_compatible": true
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World65/EncTerrain65.map",
+          "sha256": "6f1df2d654e6474549d72ca4e5b0d853027cebcf34ad065c623d850690c305ee",
+          "layout": {
+            "base_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            "overlay_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              255
+            ],
+            "samples": 65536,
+            "tile_mapping_verified": false
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World65/EncTerrain65.att",
+          "sha256": "0f7f7e49653e7f673fdd6a4702c4b2f328f712ca242d0422f4c70b84bf63fb1b",
+          "layout": {
+            "samples": 65536,
+            "bits": 16
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World65/TerrainHeight.OZB",
+          "sha256": "dbfd863f262ae8423fe136af1d110b505d3559dcd9a5ca6ed1f2cd47d49b7fa1",
+          "layout": {
+            "samples": 65536,
+            "bmp_offset": 1082,
+            "native_offset": 1084,
+            "native_tail_padding": 0,
+            "visual_alignment_verified": false
+          },
+          "status": "schema_parsed"
+        }
+      ]
+    },
+    {
+      "world": 66,
+      "native_world_supported": false,
+      "files": [
+        {
+          "path": "World66/EncTerrain66.obj",
+          "sha256": "435fea391f9b5ac011e0e6b8478b8119fd16266893560fa468d7c44a09cbdefe",
+          "layout": {
+            "declared": 421,
+            "records": 421,
+            "active": 421,
+            "declared_delta": 0,
+            "types": {
+              "0": 5,
+              "1": 1,
+              "2": 63,
+              "3": 15,
+              "5": 2,
+              "6": 6,
+              "7": 10,
+              "8": 6,
+              "9": 6,
+              "10": 8,
+              "19": 6,
+              "20": 18,
+              "31": 1,
+              "32": 13,
+              "33": 14,
+              "52": 2,
+              "54": 27,
+              "55": 15,
+              "56": 44,
+              "76": 3,
+              "83": 26,
+              "88": 13,
+              "89": 27,
+              "90": 4,
+              "91": 12,
+              "93": 9,
+              "94": 4,
+              "96": 1,
+              "98": 11,
+              "99": 30,
+              "100": 2,
+              "101": 14,
+              "247": 3
+            },
+            "native_count_compatible": true
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World66/EncTerrain66.map",
+          "sha256": "7c58228818b72b79836e1a2c5282a137edf1405241a04477a479ccb504e72a7c",
+          "layout": {
+            "base_indices": [
+              0,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            "overlay_indices": [
+              0,
+              1,
+              2,
+              3,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              255
+            ],
+            "samples": 65536,
+            "tile_mapping_verified": false
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World66/EncTerrain66.att",
+          "sha256": "6856d89a5de0cc7ed0ab4d7821647f06d92f4dc50d791ff7deed1772c6ca82bb",
+          "layout": {
+            "samples": 65536,
+            "bits": 16
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World66/TerrainHeight.OZB",
+          "sha256": "6b5d979e33ed512caf0cc5f09f6aa0a66827f5fe1e8372223e70489c395d1b29",
+          "layout": {
+            "samples": 65536,
+            "bmp_offset": 1082,
+            "native_offset": 1084,
+            "native_tail_padding": 0,
+            "visual_alignment_verified": false
+          },
+          "status": "schema_parsed"
+        }
+      ]
+    },
+    {
+      "world": 67,
+      "native_world_supported": false,
+      "files": [
+        {
+          "path": "World67/EncTerrain67.obj",
+          "sha256": "95e05d56c068f22cc606726da0e9f3bbd05fb4311e0042694f2850a28655d5cd",
+          "layout": {
+            "declared": 253,
+            "records": 253,
+            "active": 253,
+            "declared_delta": 0,
+            "types": {
+              "3": 40,
+              "6": 12,
+              "10": 19,
+              "16": 15,
+              "19": 7,
+              "20": 18,
+              "22": 5,
+              "31": 2,
+              "33": 13,
+              "48": 2,
+              "69": 4,
+              "71": 1,
+              "72": 79,
+              "77": 18,
+              "80": 18
+            },
+            "native_count_compatible": true
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World67/EncTerrain67.map",
+          "sha256": "da083f853c961f5d8488782e484f3593ff878ed33422fbad9f37d5b2ec089e94",
+          "layout": {
+            "base_indices": [
+              4,
+              5,
+              7
+            ],
+            "overlay_indices": [
+              1,
+              7,
+              255
+            ],
+            "samples": 65536,
+            "tile_mapping_verified": false
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World67/EncTerrain67.att",
+          "sha256": "31b9c36b2b5b42752689d5c02b2ddc28c39e312c9cd397b33bf5f47be95e94b9",
+          "layout": {
+            "samples": 65536,
+            "bits": 16
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World67/TerrainHeight.OZB",
+          "sha256": "642abb8d47be90f9f07d0d86a9c59f130693cfec4f5556ca0b4d2450c8649f24",
+          "status": "schema_error",
+          "error": "height differs from native schema: header=40, width=256, height=256, planes=1, bits=24, compression=0"
+        }
+      ]
+    },
+    {
+      "world": 68,
+      "native_world_supported": false,
+      "files": [
+        {
+          "path": "World68/EncTerrain68.obj",
+          "sha256": "2991404c82147d018ee6efe3bc17c5b4a9474d515fca6e043941cf9d3ece8953",
+          "layout": {
+            "declared": 373,
+            "records": 373,
+            "active": 373,
+            "declared_delta": 0,
+            "types": {
+              "0": 4,
+              "1": 1,
+              "2": 2,
+              "4": 6,
+              "5": 2,
+              "6": 56,
+              "7": 17,
+              "10": 2,
+              "19": 6,
+              "20": 12,
+              "22": 24,
+              "23": 2,
+              "24": 12,
+              "25": 1,
+              "27": 5,
+              "28": 3,
+              "29": 3,
+              "30": 3,
+              "31": 1,
+              "33": 12,
+              "34": 2,
+              "35": 4,
+              "38": 30,
+              "41": 27,
+              "42": 41,
+              "43": 86,
+              "45": 5,
+              "46": 2,
+              "48": 2
+            },
+            "native_count_compatible": true
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World68/EncTerrain68.map",
+          "sha256": "628ba3c495ae2fe43b5ac7a22f8b001c6e57b7c7bdfa5c35c852aa2e320f616d",
+          "layout": {
+            "base_indices": [
+              0,
+              1,
+              4,
+              5,
+              7,
+              8,
+              9,
+              10
+            ],
+            "overlay_indices": [
+              0,
+              1,
+              2,
+              4,
+              5,
+              7,
+              8,
+              9,
+              10,
+              255
+            ],
+            "samples": 65536,
+            "tile_mapping_verified": false
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World68/EncTerrain68.att",
+          "sha256": "10c497c4035bb798c8ec08b3c65e15d468aa321ff73f97b6ed3e1720df2575bf",
+          "layout": {
+            "samples": 65536,
+            "bits": 16
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World68/TerrainHeight.OZB",
+          "sha256": "a1778fd1aa405df3380f10388a4b00bd20c4f9c966d8107aac2f398c52c44d6e",
+          "layout": {
+            "samples": 65536,
+            "bmp_offset": 1082,
+            "native_offset": 1084,
+            "native_tail_padding": 0,
+            "visual_alignment_verified": false
+          },
+          "status": "schema_parsed"
+        }
+      ]
+    },
+    {
+      "world": 69,
+      "native_world_supported": false,
+      "files": [
+        {
+          "path": "World69/EncTerrain69.obj",
+          "sha256": "15e9797409aa5e1788482c91a357f981ef676b0c7fa728b5ae649c4bdea63922",
+          "layout": {
+            "declared": 433,
+            "records": 433,
+            "active": 433,
+            "declared_delta": 0,
+            "types": {
+              "1": 2,
+              "2": 15,
+              "6": 21,
+              "8": 2,
+              "12": 1,
+              "18": 3,
+              "19": 7,
+              "20": 14,
+              "26": 3,
+              "27": 1,
+              "30": 4,
+              "31": 1,
+              "33": 13,
+              "34": 2,
+              "37": 11,
+              "46": 1,
+              "48": 2,
+              "62": 18,
+              "63": 5,
+              "65": 89,
+              "67": 6,
+              "68": 13,
+              "69": 22,
+              "72": 3,
+              "74": 6,
+              "75": 9,
+              "79": 5,
+              "80": 1,
+              "95": 67,
+              "99": 8,
+              "106": 2,
+              "107": 6,
+              "117": 1,
+              "139": 1,
+              "140": 2,
+              "141": 1,
+              "142": 64,
+              "175": 1
+            },
+            "native_count_compatible": true
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World69/EncTerrain69.map",
+          "sha256": "8dfd2fe3d10445c5159ebd2973eb07e9b0e85b2d4da1d1d02a6d984f879aa194",
+          "layout": {
+            "base_indices": [
+              0,
+              1,
+              6,
+              9,
+              10,
+              13
+            ],
+            "overlay_indices": [
+              1,
+              2,
+              3,
+              6,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              255
+            ],
+            "samples": 65536,
+            "tile_mapping_verified": false
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World69/EncTerrain69.att",
+          "sha256": "765594ab9074963f32809fdb065bbc02b5c4aa1ac746b67e20d9818e1a695808",
+          "layout": {
+            "samples": 65536,
+            "bits": 16
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World69/TerrainHeight.OZB",
+          "sha256": "27b51c4d86186d45fa4a8264b9a4dd1dd40f0f2db3adac567191a3a2cfc5c028",
+          "layout": {
+            "samples": 65536,
+            "bmp_offset": 1082,
+            "native_offset": 1084,
+            "native_tail_padding": 0,
+            "visual_alignment_verified": false
+          },
+          "status": "schema_parsed"
+        }
+      ]
+    },
+    {
+      "world": 7,
+      "native_world_supported": false,
+      "files": [
+        {
+          "path": "World7/EncTerrain7.obj",
+          "sha256": "4ad2196cb6a79f3f829c2b315a659237567a3e6e6e83523ed5bc989dc64286ec",
+          "layout": {
+            "declared": 1487,
+            "records": 1487,
+            "active": 1485,
+            "declared_delta": 0,
+            "types": {
+              "0": 5,
+              "1": 3,
+              "2": 7,
+              "3": 161,
+              "4": 7,
+              "5": 2,
+              "7": 1,
+              "8": 24,
+              "9": 32,
+              "10": 325,
+              "11": 9,
+              "12": 66,
+              "13": 6,
+              "14": 15,
+              "15": 4,
+              "16": 26,
+              "17": 11,
+              "18": 16,
+              "19": 9,
+              "20": 204,
+              "21": 11,
+              "22": 11,
+              "23": 24,
+              "25": 26,
+              "26": 136,
+              "27": 21,
+              "28": 48,
+              "29": 11,
+              "30": 11,
+              "31": 45,
+              "32": 20,
+              "33": 6,
+              "34": 20,
+              "35": 55,
+              "36": 33,
+              "37": 8,
+              "38": 52,
+              "39": 7,
+              "40": 7
+            },
+            "native_count_compatible": true
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World7/EncTerrain7.map",
+          "sha256": "62bf3c22de49cc3f6bdb0786c1e20d6681ff5905a20ab4d85f80104e81ac5cd9",
+          "layout": {
+            "base_indices": [
+              0,
+              1,
+              4,
+              7,
+              8,
+              9,
+              10
+            ],
+            "overlay_indices": [
+              0,
+              1,
+              4,
+              6,
+              7,
+              8,
+              10,
+              255
+            ],
+            "samples": 65536,
+            "tile_mapping_verified": false
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World7/EncTerrain7.att",
+          "sha256": "7cfbb6aa44f2bd0b27cff423b50b837d9f2074c361cdc2edd25ecf41c2dae847",
+          "layout": {
+            "samples": 65536,
+            "bits": 8
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World7/TerrainHeight.OZB",
+          "sha256": "0f022287cbc63a84a66f1797a3ee2d84666e6f6d95dd105540ccea2fadba27b3",
+          "status": "schema_error",
+          "error": "unsupported height wrapper"
+        }
+      ]
+    },
+    {
+      "world": 70,
+      "native_world_supported": false,
+      "files": [
+        {
+          "path": "World70/EncTerrain70.obj",
+          "sha256": "6270ab2a2203efacd703cc7ba9354cc727769d439e32a8d070e2d704fbbeb963",
+          "layout": {
+            "declared": 836,
+            "records": 836,
+            "active": 836,
+            "declared_delta": 0,
+            "types": {
+              "0": 1,
+              "1": 8,
+              "6": 3,
+              "9": 2,
+              "10": 2,
+              "18": 36,
+              "19": 6,
+              "20": 12,
+              "26": 53,
+              "29": 40,
+              "31": 5,
+              "33": 3,
+              "34": 14,
+              "38": 7,
+              "39": 10,
+              "40": 16,
+              "41": 7,
+              "42": 1,
+              "43": 2,
+              "55": 11,
+              "56": 8,
+              "60": 1,
+              "61": 1,
+              "68": 2,
+              "69": 2,
+              "71": 6,
+              "74": 14,
+              "79": 66,
+              "82": 6,
+              "86": 19,
+              "91": 4,
+              "95": 3,
+              "96": 8,
+              "97": 60,
+              "98": 32,
+              "99": 34,
+              "100": 24,
+              "101": 6,
+              "102": 74,
+              "103": 18,
+              "104": 5,
+              "105": 1,
+              "106": 4,
+              "107": 4,
+              "110": 2,
+              "111": 4,
+              "113": 44,
+              "115": 4,
+              "116": 1,
+              "117": 5,
+              "118": 2,
+              "119": 1,
+              "120": 2,
+              "121": 8,
+              "122": 10,
+              "123": 18,
+              "124": 19,
+              "126": 1,
+              "127": 2,
+              "128": 24,
+              "132": 48
+            },
+            "native_count_compatible": true
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World70/EncTerrain70.map",
+          "sha256": "f612fa334ca871868d501ebaa4b27bf302e0737e09b11f920072709f35f8418a",
+          "layout": {
+            "base_indices": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              7,
+              8,
+              9,
+              10,
+              12,
+              13
+            ],
+            "overlay_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              11,
+              255
+            ],
+            "samples": 65536,
+            "tile_mapping_verified": false
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World70/EncTerrain70.att",
+          "sha256": "2afc072f70954634a5b7813ef2cdaf1b42743b2405f8968b8fc178138e89901f",
+          "layout": {
+            "samples": 65536,
+            "bits": 16
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World70/TerrainHeight.OZB",
+          "sha256": "4d6fef74abff812c307437f8fb3d3f155fefc5073298df1337acb95d4fc6002a",
+          "layout": {
+            "samples": 65536,
+            "bmp_offset": 1082,
+            "native_offset": 1084,
+            "native_tail_padding": 0,
+            "visual_alignment_verified": false
+          },
+          "status": "schema_parsed"
+        }
+      ]
+    },
+    {
+      "world": 71,
+      "native_world_supported": false,
+      "files": [
+        {
+          "path": "World71/EncTerrain71.obj",
+          "sha256": "bd0f710829988fd0028968ae14cfe2e2700eada41cd9700cbec5f583e51c2e05",
+          "layout": {
+            "declared": 729,
+            "records": 729,
+            "active": 729,
+            "declared_delta": 0,
+            "types": {
+              "1": 6,
+              "9": 2,
+              "10": 2,
+              "18": 20,
+              "19": 5,
+              "20": 14,
+              "26": 49,
+              "27": 1,
+              "28": 1,
+              "29": 31,
+              "34": 16,
+              "36": 2,
+              "38": 8,
+              "39": 11,
+              "40": 8,
+              "41": 2,
+              "42": 1,
+              "43": 4,
+              "55": 17,
+              "58": 6,
+              "59": 1,
+              "60": 3,
+              "61": 5,
+              "62": 1,
+              "64": 3,
+              "65": 5,
+              "66": 1,
+              "69": 1,
+              "71": 14,
+              "74": 10,
+              "75": 2,
+              "79": 57,
+              "80": 1,
+              "82": 6,
+              "86": 38,
+              "90": 2,
+              "91": 2,
+              "96": 9,
+              "97": 21,
+              "98": 32,
+              "99": 30,
+              "100": 31,
+              "101": 4,
+              "102": 79,
+              "103": 19,
+              "104": 2,
+              "105": 2,
+              "106": 2,
+              "107": 8,
+              "110": 2,
+              "111": 4,
+              "113": 33,
+              "115": 4,
+              "116": 1,
+              "117": 7,
+              "118": 3,
+              "119": 3,
+              "120": 1,
+              "121": 10,
+              "124": 15,
+              "127": 12,
+              "128": 18,
+              "129": 19
+            },
+            "native_count_compatible": true
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World71/EncTerrain71.map",
+          "sha256": "cc64b20bb47ff1bd58f0a8d22b9541879fdd6ae2fc141c9e56c01cb9e5c4efce",
+          "layout": {
+            "base_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12
+            ],
+            "overlay_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              255
+            ],
+            "samples": 65536,
+            "tile_mapping_verified": false
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World71/EncTerrain71.att",
+          "sha256": "9fb4de4d7fb64cb7a1dff8697788de4873ae06207808f529c29d5a2530907fbb",
+          "layout": {
+            "samples": 65536,
+            "bits": 16
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World71/TerrainHeight.OZB",
+          "sha256": "3d30df8b83271c8cbbeac724d58ba3fbcc4db09e12c73b23f4353a854c664efd",
+          "layout": {
+            "samples": 65536,
+            "bmp_offset": 1082,
+            "native_offset": 1084,
+            "native_tail_padding": 0,
+            "visual_alignment_verified": false
+          },
+          "status": "schema_parsed"
+        }
+      ]
+    },
+    {
+      "world": 72,
+      "native_world_supported": false,
+      "files": [
+        {
+          "path": "World72/EncTerrain72.obj",
+          "sha256": "5e01ac63b40ce463c00a712afbbbdbd7fb03f5c1356a75b577022272973ec251",
+          "layout": {
+            "declared": 748,
+            "records": 748,
+            "active": 748,
+            "declared_delta": 0,
+            "types": {
+              "0": 7,
+              "1": 8,
+              "2": 8,
+              "9": 2,
+              "10": 2,
+              "15": 1,
+              "18": 35,
+              "19": 8,
+              "20": 20,
+              "24": 3,
+              "26": 50,
+              "29": 28,
+              "34": 11,
+              "38": 8,
+              "39": 7,
+              "44": 6,
+              "55": 20,
+              "64": 1,
+              "71": 4,
+              "74": 14,
+              "75": 10,
+              "79": 65,
+              "80": 6,
+              "82": 6,
+              "86": 5,
+              "96": 9,
+              "97": 31,
+              "98": 33,
+              "99": 38,
+              "100": 24,
+              "101": 8,
+              "102": 72,
+              "103": 14,
+              "104": 3,
+              "105": 2,
+              "106": 2,
+              "107": 5,
+              "108": 2,
+              "110": 2,
+              "111": 8,
+              "113": 35,
+              "115": 4,
+              "116": 1,
+              "117": 4,
+              "118": 2,
+              "119": 2,
+              "120": 1,
+              "121": 8,
+              "122": 7,
+              "123": 4,
+              "124": 18,
+              "127": 4,
+              "128": 48,
+              "129": 3,
+              "130": 8,
+              "131": 3,
+              "132": 8
+            },
+            "native_count_compatible": true
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World72/EncTerrain72.map",
+          "sha256": "9d096dd7f92e90ef105177f4da3e3373821763fe7fb870782bead3cd45ad2d0b",
+          "layout": {
+            "base_indices": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12
+            ],
+            "overlay_indices": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              255
+            ],
+            "samples": 65536,
+            "tile_mapping_verified": false
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World72/EncTerrain72.att",
+          "sha256": "35a1318c58f7abd9bf996ff43ec00c5857210f36dff37f427e2e3be337a2f910",
+          "layout": {
+            "samples": 65536,
+            "bits": 16
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World72/TerrainHeight.OZB",
+          "sha256": "4abfc718b0d21cbfd0ef642c2fa3b629dcf2ba501cbb3efdd6f1d73d61409da1",
+          "layout": {
+            "samples": 65536,
+            "bmp_offset": 1082,
+            "native_offset": 1084,
+            "native_tail_padding": 0,
+            "visual_alignment_verified": false
+          },
+          "status": "schema_parsed"
+        }
+      ]
+    },
+    {
+      "world": 73,
+      "native_world_supported": false,
+      "files": [
+        {
+          "path": "World73/EncTerrain73.obj",
+          "sha256": "029b0fb6b04db41153d3f155a36cbba49620be0354e95a9d28822a7ea72179af",
+          "layout": {
+            "declared": 1670,
+            "records": 1670,
+            "active": 1670,
+            "declared_delta": 0,
+            "types": {
+              "0": 6,
+              "4": 4,
+              "6": 36,
+              "8": 4,
+              "10": 20,
+              "14": 6,
+              "15": 4,
+              "18": 30,
+              "19": 66,
+              "20": 8,
+              "23": 20,
+              "28": 1,
+              "29": 77,
+              "30": 32,
+              "31": 70,
+              "32": 19,
+              "33": 15,
+              "34": 104,
+              "36": 13,
+              "37": 20,
+              "38": 4,
+              "39": 95,
+              "41": 16,
+              "49": 8,
+              "50": 1,
+              "56": 14,
+              "59": 1,
+              "60": 1,
+              "61": 3,
+              "62": 1,
+              "64": 8,
+              "65": 3,
+              "66": 6,
+              "68": 2,
+              "75": 1,
+              "76": 29,
+              "77": 26,
+              "78": 74,
+              "79": 120,
+              "81": 38,
+              "82": 32,
+              "83": 25,
+              "85": 12,
+              "86": 18,
+              "90": 2,
+              "91": 2,
+              "92": 1,
+              "93": 4,
+              "94": 4,
+              "95": 11,
+              "96": 3,
+              "97": 1,
+              "98": 6,
+              "100": 1,
+              "102": 10,
+              "104": 4,
+              "105": 4,
+              "106": 5,
+              "110": 24,
+              "111": 2,
+              "112": 7,
+              "121": 6,
+              "128": 24,
+              "129": 24,
+              "133": 6,
+              "135": 34,
+              "136": 49,
+              "137": 29,
+              "138": 36,
+              "139": 65,
+              "141": 11,
+              "142": 6,
+              "143": 7,
+              "144": 2,
+              "145": 4,
+              "146": 39,
+              "147": 11,
+              "155": 92,
+              "156": 20,
+              "157": 6,
+              "158": 11,
+              "159": 1,
+              "160": 2,
+              "163": 1
+            },
+            "native_count_compatible": true
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World73/EncTerrain73.map",
+          "sha256": "9d6e716ef40fbf4f70176cc403742d81c3eb6260a9e749355596f5ca56e0c437",
+          "layout": {
+            "base_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12
+            ],
+            "overlay_indices": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              255
+            ],
+            "samples": 65536,
+            "tile_mapping_verified": false
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World73/EncTerrain73.att",
+          "sha256": "92f26ff1daeb7fa92ace42372ca850014394132b53d91f74f2135652146d41e9",
+          "layout": {
+            "samples": 65536,
+            "bits": 16
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World73/TerrainHeight.OZB",
+          "sha256": "443e6116f6bd8c7968957d0646cff6f9d34ebcba776fb6c302cf3c26f975b578",
+          "layout": {
+            "samples": 65536,
+            "bmp_offset": 1082,
+            "native_offset": 1084,
+            "native_tail_padding": 0,
+            "visual_alignment_verified": false
+          },
+          "status": "schema_parsed"
+        }
+      ]
+    },
+    {
+      "world": 74,
+      "native_world_supported": true,
+      "files": [
+        {
+          "path": "World74/EncTerrain74.obj",
+          "sha256": "00098510ecf1d26b5c5a525989cf073db817dd1f2260cce61a00722fc4a231a0",
+          "layout": {
+            "declared": 375,
+            "records": 375,
+            "active": 375,
+            "declared_delta": 0,
+            "types": {
+              "1": 2,
+              "8": 2,
+              "10": 1,
+              "20": 10,
+              "25": 2,
+              "37": 10,
+              "38": 8,
+              "39": 1,
+              "48": 2,
+              "56": 8,
+              "65": 2,
+              "66": 2,
+              "70": 3,
+              "75": 1,
+              "77": 17,
+              "79": 53,
+              "82": 1,
+              "86": 2,
+              "93": 4,
+              "94": 4,
+              "95": 1,
+              "96": 2,
+              "97": 1,
+              "100": 1,
+              "102": 1,
+              "110": 3,
+              "113": 8,
+              "122": 1,
+              "123": 1,
+              "124": 1,
+              "126": 1,
+              "127": 3,
+              "128": 13,
+              "129": 15,
+              "133": 4,
+              "134": 7,
+              "135": 23,
+              "136": 24,
+              "137": 17,
+              "138": 17,
+              "139": 8,
+              "145": 7,
+              "146": 21,
+              "147": 10,
+              "155": 33,
+              "156": 5,
+              "157": 6,
+              "159": 1,
+              "160": 2,
+              "162": 1,
+              "163": 1,
+              "164": 1
+            },
+            "native_count_compatible": true
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World74/EncTerrain74.map",
+          "sha256": "59f734d942957cea1d8a8547754a184a3630e57991348046e1accddf9f37f1bb",
+          "layout": {
+            "base_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12
+            ],
+            "overlay_indices": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              255
+            ],
+            "samples": 65536,
+            "tile_mapping_verified": false
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World74/EncTerrain74.att",
+          "sha256": "6203089c1db2078c281bf8feab15528d76551f803f7437e929d7efeda5d8d853",
+          "layout": {
+            "samples": 65536,
+            "bits": 16
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World74/TerrainHeight.OZB",
+          "sha256": "443e6116f6bd8c7968957d0646cff6f9d34ebcba776fb6c302cf3c26f975b578",
+          "layout": {
+            "samples": 65536,
+            "bmp_offset": 1082,
+            "native_offset": 1084,
+            "native_tail_padding": 0,
+            "visual_alignment_verified": false
+          },
+          "status": "schema_parsed"
+        }
+      ]
+    },
+    {
+      "world": 75,
+      "native_world_supported": true,
+      "files": [
+        {
+          "path": "World75/EncTerrain75.obj",
+          "sha256": "02269c8177c521d8a593bfd2af21f7adf767d17ccdd82080c48044f73efc1982",
+          "layout": {
+            "declared": 112,
+            "records": 112,
+            "active": 112,
+            "declared_delta": 0,
+            "types": {
+              "5": 20,
+              "11": 1,
+              "14": 6,
+              "29": 2,
+              "34": 1,
+              "38": 4,
+              "49": 1,
+              "64": 2,
+              "79": 5,
+              "96": 2,
+              "97": 4,
+              "98": 6,
+              "102": 12,
+              "103": 4,
+              "106": 2,
+              "110": 3,
+              "111": 4,
+              "121": 20,
+              "124": 2,
+              "126": 4,
+              "129": 4,
+              "132": 3
+            },
+            "native_count_compatible": true
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World75/EncTerrain75.map",
+          "sha256": "8eeeb94cdd5fd6d14982872f1a6ee7767767dd62b55a551e2e878996045682f5",
+          "layout": {
+            "base_indices": [
+              2,
+              5,
+              7,
+              8
+            ],
+            "overlay_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              9,
+              10,
+              11,
+              255
+            ],
+            "samples": 65536,
+            "tile_mapping_verified": false
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World75/EncTerrain75.att",
+          "sha256": "20958e3a8c2e76041b1a47e2eebbfc1cc8623767573e237e6de09cea1eac2f3b",
+          "layout": {
+            "samples": 65536,
+            "bits": 16
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World75/TerrainHeight.OZB",
+          "sha256": "4a00ce65447144bc55912772ec81e2f41630b09cf7950baa5a72fed8e0954de8",
+          "layout": {
+            "samples": 65536,
+            "bmp_offset": 1082,
+            "native_offset": 1084,
+            "native_tail_padding": 0,
+            "visual_alignment_verified": false
+          },
+          "status": "schema_parsed"
+        }
+      ]
+    },
+    {
+      "world": 78,
+      "native_world_supported": false,
+      "files": [
+        {
+          "path": "World78/EncTerrain78.obj",
+          "sha256": "ae5fa4b611b22c92c8cc9d90f4f04a69b9bb63a0365fb0dfca3e79aa3203beb9",
+          "layout": {
+            "declared": 628,
+            "records": 628,
+            "active": 628,
+            "declared_delta": 0,
+            "types": {
+              "0": 1,
+              "1": 5,
+              "5": 35,
+              "8": 1,
+              "9": 125,
+              "10": 45,
+              "11": 10,
+              "12": 123,
+              "13": 8,
+              "14": 3,
+              "16": 31,
+              "25": 1,
+              "26": 6,
+              "27": 2,
+              "28": 1,
+              "29": 1,
+              "30": 2,
+              "31": 6,
+              "32": 5,
+              "33": 2,
+              "35": 4,
+              "36": 7,
+              "37": 4,
+              "38": 7,
+              "45": 2,
+              "47": 3,
+              "48": 1,
+              "49": 2,
+              "52": 34,
+              "53": 11,
+              "54": 11,
+              "55": 5,
+              "57": 1,
+              "59": 2,
+              "60": 23,
+              "61": 4,
+              "62": 8,
+              "67": 2,
+              "68": 1,
+              "69": 1,
+              "70": 7,
+              "71": 1,
+              "72": 1,
+              "73": 1,
+              "74": 1,
+              "75": 1,
+              "76": 1,
+              "77": 1,
+              "90": 1,
+              "91": 3,
+              "92": 7,
+              "121": 3,
+              "125": 18,
+              "130": 20,
+              "133": 1,
+              "134": 1,
+              "136": 1,
+              "138": 1,
+              "139": 2,
+              "142": 1,
+              "144": 1,
+              "146": 1,
+              "147": 2,
+              "149": 1,
+              "150": 1,
+              "151": 1,
+              "153": 1,
+              "155": 1
+            },
+            "native_count_compatible": true
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World78/EncTerrain78.map",
+          "sha256": "f2fd53dc5701f835b16691e2a5364e86a937c2922d363056efaa0bdba1bf54f1",
+          "layout": {
+            "base_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              9,
+              11,
+              12,
+              13
+            ],
+            "overlay_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              13,
+              255
+            ],
+            "samples": 65536,
+            "tile_mapping_verified": false
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World78/EncTerrain78.att",
+          "sha256": "7d7698c66c61ea9d8fbe808782c506526cf21331849b1fdae4fe48fdc4c8351d",
+          "layout": {
+            "samples": 65536,
+            "bits": 16
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World78/TerrainHeight.OZB",
+          "sha256": "d5194839854e6fcab1e3369c3e501a6b91379b29d4e5740854a01db3594bb2e3",
+          "layout": {
+            "samples": 65536,
+            "bmp_offset": 1082,
+            "native_offset": 1084,
+            "native_tail_padding": 0,
+            "visual_alignment_verified": false
+          },
+          "status": "schema_parsed"
+        }
+      ]
+    },
+    {
+      "world": 79,
+      "native_world_supported": false,
+      "files": [
+        {
+          "path": "World79/EncTerrain79.obj",
+          "sha256": "6d51650782b46cca001245fe8bd97c587accb88d7bece92921ea8c5053c112c8",
+          "layout": {
+            "declared": 96,
+            "records": 96,
+            "active": 96,
+            "declared_delta": 0,
+            "types": {
+              "1": 9,
+              "2": 4,
+              "4": 1,
+              "20": 2,
+              "21": 1,
+              "40": 6,
+              "53": 12,
+              "54": 5,
+              "57": 13,
+              "58": 6,
+              "59": 2,
+              "60": 3,
+              "62": 1,
+              "78": 4,
+              "79": 2,
+              "87": 2,
+              "88": 9,
+              "92": 3,
+              "99": 5,
+              "126": 1,
+              "127": 4,
+              "129": 1
+            },
+            "native_count_compatible": true
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World79/EncTerrain79.map",
+          "sha256": "9d9b56ba8748b8a16e83262651c446ddfe4a043cbb90290bf5aca78afdd09d4e",
+          "layout": {
+            "base_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              9,
+              11,
+              12,
+              13
+            ],
+            "overlay_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              13,
+              255
+            ],
+            "samples": 65536,
+            "tile_mapping_verified": false
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World79/EncTerrain79.att",
+          "sha256": "620dc48d067c67f723f1a7324579657e2a3b67e5ca6dbdd9327544c258052e3c",
+          "layout": {
+            "samples": 65536,
+            "bits": 16
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World79/TerrainHeight.OZB",
+          "sha256": "90068d06d2d833af0a7da66da76b9b9f89e3415775867c7494e68015da0eda0b",
+          "layout": {
+            "samples": 65536,
+            "bmp_offset": 1082,
+            "native_offset": 1084,
+            "native_tail_padding": 0,
+            "visual_alignment_verified": false
+          },
+          "status": "schema_parsed"
+        }
+      ]
+    },
+    {
+      "world": 8,
+      "native_world_supported": false,
+      "files": [
+        {
+          "path": "World8/EncTerrain8.obj",
+          "sha256": "96092eccf43f04c260b6810896454a339032d780444fb3455b19de5969186087",
+          "status": "schema_error",
+          "error": "scale outside native schema at record 2268: -0.17999958992004395"
+        },
+        {
+          "path": "World8/EncTerrain8.map",
+          "sha256": "0afe22ce660953e4845839c0c98b7785137356a88e8ad4049ecc0014fe7b67aa",
+          "layout": {
+            "base_indices": [
+              0,
+              4,
+              9,
+              10
+            ],
+            "overlay_indices": [
+              0,
+              2,
+              4,
+              5,
+              7,
+              8,
+              9,
+              10,
+              255
+            ],
+            "samples": 65536,
+            "tile_mapping_verified": false
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World8/EncTerrain8.att",
+          "sha256": "4620e5fe9d059931adf3aeb4a056f2f31c8fa2b11b06de323da7046689c8ef50",
+          "layout": {
+            "samples": 65536,
+            "bits": 16
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World8/TerrainHeight.OZB",
+          "sha256": "e94ca1c5d5372d7a90bb8ec8c5683a21783667dcf3ae18baf65034f14fe080f9",
+          "layout": {
+            "samples": 65536,
+            "bmp_offset": 1082,
+            "native_offset": 1084,
+            "native_tail_padding": 0,
+            "visual_alignment_verified": false
+          },
+          "status": "schema_parsed"
+        }
+      ]
+    },
+    {
+      "world": 80,
+      "native_world_supported": false,
+      "files": [
+        {
+          "path": "World80/EncTerrain80.obj",
+          "sha256": "be0b2ba740e4df5510ed0564083e71d6519945cc78d8e74325e1098dcd0bf597",
+          "layout": {
+            "declared": 517,
+            "records": 517,
+            "active": 517,
+            "declared_delta": 0,
+            "types": {
+              "1": 1,
+              "2": 13,
+              "4": 26,
+              "5": 2,
+              "6": 16,
+              "8": 1,
+              "9": 5,
+              "10": 19,
+              "11": 1,
+              "12": 4,
+              "13": 2,
+              "14": 2,
+              "15": 7,
+              "16": 17,
+              "17": 40,
+              "18": 3,
+              "19": 4,
+              "20": 3,
+              "21": 2,
+              "22": 21,
+              "23": 13,
+              "24": 1,
+              "25": 1,
+              "26": 2,
+              "27": 29,
+              "28": 47,
+              "29": 8,
+              "30": 4,
+              "31": 8,
+              "32": 7,
+              "33": 16,
+              "34": 36,
+              "35": 8,
+              "36": 4,
+              "37": 1,
+              "38": 2,
+              "39": 8,
+              "40": 13,
+              "41": 34,
+              "42": 11,
+              "43": 4,
+              "46": 24,
+              "47": 13,
+              "48": 4,
+              "51": 4,
+              "54": 5,
+              "55": 5,
+              "56": 4,
+              "57": 12
+            },
+            "native_count_compatible": true
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World80/EncTerrain80.map",
+          "sha256": "88315c0c3a0e5c3a0c3d9277b259419c54bfd5b8e6b3f256178545b5dc816474",
+          "layout": {
+            "base_indices": [
+              0,
+              3,
+              4,
+              5,
+              11
+            ],
+            "overlay_indices": [
+              0,
+              2,
+              3,
+              4,
+              7,
+              9,
+              255
+            ],
+            "samples": 65536,
+            "tile_mapping_verified": false
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World80/EncTerrain80.att",
+          "sha256": "1f0256238b573d490317253a815aaa823629b37e3aa51801e0fdc80532d7544f",
+          "layout": {
+            "samples": 65536,
+            "bits": 16
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World80/TerrainHeight.OZB",
+          "sha256": "a96f4ac84b6373e345d25651ff2888abfe470b9f15f0feaa69bca9815103ef9d",
+          "layout": {
+            "samples": 65536,
+            "bmp_offset": 1082,
+            "native_offset": 1084,
+            "native_tail_padding": 0,
+            "visual_alignment_verified": false
+          },
+          "status": "schema_parsed"
+        }
+      ]
+    },
+    {
+      "world": 81,
+      "native_world_supported": false,
+      "files": [
+        {
+          "path": "World81/EncTerrain81.obj",
+          "sha256": "29c87e4280a62e1efa2b3bd400f75d7bf793d92d23ed76eddd5353452a91998d",
+          "layout": {
+            "declared": 2086,
+            "records": 2086,
+            "active": 2086,
+            "declared_delta": 0,
+            "types": {
+              "0": 30,
+              "1": 1,
+              "2": 12,
+              "3": 8,
+              "4": 40,
+              "5": 88,
+              "6": 26,
+              "7": 6,
+              "10": 2,
+              "11": 16,
+              "12": 18,
+              "13": 5,
+              "14": 9,
+              "15": 8,
+              "16": 73,
+              "17": 76,
+              "18": 138,
+              "19": 89,
+              "20": 82,
+              "21": 28,
+              "22": 42,
+              "23": 1,
+              "24": 47,
+              "26": 7,
+              "27": 6,
+              "28": 5,
+              "29": 14,
+              "30": 9,
+              "31": 2,
+              "32": 6,
+              "33": 5,
+              "34": 8,
+              "35": 13,
+              "36": 3,
+              "37": 10,
+              "38": 3,
+              "39": 10,
+              "40": 12,
+              "41": 75,
+              "42": 23,
+              "43": 40,
+              "44": 6,
+              "45": 10,
+              "46": 9,
+              "47": 12,
+              "48": 2,
+              "49": 8,
+              "50": 8,
+              "51": 11,
+              "52": 2,
+              "53": 4,
+              "54": 24,
+              "55": 1,
+              "56": 8,
+              "57": 10,
+              "58": 4,
+              "59": 71,
+              "60": 16,
+              "61": 24,
+              "62": 109,
+              "63": 3,
+              "64": 7,
+              "65": 5,
+              "66": 6,
+              "68": 5,
+              "69": 8,
+              "70": 54,
+              "71": 8,
+              "72": 85,
+              "73": 27,
+              "74": 4,
+              "75": 1,
+              "76": 13,
+              "77": 9,
+              "78": 6,
+              "79": 21,
+              "80": 7,
+              "81": 31,
+              "82": 39,
+              "83": 6,
+              "84": 2,
+              "85": 6,
+              "88": 2,
+              "89": 7,
+              "94": 10,
+              "95": 3,
+              "96": 1,
+              "97": 3,
+              "98": 1,
+              "101": 2,
+              "102": 5,
+              "107": 17,
+              "108": 1,
+              "109": 2,
+              "110": 2,
+              "111": 2,
+              "112": 1,
+              "113": 59,
+              "114": 15,
+              "116": 65,
+              "117": 88,
+              "118": 6,
+              "119": 6
+            },
+            "native_count_compatible": true
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World81/EncTerrain81.map",
+          "sha256": "12f7c00b2b51a10131857f083abd2b61f5818b746484b03a9f0e6d2d883f37ba",
+          "layout": {
+            "base_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12
+            ],
+            "overlay_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              9,
+              10,
+              11,
+              255
+            ],
+            "samples": 65536,
+            "tile_mapping_verified": false
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World81/EncTerrain81.att",
+          "sha256": "9fe4077832469f024fd91bda954ec55a8cb8f0aa85a1b0669c6e56b7be600a89",
+          "layout": {
+            "samples": 65536,
+            "bits": 16
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World81/TerrainHeight.OZB",
+          "sha256": "2c674bfb247eba77e344c9c93e09601af91c31581e1c291fae1bd3ac56c6644d",
+          "layout": {
+            "samples": 65536,
+            "bmp_offset": 1082,
+            "native_offset": 1084,
+            "native_tail_padding": 0,
+            "visual_alignment_verified": false
+          },
+          "status": "schema_parsed"
+        }
+      ]
+    },
+    {
+      "world": 82,
+      "native_world_supported": false,
+      "files": [
+        {
+          "path": "World82/EncTerrain82.obj",
+          "sha256": "ad16506723d4630cbbc2b65bff5ca83b5906cd6021298fc27a87a27f0745c5c2",
+          "layout": {
+            "declared": 1720,
+            "records": 1720,
+            "active": 1720,
+            "declared_delta": 0,
+            "types": {
+              "0": 19,
+              "3": 9,
+              "4": 4,
+              "5": 59,
+              "6": 6,
+              "7": 8,
+              "12": 78,
+              "13": 31,
+              "14": 67,
+              "15": 48,
+              "16": 18,
+              "17": 46,
+              "18": 117,
+              "19": 14,
+              "20": 22,
+              "21": 12,
+              "22": 16,
+              "25": 5,
+              "26": 1,
+              "29": 4,
+              "30": 6,
+              "31": 2,
+              "32": 3,
+              "37": 13,
+              "38": 6,
+              "39": 12,
+              "40": 11,
+              "41": 94,
+              "43": 26,
+              "44": 20,
+              "45": 25,
+              "46": 13,
+              "48": 5,
+              "49": 12,
+              "50": 14,
+              "51": 9,
+              "53": 47,
+              "54": 22,
+              "55": 7,
+              "56": 87,
+              "57": 5,
+              "62": 64,
+              "72": 113,
+              "74": 5,
+              "75": 17,
+              "76": 23,
+              "77": 3,
+              "78": 1,
+              "79": 16,
+              "80": 10,
+              "81": 7,
+              "83": 24,
+              "84": 38,
+              "85": 23,
+              "86": 5,
+              "87": 1,
+              "88": 8,
+              "89": 12,
+              "90": 14,
+              "91": 20,
+              "92": 3,
+              "93": 13,
+              "94": 30,
+              "95": 17,
+              "96": 10,
+              "97": 10,
+              "98": 19,
+              "99": 1,
+              "100": 9,
+              "101": 6,
+              "102": 2,
+              "103": 10,
+              "104": 3,
+              "105": 2,
+              "106": 2,
+              "107": 3,
+              "110": 1,
+              "113": 50,
+              "114": 20,
+              "115": 26,
+              "116": 21,
+              "117": 26,
+              "118": 9
+            },
+            "native_count_compatible": true
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World82/EncTerrain82.map",
+          "sha256": "1a43369123cb57fab655365433bd1d8ae6385bd7c87b8ba97b55e62e0b445b15",
+          "layout": {
+            "base_indices": [
+              0,
+              1,
+              3,
+              4,
+              5,
+              6,
+              7,
+              9,
+              10,
+              11,
+              12,
+              13
+            ],
+            "overlay_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              13,
+              255
+            ],
+            "samples": 65536,
+            "tile_mapping_verified": false
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World82/EncTerrain82.att",
+          "sha256": "530212155413adff1123daf583be92e4d9d84c7e09fa0f25a11ba608941cb0de",
+          "layout": {
+            "samples": 65536,
+            "bits": 16
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World82/TerrainHeight.OZB",
+          "sha256": "993d2315ed37bb3a71c89d4854f3ca9ba18a2edb4aa7f794f3fa8d31e47aba34",
+          "layout": {
+            "samples": 65536,
+            "bmp_offset": 1082,
+            "native_offset": 1084,
+            "native_tail_padding": 0,
+            "visual_alignment_verified": false
+          },
+          "status": "schema_parsed"
+        }
+      ]
+    },
+    {
+      "world": 9,
+      "native_world_supported": false,
+      "files": [
+        {
+          "path": "World9/EncTerrain9.obj",
+          "sha256": "78e759d4ae12c00a7e79c6918d21dcefb1bccad9ec99e6a22a76d76a34d9bda1",
+          "status": "schema_error",
+          "error": "scale outside native schema at record 1702: -0.07999961078166962"
+        },
+        {
+          "path": "World9/EncTerrain9.map",
+          "sha256": "dc12158d7ccdd46621848686c2e0f5788c1cea17b8f19c97368d8fedfebb89ad",
+          "layout": {
+            "base_indices": [
+              0,
+              1,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            "overlay_indices": [
+              0,
+              1,
+              3,
+              4,
+              6,
+              7,
+              8,
+              9,
+              10,
+              255
+            ],
+            "samples": 65536,
+            "tile_mapping_verified": false
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World9/EncTerrain9.att",
+          "sha256": "b6416764796e77bc69ac3a21db527c6654c7ce008eec0ca799b827be433d843c",
+          "layout": {
+            "samples": 65536,
+            "bits": 16
+          },
+          "status": "schema_parsed"
+        },
+        {
+          "path": "World9/TerrainHeight.OZB",
+          "sha256": "994317f17da035cf398dc37d8c54c9e237269b5a8ddab3c7c63c77ceebcb28d6",
+          "layout": {
+            "samples": 65536,
+            "bmp_offset": 1082,
+            "native_offset": 1084,
+            "native_tail_padding": 0,
+            "visual_alignment_verified": false
+          },
+          "status": "schema_parsed"
+        }
+      ]
+    }
+  ],
+  "counts": {
+    "schema_parsed": 176,
+    "schema_error": 12
+  },
+  "limits": [
+    "Structural schema inspection only; no new world enabled in native client.",
+    "No model naming, texture mapping, collision, lighting or visual parity validated.",
+    "Schema comes from current native adapter; complete Windows EX603 engine is absent."
+  ]
+}

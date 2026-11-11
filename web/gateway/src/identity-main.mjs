@@ -1,0 +1,6 @@
+import {join,sep} from 'node:path';
+import {readFile,realpath,stat} from 'node:fs/promises';import {execFile} from 'node:child_process';import {promisify} from 'node:util';import {createIdentityHelper} from './identity-helper.mjs';
+const [binary,dataRoot]=process.argv.slice(2);if(!binary||!dataRoot)throw new Error('Usage: identity-main.mjs NATIVE_HELPER DATA_ROOT');
+const run=promisify(execFile),helper=createIdentityHelper({identityProvider:async()=>{const {stdout}=await run(binary,[],{timeout:3000,maxBuffer:200});return stdout.trim();},assetProvider:async path=>{const root=await realpath(dataRoot),target=await realpath(join(root,path));if(!target.startsWith(root+sep))throw new Error('Asset outside Data');const info=await stat(target);if(!info.isFile()||info.size<1||info.size>64*1024*1024)throw new Error('Asset size rejected');return readFile(target);},keyProvider:async()=>({encryption:await readFile(new URL('Enc1.dat',`file://${dataRoot}/`)),decryption:await readFile(new URL('Dec2.dat',`file://${dataRoot}/`))})});
+try{await helper.listen();console.log('Native client helper listening at 127.0.0.1:9001; only Debug origin accepted; no identity logging');}catch{console.error('Native helper startup failed');process.exit(1);}
+process.once('SIGINT',()=>helper.close());process.once('SIGTERM',()=>helper.close());

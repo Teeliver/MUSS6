@@ -1,0 +1,322 @@
+{
+  "rows": [
+    {
+      "source": "/Users/angelale/Downloads/SOURCE-2.0.7/Main5.2/source/GM3rdChangeUp.cpp",
+      "calls": {
+        "CreateParticle": 31,
+        "CreateSprite": 8,
+        "CreateJoint": 1,
+        "CreateEffect": 22,
+        "AddTerrainLight": 1
+      },
+      "scope": "textual call-site inventory; not semantic coverage"
+    },
+    {
+      "source": "/Users/angelale/Downloads/SOURCE-2.0.7/Main5.2/source/GMAcheron.cpp",
+      "calls": {
+        "CreateSprite": 8
+      },
+      "scope": "textual call-site inventory; not semantic coverage"
+    },
+    {
+      "source": "/Users/angelale/Downloads/SOURCE-2.0.7/Main5.2/source/GMAida.cpp",
+      "calls": {
+        "CreateSprite": 43,
+        "CreateEffect": 4,
+        "AddTerrainLight": 7
+      },
+      "scope": "textual call-site inventory; not semantic coverage"
+    },
+    {
+      "source": "/Users/angelale/Downloads/SOURCE-2.0.7/Main5.2/source/GMBattleCastle.cpp",
+      "calls": {
+        "CreateParticle": 6,
+        "CreateSprite": 5,
+        "CreateEffect": 16,
+        "AddTerrainLight": 3
+      },
+      "scope": "textual call-site inventory; not semantic coverage"
+    },
+    {
+      "source": "/Users/angelale/Downloads/SOURCE-2.0.7/Main5.2/source/GMCharacterScene.cpp",
+      "calls": {
+        "CreateSprite": 3
+      },
+      "scope": "textual call-site inventory; not semantic coverage"
+    },
+    {
+      "source": "/Users/angelale/Downloads/SOURCE-2.0.7/Main5.2/source/GMCryingWolf2nd.cpp",
+      "calls": {
+        "CreateParticle": 12,
+        "CreateSprite": 6,
+        "CreateEffect": 3,
+        "AddTerrainLight": 1
+      },
+      "scope": "textual call-site inventory; not semantic coverage"
+    },
+    {
+      "source": "/Users/angelale/Downloads/SOURCE-2.0.7/Main5.2/source/GMCrywolf1st.cpp",
+      "calls": {
+        "CreateParticle": 27,
+        "CreateSprite": 22,
+        "CreateJoint": 7,
+        "CreateEffect": 37,
+        "AddTerrainLight": 2
+      },
+      "scope": "textual call-site inventory; not semantic coverage"
+    },
+    {
+      "source": "/Users/angelale/Downloads/SOURCE-2.0.7/Main5.2/source/GMDeventer.cpp",
+      "calls": {
+        "CreateJoint": 2,
+        "AddTerrainLight": 1
+      },
+      "scope": "textual call-site inventory; not semantic coverage"
+    },
+    {
+      "source": "/Users/angelale/Downloads/SOURCE-2.0.7/Main5.2/source/GMDoppelGanger1.cpp",
+      "calls": {
+        "CreateParticle": 21,
+        "CreateSprite": 1,
+        "CreateEffect": 3
+      },
+      "scope": "textual call-site inventory; not semantic coverage"
+    },
+    {
+      "source": "/Users/angelale/Downloads/SOURCE-2.0.7/Main5.2/source/GMDoppelGanger2.cpp",
+      "calls": {
+        "CreateParticle": 26,
+        "CreateSprite": 6,
+        "CreateJoint": 1,
+        "CreateEffect": 3
+      },
+      "scope": "textual call-site inventory; not semantic coverage"
+    },
+    {
+      "source": "/Users/angelale/Downloads/SOURCE-2.0.7/Main5.2/source/GMDoppelGanger3.cpp",
+      "calls": {
+        "CreateParticle": 16,
+        "CreateSprite": 1,
+        "CreateEffect": 3
+      },
+      "scope": "textual call-site inventory; not semantic coverage"
+    },
+    {
+      "source": "/Users/angelale/Downloads/SOURCE-2.0.7/Main5.2/source/GMDoppelGanger4.cpp",
+      "calls": {
+        "CreateParticle": 25,
+        "CreateSprite": 6,
+        "CreateJoint": 2,
+        "CreateEffect": 4,
+        "AddTerrainLight": 3
+      },
+      "scope": "textual call-site inventory; not semantic coverage"
+    },
+    {
+      "source": "/Users/angelale/Downloads/SOURCE-2.0.7/Main5.2/source/GMDuelArena.cpp",
+      "calls": {
+        "CreateSprite": 1,
+        "AddTerrainLight": 1
+      },
+      "scope": "textual call-site inventory; not semantic coverage"
+    },
+    {
+      "source": "/Users/angelale/Downloads/SOURCE-2.0.7/Main5.2/source/GMEmpireGuardian1.cpp",
+      "calls": {
+        "CreateParticle": 40,
+        "CreateSprite": 41,
+        "CreateJoint": 12,
+        "CreateEffect": 35
+      },
+      "scope": "textual call-site inventory; not semantic coverage"
+    },
+    {
+      "source": "/Users/angelale/Downloads/SOURCE-2.0.7/Main5.2/source/GMEmpireGuardian2.cpp",
+      "calls": {
+        "CreateParticle": 33,
+        "CreateSprite": 19,
+        "CreateJoint": 5,
+        "CreateEffect": 27
+      },
+      "scope": "textual call-site inventory; not semantic coverage"
+    },
+    {
+      "source": "/Users/angelale/Downloads/SOURCE-2.0.7/Main5.2/source/GMEmpireGuardian3.cpp",
+      "calls": {
+        "CreateParticle": 54,
+        "CreateSprite": 35,
+        "CreateJoint": 7,
+        "CreateEffect": 5
+      },
+      "scope": "textual call-site inventory; not semantic coverage"
+    },
+    {
+      "source": "/Users/angelale/Downloads/SOURCE-2.0.7/Main5.2/source/GMEmpireGuardian4.cpp",
+      "calls": {
+        "CreateSprite": 37,
+        "CreateJoint": 1,
+        "CreateEffect": 17
+      },
+      "scope": "textual call-site inventory; not semantic coverage"
+    },
+    {
+      "source": "/Users/angelale/Downloads/SOURCE-2.0.7/Main5.2/source/GMFerea.cpp",
+      "calls": {
+        "CreateSprite": 3,
+        "AddTerrainLight": 3
+      },
+      "scope": "textual call-site inventory; not semantic coverage"
+    },
+    {
+      "source": "/Users/angelale/Downloads/SOURCE-2.0.7/Main5.2/source/GMHellas.cpp",
+      "calls": {
+        "CreateParticle": 3,
+        "CreateSprite": 61,
+        "CreateJoint": 4,
+        "CreateEffect": 11
+      },
+      "scope": "textual call-site inventory; not semantic coverage"
+    },
+    {
+      "source": "/Users/angelale/Downloads/SOURCE-2.0.7/Main5.2/source/GMHuntingGround.cpp",
+      "calls": {
+        "CreateParticle": 21,
+        "CreateSprite": 13,
+        "CreateJoint": 2,
+        "CreateEffect": 9,
+        "AddTerrainLight": 2
+      },
+      "scope": "textual call-site inventory; not semantic coverage"
+    },
+    {
+      "source": "/Users/angelale/Downloads/SOURCE-2.0.7/Main5.2/source/GMKarutan1.cpp",
+      "calls": {
+        "CreateParticle": 3,
+        "CreateSprite": 16,
+        "CreateJoint": 1,
+        "CreateEffect": 27,
+        "AddTerrainLight": 1
+      },
+      "scope": "textual call-site inventory; not semantic coverage"
+    },
+    {
+      "source": "/Users/angelale/Downloads/SOURCE-2.0.7/Main5.2/source/GMLogInScene.cpp",
+      "calls": {
+        "CreateSprite": 8
+      },
+      "scope": "textual call-site inventory; not semantic coverage"
+    },
+    {
+      "source": "/Users/angelale/Downloads/SOURCE-2.0.7/Main5.2/source/GMNewTown.cpp",
+      "calls": {
+        "CreateParticle": 6,
+        "CreateSprite": 6,
+        "CreateEffect": 6,
+        "AddTerrainLight": 2
+      },
+      "scope": "textual call-site inventory; not semantic coverage"
+    },
+    {
+      "source": "/Users/angelale/Downloads/SOURCE-2.0.7/Main5.2/source/GMSantaTown.cpp",
+      "calls": {
+        "CreateSprite": 3
+      },
+      "scope": "textual call-site inventory; not semantic coverage"
+    },
+    {
+      "source": "/Users/angelale/Downloads/SOURCE-2.0.7/Main5.2/source/GMSwampOfQuiet.cpp",
+      "calls": {
+        "CreateParticle": 41,
+        "CreateSprite": 28,
+        "CreateJoint": 5,
+        "CreateEffect": 51,
+        "AddTerrainLight": 1
+      },
+      "scope": "textual call-site inventory; not semantic coverage"
+    },
+    {
+      "source": "/Users/angelale/Downloads/SOURCE-2.0.7/Main5.2/source/GMUnitedMarketPlace.cpp",
+      "calls": {
+        "CreateParticle": 10,
+        "CreateSprite": 11,
+        "AddTerrainLight": 2
+      },
+      "scope": "textual call-site inventory; not semantic coverage"
+    },
+    {
+      "source": "/Users/angelale/Downloads/SOURCE-2.0.7/Main5.2/source/GMUrukMountain.cpp",
+      "calls": {
+        "AddTerrainLight": 1
+      },
+      "scope": "textual call-site inventory; not semantic coverage"
+    },
+    {
+      "source": "/Users/angelale/Downloads/SOURCE-2.0.7/Main5.2/source/GMZoneNars.cpp",
+      "calls": {
+        "CreateParticle": 1,
+        "AddTerrainLight": 4
+      },
+      "scope": "textual call-site inventory; not semantic coverage"
+    },
+    {
+      "source": "/Users/angelale/Downloads/SOURCE-2.0.7/Main5.2/source/GM_Kanturu_2nd.cpp",
+      "calls": {
+        "CreateParticle": 4,
+        "CreateSprite": 12,
+        "CreateJoint": 1
+      },
+      "scope": "textual call-site inventory; not semantic coverage"
+    },
+    {
+      "source": "/Users/angelale/Downloads/SOURCE-2.0.7/Main5.2/source/GM_Kanturu_3rd.cpp",
+      "calls": {
+        "CreateParticle": 11,
+        "CreateSprite": 63,
+        "CreateJoint": 14,
+        "CreateEffect": 14,
+        "AddTerrainLight": 3
+      },
+      "scope": "textual call-site inventory; not semantic coverage"
+    },
+    {
+      "source": "/Users/angelale/Downloads/SOURCE-2.0.7/Main5.2/source/GM_PK_Field.cpp",
+      "calls": {
+        "CreateSprite": 12,
+        "CreateJoint": 1,
+        "CreateEffect": 4
+      },
+      "scope": "textual call-site inventory; not semantic coverage"
+    },
+    {
+      "source": "/Users/angelale/Downloads/SOURCE-2.0.7/Main5.2/source/GM_Raklion.cpp",
+      "calls": {
+        "CreateParticle": 3,
+        "CreateSprite": 20,
+        "CreateEffect": 31
+      },
+      "scope": "textual call-site inventory; not semantic coverage"
+    },
+    {
+      "source": "/Users/angelale/Downloads/SOURCE-2.0.7/Main5.2/source/GM_kanturu_1st.cpp",
+      "calls": {
+        "CreateParticle": 10,
+        "CreateSprite": 9,
+        "CreateJoint": 2,
+        "CreateEffect": 10,
+        "AddTerrainLight": 3
+      },
+      "scope": "textual call-site inventory; not semantic coverage"
+    },
+    {
+      "source": "/Users/angelale/Downloads/SOURCE-2.0.7/Main5.2/source/ZzzObject.cpp",
+      "calls": {
+        "CreateParticle": 19,
+        "CreateSprite": 129,
+        "CreateJoint": 6,
+        "CreateEffect": 19,
+        "AddTerrainLight": 8
+      },
+      "scope": "textual call-site inventory; not semantic coverage"
+    }
+  ]
+}

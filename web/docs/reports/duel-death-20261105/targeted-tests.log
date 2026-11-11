@@ -1,0 +1,27 @@
+✔ actual Duel respawn handler randomizes dying player and restores/teleports the other gladiator (1412.555791ms)
+✔ motion rates, .12s blend, continuous gait phase and 60/120Hz clocks (2497.613667ms)
+✔ pathfinding routes around walls, rejects blocked corners, bounds and unreachable targets (124.534541ms)
+✔ route interpolation has no stop between cells; equal 60/120Hz; run outside safe after40 ticks; correction clears path (0.993458ms)
+✔ screen picking inverts actual following camera including terrain elevation and viewport ratio (0.944334ms)
+✔ normal attack and authoritative extended damage/reward use native layout; malformed rejected (0.350417ms)
+✔ held keyboard prefetches ACK paths and ignores stale ACK after correction/dispose (2.678041ms)
+✔ combat structs and offsets are checked against actual server headers (1777.026708ms)
+✔ world session attacks only live known monsters in range; damage/death/regen preserve server authority (33.737625ms)
+✔ original click marker resolves only safe Effect texture references (3.826625ms)
+✔ foot run policy uses MG/DL/RF or visible boots+5, safe zone still prevents running (0.219958ms)
+✔ click combat targets visible live monsters, never NPCs/safe-zone/dead targets and stops on death (1.227541ms)
+✔ arrival marker waits for ACK and completed visual movement, and redirects pending clicks (3.183625ms)
+✔ remote appearance updates replace atomically; departed or stale async models never reappear (3.132ms)
+✔ viewport preserves CharSet and accepts actual F3:13 equipment updates without exposing mutable snapshots (1.296208ms)
+✔ C1:25 uses packed slot and visual level rather than inventory option byte; removal overrides CharSet (0.546625ms)
+✔ remote companion bits restore wings and pet while explicit removal wins (0.19875ms)
+✔ remote guild logo rises with the mount so it stays on the rider arm (1.814958ms)
+✔ remote death retains corpse and samples native mode16 until destroy; same-index respawn snaps and returns to live mode (5.262417ms)
+ℹ tests 19
+ℹ suites 0
+ℹ pass 19
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2630.710417

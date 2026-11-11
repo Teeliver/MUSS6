@@ -1,0 +1,401 @@
+[
+  {
+    "name": "QDeathA",
+    "event": "notice",
+    "message": "MU Helper stopped."
+  },
+  {
+    "name": "QDeathA",
+    "event": "notice",
+    "message": "Welcome back QDeathA!"
+  },
+  {
+    "name": "QDeathA",
+    "event": "notice",
+    "message": "Account type: Free"
+  },
+  {
+    "name": "QDeathA",
+    "event": "entered",
+    "index": 11900,
+    "map": 0,
+    "x": 140,
+    "y": 125
+  },
+  {
+    "name": "QDeathB",
+    "event": "notice",
+    "message": "MU Helper stopped."
+  },
+  {
+    "name": "QDeathB",
+    "event": "notice",
+    "message": "Welcome back QDeathB!"
+  },
+  {
+    "name": "QDeathB",
+    "event": "notice",
+    "message": "Account type: Free"
+  },
+  {
+    "name": "QDeathB",
+    "event": "entered",
+    "index": 11901,
+    "map": 0,
+    "x": 140,
+    "y": 125
+  },
+  {
+    "name": "QDeathB",
+    "event": "duelPacket",
+    "bytes": [
+      193,
+      16,
+      170,
+      2,
+      46,
+      124,
+      81,
+      68,
+      101,
+      97,
+      116,
+      104,
+      65,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "QDeathB",
+    "event": "map",
+    "map": 64,
+    "x": 101,
+    "y": 64
+  },
+  {
+    "name": "QDeathB",
+    "event": "duelPacket",
+    "bytes": [
+      193,
+      17,
+      170,
+      1,
+      0,
+      46,
+      124,
+      81,
+      68,
+      101,
+      97,
+      116,
+      104,
+      65,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "QDeathB",
+    "event": "duelPacket",
+    "bytes": [
+      193,
+      10,
+      170,
+      4,
+      46,
+      125,
+      46,
+      124,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "QDeathA",
+    "event": "map",
+    "map": 64,
+    "x": 101,
+    "y": 75
+  },
+  {
+    "name": "QDeathA",
+    "event": "duelPacket",
+    "bytes": [
+      193,
+      17,
+      170,
+      1,
+      0,
+      46,
+      125,
+      81,
+      68,
+      101,
+      97,
+      116,
+      104,
+      66,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "QDeathA",
+    "event": "duelPacket",
+    "bytes": [
+      193,
+      10,
+      170,
+      4,
+      46,
+      125,
+      46,
+      124,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "QA",
+    "event": "beforeKill",
+    "a": {
+      "x": 101,
+      "y": 66,
+      "map": 64,
+      "direction": 1,
+      "baseClass": 0,
+      "pkLevel": 3,
+      "money": 0,
+      "hp": 2129,
+      "maxHp": 2129,
+      "gate": 1,
+      "mapEpoch": 1,
+      "correction": false,
+      "index": 11900
+    },
+    "b": {
+      "x": 101,
+      "y": 64,
+      "map": 64,
+      "direction": 0,
+      "baseClass": 0,
+      "pkLevel": 3,
+      "money": 0,
+      "hp": 159,
+      "maxHp": 159,
+      "gate": 1,
+      "mapEpoch": 1,
+      "correction": false
+    }
+  },
+  {
+    "name": "QDeathA",
+    "event": "damage",
+    "kind": "damage",
+    "index": 11901,
+    "damage": 51,
+    "shieldDamage": 454,
+    "hp": 108,
+    "sd": 875,
+    "type": 0,
+    "self": false
+  },
+  {
+    "name": "QDeathB",
+    "event": "damage",
+    "kind": "damage",
+    "index": 11901,
+    "damage": 51,
+    "shieldDamage": 454,
+    "hp": 108,
+    "sd": 875,
+    "type": 0,
+    "self": true
+  },
+  {
+    "name": "QDeathB",
+    "event": "damage",
+    "kind": "damage",
+    "index": 11901,
+    "damage": 66,
+    "shieldDamage": 585,
+    "hp": 42,
+    "sd": 290,
+    "type": 0,
+    "self": true
+  },
+  {
+    "name": "QDeathA",
+    "event": "damage",
+    "kind": "damage",
+    "index": 11901,
+    "damage": 66,
+    "shieldDamage": 585,
+    "hp": 42,
+    "sd": 290,
+    "type": 0,
+    "self": false
+  },
+  {
+    "name": "QDeathB",
+    "event": "duelPacket",
+    "bytes": [
+      193,
+      10,
+      170,
+      4,
+      46,
+      125,
+      46,
+      124,
+      0,
+      1
+    ]
+  },
+  {
+    "name": "QDeathA",
+    "event": "duelPacket",
+    "bytes": [
+      193,
+      10,
+      170,
+      4,
+      46,
+      125,
+      46,
+      124,
+      0,
+      1
+    ]
+  },
+  {
+    "name": "QA",
+    "event": "deathConfirmed",
+    "victimHp": 0,
+    "remote": {
+      "index": 11901,
+      "kind": "player",
+      "charset": [
+        0,
+        255,
+        255,
+        255,
+        255,
+        243,
+        0,
+        0,
+        0,
+        248,
+        0,
+        0,
+        240,
+        255,
+        255,
+        255,
+        0,
+        0
+      ],
+      "x": 101,
+      "y": 64,
+      "name": "QDeathB",
+      "tx": 101,
+      "ty": 64,
+      "direction": 0,
+      "pkLevel": 3,
+      "effects": [],
+      "dead": true,
+      "equipment": []
+    }
+  },
+  {
+    "name": "QDeathA",
+    "event": "teleport",
+    "position": {
+      "x": 100,
+      "y": 60,
+      "map": 64,
+      "direction": 1,
+      "baseClass": 0,
+      "pkLevel": 3,
+      "money": 0,
+      "hp": 2129,
+      "maxHp": 2129,
+      "gate": 1,
+      "mapEpoch": 2,
+      "correction": false,
+      "index": 11900,
+      "duelRound": true
+    }
+  },
+  {
+    "name": "QDeathB",
+    "event": "respawn",
+    "position": {
+      "x": 112,
+      "y": 68,
+      "map": 64,
+      "direction": 0,
+      "baseClass": 0,
+      "pkLevel": 3,
+      "money": 0,
+      "hp": 159,
+      "maxHp": 159,
+      "gate": 1,
+      "mapEpoch": 1,
+      "correction": false,
+      "respawn": true
+    }
+  },
+  {
+    "name": "QA",
+    "event": "roundRespawn",
+    "a": {
+      "x": 100,
+      "y": 60,
+      "map": 64,
+      "direction": 1,
+      "baseClass": 0,
+      "pkLevel": 3,
+      "money": 0,
+      "hp": 2129,
+      "maxHp": 2129,
+      "gate": 1,
+      "mapEpoch": 2,
+      "correction": false,
+      "index": 11900
+    },
+    "b": {
+      "x": 112,
+      "y": 68,
+      "map": 64,
+      "direction": 0,
+      "baseClass": 0,
+      "pkLevel": 3,
+      "money": 0,
+      "hp": 159,
+      "maxHp": 159,
+      "gate": 1,
+      "mapEpoch": 1,
+      "correction": false
+    },
+    "aScore": 1,
+    "bScore": 1
+  },
+  {
+    "name": "QA",
+    "event": "PASS",
+    "flow": "kill/death broadcast/corpse state/server random respawn/both fighters restored/round score/movement after revive"
+  },
+  {
+    "name": "QDeathA",
+    "event": "closed"
+  },
+  {
+    "name": "QDeathB",
+    "event": "closed"
+  }
+]

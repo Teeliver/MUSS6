@@ -1,0 +1,29 @@
+[
+  {
+    "path": "Effect/fantaF.OZJ",
+    "bytes": 4933,
+    "sha256": "80fc2ac5643af0d716c7fc4dfaf020ba60dfafcab2532324a237f736cd1903d8",
+    "ok": true,
+    "width": 64,
+    "height": 64,
+    "note": ""
+  },
+  {
+    "path": "Effect/smoke01.OZJ",
+    "bytes": 6080,
+    "sha256": "46371cf77fd5eeedea03bd4c8c49bc04aa7b7117f0285452aa9c3e43e3d08956",
+    "ok": true,
+    "width": 1,
+    "height": 1,
+    "note": "Original Data is 1x1; no replacement or fabricated dimensions"
+  },
+  {
+    "path": "Effect/clouds.OZJ",
+    "bytes": 32981,
+    "sha256": "26f8eb906f85f836d56480ff336d95b8fa0d5e9733e196e396bbdb147432cb26",
+    "ok": true,
+    "width": 256,
+    "height": 256,
+    "note": ""
+  }
+]

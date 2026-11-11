@@ -1,0 +1,1304 @@
+{
+  "schema": 1,
+  "scope": "All47 physical worlds: resource + full-map geometry; NPC coverage from all61 server spawn configs; not live or visual parity",
+  "modelCounts": {
+    "total": 3826,
+    "ready": 3729
+  },
+  "actorCounts": {
+    "total": 67,
+    "ready": 67
+  },
+  "rows": [
+    {
+      "map": 0,
+      "terrain": "loadable",
+      "issues": [
+        "Object168: No explicit model mapping"
+      ],
+      "npc": [
+        {
+          "type": 226,
+          "name": "Trainer",
+          "status": "ready",
+          "issues": []
+        },
+        {
+          "type": 236,
+          "name": "Golden Archer",
+          "status": "unmapped",
+          "issues": []
+        },
+        {
+          "type": 240,
+          "name": "Safety Guardian",
+          "status": "ready",
+          "issues": []
+        },
+        {
+          "type": 257,
+          "name": "Shadow Phantom Soldier",
+          "status": "unmapped",
+          "issues": []
+        },
+        {
+          "type": 249,
+          "name": "Guard",
+          "status": "unmapped",
+          "issues": []
+        },
+        {
+          "type": 375,
+          "name": "Chaos Card Master",
+          "status": "unmapped",
+          "issues": []
+        },
+        {
+          "type": 543,
+          "name": "Gens Duprian Steward",
+          "status": "ready",
+          "issues": []
+        },
+        {
+          "type": 547,
+          "name": "Market Union Member Julia",
+          "status": "ready",
+          "issues": []
+        }
+      ],
+      "objectsFullMap": 2787,
+      "vertices": 1316121,
+      "geometry": "pass"
+    },
+    {
+      "map": 1,
+      "terrain": "loadable",
+      "issues": [
+        "Object60: Missing/ambiguous Object2/Object61.bmd"
+      ],
+      "npc": [],
+      "objectsFullMap": 4479,
+      "vertices": 1684029,
+      "geometry": "pass"
+    },
+    {
+      "map": 2,
+      "terrain": "loadable",
+      "issues": [
+        "record528: Nonfinite/out-of-range object",
+        "record529: Nonfinite/out-of-range object",
+        "Object101: Missing/ambiguous Object3/sword06.OZJ"
+      ],
+      "npc": [
+        {
+          "type": 233,
+          "name": "Messenger of Archangel",
+          "status": "ready",
+          "issues": []
+        },
+        {
+          "type": 235,
+          "name": "Sebina the Priest",
+          "status": "ready",
+          "issues": []
+        },
+        {
+          "type": 240,
+          "name": "Safety Guardian",
+          "status": "ready",
+          "issues": []
+        },
+        {
+          "type": 241,
+          "name": "Royal Guard Captain Lorence",
+          "status": "ready",
+          "issues": []
+        },
+        {
+          "type": 247,
+          "name": "Guard",
+          "status": "unmapped",
+          "issues": []
+        },
+        {
+          "type": 257,
+          "name": "Shadow Phantom Soldier",
+          "status": "unmapped",
+          "issues": []
+        },
+        {
+          "type": 371,
+          "name": "Leo the Helper",
+          "status": "ready",
+          "issues": []
+        },
+        {
+          "type": 478,
+          "name": "Delgado",
+          "status": "ready",
+          "issues": []
+        },
+        {
+          "type": 522,
+          "name": "Jerint the Assistant",
+          "status": "unmapped",
+          "issues": []
+        },
+        {
+          "type": 566,
+          "name": "Mercenary Guild Manager Tercia",
+          "status": "ready",
+          "issues": []
+        }
+      ],
+      "objectsFullMap": 2234,
+      "vertices": 662562,
+      "geometry": "pass"
+    },
+    {
+      "map": 3,
+      "terrain": "loadable",
+      "issues": [
+        "Object43: Missing/ambiguous Object4/Object44.bmd"
+      ],
+      "npc": [
+        {
+          "type": 237,
+          "name": "Charon",
+          "status": "ready",
+          "issues": []
+        },
+        {
+          "type": 238,
+          "name": "Chaos Goblin",
+          "status": "ready",
+          "issues": []
+        },
+        {
+          "type": 240,
+          "name": "Safety Guardian",
+          "status": "ready",
+          "issues": []
+        },
+        {
+          "type": 450,
+          "name": "Cherry Blossom Spirit",
+          "status": "ready",
+          "issues": []
+        },
+        {
+          "type": 451,
+          "name": "Cherry Blossom Tree",
+          "status": "ready",
+          "issues": []
+        },
+        {
+          "type": 544,
+          "name": "Gens Vanert Steward",
+          "status": "ready",
+          "issues": []
+        },
+        {
+          "type": 257,
+          "name": "Shadow Phantom Soldier",
+          "status": "unmapped",
+          "issues": []
+        }
+      ],
+      "objectsFullMap": 9345,
+      "vertices": 2933076,
+      "geometry": "pass"
+    },
+    {
+      "map": 4,
+      "terrain": "loadable",
+      "issues": [
+        "Object40: Missing/ambiguous Object5/Object41.bmd"
+      ],
+      "npc": [],
+      "objectsFullMap": 5379,
+      "vertices": 3106392,
+      "geometry": "pass"
+    },
+    {
+      "map": 6,
+      "terrain": "loadable",
+      "issues": [],
+      "npc": [],
+      "objectsFullMap": 1485,
+      "vertices": 389226,
+      "geometry": "pass"
+    },
+    {
+      "map": 7,
+      "terrain": "blocked",
+      "issues": [],
+      "npc": [],
+      "objectsFullMap": 5215,
+      "vertices": 1515237,
+      "geometry": "pass"
+    },
+    {
+      "map": 8,
+      "terrain": "loadable",
+      "issues": [
+        "Object0: Missing/ambiguous Object9/Object01.bmd",
+        "Object35: Missing/ambiguous Object9/Object36.bmd",
+        "Object3: Missing/ambiguous Object9/Object04.bmd",
+        "Object4: Missing/ambiguous Object9/Object05.bmd",
+        "Object38: Missing/ambiguous Object9/Object39.bmd"
+      ],
+      "npc": [],
+      "objectsFullMap": 3332,
+      "vertices": 1048014,
+      "geometry": "pass"
+    },
+    {
+      "map": 9,
+      "terrain": "loadable",
+      "issues": [],
+      "npc": [],
+      "objectsFullMap": 564,
+      "vertices": 834492,
+      "geometry": "pass"
+    },
+    {
+      "map": 10,
+      "terrain": "blocked",
+      "issues": [],
+      "npc": [],
+      "objectsFullMap": 670,
+      "vertices": 225435,
+      "geometry": "pass"
+    },
+    {
+      "map": 11,
+      "terrain": "loadable",
+      "issues": [
+        "Object37: Missing/ambiguous Object12/Object38.bmd"
+      ],
+      "npc": [
+        {
+          "type": 232,
+          "name": "Archangel",
+          "status": "ready",
+          "issues": []
+        }
+      ],
+      "objectsFullMap": 201,
+      "vertices": 86370,
+      "geometry": "pass"
+    },
+    {
+      "map": 18,
+      "terrain": "loadable",
+      "issues": [],
+      "npc": [],
+      "objectsFullMap": 194,
+      "vertices": 45675,
+      "geometry": "pass"
+    },
+    {
+      "map": 24,
+      "terrain": "loadable",
+      "issues": [],
+      "npc": [],
+      "objectsFullMap": 2266,
+      "vertices": 238710,
+      "geometry": "pass"
+    },
+    {
+      "map": 30,
+      "terrain": "loadable",
+      "issues": [
+        "Object35: Missing/ambiguous Object31/Object36.bmd"
+      ],
+      "npc": [
+        {
+          "type": 217,
+          "name": "Crown Switch2",
+          "status": "unmapped",
+          "issues": []
+        },
+        {
+          "type": 218,
+          "name": "Crown Switch1",
+          "status": "unmapped",
+          "issues": []
+        },
+        {
+          "type": 216,
+          "name": "Crown",
+          "status": "unmapped",
+          "issues": []
+        },
+        {
+          "type": 220,
+          "name": "Gatekeeper",
+          "status": "unmapped",
+          "issues": []
+        },
+        {
+          "type": 224,
+          "name": "Guardsman",
+          "status": "ready",
+          "issues": []
+        },
+        {
+          "type": 223,
+          "name": "Senior",
+          "status": "unmapped",
+          "issues": []
+        }
+      ],
+      "objectsFullMap": 3723,
+      "vertices": 814560,
+      "geometry": "pass"
+    },
+    {
+      "map": 31,
+      "terrain": "loadable",
+      "issues": [],
+      "npc": [],
+      "objectsFullMap": 7789,
+      "vertices": 1147098,
+      "geometry": "pass"
+    },
+    {
+      "map": 33,
+      "terrain": "loadable",
+      "issues": [],
+      "npc": [
+        {
+          "type": 369,
+          "name": "Osbourne",
+          "status": "ready",
+          "issues": []
+        },
+        {
+          "type": 370,
+          "name": "Jerridon",
+          "status": "ready",
+          "issues": []
+        }
+      ],
+      "objectsFullMap": 3752,
+      "vertices": 1591692,
+      "geometry": "pass"
+    },
+    {
+      "map": 34,
+      "terrain": "loadable",
+      "issues": [
+        "Object35: BMD vertex bone index out of bounds",
+        "Object79: Missing/ambiguous Object35/Object80.bmd",
+        "Object80: Missing/ambiguous Object35/Object81.bmd"
+      ],
+      "npc": [
+        {
+          "type": 406,
+          "name": "Apostle Devin",
+          "status": "ready",
+          "issues": []
+        },
+        {
+          "type": 407,
+          "name": "Werewolf Quarel",
+          "status": "ready",
+          "issues": []
+        },
+        {
+          "type": 204,
+          "name": "Wolf Status",
+          "status": "source-hidden",
+          "issues": []
+        },
+        {
+          "type": 205,
+          "name": "Wolf Altar1",
+          "status": "source-hidden",
+          "issues": []
+        },
+        {
+          "type": 206,
+          "name": "Wolf Altar2",
+          "status": "source-hidden",
+          "issues": []
+        },
+        {
+          "type": 207,
+          "name": "Wolf Altar3",
+          "status": "source-hidden",
+          "issues": []
+        },
+        {
+          "type": 208,
+          "name": "Wolf Altar4",
+          "status": "source-hidden",
+          "issues": []
+        },
+        {
+          "type": 209,
+          "name": "Wolf Altar5",
+          "status": "source-hidden",
+          "issues": []
+        },
+        {
+          "type": 226,
+          "name": "Trainer",
+          "status": "ready",
+          "issues": []
+        },
+        {
+          "type": 256,
+          "name": "Lahap",
+          "status": "ready",
+          "issues": []
+        },
+        {
+          "type": 240,
+          "name": "Safety Guardian",
+          "status": "ready",
+          "issues": []
+        },
+        {
+          "type": 224,
+          "name": "Guardsman",
+          "status": "ready",
+          "issues": []
+        }
+      ],
+      "objectsFullMap": 6350,
+      "vertices": 1525842,
+      "geometry": "pass"
+    },
+    {
+      "map": 37,
+      "terrain": "loadable",
+      "issues": [],
+      "npc": [],
+      "objectsFullMap": 3645,
+      "vertices": 1120956,
+      "geometry": "pass"
+    },
+    {
+      "map": 38,
+      "terrain": "loadable",
+      "issues": [
+        "Object69: Missing/ambiguous Object39/Object70.bmd",
+        "Object84: Missing/ambiguous Object39/Object85.bmd",
+        "Object39: Missing/ambiguous Object39/Object40.bmd",
+        "Object25: Missing/ambiguous Object39/Object26.bmd",
+        "Object22: Missing/ambiguous Object39/Object23.bmd",
+        "Object21: Missing/ambiguous Object39/Object22.bmd",
+        "Object42: Missing/ambiguous Object39/Object43.bmd",
+        "Object43: Missing/ambiguous Object39/Object44.bmd",
+        "Object28: Missing/ambiguous Object39/Object29.bmd",
+        "Object51: Missing/ambiguous Object39/Object52.bmd",
+        "Object40: Missing/ambiguous Object39/Object41.bmd"
+      ],
+      "npc": [
+        {
+          "type": 367,
+          "name": "Gateway Machine",
+          "status": "unmapped",
+          "issues": []
+        }
+      ],
+      "objectsFullMap": 1988,
+      "vertices": 726195,
+      "geometry": "pass"
+    },
+    {
+      "map": 39,
+      "terrain": "blocked",
+      "issues": [],
+      "npc": [
+        {
+          "type": 368,
+          "name": "Elpis",
+          "status": "ready",
+          "issues": []
+        }
+      ],
+      "objectsFullMap": 1459,
+      "vertices": 402294,
+      "geometry": "pass"
+    },
+    {
+      "map": 40,
+      "terrain": "blocked",
+      "issues": [
+        "Object52: Missing/ambiguous Object41/Object53.bmd",
+        "Object15: Missing/ambiguous Object41/Object16.bmd",
+        "Object74: Missing/ambiguous Object41/Object75.bmd",
+        "Object33: Missing/ambiguous Object41/Object34.bmd"
+      ],
+      "npc": [],
+      "objectsFullMap": 662,
+      "vertices": 321075,
+      "geometry": "pass"
+    },
+    {
+      "map": 41,
+      "terrain": "blocked",
+      "issues": [],
+      "npc": [
+        {
+          "type": 408,
+          "name": "Gatekeeper",
+          "status": "ready",
+          "issues": []
+        }
+      ],
+      "objectsFullMap": 1531,
+      "vertices": 327234,
+      "geometry": "pass"
+    },
+    {
+      "map": 42,
+      "terrain": "blocked",
+      "issues": [],
+      "npc": [],
+      "objectsFullMap": 354,
+      "vertices": 158448,
+      "geometry": "pass"
+    },
+    {
+      "map": 46,
+      "terrain": "blocked",
+      "issues": [
+        "Object81: Missing/ambiguous Object47/Object82.bmd"
+      ],
+      "npc": [
+        {
+          "type": 381,
+          "name": "MU Allies General",
+          "status": "unmapped",
+          "issues": []
+        },
+        {
+          "type": 382,
+          "name": "Illusion Sorcerer Elder",
+          "status": "unmapped",
+          "issues": []
+        },
+        {
+          "type": 383,
+          "name": "Alliance Sacred Item Storage",
+          "status": "unmapped",
+          "issues": []
+        },
+        {
+          "type": 384,
+          "name": "Illusion Castle Sacred Item Sto",
+          "status": "unmapped",
+          "issues": []
+        }
+      ],
+      "objectsFullMap": 1961,
+      "vertices": 544110,
+      "geometry": "pass"
+    },
+    {
+      "map": 51,
+      "terrain": "loadable",
+      "issues": [
+        "Object89: BMD vertex bone index out of bounds",
+        "Object102: Missing/ambiguous Object52/sword02.OZJ",
+        "Object114: Missing/ambiguous Object52/medicine1.OZJ",
+        "Object165: Missing/ambiguous Object52/Object166.bmd"
+      ],
+      "npc": [
+        {
+          "type": 385,
+          "name": "Mirage",
+          "status": "unmapped",
+          "issues": []
+        },
+        {
+          "type": 452,
+          "name": "Seed Master",
+          "status": "ready",
+          "issues": []
+        },
+        {
+          "type": 453,
+          "name": "Seed Researcher",
+          "status": "ready",
+          "issues": []
+        },
+        {
+          "type": 579,
+          "name": "David",
+          "status": "ready",
+          "issues": []
+        },
+        {
+          "type": 256,
+          "name": "Lahap",
+          "status": "ready",
+          "issues": []
+        },
+        {
+          "type": 257,
+          "name": "Shadow Phantom Soldier",
+          "status": "unmapped",
+          "issues": []
+        },
+        {
+          "type": 240,
+          "name": "Safety Guardian",
+          "status": "ready",
+          "issues": []
+        },
+        {
+          "type": 540,
+          "name": "Lugard",
+          "status": "ready",
+          "issues": []
+        }
+      ],
+      "objectsFullMap": 4639,
+      "vertices": 1967001,
+      "geometry": "pass"
+    },
+    {
+      "map": 54,
+      "terrain": "loadable",
+      "issues": [],
+      "npc": [],
+      "objectsFullMap": 194,
+      "vertices": 33033,
+      "geometry": "pass"
+    },
+    {
+      "map": 56,
+      "terrain": "loadable",
+      "issues": [
+        "Object58: Missing/ambiguous Object57/Object59.bmd",
+        "Object64: Missing/ambiguous Object57/Object65.bmd",
+        "Object35: BMD vertex bone index out of bounds",
+        "Object59: Missing/ambiguous Object57/Object60.bmd"
+      ],
+      "npc": [],
+      "objectsFullMap": 3950,
+      "vertices": 1886973,
+      "geometry": "pass"
+    },
+    {
+      "map": 57,
+      "terrain": "loadable",
+      "issues": [
+        "Object247: Missing/ambiguous Object58/Object248.bmd"
+      ],
+      "npc": [],
+      "objectsFullMap": 1409,
+      "vertices": 792720,
+      "geometry": "pass"
+    },
+    {
+      "map": 58,
+      "terrain": "loadable",
+      "issues": [
+        "Object83: Missing/ambiguous Object59/Object84.bmd",
+        "Object247: Missing/ambiguous Object59/Object248.bmd"
+      ],
+      "npc": [],
+      "objectsFullMap": 149,
+      "vertices": 85974,
+      "geometry": "pass"
+    },
+    {
+      "map": 62,
+      "terrain": "loadable",
+      "issues": [
+        "Object40: Missing/ambiguous Object63/Object41.bmd",
+        "Object37: Missing/ambiguous Object63/Object38.bmd",
+        "Object51: Missing/ambiguous Object63/Object52.bmd"
+      ],
+      "npc": [
+        {
+          "type": 465,
+          "name": "Santa Claus",
+          "status": "unmapped",
+          "issues": []
+        },
+        {
+          "type": 467,
+          "name": "Snowman",
+          "status": "unmapped",
+          "issues": []
+        },
+        {
+          "type": 468,
+          "name": "Dasher",
+          "status": "unmapped",
+          "issues": []
+        },
+        {
+          "type": 469,
+          "name": "Kermit",
+          "status": "unmapped",
+          "issues": []
+        },
+        {
+          "type": 470,
+          "name": "Dancer",
+          "status": "unmapped",
+          "issues": []
+        },
+        {
+          "type": 471,
+          "name": "Cupid",
+          "status": "unmapped",
+          "issues": []
+        },
+        {
+          "type": 472,
+          "name": "Prancer",
+          "status": "unmapped",
+          "issues": []
+        },
+        {
+          "type": 473,
+          "name": "Donner",
+          "status": "unmapped",
+          "issues": []
+        },
+        {
+          "type": 474,
+          "name": "Vixen",
+          "status": "unmapped",
+          "issues": []
+        },
+        {
+          "type": 475,
+          "name": "Blitzen",
+          "status": "unmapped",
+          "issues": []
+        }
+      ],
+      "objectsFullMap": 673,
+      "vertices": 394512,
+      "geometry": "pass"
+    },
+    {
+      "map": 63,
+      "terrain": "blocked",
+      "issues": [
+        "Object54: Missing/ambiguous Object64/Object55.bmd"
+      ],
+      "npc": [
+        {
+          "type": 479,
+          "name": "Doorkeeper Titus",
+          "status": "ready",
+          "issues": []
+        }
+      ],
+      "objectsFullMap": 2289,
+      "vertices": 2584023,
+      "geometry": "pass"
+    },
+    {
+      "map": 64,
+      "terrain": "loadable",
+      "issues": [
+        "Object39: Missing/ambiguous Object65/Object40.bmd"
+      ],
+      "npc": [],
+      "objectsFullMap": 1345,
+      "vertices": 469002,
+      "geometry": "pass"
+    },
+    {
+      "map": 65,
+      "terrain": "loadable",
+      "issues": [
+        "Object6: Missing/ambiguous Object66/Object07.bmd",
+        "Object96: Missing/ambiguous Object66/Object97.bmd",
+        "Object247: Missing/ambiguous Object66/Object248.bmd",
+        "Object32: Missing/ambiguous Object66/Object33.bmd"
+      ],
+      "npc": [],
+      "objectsFullMap": 398,
+      "vertices": 135024,
+      "geometry": "pass"
+    },
+    {
+      "map": 66,
+      "terrain": "loadable",
+      "issues": [],
+      "npc": [],
+      "objectsFullMap": 253,
+      "vertices": 75288,
+      "geometry": "pass"
+    },
+    {
+      "map": 67,
+      "terrain": "blocked",
+      "issues": [],
+      "npc": [],
+      "objectsFullMap": 373,
+      "vertices": 109398,
+      "geometry": "pass"
+    },
+    {
+      "map": 68,
+      "terrain": "loadable",
+      "issues": [
+        "Object175: Missing/ambiguous Object69/Object176.bmd",
+        "Object34: Missing/ambiguous Object69/Object35.bmd"
+      ],
+      "npc": [],
+      "objectsFullMap": 430,
+      "vertices": 146334,
+      "geometry": "pass"
+    },
+    {
+      "map": 69,
+      "terrain": "loadable",
+      "issues": [
+        "Object126: Missing/ambiguous Object70/Object127.bmd",
+        "Object95: Missing/ambiguous Object70/Object96.bmd"
+      ],
+      "npc": [],
+      "objectsFullMap": 832,
+      "vertices": 798462,
+      "geometry": "pass"
+    },
+    {
+      "map": 70,
+      "terrain": "loadable",
+      "issues": [],
+      "npc": [],
+      "objectsFullMap": 729,
+      "vertices": 824712,
+      "geometry": "pass"
+    },
+    {
+      "map": 71,
+      "terrain": "loadable",
+      "issues": [],
+      "npc": [],
+      "objectsFullMap": 748,
+      "vertices": 805509,
+      "geometry": "pass"
+    },
+    {
+      "map": 72,
+      "terrain": "loadable",
+      "issues": [
+        "Object160: Missing/ambiguous Object73/Object161.bmd",
+        "Object159: Missing/ambiguous Object73/Object160.bmd",
+        "Object163: Missing/ambiguous Object73/Object164.bmd",
+        "Object75: Missing/ambiguous Object73/Object76.bmd"
+      ],
+      "npc": [],
+      "objectsFullMap": 1665,
+      "vertices": 1155033,
+      "geometry": "pass"
+    },
+    {
+      "map": 73,
+      "terrain": "loadable",
+      "issues": [
+        "Object160: Missing/ambiguous Object74/Object161.bmd",
+        "Object164: Missing/ambiguous Object74/Object165.bmd",
+        "Object162: Missing/ambiguous Object74/Object163.bmd",
+        "Object163: Missing/ambiguous Object74/Object164.bmd",
+        "Object75: Missing/ambiguous Object74/Object76.bmd",
+        "Object1: Missing/ambiguous Object74/Object02.bmd",
+        "Object48: Missing/ambiguous Object74/Object49.bmd"
+      ],
+      "npc": [],
+      "objectsFullMap": 365,
+      "vertices": 329724,
+      "geometry": "pass"
+    },
+    {
+      "map": 74,
+      "terrain": "loadable",
+      "issues": [
+        "Object124: Missing/ambiguous Object75/Object125.bmd",
+        "Object132: Missing/ambiguous Object75/Object133.bmd",
+        "Object126: Missing/ambiguous Object75/Object127.bmd",
+        "Object11: Missing/ambiguous Object75/Object12.bmd"
+      ],
+      "npc": [],
+      "objectsFullMap": 102,
+      "vertices": 71670,
+      "geometry": "pass"
+    },
+    {
+      "map": 77,
+      "terrain": "loadable",
+      "issues": [],
+      "npc": [],
+      "objectsFullMap": 628,
+      "vertices": 221607,
+      "geometry": "pass"
+    },
+    {
+      "map": 78,
+      "terrain": "loadable",
+      "issues": [
+        "Object4: Invalid model float"
+      ],
+      "npc": [],
+      "objectsFullMap": 95,
+      "vertices": 61197,
+      "geometry": "pass"
+    },
+    {
+      "map": 79,
+      "terrain": "loadable",
+      "issues": [
+        "Object51: Missing/ambiguous Object80/Object52.bmd"
+      ],
+      "npc": [
+        {
+          "type": 546,
+          "name": "Jeweler Raul",
+          "status": "ready",
+          "issues": []
+        },
+        {
+          "type": 547,
+          "name": "Market Union Member Julia",
+          "status": "ready",
+          "issues": []
+        }
+      ],
+      "objectsFullMap": 513,
+      "vertices": 372750,
+      "geometry": "pass"
+    },
+    {
+      "map": 80,
+      "terrain": "loadable",
+      "issues": [
+        "Object108: Missing/ambiguous Object81/medicine1.OZJ",
+        "Object110: Missing/ambiguous Object81/sword02.OZJ"
+      ],
+      "npc": [
+        {
+          "type": 240,
+          "name": "Safety Guardian",
+          "status": "ready",
+          "issues": []
+        }
+      ],
+      "objectsFullMap": 2083,
+      "vertices": 1816962,
+      "geometry": "pass"
+    },
+    {
+      "map": 81,
+      "terrain": "loadable",
+      "issues": [
+        "Object110: Missing/ambiguous Object82/sword02.OZJ"
+      ],
+      "npc": [],
+      "objectsFullMap": 1719,
+      "vertices": 1446336,
+      "geometry": "pass"
+    }
+  ],
+  "missingNpcs": [
+    {
+      "type": 236,
+      "name": "Golden Archer",
+      "maps": [
+        0
+      ],
+      "issues": [
+        "Missing explicit binding (Player-based/event/delegated source)"
+      ]
+    },
+    {
+      "type": 257,
+      "name": "Shadow Phantom Soldier",
+      "maps": [
+        0,
+        2,
+        3,
+        51
+      ],
+      "issues": [
+        "Missing explicit binding (Player-based/event/delegated source)"
+      ]
+    },
+    {
+      "type": 249,
+      "name": "Guard",
+      "maps": [
+        0
+      ],
+      "issues": [
+        "Missing explicit binding (Player-based/event/delegated source)"
+      ]
+    },
+    {
+      "type": 375,
+      "name": "Chaos Card Master",
+      "maps": [
+        0
+      ],
+      "issues": [
+        "Missing explicit binding (Player-based/event/delegated source)"
+      ]
+    },
+    {
+      "type": 247,
+      "name": "Guard",
+      "maps": [
+        2
+      ],
+      "issues": [
+        "Missing explicit binding (Player-based/event/delegated source)"
+      ]
+    },
+    {
+      "type": 522,
+      "name": "Jerint the Assistant",
+      "maps": [
+        2
+      ],
+      "issues": [
+        "Missing explicit binding (Player-based/event/delegated source)"
+      ]
+    },
+    {
+      "type": 217,
+      "name": "Crown Switch2",
+      "maps": [
+        30
+      ],
+      "issues": [
+        "Missing explicit binding (Player-based/event/delegated source)"
+      ]
+    },
+    {
+      "type": 218,
+      "name": "Crown Switch1",
+      "maps": [
+        30
+      ],
+      "issues": [
+        "Missing explicit binding (Player-based/event/delegated source)"
+      ]
+    },
+    {
+      "type": 216,
+      "name": "Crown",
+      "maps": [
+        30
+      ],
+      "issues": [
+        "Missing explicit binding (Player-based/event/delegated source)"
+      ]
+    },
+    {
+      "type": 220,
+      "name": "Gatekeeper",
+      "maps": [
+        30
+      ],
+      "issues": [
+        "Missing explicit binding (Player-based/event/delegated source)"
+      ]
+    },
+    {
+      "type": 223,
+      "name": "Senior",
+      "maps": [
+        30
+      ],
+      "issues": [
+        "Missing explicit binding (Player-based/event/delegated source)"
+      ]
+    },
+    {
+      "type": 367,
+      "name": "Gateway Machine",
+      "maps": [
+        38
+      ],
+      "issues": [
+        "Missing explicit binding (Player-based/event/delegated source)"
+      ]
+    },
+    {
+      "type": 381,
+      "name": "MU Allies General",
+      "maps": [
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "issues": [
+        "Missing explicit binding (Player-based/event/delegated source)"
+      ]
+    },
+    {
+      "type": 382,
+      "name": "Illusion Sorcerer Elder",
+      "maps": [
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "issues": [
+        "Missing explicit binding (Player-based/event/delegated source)"
+      ]
+    },
+    {
+      "type": 383,
+      "name": "Alliance Sacred Item Storage",
+      "maps": [
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "issues": [
+        "Missing explicit binding (Player-based/event/delegated source)"
+      ]
+    },
+    {
+      "type": 384,
+      "name": "Illusion Castle Sacred Item Sto",
+      "maps": [
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "issues": [
+        "Missing explicit binding (Player-based/event/delegated source)"
+      ]
+    },
+    {
+      "type": 385,
+      "name": "Mirage",
+      "maps": [
+        51
+      ],
+      "issues": [
+        "Missing explicit binding (Player-based/event/delegated source)"
+      ]
+    },
+    {
+      "type": 465,
+      "name": "Santa Claus",
+      "maps": [
+        62
+      ],
+      "issues": [
+        "Missing explicit binding (Player-based/event/delegated source)"
+      ]
+    },
+    {
+      "type": 467,
+      "name": "Snowman",
+      "maps": [
+        62
+      ],
+      "issues": [
+        "Missing explicit binding (Player-based/event/delegated source)"
+      ]
+    },
+    {
+      "type": 468,
+      "name": "Dasher",
+      "maps": [
+        62
+      ],
+      "issues": [
+        "Missing explicit binding (Player-based/event/delegated source)"
+      ]
+    },
+    {
+      "type": 469,
+      "name": "Kermit",
+      "maps": [
+        62
+      ],
+      "issues": [
+        "Missing explicit binding (Player-based/event/delegated source)"
+      ]
+    },
+    {
+      "type": 470,
+      "name": "Dancer",
+      "maps": [
+        62
+      ],
+      "issues": [
+        "Missing explicit binding (Player-based/event/delegated source)"
+      ]
+    },
+    {
+      "type": 471,
+      "name": "Cupid",
+      "maps": [
+        62
+      ],
+      "issues": [
+        "Missing explicit binding (Player-based/event/delegated source)"
+      ]
+    },
+    {
+      "type": 472,
+      "name": "Prancer",
+      "maps": [
+        62
+      ],
+      "issues": [
+        "Missing explicit binding (Player-based/event/delegated source)"
+      ]
+    },
+    {
+      "type": 473,
+      "name": "Donner",
+      "maps": [
+        62
+      ],
+      "issues": [
+        "Missing explicit binding (Player-based/event/delegated source)"
+      ]
+    },
+    {
+      "type": 474,
+      "name": "Vixen",
+      "maps": [
+        62
+      ],
+      "issues": [
+        "Missing explicit binding (Player-based/event/delegated source)"
+      ]
+    },
+    {
+      "type": 475,
+      "name": "Blitzen",
+      "maps": [
+        62
+      ],
+      "issues": [
+        "Missing explicit binding (Player-based/event/delegated source)"
+      ]
+    }
+  ]
+}

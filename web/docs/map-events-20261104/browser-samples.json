@@ -1,0 +1,38 @@
+{
+  "scope": "Offline browser samples, not long-run benchmark or full-map pixel parity",
+  "rows": [
+    {
+      "map": 72,
+      "x": 32,
+      "y": 68,
+      "fps": 60,
+      "cpuP95Ms": 8,
+      "buffer": [
+        1582,
+        1798
+      ],
+      "effectsCreated": 54,
+      "flame12Peak": 540,
+      "cloud22Peak": 84,
+      "dropped": 0
+    },
+    {
+      "map": 71,
+      "x": 110,
+      "y": 195,
+      "fps": 60,
+      "cpuP95Ms": 7.6,
+      "cloud22Peak": 45,
+      "dropped": 0
+    },
+    {
+      "map": 70,
+      "x": 26,
+      "y": 59,
+      "fps": 60,
+      "cpuP95Ms": 7.1,
+      "cloud22Peak": 126,
+      "dropped": 0
+    }
+  ]
+}

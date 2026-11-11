@@ -1,0 +1,13 @@
+// Read-only triage: proves current path availability, never guesses model/marker equivalence.
+import {readFile,readdir,writeFile} from 'node:fs/promises';import path from 'node:path';
+const [data,catalogFile,coverageFile,output]=process.argv.slice(2);if(!output)throw Error('Usage DATA CATALOG COVERAGE OUTPUT');
+const catalog=JSON.parse(await readFile(catalogFile)),coverage=JSON.parse(await readFile(coverageFile));
+const index=new Map();async function scan(folder=''){for(const e of await readdir(path.join(data,folder),{withFileTypes:true})){if(e.isSymbolicLink())continue;const p=folder?folder+'/'+e.name:e.name;if(e.isDirectory())await scan(p);else{const k=e.name.toLowerCase();if(!index.has(k))index.set(k,[]);index.get(k).push(p);}}}await scan();
+const lookup=logical=>{const candidates=index.get(path.posix.basename(logical).toLowerCase())??[];return {logical,exactCaseInsensitive:candidates.filter(p=>p.toLowerCase()===logical.toLowerCase()),sameNameElsewhere:candidates.filter(p=>p.toLowerCase()!==logical.toLowerCase()),note:'Same filename elsewhere is not permission to substitute this resource'};};
+const counts={},rows=[];
+for(const row of coverage.rows){const terrain=catalog.worlds.find(w=>w.map===row.map),unresolved=row.unresolved.map(o=>{
+ const issues=o.issues??[];let category=o.status==='unmapped'?'unmapped-type':issues.some(i=>/Missing\/ambiguous .*\.bmd/i.test(i))?'missing-model-at-current-binding':issues.some(i=>/Missing\/ambiguous .*\.(ozj|ozt)/i.test(i))?'missing-or-ambiguous-texture':'invalid-model-or-decode';
+ counts[category]=(counts[category]??0)+o.placements;const paths=issues.flatMap(i=>{const m=i.match(/^Missing\/ambiguous (.+)$/);return m?[lookup(m[1])]:[];});
+ return {type:o.type,placements:o.placements,category,binding:o.model??null,issues,paths,sourceMarkerStatus:'Not proven an effect marker; retained as unresolved. Needs semantic source review before hiding or rebinding.'};
+ });rows.push({map:row.map,terrain:terrain.terrain,terrainIssues:terrain.issues,terrainMissing:terrain.issues.flatMap(i=>{const m=i.match(/^Missing\/ambiguous texture (.+)$/);return m?[lookup(m[1])]:[];}),ignoredTextureIndices:terrain.ignoredTextureIndices??[],totalPlacements:row.totalPlacements,unresolvedPlacements:row.unresolvedPlacements,unresolved});}
+await writeFile(output,JSON.stringify({scope:'47-map terrain readiness and all unresolved placement path/decode triage; not source effect completeness or pixel parity',summary:{maps:rows.length,terrainLoadable:rows.filter(r=>r.terrain==='loadable').length,unresolvedPlacements:rows.reduce((n,r)=>n+r.unresolvedPlacements,0),placementCategories:counts},rows},null,2)+'\n');console.log(JSON.stringify({maps:rows.length,counts}));

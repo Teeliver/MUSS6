@@ -1,0 +1,16 @@
+✔ support-plane culling preserves the eight-corner reference across cameras and margins (624.564125ms)
+✔ support-plane culling retains camera-plane touching and straddling bounds (9.735958ms)
+✔ Elbeland water retains all 24 live triangles and poses after pruning only the 24 zero-area sentinels (215.006875ms)
+✔ shared C++ sentinel filter never normalizes invalid bones still referenced by a live face (13561.436792ms)
+✔ Elbeland water UV advances at source 25Hz increments and leaves other worlds unchanged (4.102416ms)
+✔ original Crywolf/Swamp trees retain live branches and safely discard only the zero-area sentinel mesh (242.853917ms)
+✔ empty-mesh exception rejects near misses instead of accepting arbitrary damaged skin (13519.213ms)
+✔ original padded clouds JPEG keeps the outer 256x256 image and rejects missing EOI or nonzero garbage (17.387709ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 15017.396583

@@ -1,0 +1,38 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {noticePolicy} from '../client/src/ui/notice-policy.js';
+import {nameColor} from '../client/src/world/name-layer.js';
+import {createViewport} from '../client/src/protocol/viewport-codec.js';
+test('native notices route events centrally, system chat locally and rename only the requested branding',()=>{for(const type of [0,2,10,15])assert.equal(noticePolicy({type,message:'Event'}).central,true);assert.equal(noticePolicy({type:1,message:'You can not pick up this item at this time'}).central,false);assert.equal(noticePolicy({message:'Powered by SSeMU'}).message,'Phát triển T-NLabs - Mu Online');assert.equal(noticePolicy({message:'Other SSeMU message'}).message,'Other SSeMU message');});
+test('head names retain source NPC and PK colors',()=>{assert.deepEqual([0,1,2,3,4,5,6].map(nameColor),['#96fff0','#6478ff','#8cb4ff','#c8dcff','#ff963c','#ff501e','#ff0000']);});
+test('603 player names, PK and effect list parse atomically',()=>{const v=createViewport(),b=new Uint8Array(43);b.set([194,0,43,18,1,0,9,140,125]);b.set(new TextEncoder().encode('MuOptions'),27);b[39]=3;b[40]=2;b.set([1,2],41);assert.equal(v.apply(b,1),true);assert.equal(v.snapshot()[0].name,'MuOptions');assert.equal(v.snapshot()[0].pkLevel,3);assert.deepEqual(v.snapshot()[0].effects,[1,2]);const bad=b.slice(0,-1);bad[2]--;assert.throws(()=>v.apply(bad,1));assert.equal(v.snapshot()[0].name,'MuOptions');});
+import {groundItemName,groundItemVisual} from '../client/src/world/ground-item-name.js';
+test('ground equipment name appends only actual level, skill, option and luck in source order',()=>{const catalog=[];catalog[2560]={name:'Legendary Staff'};assert.equal(groundItemName({index:2560,level:9,skill:true,luck:true,option:7},catalog),'Legendary Staff +9+Skill+Option+Luck');assert.equal(groundItemName({index:2560,level:0},catalog),'Legendary Staff');assert.equal(groundItemName({index:2560,luck:true,option:4},catalog),'Legendary Staff+Option+Luck');assert.equal(groundItemName({money:123456},catalog),'123,456 Zen');catalog[13*512+8]={name:'Ring of Ice'};assert.equal(groundItemName({index:13*512+8,level:3,luck:true},catalog),'Ring of Ice +3+Luck');assert.equal(groundItemName({index:13*512+10,level:0,luck:true},catalog),'Item '+(13*512+10));});
+test('ground drop colours follow CreateDropItemName HookColorFont, not the tooltip palette',()=>{
+ const catalog=[];catalog[2560]={name:'Legendary Staff'};catalog[14*512+13]={name:'Jewel of Bless'};catalog[5*512+10]={name:'Divine Staff'};
+ const at=(o)=>groundItemVisual({index:2560,level:0,...o},catalog).color;
+ assert.equal(at({}),'#ffffff');assert.equal(at({level:2}),'#bcbcbc');assert.equal(at({level:3}),'#e56b0a');assert.equal(at({level:5}),'#7fb2ff');assert.equal(at({level:7}),'#ffcc19');assert.equal(at({level:9}),'#ffcc19');assert.equal(at({level:2,luck:true}),'#7fb2ff');
+ assert.equal(groundItemVisual({index:2560,level:0,excellent:1},catalog).color,'#19c81c');
+ assert.equal(groundItemVisual({index:2560,level:0,setOption:1},catalog).color,'#19c81c');
+ assert.deepEqual(groundItemVisual({index:14*512+13,level:0},catalog),{name:'Jewel of Bless',color:'#ffcc19',bold:true});
+ assert.equal(groundItemVisual({index:5*512+10,level:0},catalog).color,'#ff19ff');
+ assert.equal(groundItemVisual({index:12*512+60,level:0},catalog).color,'#b266ff');
+ assert.equal(groundItemVisual({index:12*512+3,level:0,excellent:1},catalog).color,'#ffffff');
+ assert.deepEqual(groundItemVisual({money:123456},catalog),{name:'123,456 Zen',color:'#ffcc19',bold:false});
+});
+import {createNameLayer} from '../client/src/world/name-layer.js';
+test('own name stays visible; NPC name exists only while hovered and resets cleanly',()=>{const children=[],document={body:{append(){}},createElement:()=>({dataset:{},style:{},append(v){children.push(v);},remove(){this.removed=true;}})},terrain={height:()=>0,heightAt:()=>0},entry={x:100,y:100},layer=createNameLayer({document,canvas:{getBoundingClientRect:()=>({left:0,top:0,width:1280,height:720})},entry,terrain,resources:{actors:{240:{npc:true,name:'Safety Guardian'}}}}),self={x:100,y:100,name:'MuOptions',headHeight:1.4},npc={index:7,type:240,x:101,y:100,headHeight:2};layer.draw(entry,self,[npc]);assert.deepEqual(children.filter(c=>!c.removed).map(c=>c.textContent),['MuOptions']);layer.hover(7);layer.draw(entry,self,[npc]);assert.deepEqual(children.filter(c=>!c.removed).map(c=>c.textContent),['MuOptions','Safety Guardian']);assert.equal(children.at(-1).style.color,'#96fff0');layer.hover(undefined);layer.draw(entry,self,[npc]);assert.equal(children.at(-1).removed,true);layer.dispose();});
+import {mapTitleAlpha} from '../client/src/world/map-title.js';
+import {mapTitleAssets} from '../client/src/world/map-title-assets.js';
+test('welcome goes to system chat even for type0 while branding and event countdown share notice area',()=>{assert.equal(noticePolicy({type:0,message:'Welcome back MuOptions!'}).central,false);assert.equal(noticePolicy({type:0,message:'Welcome back MuOptions!'}).type,1);assert.equal(noticePolicy({type:0,message:'Welcome to Lorencia'}).central,false);assert.equal(noticePolicy({type:0,message:'Blood Castle will start in 5 minutes'}).central,true);assert.equal(noticePolicy({type:1,message:'Powered by SSeMU'}).central,true);});
+test('map title bindings and source fade retain 5 second hold and correct native aliases',()=>{assert.equal(mapTitleAssets[0].path,'Interface/ImgsMapName/Lorencia.ozt');assert.equal(mapTitleAssets[4].path,'Interface/ImgsMapName/LostTower.ozt');assert.equal(mapTitleAssets[6].path,'Interface/ImgsMapName/Arena.ozt');assert.equal(mapTitleAssets[11].path,mapTitleAssets[52].path);assert.equal(mapTitleAssets[40],undefined);assert.equal(mapTitleAlpha(0),.2);assert.equal(mapTitleAlpha(3000),1);assert.equal(mapTitleAlpha(7000),1);assert.ok(mapTitleAlpha(8000)>0&&mapTitleAlpha(8000)<1);assert.equal(mapTitleAlpha(10000),0);});
+import {serverNotice} from '../client/src/protocol/ground-items.js';
+import {createNpcShop} from '../client/src/protocol/npc-shop.js';
+test('server notices and NPC messages decode Message.txt as UTF-8 Vietnamese',()=>{
+ const text='Chào mừng đến với Sài Gòn';
+ const notice=(value,type=2)=>{const msg=new TextEncoder().encode(value+'\0'),b=new Uint8Array(13+msg.length);b.set([0xc1,0,0x0d,type,0,0,0,0,0,0,0,0,0]);b[1]=b.length;b.set(msg,13);return b;};
+ assert.deepEqual(serverNotice(notice(text)),{type:2,message:text});
+ assert.deepEqual(serverNotice(notice('Chúc mừng năm mới',1)),{type:1,message:'Chúc mừng năm mới'});
+ const shop=createNpcShop();shop.begin({index:258,type:251});
+ const msg=new TextEncoder().encode(text+'\0'),npc=new Uint8Array(5+msg.length);npc.set([0xc1,npc.length,1,1,2]);npc.set(msg,5);
+ assert.equal(shop.apply(npc),true);assert.equal(shop.snapshot().message,text);assert.equal(shop.snapshot().open,true);
+});

@@ -1,0 +1,23 @@
+✔ Crywolf and Swamp dispatch source subtypes/probabilities and hide only documented marker meshes (2.179542ms)
+✔ TRUE_FIRE5 and SMOKE21 keep native lifetime, scale, gravity, movement and original textures (0.435375ms)
+✔ SMOKE49 substitutes cloud texture; CLOUD20 retains source colors and rise/fall transition (0.1615ms)
+✔ Raklion uses a random HIK family plus HIK1 each tick, with original blue/red colors and lifetime (2.272041ms)
+✔ Kanturu cloud10 uses subtractive blending and cloud11 retains colored drift/distance expiry (0.202667ms)
+✔ Kanturu WATERFALL3 subtype7 respects source temporary scale, absolute height and velocity update (0.103792ms)
+✔ Tarkan preserves texture slots, missing-object warnings and phase per rotated lava placement (0.260583ms)
+✔ environment keeps rotated lava pulses in separate batches and exposes their live material (24.523583ms)
+✔ non-Lorencia environment keeps placements beyond the former spawn radius and reports unresolved objects (4.081875ms)
+✔ legacy water and fire-object animation rates preserve source direction, mesh and scale (0.43175ms)
+✔ source fire emitter offsets rotate with the object and fire lifetime advances on native ticks (0.268542ms)
+✔ Elbeland native waterfall markers use the correct atlas, probability and particle updates (0.248084ms)
+✔ projection culling retains intersecting bounds and does not depend on spawn coordinates (0.206792ms)
+✔ map-specific animation rates retain MapManager and NewTown overrides (0.060375ms)
+✔ native missing world-texture lookup accepts only same-name candidates with identical contents (1.085958ms)
+ℹ tests 15
+ℹ suites 0
+ℹ pass 15
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 132.05275

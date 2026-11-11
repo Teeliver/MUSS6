@@ -1,0 +1,17 @@
+{
+  "name": "mu-ex603-local-gateway",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "26.11.1",
+    "npm": "11.20.0"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "start": "node src/main.mjs"
+  },
+  "dependencies": {
+    "ws": "8.22.0"
+  }
+}

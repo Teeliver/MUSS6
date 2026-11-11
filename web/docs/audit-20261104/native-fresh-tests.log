@@ -1,0 +1,83 @@
+Test project /tmp/mu-native-audit-20261104
+      Start  1: mu_platform_contract
+ 1/33 Test  #1: mu_platform_contract .....................   Passed    0.61 sec
+      Start  2: native-connect-core
+ 2/33 Test  #2: native-connect-core ......................   Passed    0.41 sec
+      Start  3: native-connect-preflight
+ 3/33 Test  #3: native-connect-preflight .................   Passed    0.42 sec
+      Start  4: native-connect-auto-preflight
+ 4/33 Test  #4: native-connect-auto-preflight ............***Failed    0.01 sec
+ConnectServer-native: No default configuration found. Pass --config DIR containing ConnectServer.ini, ServerList.dat and BlackList.txt, or place them in config/ beside the executable.
+
+      Start  5: mu_mysql_unit_tests
+ 5/33 Test  #5: mu_mysql_unit_tests ......................   Passed    0.44 sec
+      Start  6: native-support-framing
+ 6/33 Test  #6: native-support-framing ...................   Passed    0.44 sec
+      Start  7: native-join-preflight
+ 7/33 Test  #7: native-join-preflight ....................   Passed    0.49 sec
+      Start  8: native-data-preflight
+ 8/33 Test  #8: native-data-preflight ....................   Passed    0.40 sec
+      Start  9: native-support-launch-paths
+ 9/33 Test  #9: native-support-launch-paths ..............   Passed    0.43 sec
+      Start 10: native-join-auto-preflight
+10/33 Test #10: native-join-auto-preflight ...............***Failed    0.01 sec
+JoinServer-native: No default JoinServer configuration found. Pass --config DIR containing the service INI and runtime files.
+
+      Start 11: native-data-auto-preflight
+11/33 Test #11: native-data-auto-preflight ...............***Failed    0.01 sec
+DataServer-native: No default DataServer configuration found. Pass --config DIR containing the service INI and runtime files.
+
+      Start 12: native-join-invalid-explicit-config
+12/33 Test #12: native-join-invalid-explicit-config ......   Passed    0.01 sec
+      Start 13: native-join-invalid-explicit-mysql
+13/33 Test #13: native-join-invalid-explicit-mysql .......   Passed    0.01 sec
+      Start 14: mu_game_effect_contract
+14/33 Test #14: mu_game_effect_contract ..................   Passed    0.40 sec
+      Start 15: mu_game_random_contract
+15/33 Test #15: mu_game_random_contract ..................   Passed    0.38 sec
+      Start 16: mu_game_abi_contract
+16/33 Test #16: mu_game_abi_contract .....................   Passed    0.38 sec
+      Start 17: mu_game_timer_contract
+17/33 Test #17: mu_game_timer_contract ...................   Passed    0.38 sec
+      Start 18: mu_game_callback_tokens
+18/33 Test #18: mu_game_callback_tokens ..................   Passed    0.41 sec
+      Start 19: mu_game_cash_callback_abi
+19/33 Test #19: mu_game_cash_callback_abi ................   Passed    0.41 sec
+      Start 20: mu_game_book_requirements
+20/33 Test #20: mu_game_book_requirements ................   Passed    0.43 sec
+      Start 21: mu_client_contract
+21/33 Test #21: mu_client_contract .......................   Passed    0.43 sec
+      Start 22: mu_client_assets
+22/33 Test #22: mu_client_assets .........................   Passed    0.49 sec
+      Start 23: mu_client_render_contract
+23/33 Test #23: mu_client_render_contract ................   Passed    0.51 sec
+      Start 24: mu_client_cache_contract
+24/33 Test #24: mu_client_cache_contract .................   Passed    5.85 sec
+      Start 25: mu_client_summoner_elbeland_contract
+25/33 Test #25: mu_client_summoner_elbeland_contract .....   Passed    0.71 sec
+      Start 26: mu_client_hud_contract
+26/33 Test #26: mu_client_hud_contract ...................   Passed    0.59 sec
+      Start 27: mu_client_elf_noria_contract
+27/33 Test #27: mu_client_elf_noria_contract .............   Passed    0.33 sec
+      Start 28: mu_client_live_equipment_contract
+28/33 Test #28: mu_client_live_equipment_contract ........   Passed    1.57 sec
+      Start 29: mu_client_elf_bow_contract
+29/33 Test #29: mu_client_elf_bow_contract ...............   Passed    1.08 sec
+      Start 30: mu_client_localization_contract
+30/33 Test #30: mu_client_localization_contract ..........   Passed    0.48 sec
+      Start 31: mu_client_lobby_scene_contract
+31/33 Test #31: mu_client_lobby_scene_contract ...........   Passed    1.77 sec
+      Start 32: mu_client_system_menu_contract
+32/33 Test #32: mu_client_system_menu_contract ...........   Passed    0.85 sec
+      Start 33: mu_client_character_resources_contract
+33/33 Test #33: mu_client_character_resources_contract ...   Passed    0.81 sec
+
+91% tests passed, 3 tests failed out of 33
+
+Total Test time (real) =  21.98 sec
+
+The following tests FAILED:
+	  4 - native-connect-auto-preflight (Failed)
+	 10 - native-join-auto-preflight (Failed)
+	 11 - native-data-auto-preflight (Failed)
+Errors while running CTest

@@ -1,0 +1,395 @@
+{
+  "scope": "Original helper/companion model and texture bytes, Pet.bmd checksum/scales, finite native mesh sampling; not mounted riding or complete collection/particle behavior.",
+  "petDataHash": "942adef5b76cdfb7acfc317f6334f8311daf2ccd352bd58403222b726f1f73ff",
+  "configs": [
+    {
+      "type": 64,
+      "blend": -1,
+      "scale": 0.20000000298023224,
+      "actions": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "speeds": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "type": 65,
+      "blend": 0,
+      "scale": 0.4000000059604645,
+      "actions": [
+        1,
+        2,
+        3,
+        3,
+        3
+      ],
+      "speeds": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "type": 67,
+      "blend": -1,
+      "scale": 0.800000011920929,
+      "actions": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "speeds": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "type": 80,
+      "blend": -1,
+      "scale": 0.800000011920929,
+      "actions": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "speeds": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "type": 106,
+      "blend": -1,
+      "scale": 0.6000000238418579,
+      "actions": [
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "speeds": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929
+      ]
+    },
+    {
+      "type": 123,
+      "blend": -1,
+      "scale": 0.4000000059604645,
+      "actions": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "speeds": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    }
+  ],
+  "results": [
+    {
+      "index": 6656,
+      "type": 0,
+      "name": "Guardian Angel",
+      "model": "Player/Helper01.bmd",
+      "policy": {
+        "type": 0,
+        "flying": true,
+        "scale": 0.7,
+        "keys": 12.5,
+        "blend": 1,
+        "height": 1.5,
+        "range": 1.5,
+        "controller": "angel"
+      },
+      "textures": [
+        {
+          "path": "Item/fairy.OZJ",
+          "sha256": "10e9356b9215959c5a3aa82780f0afb4f88ca0471d3e8ba4b5c402e56a657ec7",
+          "width": 16,
+          "height": 16
+        },
+        {
+          "path": "Item/fairy2.OZJ",
+          "sha256": "09df461ebd000612b93c67a623036e68d7cd72ffd45396038c8cdc37d1b7ae5f",
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "modelHash": "449064c7603b557e70dce4a28c2d8981507ea52ecaf2b118c745c8b468459037",
+      "status": "sampled"
+    },
+    {
+      "index": 6657,
+      "type": 1,
+      "name": "Imp",
+      "model": "Player/Helper02.bmd",
+      "policy": {
+        "attachment": "bone34",
+        "offset": [
+          20,
+          0,
+          0
+        ],
+        "rfArmor": [
+          59,
+          60,
+          61,
+          73,
+          83
+        ],
+        "rfOffset": [
+          20,
+          -5,
+          20
+        ],
+        "keys": 12.5
+      },
+      "textures": [
+        {
+          "path": "Item/satan.OZJ",
+          "sha256": "dd65db8ef4e1348dc52f14a7bb0bd347b1145cf2f6aedda0da4457bbe41feedc",
+          "width": 16,
+          "height": 16
+        },
+        {
+          "path": "Item/satan2.ozt",
+          "sha256": "fbc70ab56124f434e7efa39c751e15778fec32f771534bf718bb11b62777268b",
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "modelHash": "f278a9fbb70d13e09266e63d7b21c06d3dcd27d67f17ccdb387b248104e0408a",
+      "status": "sampled"
+    },
+    {
+      "index": 6720,
+      "type": 64,
+      "name": "Demon",
+      "model": "Item/partcharge4/demon.bmd",
+      "policy": {
+        "type": 64,
+        "flying": true,
+        "scale": 0.20000000298023224,
+        "keys": 12.5,
+        "blend": -1,
+        "height": 2.07,
+        "range": 0.5,
+        "controller": 3
+      },
+      "textures": [
+        {
+          "path": "Item/partcharge4/demon_wing.ozt",
+          "sha256": "15f425d90e22ad1964757f9ea94ab1cd237b3891b0a0cb90f69b5ea1ee59b7b9",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "Item/partcharge4/demon_body.ozj",
+          "sha256": "5e9cf3dbb586fa52426baa9c4a0b741626cdadf981dc31d6e9d0ece0b8c09d56",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "Item/partcharge4/demon_corn.ozj",
+          "sha256": "808a7d9bddfdcec296ec62b5e2dcb402a701b5c71dac2c298b371ff237c0effb",
+          "width": 16,
+          "height": 16
+        }
+      ],
+      "modelHash": "35c8a21ccec9973cc91e83da7aea315a7be5aeb61d4eb216a53d43d98b85a0d4",
+      "status": "sampled"
+    },
+    {
+      "index": 6721,
+      "type": 65,
+      "name": "Spirit of Guardian",
+      "model": "Item/partcharge4/maria.bmd",
+      "policy": {
+        "type": 65,
+        "flying": true,
+        "scale": 0.4000000059604645,
+        "keys": 12.5,
+        "blend": 0,
+        "height": 2.07,
+        "range": 0.5,
+        "controller": 1
+      },
+      "textures": [
+        {
+          "path": "Item/partcharge4/smartangel02.ozj",
+          "sha256": "1a5aa12c4e362e9d8a938507238db7472947a00005881739d6f3b335fd24c925",
+          "width": 128,
+          "height": 128
+        },
+        {
+          "path": "Item/partcharge4/smartangel01.ozt",
+          "sha256": "4e80ba8e752d38def7138554b8acb706e0819e197bedf1a24e52965952b28c33",
+          "width": 128,
+          "height": 128
+        }
+      ],
+      "modelHash": "212d20bfe386a78e50bb95432bdd3bb62cb72b204983c7efcbbdfb65fa330186",
+      "status": "sampled"
+    },
+    {
+      "index": 6723,
+      "type": 67,
+      "name": "Pet Rudolf",
+      "model": "Item/xmas/xmas_deer.bmd",
+      "policy": {
+        "type": 67,
+        "flying": false,
+        "scale": 0.800000011920929,
+        "keys": 12.5,
+        "blend": -1,
+        "height": 0.2,
+        "range": 0.1,
+        "controller": 4
+      },
+      "textures": [
+        {
+          "path": "Item/xmas/flareRed.OZJ",
+          "sha256": "fc7b772d1b8685b5b89989838431616d19224e321a1492cc95f9b5369b794a48",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "Item/xmas/gold_tree.OZJ",
+          "sha256": "72d58145887e8146ccb900a5475afd95d46f65f4cfaf3126eb2c1a8f03c0b401",
+          "width": 16,
+          "height": 16
+        },
+        {
+          "path": "Item/xmas/xmassasum02.OZJ",
+          "sha256": "b8d49548ea4fc842670f74e634c5fd6e3a77de3990dba3e61a8f6242f16ae39d",
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "modelHash": "18282782c96a7311f860f03f55e7a65d9e0233c05b68c9729b8de0775b59a203",
+      "status": "sampled"
+    },
+    {
+      "index": 6736,
+      "type": 80,
+      "name": "Pet Panda",
+      "model": "Item/PandaPet.bmd",
+      "policy": {
+        "type": 80,
+        "flying": false,
+        "scale": 0.800000011920929,
+        "keys": 12.5,
+        "blend": -1,
+        "height": 0.2,
+        "range": 0.1,
+        "controller": 5
+      },
+      "textures": [
+        {
+          "path": "Item/PandaPet.OZJ",
+          "sha256": "c528005a31c63d5030db119fbaca65b4e9b8bd9e74687374a83877d8eeedf0b6",
+          "width": 256,
+          "height": 256
+        }
+      ],
+      "modelHash": "0122d519016ec23ad08cb1afe30f944b80b5eb85371339195c75bd4c55c47ce3",
+      "status": "sampled"
+    },
+    {
+      "index": 6762,
+      "type": 106,
+      "name": "Pet Unicorn",
+      "model": "Item/partcharge7/pet_unicorn.bmd",
+      "policy": {
+        "type": 106,
+        "flying": true,
+        "scale": 0.6000000238418579,
+        "keys": 20.000000298023224,
+        "blend": -1,
+        "height": 1.8,
+        "range": 0.1,
+        "controller": 6
+      },
+      "textures": [
+        {
+          "path": "Item/partcharge7/unicorn_wing.OZT",
+          "sha256": "838f0b27703943d5f589563b945b129cbf78a2e820d8df6069705a56f90daf6e",
+          "width": 128,
+          "height": 128
+        },
+        {
+          "path": "Item/partcharge7/unicorn_body.OZJ",
+          "sha256": "06e51cf09e3086278196fb64f3bca7a7b4c3a318a590041d8b94dc6794ed4e2c",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "path": "Item/partcharge7/mu_rgb_lights.OZJ",
+          "sha256": "8ef25d6f25001216daaaf8ff60a0901282d60b6eb9465deef238f93315b5993b",
+          "width": 128,
+          "height": 128
+        }
+      ],
+      "modelHash": "54ffe5d6c86f0ff8650985b4076f06b526aceb54cf89caa87176a4a4f7868fca",
+      "status": "sampled"
+    },
+    {
+      "index": 6779,
+      "type": 123,
+      "name": "Pet Skeleton",
+      "model": "Item/skeletonpet.bmd",
+      "policy": {
+        "type": 123,
+        "flying": false,
+        "scale": 0.4000000059604645,
+        "keys": 12.5,
+        "blend": -1,
+        "height": 0.45,
+        "range": 0.12,
+        "controller": 7
+      },
+      "textures": [
+        {
+          "path": "Item/skeleton_dragon.OZJ",
+          "sha256": "182e1df6cb9ee94ddb8fd2a948c781dd4c1602af8faf007fea9fab1fc46d6775",
+          "width": 256,
+          "height": 256
+        }
+      ],
+      "modelHash": "05f7456f0023fc39325fe3e802d8d62b5617b3e0aaeaf0f41fc32468a0af9ddd",
+      "status": "sampled"
+    }
+  ]
+}

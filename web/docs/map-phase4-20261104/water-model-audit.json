@@ -1,0 +1,11 @@
+{
+  "path": "Object52/Object90.bmd",
+  "sha256": "d3927ef1e10d8f5d220c731f2552143bd94704fd6d83d39a8b1d1ff477e09eca",
+  "bytes": 11630,
+  "fileModified": false,
+  "rawFaces": 48,
+  "retainedLiveFaces": 24,
+  "discardedZeroAreaSentinelFaces": 24,
+  "placements": 16,
+  "policy": "Discard only repeated-index triangles referencing zero-position/-8888 vertex and normal; preserve all live face indices and reject any invalid node still used by live faces."
+}

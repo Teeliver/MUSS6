@@ -1,0 +1,73 @@
+Test project /Users/angelale/Downloads/SOURCE-2.0.7/SOURCE/Source/Emulator/native/build
+      Start  1: mu_platform_contract
+ 1/34 Test  #1: mu_platform_contract .....................   Passed    0.02 sec
+      Start  2: native-connect-core
+ 2/34 Test  #2: native-connect-core ......................   Passed    0.01 sec
+      Start  3: native-connect-preflight
+ 3/34 Test  #3: native-connect-preflight .................   Passed    0.01 sec
+      Start  4: native-connect-auto-preflight
+ 4/34 Test  #4: native-connect-auto-preflight ............   Passed    0.01 sec
+      Start  5: mu_mysql_unit_tests
+ 5/34 Test  #5: mu_mysql_unit_tests ......................   Passed    0.03 sec
+      Start  6: native-support-framing
+ 6/34 Test  #6: native-support-framing ...................   Passed    0.01 sec
+      Start  7: native-join-preflight
+ 7/34 Test  #7: native-join-preflight ....................   Passed    0.01 sec
+      Start  8: native-data-preflight
+ 8/34 Test  #8: native-data-preflight ....................   Passed    0.01 sec
+      Start  9: native-support-launch-paths
+ 9/34 Test  #9: native-support-launch-paths ..............   Passed    0.02 sec
+      Start 10: native-join-auto-preflight
+10/34 Test #10: native-join-auto-preflight ...............   Passed    0.01 sec
+      Start 11: native-data-auto-preflight
+11/34 Test #11: native-data-auto-preflight ...............   Passed    0.01 sec
+      Start 12: native-join-invalid-explicit-config
+12/34 Test #12: native-join-invalid-explicit-config ......   Passed    0.01 sec
+      Start 13: native-join-invalid-explicit-mysql
+13/34 Test #13: native-join-invalid-explicit-mysql .......   Passed    0.01 sec
+      Start 14: mu_game_effect_contract
+14/34 Test #14: mu_game_effect_contract ..................   Passed    0.01 sec
+      Start 15: mu_game_random_contract
+15/34 Test #15: mu_game_random_contract ..................   Passed    0.01 sec
+      Start 16: mu_game_abi_contract
+16/34 Test #16: mu_game_abi_contract .....................   Passed    0.01 sec
+      Start 17: mu_game_timer_contract
+17/34 Test #17: mu_game_timer_contract ...................   Passed    0.01 sec
+      Start 18: mu_game_callback_tokens
+18/34 Test #18: mu_game_callback_tokens ..................   Passed    0.01 sec
+      Start 19: mu_game_cash_callback_abi
+19/34 Test #19: mu_game_cash_callback_abi ................   Passed    0.01 sec
+      Start 20: mu_game_packet_crypto
+20/34 Test #20: mu_game_packet_crypto ....................   Passed    0.15 sec
+      Start 21: mu_game_book_requirements
+21/34 Test #21: mu_game_book_requirements ................   Passed    0.01 sec
+      Start 22: mu_client_contract
+22/34 Test #22: mu_client_contract .......................   Passed    0.03 sec
+      Start 23: mu_client_assets
+23/34 Test #23: mu_client_assets .........................   Passed    0.11 sec
+      Start 24: mu_client_render_contract
+24/34 Test #24: mu_client_render_contract ................   Passed    0.31 sec
+      Start 25: mu_client_cache_contract
+25/34 Test #25: mu_client_cache_contract .................   Passed   10.07 sec
+      Start 26: mu_client_summoner_elbeland_contract
+26/34 Test #26: mu_client_summoner_elbeland_contract .....   Passed    1.75 sec
+      Start 27: mu_client_hud_contract
+27/34 Test #27: mu_client_hud_contract ...................   Passed    2.62 sec
+      Start 28: mu_client_elf_noria_contract
+28/34 Test #28: mu_client_elf_noria_contract .............   Passed    1.92 sec
+      Start 29: mu_client_live_equipment_contract
+29/34 Test #29: mu_client_live_equipment_contract ........   Passed    4.98 sec
+      Start 30: mu_client_elf_bow_contract
+30/34 Test #30: mu_client_elf_bow_contract ...............   Passed    3.09 sec
+      Start 31: mu_client_localization_contract
+31/34 Test #31: mu_client_localization_contract ..........   Passed    0.18 sec
+      Start 32: mu_client_lobby_scene_contract
+32/34 Test #32: mu_client_lobby_scene_contract ...........   Passed    1.75 sec
+      Start 33: mu_client_system_menu_contract
+33/34 Test #33: mu_client_system_menu_contract ...........   Passed    0.35 sec
+      Start 34: mu_client_character_resources_contract
+34/34 Test #34: mu_client_character_resources_contract ...   Passed    3.29 sec
+
+100% tests passed out of 34
+
+Total Test time (real) =  30.93 sec

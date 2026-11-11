@@ -1,0 +1,433 @@
+{
+  "scope": "Original Data resource receipts and native cloth configuration; does not certify pixel parity.",
+  "rows": [
+    {
+      "index": 6686,
+      "classIndex": 4,
+      "model": "Item/DarkLordRobe.bmd",
+      "modelSha256": "4d7e8537d12890c7e93370684a8c91eb23e4b3761617d39a0fb4722cc220b1f0",
+      "inventoryMeshCount": 1,
+      "worldOrnamentMeshCount": 0,
+      "cloth": [
+        {
+          "bone": 19,
+          "offset": [
+            0,
+            8,
+            10
+          ],
+          "hor": 10,
+          "ver": 10,
+          "width": 180,
+          "height": 180,
+          "curved": true,
+          "short": true,
+          "heavy": false,
+          "path": "Player/DarklordRobe.OZT",
+          "spheres": [
+            {
+              "p": [
+                -10,
+                -10,
+                -10
+              ],
+              "r": 25,
+              "bone": 17
+            },
+            {
+              "p": [
+                10,
+                -10,
+                -10
+              ],
+              "r": 25,
+              "bone": 17
+            },
+            {
+              "p": [
+                -10,
+                -10,
+                20
+              ],
+              "r": 27,
+              "bone": 17
+            },
+            {
+              "p": [
+                10,
+                -10,
+                20
+              ],
+              "r": 27,
+              "bone": 17
+            }
+          ],
+          "sha256": "5ec98ce168ae84f024429eececeb45138ae6968e435dc8c5c0e497528bc51746",
+          "widthPixels": 128,
+          "heightPixels": 256
+        }
+      ]
+    },
+    {
+      "index": 6184,
+      "classIndex": 4,
+      "model": "Item/DarkLordRobe02.bmd",
+      "modelSha256": "36e033c9db84dfc9febda70f74748d96a0b8d89f2acc15d569cb15f376383807",
+      "inventoryMeshCount": 3,
+      "worldOrnamentMeshCount": 1,
+      "cloth": [
+        {
+          "bone": 19,
+          "offset": [
+            0,
+            8,
+            10
+          ],
+          "hor": 10,
+          "ver": 10,
+          "width": 180,
+          "height": 180,
+          "curved": true,
+          "short": true,
+          "heavy": true,
+          "path": "Item/dl_redwings02.OZT",
+          "spheres": [
+            {
+              "p": [
+                -10,
+                -10,
+                -10
+              ],
+              "r": 25,
+              "bone": 17
+            },
+            {
+              "p": [
+                10,
+                -10,
+                -10
+              ],
+              "r": 25,
+              "bone": 17
+            },
+            {
+              "p": [
+                -10,
+                -10,
+                20
+              ],
+              "r": 27,
+              "bone": 17
+            },
+            {
+              "p": [
+                10,
+                -10,
+                20
+              ],
+              "r": 27,
+              "bone": 17
+            }
+          ],
+          "sha256": "14282f2a57fe6ee9c41cf3a6352f5c573994e15a88fbee1b85ed6de866ccf652",
+          "widthPixels": 128,
+          "heightPixels": 256
+        },
+        {
+          "bone": 19,
+          "offset": [
+            30,
+            15,
+            10
+          ],
+          "hor": 2,
+          "ver": 5,
+          "width": 12,
+          "height": 200,
+          "curved": false,
+          "short": false,
+          "heavy": false,
+          "rage": 0,
+          "path": "Item/dl_redwings03.OZT",
+          "spheres": [
+            {
+              "p": [
+                0,
+                -15,
+                -20
+              ],
+              "r": 30,
+              "bone": 2
+            },
+            {
+              "p": [
+                0,
+                0,
+                0
+              ],
+              "r": 35,
+              "bone": 17
+            }
+          ],
+          "sha256": "2fc790a6e7dea76527a01dd5ccfba489b9cca7fe26fc2ccd35eaaac53969221a",
+          "widthPixels": 32,
+          "heightPixels": 128
+        },
+        {
+          "bone": 19,
+          "offset": [
+            -30,
+            20,
+            10
+          ],
+          "hor": 2,
+          "ver": 5,
+          "width": 12,
+          "height": 200,
+          "curved": false,
+          "short": false,
+          "heavy": false,
+          "rage": 0,
+          "path": "Item/dl_redwings03.OZT",
+          "spheres": [
+            {
+              "p": [
+                0,
+                -15,
+                -20
+              ],
+              "r": 30,
+              "bone": 2
+            },
+            {
+              "p": [
+                0,
+                0,
+                0
+              ],
+              "r": 35,
+              "bone": 17
+            }
+          ],
+          "sha256": "2fc790a6e7dea76527a01dd5ccfba489b9cca7fe26fc2ccd35eaaac53969221a",
+          "widthPixels": 32,
+          "heightPixels": 128
+        }
+      ]
+    },
+    {
+      "index": 6193,
+      "classIndex": 6,
+      "model": "Item/Wing50.bmd",
+      "modelSha256": "4f9b3ba8b2a652cb60ca65c7eeefef9025efe3bc63bc8cb193a879b010e54b1a",
+      "inventoryMeshCount": 1,
+      "worldOrnamentMeshCount": 0,
+      "cloth": [
+        {
+          "bone": 19,
+          "offset": [
+            0,
+            15,
+            5
+          ],
+          "hor": 10,
+          "ver": 10,
+          "width": 180,
+          "height": 170,
+          "curved": true,
+          "short": true,
+          "heavy": true,
+          "path": "Item/NCcape.OZT",
+          "spheres": [
+            {
+              "p": [
+                -10,
+                -10,
+                -10
+              ],
+              "r": 35,
+              "bone": 17
+            },
+            {
+              "p": [
+                10,
+                -10,
+                -10
+              ],
+              "r": 35,
+              "bone": 17
+            },
+            {
+              "p": [
+                -10,
+                -10,
+                20
+              ],
+              "r": 37,
+              "bone": 17
+            },
+            {
+              "p": [
+                10,
+                -10,
+                20
+              ],
+              "r": 37,
+              "bone": 17
+            }
+          ],
+          "sha256": "4770951fb0ac32edb88d7b73fac6318d69b6fb9326566acbc293ccd75421a464",
+          "widthPixels": 128,
+          "heightPixels": 256
+        }
+      ]
+    },
+    {
+      "index": 6194,
+      "classIndex": 6,
+      "model": "Item/Wing51.bmd",
+      "modelSha256": "b177ee0b08fcda2b25619549ee7d7557a9405d79de7bbac1af5547e4b8891744",
+      "inventoryMeshCount": 3,
+      "worldOrnamentMeshCount": 1,
+      "cloth": [
+        {
+          "bone": 19,
+          "offset": [
+            0,
+            15,
+            5
+          ],
+          "hor": 10,
+          "ver": 10,
+          "width": 180,
+          "height": 170,
+          "curved": true,
+          "short": true,
+          "heavy": true,
+          "path": "Item/monke_manto.OZT",
+          "spheres": [
+            {
+              "p": [
+                -10,
+                -10,
+                -10
+              ],
+              "r": 35,
+              "bone": 17
+            },
+            {
+              "p": [
+                10,
+                -10,
+                -10
+              ],
+              "r": 35,
+              "bone": 17
+            },
+            {
+              "p": [
+                -10,
+                -10,
+                20
+              ],
+              "r": 37,
+              "bone": 17
+            },
+            {
+              "p": [
+                10,
+                -10,
+                20
+              ],
+              "r": 37,
+              "bone": 17
+            }
+          ],
+          "sha256": "504d484a9e8a3d3162a3a05a5d61b9ec83b75a6e534600311e3a2f9c66dac99d",
+          "widthPixels": 128,
+          "heightPixels": 256
+        },
+        {
+          "bone": 19,
+          "offset": [
+            25,
+            15,
+            2
+          ],
+          "hor": 2,
+          "ver": 5,
+          "width": 12,
+          "height": 180,
+          "curved": false,
+          "short": false,
+          "heavy": false,
+          "rage": 1,
+          "path": "Item/monk_manto01.OZT",
+          "spheres": [
+            {
+              "p": [
+                0,
+                -15,
+                -20
+              ],
+              "r": 35,
+              "bone": 2
+            },
+            {
+              "p": [
+                0,
+                0,
+                0
+              ],
+              "r": 45,
+              "bone": 17
+            }
+          ],
+          "sha256": "b2d5b502433d008a096af19d6db93d60fe58707f66a9907fff7c6b3397ce5db9",
+          "widthPixels": 32,
+          "heightPixels": 256
+        },
+        {
+          "bone": 19,
+          "offset": [
+            -25,
+            15,
+            2
+          ],
+          "hor": 2,
+          "ver": 5,
+          "width": 12,
+          "height": 180,
+          "curved": false,
+          "short": false,
+          "heavy": false,
+          "rage": -1,
+          "path": "Item/monk_manto01.OZT",
+          "spheres": [
+            {
+              "p": [
+                0,
+                -15,
+                -20
+              ],
+              "r": 35,
+              "bone": 2
+            },
+            {
+              "p": [
+                0,
+                0,
+                0
+              ],
+              "r": 50,
+              "bone": 17
+            }
+          ],
+          "sha256": "b2d5b502433d008a096af19d6db93d60fe58707f66a9907fff7c6b3397ce5db9",
+          "widthPixels": 32,
+          "heightPixels": 256
+        }
+      ]
+    }
+  ]
+}

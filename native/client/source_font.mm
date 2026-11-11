@@ -1,0 +1,9 @@
+#include "source_font.hpp"
+#include "localization.hpp"
+#import <CoreText/CoreText.h>
+#include <fstream>
+#include <stdexcept>
+namespace mu::ui {namespace {NSString* family=@"Gulim";}
+void prepare_source_font(const std::string& root,const std::string& language){auto text=load_texts(std::filesystem::path(root)/"Data",language).at(0);std::ifstream file(std::filesystem::path(root)/"Config.ini");std::string row,name="Tahoma";bool enabled=false,inSection=false;auto trim=[](std::string s){auto first=s.find_first_not_of(" \t\r");return first==s.npos?std::string():s.substr(first,s.find_last_not_of(" \t\r")-first+1);};while(std::getline(file,row)){row=trim(row);if(row.empty())continue;if(row.front()=='['){inSection=row=="[FontInfo]";continue;}if(!inSection)continue;auto pos=row.find('=');if(pos==row.npos)continue;auto key=trim(row.substr(0,pos)),value=trim(row.substr(pos+1));if(key=="ChangeFontSwitch")enabled=value!="0";if(key=="FontName")name=value;}if(enabled)text=name;family=[NSString stringWithUTF8String:text.c_str()];if(![NSFont fontWithName:family size:12]){for(NSString* path in @[@"/Applications/Microsoft Word.app/Contents/Resources/DFonts/gulim.ttc",@"/Applications/Microsoft Excel.app/Contents/Resources/DFonts/gulim.ttc"]){if([[NSFileManager defaultManager] fileExistsAtPath:path])CTFontManagerRegisterFontsForURL((__bridge CFURLRef)[NSURL fileURLWithPath:path],kCTFontManagerScopeProcess,nullptr);if([NSFont fontWithName:family size:12])break;}}if(![NSFont fontWithName:family size:12])throw std::runtime_error("Original client font unavailable: "+text);}
+NSFont* source_font(CGFloat size,bool bold){NSFont* font=[NSFont fontWithName:family size:size];if(!font)throw std::runtime_error("Original client font not prepared");return bold?[[NSFontManager sharedFontManager] convertFont:font toHaveTrait:NSBoldFontMask]:font;}
+}

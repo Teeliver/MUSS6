@@ -1,0 +1,42 @@
+{
+  "run": "W0013",
+  "checks": {
+    "web_native_tests": "12/12 passed",
+    "wasm_contract_and_js_binding": "passed",
+    "MU_online": "not tested"
+  },
+  "files": [
+    {
+      "path": "GameServer/HackCheck.cpp",
+      "sha256": "2452b37b729df348766dad4bc72bd2eaecfce3a01112f8c3114799a95ba8f6bf"
+    },
+    {
+      "path": "../Main_EX603/Main/HackCheck.cpp",
+      "sha256": "bfe7778825edaadba13efd29afe8842bbcc814b95137ea8c0c86b4dcaf01f47b"
+    },
+    {
+      "path": "ConnectServer/ConnectServerProtocol.h",
+      "sha256": "e07d0182364a9145c014e11d20712d3e815b3ca9d62c05cecbd7d0f6a3dbf904"
+    },
+    {
+      "path": "ConnectServer/ConnectServerProtocol.cpp",
+      "sha256": "6a8646a88f7a3d2aa44d43fdb0f91bedd1d46214e1335d6d56e253475cf28607"
+    },
+    {
+      "path": "ConnectServer/ServerList.cpp",
+      "sha256": "228183df82a28d594dbd7615aa7a690f5f4a0b36a9092c79427bac4f8470dd0d"
+    },
+    {
+      "path": "client-core/include/mu/connect_protocol.hpp",
+      "sha256": "3bb89ead02576aa13d235f9576c841cf1e5429dedecb3993dff34c92cda62ca4"
+    },
+    {
+      "path": "web/.build/wasm/protocol-contract.wasm",
+      "sha256": "269cc064b9fd6933a2246d20125f7c4c23e870f7d05296c6c63132bfd6b71e46"
+    },
+    {
+      "path": "web/.build/wasm/frame-reader.wasm",
+      "sha256": "3ffaa1493722a16c38bf6a4a5023095c5fa63e3651315bf068e521fb5a7d0c2e"
+    }
+  ]
+}

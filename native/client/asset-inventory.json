@@ -1,0 +1,34 @@
+{
+  "assetRoot": "/Users/angelale/Downloads/MuClientEX603",
+  "fileCount": 13665,
+  "extensionCounts": {
+    ".att": 66,
+    ".bmd": 5183,
+    ".csr": 1,
+    ".cws": 2,
+    ".dat": 2,
+    ".db": 12,
+    ".dll": 5,
+    ".ini": 1,
+    ".jpg": 1,
+    ".map": 57,
+    ".obj": 57,
+    ".ozb": 47,
+    ".ozj": 5618,
+    ".ozt": 1668,
+    ".smd": 3,
+    ".tga": 22,
+    ".txt": 8,
+    ".wav": 911,
+    ".zip": 1
+  },
+  "windowsBinaries": [
+    "wzAudio.dll",
+    "vorbisfile.dll",
+    "msvcr100.dll",
+    "msvcp100.dll",
+    "ogg.dll"
+  ],
+  "sourceFileCount": 0,
+  "rendererImplemented": false
+}

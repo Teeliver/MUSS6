@@ -1,0 +1,663 @@
+{
+  "run": "W0002",
+  "report_sha256": "3611708fd72567f5e9ad397427fdef6cbb593f660cab08308478f8946ff268e0",
+  "counts": {
+    "texture:parsed": 7278,
+    "model:parsed": 5025,
+    "non_model_bmd:not_audited": 149,
+    "model:parser_error": 9,
+    "texture:parser_error": 8
+  },
+  "unresolved_references": 143,
+  "affected_models": 103,
+  "parser_errors": [
+    {
+      "path": "Object3/Object25.bmd",
+      "error": "Object3/Object25.bmd: Unsupported BMD model version"
+    },
+    {
+      "path": "Object3/Object27.bmd",
+      "error": "Object3/Object27.bmd: Unsupported BMD model version"
+    },
+    {
+      "path": "Object3/Object33.bmd",
+      "error": "Object3/Object33.bmd: Unsupported BMD model version"
+    },
+    {
+      "path": "Object3/Object90.bmd",
+      "error": "Object3/Object90.bmd: Unsupported BMD model version"
+    },
+    {
+      "path": "Object34/Pool001.OZJ",
+      "error": "Unsupported OZJ wrapper"
+    },
+    {
+      "path": "Object34/ma_001.OZJ",
+      "error": "Unsupported OZJ wrapper"
+    },
+    {
+      "path": "Object35/Object36.bmd",
+      "error": "Object35/Object36.bmd: BMD vertex bone index out of bounds"
+    },
+    {
+      "path": "Object35/Pool001.OZJ",
+      "error": "Unsupported OZJ wrapper"
+    },
+    {
+      "path": "Object35/cr1_shadow.OZJ",
+      "error": "Unsupported OZJ wrapper"
+    },
+    {
+      "path": "Object35/ma_001.OZJ",
+      "error": "Unsupported OZJ wrapper"
+    },
+    {
+      "path": "Object47/cage2.OZJ",
+      "error": "Unsupported OZJ wrapper"
+    },
+    {
+      "path": "Object52/Object90.bmd",
+      "error": "Object52/Object90.bmd: BMD vertex bone index out of bounds"
+    },
+    {
+      "path": "Object55/ma_001.ozj",
+      "error": "Unsupported OZJ wrapper"
+    },
+    {
+      "path": "Object55/pool001.ozj",
+      "error": "Unsupported OZJ wrapper"
+    },
+    {
+      "path": "Object57/Object36.bmd",
+      "error": "Object57/Object36.bmd: BMD vertex bone index out of bounds"
+    },
+    {
+      "path": "Player/HelmMale20.bmd",
+      "error": "Player/HelmMale20.bmd: Invalid model float"
+    },
+    {
+      "path": "Skill/CW_Bow_Skill.bmd",
+      "error": "Skill/CW_Bow_Skill.bmd: BMD vertex bone index out of bounds"
+    }
+  ],
+  "unresolved_local_textures": [
+    {
+      "model": "Effect/eventroofe.bmd",
+      "reference": "maskingstone.jpg"
+    },
+    {
+      "model": "Effect/eventsungmul.bmd",
+      "reference": "hollstone.tga"
+    },
+    {
+      "model": "Effect/slime_chip.bmd",
+      "reference": "youmuk01aeff.jpg"
+    },
+    {
+      "model": "Item/DarkHorseHorn.bmd",
+      "reference": "dkhead2.JPG"
+    },
+    {
+      "model": "Item/DarkHorseHorn.bmd",
+      "reference": "dkheadwing.JPG"
+    },
+    {
+      "model": "Item/EventChaosCastle.bmd",
+      "reference": "ng01.jpg"
+    },
+    {
+      "model": "Item/LifestoneItem.bmd",
+      "reference": "Monster81.jpg"
+    },
+    {
+      "model": "Item/LifestoneItem.bmd",
+      "reference": "Monster81_R2.jpg"
+    },
+    {
+      "model": "Item/PartCharge6/suhocham01.bmd",
+      "reference": "flareBlue.jpg"
+    },
+    {
+      "model": "Item/Shield_18.bmd",
+      "reference": "flareRed.jpg"
+    },
+    {
+      "model": "Item/Sword33.bmd",
+      "reference": "SPweapon.jpg"
+    },
+    {
+      "model": "Item/Sword33.bmd",
+      "reference": "SFbody.jpg"
+    },
+    {
+      "model": "Item/Sword34.bmd",
+      "reference": "Item762_Armor.jpg"
+    },
+    {
+      "model": "Item/Sword34.bmd",
+      "reference": "Item762_Helm.jpg"
+    },
+    {
+      "model": "Item/Sword35.bmd",
+      "reference": "Item761_Sword.jpg"
+    },
+    {
+      "model": "Item/SwordL33.bmd",
+      "reference": "SFbody.jpg"
+    },
+    {
+      "model": "Item/SwordL33.bmd",
+      "reference": "SPweapon.jpg"
+    },
+    {
+      "model": "Item/SwordL34.bmd",
+      "reference": "Item762_Armor.jpg"
+    },
+    {
+      "model": "Item/SwordL34.bmd",
+      "reference": "Item762_Helm.jpg"
+    },
+    {
+      "model": "Item/SwordL35.bmd",
+      "reference": "Item761_Sword.jpg"
+    },
+    {
+      "model": "Item/SwordR33.bmd",
+      "reference": "SFbody.jpg"
+    },
+    {
+      "model": "Item/SwordR33.bmd",
+      "reference": "SPweapon.jpg"
+    },
+    {
+      "model": "Item/SwordR34.bmd",
+      "reference": "Item762_Armor.jpg"
+    },
+    {
+      "model": "Item/SwordR34.bmd",
+      "reference": "Item762_Helm.jpg"
+    },
+    {
+      "model": "Item/SwordR35.bmd",
+      "reference": "Item761_Sword.jpg"
+    },
+    {
+      "model": "Item/partCharge2/expensiveitem04b.bmd",
+      "reference": "expensiveitem03bc.jpg"
+    },
+    {
+      "model": "Item/partcharge4/curemark.bmd",
+      "reference": "monmark02a.jpg"
+    },
+    {
+      "model": "Item/partcharge7/ESDPotion.bmd",
+      "reference": "EPotion_R.jpg"
+    },
+    {
+      "model": "Item/s30_seed.bmd",
+      "reference": "chysukmoon.jpg"
+    },
+    {
+      "model": "Item/s30_sphere01.bmd",
+      "reference": "chysukmoon.jpg"
+    },
+    {
+      "model": "Item/s30_sphere02.bmd",
+      "reference": "chysukmoon.jpg"
+    },
+    {
+      "model": "Item/s30_sphere03.bmd",
+      "reference": "chysukmoon.jpg"
+    },
+    {
+      "model": "Item/s30_sphere04.bmd",
+      "reference": "chysukmoon.jpg"
+    },
+    {
+      "model": "Item/s30_sphere05.bmd",
+      "reference": "chysukmoon.jpg"
+    },
+    {
+      "model": "Item/spiritbill.bmd",
+      "reference": "dkshelmet.jpg"
+    },
+    {
+      "model": "Item/spiritbill.bmd",
+      "reference": "dksbody.tga"
+    },
+    {
+      "model": "Item/tan.bmd",
+      "reference": "hide.jpg"
+    },
+    {
+      "model": "Item/waterring.bmd",
+      "reference": "waterring.JPG"
+    },
+    {
+      "model": "Monster/Boss_Karane_sword_left01.bmd",
+      "reference": "mu_rgb_lights.jpg"
+    },
+    {
+      "model": "Monster/Boss_Karane_sword_left02.bmd",
+      "reference": "mu_rgb_lights.jpg"
+    },
+    {
+      "model": "Monster/Boss_Karane_sword_main01.bmd",
+      "reference": "mu_rgb_lights.jpg"
+    },
+    {
+      "model": "Monster/Boss_Karane_sword_right01.bmd",
+      "reference": "mu_rgb_lights.jpg"
+    },
+    {
+      "model": "Monster/Boss_Karane_sword_right02.bmd",
+      "reference": "mu_rgb_lights.jpg"
+    },
+    {
+      "model": "Monster/Karane_sword_left01.bmd",
+      "reference": "mu_rgb_lights.jpg"
+    },
+    {
+      "model": "Monster/Karane_sword_left02.bmd",
+      "reference": "mu_rgb_lights.jpg"
+    },
+    {
+      "model": "Monster/Karane_sword_main01.bmd",
+      "reference": "mu_rgb_lights.jpg"
+    },
+    {
+      "model": "Monster/Karane_sword_right01.bmd",
+      "reference": "mu_rgb_lights.jpg"
+    },
+    {
+      "model": "Monster/Karane_sword_right02.bmd",
+      "reference": "mu_rgb_lights.jpg"
+    },
+    {
+      "model": "Monster/Monster151.bmd",
+      "reference": "blast2_r.jpg"
+    },
+    {
+      "model": "Monster/Monster71.bmd",
+      "reference": "ng01.jpg"
+    },
+    {
+      "model": "Monster/Monster72.bmd",
+      "reference": "ng01.jpg"
+    },
+    {
+      "model": "Monster/Monster73.bmd",
+      "reference": "ng01.jpg"
+    },
+    {
+      "model": "Monster/Monster87.bmd",
+      "reference": "TowerGateplane_R.JPG"
+    },
+    {
+      "model": "Monster/umbrella_eyes_object.bmd",
+      "reference": "lightmarks.jpg"
+    },
+    {
+      "model": "NPC/UnitedMarkedPlace_raul.bmd",
+      "reference": "flareRed.jpg"
+    },
+    {
+      "model": "NPC/UnitedMarkedPlace_raul.bmd",
+      "reference": "youmuk01aeff.jpg"
+    },
+    {
+      "model": "NPC/UnitedMarkedPlace_raul.bmd",
+      "reference": "sulnalbagiteam.jpg"
+    },
+    {
+      "model": "NPC/UnitedMarkedPlace_raul.bmd",
+      "reference": "xmaseffitemx.jpg"
+    },
+    {
+      "model": "NPC/UnitedMarkedPlace_raul.bmd",
+      "reference": "puckitemz.jpg"
+    },
+    {
+      "model": "NPC/UnitedMarkedPlace_raul.bmd",
+      "reference": "sulnalbagiteampeg.jpg"
+    },
+    {
+      "model": "NPC/UnitedMarkedPlace_raul.bmd",
+      "reference": "motion_blur_r3.JPG"
+    },
+    {
+      "model": "NPC/WereQuarrel.bmd",
+      "reference": "cr_werewolf01.jpg"
+    },
+    {
+      "model": "NPC/WereQuarrel.bmd",
+      "reference": "cr_werewolf02.jpg"
+    },
+    {
+      "model": "NPC/xmassanta.bmd",
+      "reference": "xmassanta.jpg"
+    },
+    {
+      "model": "Object12/StoneCoffin01.bmd",
+      "reference": "skR.jpg"
+    },
+    {
+      "model": "Object12/StoneCoffin02.bmd",
+      "reference": "skR.jpg"
+    },
+    {
+      "model": "Object3/Object102.bmd",
+      "reference": "sword14.jpg"
+    },
+    {
+      "model": "Object3/Object102.bmd",
+      "reference": "sword14.tga"
+    },
+    {
+      "model": "Object3/Object102.bmd",
+      "reference": "sword11.jpg"
+    },
+    {
+      "model": "Object3/Object102.bmd",
+      "reference": "sword11.tga"
+    },
+    {
+      "model": "Object3/Object102.bmd",
+      "reference": "sword06.jpg"
+    },
+    {
+      "model": "Object3/Object102.bmd",
+      "reference": "hound_sword1.jpg"
+    },
+    {
+      "model": "Object3/Object102.bmd",
+      "reference": "hound_shield1.tga"
+    },
+    {
+      "model": "Object3/Object102.bmd",
+      "reference": "shield05.jpg"
+    },
+    {
+      "model": "Object3/Object102.bmd",
+      "reference": "sword03.jpg"
+    },
+    {
+      "model": "Object3/Object105.bmd",
+      "reference": "sword03.jpg"
+    },
+    {
+      "model": "Object35/Object43.bmd",
+      "reference": "bons.jpg"
+    },
+    {
+      "model": "Object35/Object44.bmd",
+      "reference": "bons.jpg"
+    },
+    {
+      "model": "Object39/Object158.bmd",
+      "reference": "pannilleff02_R.jpg"
+    },
+    {
+      "model": "Object42/Object34.bmd",
+      "reference": "bons.jpg"
+    },
+    {
+      "model": "Object42/Object35.bmd",
+      "reference": "bons.jpg"
+    },
+    {
+      "model": "Object43/Object34.bmd",
+      "reference": "bons.jpg"
+    },
+    {
+      "model": "Object43/Object35.bmd",
+      "reference": "bons.jpg"
+    },
+    {
+      "model": "Object52/Object103.bmd",
+      "reference": "sword02.jpg"
+    },
+    {
+      "model": "Object52/Object114.bmd",
+      "reference": "shield02.jpg"
+    },
+    {
+      "model": "Object52/Object114.bmd",
+      "reference": "shield03.jpg"
+    },
+    {
+      "model": "Object52/Object114.bmd",
+      "reference": "sword08.jpg"
+    },
+    {
+      "model": "Object52/Object115.bmd",
+      "reference": "medicine2.jpg"
+    },
+    {
+      "model": "Object52/Object115.bmd",
+      "reference": "medicine1.jpg"
+    },
+    {
+      "model": "Object52/Object118.bmd",
+      "reference": "bottle.tga"
+    },
+    {
+      "model": "Object64/Object09.bmd",
+      "reference": "bons.jpg"
+    },
+    {
+      "model": "Object64/Object10.bmd",
+      "reference": "bons.jpg"
+    },
+    {
+      "model": "Object68/Object36.bmd",
+      "reference": "bons.jpg"
+    },
+    {
+      "model": "Object71/Object124.bmd",
+      "reference": "Axes10.jpg"
+    },
+    {
+      "model": "Object81/Object109.bmd",
+      "reference": "medicine2.jpg"
+    },
+    {
+      "model": "Object81/Object109.bmd",
+      "reference": "medicine1.jpg"
+    },
+    {
+      "model": "Object81/Object111.bmd",
+      "reference": "sword02.jpg"
+    },
+    {
+      "model": "Object81/Object112.bmd",
+      "reference": "shield03.jpg"
+    },
+    {
+      "model": "Object81/Object113.bmd",
+      "reference": "sword08.jpg"
+    },
+    {
+      "model": "Object81/Object113.bmd",
+      "reference": "shield02.jpg"
+    },
+    {
+      "model": "Object82/Object109.bmd",
+      "reference": "medicine2.jpg"
+    },
+    {
+      "model": "Object82/Object109.bmd",
+      "reference": "medicine1.jpg"
+    },
+    {
+      "model": "Object82/Object111.bmd",
+      "reference": "sword02.jpg"
+    },
+    {
+      "model": "Object82/Object112.bmd",
+      "reference": "shield03.jpg"
+    },
+    {
+      "model": "Object82/Object113.bmd",
+      "reference": "sword08.jpg"
+    },
+    {
+      "model": "Object82/Object113.bmd",
+      "reference": "shield02.jpg"
+    },
+    {
+      "model": "Player/Angel.bmd",
+      "reference": "ng01.jpg"
+    },
+    {
+      "model": "Player/Helper01.bmd",
+      "reference": "fairy.jpg"
+    },
+    {
+      "model": "Player/Helper01.bmd",
+      "reference": "fairy2.jpg"
+    },
+    {
+      "model": "Player/Helper02.bmd",
+      "reference": "satan.jpg"
+    },
+    {
+      "model": "Player/Helper02.bmd",
+      "reference": "satan2.tga"
+    },
+    {
+      "model": "Player/Helper03.bmd",
+      "reference": "unicon.jpg"
+    },
+    {
+      "model": "Player/Helper03.bmd",
+      "reference": "unicon01.tga"
+    },
+    {
+      "model": "Player/Helper04.bmd",
+      "reference": "RedDragonT.jpg"
+    },
+    {
+      "model": "Player/LuckyItem/69/new_Armor08.bmd",
+      "reference": "hide_m.jpg"
+    },
+    {
+      "model": "Player/LuckyItem/69/new_Boot08.bmd",
+      "reference": "hide_m.jpg"
+    },
+    {
+      "model": "Player/LuckyItem/69/new_Glove08.bmd",
+      "reference": "hide_m.jpg"
+    },
+    {
+      "model": "Player/LuckyItem/69/new_Pant08.bmd",
+      "reference": "hide_m.jpg"
+    },
+    {
+      "model": "Player/LuckyItem/70/new_Helm09.bmd",
+      "reference": "head helmet Luck 40.jpg"
+    },
+    {
+      "model": "Player/Wing02.bmd",
+      "reference": "angel_wing.tga"
+    },
+    {
+      "model": "Skill/ArrowBomb01.bmd",
+      "reference": "wwe.jpg"
+    },
+    {
+      "model": "Skill/Aurora.bmd",
+      "reference": "Monster81_R.jpg"
+    },
+    {
+      "model": "Skill/Ball01.bmd",
+      "reference": "wwe.jpg"
+    },
+    {
+      "model": "Skill/Flybigstone1.bmd",
+      "reference": "hugerock02.jpg"
+    },
+    {
+      "model": "Skill/LaceArrow.bmd",
+      "reference": "nfb_R.jpg"
+    },
+    {
+      "model": "Skill/LaceArrow.bmd",
+      "reference": "nfb.jpg"
+    },
+    {
+      "model": "Skill/Rider01.bmd",
+      "reference": "unicon.jpg"
+    },
+    {
+      "model": "Skill/Rider01.bmd",
+      "reference": "unicon01.tga"
+    },
+    {
+      "model": "Skill/SkinShell.bmd",
+      "reference": "Chrome01.jpg"
+    },
+    {
+      "model": "Skill/arrowsre04.bmd",
+      "reference": "JointSpirit03.TGA"
+    },
+    {
+      "model": "Skill/arrowsrefill.bmd",
+      "reference": "JointSpirit03.TGA"
+    },
+    {
+      "model": "Skill/gamble_arrows01.bmd",
+      "reference": "lightning2.jpg"
+    },
+    {
+      "model": "Skill/gatepart1.bmd",
+      "reference": "gate.JPG"
+    },
+    {
+      "model": "Skill/gatepart2.bmd",
+      "reference": "gate.JPG"
+    },
+    {
+      "model": "Skill/gatepart3.bmd",
+      "reference": "gate.JPG"
+    },
+    {
+      "model": "Skill/golem_stone.bmd",
+      "reference": "stonegolem.jpg"
+    },
+    {
+      "model": "Skill/protectguild.bmd",
+      "reference": "apple.jpg"
+    },
+    {
+      "model": "Skill/wallstone1.bmd",
+      "reference": "castlegate02.jpg"
+    },
+    {
+      "model": "Skill/wallstone1.bmd",
+      "reference": "cswalltop.JPG"
+    },
+    {
+      "model": "Skill/wallstone1.bmd",
+      "reference": "castlegatehide.jpg"
+    },
+    {
+      "model": "Skill/wallstone2.bmd",
+      "reference": "castlegate02.jpg"
+    },
+    {
+      "model": "Skill/wallstone2.bmd",
+      "reference": "cswalltop.JPG"
+    },
+    {
+      "model": "Skill/wallstone2.bmd",
+      "reference": "castlegatehide.jpg"
+    }
+  ],
+  "limits": [
+    "Only BMD magic model candidates and OZJ/OZT decoded.",
+    "Non-retained animation floats skipped by existing parser; no full animation validation.",
+    "Resolver checks same model directory only; engine fallback/shared texture policy not audited.",
+    "No terrain, object placement, table, audio, font or browser audit in this run."
+  ]
+}

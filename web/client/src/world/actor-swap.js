@@ -1,0 +1,2 @@
+// Keep the active actor visible while a replacement loads; only the latest request may commit.
+export function createActorSwap({build,commit,release,onError=()=>{}}){let revision=0,disposed=false;return {async request(value){const current=++revision;let next;try{next=await build(value);if(disposed||current!==revision){release(next);return false;}commit(next);return true;}catch(error){if(next)release(next);if(!disposed&&current===revision)onError(error);return false;}},invalidate(){revision++;},dispose(){disposed=true;revision++;}};}

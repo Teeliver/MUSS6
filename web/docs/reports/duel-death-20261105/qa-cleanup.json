@@ -1,0 +1,20 @@
+{
+  "accountsRemoved": 2,
+  "charactersRemoved": 2,
+  "remainingQaRowsInExplicitTables": 0,
+  "rowsRemoved": {
+    "AccountCharacter": 2,
+    "CashShopData": 2,
+    "CustomPick": 2,
+    "EventEntryCount": 2,
+    "QuestKillCount": 2,
+    "QuestWorld": 2,
+    "ResetData": 2,
+    "T_CGuid": 2,
+    "T_FriendMain": 2,
+    "Character": 2,
+    "MEMB_STAT": 2,
+    "MEMB_INFO": 2
+  },
+  "existingAccountsModified": false
+}

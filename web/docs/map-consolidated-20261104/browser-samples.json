@@ -1,0 +1,93 @@
+{
+  "scope": "Single offline samples observed via CUA, 2560x1440 buffer; not long-run performance or pixel parity certification",
+  "rows": [
+    {
+      "map": 79,
+      "x": 108,
+      "y": 126,
+      "fps": 60,
+      "cpuP95": 5.4,
+      "bones": 20,
+      "sprites": 12,
+      "waterEmitters": 14,
+      "dropped": 0
+    },
+    {
+      "map": 51,
+      "x": 141,
+      "y": 63,
+      "fps": 60.1,
+      "cpuP95": 5.7,
+      "bones": 162,
+      "waterEmitters": 251,
+      "dropped": 0
+    },
+    {
+      "map": 69,
+      "x": 155,
+      "y": 54,
+      "fps": 60,
+      "cpuP95": 8.9,
+      "particles": 600,
+      "sprites": 66,
+      "waterParticles": 90,
+      "dropped": 0
+    },
+    {
+      "map": 70,
+      "x": 14,
+      "y": 61,
+      "fps": 60,
+      "cpuP95": 6.4,
+      "particles": 321,
+      "sprites": 58,
+      "waterParticles": 90,
+      "dropped": 0
+    },
+    {
+      "map": 71,
+      "x": 93,
+      "y": 184,
+      "fps": 60,
+      "cpuP95": 7.1,
+      "particles": 562,
+      "sprites": 71,
+      "waterParticles": 90,
+      "dropped": 0
+    },
+    {
+      "map": 72,
+      "x": 31,
+      "y": 95,
+      "fps": 60,
+      "cpuP95": 6,
+      "bones": 20,
+      "particles": 211,
+      "sprites": 120,
+      "waterEmitters": 57,
+      "dropped": 0
+    },
+    {
+      "map": 73,
+      "x": 191,
+      "y": 22,
+      "fps": 60,
+      "cpuP95": 7.9,
+      "bones": 10,
+      "particles": 308,
+      "sprites": 53,
+      "waterParticles": 30,
+      "dropped": 0
+    },
+    {
+      "map": 74,
+      "x": 60,
+      "y": 186,
+      "fps": 59.9,
+      "cpuP95": 4.9,
+      "particles": 314,
+      "sprites": 5,
+      "dropped": 0
+    }
+  ]
+}

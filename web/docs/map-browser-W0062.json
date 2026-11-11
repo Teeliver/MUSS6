@@ -1,0 +1,240 @@
+{
+  "scope": "offline terrain patch / frame-loop smoke test; no object or full visual parity",
+  "rows": [
+    {
+      "map": 8,
+      "status": "OFFLINE Data check: OFFLINE map8: terrain Data thật; chưa object/NPC/effect hoặc di chuyển online.",
+      "fps": "FPS: 60.0 · map thật (chưa đủ object)"
+    },
+    {
+      "map": 9,
+      "status": "OFFLINE Data check: OFFLINE map9: terrain Data thật; chưa object/NPC/effect hoặc di chuyển online.",
+      "fps": "FPS: 60.0 · map thật (chưa đủ object)"
+    },
+    {
+      "map": 11,
+      "status": "OFFLINE Data check: OFFLINE map11: terrain Data thật; chưa object/NPC/effect hoặc di chuyển online.",
+      "fps": "FPS: 59.9 · map thật (chưa đủ object)"
+    },
+    {
+      "map": 18,
+      "status": "OFFLINE Data check: OFFLINE map18: terrain Data thật; chưa object/NPC/effect hoặc di chuyển online.",
+      "fps": "FPS: 60.0 · map thật (chưa đủ object)"
+    },
+    {
+      "map": 24,
+      "status": "OFFLINE Data check: OFFLINE map24: terrain Data thật; chưa object/NPC/effect hoặc di chuyển online.",
+      "fps": "FPS: 60.0 · map thật (chưa đủ object)"
+    },
+    {
+      "map": 30,
+      "status": "OFFLINE Data check: OFFLINE map30: terrain Data thật; chưa object/NPC/effect hoặc di chuyển online.",
+      "fps": "FPS: 60.0 · map thật (chưa đủ object)"
+    },
+    {
+      "map": 31,
+      "status": "OFFLINE Data check: OFFLINE map31: terrain Data thật; chưa object/NPC/effect hoặc di chuyển online.",
+      "fps": "FPS: 60.0 · map thật (chưa đủ object)"
+    },
+    {
+      "map": 33,
+      "status": "OFFLINE Data check: OFFLINE map33: terrain Data thật; chưa object/NPC/effect hoặc di chuyển online.",
+      "fps": "FPS: 60.0 · map thật (chưa đủ object)"
+    },
+    {
+      "map": 34,
+      "status": "OFFLINE Data check: OFFLINE map34: terrain Data thật; chưa object/NPC/effect hoặc di chuyển online.",
+      "fps": "FPS: 60.0 · map thật (chưa đủ object)"
+    },
+    {
+      "map": 37,
+      "status": "OFFLINE Data check: OFFLINE map37: terrain Data thật; chưa object/NPC/effect hoặc di chuyển online.",
+      "fps": "FPS: 60.0 · map thật (chưa đủ object)"
+    },
+    {
+      "map": 38,
+      "status": "OFFLINE Data check: OFFLINE map38: terrain Data thật; chưa object/NPC/effect hoặc di chuyển online.",
+      "fps": "FPS: 60.0 · map thật (chưa đủ object)"
+    },
+    {
+      "map": 51,
+      "status": "OFFLINE Data check: OFFLINE map51: terrain Data thật; chưa object/NPC/effect hoặc di chuyển online.",
+      "fps": "FPS: 60.0 · map thật (chưa đủ object)"
+    },
+    {
+      "map": 54,
+      "status": "OFFLINE Data check: OFFLINE map54: terrain Data thật; chưa object/NPC/effect hoặc di chuyển online.",
+      "fps": "FPS: 60.0 · map thật (chưa đủ object)"
+    },
+    {
+      "map": 56,
+      "status": "OFFLINE Data check: OFFLINE map56: terrain Data thật; chưa object/NPC/effect hoặc di chuyển online.",
+      "fps": "FPS: 60.0 · map thật (chưa đủ object)"
+    },
+    {
+      "map": 57,
+      "status": "OFFLINE Data check: OFFLINE map57: terrain Data thật; chưa object/NPC/effect hoặc di chuyển online.",
+      "fps": "FPS: 60.0 · map thật (chưa đủ object)"
+    },
+    {
+      "map": 58,
+      "status": "OFFLINE Data check: OFFLINE map58: terrain Data thật; chưa object/NPC/effect hoặc di chuyển online.",
+      "fps": "FPS: 60.1 · map thật (chưa đủ object)"
+    },
+    {
+      "map": 62,
+      "status": "OFFLINE Data check: OFFLINE map62: terrain Data thật; chưa object/NPC/effect hoặc di chuyển online.",
+      "fps": "FPS: 60.0 · map thật (chưa đủ object)"
+    },
+    {
+      "map": 64,
+      "status": "OFFLINE Data check: OFFLINE map64: terrain Data thật; chưa object/NPC/effect hoặc di chuyển online.",
+      "fps": "FPS: 60.0 · map thật (chưa đủ object)"
+    },
+    {
+      "map": 65,
+      "status": "OFFLINE Data check: OFFLINE map65: terrain Data thật; chưa object/NPC/effect hoặc di chuyển online.",
+      "fps": "FPS: 60.0 · map thật (chưa đủ object)"
+    },
+    {
+      "map": 66,
+      "status": "OFFLINE Data check: OFFLINE map66: terrain Data thật; chưa object/NPC/effect hoặc di chuyển online.",
+      "fps": "FPS: 60.0 · map thật (chưa đủ object)"
+    },
+    {
+      "map": 68,
+      "status": "OFFLINE Data check: OFFLINE map68: terrain Data thật; chưa object/NPC/effect hoặc di chuyển online.",
+      "fps": "FPS: 60.9 · map thật (chưa đủ object)"
+    },
+    {
+      "map": 69,
+      "status": "OFFLINE Data check: OFFLINE map69: terrain Data thật; chưa object/NPC/effect hoặc di chuyển online.",
+      "fps": "FPS: 60.0 · map thật (chưa đủ object)"
+    },
+    {
+      "map": 70,
+      "status": "OFFLINE Data check: OFFLINE map70: terrain Data thật; chưa object/NPC/effect hoặc di chuyển online.",
+      "fps": "FPS: 60.0 · map thật (chưa đủ object)"
+    },
+    {
+      "map": 71,
+      "status": "OFFLINE Data check: OFFLINE map71: terrain Data thật; chưa object/NPC/effect hoặc di chuyển online.",
+      "fps": "FPS: 60.0 · map thật (chưa đủ object)"
+    },
+    {
+      "map": 72,
+      "status": "OFFLINE Data check: OFFLINE map72: terrain Data thật; chưa object/NPC/effect hoặc di chuyển online.",
+      "fps": "FPS: 60.0 · map thật (chưa đủ object)"
+    },
+    {
+      "map": 73,
+      "status": "OFFLINE Data check: OFFLINE map73: terrain Data thật; chưa object/NPC/effect hoặc di chuyển online.",
+      "fps": "FPS: 60.0 · map thật (chưa đủ object)"
+    },
+    {
+      "map": 74,
+      "status": "OFFLINE Data check: OFFLINE map74: terrain Data thật; chưa object/NPC/effect hoặc di chuyển online.",
+      "fps": "FPS: 60.0 · map thật (chưa đủ object)"
+    },
+    {
+      "map": 77,
+      "status": "OFFLINE Data check: OFFLINE map77: terrain Data thật; chưa object/NPC/effect hoặc di chuyển online.",
+      "fps": "FPS: 60.0 · map thật (chưa đủ object)"
+    },
+    {
+      "map": 78,
+      "status": "OFFLINE Data check: OFFLINE map78: terrain Data thật; chưa object/NPC/effect hoặc di chuyển online.",
+      "fps": "FPS: 60.0 · map thật (chưa đủ object)"
+    },
+    {
+      "map": 79,
+      "status": "OFFLINE Data check: OFFLINE map79: terrain Data thật; chưa object/NPC/effect hoặc di chuyển online.",
+      "fps": "FPS: 60.0 · map thật (chưa đủ object)"
+    },
+    {
+      "map": 80,
+      "status": "OFFLINE Data check: OFFLINE map80: terrain Data thật; chưa object/NPC/effect hoặc di chuyển online.",
+      "fps": "FPS: 60.0 · map thật (chưa đủ object)"
+    },
+    {
+      "map": 81,
+      "status": "OFFLINE Data check: OFFLINE map81: terrain Data thật; chưa object/NPC/effect hoặc di chuyển online.",
+      "fps": "FPS: 60.0 · map thật (chưa đủ object)"
+    },
+    {
+      "map": 0,
+      "status": "OFFLINE Data check: OFFLINE map0: terrain Data thật; chưa object/NPC/effect hoặc di chuyển online.",
+      "fps": "FPS: 60.0 · map thật (chưa đủ object)"
+    },
+    {
+      "map": 1,
+      "status": "OFFLINE Data check: OFFLINE map1: terrain Data thật; chưa object/NPC/effect hoặc di chuyển online.",
+      "fps": "FPS: 60.0 · map thật (chưa đủ object)"
+    },
+    {
+      "map": 2,
+      "status": "OFFLINE Data check: OFFLINE map2: terrain Data thật; chưa object/NPC/effect hoặc di chuyển online.",
+      "fps": "FPS: 60.0 · map thật (chưa đủ object)"
+    },
+    {
+      "map": 3,
+      "status": "OFFLINE Data check: OFFLINE map3: terrain Data thật; chưa object/NPC/effect hoặc di chuyển online.",
+      "fps": "FPS: 60.0 · map thật (chưa đủ object)"
+    },
+    {
+      "map": 4,
+      "status": "OFFLINE Data check: OFFLINE map4: terrain Data thật; chưa object/NPC/effect hoặc di chuyển online.",
+      "fps": "FPS: 60.0 · map thật (chưa đủ object)"
+    },
+    {
+      "map": 6,
+      "status": "OFFLINE Data check: OFFLINE map6: terrain Data thật; chưa object/NPC/effect hoặc di chuyển online.",
+      "fps": "FPS: 60.0 · map thật (chưa đủ object)"
+    },
+    {
+      "map": 7,
+      "status": "OFFLINE Data check: Server đã vào map 7, nhưng render chưa hoàn tất: Missing/ambiguous texture TileWater01.OZJ",
+      "blocked": true
+    },
+    {
+      "map": 10,
+      "status": "OFFLINE Data check: Server đã vào map 10, nhưng render chưa hoàn tất: Missing/ambiguous texture TileGrass02.OZJ; Missing/ambiguous texture TileRock01.OZJ; Missing/ambiguous texture TileRock02.OZJ; Missing/ambiguous texture TileRock03.OZJ; Missing/ambiguous texture TileRock04.OZJ",
+      "blocked": true
+    },
+    {
+      "map": 39,
+      "status": "OFFLINE Data check: Server đã vào map 39, nhưng render chưa hoàn tất: Missing/ambiguous texture TileGround02.OZJ; Missing/ambiguous texture TileWater01.OZJ; Missing/ambiguous texture TileWood01.OZJ; Missing/ambiguous texture TileRock05.OZJ",
+      "blocked": true
+    },
+    {
+      "map": 40,
+      "status": "OFFLINE Data check: Server đã vào map 40, nhưng render chưa hoàn tất: Missing/ambiguous texture TileWood01.OZJ; Missing/ambiguous texture TileRock04.OZJ",
+      "blocked": true
+    },
+    {
+      "map": 41,
+      "status": "OFFLINE Data check: Server đã vào map 41, nhưng render chưa hoàn tất: Missing/ambiguous texture TileRock05.OZJ",
+      "blocked": true
+    },
+    {
+      "map": 42,
+      "status": "OFFLINE Data check: Server đã vào map 42, nhưng render chưa hoàn tất: Missing/ambiguous texture TileRock05.OZJ",
+      "blocked": true
+    },
+    {
+      "map": 46,
+      "status": "OFFLINE Data check: Server đã vào map 46, nhưng render chưa hoàn tất: Missing/ambiguous texture TileWood01.OZJ",
+      "blocked": true
+    },
+    {
+      "map": 63,
+      "status": "OFFLINE Data check: Server đã vào map 63, nhưng render chưa hoàn tất: Missing/ambiguous texture TileRock05.OZJ; Missing/ambiguous texture TileRock06.OZJ",
+      "blocked": true
+    },
+    {
+      "map": 67,
+      "status": "OFFLINE Data check: Server đã vào map 67, nhưng render chưa hoàn tất: Missing/ambiguous texture TileWater01.OZJ",
+      "blocked": true
+    }
+  ]
+}

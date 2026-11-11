@@ -1,0 +1,8413 @@
+{
+  "schema": 1,
+  "classification": "supplied supplemental reference; EX603 version unverified",
+  "fileCount": 39,
+  "totalBytes": 3648890,
+  "files": [
+    {
+      "path": "ZzzAI.cpp",
+      "bytes": 23572,
+      "sha256": "2c068d3c0e6df9b369b9df3c3b48604eba1724385a30c824757cdfedf1210f19",
+      "lines": 899,
+      "includes": [
+        {
+          "name": "stdafx.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "ZzzBMD.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzInfomation.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzObject.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzCharacter.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzLodTerrain.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzAI.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzTexture.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzOpenglUtil.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzInterface.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzEffect.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "zzzScene.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "DSPlaySound.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GMCrywolf1st.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "ZzzPath.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "CharacterManager.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "SkillManager.h",
+          "relativeFilePresent": false
+        }
+      ],
+      "anchors": [
+        {
+          "line": 682,
+          "symbols": [
+            "MovePath"
+          ]
+        },
+        {
+          "line": 799,
+          "symbols": [
+            "PathFinding2"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "ZzzAI.h",
+      "bytes": 1843,
+      "sha256": "96bd89991247da950dde20e50547590acbea8ec396a8241e61d7ffb9ad38e6fc",
+      "lines": 38,
+      "includes": [],
+      "anchors": [
+        {
+          "line": 29,
+          "symbols": [
+            "MovePath"
+          ]
+        },
+        {
+          "line": 30,
+          "symbols": [
+            "PathFinding2"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "ZzzBMD.cpp",
+      "bytes": 216747,
+      "sha256": "afaf48aa3c21761ec1ec6ca44bbcaca060112bb3515672b788597aae65268222",
+      "lines": 5579,
+      "includes": [
+        {
+          "name": "stdafx.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "ZzzOpenglUtil.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzInfomation.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzBMD.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzObject.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzCharacter.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "zzzlodterrain.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzTexture.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzAI.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "SMD.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "zzzEffect.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "MapManager.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "./Utilities/Log/muConsoleDebug.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GMBattleCastle.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "UIMng.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CameraMove.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "PhysicsManager.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "MuCrypto/MuCrypto.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CShaderGL.h",
+          "relativeFilePresent": false
+        }
+      ],
+      "anchors": [
+        {
+          "line": 1008,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 1012,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 1017,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 1021,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 1025,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 1034,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 1038,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 1046,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 1050,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 1057,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 1064,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 1071,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 1079,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 1083,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 1087,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 1095,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 1099,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 1100,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 1108,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 1126,
+          "symbols": [
+            "BITMAP_JOINT_SPIRIT",
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 1134,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "ZzzBMD.h",
+      "bytes": 11183,
+      "sha256": "7be3defd2ed66862fd23fc7e7297b2fcef46113a60319553b80f7d9dd0a8bd14",
+      "lines": 346,
+      "includes": [
+        {
+          "name": "TextureScript.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CGMScriptLua.h",
+          "relativeFilePresent": false
+        }
+      ],
+      "anchors": []
+    },
+    {
+      "path": "ZzzCharacter.cpp",
+      "bytes": 480919,
+      "sha256": "17d9593af1af8af1ecc5be203ff18681ecb6d3a57d78eb83b921cbc5ae459cb7",
+      "lines": 15394,
+      "includes": [
+        {
+          "name": "stdafx.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "_enum.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "eh.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "UIManager.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GuildCache.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "ZzzOpenglUtil.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzBMD.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzInfomation.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzObject.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzCharacter.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzLodTerrain.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzTexture.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzAI.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzInterface.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzInventory.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzEffect.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzOpenData.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzScene.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "DSPlaySound.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "wsclientinline.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "PhysicsManager.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GOBoid.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CSItemOption.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CSChaosCastle.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GIPetManager.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GMHellas.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CSParts.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GMBattleCastle.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GMHuntingGround.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GMCryingWolf2nd.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "BoneManager.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GMAida.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GMCryWolf1st.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GM_Kanturu_1st.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GM_Kanturu_2nd.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CDirection.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GM_Kanturu_3rd.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GM3rdChangeUp.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "Input.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "ChangeRingManager.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "Event.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "PartyManager.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GMNewTown.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "w_CursedTemple.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "SummonSystem.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CharacterManager.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "SkillManager.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GMSwampOfQuiet.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "w_MapHeaders.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "w_PetProcess.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "DuelMgr.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CGMProtect.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "MonkSystem.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CGMMonsterMng.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CGMItemEffect.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CGMItemWings.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CGMHeadChat.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CGMPhysicsManager.h",
+          "relativeFilePresent": false
+        }
+      ],
+      "anchors": [
+        {
+          "line": 183,
+          "symbols": [
+            "SetPlayerStop"
+          ]
+        },
+        {
+          "line": 457,
+          "symbols": [
+            "SetPlayerWalk"
+          ]
+        },
+        {
+          "line": 1634,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 1866,
+          "symbols": [
+            "CreateEffectSync",
+            "MODEL_FIRE"
+          ]
+        },
+        {
+          "line": 1918,
+          "symbols": [
+            "BITMAP_JOINT_SPIRIT"
+          ]
+        },
+        {
+          "line": 1986,
+          "symbols": [
+            "BITMAP_JOINT_SPIRIT"
+          ]
+        },
+        {
+          "line": 2108,
+          "symbols": [
+            "MODEL_FIRE"
+          ]
+        },
+        {
+          "line": 2110,
+          "symbols": [
+            "MODEL_FIRE"
+          ]
+        },
+        {
+          "line": 2112,
+          "symbols": [
+            "MODEL_FIRE"
+          ]
+        },
+        {
+          "line": 2116,
+          "symbols": [
+            "CreateEffectSync",
+            "MODEL_FIRE"
+          ]
+        },
+        {
+          "line": 2128,
+          "symbols": [
+            "MODEL_FIRE"
+          ]
+        },
+        {
+          "line": 2145,
+          "symbols": [
+            "CreateEffectSync",
+            "MODEL_FIRE"
+          ]
+        },
+        {
+          "line": 2153,
+          "symbols": [
+            "CreateEffectSync",
+            "MODEL_FIRE"
+          ]
+        },
+        {
+          "line": 2162,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 2163,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 2213,
+          "symbols": [
+            "MODEL_FIRE"
+          ]
+        },
+        {
+          "line": 2214,
+          "symbols": [
+            "MODEL_FIRE"
+          ]
+        },
+        {
+          "line": 2250,
+          "symbols": [
+            "MODEL_FIRE"
+          ]
+        },
+        {
+          "line": 2298,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 2299,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 2312,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 2313,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 2327,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 2328,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 2341,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 2342,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 2355,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 2356,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 2387,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 2388,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 2402,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 2416,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 2417,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 2428,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 2429,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 2430,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 2442,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 2443,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 2457,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 2458,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 2459,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 2472,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 2473,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 2478,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 2479,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 2500,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 2501,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 2502,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 2664,
+          "symbols": [
+            "SetPlayerStop"
+          ]
+        },
+        {
+          "line": 2670,
+          "symbols": [
+            "SetPlayerStop"
+          ]
+        },
+        {
+          "line": 2733,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 2765,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 2766,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 2833,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 2867,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 3019,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 3023,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 3027,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 3044,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 3045,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 3217,
+          "symbols": [
+            "SetPlayerStop"
+          ]
+        },
+        {
+          "line": 3239,
+          "symbols": [
+            "SetPlayerStop"
+          ]
+        },
+        {
+          "line": 3363,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 3376,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 3556,
+          "symbols": [
+            "SetPlayerStop"
+          ]
+        },
+        {
+          "line": 4168,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 4182,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 4259,
+          "symbols": [
+            "BITMAP_JOINT_SPIRIT"
+          ]
+        },
+        {
+          "line": 4302,
+          "symbols": [
+            "BITMAP_JOINT_SPIRIT"
+          ]
+        },
+        {
+          "line": 4495,
+          "symbols": [
+            "MODEL_FIRE"
+          ]
+        },
+        {
+          "line": 4496,
+          "symbols": [
+            "MODEL_FIRE"
+          ]
+        },
+        {
+          "line": 4644,
+          "symbols": [
+            "BITMAP_JOINT_SPIRIT"
+          ]
+        },
+        {
+          "line": 4645,
+          "symbols": [
+            "BITMAP_JOINT_SPIRIT"
+          ]
+        },
+        {
+          "line": 5067,
+          "symbols": [
+            "MODEL_FIRE"
+          ]
+        },
+        {
+          "line": 5090,
+          "symbols": [
+            "MODEL_FIRE"
+          ]
+        },
+        {
+          "line": 5633,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 5644,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 5717,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 5719,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 5774,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 5783,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 5788,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 5805,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 5819,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 5843,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 5853,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 5858,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 5861,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 5864,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 5867,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 5870,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 5874,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 5877,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 5880,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 5883,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 5941,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 5947,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 5956,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 5962,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 5971,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 5973,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 5991,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 5996,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 6012,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 6014,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 6053,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 6068,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 6070,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 6075,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 6077,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 6082,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 6084,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 6089,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 6091,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 6100,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 6111,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 6146,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 6147,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 6163,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 6165,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 6226,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 6246,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 6318,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 6323,
+          "symbols": [
+            "CharacterMoveSpeed"
+          ]
+        },
+        {
+          "line": 6414,
+          "symbols": [
+            "CharacterMoveSpeed"
+          ]
+        },
+        {
+          "line": 6459,
+          "symbols": [
+            "PathFinding2"
+          ]
+        },
+        {
+          "line": 6478,
+          "symbols": [
+            "SetPlayerWalk"
+          ]
+        },
+        {
+          "line": 6481,
+          "symbols": [
+            "MovePath"
+          ]
+        },
+        {
+          "line": 6484,
+          "symbols": [
+            "SetPlayerStop"
+          ]
+        },
+        {
+          "line": 7166,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 7169,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 7268,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 7277,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 7386,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 7387,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 7441,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 7443,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 7445,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 7447,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 7773,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 7774,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 7851,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 7867,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 7932,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 7944,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 8112,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 8118,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 8208,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 8211,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 8214,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 8283,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 8577,
+          "symbols": [
+            "SetPlayerStop"
+          ]
+        },
+        {
+          "line": 8720,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 8723,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 8726,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 8729,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 8732,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 8768,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 8830,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 8969,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 8972,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 8977,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 8982,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 8991,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 8998,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 8999,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 9007,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 9059,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 9067,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 9068,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 9100,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 9249,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 9957,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 9963,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 9981,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 9982,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 9983,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 10042,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10119,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10122,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10125,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10252,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 10253,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 10267,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 10270,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 10300,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 10301,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 10426,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10427,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10431,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10432,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10443,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 10444,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 10448,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 10449,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 10718,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10721,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10724,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10733,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10736,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10739,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10748,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10751,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10754,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10761,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10764,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10767,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10773,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10776,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10779,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10785,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10788,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10791,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10805,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10811,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 10815,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10822,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 10823,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 10827,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10835,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 10836,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 10841,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10842,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 10849,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 10850,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 10855,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10856,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 10864,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 10865,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 10870,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10871,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 10886,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 10900,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 10971,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 11009,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 11043,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 12038,
+          "symbols": [
+            "SetPlayerStop"
+          ]
+        },
+        {
+          "line": 12129,
+          "symbols": [
+            "SetPlayerStop"
+          ]
+        },
+        {
+          "line": 14531,
+          "symbols": [
+            "SetPlayerStop"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "ZzzCharacter.h",
+      "bytes": 4473,
+      "sha256": "12ad66abcac8a2d9d0f1b9b60f05b92542f421d99e0042375ea331ab07e43ccd",
+      "lines": 99,
+      "includes": [
+        {
+          "name": "ZzzBMD.h",
+          "relativeFilePresent": true
+        }
+      ],
+      "anchors": [
+        {
+          "line": 59,
+          "symbols": [
+            "SetPlayerStop"
+          ]
+        },
+        {
+          "line": 60,
+          "symbols": [
+            "SetPlayerWalk"
+          ]
+        },
+        {
+          "line": 71,
+          "symbols": [
+            "CharacterMoveSpeed"
+          ]
+        },
+        {
+          "line": 93,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "ZzzEffect.cpp",
+      "bytes": 569495,
+      "sha256": "66b03c8216e24e123b9da1c29ba413952ba88acae0082b077b03350c3d6870d6",
+      "lines": 20047,
+      "includes": [
+        {
+          "name": "stdafx.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "ZzzOpenglUtil.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzBMD.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzInfomation.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzObject.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzCharacter.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzLodTerrain.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzTexture.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzAi.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzEffect.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "DSPlaySound.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "wsclientinline.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GMCrywolf1st.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GMHellas.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GMBattleCastle.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "UIManager.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GM_Kanturu_2nd.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CDirection.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "MapManager.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "BoneManager.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "SkillEffectMgr.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CharacterManager.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "SkillManager.h",
+          "relativeFilePresent": false
+        }
+      ],
+      "anchors": [
+        {
+          "line": 415,
+          "symbols": [
+            "MODEL_FIRE"
+          ]
+        },
+        {
+          "line": 419,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 423,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 427,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 434,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 435,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 445,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 446,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 461,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 2028,
+          "symbols": [
+            "MODEL_LASER"
+          ]
+        },
+        {
+          "line": 2780,
+          "symbols": [
+            "MODEL_FIRE"
+          ]
+        },
+        {
+          "line": 3929,
+          "symbols": [
+            "BITMAP_JOINT_SPIRIT2"
+          ]
+        },
+        {
+          "line": 3947,
+          "symbols": [
+            "BITMAP_JOINT_SPIRIT"
+          ]
+        },
+        {
+          "line": 6670,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 6675,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 6682,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 6687,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 6691,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 6707,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 6712,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 6717,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 6719,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 6723,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 6738,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 6745,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 6749,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 6788,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 6790,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 6796,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 6798,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 6805,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 6807,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 6819,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 6843,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 6844,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 6848,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 6849,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 6850,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 6856,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 6860,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 6861,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 6900,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 6979,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 7421,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 7422,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 7532,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 7610,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 7635,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 7639,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 7654,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 7682,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 7752,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 7753,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 7758,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 7805,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 7819,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 7822,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 7825,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 7842,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 7845,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 7848,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 7880,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 7883,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 7886,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 7901,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 7904,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 7907,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 7921,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 7924,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 7927,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 7989,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 8005,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 8045,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 8047,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 8059,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 8096,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 8234,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 8235,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 8236,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 8251,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 8253,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 8255,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 8267,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 8268,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 8271,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 8273,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 8312,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 8318,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 8321,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 8336,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 8340,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 8347,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 8350,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 8358,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 8360,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 8365,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 8485,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 8558,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 8581,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 8634,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 8636,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 8660,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 8705,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 8764,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 8778,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 8783,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 8802,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 8806,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 8815,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 8819,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 8823,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 8830,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 8853,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 8907,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 8911,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 8936,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 8938,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 8945,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 8948,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 8952,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 8954,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 8971,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 8973,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 8979,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 8985,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 9009,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 9014,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 9029,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 9046,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 9059,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 9061,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 9070,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 9071,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 9098,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 9101,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 9126,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 9133,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 9134,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 9140,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 9147,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 9218,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 9219,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 9221,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 9222,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 9226,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 9227,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 9229,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 9230,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 9239,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 9240,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 9312,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 9324,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 9377,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 9522,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 9526,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 9554,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 9559,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 9567,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 9611,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 9625,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 9637,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 9667,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 9683,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 9692,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 9697,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 9699,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 9719,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 9725,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 9730,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 9735,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 9763,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 9786,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 9789,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 9817,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 9996,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 10001,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10020,
+          "symbols": [
+            "MODEL_LASER"
+          ]
+        },
+        {
+          "line": 10034,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 10065,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10081,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10092,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 10094,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10127,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 10155,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 10168,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10169,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10442,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 10494,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 10581,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 10585,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 10589,
+          "symbols": [
+            "SetPlayerStop"
+          ]
+        },
+        {
+          "line": 10669,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10681,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10693,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10710,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10715,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 10720,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 10724,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 10753,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10754,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10767,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10768,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10779,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10780,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10781,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10783,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 10844,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10857,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 10862,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 10884,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 10913,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 10954,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 10963,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10967,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 10969,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10993,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 11016,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 11023,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 11037,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 11057,
+          "symbols": [
+            "BITMAP_JOINT_SPIRIT",
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 11062,
+          "symbols": [
+            "BITMAP_JOINT_SPIRIT"
+          ]
+        },
+        {
+          "line": 11102,
+          "symbols": [
+            "BITMAP_JOINT_SPIRIT",
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 11103,
+          "symbols": [
+            "BITMAP_JOINT_SPIRIT",
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 11130,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 11157,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 11162,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 11190,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 11193,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 11297,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 11300,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 11350,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 11374,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 11383,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 11388,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 11395,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 11407,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 11491,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 11548,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 11555,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 11605,
+          "symbols": [
+            "BITMAP_JOINT_SPIRIT2",
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 11612,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 11877,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 11888,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 11892,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 11915,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 11934,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 11936,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 11937,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 12034,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 12039,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 12044,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 12089,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 12113,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 12126,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 12128,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 12153,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 12217,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 12259,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 12283,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 12359,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 12363,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 12411,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 12484,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 12494,
+          "symbols": [
+            "MODEL_FIRE"
+          ]
+        },
+        {
+          "line": 12660,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 12661,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 12682,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 12715,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 12720,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 12733,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 12763,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 12774,
+          "symbols": [
+            "BITMAP_JOINT_SPIRIT"
+          ]
+        },
+        {
+          "line": 12787,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 12848,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 12865,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 12879,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 12882,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 12902,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 12907,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 12941,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 12971,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 12984,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 12997,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 13000,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 13004,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 13050,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 13066,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 13067,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 13068,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 13198,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 13206,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 13214,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 13376,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 13382,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 13432,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 13510,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 13511,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 13730,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 13734,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 13740,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 13782,
+          "symbols": [
+            "BITMAP_JOINT_SPIRIT2",
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 13815,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 13840,
+          "symbols": [
+            "CreateEffectSync",
+            "MODEL_FIRE"
+          ]
+        },
+        {
+          "line": 13922,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 13955,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 13956,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 13958,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 14027,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 14065,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 14066,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 14105,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 14117,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 14179,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 14257,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 14267,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 14311,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 14316,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 14351,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 14352,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 14356,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 14396,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 14506,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 14512,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 14690,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 14763,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 14814,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 14867,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 14868,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 14916,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 14919,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 14939,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 14942,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 14944,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 14974,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 15017,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 15034,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 15151,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 15174,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 15209,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 15210,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 15218,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 15219,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 15343,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 15347,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 15565,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 15674,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 15677,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 15791,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 15801,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 15802,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 15868,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 15872,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 15979,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 15998,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 16265,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 16271,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 16322,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 17006,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 17010,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 17102,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 17190,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 17191,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 17220,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 17268,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 17294,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 17317,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 17341,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 17354,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 17355,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 17362,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 17380,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 17381,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 17387,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 17388,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 17397,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 17623,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 17643,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 17775,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 17776,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 17846,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 17873,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 17874,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 17876,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 17877,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 17881,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 17940,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 17941,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 17952,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 17959,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 17973,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 17976,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 17979,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 17998,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 18003,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 18019,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 18026,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 18059,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 18062,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 18065,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 18088,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 18091,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 18094,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 18175,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 18178,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 18181,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 18313,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 18317,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 18318,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 18319,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 18322,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 18330,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 18364,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 18367,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 18499,
+          "symbols": [
+            "MODEL_FIRE"
+          ]
+        },
+        {
+          "line": 18880,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 18882,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "ZzzEffect.h",
+      "bytes": 6452,
+      "sha256": "785b4f89757aaeb6bcf09f651d01c070e712db69e5a8fa89aaf5839b881c8734",
+      "lines": 151,
+      "includes": [],
+      "anchors": [
+        {
+          "line": 52,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 61,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "ZzzEffectBlurSpark.cpp",
+      "bytes": 9325,
+      "sha256": "2bedef00418c827534993dc57eec4a289f8d0fffe68ef1cf30023bf310859eda",
+      "lines": 431,
+      "includes": [
+        {
+          "name": "stdafx.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "ZzzOpenglUtil.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzBMD.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzInfomation.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzObject.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzCharacter.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzLodTerrain.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzTexture.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzAi.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzEffect.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "DSPlaySound.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "WSClient.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "NewUISystem.h",
+          "relativeFilePresent": false
+        }
+      ],
+      "anchors": []
+    },
+    {
+      "path": "ZzzEffectFireLeave.cpp",
+      "bytes": 16815,
+      "sha256": "c0bd216b63cb08263198b9219ff3d6d29fe6886473267d781a1ef6e1f6f896f1",
+      "lines": 646,
+      "includes": [
+        {
+          "name": "stdafx.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "ZzzOpenglUtil.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzBMD.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzInfomation.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzObject.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzCharacter.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzLodTerrain.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzTexture.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzAi.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzEffect.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "DSPlaySound.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "WSClient.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CSChaosCastle.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GMBattleCastle.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GMHuntingGround.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GMAida.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GMCrywolf1st.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GM3rdChangeUp.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "MapManager.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "w_MapHeaders.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "NewUISystem.h",
+          "relativeFilePresent": false
+        }
+      ],
+      "anchors": [
+        {
+          "line": 44,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 48,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 51,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 80,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 85,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 89,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 323,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 325,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 343,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 345,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 365,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "ZzzEffectJoint.cpp",
+      "bytes": 214560,
+      "sha256": "cbe61b96696f26f9a4dcf4186eefb5b55e0241f026097b591dff5f445a2185f6",
+      "lines": 7785,
+      "includes": [
+        {
+          "name": "stdafx.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "ZzzOpenglUtil.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzBMD.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzInfomation.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzObject.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzCharacter.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzLodTerrain.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzTexture.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzAi.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzEffect.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "DSPlaySound.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "WSClient.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CSPetSystem.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GMBattleCastle.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "NewUISystem.h",
+          "relativeFilePresent": false
+        }
+      ],
+      "anchors": [
+        {
+          "line": 23,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 641,
+          "symbols": [
+            "BITMAP_JOINT_SPIRIT"
+          ]
+        },
+        {
+          "line": 642,
+          "symbols": [
+            "BITMAP_JOINT_SPIRIT2"
+          ]
+        },
+        {
+          "line": 677,
+          "symbols": [
+            "BITMAP_JOINT_SPIRIT2"
+          ]
+        },
+        {
+          "line": 812,
+          "symbols": [
+            "BITMAP_JOINT_SPIRIT"
+          ]
+        },
+        {
+          "line": 848,
+          "symbols": [
+            "BITMAP_JOINT_SPIRIT2"
+          ]
+        },
+        {
+          "line": 859,
+          "symbols": [
+            "BITMAP_JOINT_SPIRIT"
+          ]
+        },
+        {
+          "line": 870,
+          "symbols": [
+            "BITMAP_JOINT_SPIRIT2"
+          ]
+        },
+        {
+          "line": 1553,
+          "symbols": [
+            "BITMAP_JOINT_SPIRIT"
+          ]
+        },
+        {
+          "line": 1576,
+          "symbols": [
+            "BITMAP_JOINT_SPIRIT"
+          ]
+        },
+        {
+          "line": 1637,
+          "symbols": [
+            "BITMAP_JOINT_SPIRIT"
+          ]
+        },
+        {
+          "line": 1650,
+          "symbols": [
+            "BITMAP_JOINT_SPIRIT"
+          ]
+        },
+        {
+          "line": 1725,
+          "symbols": [
+            "BITMAP_JOINT_SPIRIT"
+          ]
+        },
+        {
+          "line": 3293,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 3299,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 3306,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 3474,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 3479,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 3577,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 3810,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 3834,
+          "symbols": [
+            "BITMAP_JOINT_SPIRIT"
+          ]
+        },
+        {
+          "line": 3835,
+          "symbols": [
+            "BITMAP_JOINT_SPIRIT2"
+          ]
+        },
+        {
+          "line": 3841,
+          "symbols": [
+            "CreateEffectSync",
+            "MODEL_LASER"
+          ]
+        },
+        {
+          "line": 3843,
+          "symbols": [
+            "CreateEffectSync",
+            "MODEL_LASER"
+          ]
+        },
+        {
+          "line": 3865,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 4033,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 4088,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 4091,
+          "symbols": [
+            "BITMAP_JOINT_SPIRIT",
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 4104,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 4106,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 4117,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 4119,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 4121,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 4132,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 4144,
+          "symbols": [
+            "BITMAP_JOINT_SPIRIT",
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 4177,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 4193,
+          "symbols": [
+            "BITMAP_JOINT_SPIRIT"
+          ]
+        },
+        {
+          "line": 4221,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 4529,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 4743,
+          "symbols": [
+            "MODEL_FIRE"
+          ]
+        },
+        {
+          "line": 4772,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 4778,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 4826,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 5085,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 5091,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 5268,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 5273,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 5278,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 5874,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 5875,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 6054,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 6276,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 6277,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 6280,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 6285,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 6286,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 6433,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 6436,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 6437,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 6441,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 6442,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 6508,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 6511,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 6512,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 6592,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 6990,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "ZzzEffectMagicSkill.cpp",
+      "bytes": 10878,
+      "sha256": "4fcd0330cec35f7ebf3263d9f8eb00c9faf02fc472b6aaa1bf90be56c8f06565",
+      "lines": 347,
+      "includes": [
+        {
+          "name": "stdafx.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "ZzzOpenglUtil.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzBMD.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzInfomation.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzObject.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzCharacter.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzLodTerrain.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzTexture.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzAi.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzEffect.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "DSPlaySound.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "WSClient.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "SkillManager.h",
+          "relativeFilePresent": false
+        }
+      ],
+      "anchors": []
+    },
+    {
+      "path": "ZzzEffectNoUse.cpp",
+      "bytes": 15035,
+      "sha256": "718bc0f3f8c6e999ff1ab18654b6391bda6b5bf8cee974ba6330406641a9152e",
+      "lines": 542,
+      "includes": [
+        {
+          "name": "stdafx.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "ZzzOpenglUtil.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzBMD.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzInfomation.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzObject.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzCharacter.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzLodTerrain.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzTexture.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzAi.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzEffect.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "DSPlaySound.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "WSClient.h",
+          "relativeFilePresent": false
+        }
+      ],
+      "anchors": []
+    },
+    {
+      "path": "ZzzEffectParticle.cpp",
+      "bytes": 268576,
+      "sha256": "c7716c20eff977fc040fb52570eaec7f8fc04659ee66c284ac735fdf08c8cace",
+      "lines": 9283,
+      "includes": [
+        {
+          "name": "stdafx.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "BoneManager.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "ZzzOpenglUtil.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzInfomation.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzBMD.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzObject.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzCharacter.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzLodTerrain.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzTexture.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzAi.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzEffect.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "DSPlaySound.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "WSClient.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GMCrywolf1st.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "MapManager.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "NewUISystem.h",
+          "relativeFilePresent": false
+        }
+      ],
+      "anchors": [
+        {
+          "line": 48,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 8736,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 8788,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 8850,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 8852,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 8854,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "ZzzEffectPoint.cpp",
+      "bytes": 4584,
+      "sha256": "8b0343d564922f450353f894e5562d274caa1e267b32262159f26c612150633a",
+      "lines": 207,
+      "includes": [
+        {
+          "name": "stdafx.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "ZzzOpenglUtil.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzBMD.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzInfomation.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzObject.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzCharacter.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzLodTerrain.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzTexture.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzAi.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzEffect.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "DSPlaySound.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "WSClient.h",
+          "relativeFilePresent": false
+        }
+      ],
+      "anchors": []
+    },
+    {
+      "path": "ZzzEffectPointer.cpp",
+      "bytes": 2172,
+      "sha256": "61dc95f256e1640236d41522f3980a110928288ae206d424680e6c828d6605e4",
+      "lines": 105,
+      "includes": [
+        {
+          "name": "stdafx.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "ZzzOpenglUtil.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzBMD.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzInfomation.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzObject.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzCharacter.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzLodTerrain.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzTexture.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzAi.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzEffect.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "DSPlaySound.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "WSClient.h",
+          "relativeFilePresent": false
+        }
+      ],
+      "anchors": []
+    },
+    {
+      "path": "ZzzInfomation.cpp",
+      "bytes": 130536,
+      "sha256": "bf654c814ee84392178b40eaf287e77bc6b604da6c2ea19f1b735f39d14b9427",
+      "lines": 4526,
+      "includes": [
+        {
+          "name": "stdafx.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "ZzzInfomation.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzBMD.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzObject.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzCharacter.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzScene.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzInterface.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ReadScript.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "zzzInventory.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "zzzopenglutil.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "./Utilities/Log/ErrorReport.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "zzzLodTerrain.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "CSItemOption.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GIPetManager.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GMHellas.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CComGem.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "NewUIInventoryCtrl.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "SocketSystem.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "NewUISystem.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CharacterManager.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "SkillManager.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CGMProtect.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CGMItemWings.h",
+          "relativeFilePresent": false
+        }
+      ],
+      "anchors": []
+    },
+    {
+      "path": "ZzzInfomation.h",
+      "bytes": 3854,
+      "sha256": "7253ea554661b588c8973e33e0acf6fceb53bea5645a432de5cf11334940885f",
+      "lines": 143,
+      "includes": [
+        {
+          "name": "GlobalText.h",
+          "relativeFilePresent": false
+        }
+      ],
+      "anchors": []
+    },
+    {
+      "path": "ZzzInterface.cpp",
+      "bytes": 259191,
+      "sha256": "7d2596069ee47fbfe8b7874bfc3148498fe18affefd934516bcc5a213537a180",
+      "lines": 9338,
+      "includes": [
+        {
+          "name": "stdafx.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CGMProtect.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "ctime",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "windows.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "imm.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "UIManager.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "ZzzOpenglUtil.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzBMD.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzLodTerrain.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzInfomation.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzObject.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzCharacter.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzTexture.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzAI.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzInterface.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzInventory.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzOpenData.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzEffect.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzScene.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzPath.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "DSPlaySound.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "wsclientinline.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "./Utilities/Log/ErrorReport.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "MatchEvent.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CSQuest.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "PersonalShopTitleImp.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "zzzopenglUtil.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "CSItemOption.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "npcBreeder.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GIPetManager.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CSParts.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GMBattleCastle.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GMCrywolf1st.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "UIMapName.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GMCrywolf1st.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CDirection.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GM_Kanturu_3rd.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GM_Kanturu_2nd.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "MapManager.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "Event.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "./Utilities/Log/muConsoleDebug.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "NewUISystem.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "w_CursedTemple.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "UIControls.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GM3rdChangeUp.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "PartyManager.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "NewUICommonMessageBox.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "SummonSystem.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GMSwampOfQuiet.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "w_MapHeaders.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "DuelMgr.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "ChangeRingManager.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "NewUIGensRanking.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "MonkSystem.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "ProtocolSend.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CharacterManager.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "SkillManager.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "ScaleForm.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "NewUICommon.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "SPK_PKSystem.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "Protocol.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "HDC_DameBoss.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "HealthBar.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "jpexs.h",
+          "relativeFilePresent": false
+        }
+      ],
+      "anchors": [
+        {
+          "line": 1429,
+          "symbols": [
+            "PathFinding2"
+          ]
+        },
+        {
+          "line": 2517,
+          "symbols": [
+            "PathFinding2"
+          ]
+        },
+        {
+          "line": 2587,
+          "symbols": [
+            "PathFinding2"
+          ]
+        },
+        {
+          "line": 2920,
+          "symbols": [
+            "PathFinding2"
+          ]
+        },
+        {
+          "line": 2992,
+          "symbols": [
+            "PathFinding2"
+          ]
+        },
+        {
+          "line": 3031,
+          "symbols": [
+            "PathFinding2"
+          ]
+        },
+        {
+          "line": 3052,
+          "symbols": [
+            "PathFinding2"
+          ]
+        },
+        {
+          "line": 3068,
+          "symbols": [
+            "PathFinding2"
+          ]
+        },
+        {
+          "line": 3080,
+          "symbols": [
+            "PathFinding2"
+          ]
+        },
+        {
+          "line": 3096,
+          "symbols": [
+            "PathFinding2"
+          ]
+        },
+        {
+          "line": 3152,
+          "symbols": [
+            "SetPlayerStop"
+          ]
+        },
+        {
+          "line": 4542,
+          "symbols": [
+            "PathFinding2"
+          ]
+        },
+        {
+          "line": 4808,
+          "symbols": [
+            "PathFinding2"
+          ]
+        },
+        {
+          "line": 5084,
+          "symbols": [
+            "PathFinding2"
+          ]
+        },
+        {
+          "line": 5369,
+          "symbols": [
+            "PathFinding2"
+          ]
+        },
+        {
+          "line": 5454,
+          "symbols": [
+            "PathFinding2"
+          ]
+        },
+        {
+          "line": 5565,
+          "symbols": [
+            "PathFinding2"
+          ]
+        },
+        {
+          "line": 5632,
+          "symbols": [
+            "PathFinding2"
+          ]
+        },
+        {
+          "line": 5939,
+          "symbols": [
+            "PathFinding2"
+          ]
+        },
+        {
+          "line": 6030,
+          "symbols": [
+            "PathFinding2"
+          ]
+        },
+        {
+          "line": 6084,
+          "symbols": [
+            "PathFinding2"
+          ]
+        },
+        {
+          "line": 6969,
+          "symbols": [
+            "SetPlayerStop"
+          ]
+        },
+        {
+          "line": 6984,
+          "symbols": [
+            "SetPlayerStop"
+          ]
+        },
+        {
+          "line": 6999,
+          "symbols": [
+            "SetPlayerStop"
+          ]
+        },
+        {
+          "line": 7103,
+          "symbols": [
+            "SetPlayerStop"
+          ]
+        },
+        {
+          "line": 7107,
+          "symbols": [
+            "SetPlayerWalk"
+          ]
+        },
+        {
+          "line": 7109,
+          "symbols": [
+            "MovePath"
+          ]
+        },
+        {
+          "line": 7115,
+          "symbols": [
+            "SetPlayerStop"
+          ]
+        },
+        {
+          "line": 7130,
+          "symbols": [
+            "SetPlayerStop"
+          ]
+        },
+        {
+          "line": 7230,
+          "symbols": [
+            "PathFinding2"
+          ]
+        },
+        {
+          "line": 7301,
+          "symbols": [
+            "PathFinding2"
+          ]
+        },
+        {
+          "line": 7338,
+          "symbols": [
+            "PathFinding2"
+          ]
+        },
+        {
+          "line": 7377,
+          "symbols": [
+            "PathFinding2"
+          ]
+        },
+        {
+          "line": 7385,
+          "symbols": [
+            "PathFinding2"
+          ]
+        },
+        {
+          "line": 7399,
+          "symbols": [
+            "PathFinding2"
+          ]
+        },
+        {
+          "line": 7430,
+          "symbols": [
+            "PathFinding2"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "ZzzInterface.h",
+      "bytes": 5174,
+      "sha256": "982a1d4aa757006946636322642d1c4efe425c961a71782ed85f69becf8272a1",
+      "lines": 172,
+      "includes": [],
+      "anchors": []
+    },
+    {
+      "path": "ZzzInventory.cpp",
+      "bytes": 276841,
+      "sha256": "b59ec47ff55a25bc556d06547b101b453c5456dce69ccec953a5ff88fae20f13",
+      "lines": 9650,
+      "includes": [
+        {
+          "name": "stdafx.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CGMProtect.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "UIManager.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "ZzzOpenglUtil.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzBMD.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzLodTerrain.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzInfomation.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzObject.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzCharacter.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzTexture.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzInterface.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzInventory.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzAI.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzEffect.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "DSPlaySound.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "wsclientinline.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "ZzzScene.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "./Utilities/Log/ErrorReport.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CSQuest.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "Local.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "zzzMixInventory.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "PersonalShopTitleImp.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GOBoid.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CSItemOption.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CSChaosCastle.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GMHellas.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "npcBreeder.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GIPetManager.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CSParts.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "npcGateSwitch.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GMBattleCastle.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CComGem.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GMCrywolf1st.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CDirection.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "ChangeRingManager.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "MixMgr.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "NewUICommonMessageBox.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "NewUICustomMessageBox.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "NewUIInventoryCtrl.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GM3rdChangeUp.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "w_CursedTemple.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "SocketSystem.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "PortalMgr.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "NewUISystem.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "ServerListManager.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "time.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "MapManager.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CharacterManager.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "SkillManager.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CGMItemDropName.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "jpexs.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CGMJewelOfAction.h",
+          "relativeFilePresent": false
+        }
+      ],
+      "anchors": []
+    },
+    {
+      "path": "ZzzInventory.h",
+      "bytes": 7435,
+      "sha256": "653240a0565b6181fbbb5cd44a28719324c087229890970dac7023bc00d47322",
+      "lines": 220,
+      "includes": [
+        {
+          "name": "NewUIButton.h",
+          "relativeFilePresent": false
+        }
+      ],
+      "anchors": []
+    },
+    {
+      "path": "ZzzLodTerrain.cpp",
+      "bytes": 85505,
+      "sha256": "ed44f5209f77c885fe09c91288475cc56a56b2fd9fca39dda32b89ce22b569ab",
+      "lines": 3225,
+      "includes": [
+        {
+          "name": "stdafx.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "gl\\gl.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "gl\\glu.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "math.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "ZzzOpenglUtil.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzBMD.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzLodTerrain.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "zzzpath.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzTexture.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzInfomation.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzObject.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzCharacter.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzInterface.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzEffect.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "./Utilities/Log/ErrorReport.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CSChaosCastle.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GMBattleCastle.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CMVP1stDirection.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CDirection.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "MapManager.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "./Utilities/Log/muConsoleDebug.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "w_MapHeaders.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "NewUISystem.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GMKarutan1.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CameraManager.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CameraMove.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CGMProtect.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "MuCrypto/MuCrypto.h",
+          "relativeFilePresent": false
+        }
+      ],
+      "anchors": [
+        {
+          "line": 1820,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "ZzzLodTerrain.h",
+      "bytes": 5656,
+      "sha256": "d743e9615e545de5f26ffecf527030adada527278deedf725b712e60cb52d207",
+      "lines": 197,
+      "includes": [
+        {
+          "name": "map",
+          "relativeFilePresent": false
+        }
+      ],
+      "anchors": []
+    },
+    {
+      "path": "ZzzObject.cpp",
+      "bytes": 505972,
+      "sha256": "daff1e9939440177a932723c61589ea3ea22b9d16aa0a065f1e4b16a51efcc70",
+      "lines": 13333,
+      "includes": [
+        {
+          "name": "stdafx.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "ZzzOpenglUtil.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzBMD.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzInfomation.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzObject.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzCharacter.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzLodTerrain.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzTexture.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzAI.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzInterface.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzInventory.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzEffect.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzScene.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzOpenData.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "DSPlaySound.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "wsclientinline.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "SideHair.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "PhysicsManager.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GOBoid.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CSparts.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CSItemOption.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CSChaosCastle.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GMHellas.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "MapManager.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GMBattleCastle.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GMHuntingGround.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GMCryingWolf2nd.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GMAida.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GMKarutan1.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GMCryWolf1st.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GM_Kanturu_1st.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "UIManager.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GM_Kanturu_2nd.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GM_Kanturu_3rd.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CDirection.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CComGem.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GM3rdChangeUp.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "BoneManager.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GMNewTown.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "w_CursedTemple.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GMSwampOfQuiet.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CharacterManager.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "w_MapHeaders.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "MonkSystem.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CGMProtect.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CGMItemWings.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CGMItemDropName.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CGMRenderGroupMesh.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CGMJewelOfAction.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CGMPhysicsManager.h",
+          "relativeFilePresent": false
+        }
+      ],
+      "anchors": [
+        {
+          "line": 742,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 808,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 930,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 952,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 1015,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 1016,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 1025,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 1028,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 1031,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 1034,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 1043,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 1046,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 1052,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 1055,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 1310,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 1316,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 1745,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 1747,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 1759,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 1801,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 1808,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 2008,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 2017,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 2073,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 2140,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 2141,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 2142,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 2143,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 2190,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 2195,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 2205,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 2212,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 2213,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 2214,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 2267,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 2345,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 2390,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 2393,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 2396,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 2407,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 2408,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 2460,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 2462,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 2471,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 2474,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 2478,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 2479,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 2566,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 2567,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 2765,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 2781,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 2782,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 2783,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 2785,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 2921,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 2924,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 3030,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 3031,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 3042,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 3043,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 3127,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 3137,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 3153,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 3159,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 3160,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 3176,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 3181,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 3185,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 3269,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 3321,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 3322,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 3326,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 3327,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 3330,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 3343,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 3356,
+          "symbols": [
+            "CreateEffectSync",
+            "MODEL_FIRE"
+          ]
+        },
+        {
+          "line": 4544,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 4579,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 4580,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 4639,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 4688,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 4729,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 4937,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 5003,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 5004,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 5031,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 5049,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 5067,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 5068,
+          "symbols": [
+            "CreateJointSync"
+          ]
+        },
+        {
+          "line": 7660,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 7661,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10759,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10760,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10763,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10767,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10788,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 10789,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 10815,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 10817,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 11691,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 12334,
+          "symbols": [
+            "BITMAP_JOINT_SPIRIT"
+          ]
+        },
+        {
+          "line": 12343,
+          "symbols": [
+            "BITMAP_JOINT_SPIRIT"
+          ]
+        },
+        {
+          "line": 12379,
+          "symbols": [
+            "CreateEffectSync"
+          ]
+        },
+        {
+          "line": 12471,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 12473,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 12505,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 12512,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 12519,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 12526,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "ZzzObject.h",
+      "bytes": 4191,
+      "sha256": "b813c830222cb87d7a9b57019918d33436ac83deed4453309101436c9b1d508f",
+      "lines": 105,
+      "includes": [],
+      "anchors": []
+    },
+    {
+      "path": "ZzzOpenData.cpp",
+      "bytes": 340447,
+      "sha256": "2fdbd795537e4444c89e1b6038a1a8c00d4829cc371b79a54e722d5330c42df7",
+      "lines": 6170,
+      "includes": [
+        {
+          "name": "stdafx.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CGMProtect.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "UIControls.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "ZzzOpenglUtil.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzBMD.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzInfomation.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzObject.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzCharacter.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzInterface.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzLodTerrain.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzTexture.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzOpenData.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzAI.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzInventory.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "DSPlaySound.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "wsclientinline.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "SMD.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "./Utilities/Log/ErrorReport.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "PhysicsManager.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CSQuest.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GMCrywolf1st.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CMVP1stDirection.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CSItemOption.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CSChaosCastle.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GMHellas.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GMBattleCastle.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CComGem.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GM_Kanturu_3rd.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CDirection.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "PersonalShopTitleImp.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "MoveCommandData.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "UIMng.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "MapManager.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "Event.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "ChangeRingManager.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "NewUISystem.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "w_CursedTemple.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CameraMove.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "w_MapHeaders.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "QuestMng.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "ServerListManager.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "MonkSystem.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CharacterManager.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "ReadScript.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CGMMonsterMng.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "MixMgr.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "ScaleForm.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CGMFontLayer.h",
+          "relativeFilePresent": false
+        }
+      ],
+      "anchors": [
+        {
+          "line": 4166,
+          "symbols": [
+            "MODEL_FIRE"
+          ]
+        },
+        {
+          "line": 4175,
+          "symbols": [
+            "MODEL_LASER"
+          ]
+        },
+        {
+          "line": 5491,
+          "symbols": [
+            "BITMAP_JOINT_SPIRIT2"
+          ]
+        },
+        {
+          "line": 5591,
+          "symbols": [
+            "BITMAP_JOINT_SPIRIT"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "ZzzOpenData.h",
+      "bytes": 757,
+      "sha256": "f21f7da560f416dbd3e5da196dc332857f2b6268fdd96c1e6805be4c62680fc2",
+      "lines": 31,
+      "includes": [],
+      "anchors": []
+    },
+    {
+      "path": "ZzzOpenglUtil.cpp",
+      "bytes": 56652,
+      "sha256": "e01cbe99bda068cbe49b2e2d3853e5d9a1bb52ddb55319ad35ac7ba038b66972",
+      "lines": 2303,
+      "includes": [
+        {
+          "name": "stdafx.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "ZzzOpenglUtil.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzTexture.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzBMD.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzInfomation.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "zzzObject.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "zzzcharacter.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "Zzzinfomation.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "NewUISystem.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CShaderGL.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "wglext.h",
+          "relativeFilePresent": false
+        }
+      ],
+      "anchors": []
+    },
+    {
+      "path": "ZzzOpenglUtil.h",
+      "bytes": 7624,
+      "sha256": "33913e1df32627818e5e697e0c6ee3a877b3cf26f8e0d3c7be5123c382b4dbd8",
+      "lines": 140,
+      "includes": [],
+      "anchors": []
+    },
+    {
+      "path": "ZzzPath.h",
+      "bytes": 9733,
+      "sha256": "981cc6fed3918de1d17f8e9c7a03c19a681a06b5dfe57a5ea3ff1c6dc1b85125",
+      "lines": 412,
+      "includes": [
+        {
+          "name": "math.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "BaseCls.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "./Utilities/Log/ErrorReport.h",
+          "relativeFilePresent": false
+        }
+      ],
+      "anchors": []
+    },
+    {
+      "path": "ZzzScene.cpp",
+      "bytes": 80017,
+      "sha256": "94476b7742c9cb5a743aa7e70878cbb8d33f1f2a8dbebc5a77ba71307990ce54",
+      "lines": 3355,
+      "includes": [
+        {
+          "name": "stdafx.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "UIManager.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GuildCache.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "ZzzOpenglUtil.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzBMD.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzInfomation.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzObject.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzCharacter.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzLodTerrain.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzInterface.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzInventory.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzTexture.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzOpenData.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzScene.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzEffect.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzAI.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "DSPlaySound.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "wsclientinline.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "SMD.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "Local.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "MatchEvent.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "PhysicsManager.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "./Utilities/Log/ErrorReport.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CSQuest.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "PersonalShopTitleImp.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "uicontrols.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GOBoid.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GMHellas.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CSItemOption.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GMBattleCastle.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GMHuntingGround.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GMAida.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GMCrywolf1st.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "npcBreeder.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CSPetSystem.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GIPetManager.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CComGem.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "UIMapName.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "./Time/Timer.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "Input.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "UIMng.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "LoadingScene.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CDirection.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GM_Kanturu_3rd.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "dshow.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "MovieScene.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "Event.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "./Utilities/Log/muConsoleDebug.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "MixMgr.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GameCensorship.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "GM3rdChangeUp.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "NewUISystem.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "NewUICommonMessageBox.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "PartyManager.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "w_CursedTemple.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CameraMove.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "w_MapHeaders.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "w_PetProcess.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "PortalMgr.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "ServerListManager.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "ProtocolSend.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "MapManager.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CGMProtect.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CAIController.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CameraManager.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CGMHeadChat.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "ConnectVersionHex.h",
+          "relativeFilePresent": false
+        }
+      ],
+      "anchors": [
+        {
+          "line": 1478,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        },
+        {
+          "line": 1479,
+          "symbols": [
+            "CreateParticleSync"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "ZzzScene.h",
+      "bytes": 1028,
+      "sha256": "4f1acc5499bdcde1df10d007e221ccc6c32a9cee46eb7061c1634b9ac24a9a25",
+      "lines": 38,
+      "includes": [
+        {
+          "name": "zzzinfomation.h",
+          "relativeFilePresent": true
+        }
+      ],
+      "anchors": []
+    },
+    {
+      "path": "ZzzTexture.cpp",
+      "bytes": 6303,
+      "sha256": "42adfb2526637ac953d24da646c9e74af449bde1fca5efc6c3ba6b4f16b92f33",
+      "lines": 266,
+      "includes": [
+        {
+          "name": "stdafx.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "setjmp.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "ZzzTexture.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "./Utilities/Log/ErrorReport.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "WSclient.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "DSPlaySound.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "Jpeglib.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "ProtocolSend.h",
+          "relativeFilePresent": false
+        }
+      ],
+      "anchors": []
+    },
+    {
+      "path": "ZzzTexture.h",
+      "bytes": 961,
+      "sha256": "27c09ee032416345156681edff3a5d00bb68604fcca63f9519df6a6ecf476c34",
+      "lines": 19,
+      "includes": [
+        {
+          "name": "GlobalBitmap.h",
+          "relativeFilePresent": false
+        }
+      ],
+      "anchors": []
+    },
+    {
+      "path": "zzzMixInventory.h",
+      "bytes": 95,
+      "sha256": "ebfe92d0ad780d154441928b179f05523c0c4babe51b1ffc6118a86b2bbc3e26",
+      "lines": 4,
+      "includes": [],
+      "anchors": []
+    },
+    {
+      "path": "zzzMixInvetory.cpp",
+      "bytes": 667,
+      "sha256": "a4dd9f4b414cd2a3cb2baf44d29146e73268032cfbcb5dc8cb89088a83b52d2a",
+      "lines": 26,
+      "includes": [
+        {
+          "name": "stdafx.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "UIManager.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "UIControls.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "ZzzOpenglUtil.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzBMD.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzObject.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzCharacter.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzTexture.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzInterface.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzInventory.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "zzzMixInventory.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "DSPlaySound.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "wsclientinline.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "./Utilities/Log/ErrorReport.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "Local.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "CSItemOption.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "MixMgr.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "NewUICommonMessageBox.h",
+          "relativeFilePresent": false
+        }
+      ],
+      "anchors": []
+    },
+    {
+      "path": "zzzeffectsprite.cpp",
+      "bytes": 3315,
+      "sha256": "1c968d6f1270c86df06c58b34025b941432246e48c96735e7b42db8f2add02e6",
+      "lines": 181,
+      "includes": [
+        {
+          "name": "stdafx.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "ZzzOpenglUtil.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzBMD.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzInfomation.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzObject.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzCharacter.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzLodTerrain.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzTexture.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzAi.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "ZzzEffect.h",
+          "relativeFilePresent": true
+        },
+        {
+          "name": "DSPlaySound.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "WSClient.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "NewUISystem.h",
+          "relativeFilePresent": false
+        }
+      ],
+      "anchors": []
+    },
+    {
+      "path": "zzzpath.cpp",
+      "bytes": 307,
+      "sha256": "1cc6146a5b953612540d1d21289efb2a8a3a132768ba63941750e43fdab58471",
+      "lines": 17,
+      "includes": [
+        {
+          "name": "stdafx.h",
+          "relativeFilePresent": false
+        },
+        {
+          "name": "zzzpath.h",
+          "relativeFilePresent": true
+        }
+      ],
+      "anchors": []
+    }
+  ]
+}

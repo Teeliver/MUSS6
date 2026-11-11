@@ -1,0 +1,518 @@
+[
+  {
+    "name": "QDuelA",
+    "event": "entered",
+    "index": 11900,
+    "map": 63,
+    "x": 122,
+    "y": 134
+  },
+  {
+    "name": "QDuelA",
+    "event": "notice",
+    "message": "MU Helper stopped."
+  },
+  {
+    "name": "QDuelA",
+    "event": "notice",
+    "message": "Welcome back QDuelA!"
+  },
+  {
+    "name": "QDuelA",
+    "event": "notice",
+    "message": "Account type: Free"
+  },
+  {
+    "name": "QDuelB",
+    "event": "entered",
+    "index": 11901,
+    "map": 63,
+    "x": 122,
+    "y": 134
+  },
+  {
+    "name": "QDuelB",
+    "event": "notice",
+    "message": "MU Helper stopped."
+  },
+  {
+    "name": "QDuelB",
+    "event": "notice",
+    "message": "Welcome back QDuelB!"
+  },
+  {
+    "name": "QDuelB",
+    "event": "notice",
+    "message": "Account type: Free"
+  },
+  {
+    "name": "QDuelC",
+    "event": "notice",
+    "message": "MU Helper stopped."
+  },
+  {
+    "name": "QDuelC",
+    "event": "entered",
+    "index": 11902,
+    "map": 63,
+    "x": 122,
+    "y": 134
+  },
+  {
+    "name": "QDuelC",
+    "event": "notice",
+    "message": "Welcome back QDuelC!"
+  },
+  {
+    "name": "QDuelC",
+    "event": "notice",
+    "message": "Account type: Free"
+  },
+  {
+    "name": "QDuelB",
+    "event": "duelPacket",
+    "bytes": [
+      193,
+      16,
+      170,
+      2,
+      46,
+      124,
+      81,
+      68,
+      117,
+      101,
+      108,
+      65,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "QDuelB",
+    "event": "map",
+    "map": 64,
+    "x": 101,
+    "y": 64
+  },
+  {
+    "name": "QDuelB",
+    "event": "duelPacket",
+    "bytes": [
+      193,
+      17,
+      170,
+      1,
+      0,
+      46,
+      124,
+      81,
+      68,
+      117,
+      101,
+      108,
+      65,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "QDuelB",
+    "event": "duelPacket",
+    "bytes": [
+      193,
+      10,
+      170,
+      4,
+      46,
+      125,
+      46,
+      124,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "QDuelA",
+    "event": "map",
+    "map": 64,
+    "x": 101,
+    "y": 75
+  },
+  {
+    "name": "QDuelA",
+    "event": "duelPacket",
+    "bytes": [
+      193,
+      17,
+      170,
+      1,
+      0,
+      46,
+      125,
+      81,
+      68,
+      117,
+      101,
+      108,
+      66,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "QDuelA",
+    "event": "duelPacket",
+    "bytes": [
+      193,
+      10,
+      170,
+      4,
+      46,
+      125,
+      46,
+      124,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "QDuelC",
+    "event": "Titus",
+    "index": 4305,
+    "x": 122,
+    "y": 135
+  },
+  {
+    "name": "QDuelC",
+    "event": "duelPacket",
+    "bytes": [
+      193,
+      92,
+      170,
+      6,
+      81,
+      68,
+      117,
+      101,
+      108,
+      66,
+      0,
+      0,
+      0,
+      0,
+      81,
+      68,
+      117,
+      101,
+      108,
+      65,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "QDuelC",
+    "event": "rooms",
+    "arenas": [
+      {
+        "number": 0,
+        "name1": "QDuelB",
+        "name2": "QDuelA",
+        "state": 1,
+        "available": true
+      },
+      {
+        "number": 1,
+        "name1": "",
+        "name2": "",
+        "state": 0,
+        "available": false
+      },
+      {
+        "number": 2,
+        "name1": "",
+        "name2": "",
+        "state": 0,
+        "available": false
+      },
+      {
+        "number": 3,
+        "name1": "",
+        "name2": "",
+        "state": 0,
+        "available": false
+      }
+    ]
+  },
+  {
+    "name": "QDuelC",
+    "event": "map",
+    "map": 64,
+    "x": 100,
+    "y": 70
+  },
+  {
+    "name": "QDuelC",
+    "event": "duelPacket",
+    "bytes": [
+      193,
+      30,
+      170,
+      7,
+      0,
+      0,
+      81,
+      68,
+      117,
+      101,
+      108,
+      66,
+      0,
+      0,
+      0,
+      0,
+      81,
+      68,
+      117,
+      101,
+      108,
+      65,
+      0,
+      0,
+      0,
+      0,
+      46,
+      125,
+      46,
+      124
+    ]
+  },
+  {
+    "name": "QDuelC",
+    "event": "duelPacket",
+    "bytes": [
+      193,
+      15,
+      170,
+      11,
+      1,
+      81,
+      68,
+      117,
+      101,
+      108,
+      67,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "QDuelC",
+    "event": "duelPacket",
+    "bytes": [
+      193,
+      12,
+      170,
+      5,
+      46,
+      125,
+      46,
+      124,
+      100,
+      100,
+      100,
+      100
+    ]
+  },
+  {
+    "name": "QDuelC",
+    "event": "duelPacket",
+    "bytes": [
+      193,
+      10,
+      170,
+      4,
+      46,
+      125,
+      46,
+      124,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "QDuelC",
+    "event": "joined",
+    "watch": {
+      "phase": "watching",
+      "roundSeq": 0,
+      "channel": 0,
+      "fighters": [
+        {
+          "name": "QDuelB",
+          "index": 11901,
+          "score": 0,
+          "hp": 1,
+          "sd": 1
+        },
+        {
+          "name": "QDuelA",
+          "index": 11900,
+          "score": 0,
+          "hp": 1,
+          "sd": 1
+        }
+      ],
+      "spectators": [
+        "QDuelC"
+      ],
+      "winner": "",
+      "loser": ""
+    }
+  },
+  {
+    "name": "QDuelC",
+    "event": "map",
+    "map": 64,
+    "x": 100,
+    "y": 70
+  },
+  {
+    "name": "QDuelC",
+    "event": "earlyLeaveRetained",
+    "phase": "watching"
+  },
+  {
+    "name": "QDuelC",
+    "event": "duelPacket",
+    "bytes": [
+      193,
+      12,
+      170,
+      5,
+      46,
+      125,
+      46,
+      124,
+      100,
+      100,
+      100,
+      100
+    ]
+  },
+  {
+    "name": "QDuelC",
+    "event": "map",
+    "map": 0,
+    "x": 144,
+    "y": 121
+  },
+  {
+    "name": "QDuelC",
+    "event": "earlyLeaveChecked",
+    "busyRefused": true
+  },
+  {
+    "name": "QDuelC",
+    "event": "leftAndMoved",
+    "map": 0,
+    "x": 145,
+    "y": 121
+  },
+  {
+    "name": "QA",
+    "event": "PASS",
+    "flow": "challenge/accept/Titus/rooms/join/HP/SD/score/spectators/leave/move"
+  },
+  {
+    "name": "QDuelA",
+    "event": "closed"
+  },
+  {
+    "name": "QDuelB",
+    "event": "closed"
+  },
+  {
+    "name": "QDuelC",
+    "event": "closed"
+  }
+]

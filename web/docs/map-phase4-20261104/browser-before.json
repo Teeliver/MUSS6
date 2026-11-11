@@ -1,0 +1,14 @@
+{
+  "scope": "Offline Elbeland 30,218 before culling replacement; diagnostic baseline 60 FPS; not a controlled GPU benchmark",
+  "buffer": [
+    2560,
+    1440
+  ],
+  "diagnosticFPS": 60,
+  "worldFPS": 53.1,
+  "worldFrameP95Ms": 33.6,
+  "worldCpuP95Ms": 19.6,
+  "worldCpuLastMs": 6.4,
+  "visibility": "visible",
+  "worldLoadMs": 6464.0
+}

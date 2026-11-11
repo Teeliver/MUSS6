@@ -1,0 +1,210 @@
+[
+  {
+    "map": 57,
+    "before": 65,
+    "after": 65,
+    "entries": [
+      {
+        "type": 247,
+        "placements": 65,
+        "model": "Object58/Object248.bmd",
+        "status": "failed",
+        "issues": [
+          "Missing/ambiguous Object58/Object248.bmd"
+        ],
+        "classification": "missing-model-no-confirmed-substitution",
+        "source": null
+      }
+    ]
+  },
+  {
+    "map": 8,
+    "before": 49,
+    "after": 49,
+    "entries": [
+      {
+        "type": 0,
+        "placements": 2,
+        "model": "Object9/Object01.bmd",
+        "status": "failed",
+        "issues": [
+          "Missing/ambiguous Object9/Object01.bmd"
+        ],
+        "classification": "missing-model-no-confirmed-substitution",
+        "source": null
+      },
+      {
+        "type": 35,
+        "placements": 38,
+        "model": "Object9/Object36.bmd",
+        "status": "failed",
+        "issues": [
+          "Missing/ambiguous Object9/Object36.bmd"
+        ],
+        "classification": "missing-model-no-confirmed-substitution",
+        "source": null
+      },
+      {
+        "type": 3,
+        "placements": 2,
+        "model": "Object9/Object04.bmd",
+        "status": "failed",
+        "issues": [
+          "Missing/ambiguous Object9/Object04.bmd"
+        ],
+        "classification": "missing-model-no-confirmed-substitution",
+        "source": null
+      },
+      {
+        "type": 4,
+        "placements": 1,
+        "model": "Object9/Object05.bmd",
+        "status": "failed",
+        "issues": [
+          "Missing/ambiguous Object9/Object05.bmd"
+        ],
+        "classification": "missing-model-no-confirmed-substitution",
+        "source": null
+      },
+      {
+        "type": 38,
+        "placements": 6,
+        "model": "Object9/Object39.bmd",
+        "status": "failed",
+        "issues": [
+          "Missing/ambiguous Object9/Object39.bmd"
+        ],
+        "classification": "missing-model-no-confirmed-substitution",
+        "source": null
+      }
+    ]
+  },
+  {
+    "map": 38,
+    "before": 26,
+    "after": 22,
+    "entries": [
+      {
+        "type": 69,
+        "placements": 1,
+        "model": "Object39/Object70.bmd",
+        "status": "failed",
+        "issues": [
+          "Missing/ambiguous Object39/Object70.bmd"
+        ],
+        "classification": "missing-model-no-confirmed-substitution",
+        "source": null
+      },
+      {
+        "type": 84,
+        "placements": 5,
+        "model": "Object39/Object85.bmd",
+        "status": "failed",
+        "issues": [
+          "Missing/ambiguous Object39/Object85.bmd"
+        ],
+        "classification": "missing-model-no-confirmed-substitution",
+        "source": null
+      },
+      {
+        "type": 39,
+        "placements": 1,
+        "model": "Object39/Object40.bmd",
+        "status": "failed",
+        "issues": [
+          "Missing/ambiguous Object39/Object40.bmd"
+        ],
+        "classification": "missing-model-no-confirmed-substitution",
+        "source": null
+      },
+      {
+        "type": 25,
+        "placements": 1,
+        "model": "Object39/Object26.bmd",
+        "status": "failed",
+        "issues": [
+          "Missing/ambiguous Object39/Object26.bmd"
+        ],
+        "classification": "missing-model-no-confirmed-substitution",
+        "source": null
+      },
+      {
+        "type": 22,
+        "placements": 4,
+        "model": "Object39/Object23.bmd",
+        "status": "failed",
+        "issues": [
+          "Missing/ambiguous Object39/Object23.bmd"
+        ],
+        "classification": "missing-model-no-confirmed-substitution",
+        "source": null
+      },
+      {
+        "type": 21,
+        "placements": 4,
+        "model": "Object39/Object22.bmd",
+        "status": "failed",
+        "issues": [
+          "Missing/ambiguous Object39/Object22.bmd"
+        ],
+        "classification": "missing-model-no-confirmed-substitution",
+        "source": null
+      },
+      {
+        "type": 42,
+        "placements": 3,
+        "model": "Object39/Object43.bmd",
+        "status": "failed",
+        "issues": [
+          "Missing/ambiguous Object39/Object43.bmd"
+        ],
+        "classification": "missing-model-no-confirmed-substitution",
+        "source": null
+      },
+      {
+        "type": 43,
+        "placements": 1,
+        "model": "Object39/Object44.bmd",
+        "status": "failed",
+        "issues": [
+          "Missing/ambiguous Object39/Object44.bmd"
+        ],
+        "classification": "missing-model-no-confirmed-substitution",
+        "source": null
+      },
+      {
+        "type": 28,
+        "placements": 1,
+        "model": "Object39/Object29.bmd",
+        "status": "failed",
+        "issues": [
+          "Missing/ambiguous Object39/Object29.bmd"
+        ],
+        "classification": "missing-model-no-confirmed-substitution",
+        "source": null
+      },
+      {
+        "type": 51,
+        "placements": 4,
+        "model": "Object39/Object52.bmd",
+        "status": "failed",
+        "issues": [
+          "Missing/ambiguous Object39/Object52.bmd"
+        ],
+        "classification": "source-effect-marker-cloud11",
+        "source": "GM_Kanturu_2nd.cpp::Move_Kanturu2nd_Object / Render_Kanturu2nd_ObjectVisual"
+      },
+      {
+        "type": 40,
+        "placements": 1,
+        "model": "Object39/Object41.bmd",
+        "status": "failed",
+        "issues": [
+          "Missing/ambiguous Object39/Object41.bmd"
+        ],
+        "classification": "missing-model-no-confirmed-substitution",
+        "source": null
+      }
+    ]
+  }
+]

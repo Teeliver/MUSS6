@@ -1,0 +1,3 @@
+// GameServer/Move.h, ABI UPDATE603: type@3 reserved@4 number@8, sizeof12.
+export function mapMovePacket(number){if(!Number.isInteger(number)||number<0||number>65535)throw new Error('Invalid move index');const b=new Uint8Array(12);b.set([0xc1,12,0x8e,0]);new DataView(b.buffer).setUint16(8,number,true);return b;}
+export function teleportReply(b){if(!(b instanceof Uint8Array)||b.length!==10||![0xc1,0xc3].includes(b[0])||b[1]!==10||b[2]!==0x1c||b[9]>7)throw new Error('Invalid teleport reply');return {gate:new DataView(b.buffer,b.byteOffset,b.byteLength).getUint16(4,true),map:b[6],x:b[7],y:b[8],direction:b[9]};}

@@ -1,0 +1,1919 @@
+{
+  "method": "Literal ExecQuery text scan, includes inactive version branches; not schema/procedure bodies",
+  "calls": [
+    {
+      "file": "DataServer/ArcaBattle.cpp",
+      "line": 38,
+      "format": "SELECT * FROM ArcaBattleGuildMaster WHERE GuildName='%s'"
+    },
+    {
+      "file": "DataServer/ArcaBattle.cpp",
+      "line": 70,
+      "format": "SELECT * FROM ArcaBattleGuildMaster WHERE GuildName='%s'"
+    },
+    {
+      "file": "DataServer/ArcaBattle.cpp",
+      "line": 82,
+      "format": "SELECT * FROM ArcaBattleGuildMember WHERE Name='%s' AND GuildName='%s'"
+    },
+    {
+      "file": "DataServer/ArcaBattle.cpp",
+      "line": 86,
+      "format": "SELECT COUNT(*) FROM ArcaBattleGuildMember WHERE GuildName='%s'"
+    },
+    {
+      "file": "DataServer/ArcaBattle.cpp",
+      "line": 121,
+      "format": "SELECT * FROM ArcaBattleGuildMember WHERE Name='%s' AND GuildName='%s'"
+    },
+    {
+      "file": "DataServer/ArcaBattle.cpp",
+      "line": 153,
+      "format": "SELECT COUNT(*) FROM ArcaBattleGuildMember WHERE GuildName='%s'"
+    },
+    {
+      "file": "DataServer/ArcaBattle.cpp",
+      "line": 193,
+      "format": "SELECT * FROM ArcaBattleGuildMaster WHERE GuildName='%s'"
+    },
+    {
+      "file": "DataServer/ArcaBattle.cpp",
+      "line": 205,
+      "format": "SELECT * FROM ArcaBattleGuildEmblem WHERE GuildName='%s'"
+    },
+    {
+      "file": "DataServer/ArcaBattle.cpp",
+      "line": 240,
+      "format": "SELECT Ranking,MarkCount FROM (SELECT ROW_NUMBER() OVER(ORDER BY MarkCount DESC) AS Ranking, * FROM ArcaBattleGuildEmblem) AS TABLA WHERE GuildName='%s'"
+    },
+    {
+      "file": "DataServer/ArcaBattle.cpp",
+      "line": 261,
+      "format": "SELECT TOP 6 ROW_NUMBER() OVER(ORDER BY MarkCount DESC) AS Ranking,* FROM ArcaBattleGuildEmblem"
+    },
+    {
+      "file": "DataServer/ArcaBattle.cpp",
+      "line": 294,
+      "format": "SELECT * FROM ArcaBattleGuildMaster WHERE GuildName='%s'"
+    },
+    {
+      "file": "DataServer/ArcaBattle.cpp",
+      "line": 298,
+      "format": "INSERT INTO ArcaBattleGuildMaster (GuildName) VALUES ('%s')"
+    },
+    {
+      "file": "DataServer/ArcaBattle.cpp",
+      "line": 310,
+      "format": "SELECT * FROM ArcaBattleGuildMember WHERE Name='%s' AND GuildName='%s'"
+    },
+    {
+      "file": "DataServer/ArcaBattle.cpp",
+      "line": 314,
+      "format": "INSERT INTO ArcaBattleGuildMember (Name,GuildName) VALUES ('%s','%s')"
+    },
+    {
+      "file": "DataServer/ArcaBattle.cpp",
+      "line": 326,
+      "format": "SELECT * FROM ArcaBattleGuildEmblem WHERE GuildName='%s'"
+    },
+    {
+      "file": "DataServer/ArcaBattle.cpp",
+      "line": 330,
+      "format": "INSERT INTO ArcaBattleGuildEmblem (GuildName,MarkCount) VALUES ('%s',%d)"
+    },
+    {
+      "file": "DataServer/ArcaBattle.cpp",
+      "line": 340,
+      "format": "UPDATE ArcaBattleGuildEmblem SET MarkCount=%d WHERE GuildName='%s'"
+    },
+    {
+      "file": "DataServer/CashShop.cpp",
+      "line": 39,
+      "format": "SELECT * FROM CashShopData WHERE AccountID='%s'"
+    },
+    {
+      "file": "DataServer/CashShop.cpp",
+      "line": 43,
+      "format": "INSERT INTO CashShopData (AccountID,WCoinC,WCoinP,GoblinPoint) VALUES ('%s',0,0,0)"
+    },
+    {
+      "file": "DataServer/CashShop.cpp",
+      "line": 102,
+      "format": "SELECT * FROM CashShopData WHERE AccountID='%s'"
+    },
+    {
+      "file": "DataServer/CashShop.cpp",
+      "line": 118,
+      "format": "SELECT count(*) FROM CashShopInventory WHERE AccountID='%s' AND InventoryType=%d"
+    },
+    {
+      "file": "DataServer/CashShop.cpp",
+      "line": 171,
+      "format": "SELECT AccountID FROM Character WHERE Name=?"
+    },
+    {
+      "file": "DataServer/CashShop.cpp",
+      "line": 183,
+      "format": "SELECT * FROM CashShopData WHERE AccountID='%s'"
+    },
+    {
+      "file": "DataServer/CashShop.cpp",
+      "line": 199,
+      "format": "SELECT count(*) FROM CashShopInventory WHERE AccountID='%s' AND InventoryType=%d"
+    },
+    {
+      "file": "DataServer/CashShop.cpp",
+      "line": 241,
+      "format": "SELECT * FROM CashShopInventory WHERE AccountID='%s' AND InventoryType=%d"
+    },
+    {
+      "file": "DataServer/CashShop.cpp",
+      "line": 305,
+      "format": "SELECT * FROM CashShopInventory WHERE BaseItemCode=%d"
+    },
+    {
+      "file": "DataServer/CashShop.cpp",
+      "line": 363,
+      "format": "SELECT Time FROM CashShopPeriodicItem WHERE ItemSerial=%d"
+    },
+    {
+      "file": "DataServer/CashShop.cpp",
+      "line": 366,
+      "format": "INSERT INTO CashShopPeriodicItem (ItemSerial,Time) VALUES (%d,%d)"
+    },
+    {
+      "file": "DataServer/CashShop.cpp",
+      "line": 416,
+      "format": "SELECT * FROM CashShopData WHERE AccountID='%s'"
+    },
+    {
+      "file": "DataServer/CashShop.cpp",
+      "line": 450,
+      "format": "SELECT WCoinC,WCoinP,GoblinPoint FROM CashShopData WHERE AccountID='%s'"
+    },
+    {
+      "file": "DataServer/CashShop.cpp",
+      "line": 454,
+      "format": "INSERT INTO CashShopData (AccountID,WCoinC,WCoinP,GoblinPoint) VALUES ('%s',%d,%d,%d)"
+    },
+    {
+      "file": "DataServer/CashShop.cpp",
+      "line": 468,
+      "format": "UPDATE CashShopData SET WCoinC=%d,WCoinP=%d,GoblinPoint=%d WHERE AccountID='%s'"
+    },
+    {
+      "file": "DataServer/CashShop.cpp",
+      "line": 484,
+      "format": "SELECT WCoinC,WCoinP,GoblinPoint FROM CashShopData WHERE AccountID='%s'"
+    },
+    {
+      "file": "DataServer/CashShop.cpp",
+      "line": 488,
+      "format": "INSERT INTO CashShopData (AccountID,WCoinC,WCoinP,GoblinPoint) VALUES ('%s',%d,%d,%d)"
+    },
+    {
+      "file": "DataServer/CashShop.cpp",
+      "line": 502,
+      "format": "UPDATE CashShopData SET WCoinC=%d,WCoinP=%d,GoblinPoint=%d WHERE AccountID='%s'"
+    },
+    {
+      "file": "DataServer/CashShop.cpp",
+      "line": 522,
+      "format": "INSERT INTO CashShopInventory (MainItemCode,AccountID,InventoryType,PackageMainIndex,ProductBaseIndex,ProductMainIndex,CoinValue,ProductType,GiftName,GiftText) VALUES (%d,'%s',%d,%d,%d,%d,%f,%d,?,?)"
+    },
+    {
+      "file": "DataServer/CashShop.cpp",
+      "line": 537,
+      "format": "DELETE FROM CashShopInventory WHERE BaseItemCode=%d"
+    },
+    {
+      "file": "DataServer/CashShop.cpp",
+      "line": 551,
+      "format": "SELECT ItemSerial FROM CashShopPeriodicItem WHERE ItemSerial=%d"
+    },
+    {
+      "file": "DataServer/CashShop.cpp",
+      "line": 554,
+      "format": "INSERT INTO CashShopPeriodicItem (ItemSerial,Time) VALUES (%d,%d)"
+    },
+    {
+      "file": "DataServer/CashShop.cpp",
+      "line": 560,
+      "format": "UPDATE CashShopPeriodicItem SET Time=%d WHERE ItemSerial=%d"
+    },
+    {
+      "file": "DataServer/CastleDBSet.cpp",
+      "line": 32,
+      "format": "EXEC WZ_CS_GetCastleTotalInfo %d, %d"
+    },
+    {
+      "file": "DataServer/CastleDBSet.cpp",
+      "line": 72,
+      "format": "EXEC WZ_CS_GetOwnerGuildMaster %d"
+    },
+    {
+      "file": "DataServer/CastleDBSet.cpp",
+      "line": 108,
+      "format": "EXEC WZ_CS_ReqNpcBuy %d, %d, %d, %d, %d, %d, %d, %d, %d, %d"
+    },
+    {
+      "file": "DataServer/CastleDBSet.cpp",
+      "line": 135,
+      "format": "EXEC WZ_CS_ReqNpcRepair %d, %d, %d"
+    },
+    {
+      "file": "DataServer/CastleDBSet.cpp",
+      "line": 165,
+      "format": "EXEC WZ_CS_ReqNpcUpgrade %d, %d, %d, %d, %d"
+    },
+    {
+      "file": "DataServer/CastleDBSet.cpp",
+      "line": 199,
+      "format": "EXEC WZ_CS_GetCastleTaxInfo %d"
+    },
+    {
+      "file": "DataServer/CastleDBSet.cpp",
+      "line": 229,
+      "format": "EXEC WZ_CS_ModifyTaxRate %d, %d, %d"
+    },
+    {
+      "file": "DataServer/CastleDBSet.cpp",
+      "line": 260,
+      "format": "EXEC WZ_CS_ModifyMoney %d, %d"
+    },
+    {
+      "file": "DataServer/CastleDBSet.cpp",
+      "line": 288,
+      "format": "EXEC WZ_CS_ModifyCastleSchedule %d, '%d-%d-%d 00:00:00', '%d-%d-%d 00:00:00'"
+    },
+    {
+      "file": "DataServer/CastleDBSet.cpp",
+      "line": 320,
+      "format": "EXEC WZ_CS_GetGuildMarkRegInfo %d, '%s'"
+    },
+    {
+      "file": "DataServer/CastleDBSet.cpp",
+      "line": 360,
+      "format": "EXEC WZ_CS_ModifySiegeEnd %d, %d"
+    },
+    {
+      "file": "DataServer/CastleDBSet.cpp",
+      "line": 398,
+      "format": "EXEC WZ_CS_ModifyCastleOwnerInfo %d, %d, '%s'"
+    },
+    {
+      "file": "DataServer/CastleDBSet.cpp",
+      "line": 435,
+      "format": "EXEC WZ_CS_ReqRegAttackGuild %d, '%s'"
+    },
+    {
+      "file": "DataServer/CastleDBSet.cpp",
+      "line": 462,
+      "format": "EXEC WZ_CS_ResetCastleSiege %d"
+    },
+    {
+      "file": "DataServer/CastleDBSet.cpp",
+      "line": 495,
+      "format": "EXEC WZ_CS_ReqRegGuildMark %d, '%s'"
+    },
+    {
+      "file": "DataServer/CastleDBSet.cpp",
+      "line": 532,
+      "format": "EXEC WZ_CS_ModifyGuildMarkReset %d, '%s'"
+    },
+    {
+      "file": "DataServer/CastleDBSet.cpp",
+      "line": 567,
+      "format": "EXEC WZ_CS_ModifyGuildGiveUp %d, '%s', %d"
+    },
+    {
+      "file": "DataServer/CastleDBSet.cpp",
+      "line": 598,
+      "format": "EXEC WZ_CS_ReqNpcRemove %d, %d, %d"
+    },
+    {
+      "file": "DataServer/CastleDBSet.cpp",
+      "line": 620,
+      "format": "EXEC WZ_CS_ResetCastleTaxInfo %d"
+    },
+    {
+      "file": "DataServer/CastleDBSet.cpp",
+      "line": 642,
+      "format": "EXEC WZ_CS_ResetSiegeGuildInfo %d"
+    },
+    {
+      "file": "DataServer/CastleDBSet.cpp",
+      "line": 664,
+      "format": "EXEC WZ_CS_ResetRegSiegeInfo %d"
+    },
+    {
+      "file": "DataServer/CastleDBSet.cpp",
+      "line": 694,
+      "format": "EXEC WZ_CS_GetCastleNpcInfo %d"
+    },
+    {
+      "file": "DataServer/CastleDBSet.cpp",
+      "line": 750,
+      "format": "EXEC WZ_CS_GetAllGuildMarkRegInfo %d"
+    },
+    {
+      "file": "DataServer/CastleDBSet.cpp",
+      "line": 794,
+      "format": "DELETE MuCastle_NPC WHERE MAP_SVR_GROUP = %d"
+    },
+    {
+      "file": "DataServer/CastleDBSet.cpp",
+      "line": 804,
+      "format": "EXEC WZ_CS_ReqNpcBuy %d, %d, %d, %d, %d, %d, %d, %d, %d, %d"
+    },
+    {
+      "file": "DataServer/CastleDBSet.cpp",
+      "line": 832,
+      "format": "EXEC WZ_CS_GetCalcRegGuildList %d"
+    },
+    {
+      "file": "DataServer/CastleDBSet.cpp",
+      "line": 887,
+      "format": "EXEC WZ_CS_GetCsGuildUnionInfo '%s'"
+    },
+    {
+      "file": "DataServer/CastleDBSet.cpp",
+      "line": 929,
+      "format": "DELETE MuCastle_SIEGE_GUILDLIST WHERE MAP_SVR_GROUP = %d"
+    },
+    {
+      "file": "DataServer/CastleDBSet.cpp",
+      "line": 946,
+      "format": "EXEC WZ_CS_SetSiegeGuildInfo %d, '%s', %d, %d, %d"
+    },
+    {
+      "file": "DataServer/CastleDBSet.cpp",
+      "line": 963,
+      "format": "EXEC WZ_CS_SetSiegeGuildOK %d"
+    },
+    {
+      "file": "DataServer/CastleDBSet.cpp",
+      "line": 991,
+      "format": "EXEC WZ_CS_GetSiegeGuildInfo %d"
+    },
+    {
+      "file": "DataServer/CastleDBSet.cpp",
+      "line": 1041,
+      "format": "DELETE MuCastle_NPC WHERE MAP_SVR_GROUP = %d"
+    },
+    {
+      "file": "DataServer/CastleDBSet.cpp",
+      "line": 1051,
+      "format": "EXEC WZ_CS_ReqNpcUpdate %d, %d, %d, %d, %d, %d, %d, %d, %d, %d"
+    },
+    {
+      "file": "DataServer/ChaosCastleFinal.cpp",
+      "line": 44,
+      "format": "SELECT TOP 50 ROW_NUMBER() OVER(ORDER BY Score DESC) AS Ranking,* FROM RankingChaosCastleFinal"
+    },
+    {
+      "file": "DataServer/ChaosCastleFinal.cpp",
+      "line": 77,
+      "format": "SELECT Name FROM RankingChaosCastleFinal WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/ChaosCastleFinal.cpp",
+      "line": 80,
+      "format": "INSERT INTO RankingChaosCastleFinal (Name,Score) VALUES ('%s',%d)"
+    },
+    {
+      "file": "DataServer/ChaosCastleFinal.cpp",
+      "line": 86,
+      "format": "UPDATE RankingChaosCastleFinal SET Score=Score+%d WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/ChaosCastleFinal.cpp",
+      "line": 97,
+      "format": "DELETE FROM RankingChaosCastleFinal"
+    },
+    {
+      "file": "DataServer/CommandManager.cpp",
+      "line": 39,
+      "format": "EXEC WZ_GetResetInfo '%s','%s'"
+    },
+    {
+      "file": "DataServer/CommandManager.cpp",
+      "line": 66,
+      "format": "EXEC WZ_GetMasterResetInfo '%s','%s'"
+    },
+    {
+      "file": "DataServer/CommandManager.cpp",
+      "line": 83,
+      "format": "UPDATE Character SET Married=0, MarryCouple=NULL WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/CommandManager.cpp",
+      "line": 104,
+      "format": "SELECT * FROM GiftData WHERE Name='%s' and [Index]='%d'"
+    },
+    {
+      "file": "DataServer/CommandManager.cpp",
+      "line": 108,
+      "format": "INSERT INTO GiftData (Name,[Index],Count) VALUES ('%s',%d,0)"
+    },
+    {
+      "file": "DataServer/CommandManager.cpp",
+      "line": 123,
+      "format": "UPDATE GiftData Set Count=Count+1 WHERE Name='%s' and [Index]='%d'"
+    },
+    {
+      "file": "DataServer/CommandManager.cpp",
+      "line": 154,
+      "format": "EXEC WZ_RenameCharacter '%s','%s','%s'"
+    },
+    {
+      "file": "DataServer/CommandManager.cpp",
+      "line": 181,
+      "format": "EXEC WZ_BanAccount '%s','%d'"
+    },
+    {
+      "file": "DataServer/CommandManager.cpp",
+      "line": 209,
+      "format": "EXEC WZ_BanCharacter '%s','%d'"
+    },
+    {
+      "file": "DataServer/CustomPick.cpp",
+      "line": 37,
+      "format": "SELECT * FROM CustomPick WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/CustomPick.cpp",
+      "line": 71,
+      "format": "SELECT Name FROM CustomPick WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/CustomPick.cpp",
+      "line": 75,
+      "format": "INSERT INTO CustomPick (Name,CustomPickList,Money,Jewel,ItemExc,ItemSet) VALUES ('%s',?,%d,%d,%d,%d)"
+    },
+    {
+      "file": "DataServer/CustomPick.cpp",
+      "line": 82,
+      "format": "UPDATE CustomPick SET CustomPickList=?, Money=%d, Jewel=%d, ItemExc=%d, ItemSet=%d  WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 1001,
+      "format": "SELECT ItemCount FROM GameServerInfo WHERE Number=0"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 1004,
+      "format": "INSERT INTO GameServerInfo (Number,ItemCount,ZenCount,AceItemCount) VALUES (0,0,0,0)"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 1033,
+      "format": "SELECT Id FROM AccountCharacter WHERE Id='%s'"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 1036,
+      "format": "INSERT INTO AccountCharacter (Id) VALUES ('%s')"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 1048,
+      "format": "SELECT * FROM AccountCharacter WHERE Id='%s'"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 1085,
+      "format": "SELECT cLevel,Class,Inventory,CtlCode FROM Character WHERE AccountID='%s' AND Name='%s'"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 1129,
+      "format": "SELECT G_Status FROM GuildMember WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 1188,
+      "format": "SELECT * FROM AccountCharacter WHERE Id='%s'"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 1209,
+      "format": "EXEC WZ_CreateCharacter '%s','%s','%d'"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 1224,
+      "format": "UPDATE AccountCharacter SET GameID%d='%s' WHERE Id='%s'"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 1252,
+      "format": "EXEC WZ_DeleteCharacter '%s','%s'"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 1268,
+      "format": "SELECT * FROM AccountCharacter WHERE Id='%s'"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 1287,
+      "format": "UPDATE AccountCharacter SET GameID%d=NULL WHERE Id='%s'"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 1311,
+      "format": "SELECT * FROM Character WHERE AccountID='%s' AND Name='%s'"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 1405,
+      "format": "UPDATE Character SET IsNewChar='0' WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 1412,
+      "format": "SELECT ExtWarehouse FROM AccountCharacter WHERE Id='%s'"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 1422,
+      "format": "EXEC WZ_GetResetInfo '%s','%s'"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 1430,
+      "format": "EXEC WZ_GetMasterResetInfo '%s','%s'"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 1438,
+      "format": "EXEC WZ_GetEventEntryInfo '%s','%s'"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 1470,
+      "format": "UPDATE AccountCharacter SET GameIDC='%s' WHERE Id='%s'"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 1494,
+      "format": "EXEC WZ_GetItemSerial"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 1509,
+      "format": "SELECT ItemSerial FROM T_PetItem_Info WHERE ItemSerial=%d"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 1512,
+      "format": "INSERT INTO T_PetItem_Info (ItemSerial,Pet_Level,Pet_Exp) VALUES (%d,%d,%d)"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 1564,
+      "format": "SELECT * FROM OptionData WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 1634,
+      "format": "SELECT Pet_Level,Pet_Exp FROM T_PetItem_Info WHERE ItemSerial=%d"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 1637,
+      "format": "INSERT INTO T_PetItem_Info (ItemSerial,Pet_Level,Pet_Exp) VALUES (%d,%d,%d)"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 1724,
+      "format": "EXEC WZ_RenameCharacter '%s','%s','%s'"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 1801,
+      "format": "EXEC WZ_CW_InfoLoad '%d'"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 1891,
+      "format": "SELECT Data FROM SNSData WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 1927,
+      "format": "SELECT * FROM MonsterKillCount WHERE Name='%s' and MonsterClass='%d'"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 1932,
+      "format": "INSERT INTO MonsterKillCount (Name,MonsterClass,MonsterKillCount) VALUES ('%s',%d,%d)"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 1940,
+      "format": "UPDATE MonsterKillCount SET MonsterKillCount=%d WHERE Name='%s' and MonsterClass='%d'"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 1954,
+      "format": "UPDATE Character SET cLevel=%d,Class=%d,LevelUpPoint=%d,Experience=%d,Strength=%d,Dexterity=%d,Vitality=%d,Energy=%d,Leadership=%d,Inventory=?,MagicList=?,Money=%d,Life=%f,MaxLife=%f,Mana=%f,MaxMana=%f,BP=%f,MaxBP=%f,Shield=%f,MaxShield=%f,MapNumber=%d,MapPosX=%d,MapPosY=%d,MapDir=%d,PkCount=%d,PkLevel=%d,PkTime=%d,Quest=?,ChatLimitTime=%d,EffectList=?,FruitAddPoint=%d,FruitSubPoint=%d,ExtInventory=%d,Married=%d,MarryCouple='%s' WHERE AccountID='%s' AND Name='%s'"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 1956,
+      "format": "UPDATE Character SET cLevel=%d,Class=%d,LevelUpPoint=%d,Experience=%d,Strength=%d,Dexterity=%d,Vitality=%d,Energy=%d,Leadership=%d,Inventory=?,MagicList=?,Money=%d,Life=%f,MaxLife=%f,Mana=%f,MaxMana=%f,BP=%f,MaxBP=%f,Shield=%f,MaxShield=%f,MapNumber=%d,MapPosX=%d,MapPosY=%d,MapDir=%d,PkCount=%d,PkLevel=%d,PkTime=%d,Quest=?,ChatLimitTime=%d,EffectList=?,FruitAddPoint=%d,FruitSubPoint=%d,Married=%d,MarryCouple='%s' WHERE AccountID='%s' AND Name='%s'"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 1958,
+      "format": "UPDATE Character SET cLevel=%d,Class=%d,LevelUpPoint=%d,Experience=%d,Strength=%d,Dexterity=%d,Vitality=%d,Energy=%d,Leadership=%d,Inventory=?,MagicList=?,Money=%d,Life=%f,MaxLife=%f,Mana=%f,MaxMana=%f,BP=%f,MaxBP=%f,MapNumber=%d,MapPosX=%d,MapPosY=%d,MapDir=%d,PkCount=%d,PkLevel=%d,PkTime=%d,Quest=?,ChatLimitTime=%d,EffectList=?,FruitAddPoint=%d,FruitSubPoint=%d,Married=%d,MarryCouple='%s' WHERE AccountID='%s' AND Name='%s'"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 1963,
+      "format": "UPDATE AccountCharacter SET ExtWarehouse=%d WHERE Id='%s'"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 1967,
+      "format": "EXEC WZ_SetEventEntryInfo '%s','%s','%d','%d','%d','%d','%d','%d'"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 1975,
+      "format": "UPDATE Character SET Inventory=? WHERE AccountID='%s' AND Name='%s'"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 1981,
+      "format": "SELECT Name FROM OptionData WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 1987,
+      "format": "INSERT INTO OptionData (Name,SkillKey,GameOption,Qkey,Wkey,Ekey,ChatWindow,Rkey,QWERLevel,ChangeSkin) VALUES ('%s',?,%d,%d,%d,%d,%d,%d,%d,%d)"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 1989,
+      "format": "INSERT INTO OptionData (Name,SkillKey,GameOption,Qkey,Wkey,Ekey,ChatWindow,Rkey,QWERLevel) VALUES ('%s',?,%d,%d,%d,%d,%d,%d,%d)"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 1991,
+      "format": "INSERT INTO OptionData (Name,SkillKey,GameOption,Qkey,Wkey,Ekey,ChatWindow) VALUES ('%s',?,%d,%d,%d,%d,%d)"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 2002,
+      "format": "UPDATE OptionData SET SkillKey=?,GameOption=%d,Qkey=%d,Wkey=%d,Ekey=%d,ChatWindow=%d,Rkey=%d,QWERLevel=%d,ChangeSkin=%d WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 2004,
+      "format": "UPDATE OptionData SET SkillKey=?,GameOption=%d,Qkey=%d,Wkey=%d,Ekey=%d,ChatWindow=%d,Rkey=%d,QWERLevel=%d WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 2006,
+      "format": "UPDATE OptionData SET SkillKey=?,GameOption=%d,Qkey=%d,Wkey=%d,Ekey=%d,ChatWindow=%d WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 2019,
+      "format": "SELECT ItemSerial FROM T_PetItem_Info WHERE ItemSerial=%d"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 2022,
+      "format": "INSERT INTO T_PetItem_Info (ItemSerial,Pet_Level,Pet_Exp) VALUES (%d,%d,%d)"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 2028,
+      "format": "UPDATE T_PetItem_Info SET Pet_Level=%d,Pet_Exp=%d WHERE ItemSerial=%d"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 2036,
+      "format": "EXEC WZ_SetResetInfo '%s','%s','%d','%d','%d','%d'"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 2043,
+      "format": "EXEC WZ_SetMasterResetInfo '%s','%s','%d','%d','%d','%d','%d'"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 2050,
+      "format": "SELECT Name FROM RankingDuel WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 2053,
+      "format": "INSERT INTO RankingDuel (Name,WinScore,LoseScore) VALUES ('%s',%d,%d)"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 2059,
+      "format": "UPDATE RankingDuel SET WinScore=WinScore+%d,LoseScore=LoseScore+%d WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 2066,
+      "format": "SELECT Name FROM RankingBloodCastle WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 2069,
+      "format": "INSERT INTO RankingBloodCastle (Name,Score) VALUES ('%s',%d)"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 2075,
+      "format": "UPDATE RankingBloodCastle SET Score=Score+%d WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 2082,
+      "format": "SELECT Name FROM RankingChaosCastle WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 2085,
+      "format": "INSERT INTO RankingChaosCastle (Name,Score) VALUES ('%s',%d)"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 2091,
+      "format": "UPDATE RankingChaosCastle SET Score=Score+%d WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 2098,
+      "format": "SELECT Name FROM RankingDevilSquare WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 2101,
+      "format": "INSERT INTO RankingDevilSquare (Name,Score) VALUES ('%s',%d)"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 2107,
+      "format": "UPDATE RankingDevilSquare SET Score=Score+%d WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 2114,
+      "format": "SELECT Name FROM RankingIllusionTemple WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 2117,
+      "format": "INSERT INTO RankingIllusionTemple (Name,Score) VALUES ('%s',%d)"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 2123,
+      "format": "UPDATE RankingIllusionTemple SET Score=Score+%d WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 2130,
+      "format": "UPDATE AccountCharacter SET ExtClass=%d WHERE Id='%s'"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 2138,
+      "format": "EXEC WZ_CW_InfoSave '%d','%d','%d'"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 2149,
+      "format": "SELECT Name FROM SNSData WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 2153,
+      "format": "INSERT INTO SNSData (Name,Data) VALUES ('%s',?)"
+    },
+    {
+      "file": "DataServer/DataServerProtocol.cpp",
+      "line": 2160,
+      "format": "UPDATE SNSData SET Data=? WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/EventInventory.cpp",
+      "line": 39,
+      "format": "SELECT Items FROM EventInventory WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/EventInventory.cpp",
+      "line": 61,
+      "format": "SELECT Name FROM EventInventory WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/EventInventory.cpp",
+      "line": 65,
+      "format": "INSERT INTO EventInventory (Name,Items) VALUES ('%s',?)"
+    },
+    {
+      "file": "DataServer/EventInventory.cpp",
+      "line": 72,
+      "format": "UPDATE EventInventory SET Items=? WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/Friend.cpp",
+      "line": 45,
+      "format": "WZ_UserGuidCreate '%s'"
+    },
+    {
+      "file": "DataServer/Friend.cpp",
+      "line": 51,
+      "format": "SELECT GUID,MemoTotal FROM T_FriendMain WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/Friend.cpp",
+      "line": 61,
+      "format": "SELECT FriendName,Del FROM T_FriendList WHERE GUID=%d"
+    },
+    {
+      "file": "DataServer/Friend.cpp",
+      "line": 95,
+      "format": "WZ_WaitFriendAdd '%s','%s'"
+    },
+    {
+      "file": "DataServer/Friend.cpp",
+      "line": 119,
+      "format": "WZ_FriendAdd '%s','%s'"
+    },
+    {
+      "file": "DataServer/Friend.cpp",
+      "line": 213,
+      "format": "WZ_WaitFriendDel '%s','%s'"
+    },
+    {
+      "file": "DataServer/Friend.cpp",
+      "line": 225,
+      "format": "WZ_FriendAdd '%s','%s'"
+    },
+    {
+      "file": "DataServer/Friend.cpp",
+      "line": 275,
+      "format": "WZ_FriendDel '%s','%s'"
+    },
+    {
+      "file": "DataServer/Friend.cpp",
+      "line": 328,
+      "format": "WZ_WriteMail '%s',?,?,%d,%d"
+    },
+    {
+      "file": "DataServer/Friend.cpp",
+      "line": 355,
+      "format": "UPDATE T_FriendMail SET Memo=?,Photo=? WHERE MemoIndex=%d AND GUID=%d"
+    },
+    {
+      "file": "DataServer/Friend.cpp",
+      "line": 367,
+      "format": "SELECT MemoIndex,FriendName,wDate,Subject,bRead FROM T_FriendMail WHERE MemoIndex=%d AND GUID=%d"
+    },
+    {
+      "file": "DataServer/Friend.cpp",
+      "line": 400,
+      "format": "SELECT GUID FROM T_FriendMain WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/Friend.cpp",
+      "line": 413,
+      "format": "SELECT GUID FROM T_FriendMain WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/Friend.cpp",
+      "line": 431,
+      "format": "SELECT Memo,Photo,Dir,Act FROM T_FriendMail WHERE MemoIndex=%d AND GUID=%d"
+    },
+    {
+      "file": "DataServer/Friend.cpp",
+      "line": 447,
+      "format": "UPDATE T_FriendMail SET bRead=1 WHERE MemoIndex=%d AND GUID=%d"
+    },
+    {
+      "file": "DataServer/Friend.cpp",
+      "line": 468,
+      "format": "WZ_DelMail '%s',%d"
+    },
+    {
+      "file": "DataServer/Friend.cpp",
+      "line": 481,
+      "format": "SELECT FriendName FROM T_WaitFriend WHERE GUID=%d"
+    },
+    {
+      "file": "DataServer/Friend.cpp",
+      "line": 506,
+      "format": "SELECT GUID FROM T_FriendMain WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/Friend.cpp",
+      "line": 519,
+      "format": "SELECT FriendName,Del FROM T_FriendList WHERE GUID=%d"
+    },
+    {
+      "file": "DataServer/Friend.cpp",
+      "line": 551,
+      "format": "SELECT MemoIndex,FriendName,wDate,Subject,bRead FROM T_FriendMail WHERE GUID=%d"
+    },
+    {
+      "file": "DataServer/GensSystem.cpp",
+      "line": 48,
+      "format": "INSERT INTO Gens_Rank (Name,Family,Contribution) VALUES ('%s',%d,0)"
+    },
+    {
+      "file": "DataServer/GensSystem.cpp",
+      "line": 60,
+      "format": "EXEC WZ_GetCharacterGensInfo '%s',%d"
+    },
+    {
+      "file": "DataServer/GensSystem.cpp",
+      "line": 97,
+      "format": "DELETE FROM Gens_Rank WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/GensSystem.cpp",
+      "line": 139,
+      "format": "SELECT Family FROM Gens_Rank WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/GensSystem.cpp",
+      "line": 151,
+      "format": "EXEC WZ_GetCharacterGensInfo '%s',%d"
+    },
+    {
+      "file": "DataServer/GensSystem.cpp",
+      "line": 194,
+      "format": "UPDATE Gens_Rank SET Contribution=%d WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/GensSystem.cpp",
+      "line": 206,
+      "format": "EXEC WZ_GetCharacterGensInfo '%s',%d"
+    },
+    {
+      "file": "DataServer/GensSystem.cpp",
+      "line": 271,
+      "format": "SELECT Rank,Status FROM Gens_Reward WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/GensSystem.cpp",
+      "line": 297,
+      "format": "SELECT Name FROM Gens_Reward WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/GensSystem.cpp",
+      "line": 300,
+      "format": "INSERT INTO Gens_Reward (Name,Rank,Status) VALUES ('%s',%d,%d)"
+    },
+    {
+      "file": "DataServer/GensSystem.cpp",
+      "line": 306,
+      "format": "UPDATE Gens_Reward SET Status=%d WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/GoldenArcher.cpp",
+      "line": 39,
+      "format": "SELECT * FROM EventGoldenArcher WHERE Account='%s'"
+    },
+    {
+      "file": "DataServer/GoldenArcher.cpp",
+      "line": 43,
+      "format": "INSERT INTO EventGoldenArcher (Account,RenaCount,StoneCount) VALUES ('%s',0,0)"
+    },
+    {
+      "file": "DataServer/GoldenArcher.cpp",
+      "line": 63,
+      "format": "SELECT * FROM EventGoldenArcher WHERE Account='%s'"
+    },
+    {
+      "file": "DataServer/GoldenArcher.cpp",
+      "line": 67,
+      "format": "INSERT INTO EventGoldenArcher (Account,RenaCount,StoneCount) VALUES ('%s',%d,0)"
+    },
+    {
+      "file": "DataServer/GoldenArcher.cpp",
+      "line": 77,
+      "format": "UPDATE EventGoldenArcher SET RenaCount=%d WHERE Account='%s'"
+    },
+    {
+      "file": "DataServer/GuildManager.cpp",
+      "line": 30,
+      "format": "SELECT * FROM Guild"
+    },
+    {
+      "file": "DataServer/GuildManager.cpp",
+      "line": 62,
+      "format": "SELECT * FROM GuildMember"
+    },
+    {
+      "file": "DataServer/GuildManager.cpp",
+      "line": 173,
+      "format": "WZ_CS_CheckSiegeGuildList '%s'"
+    },
+    {
+      "file": "DataServer/GuildManager.cpp",
+      "line": 215,
+      "format": "WZ_GuildCreate '%s','%s'"
+    },
+    {
+      "file": "DataServer/GuildManager.cpp",
+      "line": 229,
+      "format": "UPDATE Guild SET G_Mark=?,G_Type=%d WHERE G_Name='%s'"
+    },
+    {
+      "file": "DataServer/GuildManager.cpp",
+      "line": 233,
+      "format": "UPDATE GuildMember SET G_Status=%d WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/GuildManager.cpp",
+      "line": 241,
+      "format": "SELECT Number FROM Guild WHERE G_Name='%s'"
+    },
+    {
+      "file": "DataServer/GuildManager.cpp",
+      "line": 296,
+      "format": "DELETE FROM Guild WHERE G_Name='%s'"
+    },
+    {
+      "file": "DataServer/GuildManager.cpp",
+      "line": 300,
+      "format": "DELETE FROM GuildMember WHERE G_Name='%s'"
+    },
+    {
+      "file": "DataServer/GuildManager.cpp",
+      "line": 321,
+      "format": "INSERT INTO GuildMember (Name,G_Name,G_Level,G_Status) VALUES ('%s','%s',%d,%d)"
+    },
+    {
+      "file": "DataServer/GuildManager.cpp",
+      "line": 360,
+      "format": "DELETE FROM GuildMember WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/GuildManager.cpp",
+      "line": 421,
+      "format": "UPDATE Guild SET G_Union=%d WHERE Number=%d"
+    },
+    {
+      "file": "DataServer/GuildManager.cpp",
+      "line": 432,
+      "format": "UPDATE Guild SET G_Union=%d WHERE Number=%d"
+    },
+    {
+      "file": "DataServer/GuildManager.cpp",
+      "line": 471,
+      "format": "UPDATE Guild SET G_Rival=%d WHERE Number=%d"
+    },
+    {
+      "file": "DataServer/GuildManager.cpp",
+      "line": 482,
+      "format": "UPDATE Guild SET G_Rival=%d WHERE Number=%d"
+    },
+    {
+      "file": "DataServer/GuildManager.cpp",
+      "line": 555,
+      "format": "UPDATE Guild SET G_Union=0 WHERE Number IN (%d,%d)"
+    },
+    {
+      "file": "DataServer/GuildManager.cpp",
+      "line": 572,
+      "format": "UPDATE Guild SET G_Union=0 WHERE Number=%d"
+    },
+    {
+      "file": "DataServer/GuildManager.cpp",
+      "line": 599,
+      "format": "UPDATE Guild SET G_Rival=0 WHERE Number IN (%d,%d)"
+    },
+    {
+      "file": "DataServer/GuildManager.cpp",
+      "line": 665,
+      "format": "UPDATE Guild SET G_Union=0 WHERE Number IN (%d,%d)"
+    },
+    {
+      "file": "DataServer/GuildManager.cpp",
+      "line": 688,
+      "format": "UPDATE Guild SET G_Union=0 WHERE Number=%d"
+    },
+    {
+      "file": "DataServer/GuildManager.cpp",
+      "line": 715,
+      "format": "UPDATE Guild SET G_Score=%d WHERE G_Name='%s'"
+    },
+    {
+      "file": "DataServer/GuildManager.cpp",
+      "line": 739,
+      "format": "UPDATE Guild SET G_Notice=? WHERE G_Name='%s'"
+    },
+    {
+      "file": "DataServer/GuildManager.cpp",
+      "line": 761,
+      "format": "UPDATE Guild SET G_Type=%d WHERE G_Name='%s'"
+    },
+    {
+      "file": "DataServer/GuildManager.cpp",
+      "line": 783,
+      "format": "UPDATE GuildMember SET G_Status=%d WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/Helper.cpp",
+      "line": 39,
+      "format": "SELECT Data FROM HelperData WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/Helper.cpp",
+      "line": 65,
+      "format": "SELECT Name FROM HelperData WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/Helper.cpp",
+      "line": 69,
+      "format": "INSERT INTO HelperData (Name,Data) VALUES ('%s',?)"
+    },
+    {
+      "file": "DataServer/Helper.cpp",
+      "line": 76,
+      "format": "UPDATE HelperData SET Data=? WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/LuckyCoin.cpp",
+      "line": 39,
+      "format": "SELECT * FROM LuckyCoin WHERE AccountID='%s'"
+    },
+    {
+      "file": "DataServer/LuckyCoin.cpp",
+      "line": 43,
+      "format": "INSERT INTO LuckyCoin (AccountID,LuckyCoin) VALUES ('%s',0)"
+    },
+    {
+      "file": "DataServer/LuckyCoin.cpp",
+      "line": 84,
+      "format": "SELECT * FROM LuckyCoin WHERE AccountID='%s'"
+    },
+    {
+      "file": "DataServer/LuckyCoin.cpp",
+      "line": 118,
+      "format": "SELECT * FROM LuckyCoin WHERE AccountID='%s'"
+    },
+    {
+      "file": "DataServer/LuckyCoin.cpp",
+      "line": 140,
+      "format": "SELECT LuckyCoin FROM LuckyCoin WHERE AccountID='%s'"
+    },
+    {
+      "file": "DataServer/LuckyCoin.cpp",
+      "line": 144,
+      "format": "INSERT INTO LuckyCoin (AccountID,LuckyCoin) VALUES ('%s',%d)"
+    },
+    {
+      "file": "DataServer/LuckyCoin.cpp",
+      "line": 154,
+      "format": "UPDATE LuckyCoin SET LuckyCoin=%d WHERE AccountID='%s'"
+    },
+    {
+      "file": "DataServer/LuckyCoin.cpp",
+      "line": 166,
+      "format": "SELECT LuckyCoin FROM LuckyCoin WHERE AccountID='%s'"
+    },
+    {
+      "file": "DataServer/LuckyCoin.cpp",
+      "line": 170,
+      "format": "INSERT INTO LuckyCoin (AccountID,LuckyCoin) VALUES ('%s',%d)"
+    },
+    {
+      "file": "DataServer/LuckyCoin.cpp",
+      "line": 180,
+      "format": "UPDATE LuckyCoin SET LuckyCoin=%d WHERE AccountID='%s'"
+    },
+    {
+      "file": "DataServer/LuckyItem.cpp",
+      "line": 49,
+      "format": "SELECT DurabilitySmall FROM LuckyItem WHERE ItemSerial=%d"
+    },
+    {
+      "file": "DataServer/LuckyItem.cpp",
+      "line": 52,
+      "format": "INSERT INTO LuckyItem (ItemSerial,DurabilitySmall) VALUES (%d,%d)"
+    },
+    {
+      "file": "DataServer/LuckyItem.cpp",
+      "line": 92,
+      "format": "SELECT ItemSerial FROM LuckyItem WHERE ItemSerial=%d"
+    },
+    {
+      "file": "DataServer/LuckyItem.cpp",
+      "line": 95,
+      "format": "INSERT INTO LuckyItem (ItemSerial,DurabilitySmall) VALUES (%d,%d)"
+    },
+    {
+      "file": "DataServer/LuckyItem.cpp",
+      "line": 101,
+      "format": "UPDATE LuckyItem SET DurabilitySmall=%d WHERE ItemSerial=%d"
+    },
+    {
+      "file": "DataServer/MasterSkillTree.cpp",
+      "line": 39,
+      "format": "SELECT * FROM MasterSkillTree WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/MasterSkillTree.cpp",
+      "line": 81,
+      "format": "SELECT Name FROM MasterSkillTree WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/MasterSkillTree.cpp",
+      "line": 86,
+      "format": "INSERT INTO MasterSkillTree (Name,MasterLevel,MasterPoint,MasterExperience,MasterSkill) VALUES ('%s',%d,%d,%I64d,?)"
+    },
+    {
+      "file": "DataServer/MasterSkillTree.cpp",
+      "line": 90,
+      "format": "INSERT INTO MasterSkillTree (Name,MasterLevel,MasterPoint,MasterExperience) VALUES ('%s',%d,%d,%I64d)"
+    },
+    {
+      "file": "DataServer/MasterSkillTree.cpp",
+      "line": 99,
+      "format": "UPDATE MasterSkillTree SET MasterLevel=%d,MasterPoint=%d,MasterExperience=%I64d,MasterSkill=? WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/MasterSkillTree.cpp",
+      "line": 103,
+      "format": "UPDATE MasterSkillTree SET MasterLevel=%d,MasterPoint=%d,MasterExperience=%I64d WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/MuCashShop.cpp",
+      "line": 39,
+      "format": "SELECT * FROM PcPointData WHERE AccountID='%s'"
+    },
+    {
+      "file": "DataServer/MuCashShop.cpp",
+      "line": 43,
+      "format": "INSERT INTO PcPointData (AccountID,PcPoint) VALUES ('%s',0)"
+    },
+    {
+      "file": "DataServer/MuCashShop.cpp",
+      "line": 86,
+      "format": "SELECT * FROM PcPointData WHERE AccountID='%s'"
+    },
+    {
+      "file": "DataServer/MuCashShop.cpp",
+      "line": 122,
+      "format": "SELECT * FROM PcPointData WHERE AccountID='%s'"
+    },
+    {
+      "file": "DataServer/MuCashShop.cpp",
+      "line": 144,
+      "format": "SELECT PcPoint FROM PcPointData WHERE AccountID='%s'"
+    },
+    {
+      "file": "DataServer/MuCashShop.cpp",
+      "line": 148,
+      "format": "INSERT INTO PcPointData (AccountID,PcPoint) VALUES ('%s',%d)"
+    },
+    {
+      "file": "DataServer/MuCashShop.cpp",
+      "line": 158,
+      "format": "UPDATE PcPointData SET PcPoint=%d WHERE AccountID='%s'"
+    },
+    {
+      "file": "DataServer/MuCashShop.cpp",
+      "line": 170,
+      "format": "SELECT PcPoint FROM PcPointData WHERE AccountID='%s'"
+    },
+    {
+      "file": "DataServer/MuCashShop.cpp",
+      "line": 174,
+      "format": "INSERT INTO PcPointData (AccountID,PcPoint) VALUES ('%s',%d)"
+    },
+    {
+      "file": "DataServer/MuCashShop.cpp",
+      "line": 184,
+      "format": "UPDATE PcPointData SET PcPoint=%d WHERE AccountID='%s'"
+    },
+    {
+      "file": "DataServer/MuRummy.cpp",
+      "line": 37,
+      "format": "SELECT TotalScore FROM MuRummyData WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/MuRummy.cpp",
+      "line": 49,
+      "format": "SELECT Color,Number,Slot,Status,Sequence FROM MuRummyCard WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/MuRummy.cpp",
+      "line": 87,
+      "format": "INSERT INTO MuRummyCard (Name,Color,Number,Slot,Status,Sequence) VALUES ('%s',%d,%d,%d,%d,%d)"
+    },
+    {
+      "file": "DataServer/MuRummy.cpp",
+      "line": 98,
+      "format": "UPDATE MuRummyCard SET Slot=%d,Status=%d WHERE Name='%s' AND Sequence=%d"
+    },
+    {
+      "file": "DataServer/MuRummy.cpp",
+      "line": 108,
+      "format": "SELECT Name FROM MuRummyData WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/MuRummy.cpp",
+      "line": 111,
+      "format": "INSERT INTO MuRummyData (Name,TotalScore) VALUES ('%s',%d)"
+    },
+    {
+      "file": "DataServer/MuRummy.cpp",
+      "line": 117,
+      "format": "UPDATE MuRummyData SET TotalScore=%d WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/MuRummy.cpp",
+      "line": 123,
+      "format": "UPDATE MuRummyCard SET Slot=%d,Status=%d WHERE Name='%s' AND Sequence=%d"
+    },
+    {
+      "file": "DataServer/MuRummy.cpp",
+      "line": 134,
+      "format": "DELETE MuRummyCard WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/MuRummy.cpp",
+      "line": 137,
+      "format": "DELETE MuRummyData WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/MuRummy.cpp",
+      "line": 147,
+      "format": "UPDATE MuRummyCard SET Slot=%d,Status=%d WHERE Name='%s' AND Sequence=%d"
+    },
+    {
+      "file": "DataServer/MuRummy.cpp",
+      "line": 157,
+      "format": "SELECT Name FROM MuRummyData WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/MuRummy.cpp",
+      "line": 160,
+      "format": "INSERT INTO MuRummyData (Name,TotalScore) VALUES ('%s',%d)"
+    },
+    {
+      "file": "DataServer/MuRummy.cpp",
+      "line": 166,
+      "format": "UPDATE MuRummyData SET TotalScore=%d WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/MuRummy.cpp",
+      "line": 172,
+      "format": "UPDATE MuRummyCard SET Slot=%d,Status=%d WHERE Name='%s' AND Sequence=%d"
+    },
+    {
+      "file": "DataServer/MuunSystem.cpp",
+      "line": 39,
+      "format": "SELECT Items FROM MuunInventory WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/MuunSystem.cpp",
+      "line": 61,
+      "format": "SELECT Name FROM MuunInventory WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/MuunSystem.cpp",
+      "line": 65,
+      "format": "INSERT INTO MuunInventory (Name,Items) VALUES ('%s',?)"
+    },
+    {
+      "file": "DataServer/MuunSystem.cpp",
+      "line": 72,
+      "format": "UPDATE MuunInventory SET Items=? WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/NpcTalk.cpp",
+      "line": 39,
+      "format": "SELECT Status FROM EventLeoTheHelper WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/NpcTalk.cpp",
+      "line": 42,
+      "format": "INSERT INTO EventLeoTheHelper (Name,Status) VALUES ('%s',0)"
+    },
+    {
+      "file": "DataServer/NpcTalk.cpp",
+      "line": 73,
+      "format": "SELECT Status FROM EventSantaClaus WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/NpcTalk.cpp",
+      "line": 76,
+      "format": "INSERT INTO EventSantaClaus (Name,Status) VALUES ('%s',0)"
+    },
+    {
+      "file": "DataServer/NpcTalk.cpp",
+      "line": 97,
+      "format": "SELECT Name FROM EventLeoTheHelper WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/NpcTalk.cpp",
+      "line": 100,
+      "format": "INSERT INTO EventLeoTheHelper (Name,Status) VALUES ('%s',%d)"
+    },
+    {
+      "file": "DataServer/NpcTalk.cpp",
+      "line": 106,
+      "format": "UPDATE EventLeoTheHelper SET Status=%d WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/NpcTalk.cpp",
+      "line": 117,
+      "format": "SELECT Name FROM EventSantaClaus WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/NpcTalk.cpp",
+      "line": 120,
+      "format": "INSERT INTO EventSantaClaus (Name,Status) VALUES ('%s',%d)"
+    },
+    {
+      "file": "DataServer/NpcTalk.cpp",
+      "line": 126,
+      "format": "UPDATE EventSantaClaus SET Status=%d WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/PcPoint.cpp",
+      "line": 39,
+      "format": "SELECT * FROM PcPointData WHERE AccountID='%s'"
+    },
+    {
+      "file": "DataServer/PcPoint.cpp",
+      "line": 43,
+      "format": "INSERT INTO PcPointData (AccountID,PcPoint) VALUES ('%s',0)"
+    },
+    {
+      "file": "DataServer/PcPoint.cpp",
+      "line": 84,
+      "format": "SELECT * FROM PcPointData WHERE AccountID='%s'"
+    },
+    {
+      "file": "DataServer/PcPoint.cpp",
+      "line": 120,
+      "format": "SELECT * FROM PcPointData WHERE AccountID='%s'"
+    },
+    {
+      "file": "DataServer/PcPoint.cpp",
+      "line": 142,
+      "format": "SELECT PcPoint FROM PcPointData WHERE AccountID='%s'"
+    },
+    {
+      "file": "DataServer/PcPoint.cpp",
+      "line": 146,
+      "format": "INSERT INTO PcPointData (AccountID,PcPoint) VALUES ('%s',%d)"
+    },
+    {
+      "file": "DataServer/PcPoint.cpp",
+      "line": 156,
+      "format": "UPDATE PcPointData SET PcPoint=%d WHERE AccountID='%s'"
+    },
+    {
+      "file": "DataServer/PcPoint.cpp",
+      "line": 168,
+      "format": "SELECT PcPoint FROM PcPointData WHERE AccountID='%s'"
+    },
+    {
+      "file": "DataServer/PcPoint.cpp",
+      "line": 172,
+      "format": "INSERT INTO PcPointData (AccountID,PcPoint) VALUES ('%s',%d)"
+    },
+    {
+      "file": "DataServer/PcPoint.cpp",
+      "line": 182,
+      "format": "UPDATE PcPointData SET PcPoint=%d WHERE AccountID='%s'"
+    },
+    {
+      "file": "DataServer/PentagramSystem.cpp",
+      "line": 49,
+      "format": "SELECT * FROM PentagramJewel WHERE Name='%s' AND Type=%d"
+    },
+    {
+      "file": "DataServer/PentagramSystem.cpp",
+      "line": 97,
+      "format": "SELECT Name FROM PentagramJewel WHERE Name='%s' AND Type=%d AND [Index]=%d"
+    },
+    {
+      "file": "DataServer/PentagramSystem.cpp",
+      "line": 100,
+      "format": "INSERT INTO PentagramJewel (Name,Type,[Index],Attribute,ItemSection,ItemType,ItemLevel,OptionIndexRank1,OptionLevelRank1,OptionIndexRank2,OptionLevelRank2,OptionIndexRank3,OptionLevelRank3,OptionIndexRank4,OptionLevelRank4,OptionIndexRank5,OptionLevelRank5) VALUES ('%s',%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d)"
+    },
+    {
+      "file": "DataServer/PentagramSystem.cpp",
+      "line": 106,
+      "format": "UPDATE PentagramJewel SET Attribute=%d,ItemSection=%d,ItemType=%d,ItemLevel=%d,OptionIndexRank1=%d,OptionLevelRank1=%d,OptionIndexRank2=%d,OptionLevelRank2=%d,OptionIndexRank3=%d,OptionLevelRank3=%d,OptionIndexRank4=%d,OptionLevelRank4=%d,OptionIndexRank5=%d,OptionLevelRank5=%d WHERE Name='%s' AND Type=%d AND [Index]=%d"
+    },
+    {
+      "file": "DataServer/PentagramSystem.cpp",
+      "line": 118,
+      "format": "SELECT Name FROM PentagramJewel WHERE Name='%s' AND Type=%d AND [Index]=%d"
+    },
+    {
+      "file": "DataServer/PentagramSystem.cpp",
+      "line": 121,
+      "format": "INSERT INTO PentagramJewel (Name,Type,[Index],Attribute,ItemSection,ItemType,ItemLevel,OptionIndexRank1,OptionLevelRank1,OptionIndexRank2,OptionLevelRank2,OptionIndexRank3,OptionLevelRank3,OptionIndexRank4,OptionLevelRank4,OptionIndexRank5,OptionLevelRank5) VALUES ('%s',%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d)"
+    },
+    {
+      "file": "DataServer/PentagramSystem.cpp",
+      "line": 127,
+      "format": "UPDATE PentagramJewel SET Attribute=%d,ItemSection=%d,ItemType=%d,ItemLevel=%d,OptionIndexRank1=%d,OptionLevelRank1=%d,OptionIndexRank2=%d,OptionLevelRank2=%d,OptionIndexRank3=%d,OptionLevelRank3=%d,OptionIndexRank4=%d,OptionLevelRank4=%d,OptionIndexRank5=%d,OptionLevelRank5=%d WHERE Name='%s' AND Type=%d AND [Index]=%d"
+    },
+    {
+      "file": "DataServer/PentagramSystem.cpp",
+      "line": 138,
+      "format": "DELETE FROM PentagramJewel WHERE Name='%s' AND Type=%d AND [Index]=%d"
+    },
+    {
+      "file": "DataServer/PersonalShop.cpp",
+      "line": 47,
+      "format": "SELECT * FROM PShopItemValue WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/PersonalShop.cpp",
+      "line": 85,
+      "format": "SELECT Name FROM PShopItemValue WHERE Name='%s' AND Slot=%d"
+    },
+    {
+      "file": "DataServer/PersonalShop.cpp",
+      "line": 88,
+      "format": "INSERT INTO PShopItemValue (Name,Slot,Serial,Value,JoBValue,JoSValue,JoCValue) VALUES ('%s',%d,%d,%d,%d,%d,%d)"
+    },
+    {
+      "file": "DataServer/PersonalShop.cpp",
+      "line": 94,
+      "format": "UPDATE PShopItemValue SET Serial=%d,Value=%d,JoBValue=%d,JoSValue=%d,JoCValue=%d WHERE Name='%s' AND Slot=%d"
+    },
+    {
+      "file": "DataServer/PersonalShop.cpp",
+      "line": 106,
+      "format": "SELECT Name FROM PShopItemValue WHERE Name='%s' AND Slot=%d"
+    },
+    {
+      "file": "DataServer/PersonalShop.cpp",
+      "line": 109,
+      "format": "INSERT INTO PShopItemValue (Name,Slot,Serial,Value,JoBValue,JoSValue,JoCValue) VALUES ('%s',%d,%d,%d,%d,%d,%d)"
+    },
+    {
+      "file": "DataServer/PersonalShop.cpp",
+      "line": 115,
+      "format": "UPDATE PShopItemValue SET Serial=%d,Value=%d,JoBValue=%d,JoSValue=%d,JoCValue=%d WHERE Name='%s' AND Slot=%d"
+    },
+    {
+      "file": "DataServer/PersonalShop.cpp",
+      "line": 126,
+      "format": "DELETE FROM PShopItemValue WHERE Name='%s' AND Slot=%d"
+    },
+    {
+      "file": "DataServer/Quest.cpp",
+      "line": 37,
+      "format": "SELECT * FROM QuestKillCount WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/Quest.cpp",
+      "line": 79,
+      "format": "SELECT Name FROM QuestKillCount WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/Quest.cpp",
+      "line": 82,
+      "format": "INSERT INTO QuestKillCount (Name,QuestIndex,MonsterClass1,KillCount1,MonsterClass2,KillCount2,MonsterClass3,KillCount3,MonsterClass4,KillCount4,MonsterClass5,KillCount5) VALUES ('%s',%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d)"
+    },
+    {
+      "file": "DataServer/Quest.cpp",
+      "line": 88,
+      "format": "UPDATE QuestKillCount SET QuestIndex=%d,MonsterClass1=%d,KillCount1=%d,MonsterClass2=%d,KillCount2=%d,MonsterClass3=%d,KillCount3=%d,MonsterClass4=%d,KillCount4=%d,MonsterClass5=%d,KillCount5=%d WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/QuestWorld.cpp",
+      "line": 39,
+      "format": "SELECT QuestWorldList FROM QuestWorld WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/QuestWorld.cpp",
+      "line": 61,
+      "format": "SELECT Name FROM QuestWorld WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/QuestWorld.cpp",
+      "line": 65,
+      "format": "INSERT INTO QuestWorld (Name,QuestWorldList) VALUES ('%s',?)"
+    },
+    {
+      "file": "DataServer/QuestWorld.cpp",
+      "line": 72,
+      "format": "UPDATE QuestWorld SET QuestWorldList=? WHERE Name='%s'"
+    },
+    {
+      "file": "DataServer/Warehouse.cpp",
+      "line": 37,
+      "format": "SELECT AccountID FROM warehouse WHERE AccountID='%s'"
+    },
+    {
+      "file": "DataServer/Warehouse.cpp",
+      "line": 40,
+      "format": "INSERT INTO warehouse (AccountID,Money,EndUseDate,DbVersion) VALUES ('%s',0,getdate(),3)"
+    },
+    {
+      "file": "DataServer/Warehouse.cpp",
+      "line": 42,
+      "format": "UPDATE warehouse SET Items=CONVERT(varbinary(%d),REPLICATE(char(0xFF),%d)) WHERE AccountID='%s'"
+    },
+    {
+      "file": "DataServer/Warehouse.cpp",
+      "line": 51,
+      "format": "SELECT Items,Money,pw FROM warehouse WHERE AccountID='%s'"
+    },
+    {
+      "file": "DataServer/Warehouse.cpp",
+      "line": 75,
+      "format": "SELECT AccountID FROM ExtWarehouse WHERE AccountID='%s' AND Number=%d"
+    },
+    {
+      "file": "DataServer/Warehouse.cpp",
+      "line": 78,
+      "format": "INSERT INTO ExtWarehouse (AccountID,Money,Number) VALUES ('%s',0,%d)"
+    },
+    {
+      "file": "DataServer/Warehouse.cpp",
+      "line": 80,
+      "format": "UPDATE ExtWarehouse SET Items=CONVERT(varbinary(%d),REPLICATE(char(0xFF),%d)) WHERE AccountID='%s' AND Number=%d"
+    },
+    {
+      "file": "DataServer/Warehouse.cpp",
+      "line": 89,
+      "format": "SELECT Items,Money FROM ExtWarehouse WHERE AccountID='%s' AND Number=%d"
+    },
+    {
+      "file": "DataServer/Warehouse.cpp",
+      "line": 105,
+      "format": "SELECT pw FROM warehouse WHERE AccountID='%s'"
+    },
+    {
+      "file": "DataServer/Warehouse.cpp",
+      "line": 129,
+      "format": "UPDATE warehouse SET Items=?,Money=%d WHERE AccountID='%s'"
+    },
+    {
+      "file": "DataServer/Warehouse.cpp",
+      "line": 132,
+      "format": "UPDATE warehouse SET pw=%d WHERE AccountID='%s'"
+    },
+    {
+      "file": "DataServer/Warehouse.cpp",
+      "line": 138,
+      "format": "UPDATE ExtWarehouse SET Items=?,Money=%d WHERE AccountID='%s' AND Number=%d"
+    },
+    {
+      "file": "DataServer/Warehouse.cpp",
+      "line": 141,
+      "format": "UPDATE warehouse SET pw=%d WHERE AccountID='%s'"
+    },
+    {
+      "file": "JoinServer/AccountManager.cpp",
+      "line": 41,
+      "format": "EXEC WZ_DISCONNECT_MEMB '%s'"
+    },
+    {
+      "file": "JoinServer/AccountManager.cpp",
+      "line": 67,
+      "format": "EXEC WZ_DISCONNECT_MEMB '%s'"
+    },
+    {
+      "file": "JoinServer/JoinServerProtocol.cpp",
+      "line": 107,
+      "format": "SELECT memb___id,memb__pwd FROM MEMB_INFO WHERE memb___id='%s'"
+    },
+    {
+      "file": "JoinServer/JoinServerProtocol.cpp",
+      "line": 141,
+      "format": "SELECT memb___id,memb__pwd FROM MEMB_INFO WHERE memb___id='%s'"
+    },
+    {
+      "file": "JoinServer/JoinServerProtocol.cpp",
+      "line": 178,
+      "format": "SELECT sno__numb,bloc_code FROM MEMB_INFO WHERE memb___id='%s'"
+    },
+    {
+      "file": "JoinServer/JoinServerProtocol.cpp",
+      "line": 192,
+      "format": "EXEC WZ_GetAccountLevel '%s'"
+    },
+    {
+      "file": "JoinServer/JoinServerProtocol.cpp",
+      "line": 206,
+      "format": "EXEC WZ_CONNECT_MEMB '%s','%s','%s'"
+    },
+    {
+      "file": "JoinServer/JoinServerProtocol.cpp",
+      "line": 277,
+      "format": "EXEC WZ_DISCONNECT_MEMB '%s'"
+    },
+    {
+      "file": "JoinServer/JoinServerProtocol.cpp",
+      "line": 420,
+      "format": "SELECT sno__numb,bloc_code FROM MEMB_INFO WHERE memb___id='%s'"
+    },
+    {
+      "file": "JoinServer/JoinServerProtocol.cpp",
+      "line": 442,
+      "format": "EXEC WZ_GetAccountLevel '%s'"
+    },
+    {
+      "file": "JoinServer/JoinServerProtocol.cpp",
+      "line": 492,
+      "format": "EXEC WZ_GetAccountLevel '%s'"
+    },
+    {
+      "file": "JoinServer/JoinServerProtocol.cpp",
+      "line": 536,
+      "format": "EXEC WZ_SetAccountLevel '%s','%d','%d'"
+    }
+  ],
+  "formats": 271,
+  "procedures": {
+    "WZ_BanAccount": [
+      2
+    ],
+    "WZ_BanCharacter": [
+      2
+    ],
+    "WZ_CONNECT_MEMB": [
+      3
+    ],
+    "WZ_CS_CheckSiegeGuildList": [
+      1
+    ],
+    "WZ_CS_GetAllGuildMarkRegInfo": [
+      1
+    ],
+    "WZ_CS_GetCalcRegGuildList": [
+      1
+    ],
+    "WZ_CS_GetCastleNpcInfo": [
+      1
+    ],
+    "WZ_CS_GetCastleTaxInfo": [
+      1
+    ],
+    "WZ_CS_GetCastleTotalInfo": [
+      2
+    ],
+    "WZ_CS_GetCsGuildUnionInfo": [
+      1
+    ],
+    "WZ_CS_GetGuildMarkRegInfo": [
+      2
+    ],
+    "WZ_CS_GetOwnerGuildMaster": [
+      1
+    ],
+    "WZ_CS_GetSiegeGuildInfo": [
+      1
+    ],
+    "WZ_CS_ModifyCastleOwnerInfo": [
+      3
+    ],
+    "WZ_CS_ModifyCastleSchedule": [
+      3
+    ],
+    "WZ_CS_ModifyGuildGiveUp": [
+      3
+    ],
+    "WZ_CS_ModifyGuildMarkReset": [
+      2
+    ],
+    "WZ_CS_ModifyMoney": [
+      2
+    ],
+    "WZ_CS_ModifySiegeEnd": [
+      2
+    ],
+    "WZ_CS_ModifyTaxRate": [
+      3
+    ],
+    "WZ_CS_ReqNpcBuy": [
+      10
+    ],
+    "WZ_CS_ReqNpcRemove": [
+      3
+    ],
+    "WZ_CS_ReqNpcRepair": [
+      3
+    ],
+    "WZ_CS_ReqNpcUpdate": [
+      10
+    ],
+    "WZ_CS_ReqNpcUpgrade": [
+      5
+    ],
+    "WZ_CS_ReqRegAttackGuild": [
+      2
+    ],
+    "WZ_CS_ReqRegGuildMark": [
+      2
+    ],
+    "WZ_CS_ResetCastleSiege": [
+      1
+    ],
+    "WZ_CS_ResetCastleTaxInfo": [
+      1
+    ],
+    "WZ_CS_ResetRegSiegeInfo": [
+      1
+    ],
+    "WZ_CS_ResetSiegeGuildInfo": [
+      1
+    ],
+    "WZ_CS_SetSiegeGuildInfo": [
+      5
+    ],
+    "WZ_CS_SetSiegeGuildOK": [
+      1
+    ],
+    "WZ_CW_InfoLoad": [
+      1
+    ],
+    "WZ_CW_InfoSave": [
+      3
+    ],
+    "WZ_CreateCharacter": [
+      3
+    ],
+    "WZ_DISCONNECT_MEMB": [
+      1
+    ],
+    "WZ_DelMail": [
+      2
+    ],
+    "WZ_DeleteCharacter": [
+      2
+    ],
+    "WZ_FriendAdd": [
+      2
+    ],
+    "WZ_FriendDel": [
+      2
+    ],
+    "WZ_GetAccountLevel": [
+      1
+    ],
+    "WZ_GetCharacterGensInfo": [
+      2
+    ],
+    "WZ_GetEventEntryInfo": [
+      2
+    ],
+    "WZ_GetItemSerial": [
+      0
+    ],
+    "WZ_GetMasterResetInfo": [
+      2
+    ],
+    "WZ_GetResetInfo": [
+      2
+    ],
+    "WZ_GuildCreate": [
+      2
+    ],
+    "WZ_RenameCharacter": [
+      3
+    ],
+    "WZ_SetAccountLevel": [
+      3
+    ],
+    "WZ_SetEventEntryInfo": [
+      8
+    ],
+    "WZ_SetMasterResetInfo": [
+      7
+    ],
+    "WZ_SetResetInfo": [
+      6
+    ],
+    "WZ_UserGuidCreate": [
+      1
+    ],
+    "WZ_WaitFriendAdd": [
+      2
+    ],
+    "WZ_WaitFriendDel": [
+      2
+    ],
+    "WZ_WriteMail": [
+      5
+    ]
+  }
+}

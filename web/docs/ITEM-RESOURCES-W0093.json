@@ -1,0 +1,6442 @@
+{
+  "summary": {
+    "namedItems": 924,
+    "readyItems": 902,
+    "readyModelVariants": 903,
+    "missing": 0,
+    "unmapped": 22
+  },
+  "rows": [
+    {
+      "index": 0,
+      "name": "Kris",
+      "model": "Item/Sword01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 1,
+      "name": "Short Sword",
+      "model": "Item/Sword02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 2,
+      "name": "Rapier",
+      "model": "Item/Sword03.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3,
+      "name": "Katana",
+      "model": "Item/Sword04.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4,
+      "name": "Sword of Assassin",
+      "model": "Item/Sword05.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5,
+      "name": "Blade",
+      "model": "Item/Sword06.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6,
+      "name": "Gladius",
+      "model": "Item/Sword07.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7,
+      "name": "Falchion",
+      "model": "Item/Sword08.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 8,
+      "name": "Serpent Sword",
+      "model": "Item/Sword09.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 9,
+      "name": "Sword of Salamander",
+      "model": "Item/Sword10.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 10,
+      "name": "Light Saber",
+      "model": "Item/Sword11.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 11,
+      "name": "Legendary Sword",
+      "model": "Item/Sword12.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 12,
+      "name": "Heliacal Sword",
+      "model": "Item/Sword13.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 13,
+      "name": "Double Blade",
+      "model": "Item/Sword14.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 14,
+      "name": "Lighting Sword",
+      "model": "Item/Sword15.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 15,
+      "name": "Giant Sword",
+      "model": "Item/Sword16.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 16,
+      "name": "Sword of Destruction",
+      "model": "Item/Sword17.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 17,
+      "name": "Dark Breaker",
+      "model": "Item/Sword18.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 18,
+      "name": "Thunder Blade",
+      "model": "Item/Sword19.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 19,
+      "name": "Divine Sword of Archangel",
+      "model": "Item/Sword20.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 20,
+      "name": "Knight Blade",
+      "model": "Item/Sword21.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 21,
+      "name": "Dark Reign Blade",
+      "model": "Item/Sword22.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 22,
+      "name": "Bone Blade",
+      "model": "Item/HDK_Sword.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 23,
+      "name": "Explosion Blade",
+      "model": "Item/HDK_Sword2.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 24,
+      "name": "Daybreak",
+      "model": "Item/CW_Sword.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 25,
+      "name": "Sword Dancer",
+      "model": "Item/CW_Sword2.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 26,
+      "name": "Flameberge",
+      "model": "Item/Sword_27.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 27,
+      "name": "Sword Breaker",
+      "model": "Item/Sword_28.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 28,
+      "name": "Rune Bastard Sword",
+      "model": "Item/Sword_29.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 31,
+      "name": "Rune Blade",
+      "model": "Item/Sword32.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 32,
+      "name": "Sacred Glove",
+      "model": "Item/Sword33.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 33,
+      "name": "Holy Storm Claw",
+      "model": "Item/Sword34.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 34,
+      "name": "Piercing Blade Glove",
+      "model": "Item/Sword35.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 35,
+      "name": "Phoenix Soul Star",
+      "model": "Item/Sword36.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 512,
+      "name": "Small Axe",
+      "model": "Item/Axe01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 513,
+      "name": "Hand Axe",
+      "model": "Item/Axe02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 514,
+      "name": "Double Axe",
+      "model": "Item/Axe03.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 515,
+      "name": "Tomahawk",
+      "model": "Item/Axe04.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 516,
+      "name": "Elven Axe",
+      "model": "Item/Axe05.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 517,
+      "name": "Battle Axe",
+      "model": "Item/Axe06.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 518,
+      "name": "Nikea Axe",
+      "model": "Item/Axe07.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 519,
+      "name": "Larkan Axe",
+      "model": "Item/Axe08.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 520,
+      "name": "Crescent Axe",
+      "model": "Item/Axe09.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 1024,
+      "name": "Mace",
+      "model": "Item/Mace01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 1025,
+      "name": "Morning Star",
+      "model": "Item/Mace02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 1026,
+      "name": "Flail",
+      "model": "Item/Mace03.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 1027,
+      "name": "Great Hammer",
+      "model": "Item/Mace04.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 1028,
+      "name": "Crystal Morning Star",
+      "model": "Item/Mace05.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 1029,
+      "name": "Crystal Sword",
+      "model": "Item/Mace06.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 1030,
+      "name": "Chaos Dragon Axe",
+      "model": "Item/Mace07.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 1031,
+      "name": "Elemental Mace",
+      "model": "Item/Mace08.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 1032,
+      "name": "Battle Scepter",
+      "model": "Item/Mace09.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 1033,
+      "name": "Master Scepter",
+      "model": "Item/Mace10.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 1034,
+      "name": "Great Scepter",
+      "model": "Item/Mace11.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 1035,
+      "name": "Lord Scepter",
+      "model": "Item/Mace12.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 1036,
+      "name": "Great Lord Scepter",
+      "model": "Item/Mace13.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 1037,
+      "name": "Divine Scepter of Archangel",
+      "model": "Item/Saint.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 1038,
+      "name": "Soleil Scepter",
+      "model": "Item/HDK_Mace.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 1039,
+      "name": "Shining Scepter",
+      "model": "Item/CW_Mace.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 1040,
+      "name": "Frost Mace",
+      "model": "Item/Mace_17.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 1041,
+      "name": "Absolute Scepter",
+      "model": "Item/Mace_18.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 1042,
+      "name": "Striker Scepter",
+      "model": "Item/gamble_safter01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 1536,
+      "name": "Light Spear",
+      "model": "Item/Spear01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 1537,
+      "name": "Spear",
+      "model": "Item/Spear02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 1538,
+      "name": "Dragon Lance",
+      "model": "Item/Spear03.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 1539,
+      "name": "Giant Trident",
+      "model": "Item/Spear04.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 1540,
+      "name": "Serpent Spear",
+      "model": "Item/Spear05.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 1541,
+      "name": "Double Poleaxe",
+      "model": "Item/Spear06.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 1542,
+      "name": "Halberd",
+      "model": "Item/Spear07.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 1543,
+      "name": "Berdysh",
+      "model": "Item/Spear08.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 1544,
+      "name": "Great Scythe",
+      "model": "Item/Spear09.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 1545,
+      "name": "Bill of Balrog",
+      "model": "Item/Spear10.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 1546,
+      "name": "Dragon Spear",
+      "model": "Item/Spear11.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 1547,
+      "name": "Brova",
+      "model": "Item/gamble_scyder01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 2048,
+      "name": "Short Bow",
+      "model": "Item/Bow01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 2049,
+      "name": "Bow",
+      "model": "Item/Bow02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 2050,
+      "name": "Elven Bow",
+      "model": "Item/Bow03.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 2051,
+      "name": "Battle Bow",
+      "model": "Item/Bow04.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 2052,
+      "name": "Tiger Bow",
+      "model": "Item/Bow05.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 2053,
+      "name": "Silver Bow",
+      "model": "Item/Bow06.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 2054,
+      "name": "Chaos Nature Bow",
+      "model": "Item/Bow07.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 2055,
+      "name": "Bolt",
+      "model": "Item/Arrows01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 2056,
+      "name": "Crossbow",
+      "model": "Item/CrossBow01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 2057,
+      "name": "Golden Crossbow",
+      "model": "Item/CrossBow02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 2058,
+      "name": "Arquebus",
+      "model": "Item/CrossBow03.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 2059,
+      "name": "Light Crossbow",
+      "model": "Item/CrossBow04.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 2060,
+      "name": "Serpent Crossbow",
+      "model": "Item/CrossBow05.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 2061,
+      "name": "Bluewing Crossbow",
+      "model": "Item/CrossBow06.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 2062,
+      "name": "Aquagold Crossbow",
+      "model": "Item/CrossBow07.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 2063,
+      "name": "Arrow",
+      "model": "Item/Arrows02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 2064,
+      "name": "Saint Crossbow",
+      "model": "Item/CrossBow17.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 2065,
+      "name": "Celestial Bow",
+      "model": "Item/Bow18.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 2066,
+      "name": "Divine Crossbow of Archangel",
+      "model": "Item/Bow19.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 2067,
+      "name": "Great Reign Crossbow",
+      "model": "Item/CrossBow20.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 2068,
+      "name": "Arrow Viper Bow",
+      "model": "Item/Bow20.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 2069,
+      "name": "Sylph Wind Bow",
+      "model": "Item/HDK_Bow.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 2070,
+      "name": "Albatross Bow",
+      "model": "Item/CW_Bow.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 2071,
+      "name": "Dark Stinger",
+      "model": "Item/Bow_24.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 2072,
+      "name": "Aileen Bowr",
+      "model": "Item/gamblebow.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 2560,
+      "name": "Skull Staff",
+      "model": "Item/Staff01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 2561,
+      "name": "Angelic Staff",
+      "model": "Item/Staff02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 2562,
+      "name": "Serpent Staff",
+      "model": "Item/Staff03.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 2563,
+      "name": "Thunder Staff",
+      "model": "Item/Staff04.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 2564,
+      "name": "Gorgon Staff",
+      "model": "Item/Staff05.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 2565,
+      "name": "Legendary Staff",
+      "model": "Item/Staff06.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 2566,
+      "name": "Staff of Resurrection",
+      "model": "Item/Staff07.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 2567,
+      "name": "Chaos Lighting Staff",
+      "model": "Item/Staff08.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 2568,
+      "name": "Staff of Destruction",
+      "model": "Item/Staff09.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 2569,
+      "name": "Dragon Soul Staff",
+      "model": "Item/Staff10.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 2570,
+      "name": "Divine Staff of Archangel",
+      "model": "Item/Staff11.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 2571,
+      "name": "Staff of Kundun",
+      "model": "Item/Staff12.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 2572,
+      "name": "Grand Viper Staff",
+      "model": "Item/HDK_Staff.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 2573,
+      "name": "Platina Staff",
+      "model": "Item/CW_Staff.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 2574,
+      "name": "Mystery Stick",
+      "model": "Item/Staff15.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 2575,
+      "name": "Violent Wind Stick",
+      "model": "Item/Staff16.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 2576,
+      "name": "Red Wing Stick",
+      "model": "Item/Staff17.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 2577,
+      "name": "Ancient Stick",
+      "model": "Item/Staff18.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 2578,
+      "name": "Demonic Stick",
+      "model": "Item/Staff19.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 2579,
+      "name": "Storm Blitz Stick",
+      "model": "Item/Staff20.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 2580,
+      "name": "Eternal Wing Stick",
+      "model": "Item/Staff21.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 2581,
+      "name": "Book of Samut",
+      "model": "Item/Book_of_Sahamutt.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 2582,
+      "name": "Book of Neil",
+      "model": "Item/Book_of_Neil.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 2583,
+      "name": "Book of Lagle",
+      "model": "Item/Book_of_Rargle.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 2590,
+      "name": "Deadly Staff",
+      "model": "Item/Staff_31.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 2591,
+      "name": "Inberial Staff",
+      "model": "Item/Staff_32.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 2592,
+      "name": "Guardian Staff",
+      "model": "Item/Staff_33.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 2593,
+      "name": "Chromatic Staff",
+      "model": "Item/gamble_wand.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 2594,
+      "name": "Raven Stick",
+      "model": "Item/gamble_stick.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 2596,
+      "name": "Divine Stick of the Archangel",
+      "model": "Item/Archangelus.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3072,
+      "name": "Small Shield",
+      "model": "Item/Shield01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3073,
+      "name": "Horn Shield",
+      "model": "Item/Shield02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3074,
+      "name": "Kite Shield",
+      "model": "Item/Shield03.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3075,
+      "name": "Elven Shield",
+      "model": "Item/Shield04.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3076,
+      "name": "Buckler",
+      "model": "Item/Shield05.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3077,
+      "name": "Dragon Slayer Shield",
+      "model": "Item/Shield06.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3078,
+      "name": "Skull Shield",
+      "model": "Item/Shield07.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3079,
+      "name": "Spiked Shield",
+      "model": "Item/Shield08.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3080,
+      "name": "Tower Shield",
+      "model": "Item/Shield09.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3081,
+      "name": "Plate Shield",
+      "model": "Item/Shield10.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3082,
+      "name": "Large Round Shield",
+      "model": "Item/Shield11.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3083,
+      "name": "Serpent Shield",
+      "model": "Item/Shield12.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3084,
+      "name": "Bronze Shield",
+      "model": "Item/Shield13.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3085,
+      "name": "Dragon Shield",
+      "model": "Item/Shield14.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3086,
+      "name": "Legendary Shield",
+      "model": "Item/Shield15.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3087,
+      "name": "Grand Soul Shield",
+      "model": "Item/Shield16.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3088,
+      "name": "Elemental Shield",
+      "model": "Item/Shield17.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3089,
+      "name": "Crimson Glory",
+      "model": "Item/Shield_18.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3090,
+      "name": "Salamander Shield",
+      "model": "Item/Shield_19.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3091,
+      "name": "Frost Barrier",
+      "model": "Item/Shield_20.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3092,
+      "name": "Guardian Shield",
+      "model": "Item/Shield_21.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3093,
+      "name": "Cross Shield",
+      "model": "Item/crosssheild.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3584,
+      "name": "Bronze Helm",
+      "model": "Player/HelmMale01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3585,
+      "name": "Dragon Helm",
+      "model": "Player/HelmMale02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3586,
+      "name": "Pad Helm",
+      "model": "Player/HelmMale03.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3587,
+      "name": "Legendary Helm",
+      "model": "Player/HelmMale04.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3588,
+      "name": "Bone Helm",
+      "model": "Player/HelmMale05.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3589,
+      "name": "Leather Helm",
+      "model": "Player/HelmMale06.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3590,
+      "name": "Scale Helm",
+      "model": "Player/HelmMale07.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3591,
+      "name": "Sphinx Mask",
+      "model": "Player/HelmMale08.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3592,
+      "name": "Brass Helm",
+      "model": "Player/HelmMale09.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3593,
+      "name": "Plate Helm",
+      "model": "Player/HelmMale10.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3594,
+      "name": "Vine Helm",
+      "model": "Player/HelmElf01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3595,
+      "name": "Silk Helm",
+      "model": "Player/HelmElf02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3596,
+      "name": "Wind Helm",
+      "model": "Player/HelmElf03.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3597,
+      "name": "Spirit Helm",
+      "model": "Player/HelmElf04.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3598,
+      "name": "Guardian Helm",
+      "model": "Player/HelmElf05.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3600,
+      "name": "Black Dragon Helm",
+      "model": "Player/HelmMale17.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3601,
+      "name": "Dark Phoenix Helm",
+      "model": "Player/HelmMale18.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3602,
+      "name": "Grand Soul Helm",
+      "model": "Player/HelmMale19.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3603,
+      "name": "Divine Helm",
+      "status": "unmapped"
+    },
+    {
+      "index": 3605,
+      "name": "Great Dragon Helm",
+      "model": "Player/HelmMale22.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3606,
+      "name": "Dark Soul Helm",
+      "model": "Player/HelmMale23.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3608,
+      "name": "Red Spirit Helm",
+      "model": "Player/HelmMale25.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3609,
+      "name": "Light Plate Mask",
+      "model": "Player/HelmMale26.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3610,
+      "name": "Adamantine Mask",
+      "model": "Player/HelmMale27.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3611,
+      "name": "Dark Steel Mask",
+      "model": "Player/HelmMale28.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3612,
+      "name": "Dark Master Mask",
+      "model": "Player/HelmMale29.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3613,
+      "name": "Dragon Knight Helm",
+      "model": "Player/HDK_HelmMale01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3614,
+      "name": "Venom Mist Helm",
+      "model": "Player/HDK_HelmMale02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3615,
+      "name": "Sylphid Ray Helm",
+      "model": "Player/HDK_HelmMale03.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3617,
+      "name": "Sunlight Mask",
+      "model": "Player/HDK_HelmMale05.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3618,
+      "name": "Ashcrow Helm",
+      "model": "Player/CW_HelmMale01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3619,
+      "name": "Eclipse Helm",
+      "model": "Player/CW_HelmMale02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3620,
+      "name": "Iris Helm",
+      "model": "Player/CW_HelmMale03.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3622,
+      "name": "Glorious Mask",
+      "model": "Player/CW_HelmMale05.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3623,
+      "name": "Violent Wind Helm",
+      "model": "Player/HelmMale40.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3624,
+      "name": "Red Wing Helm",
+      "model": "Player/HelmMale41.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3625,
+      "name": "Ancient Helm",
+      "model": "Player/HelmMale42.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3626,
+      "name": "Demonic Helm",
+      "model": "Player/HelmMale43.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3627,
+      "name": "Storm Blitz Helm",
+      "model": "Player/HelmMale44.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3628,
+      "name": "Eternal Wing Helm",
+      "model": "Player/HelmMale45.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3629,
+      "name": "Titan Helm",
+      "model": "Player/HelmMale46.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3630,
+      "name": "Brave Helm",
+      "model": "Player/HelmMale47.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3633,
+      "name": "Seraphim Helm",
+      "model": "Player/HelmMale50.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3634,
+      "name": "Divine Helm",
+      "model": "Player/HelmMale51.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3635,
+      "name": "Royal Mask",
+      "model": "Player/HelmMale52.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3636,
+      "name": "Hades Helm",
+      "model": "Player/HelmMale53.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3637,
+      "name": "Pearl Helm",
+      "model": "Player/HelmMale54.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3643,
+      "name": "Sacred Fire Helm",
+      "model": "Player/HelmMale60.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3644,
+      "name": "Storm Jahad Helm",
+      "model": "Player/HelmMale61.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3645,
+      "name": "Piercing Groove Helm",
+      "model": "Player/HelmMale62.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3646,
+      "name": "Lucky Scale Helm",
+      "model": "Player/LuckyItem/62/new_Helm01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3647,
+      "name": "Lucky Silk Helm",
+      "model": "Player/LuckyItem/63/new_Helm02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3648,
+      "name": "Lucky Sphinx Helm",
+      "model": "Player/LuckyItem/64/new_Helm03.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3649,
+      "name": "Lucky Violent Wind Helm",
+      "model": "Player/LuckyItem/65/new_Helm04.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3650,
+      "name": "Lucky Dark Soul Helm",
+      "model": "Player/LuckyItem/66/new_Helm05.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3651,
+      "name": "Lucky Dragon Helm",
+      "model": "Player/LuckyItem/67/new_Helm06.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3652,
+      "name": "Lucky Guardian Helm",
+      "model": "Player/LuckyItem/68/new_Helm07.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3653,
+      "name": "Lucky Legendary Helm",
+      "model": "Player/LuckyItem/69/new_Helm08.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3654,
+      "name": "Lucky Red Wing Helm",
+      "model": "Player/LuckyItem/70/new_Helm09.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3656,
+      "name": "Lucky Storm Hard Helm",
+      "model": "Player/LuckyItem/72/new_Helm11.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 3657,
+      "name": "Phoenix Soul Helmet",
+      "model": "Player/HelmMale74.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4096,
+      "name": "Bronze Armor",
+      "model": "Player/ArmorMale01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4097,
+      "name": "Dragon Armor",
+      "model": "Player/ArmorMale02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4098,
+      "name": "Pad Armor",
+      "model": "Player/ArmorMale03.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4099,
+      "name": "Legendary Armor",
+      "model": "Player/ArmorMale04.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4100,
+      "name": "Bone Armor",
+      "model": "Player/ArmorMale05.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4101,
+      "name": "Leather Armor",
+      "model": "Player/ArmorMale06.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4102,
+      "name": "Scale Armor",
+      "model": "Player/ArmorMale07.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4103,
+      "name": "Sphinx Armor",
+      "model": "Player/ArmorMale08.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4104,
+      "name": "Brass Armor",
+      "model": "Player/ArmorMale09.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4105,
+      "name": "Plate Armor",
+      "model": "Player/ArmorMale10.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4106,
+      "name": "Vine Armor",
+      "model": "Player/ArmorElf01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4107,
+      "name": "Silk Armor",
+      "model": "Player/ArmorElf02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4108,
+      "name": "Wind Armor",
+      "model": "Player/ArmorElf03.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4109,
+      "name": "Spirit Armor",
+      "model": "Player/ArmorElf04.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4110,
+      "name": "Guardian Armor",
+      "model": "Player/ArmorElf05.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4111,
+      "name": "Storm Crow Armor",
+      "model": "Player/ArmorMale16.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4112,
+      "name": "Black Dragon Armor",
+      "model": "Player/ArmorMale17.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4113,
+      "name": "Dark Phoenix Armor",
+      "model": "Player/ArmorMale18.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4114,
+      "name": "Grand Soul Armor",
+      "model": "Player/ArmorMale19.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4115,
+      "name": "Divine Armor",
+      "status": "unmapped"
+    },
+    {
+      "index": 4116,
+      "name": "Thunder Hawk Armor",
+      "model": "Player/ArmorMale21.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4117,
+      "name": "Great Dragon Armor",
+      "model": "Player/ArmorMale22.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4118,
+      "name": "Dark Soul Armor",
+      "model": "Player/ArmorMale23.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4119,
+      "name": "Hurricane Armor",
+      "model": "Player/ArmorMale24.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4120,
+      "name": "Red Spirit Armor",
+      "model": "Player/ArmorMale25.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4121,
+      "name": "Light Plate Armor",
+      "model": "Player/ArmorMale26.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4122,
+      "name": "Adamantine Armor",
+      "model": "Player/ArmorMale27.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4123,
+      "name": "Dark Steel Armor",
+      "model": "Player/ArmorMale28.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4124,
+      "name": "Dark Master Armor",
+      "model": "Player/ArmorMale29.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4125,
+      "name": "Dragon Knight Armor",
+      "model": "Player/HDK_ArmorMale01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4126,
+      "name": "Venom Mist Armor",
+      "model": "Player/HDK_ArmorMale02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4127,
+      "name": "Sylphid Ray Armor",
+      "model": "Player/HDK_ArmorMale03.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4128,
+      "name": "Volcano Armor",
+      "model": "Player/HDK_ArmorMale04.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4129,
+      "name": "Sunlight Armor",
+      "model": "Player/HDK_ArmorMale05.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4130,
+      "name": "Ashcrow Armor",
+      "model": "Player/CW_ArmorMale01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4131,
+      "name": "Eclipse Armor",
+      "model": "Player/CW_ArmorMale02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4132,
+      "name": "Iris Armor",
+      "model": "Player/CW_ArmorMale03.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4133,
+      "name": "Valiant Armor",
+      "model": "Player/CW_ArmorMale04.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4134,
+      "name": "Glorious Armor",
+      "model": "Player/CW_ArmorMale05.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4135,
+      "name": "Violent Wind Armor",
+      "model": "Player/ArmorMale40.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4136,
+      "name": "Red Wing Armor",
+      "model": "Player/ArmorMale41.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4137,
+      "name": "Ancient Armor",
+      "model": "Player/ArmorMale42.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4138,
+      "name": "Demonic Armor",
+      "model": "Player/ArmorMale43.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4139,
+      "name": "Storm Blitz Armor",
+      "model": "Player/ArmorMale44.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4140,
+      "name": "Eternal Wing Armor",
+      "model": "Player/ArmorMale45.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4141,
+      "name": "Titan Armor",
+      "model": "Player/ArmorMale46.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4142,
+      "name": "Brave Armor",
+      "model": "Player/ArmorMale47.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4143,
+      "name": "Phantom Armor",
+      "model": "Player/ArmorMale48.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4144,
+      "name": "Destroy Armor",
+      "model": "Player/ArmorMale49.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4145,
+      "name": "Seraphim Armor",
+      "model": "Player/ArmorMale50.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4146,
+      "name": "Divine Armor",
+      "model": "Player/ArmorMale51.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4147,
+      "name": "Royal Armor",
+      "model": "Player/ArmorMale52.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4148,
+      "name": "Hades Armor",
+      "model": "Player/ArmorMale53.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4149,
+      "name": "Pearl Armor",
+      "model": "Player/ArmorMale54.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4155,
+      "name": "Sacred Fire Armor",
+      "model": "Player/ArmorMale60.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4156,
+      "name": "Storm Jahad Armor",
+      "model": "Player/ArmorMale61.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4157,
+      "name": "Piercing Groove Armor",
+      "model": "Player/ArmorMale62.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4158,
+      "name": "Lucky Scale Armor",
+      "model": "Player/LuckyItem/62/new_Armor01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4159,
+      "name": "Lucky Silk Armor",
+      "model": "Player/LuckyItem/63/new_Armor02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4160,
+      "name": "Lucky Sphinx Armor",
+      "model": "Player/LuckyItem/64/new_Armor03.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4161,
+      "name": "Lucky Violent Wind Armor",
+      "model": "Player/LuckyItem/65/new_Armor04.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4162,
+      "name": "Lucky Dark Soul Armor",
+      "model": "Player/LuckyItem/66/new_Armor05.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4163,
+      "name": "Lucky Dragon Armor",
+      "model": "Player/LuckyItem/67/new_Armor06.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4164,
+      "name": "Lucky Guardian Armor",
+      "model": "Player/LuckyItem/68/new_Armor07.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4165,
+      "name": "Lucky Legendary Armor",
+      "model": "Player/LuckyItem/69/new_Armor08.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4166,
+      "name": "Lucky Red Wing Armor",
+      "model": "Player/LuckyItem/70/new_Armor09.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4167,
+      "name": "Lucky Atlans Armor",
+      "model": "Player/LuckyItem/71/new_Armor10.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4168,
+      "name": "Lucky Storm Hard Armor",
+      "model": "Player/LuckyItem/72/new_Armor11.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4169,
+      "name": "Phoenix Soul Armor",
+      "model": "Player/ArmorMale74.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4608,
+      "name": "Bronze Pants",
+      "model": "Player/PantMale01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4609,
+      "name": "Dragon Pants",
+      "model": "Player/PantMale02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4610,
+      "name": "Pad Pants",
+      "model": "Player/PantMale03.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4611,
+      "name": "Legendary Pants",
+      "model": "Player/PantMale04.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4612,
+      "name": "Bone Pants",
+      "model": "Player/PantMale05.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4613,
+      "name": "Leather Pants",
+      "model": "Player/PantMale06.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4614,
+      "name": "Scale Pants",
+      "model": "Player/PantMale07.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4615,
+      "name": "Sphinx Pants",
+      "model": "Player/PantMale08.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4616,
+      "name": "Brass Pants",
+      "model": "Player/PantMale09.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4617,
+      "name": "Plate Pants",
+      "model": "Player/PantMale10.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4618,
+      "name": "Vine Pants",
+      "model": "Player/PantElf01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4619,
+      "name": "Silk Pants",
+      "model": "Player/PantElf02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4620,
+      "name": "Wind Pants",
+      "model": "Player/PantElf03.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4621,
+      "name": "Spirit Pants",
+      "model": "Player/PantElf04.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4622,
+      "name": "Guardian Pants",
+      "model": "Player/PantElf05.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4623,
+      "name": "Storm Crow Pants",
+      "model": "Player/PantMale16.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4624,
+      "name": "Black Dragon Pants",
+      "model": "Player/PantMale17.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4625,
+      "name": "Dark Phoenix Pants",
+      "model": "Player/PantMale18.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4626,
+      "name": "Grand Soul Pants",
+      "status": "unmapped"
+    },
+    {
+      "index": 4627,
+      "name": "Divine Pants",
+      "status": "unmapped"
+    },
+    {
+      "index": 4628,
+      "name": "Thunder Hawk Pants",
+      "model": "Player/PantMale21.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4629,
+      "name": "Great Dragon Pants",
+      "model": "Player/PantMale22.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4630,
+      "name": "Dark Soul Pants",
+      "model": "Player/PantMale23.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4631,
+      "name": "Hurricane Pants",
+      "model": "Player/PantMale24.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4632,
+      "name": "Red Spirit Pants",
+      "model": "Player/PantMale25.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4633,
+      "name": "Light Plate Pants",
+      "model": "Player/PantMale26.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4634,
+      "name": "Adamantine Pants",
+      "model": "Player/PantMale27.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4635,
+      "name": "Dark Steel Pants",
+      "model": "Player/PantMale28.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4636,
+      "name": "Dark Master Pants",
+      "model": "Player/PantMale29.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4637,
+      "name": "Dragon Knight Pants",
+      "model": "Player/HDK_PantMale01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4638,
+      "name": "Venom Mist Pants",
+      "model": "Player/HDK_PantMale02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4639,
+      "name": "Sylphid Ray Pants",
+      "model": "Player/HDK_PantMale03.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4640,
+      "name": "Volcano Pants",
+      "model": "Player/HDK_PantMale04.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4641,
+      "name": "Sunlight Pants",
+      "model": "Player/HDK_PantMale05.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4642,
+      "name": "Ashcrow Pants",
+      "model": "Player/CW_PantMale01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4643,
+      "name": "Eclipse Pants",
+      "model": "Player/CW_PantMale02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4644,
+      "name": "Iris Pants",
+      "model": "Player/CW_PantMale03.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4645,
+      "name": "Valiant Pants",
+      "model": "Player/CW_PantMale04.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4646,
+      "name": "Glorious Pants",
+      "model": "Player/CW_PantMale05.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4647,
+      "name": "Violent Wind Pants",
+      "model": "Player/PantMale40.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4648,
+      "name": "Red Wing Pants",
+      "model": "Player/PantMale41.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4649,
+      "name": "Ancient Pants",
+      "model": "Player/PantMale42.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4650,
+      "name": "Demonic Pants",
+      "model": "Player/PantMale43.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4651,
+      "name": "Storm Blitz Pants",
+      "model": "Player/PantMale44.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4652,
+      "name": "Eternal Wing Pants",
+      "model": "Player/PantMale45.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4653,
+      "name": "Titan Pants",
+      "model": "Player/PantMale46.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4654,
+      "name": "Brave Pants",
+      "model": "Player/PantMale47.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4655,
+      "name": "Phantom Pants",
+      "model": "Player/PantMale48.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4656,
+      "name": "Destroy Pants",
+      "model": "Player/PantMale49.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4657,
+      "name": "Seraphim Pants",
+      "model": "Player/PantMale50.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4658,
+      "name": "Divine Pants",
+      "model": "Player/PantMale51.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4659,
+      "name": "Royal Pants",
+      "model": "Player/PantMale52.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4660,
+      "name": "Hades Pants",
+      "model": "Player/PantMale53.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4661,
+      "name": "Pearl Pants",
+      "model": "Player/PantMale54.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4667,
+      "name": "Sacred Fire Pants",
+      "model": "Player/PantMale60.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4668,
+      "name": "Storm Jahad Pants",
+      "model": "Player/PantMale61.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4669,
+      "name": "Piercing Groove Pants",
+      "model": "Player/PantMale62.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4670,
+      "name": "Lucky Scale Pants",
+      "model": "Player/LuckyItem/62/new_Pant01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4671,
+      "name": "Lucky Silk Pants",
+      "model": "Player/LuckyItem/63/new_Pant02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4672,
+      "name": "Lucky Sphinx Pants",
+      "model": "Player/LuckyItem/64/new_Pant03.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4673,
+      "name": "Lucky Violent Wind Pants",
+      "model": "Player/LuckyItem/65/new_Pant04.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4674,
+      "name": "Lucky Dark Soul Pants",
+      "model": "Player/LuckyItem/66/new_Pant05.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4675,
+      "name": "Lucky Dragon Pants",
+      "model": "Player/LuckyItem/67/new_Pant06.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4676,
+      "name": "Lucky Guardian Pants",
+      "model": "Player/LuckyItem/68/new_Pant07.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4677,
+      "name": "Lucky Legendary Pants",
+      "model": "Player/LuckyItem/69/new_Pant08.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4678,
+      "name": "Lucky Red Wing Pants",
+      "model": "Player/LuckyItem/70/new_Pant09.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4679,
+      "name": "Lucky Atlans Pants",
+      "model": "Player/LuckyItem/71/new_Pant10.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4680,
+      "name": "Lucky Storm Hard Pants",
+      "model": "Player/LuckyItem/72/new_Pant11.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 4681,
+      "name": "Phoenix Soul Pants",
+      "model": "Player/PantMale74.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5120,
+      "name": "Bronze Gloves",
+      "model": "Player/GloveMale01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5121,
+      "name": "Dragon Gloves",
+      "model": "Player/GloveMale02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5122,
+      "name": "Pad Gloves",
+      "model": "Player/GloveMale03.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5123,
+      "name": "Legendary Gloves",
+      "model": "Player/GloveMale04.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5124,
+      "name": "Bone Gloves",
+      "model": "Player/GloveMale05.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5125,
+      "name": "Leather Gloves",
+      "model": "Player/GloveMale06.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5126,
+      "name": "Scale Gloves",
+      "model": "Player/GloveMale07.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5127,
+      "name": "Sphinx Gloves",
+      "model": "Player/GloveMale08.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5128,
+      "name": "Brass Gloves",
+      "model": "Player/GloveMale09.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5129,
+      "name": "Plate Gloves",
+      "model": "Player/GloveMale10.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5130,
+      "name": "Vine Gloves",
+      "model": "Player/GloveElf01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5131,
+      "name": "Silk Gloves",
+      "model": "Player/GloveElf02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5132,
+      "name": "Wind Gloves",
+      "model": "Player/GloveElf03.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5133,
+      "name": "Spirit Gloves",
+      "model": "Player/GloveElf04.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5134,
+      "name": "Guardian Gloves",
+      "model": "Player/GloveElf05.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5135,
+      "name": "Storm Crow Gloves",
+      "model": "Player/GloveMale16.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5136,
+      "name": "Black Dragon Gloves",
+      "model": "Player/GloveMale17.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5137,
+      "name": "Dark Phoenix Gloves",
+      "model": "Player/GloveMale18.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5138,
+      "name": "Grand Soul Gloves",
+      "model": "Player/GloveMale19.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5139,
+      "name": "Divine Gloves",
+      "status": "unmapped"
+    },
+    {
+      "index": 5140,
+      "name": "Thunder Hawk Gloves",
+      "model": "Player/GloveMale21.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5141,
+      "name": "Great Dragon Gloves",
+      "model": "Player/GloveMale22.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5142,
+      "name": "Dark Soul Gloves",
+      "model": "Player/GloveMale23.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5143,
+      "name": "Hurricane Gloves",
+      "model": "Player/GloveMale24.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5144,
+      "name": "Red Spirit Gloves",
+      "model": "Player/GloveMale25.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5145,
+      "name": "Light Plate Gloves",
+      "model": "Player/GloveMale26.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5146,
+      "name": "Adamantine Gloves",
+      "model": "Player/GloveMale27.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5147,
+      "name": "Dark Steel Gloves",
+      "model": "Player/GloveMale28.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5148,
+      "name": "Dark Master Gloves",
+      "model": "Player/GloveMale29.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5149,
+      "name": "Dragon Knight Gloves",
+      "model": "Player/HDK_GloveMale01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5150,
+      "name": "Venom Mist Gloves",
+      "model": "Player/HDK_GloveMale02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5151,
+      "name": "Sylphid Ray Gloves",
+      "model": "Player/HDK_GloveMale03.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5152,
+      "name": "Volcano Gloves",
+      "model": "Player/HDK_GloveMale04.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5153,
+      "name": "Sunlight Gloves",
+      "model": "Player/HDK_GloveMale05.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5154,
+      "name": "Ashcrow Gloves",
+      "model": "Player/CW_GloveMale01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5155,
+      "name": "Eclipse Gloves",
+      "model": "Player/CW_GloveMale02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5156,
+      "name": "Iris Gloves",
+      "model": "Player/CW_GloveMale03.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5157,
+      "name": "Valiant Gloves",
+      "model": "Player/CW_GloveMale04.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5158,
+      "name": "Glorious Gloves",
+      "model": "Player/CW_GloveMale05.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5159,
+      "name": "Violent Wind Gloves",
+      "model": "Player/GloveMale40.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5160,
+      "name": "Red Wing Gloves",
+      "model": "Player/GloveMale41.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5161,
+      "name": "Ancient Gloves",
+      "model": "Player/GloveMale42.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5162,
+      "name": "Demonic Gloves",
+      "model": "Player/GloveMale43.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5163,
+      "name": "Storm Blitz Gloves",
+      "model": "Player/GloveMale44.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5164,
+      "name": "Eternal Wing Gloves",
+      "model": "Player/GloveMale45.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5165,
+      "name": "Titan Gloves",
+      "model": "Player/GloveMale46.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5166,
+      "name": "Brave Gloves",
+      "model": "Player/GloveMale47.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5167,
+      "name": "Phantom Gloves",
+      "model": "Player/GloveMale48.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5168,
+      "name": "Destroy Gloves",
+      "model": "Player/GloveMale49.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5169,
+      "name": "Seraphim Gloves",
+      "model": "Player/GloveMale50.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5170,
+      "name": "Divine Gloves",
+      "model": "Player/GloveMale51.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5171,
+      "name": "Royal Gloves",
+      "model": "Player/GloveMale52.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5172,
+      "name": "Hades Gloves",
+      "model": "Player/GloveMale53.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5173,
+      "name": "Pearl Gloves",
+      "model": "Player/GloveMale54.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5182,
+      "name": "Lucky Scale Gloves",
+      "model": "Player/LuckyItem/62/new_Glove01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5183,
+      "name": "Lucky Silk Gloves",
+      "model": "Player/LuckyItem/63/new_Glove02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5184,
+      "name": "Lucky Sphinx Gloves",
+      "model": "Player/LuckyItem/64/new_Glove03.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5185,
+      "name": "Lucky Violent Wind Gloves",
+      "model": "Player/LuckyItem/65/new_Glove04.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5186,
+      "name": "Lucky Dark Soul Gloves",
+      "model": "Player/LuckyItem/66/new_Glove05.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5187,
+      "name": "Lucky Dragon Gloves",
+      "model": "Player/LuckyItem/67/new_Glove06.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5188,
+      "name": "Lucky Guardian Gloves",
+      "model": "Player/LuckyItem/68/new_Glove07.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5189,
+      "name": "Lucky Legendary Gloves",
+      "model": "Player/LuckyItem/69/new_Glove08.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5190,
+      "name": "Lucky Red Wing Gloves",
+      "model": "Player/LuckyItem/70/new_Glove09.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5191,
+      "name": "Lucky Atlans Gloves",
+      "model": "Player/LuckyItem/71/new_Glove10.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5632,
+      "name": "Bronze Boots",
+      "model": "Player/BootMale01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5633,
+      "name": "Dragon Boots",
+      "model": "Player/BootMale02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5634,
+      "name": "Pad Boots",
+      "model": "Player/BootMale03.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5635,
+      "name": "Legendary Boots",
+      "model": "Player/BootMale04.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5636,
+      "name": "Bone Boots",
+      "model": "Player/BootMale05.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5637,
+      "name": "Leather Boots",
+      "model": "Player/BootMale06.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5638,
+      "name": "Scale Boots",
+      "model": "Player/BootMale07.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5639,
+      "name": "Sphinx Boots",
+      "model": "Player/BootMale08.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5640,
+      "name": "Brass Boots",
+      "model": "Player/BootMale09.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5641,
+      "name": "Plate Boots",
+      "model": "Player/BootMale10.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5642,
+      "name": "Vine Boots",
+      "model": "Player/BootElf01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5643,
+      "name": "Silk Boots",
+      "model": "Player/BootElf02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5644,
+      "name": "Wind Boots",
+      "model": "Player/BootElf03.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5645,
+      "name": "Spirit Boots",
+      "model": "Player/BootElf04.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5646,
+      "name": "Guardian Boots",
+      "model": "Player/BootElf05.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5647,
+      "name": "Storm Crow Boots",
+      "model": "Player/BootMale16.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5648,
+      "name": "Black Dragon Boots",
+      "model": "Player/BootMale17.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5649,
+      "name": "Dark Phoenix Boots",
+      "model": "Player/BootMale18.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5650,
+      "name": "Grand Soul Boots",
+      "model": "Player/BootMale19.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5651,
+      "name": "Divine Boots",
+      "status": "unmapped"
+    },
+    {
+      "index": 5652,
+      "name": "Thunder Hawk Boots",
+      "model": "Player/BootMale21.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5653,
+      "name": "Great Dragon Boots",
+      "model": "Player/BootMale22.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5654,
+      "name": "Dark Soul Boots",
+      "model": "Player/BootMale23.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5655,
+      "name": "Hurricane Boots",
+      "model": "Player/BootMale24.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5656,
+      "name": "Red Spirit Boots",
+      "model": "Player/BootMale25.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5657,
+      "name": "Light Plate Boots",
+      "model": "Player/BootMale26.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5658,
+      "name": "Adamantine Boots",
+      "model": "Player/BootMale27.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5659,
+      "name": "Dark Steel Boots",
+      "model": "Player/BootMale28.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5660,
+      "name": "Dark Master Boots",
+      "model": "Player/BootMale29.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5661,
+      "name": "Dragon Knight Boots",
+      "model": "Player/HDK_BootMale01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5662,
+      "name": "Venom Mist Boots",
+      "model": "Player/HDK_BootMale02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5663,
+      "name": "Sylphid Ray Boots",
+      "model": "Player/HDK_BootMale03.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5664,
+      "name": "Volcano Boots",
+      "model": "Player/HDK_BootMale04.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5665,
+      "name": "Sunlight Boots",
+      "model": "Player/HDK_BootMale05.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5666,
+      "name": "Ashcrow Boots",
+      "model": "Player/CW_BootMale01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5667,
+      "name": "Eclipse Boots",
+      "model": "Player/CW_BootMale02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5668,
+      "name": "Iris Boots",
+      "model": "Player/CW_BootMale03.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5669,
+      "name": "Valiant Boots",
+      "model": "Player/CW_BootMale04.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5670,
+      "name": "Glorious Boots",
+      "model": "Player/CW_BootMale05.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5671,
+      "name": "Violent Wind Boots",
+      "model": "Player/BootMale40.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5672,
+      "name": "Red Wing Boots",
+      "model": "Player/BootMale41.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5673,
+      "name": "Ancient Boots",
+      "model": "Player/BootMale42.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5674,
+      "name": "Demonic Boots",
+      "model": "Player/BootMale43.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5675,
+      "name": "Storm Blitz Boots",
+      "model": "Player/BootMale44.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5676,
+      "name": "Eternal Wing Boots",
+      "model": "Player/BootMale45.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5677,
+      "name": "Titan Boots",
+      "model": "Player/BootMale46.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5678,
+      "name": "Brave Boots",
+      "model": "Player/BootMale47.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5679,
+      "name": "Phantom Boots",
+      "model": "Player/BootMale48.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5680,
+      "name": "Destroy Boots",
+      "model": "Player/BootMale49.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5681,
+      "name": "Seraphim Boots",
+      "model": "Player/BootMale50.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5682,
+      "name": "Divine Boots",
+      "model": "Player/BootMale51.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5683,
+      "name": "Royal Boots",
+      "model": "Player/BootMale52.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5684,
+      "name": "Hades Boots",
+      "model": "Player/BootMale53.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5685,
+      "name": "Pearl Boots",
+      "model": "Player/BootMale54.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5691,
+      "name": "Sacred Fire Boots",
+      "model": "Player/BootMale60.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5692,
+      "name": "Storm Jahad Boots",
+      "model": "Player/BootMale61.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5693,
+      "name": "Piercing Groove Boots",
+      "model": "Player/BootMale62.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5694,
+      "name": "Lucky Scale Boots",
+      "model": "Player/LuckyItem/62/new_Boot01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5695,
+      "name": "Lucky Silk Boots",
+      "model": "Player/LuckyItem/63/new_Boot02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5696,
+      "name": "Lucky Sphinx Boots",
+      "model": "Player/LuckyItem/64/new_Boot03.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5697,
+      "name": "Lucky Violent Wind Boots",
+      "model": "Player/LuckyItem/65/new_Boot04.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5698,
+      "name": "Lucky Dark Soul Boots",
+      "model": "Player/LuckyItem/66/new_Boot05.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5699,
+      "name": "Lucky Dragon Boots",
+      "model": "Player/LuckyItem/67/new_Boot06.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5700,
+      "name": "Lucky Guardian Boots",
+      "model": "Player/LuckyItem/68/new_Boot07.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5701,
+      "name": "Lucky Legendary Boots",
+      "model": "Player/LuckyItem/69/new_Boot08.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5702,
+      "name": "Lucky Red Wing Boots",
+      "model": "Player/LuckyItem/70/new_Boot09.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5703,
+      "name": "Lucky Atlans Boots",
+      "model": "Player/LuckyItem/71/new_Boot10.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5704,
+      "name": "Lucky Storm Hard Boots",
+      "model": "Player/LuckyItem/72/new_Boot11.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 5705,
+      "name": "Phoenix Soul Boots",
+      "model": "Player/BootMale74.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6144,
+      "name": "Wings of Elf",
+      "model": "Item/Wing01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6145,
+      "name": "Wings of Heaven",
+      "model": "Item/Wing02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6146,
+      "name": "Wings of Satan",
+      "model": "Item/Wing03.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6147,
+      "name": "Wings of Spirits",
+      "model": "Item/Wing04.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6148,
+      "name": "Wings of Soul",
+      "model": "Item/Wing05.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6149,
+      "name": "Wings of Dragon",
+      "model": "Item/Wing06.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6150,
+      "name": "Wings of Darkness",
+      "model": "Item/Wing07.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6151,
+      "name": "Orb of Twisting Slash",
+      "model": "Item/Gem01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6152,
+      "name": "Healing Orb",
+      "model": "Item/Gem02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6153,
+      "name": "Orb of Greater Fortitude",
+      "model": "Item/Gem03.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6154,
+      "name": "Orb of Greater Damage",
+      "model": "Item/Gem04.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6155,
+      "name": "Orb of Summoning",
+      "model": "Item/Gem05.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6156,
+      "name": "Orb of Rageful Blow",
+      "model": "Item/Gem06.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6157,
+      "name": "Orb of Impale",
+      "model": "Item/Gem07.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6158,
+      "name": "Orb of Greater Fortitude",
+      "model": "Item/Gem08.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6159,
+      "name": "Jewel of Chaos",
+      "model": "Item/Jewel15.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6160,
+      "name": "Orb of Fire Slash",
+      "model": "Item/Gem10.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6161,
+      "name": "Orb of Penetration",
+      "model": "Item/Gem11.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6162,
+      "name": "Orb of Ice Arrow",
+      "model": "Item/Gem12.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6163,
+      "name": "Orb of Death Stab",
+      "model": "Item/Gem13.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6165,
+      "name": "Scroll of FireBurst",
+      "model": "Item/skillScroll.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6166,
+      "name": "Scroll of Summon",
+      "model": "Item/skillScroll.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6167,
+      "name": "Scroll of Critical Damage",
+      "model": "Item/skillScroll.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6168,
+      "name": "Scroll of Electric Spark",
+      "model": "Item/skillScroll.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6170,
+      "name": "Gem of Secret",
+      "status": "unmapped"
+    },
+    {
+      "index": 6174,
+      "name": "Bundle of Jewel of Bless",
+      "model": "Item/Jewel01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6175,
+      "name": "Bundle of Jewel of Soul",
+      "model": "Item/Jewel02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6176,
+      "name": "Box of Red Ribbon",
+      "model": "Item/giftbox_r.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6177,
+      "name": "Box of Green Ribbon",
+      "model": "Item/giftbox_g.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6178,
+      "name": "Box of Blue Ribbon",
+      "model": "Item/giftbox_b.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6179,
+      "name": "Scroll of Fire Scream",
+      "model": "Item/skillScroll.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6180,
+      "name": "Wing of Storm",
+      "model": "Item/Wing08.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6181,
+      "name": "Wing of Eternal",
+      "model": "Item/Wing09.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6182,
+      "name": "Wing of Illusion",
+      "model": "Item/Wing10.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6183,
+      "name": "Wing of Ruin",
+      "model": "Item/Wing11.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6184,
+      "name": "Cape of Emperor",
+      "model": "Item/DarkLordRobe02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6185,
+      "name": "Wing of Curse",
+      "model": "Item/Wing42.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6186,
+      "name": "Wind of Despair",
+      "model": "Item/Wing43.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6187,
+      "name": "Wing of Dimension",
+      "model": "Item/Wing44.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6188,
+      "name": "Crystal of Destruction",
+      "model": "Item/Gem06.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6189,
+      "name": "Crystal of Multi-Shot",
+      "model": "Item/Gem06.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6190,
+      "name": "Crystal of Recovery",
+      "model": "Item/Gem06.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6191,
+      "name": "Crystal of Flame Strike",
+      "model": "Item/Gem06.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6192,
+      "name": "Scroll of Chaotic Diseier",
+      "model": "Item/skillScroll.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6193,
+      "name": "Cape of Fighter",
+      "model": "Item/Wing50.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6194,
+      "name": "Cape of Overrule",
+      "model": "Item/Wing51.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6204,
+      "name": "Seed (Fire)",
+      "model": "Item/s30_seed.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6205,
+      "name": "Seed (Water)",
+      "model": "Item/s30_seed.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6206,
+      "name": "Seed (Ice)",
+      "model": "Item/s30_seed.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6207,
+      "name": "Seed (Wind)",
+      "model": "Item/s30_seed.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6208,
+      "name": "Seed (Lightning)",
+      "model": "Item/s30_seed.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6209,
+      "name": "Seed (Earth)",
+      "model": "Item/s30_seed.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6214,
+      "name": "Sphere (Mono)",
+      "model": "Item/s30_sphere_body01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6215,
+      "name": "Sphere (Flawed)",
+      "model": "Item/s30_sphere_body02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6216,
+      "name": "Sphere (Nature)",
+      "model": "Item/s30_sphere_body03.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6217,
+      "name": "Sphere (Flawless)",
+      "model": "Item/s30_sphere_body04.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6218,
+      "name": "Sphere (Elite)",
+      "model": "Item/s30_sphere_body05.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6244,
+      "name": "Seed Sphere (Fire)",
+      "model": "Item/s30_sphere01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6245,
+      "name": "Seed Sphere (Water)",
+      "model": "Item/s30_sphere01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6246,
+      "name": "Seed Sphere (Ice)",
+      "model": "Item/s30_sphere01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6247,
+      "name": "Seed Sphere (Wind)",
+      "model": "Item/s30_sphere01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6248,
+      "name": "Seed Sphere (Lightning)",
+      "model": "Item/s30_sphere01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6249,
+      "name": "Seed Sphere (Earth)",
+      "model": "Item/s30_sphere01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6250,
+      "name": "Seed Sphere (Fire)",
+      "model": "Item/s30_sphere02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6251,
+      "name": "Seed Sphere (Water)",
+      "model": "Item/s30_sphere02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6252,
+      "name": "Seed Sphere (Ice)",
+      "model": "Item/s30_sphere02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6253,
+      "name": "Seed Sphere (Wind)",
+      "model": "Item/s30_sphere02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6254,
+      "name": "Seed Sphere (Lightning)",
+      "model": "Item/s30_sphere02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6255,
+      "name": "Seed Sphere (Earth)",
+      "model": "Item/s30_sphere02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6256,
+      "name": "Seed Sphere (Fire)",
+      "model": "Item/s30_sphere03.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6257,
+      "name": "Seed Sphere (Water)",
+      "model": "Item/s30_sphere03.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6258,
+      "name": "Seed Sphere (Ice)",
+      "model": "Item/s30_sphere03.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6259,
+      "name": "Seed Sphere (Wind)",
+      "model": "Item/s30_sphere03.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6260,
+      "name": "Seed Sphere (Lightning)",
+      "model": "Item/s30_sphere03.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6261,
+      "name": "Seed Sphere (Earth)",
+      "model": "Item/s30_sphere03.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6262,
+      "name": "Seed Sphere (Fire)",
+      "model": "Item/s30_sphere04.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6263,
+      "name": "Seed Sphere (Water)",
+      "model": "Item/s30_sphere04.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6264,
+      "name": "Seed Sphere (Ice)",
+      "model": "Item/s30_sphere04.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6265,
+      "name": "Seed Sphere (Wind)",
+      "model": "Item/s30_sphere04.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6266,
+      "name": "Seed Sphere (Lightning)",
+      "model": "Item/s30_sphere04.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6267,
+      "name": "Seed Sphere (Earth)",
+      "model": "Item/s30_sphere04.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6268,
+      "name": "Seed Sphere (Fire)",
+      "model": "Item/s30_sphere05.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6269,
+      "name": "Seed Sphere (Water)",
+      "model": "Item/s30_sphere05.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6270,
+      "name": "Seed Sphere (Ice)",
+      "model": "Item/s30_sphere05.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6271,
+      "name": "Seed Sphere (Wind)",
+      "model": "Item/s30_sphere05.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6272,
+      "name": "Seed Sphere (Lightning)",
+      "model": "Item/s30_sphere05.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6273,
+      "name": "Seed Sphere (Earth)",
+      "model": "Item/s30_sphere05.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6274,
+      "name": "Small Cape of Lord",
+      "model": "Item/DarkLordRobe.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6275,
+      "name": "Small Wing of Curse",
+      "model": "Item/Ingameshop/alice1wing.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6276,
+      "name": "Small Wings of Elf",
+      "model": "Item/Ingameshop/elf_wing.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6277,
+      "name": "Small Wings of Heaven",
+      "model": "Item/Ingameshop/angel_wing.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6278,
+      "name": "Small Wings of Satan",
+      "model": "Item/Ingameshop/devil_wing.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6279,
+      "name": "Little Warrior's Cloak",
+      "model": "Item/Wing50.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6280,
+      "name": "Jewel of Life Bundle",
+      "model": "Item/Jewel03.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6281,
+      "name": "Jewel of Creation Bundle",
+      "model": "Item/jewel22.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6282,
+      "name": "Jewel of Guardian Bundle",
+      "model": "Item/suho.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6283,
+      "name": "Bundled Gemstone",
+      "model": "Item/rs.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6284,
+      "name": "Jewel of Harmony Bundle",
+      "model": "Item/jos.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6285,
+      "name": "Jewel of Chaos Bundle",
+      "model": "Item/Jewel15.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6286,
+      "name": "Lower Refining Stone Bundle",
+      "model": "Item/LowRefineStone.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6287,
+      "name": "Higher Refining Stone Bundle",
+      "model": "Item/HighRefineStone.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6656,
+      "name": "Guardian Angel",
+      "model": "Player/Helper01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6657,
+      "name": "Imp",
+      "model": "Player/Helper02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6658,
+      "name": "Horn of Uniria",
+      "model": "Player/Helper03.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6659,
+      "name": "Horn of Dinorant",
+      "model": "Player/Helper04.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6660,
+      "name": "Dark Horse",
+      "model": "Item/DarkHorseHorn.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6661,
+      "name": "Dark Raven",
+      "model": "Item/spiritbill.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6663,
+      "name": "Contract (Summon)",
+      "model": "Item/Covenant.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6664,
+      "name": "Ring of Ice",
+      "model": "Item/Ring01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6665,
+      "name": "Ring of Poison",
+      "model": "Item/Ring02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6666,
+      "name": "Transformation Ring",
+      "model": "Item/Ring01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6667,
+      "name": "Order (Guardian/Life Stone)",
+      "model": "Item/SummonBook.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6668,
+      "name": "Pendant of Lighting",
+      "model": "Item/Necklace01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6669,
+      "name": "Pendant of Fire",
+      "model": "Item/Necklace02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6670,
+      "name": "Loch's Feather",
+      "model": "Item/Quest04.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6671,
+      "name": "Fruits",
+      "model": "Item/Quest05.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6672,
+      "name": "Scroll of Archangel",
+      "model": "Item/EventBloodCastle00.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6673,
+      "name": "Blood Bone",
+      "model": "Item/EventBloodCastle01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6674,
+      "name": "Invisibility Cloak",
+      "model": "Item/EventBloodCastle02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6675,
+      "name": "Absolute Weapon of Archangel",
+      "model": "Item/EventBloodCastle03.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6676,
+      "name": "Wizards Ring",
+      "model": "Item/MagicRing00.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6676,
+      "name": "Wizards Ring",
+      "model": "Item/RingOfLordEvent00.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6677,
+      "name": "Ring of Fire",
+      "model": "Item/firering.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6678,
+      "name": "Ring of Earth",
+      "model": "Item/groundring.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6679,
+      "name": "Ring of Wind",
+      "model": "Item/windring.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6680,
+      "name": "Ring of Magic",
+      "model": "Item/manaring.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6681,
+      "name": "Pendant of Ice",
+      "model": "Item/icenecklace.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6682,
+      "name": "Pendant of Wind",
+      "model": "Item/windnecklace.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6683,
+      "name": "Pendant of Water",
+      "model": "Item/waternecklace.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6684,
+      "name": "Pendant of Ability",
+      "model": "Item/agnecklace.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6685,
+      "name": "Armor of Guardsman",
+      "model": "Item/EventChaosCastle.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6686,
+      "name": "Cape of Lord",
+      "model": "Item/DarkLordRobe.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6687,
+      "name": "Spirit",
+      "model": "Item/DarkHorseSoul.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6688,
+      "name": "Splinter of Armor",
+      "model": "Item/FR_1.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6689,
+      "name": "Bless of Guardian",
+      "model": "Item/FR_2.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6690,
+      "name": "Claw of Beast",
+      "model": "Item/FR_3.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6691,
+      "name": "Fragment of Horn",
+      "model": "Item/FR_4.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6692,
+      "name": "Broken Horn",
+      "model": "Item/FR_5.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6693,
+      "name": "Horn of Fenrir",
+      "model": "Item/FR_6.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6694,
+      "name": "Moonstone Pendant",
+      "model": "Item/kanneck2.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6695,
+      "name": "Elite Transfer Skeleton Ring",
+      "model": "Item/Ring01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6696,
+      "name": "Jack Olantern Ring",
+      "model": "Item/Ring01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6697,
+      "name": "Transfer Christmas Ring",
+      "model": "Item/Ring01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6698,
+      "name": "Ring of GM",
+      "model": "Item/Ring01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6699,
+      "name": "Seal of Ascension",
+      "model": "Item/monmark01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6700,
+      "name": "Seal of Wealth",
+      "model": "Item/monmark02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6701,
+      "name": "Seal of Sustenance",
+      "model": "Item/monmark03.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6702,
+      "name": "Devil Square Ticket",
+      "model": "Item/partCharge1/entrancegray.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6703,
+      "name": "Blood Castle Ticket",
+      "model": "Item/partCharge1/entrancered.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6704,
+      "name": "Kalima Ticket",
+      "model": "Item/partCharge1/entrancebleu.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6705,
+      "name": "Old Scroll",
+      "model": "Item/scrollpaper.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6706,
+      "name": "Illusion Sorcerer Covenant",
+      "model": "Item/oath.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6707,
+      "name": "Scroll of Blood",
+      "model": "Item/songbl.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6708,
+      "name": "Condor Flame",
+      "model": "Item/condolstone.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6709,
+      "name": "Condor Feather",
+      "model": "Item/condolwing.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6710,
+      "name": "Reset Fruit Strength",
+      "model": "Item/partCharge2/resetfruit_power.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6711,
+      "name": "Reset Fruit Quickness",
+      "model": "Item/partCharge2/resetfruit_quick.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6712,
+      "name": "Reset Fruit Health",
+      "model": "Item/partCharge2/resetfruit_strenth.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6713,
+      "name": "Reset Fruit Energy",
+      "model": "Item/partCharge2/resetfruit_energe.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6714,
+      "name": "Reset Fruit Control",
+      "model": "Item/partCharge2/resetfruit_command.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6715,
+      "name": "Seal of Mobility",
+      "model": "Item/partCharge2/sealmove.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6716,
+      "name": "Indulgence",
+      "model": "Item/partCharge2/indulgence.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6717,
+      "name": "Illusion Temple Ticket",
+      "model": "Item/partCharge2/entrancepurple.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6718,
+      "name": "Seal of Healing",
+      "model": "Item/partcharge4/curemark.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6719,
+      "name": "Seal of Divinity",
+      "model": "Item/partcharge4/holinessmark.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6720,
+      "name": "Demon",
+      "model": "Item/partcharge4/demon.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6721,
+      "name": "Spirit of Guardian",
+      "model": "Item/partcharge4/maria.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6722,
+      "name": "Invitation to Santa Village",
+      "model": "Item/xmas/santa_village.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6723,
+      "name": "Pet Rudolf",
+      "model": "Item/xmas/xmas_deer.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6724,
+      "name": "Snowman Transformation Ring",
+      "model": "Item/xmas/xmasring.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6725,
+      "name": "Talisman of Resurrection",
+      "model": "Item/PartCharge5/ressurection.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6726,
+      "name": "Talisman of Mobility",
+      "model": "Item/PartCharge5/potalcharm.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6727,
+      "name": "Sword/Mace/Spear",
+      "model": "Item/gamble_scyderx01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6728,
+      "name": "Staff",
+      "model": "Item/gamble_wand01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6729,
+      "name": "Bow/Crossbow",
+      "model": "Item/gamble_bowx01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6730,
+      "name": "Scepter",
+      "model": "Item/gamble_safterx01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6731,
+      "name": "Stick",
+      "model": "Item/gamble_stickx01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6732,
+      "name": "Panda Ring",
+      "model": "Item/PandaPetRing.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6736,
+      "name": "Pet Panda",
+      "model": "Item/PandaPet.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6737,
+      "name": "Talisman of Guardian",
+      "model": "Item/PartCharge6/suhocham01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6738,
+      "name": "Talisman of Item Protection",
+      "model": "Item/PartCharge6/imteam_protect.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6739,
+      "name": "Talisman of Wings of Satan",
+      "model": "Item/PartCharge6/amulet_satan.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6740,
+      "name": "Talisman of Wings of Heaven",
+      "model": "Item/PartCharge6/amulet_sky.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6741,
+      "name": "Talisman of Wings of Elf",
+      "model": "Item/PartCharge6/amulet_elf.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6742,
+      "name": "Talisman of Wing of Curse",
+      "model": "Item/PartCharge6/amulet_disaster.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6743,
+      "name": "Talisman of Cape of Emperor",
+      "model": "Item/PartCharge6/amulet_cloak.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6744,
+      "name": "Talisman of Wings of Dragon",
+      "model": "Item/PartCharge6/amulet_dragon.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6745,
+      "name": "Talisman of Wings of Soul",
+      "model": "Item/PartCharge6/amulet_soul.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6746,
+      "name": "Talisman of Wings of Spirits",
+      "model": "Item/PartCharge6/amulet_spirit.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6747,
+      "name": "Talisman of Wing of Despair",
+      "model": "Item/PartCharge6/amulet_despair.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6748,
+      "name": "Talisman of Wings of Darkness",
+      "model": "Item/PartCharge6/amulet_dark.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6749,
+      "name": "Master Seal of Ascension",
+      "model": "Item/PartCharge6/MasterSealA.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6750,
+      "name": "Master Seal of Wealth",
+      "model": "Item/PartCharge6/MasterSealB.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6751,
+      "name": "Gladiator's Honor",
+      "status": "unmapped"
+    },
+    {
+      "index": 6752,
+      "name": "Seal of Strength",
+      "status": "unmapped"
+    },
+    {
+      "index": 6753,
+      "name": "Item 13-97",
+      "model": "Item/Ingameshop/charactercard.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6754,
+      "name": "Dark Lord Character Card ",
+      "model": "Item/Ingameshop/charactercard.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6755,
+      "name": "Character Slot Key",
+      "model": "Item/Ingameshop/key.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6759,
+      "name": "Party EXP Scroll",
+      "model": "Item/partcharge7/EXPscroll.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6760,
+      "name": "Max AG Boost Aura",
+      "model": "Item/partcharge7/injang_AG.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6761,
+      "name": "Max SD Boost Aura",
+      "model": "Item/partcharge7/injang_SD.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6762,
+      "name": "Pet Unicorn",
+      "model": "Item/partcharge7/pet_unicorn.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6763,
+      "name": "Lethal Wizard's Ring",
+      "model": "Item/partcharge7/FatalRing.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6765,
+      "name": "Sapphire Ring",
+      "model": "Item/Ingameshop/PeriodRingBlue.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6766,
+      "name": "Ruby Ring",
+      "model": "Item/Ingameshop/PeriodRingRed.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6767,
+      "name": "Topaz Ring",
+      "model": "Item/Ingameshop/PeriodRingYellow.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6768,
+      "name": "Amethyst Ring",
+      "model": "Item/Ingameshop/PeriodRingViolet.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6769,
+      "name": "Ruby Necklace",
+      "model": "Item/Ingameshop/necklace_red.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6770,
+      "name": "Emerald Necklace",
+      "model": "Item/Ingameshop/necklace_blue.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6771,
+      "name": "Sapphire Necklace",
+      "model": "Item/Ingameshop/necklace_green.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6772,
+      "name": "Seal of Wealth",
+      "model": "Item/monmark02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6773,
+      "name": "Minimum Vitality Potion",
+      "status": "unmapped"
+    },
+    {
+      "index": 6774,
+      "name": "Low Vitality Potion",
+      "model": "Item/Ingameshop/FRpotionA.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6775,
+      "name": "Medium Vitality Potion",
+      "model": "Item/Ingameshop/FRpotionB.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6776,
+      "name": "High Vitality Potion",
+      "model": "Item/Ingameshop/FRpotionC.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6777,
+      "name": "Access Ticket to Chaos Castle",
+      "model": "Item/Ingameshop/entrancegreen.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6778,
+      "name": "Skeleton Transformation Ring",
+      "model": "Item/SkeletonRing.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6779,
+      "name": "Pet Skeleton",
+      "model": "Item/skeletonpet.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6780,
+      "name": "Paid Channel Access Ticket",
+      "model": "Item/PartCharge6/ChannelCard.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6781,
+      "name": "Access Ticket to Doppelganger",
+      "model": "Item/partCharge8/DoppelCard.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6782,
+      "name": "Access Ticket to Kalima",
+      "model": "Item/partCharge8/BarcaCard.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6783,
+      "name": "Access Ticket to Kalima 7",
+      "model": "Item/partCharge8/Barca7Card.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6784,
+      "name": "Hawk Figurine",
+      "model": "Item/hawkstatue.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6785,
+      "name": "Goat Figurine",
+      "model": "Item/sheepstatue.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6786,
+      "name": "Oak Charm",
+      "model": "Item/ork_cham.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6787,
+      "name": "Maple Charm",
+      "status": "unmapped"
+    },
+    {
+      "index": 6788,
+      "name": "Golden Oak Charm",
+      "model": "Item/goldenork_cham.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6789,
+      "name": "Golden Maple Charm",
+      "status": "unmapped"
+    },
+    {
+      "index": 6790,
+      "name": "Worn Horseshoe",
+      "model": "Item/horseshoe.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6791,
+      "name": "1st Lucky Armor Ticket",
+      "model": "Item/LuckyItem/LuckyCardgreen.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6792,
+      "name": "1st Lucky Pants Ticket",
+      "model": "Item/LuckyItem/LuckyCardgreen.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6793,
+      "name": "1st Lucky Helm Ticket",
+      "model": "Item/LuckyItem/LuckyCardgreen.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6794,
+      "name": "1st Lucky Gloves Ticket",
+      "model": "Item/LuckyItem/LuckyCardgreen.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6795,
+      "name": "1st Lucky Boots Ticket",
+      "model": "Item/LuckyItem/LuckyCardgreen.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6796,
+      "name": "2nd Lucky Armor Ticket",
+      "model": "Item/LuckyItem/LuckyCardred.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6797,
+      "name": "2nd Lucky Pants Ticket",
+      "model": "Item/LuckyItem/LuckyCardred.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6798,
+      "name": "2nd Lucky Helm Ticket",
+      "model": "Item/LuckyItem/LuckyCardred.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6799,
+      "name": "2nd Lucky Gloves Ticket",
+      "model": "Item/LuckyItem/LuckyCardred.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 6800,
+      "name": "2nd Lucky Boots Ticket",
+      "model": "Item/LuckyItem/LuckyCardred.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7168,
+      "name": "Apple",
+      "model": "Item/Potion01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7169,
+      "name": "Small Healing Potion",
+      "model": "Item/Potion02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7170,
+      "name": "Healing Potion",
+      "model": "Item/Potion03.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7171,
+      "name": "Large Healing Potion",
+      "model": "Item/Potion04.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7172,
+      "name": "Small Mana Potion",
+      "model": "Item/Potion05.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7173,
+      "name": "Mana Potion",
+      "model": "Item/Potion06.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7174,
+      "name": "Large Mana Potion",
+      "model": "Item/Potion07.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7175,
+      "name": "Siege Potion",
+      "model": "Item/SpecialPotion.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7176,
+      "name": "Antidote",
+      "model": "Item/Antidote01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7177,
+      "name": "Ale",
+      "model": "Item/Beer01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7178,
+      "name": "Town Portal Scroll",
+      "model": "Item/Scroll01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7179,
+      "name": "Box of Luck",
+      "model": "Item/MagicBox01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7180,
+      "name": "Heart",
+      "model": "Item/Event01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7181,
+      "name": "Jewel of Bless",
+      "model": "Item/Jewel01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7182,
+      "name": "Jewel of Soul",
+      "model": "Item/Jewel02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7183,
+      "name": "Zen",
+      "model": "Item/Gold01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7184,
+      "name": "Jewel of Life",
+      "model": "Item/Jewel03.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7185,
+      "name": "Devil's Eye",
+      "model": "Item/Devil00.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7186,
+      "name": "Devil's Key",
+      "model": "Item/Devil01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7187,
+      "name": "Devil's Invitation",
+      "model": "Item/Devil02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7188,
+      "name": "Remedy of Love",
+      "model": "Item/Drink00.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7189,
+      "name": "Rena",
+      "model": "Item/ConChip00.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7190,
+      "name": "Jewel of Creation",
+      "model": "Item/Jewel22.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7191,
+      "name": "Scroll of the Emperor",
+      "model": "Item/Quest00.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7192,
+      "name": "Broken Sword",
+      "model": "Item/Quest01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7193,
+      "name": "Tear of Elf",
+      "model": "Item/Quest02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7194,
+      "name": "Soul Shard of Wizard",
+      "model": "Item/Quest03.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7196,
+      "name": "Lost Map",
+      "model": "Item/HELLASITEM00.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7197,
+      "name": "Symbol of Kundun",
+      "model": "Item/HELLASITEM01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7199,
+      "name": "Jewel of Guardian",
+      "model": "Item/suho.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7200,
+      "name": "Pink Chocolate Box",
+      "model": "Item/giftbox_bp.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7201,
+      "name": "Red Chocolate Box",
+      "model": "Item/giftbox_br.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7202,
+      "name": "Blue Chocolate Box",
+      "model": "Item/giftbox_bb.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7203,
+      "name": "Small SD Potion",
+      "model": "Item/sdwater01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7204,
+      "name": "SD Potion",
+      "model": "Item/sdwater02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7205,
+      "name": "Large SD Potion",
+      "model": "Item/sdwater03.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7206,
+      "name": "Small Complex Potion",
+      "model": "Item/megawater01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7207,
+      "name": "Complex Potion",
+      "model": "Item/megawater02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7208,
+      "name": "Large Complex Potion",
+      "model": "Item/megawater03.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7209,
+      "name": "Gemstone",
+      "model": "Item/rs.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7210,
+      "name": "Jewel of Harmony",
+      "model": "Item/jos.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7211,
+      "name": "Lower refining stone",
+      "model": "Item/LowRefineStone.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7212,
+      "name": "Higher refining stone",
+      "model": "Item/HighRefineStone.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7213,
+      "name": "Pumpkin of Luck",
+      "model": "Item/hobakhead.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7214,
+      "name": "Jack O'Lantern Blessings",
+      "model": "Item/hellowinscroll.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7215,
+      "name": "Jack O'Lantern Wrath",
+      "model": "Item/hellowinscroll.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7216,
+      "name": "Jack O'Lantern Cry",
+      "model": "Item/hellowinscroll.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7217,
+      "name": "Jack O'Lantern Food",
+      "model": "Item/Gogi.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7218,
+      "name": "Jack O'Lantern Drink",
+      "model": "Item/pumpkincup.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7219,
+      "name": "Christmas Star",
+      "status": "unmapped"
+    },
+    {
+      "index": 7220,
+      "name": "GM Gift",
+      "model": "Item/GM02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7221,
+      "name": "Talisman of Luck",
+      "model": "Item/partCharge1/bujuck01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7222,
+      "name": "Chaos Card",
+      "status": "unmapped"
+    },
+    {
+      "index": 7223,
+      "name": "Green Chaos Box",
+      "status": "unmapped"
+    },
+    {
+      "index": 7224,
+      "name": "Red Chaos Box",
+      "status": "unmapped"
+    },
+    {
+      "index": 7225,
+      "name": "Purple Chaos Box",
+      "status": "unmapped"
+    },
+    {
+      "index": 7226,
+      "name": "Rare Item Ticket1",
+      "model": "Item/partCharge1/expensiveitem01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7227,
+      "name": "Rare Item Ticket2",
+      "model": "Item/partCharge1/expensiveitem02a.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7228,
+      "name": "Rare Item Ticket3",
+      "model": "Item/partCharge1/expensiveitem02b.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7229,
+      "name": "Rare Item Ticket4",
+      "model": "Item/partCharge1/expensiveitem03a.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7230,
+      "name": "Rare Item Ticket5",
+      "model": "Item/partCharge1/expensiveitem03b.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7231,
+      "name": "Firecracker",
+      "model": "Item/GM01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7232,
+      "name": "Cursed Castle Water",
+      "model": "Item/songss.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7233,
+      "name": "Death-beam Knight Flame",
+      "model": "Item/deathbeamstone.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7234,
+      "name": "Hell-Miner Horn",
+      "model": "Item/hellhorn.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7235,
+      "name": "Dark Phoenix Feather",
+      "model": "Item/phoenixfeather.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7236,
+      "name": "Abyssal Eye",
+      "model": "Item/Deye.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7238,
+      "name": "Elite Healing Potion",
+      "model": "Item/partCharge2/EPotionR.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7239,
+      "name": "Elite Mana Potion",
+      "model": "Item/partCharge2/EPotionB.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7240,
+      "name": "Scroll of Quickness",
+      "model": "Item/partCharge2/elitescroll_quick.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7241,
+      "name": "Scroll of Defense",
+      "model": "Item/partCharge2/elitescroll_depence.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7242,
+      "name": "Scroll of Wrath",
+      "model": "Item/partCharge2/elitescroll_anger.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7243,
+      "name": "Scroll of Wizardry",
+      "model": "Item/partCharge2/elitescroll_magic.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7244,
+      "name": "Scroll of Health",
+      "model": "Item/partCharge2/elitescroll_strenth.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7245,
+      "name": "Scroll of Mana",
+      "model": "Item/partCharge2/elitescroll_mana.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7246,
+      "name": "Elixir of Strength",
+      "model": "Item/partCharge2/secret_power.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7247,
+      "name": "Elixir of Agility",
+      "model": "Item/partCharge2/secret_quick.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7248,
+      "name": "Elixir of Health",
+      "model": "Item/partCharge2/secret_strenth.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7249,
+      "name": "Elixir of Energy",
+      "model": "Item/partCharge2/secret_energe.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7250,
+      "name": "Elixir of Control",
+      "model": "Item/partCharge2/secret_command.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7251,
+      "name": "Rare Item Ticket",
+      "model": "Item/partCharge2/expensiveitem04b.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7252,
+      "name": "Cherry Blossom Play-Box",
+      "model": "Item/cherryblossom/cherrybox.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7253,
+      "name": "Cherry Blossom Wine",
+      "model": "Item/cherryblossom/chwine.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7254,
+      "name": "Cherry Blossom Rice Cake",
+      "model": "Item/cherryblossom/chgateaux.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7255,
+      "name": "Cherry Blossom Flower Petal",
+      "model": "Item/cherryblossom/chpetal.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7256,
+      "name": "White Cherry Blossom Branch",
+      "model": "Item/cherryblossom/chbranche.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7257,
+      "name": "Red Cherry Blossom Branch",
+      "model": "Item/cherryblossom/chbranche_red.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7258,
+      "name": "Golden Cherry Blossom Branch",
+      "model": "Item/cherryblossom/chbranche_yellow.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7259,
+      "name": "Summoner Character Card",
+      "model": "Item/partCharge3/alicecard.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7260,
+      "name": "Chaos Card Gold",
+      "status": "unmapped"
+    },
+    {
+      "index": 7261,
+      "name": "Chaos Card Rare",
+      "status": "unmapped"
+    },
+    {
+      "index": 7262,
+      "name": "Medium Elite Healing Potion",
+      "model": "Item/partCharge2/EPotionR.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7263,
+      "name": "Chaos Card Mini",
+      "status": "unmapped"
+    },
+    {
+      "index": 7264,
+      "name": "Talisman of Chaos Assembly",
+      "model": "Item/partcharge4/strengamulet.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7265,
+      "name": "Scroll of Battle",
+      "model": "Item/partcharge4/battlescroll.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7266,
+      "name": "Scroll of Strength",
+      "model": "Item/strengscroll.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7267,
+      "name": "Christmas Firecracker",
+      "model": "Item/xmas/xmasfire.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7268,
+      "name": "Lucky Coin",
+      "model": "Item/coin7.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7269,
+      "name": "Suspicious Scrap of Paper",
+      "model": "Item/doubt_paper.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7270,
+      "name": "Gaions Order",
+      "model": "Item/warrant.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7271,
+      "name": "First Secromicon Fragment",
+      "model": "Item/secromicon_piece.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7272,
+      "name": "Second Secromicon Fragment",
+      "model": "Item/secromicon_piece.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7273,
+      "name": "Third Secromicon Fragment",
+      "model": "Item/secromicon_piece.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7274,
+      "name": "Fourth Secromicon Fragment",
+      "model": "Item/secromicon_piece.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7275,
+      "name": "Fifth Secromicon Fragment",
+      "model": "Item/secromicon_piece.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7276,
+      "name": "Sixth Secromicon Fragment",
+      "model": "Item/secromicon_piece.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7277,
+      "name": "Complete Secromicon",
+      "model": "Item/secromicon.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7278,
+      "name": "Sign of Dimensions",
+      "model": "Item/indication.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7279,
+      "name": "Mirror of Dimensions",
+      "model": "Item/speculum.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7280,
+      "name": "Silver Key",
+      "model": "Item/Ingameshop/ItemBoxKey_silver.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7281,
+      "name": "Gold Key",
+      "model": "Item/Ingameshop/ItemBoxKey_gold.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7282,
+      "name": "Master Skill Reset",
+      "model": "Item/Ingameshop/primium_membership_item.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7283,
+      "name": "Stat Adjustment",
+      "model": "Item/Ingameshop/primium_membership_item.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7284,
+      "name": "Character Relocation Service",
+      "model": "Item/Ingameshop/primium_membership_item.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7285,
+      "name": "Character Rename Service",
+      "model": "Item/Ingameshop/primium_membership_item.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7286,
+      "name": "Server Relocation Service",
+      "model": "Item/Ingameshop/primium_membership_item.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7287,
+      "name": "Premium Package",
+      "model": "Item/Ingameshop/primium_membership_item.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7288,
+      "name": "Goblin Gold Coin",
+      "model": "Item/Ingameshop/gold_coin.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7289,
+      "name": "Sealed Golden Box",
+      "model": "Item/Ingameshop/itembox_gold.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7290,
+      "name": "Sealed Silver Box",
+      "model": "Item/Ingameshop/itembox_silver.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7291,
+      "name": "Golden Box",
+      "model": "Item/Ingameshop/itembox_gold.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7292,
+      "name": "Silver Box",
+      "model": "Item/Ingameshop/itembox_silver.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7293,
+      "name": "Package Box",
+      "status": "unmapped"
+    },
+    {
+      "index": 7294,
+      "name": "30-Day Pass",
+      "model": "Item/Ingameshop/primium_membership_item.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7295,
+      "name": "90-Day Pass",
+      "model": "Item/Ingameshop/primium_membership_item.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7296,
+      "name": "30-Day Pass - Points",
+      "model": "Item/Ingameshop/primium_membership_item.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7297,
+      "name": "90-Day Pass - Points",
+      "model": "Item/Ingameshop/primium_membership_item.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7298,
+      "name": "3-Hour Pass",
+      "model": "Item/Ingameshop/primium_membership_item.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7299,
+      "name": "5-Hour Pass",
+      "model": "Item/Ingameshop/primium_membership_item.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7300,
+      "name": "10-Hour Pass",
+      "model": "Item/Ingameshop/primium_membership_item.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7301,
+      "name": "Elite SD Potion",
+      "model": "Item/partcharge7/ESDPotion.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7302,
+      "name": "Package Box A",
+      "model": "Item/Ingameshop/package_money_item.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7303,
+      "name": "Package Box B",
+      "model": "Item/Ingameshop/package_money_item.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7304,
+      "name": "Package Box C",
+      "model": "Item/Ingameshop/package_money_item.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7305,
+      "name": "Package Box D",
+      "model": "Item/Ingameshop/package_money_item.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7306,
+      "name": "Package Box E",
+      "model": "Item/Ingameshop/package_money_item.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7307,
+      "name": "Package Box F",
+      "model": "Item/Ingameshop/package_money_item.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7308,
+      "name": "Scroll of Healing",
+      "model": "Item/strengscroll.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7309,
+      "name": "Shining Jewellery Case",
+      "model": "Item/requitalbox_red.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7310,
+      "name": "Elegant Jewellery Case",
+      "model": "Item/requitalbox_violet.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7311,
+      "name": "Steel Jewellery Case",
+      "model": "Item/requitalbox_blue.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7312,
+      "name": "Old Jewellery Case",
+      "model": "Item/requitalbox_wood.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7313,
+      "name": "Rare Item Ticket 7",
+      "model": "Item/partCharge8/rareitem_ticket7.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7314,
+      "name": "Rare Item Ticket 8",
+      "model": "Item/partCharge8/rareitem_ticket8.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7315,
+      "name": "Rare Item Ticket 9",
+      "model": "Item/partCharge8/rareitem_ticket9.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7316,
+      "name": "Rare Item Ticket 10",
+      "model": "Item/partCharge8/rareitem_ticket10.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7317,
+      "name": "Rare Item Ticket 11",
+      "model": "Item/partCharge8/rareitem_ticket11.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7318,
+      "name": "Rare Item Ticket 12",
+      "model": "Item/partCharge8/rareitem_ticket12.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7319,
+      "name": "Lv. 1 Letter of Request",
+      "model": "Item/rollofpaper.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7320,
+      "name": "Lv. 1 Completion Certificate",
+      "model": "Item/rollofpaper.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7321,
+      "name": "Stardust",
+      "model": "Item/songss.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7322,
+      "name": "Kalt Stone",
+      "model": "Item/hydra_jewel.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7323,
+      "name": "Tantalos's Armor",
+      "model": "Item/tan.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7324,
+      "name": "Burnt Murderer's Club",
+      "model": "Item/Mace01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7325,
+      "name": "Green Box",
+      "model": "Item/roboxgreen.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7326,
+      "name": "Red Box",
+      "model": "Item/roboxred.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7327,
+      "name": "Purple Box",
+      "model": "Item/roboxpurple.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7328,
+      "name": "Jewel of Extension",
+      "model": "Item/LuckyItem/lucky_items01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7329,
+      "name": "Jewel of Elevation",
+      "model": "Item/LuckyItem/lucky_items02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7330,
+      "name": "Magic Backpack",
+      "model": "Item/Mbag.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7331,
+      "name": "Vault Expansion Certificate",
+      "model": "Item/EXbond.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7332,
+      "name": "Ancient Statue",
+      "model": "Item/AncientStatue.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7333,
+      "name": "Magic Cloth",
+      "model": "Item/MagicCloth.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7334,
+      "name": "Space Cloth",
+      "model": "Item/SpaceCloth.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7335,
+      "name": "Phase Cloth",
+      "model": "Item/PhaseCloth.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7336,
+      "name": "Dimension Cloth",
+      "model": "Item/DimensionCloth.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7337,
+      "name": "RageFighter Character Card",
+      "status": "unmapped"
+    },
+    {
+      "index": 7680,
+      "name": "Scroll of Poison",
+      "model": "Item/Book01.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7681,
+      "name": "Scroll of Meteorite",
+      "model": "Item/Book02.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7682,
+      "name": "Scroll of Lighting",
+      "model": "Item/Book03.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7683,
+      "name": "Scroll of Fire Ball",
+      "model": "Item/Book04.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7684,
+      "name": "Scroll of Flame",
+      "model": "Item/Book05.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7685,
+      "name": "Scroll of Teleport",
+      "model": "Item/Book06.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7686,
+      "name": "Scroll of Ice",
+      "model": "Item/Book07.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7687,
+      "name": "Scroll of Twister",
+      "model": "Item/Book08.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7688,
+      "name": "Scroll of Evil Spirit",
+      "model": "Item/Book09.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7689,
+      "name": "Scroll of Hellfire",
+      "model": "Item/Book10.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7690,
+      "name": "Scroll of Power Wave",
+      "model": "Item/Book11.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7691,
+      "name": "Scroll of Aqua Beam",
+      "model": "Item/Book12.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7692,
+      "name": "Scroll of Cometfall",
+      "model": "Item/Book13.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7693,
+      "name": "Scroll of Inferno",
+      "model": "Item/Book14.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7694,
+      "name": "Scroll of Teleport Ally",
+      "model": "Item/Book15.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7695,
+      "name": "Scroll of Soul Barrier",
+      "model": "Item/Book16.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7696,
+      "name": "Scroll of Decay",
+      "model": "Item/Book17.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7697,
+      "name": "Scroll of Ice Storm",
+      "model": "Item/Book18.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7698,
+      "name": "Scroll of Nova",
+      "model": "Item/Book19.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7699,
+      "name": "Chain Lightning Parchment",
+      "model": "Item/rollofpaper.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7700,
+      "name": "Drain Life Parchment",
+      "model": "Item/rollofpaper.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7701,
+      "name": "Lightning Shock Parchment",
+      "model": "Item/rollofpaper.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7702,
+      "name": "Damage Reflection Parchment",
+      "model": "Item/rollofpaper.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7703,
+      "name": "Berserker Parchment",
+      "model": "Item/rollofpaper.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7704,
+      "name": "Sleep Parchment",
+      "model": "Item/rollofpaper.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7706,
+      "name": "Weakness Parchment",
+      "model": "Item/rollofpaper.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7707,
+      "name": "Innovation Parchment",
+      "model": "Item/rollofpaper.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7708,
+      "name": "Scroll of Wizardry Enhance",
+      "model": "Item/Book18.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7709,
+      "name": "Scroll of Gigantic Storm",
+      "model": "Item/Book18.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7710,
+      "name": "Chain Drive Parchment",
+      "model": "Item/rollofpaper.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7711,
+      "name": "Dark Side Parchment",
+      "model": "Item/rollofpaper.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7712,
+      "name": "Dragon Roar Parchment",
+      "model": "Item/rollofpaper.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7713,
+      "name": "Dragon Slasher Parchment",
+      "model": "Item/rollofpaper.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7714,
+      "name": "Ignore Defense Parchment",
+      "model": "Item/rollofpaper.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7715,
+      "name": "Increase Health Parchment",
+      "model": "Item/rollofpaper.bmd",
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "index": 7716,
+      "name": "Increase Block Parchment",
+      "model": "Item/rollofpaper.bmd",
+      "status": "ready",
+      "issues": []
+    }
+  ]
+}

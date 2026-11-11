@@ -1,0 +1,831 @@
+{
+  "scope": "18 original generation 1\u20133 wing/cape icons; real BMD and texture hashes, UV parity with worn attachment when available. Browser visual review separate; no live inventory changed.",
+  "count": 18,
+  "rows": [
+    {
+      "index": 6144,
+      "name": "Wings of Elf",
+      "path": "Item/Wing01.bmd",
+      "sha256": "acd9941f628824aa7cfb1d4716c63487e4e6bd0334705757df2beb828004d15c",
+      "angles": [
+        270,
+        -10,
+        0
+      ],
+      "allowedClasses": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "meshes": [
+        {
+          "texture": "Item/elfin_wing.OZJ",
+          "sha256": "471f83d3b2b7e15d9e6cc4a048e0d2e2bc481772e0b4195587a4e28be4e820cf",
+          "width": 64,
+          "height": 64,
+          "corners": 48,
+          "tgaUvCorrected": false,
+          "matchesWornUv": true
+        }
+      ]
+    },
+    {
+      "index": 6145,
+      "name": "Wings of Heaven",
+      "path": "Item/Wing02.bmd",
+      "sha256": "d3a6d1cb4bc1f1ed060beb5886916db89c7f534f77518b893f4631aacd320b51",
+      "angles": [
+        270,
+        -10,
+        0
+      ],
+      "allowedClasses": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "meshes": [
+        {
+          "texture": "Item/angel_wing.OZT",
+          "sha256": "4deaefcb242c82ce732b2d411602b0fb95e9fdd99486f4890e4ba5c7410717b9",
+          "width": 128,
+          "height": 128,
+          "corners": 138,
+          "tgaUvCorrected": true,
+          "matchesWornUv": true
+        }
+      ]
+    },
+    {
+      "index": 6146,
+      "name": "Wings of Satan",
+      "path": "Item/Wing03.bmd",
+      "sha256": "f42fec33391db92e7d5fccd66c6c8de7e6303202fa1a7d9cd99dec9bb886a822",
+      "angles": [
+        270,
+        -10,
+        0
+      ],
+      "allowedClasses": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "meshes": [
+        {
+          "texture": "Item/devil_wing.OZT",
+          "sha256": "0a77a55223e6ac9dbe029db18faf3c1354e7dad7fa1a52b5d2e71fc3702cd22f",
+          "width": 128,
+          "height": 128,
+          "corners": 96,
+          "tgaUvCorrected": true,
+          "matchesWornUv": true
+        }
+      ]
+    },
+    {
+      "index": 6185,
+      "name": "Wing of Curse",
+      "path": "Item/Wing42.bmd",
+      "sha256": "a5f433b89782b857d895b86c1ef1d535f511969f76225ebd4b5163823be3e310",
+      "angles": [
+        270,
+        -10,
+        0
+      ],
+      "allowedClasses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "meshes": [
+        {
+          "texture": "Item/alicewing_01.OZJ",
+          "sha256": "15bdcbc4677927bcb887b75d0fca279cce5edab000aade97f63718c9fb97318a",
+          "width": 128,
+          "height": 128,
+          "corners": 1056,
+          "tgaUvCorrected": false,
+          "matchesWornUv": true
+        }
+      ]
+    },
+    {
+      "index": 6147,
+      "name": "Wings of Spirits",
+      "path": "Item/Wing04.bmd",
+      "sha256": "1328b8d8ab39b58734ad5bf3e538b4fff8d3295b2f76a22b6aca49a332015dc6",
+      "angles": [
+        270,
+        -10,
+        0
+      ],
+      "allowedClasses": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "meshes": [
+        {
+          "texture": "Item/NewingEl.OZJ",
+          "sha256": "ada51f3002ca3081810ef4c0327ad2254636733e7b541529568443f6002a9ffc",
+          "width": 128,
+          "height": 128,
+          "corners": 306,
+          "tgaUvCorrected": false,
+          "matchesWornUv": true
+        }
+      ]
+    },
+    {
+      "index": 6148,
+      "name": "Wings of Soul",
+      "path": "Item/Wing05.bmd",
+      "sha256": "0eeb51519fad3697ee7784d81f9276726ed0051b5bdb62d1458e28cda3730004",
+      "angles": [
+        270,
+        -10,
+        0
+      ],
+      "allowedClasses": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "meshes": [
+        {
+          "texture": "Item/NEWWW.OZJ",
+          "sha256": "75307d458eb3564c270fbfac255c9a9ae03067ca89854ddd9097e7d4e22ac6c7",
+          "width": 128,
+          "height": 64,
+          "corners": 1308,
+          "tgaUvCorrected": false,
+          "matchesWornUv": true
+        },
+        {
+          "texture": "Item/NEWW_R.OZJ",
+          "sha256": "7e284e3d81799067f93f8c3926897a30fc5594aa2b9b8602d383fc0e5455d51f",
+          "width": 128,
+          "height": 64,
+          "corners": 1308,
+          "tgaUvCorrected": false,
+          "matchesWornUv": true
+        }
+      ]
+    },
+    {
+      "index": 6149,
+      "name": "Wings of Dragon",
+      "path": "Item/Wing06.bmd",
+      "sha256": "8b9766eda50ff3786050eaa0770f341bbb258f7ba692d3d075b4d96b9d562c50",
+      "angles": [
+        270,
+        -10,
+        0
+      ],
+      "allowedClasses": [
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "meshes": [
+        {
+          "texture": "Item/NDW.OZJ",
+          "sha256": "ba8ba51255d900f1daa40226a82394d241fbad07bb8e9b8cd78c027e3a5b7ebd",
+          "width": 128,
+          "height": 64,
+          "corners": 768,
+          "tgaUvCorrected": false,
+          "matchesWornUv": true
+        },
+        {
+          "texture": "Item/NDW_R.OZJ",
+          "sha256": "3c208a88647a80d13b95ba4f96415c5812fd12b47630baee94e5ca65c582b68a",
+          "width": 128,
+          "height": 64,
+          "corners": 768,
+          "tgaUvCorrected": false,
+          "matchesWornUv": true
+        }
+      ]
+    },
+    {
+      "index": 6150,
+      "name": "Wings of Darkness",
+      "path": "Item/Wing07.bmd",
+      "sha256": "834bb86b0d9146a067ccbf755b95eeb68d1f2e9c63967a6ea749d8ed175f29c0",
+      "angles": [
+        270,
+        -10,
+        0
+      ],
+      "allowedClasses": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "meshes": [
+        {
+          "texture": "Item/NDEE.OZT",
+          "sha256": "b4ff784fe418c9748c0bfc0e363764d1e7cc106ca681081a3304508e68ec943d",
+          "width": 64,
+          "height": 32,
+          "corners": 804,
+          "tgaUvCorrected": true,
+          "matchesWornUv": true
+        }
+      ]
+    },
+    {
+      "index": 6186,
+      "name": "Wind of Despair",
+      "path": "Item/Wing43.bmd",
+      "sha256": "d1d3dfc400f90c8cf822f98114c749440d698deaa6ef470d4802647d34842ad6",
+      "angles": [
+        270,
+        -10,
+        0
+      ],
+      "allowedClasses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      "meshes": [
+        {
+          "texture": "Item/alicewing_02body.OZJ",
+          "sha256": "f595201b6c927fc173db3ddaef5746bb86a16654fe3d29986c234d3f33982ed6",
+          "width": 128,
+          "height": 128,
+          "corners": 1188,
+          "tgaUvCorrected": false,
+          "matchesWornUv": true
+        },
+        {
+          "texture": "Item/alicewing_02cover.OZJ",
+          "sha256": "6c3125111a03b76112c07e078fc1b87a1243027dbeb77081ddb60725e1364351",
+          "width": 64,
+          "height": 64,
+          "corners": 354,
+          "tgaUvCorrected": false,
+          "matchesWornUv": true
+        }
+      ]
+    },
+    {
+      "index": 6193,
+      "name": "Cape of Fighter",
+      "path": "Item/Wing50.bmd",
+      "sha256": "4f9b3ba8b2a652cb60ca65c7eeefef9025efe3bc63bc8cb193a879b010e54b1a",
+      "angles": [
+        270,
+        -10,
+        0
+      ],
+      "allowedClasses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "meshes": [
+        {
+          "texture": "Item/NCcape.OZT",
+          "sha256": "4770951fb0ac32edb88d7b73fac6318d69b6fb9326566acbc293ccd75421a464",
+          "width": 128,
+          "height": 256,
+          "corners": 48,
+          "tgaUvCorrected": true,
+          "matchesWornUv": "cloth uses separate geometry"
+        }
+      ]
+    },
+    {
+      "index": 6180,
+      "name": "Wing of Storm",
+      "path": "Item/Wing08.bmd",
+      "sha256": "c41dc11bd2ab3a981a70c1d7897ae64cfa38847e0b8f448005ee55d6fef7816b",
+      "angles": [
+        270,
+        -10,
+        0
+      ],
+      "allowedClasses": [
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "meshes": [
+        {
+          "texture": "Item/wing3chaking.OZJ",
+          "sha256": "1deb5916f1278e9e25a372f602c65ee669c27aabbf38a6a53cdb7dbd14e179eb",
+          "width": 128,
+          "height": 128,
+          "corners": 4788,
+          "tgaUvCorrected": false,
+          "matchesWornUv": true
+        },
+        {
+          "texture": "Item/lightningblast.OZJ",
+          "sha256": "6887f7d3b0232babd9e4389760f2118e0b87710add689e6ed57676fd421d20e5",
+          "width": 256,
+          "height": 64,
+          "corners": 492,
+          "tgaUvCorrected": false,
+          "matchesWornUv": true
+        },
+        {
+          "texture": "Item/wing3chaking.OZT",
+          "sha256": "9b9742850666145bdd325502863a261579d78fe142f48594293b36c06911528e",
+          "width": 128,
+          "height": 128,
+          "corners": 246,
+          "tgaUvCorrected": true,
+          "matchesWornUv": true
+        }
+      ]
+    },
+    {
+      "index": 6181,
+      "name": "Wing of Eternal",
+      "path": "Item/Wing09.bmd",
+      "sha256": "4df01102711d246d9a18b786ece21b986a97b0ff8f16ee4ce0922498068b33d0",
+      "angles": [
+        270,
+        -10,
+        0
+      ],
+      "allowedClasses": [
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "meshes": [
+        {
+          "texture": "Item/magician_wing.OZT",
+          "sha256": "9ff1587480a128601a3b2c1626416f9de95f65504fc71578b975a36d000989e3",
+          "width": 256,
+          "height": 256,
+          "corners": 2250,
+          "tgaUvCorrected": true,
+          "matchesWornUv": true
+        }
+      ]
+    },
+    {
+      "index": 6182,
+      "name": "Wing of Illusion",
+      "path": "Item/Wing10.bmd",
+      "sha256": "4f1353ee182dfe4889e10e093a65106e66033a518a1d95a5bbf5b5ece6adb385",
+      "angles": [
+        270,
+        -10,
+        0
+      ],
+      "allowedClasses": [
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "meshes": [
+        {
+          "texture": "Item/elfwing3d_R.OZJ",
+          "sha256": "79f438cbfb4294d2bc7848730609dd253058bd8317f33521355c1f58f8218738",
+          "width": 256,
+          "height": 256,
+          "corners": 822,
+          "tgaUvCorrected": false,
+          "matchesWornUv": true
+        }
+      ]
+    },
+    {
+      "index": 6183,
+      "name": "Wing of Ruin",
+      "path": "Item/Wing11.bmd",
+      "sha256": "1de13b4c35d01be6de8cde72c0f184bb5db913499fc31fa50f9fa362970ac64b",
+      "angles": [
+        270,
+        -10,
+        0
+      ],
+      "allowedClasses": [
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0
+      ],
+      "meshes": [
+        {
+          "texture": "Item/msword02.OZT",
+          "sha256": "22b8f2f80f995c3a5ee0769db8f30378fc9732c4b320955735396e61d32caa25",
+          "width": 32,
+          "height": 128,
+          "corners": 36,
+          "tgaUvCorrected": true,
+          "matchesWornUv": true
+        },
+        {
+          "texture": "Item/msword01.OZJ",
+          "sha256": "6106a8284f66d7c697ff8e0e1dc624d90d594c4bc089190b10c2837b1a3e68d0",
+          "width": 128,
+          "height": 128,
+          "corners": 3684,
+          "tgaUvCorrected": false,
+          "matchesWornUv": true
+        }
+      ]
+    },
+    {
+      "index": 6184,
+      "name": "Cape of Emperor",
+      "path": "Item/DarkLordRobe02.bmd",
+      "sha256": "36e033c9db84dfc9febda70f74748d96a0b8d89f2acc15d569cb15f376383807",
+      "angles": [
+        270,
+        -10,
+        0
+      ],
+      "allowedClasses": [
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0
+      ],
+      "meshes": [
+        {
+          "texture": "Item/dl_redwings01.OZJ",
+          "sha256": "ecfe6c9d61addf7b54a18d16cdeadd1b9a97a497ccf361782ed18cfc9d38ab5c",
+          "width": 64,
+          "height": 64,
+          "corners": 468,
+          "tgaUvCorrected": false,
+          "matchesWornUv": true
+        },
+        {
+          "texture": "Item/dl_redwings03.OZT",
+          "sha256": "2fc790a6e7dea76527a01dd5ccfba489b9cca7fe26fc2ccd35eaaac53969221a",
+          "width": 32,
+          "height": 128,
+          "corners": 60,
+          "tgaUvCorrected": true,
+          "matchesWornUv": "cloth uses separate geometry"
+        },
+        {
+          "texture": "Item/dl_redwings02.OZT",
+          "sha256": "14282f2a57fe6ee9c41cf3a6352f5c573994e15a88fbee1b85ed6de866ccf652",
+          "width": 128,
+          "height": 256,
+          "corners": 48,
+          "tgaUvCorrected": true,
+          "matchesWornUv": "cloth uses separate geometry"
+        }
+      ]
+    },
+    {
+      "index": 6187,
+      "name": "Wing of Dimension",
+      "path": "Item/Wing44.bmd",
+      "sha256": "c6e2aec2f52d6df93fedebd5d77a5cd47d5fd96a5b4b84b9a1be98f1781009a8",
+      "angles": [
+        270,
+        -10,
+        0
+      ],
+      "allowedClasses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0
+      ],
+      "meshes": [
+        {
+          "texture": "Item/alicewing_03body.OZJ",
+          "sha256": "201b43084d0ef38b616e20fd6c6359ad30bd9eb550ccfa195fff7a3a1863a845",
+          "width": 128,
+          "height": 128,
+          "corners": 1344,
+          "tgaUvCorrected": false,
+          "matchesWornUv": true
+        },
+        {
+          "texture": "Item/alicewing_03cover.OZJ",
+          "sha256": "eaa3a1811c656cc6d3ce07b4de0621e0865da51c9b666697083632e70ecb8e15",
+          "width": 64,
+          "height": 64,
+          "corners": 1044,
+          "tgaUvCorrected": false,
+          "matchesWornUv": true
+        },
+        {
+          "texture": "Item/alicewing_leather.OZT",
+          "sha256": "f75174a095ecdcb893205c1f81154e8d3d87ba6ff64938d0c5df505aec4b523e",
+          "width": 32,
+          "height": 32,
+          "corners": 234,
+          "tgaUvCorrected": true,
+          "matchesWornUv": true
+        }
+      ]
+    },
+    {
+      "index": 6194,
+      "name": "Cape of Overrule",
+      "path": "Item/Wing51.bmd",
+      "sha256": "b177ee0b08fcda2b25619549ee7d7557a9405d79de7bbac1af5547e4b8891744",
+      "angles": [
+        270,
+        -10,
+        0
+      ],
+      "allowedClasses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3
+      ],
+      "meshes": [
+        {
+          "texture": "Item/monk_manto02.OZJ",
+          "sha256": "6a8a3d6c716884179bac739637979dba928bdfc42fbf86cdb812cd3378aaa6b9",
+          "width": 64,
+          "height": 64,
+          "corners": 852,
+          "tgaUvCorrected": false,
+          "matchesWornUv": true
+        },
+        {
+          "texture": "Item/monk_manto01.OZT",
+          "sha256": "b2d5b502433d008a096af19d6db93d60fe58707f66a9907fff7c6b3397ce5db9",
+          "width": 32,
+          "height": 256,
+          "corners": 12,
+          "tgaUvCorrected": true,
+          "matchesWornUv": "cloth uses separate geometry"
+        },
+        {
+          "texture": "Item/monke_manto.OZT",
+          "sha256": "504d484a9e8a3d3162a3a05a5d61b9ec83b75a6e534600311e3a2f9c66dac99d",
+          "width": 128,
+          "height": 256,
+          "corners": 6,
+          "tgaUvCorrected": true,
+          "matchesWornUv": "cloth uses separate geometry"
+        }
+      ]
+    },
+    {
+      "index": 6686,
+      "name": "Cape of Lord",
+      "path": "Item/DarkLordRobe.bmd",
+      "sha256": "4d7e8537d12890c7e93370684a8c91eb23e4b3761617d39a0fb4722cc220b1f0",
+      "angles": [
+        270,
+        -10,
+        0
+      ],
+      "allowedClasses": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "meshes": [
+        {
+          "texture": "Item/DarkLordRobe.OZT",
+          "sha256": "5ec98ce168ae84f024429eececeb45138ae6968e435dc8c5c0e497528bc51746",
+          "width": 128,
+          "height": 256,
+          "corners": 48,
+          "tgaUvCorrected": true,
+          "matchesWornUv": "cloth uses separate geometry"
+        }
+      ]
+    }
+  ],
+  "browserReview": [
+    {
+      "page": 0,
+      "rows": [
+        {
+          "missing": false,
+          "name": "Wings of Elf",
+          "path": "Item/Wing01.bmd"
+        },
+        {
+          "missing": false,
+          "name": "Wings of Heaven",
+          "path": "Item/Wing02.bmd"
+        }
+      ],
+      "visualReview": "reviewed; image recorded",
+      "evidence": "evidence/W0112/group-1.png"
+    },
+    {
+      "page": 1,
+      "rows": [
+        {
+          "missing": false,
+          "name": "Wings of Satan",
+          "path": "Item/Wing03.bmd"
+        },
+        {
+          "missing": false,
+          "name": "Wing of Curse",
+          "path": "Item/Wing42.bmd"
+        }
+      ],
+      "visualReview": "reviewed; image recorded",
+      "evidence": "evidence/W0112/group-2.png"
+    },
+    {
+      "page": 2,
+      "rows": [
+        {
+          "missing": false,
+          "name": "Wings of Spirits",
+          "path": "Item/Wing04.bmd"
+        },
+        {
+          "missing": false,
+          "name": "Wings of Soul",
+          "path": "Item/Wing05.bmd"
+        }
+      ],
+      "visualReview": "reviewed; image recorded",
+      "evidence": "evidence/W0112/group-3.png"
+    },
+    {
+      "page": 3,
+      "rows": [
+        {
+          "missing": false,
+          "name": "Wings of Dragon",
+          "path": "Item/Wing06.bmd"
+        },
+        {
+          "missing": false,
+          "name": "Wings of Darkness",
+          "path": "Item/Wing07.bmd"
+        }
+      ],
+      "visualReview": "reviewed; image recorded",
+      "evidence": "evidence/W0112/group-4.png"
+    },
+    {
+      "page": 4,
+      "rows": [
+        {
+          "missing": false,
+          "name": "Wind of Despair",
+          "path": "Item/Wing43.bmd"
+        },
+        {
+          "missing": false,
+          "name": "Cape of Fighter",
+          "path": "Item/Wing50.bmd"
+        }
+      ],
+      "visualReview": "reviewed; image recorded",
+      "evidence": "evidence/W0112/group-5.png"
+    },
+    {
+      "page": 5,
+      "rows": [
+        {
+          "missing": false,
+          "name": "Wing of Storm",
+          "path": "Item/Wing08.bmd"
+        },
+        {
+          "missing": false,
+          "name": "Wing of Eternal",
+          "path": "Item/Wing09.bmd"
+        }
+      ],
+      "visualReview": "reviewed; image recorded",
+      "evidence": "evidence/W0112/group-6.png"
+    },
+    {
+      "page": 6,
+      "rows": [
+        {
+          "missing": false,
+          "name": "Wing of Illusion",
+          "path": "Item/Wing10.bmd"
+        },
+        {
+          "missing": false,
+          "name": "Wing of Ruin",
+          "path": "Item/Wing11.bmd"
+        }
+      ],
+      "visualReview": "reviewed; image recorded",
+      "evidence": "evidence/W0112/group-7.png"
+    },
+    {
+      "page": 7,
+      "rows": [
+        {
+          "missing": false,
+          "name": "Cape of Emperor",
+          "path": "Item/DarkLordRobe02.bmd"
+        },
+        {
+          "missing": false,
+          "name": "Wing of Dimension",
+          "path": "Item/Wing44.bmd"
+        }
+      ],
+      "visualReview": "reviewed; image recorded",
+      "evidence": "evidence/W0112/group-8.png"
+    },
+    {
+      "page": 8,
+      "rows": [
+        {
+          "missing": false,
+          "name": "Cape of Overrule",
+          "path": "Item/Wing51.bmd"
+        },
+        {
+          "missing": false,
+          "name": "Cape of Lord",
+          "path": "Item/DarkLordRobe.bmd"
+        }
+      ],
+      "visualReview": "reviewed; image recorded",
+      "evidence": "evidence/W0112/group-9.png"
+    }
+  ],
+  "fixes": [
+    "TGA wing UV matches worn attachment; original angles restored incl. Y=-10",
+    "Inventory additive material uses a luminance alpha matte to remove opaque black geometry"
+  ]
+}

@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>MU EX603 — Debug</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <canvas aria-label="MU EX603"></canvas>
+  <aside id="debug-overlay" aria-label="Thông tin Debug">
+    <div id="fps">FPS: đang đo…</div>
+    <div id="ping">Ping server: chưa kết nối</div>
+    <div id="render-metrics"></div>
+    <div id="status" role="status">WebGL2: đang khởi tạo…</div>
+    <div id="core-status" role="status">WASM: đang nạp…</div>
+  </aside>
+  <aside id="preview-menu" aria-label="Menu kiểm thử model" hidden>
+    <strong>Preview Debug</strong>
+    <label>Class<select name="class" disabled></select></label>
+    <label>Cấp chuyển chức<select name="tier" disabled><option value="0">Cơ bản</option><option value="1">Cấp 2</option><option value="2">Cấp 3</option></select></label>
+    <label>Skill<select name="skill" disabled></select></label>
+    <label class="check"><input type="checkbox" name="freeze" disabled>Dừng effect để xem</label>
+    <small data-coverage></small>
+ <output aria-live="polite">Đang nạp danh sách skill…</output>
+    <small>Công cụ test, chưa kiểm level/mana/trang bị.</small>
+  </aside>
+  <script type="module" src="./src/app/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+build/
+build-*/
+.env*
+!.env.mysql.example
+logs/
+mysql.ini
+runtime/

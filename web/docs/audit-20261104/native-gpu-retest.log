@@ -1,0 +1,13 @@
+Test project /Users/angelale/Downloads/SOURCE-2.0.7/SOURCE/Source/Emulator/native/build
+    Start 25: mu_client_cache_contract
+1/4 Test #25: mu_client_cache_contract ............   Passed    1.52 sec
+    Start 29: mu_client_live_equipment_contract
+2/4 Test #29: mu_client_live_equipment_contract ...   Passed    1.86 sec
+    Start 30: mu_client_elf_bow_contract
+3/4 Test #30: mu_client_elf_bow_contract ..........   Passed    1.70 sec
+    Start 32: mu_client_lobby_scene_contract
+4/4 Test #32: mu_client_lobby_scene_contract ......   Passed    0.96 sec
+
+100% tests passed out of 4
+
+Total Test time (real) =   6.05 sec

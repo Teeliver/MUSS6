@@ -1,0 +1,825 @@
+{
+  "scope": "Real Data/WASM: resource availability, texture decode, finite pose sampling; only class/item pairs allowed by Item_eng.bmd, at the minimum required advancement. Does not certify visual parity; stats/level eligibility is recorded, not changed on live accounts.",
+  "classes": [
+    "Dark Wizard",
+    "Dark Knight",
+    "Fairy Elf",
+    "Magic Gladiator",
+    "Dark Lord",
+    "Summoner",
+    "Rage Fighter"
+  ],
+  "wingCount": 18,
+  "pairCount": 20,
+  "results": [
+    {
+      "index": 6144,
+      "tier": 1,
+      "name": "Wings of Elf",
+      "model": "Item/Wing01.bmd",
+      "textures": [
+        {
+          "path": "Item/elfin_wing.OZJ",
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "classes": [
+        {
+          "class": "Fairy Elf",
+          "classIndex": 2,
+          "requiredClassStage": 1,
+          "tier": 0,
+          "requiredLevel": 180,
+          "samples": 48,
+          "animationDelta": 74.84715270996094,
+          "status": "sampled"
+        }
+      ],
+      "limitations": [],
+      "independentWingMotionDelta": 19.938097953796387,
+      "status": "sampled",
+      "visualReview": {
+        "pairsReviewed": [
+          "Fairy Elf"
+        ],
+        "evidence": [
+          "/tmp/mu-w95-6144-2.png"
+        ],
+        "status": "no_obvious_geometry_error_in_captured_pose",
+        "issues": [],
+        "note": "Not full sprite/lighting parity certification."
+      }
+    },
+    {
+      "index": 6145,
+      "tier": 1,
+      "name": "Wings of Heaven",
+      "model": "Item/Wing02.bmd",
+      "textures": [
+        {
+          "path": "Item/angel_wing.OZT",
+          "width": 128,
+          "height": 128
+        }
+      ],
+      "classes": [
+        {
+          "class": "Dark Wizard",
+          "classIndex": 0,
+          "requiredClassStage": 1,
+          "tier": 0,
+          "requiredLevel": 180,
+          "samples": 48,
+          "animationDelta": 211.74626922607422,
+          "status": "sampled"
+        },
+        {
+          "class": "Magic Gladiator",
+          "classIndex": 3,
+          "requiredClassStage": 1,
+          "tier": 0,
+          "requiredLevel": 180,
+          "samples": 48,
+          "animationDelta": 211.74626922607422,
+          "status": "sampled"
+        }
+      ],
+      "limitations": [],
+      "independentWingMotionDelta": 76.0711612701416,
+      "status": "sampled",
+      "visualReview": {
+        "pairsReviewed": [
+          "Dark Wizard",
+          "Magic Gladiator"
+        ],
+        "evidence": [
+          "/tmp/mu-w95-6145-0.png",
+          "/tmp/mu-w95-6145-3.png"
+        ],
+        "status": "no_obvious_geometry_error_in_captured_pose",
+        "issues": [],
+        "note": "Not full sprite/lighting parity certification."
+      }
+    },
+    {
+      "index": 6146,
+      "tier": 1,
+      "name": "Wings of Satan",
+      "model": "Item/Wing03.bmd",
+      "textures": [
+        {
+          "path": "Item/devil_wing.OZT",
+          "width": 128,
+          "height": 128
+        }
+      ],
+      "classes": [
+        {
+          "class": "Dark Knight",
+          "classIndex": 1,
+          "requiredClassStage": 1,
+          "tier": 0,
+          "requiredLevel": 180,
+          "samples": 48,
+          "animationDelta": 149.81016540527344,
+          "status": "sampled"
+        },
+        {
+          "class": "Magic Gladiator",
+          "classIndex": 3,
+          "requiredClassStage": 1,
+          "tier": 0,
+          "requiredLevel": 180,
+          "samples": 48,
+          "animationDelta": 149.81016540527344,
+          "status": "sampled"
+        }
+      ],
+      "limitations": [],
+      "independentWingMotionDelta": 41.310954093933105,
+      "status": "sampled",
+      "visualReview": {
+        "pairsReviewed": [
+          "Dark Knight",
+          "Magic Gladiator"
+        ],
+        "evidence": [
+          "/tmp/mu-w95-6146-1.png",
+          "/tmp/mu-w95-6146-3.png"
+        ],
+        "status": "no_obvious_geometry_error_in_captured_pose",
+        "issues": [],
+        "note": "Not full sprite/lighting parity certification."
+      }
+    },
+    {
+      "index": 6185,
+      "tier": 1,
+      "name": "Wing of Curse",
+      "model": "Item/Wing42.bmd",
+      "textures": [
+        {
+          "path": "Item/alicewing_01.OZJ",
+          "width": 128,
+          "height": 128
+        }
+      ],
+      "classes": [
+        {
+          "class": "Summoner",
+          "classIndex": 5,
+          "requiredClassStage": 1,
+          "tier": 0,
+          "requiredLevel": 180,
+          "samples": 48,
+          "animationDelta": 158.7839813232422,
+          "status": "sampled"
+        }
+      ],
+      "limitations": [],
+      "independentWingMotionDelta": 39.344215393066406,
+      "status": "sampled",
+      "visualReview": {
+        "pairsReviewed": [
+          "Summoner"
+        ],
+        "evidence": [
+          "/tmp/mu-w95-6185-5.png"
+        ],
+        "status": "no_obvious_geometry_error_in_captured_pose",
+        "issues": [],
+        "note": "Not full sprite/lighting parity certification."
+      }
+    },
+    {
+      "index": 6147,
+      "tier": 2,
+      "name": "Wings of Spirits",
+      "model": "Item/Wing04.bmd",
+      "textures": [
+        {
+          "path": "Item/NewingEl.OZJ",
+          "width": 128,
+          "height": 128
+        }
+      ],
+      "classes": [
+        {
+          "class": "Fairy Elf",
+          "classIndex": 2,
+          "requiredClassStage": 2,
+          "tier": 1,
+          "requiredLevel": 215,
+          "samples": 48,
+          "animationDelta": 151.07655334472656,
+          "status": "sampled"
+        }
+      ],
+      "limitations": [],
+      "independentWingMotionDelta": 30.59168243408203,
+      "status": "sampled",
+      "visualReview": {
+        "pairsReviewed": [
+          "Fairy Elf"
+        ],
+        "evidence": [
+          "/tmp/mu-w95-6147-2.png"
+        ],
+        "status": "no_obvious_geometry_error_in_captured_pose",
+        "issues": [],
+        "note": "Not full sprite/lighting parity certification."
+      }
+    },
+    {
+      "index": 6148,
+      "tier": 2,
+      "name": "Wings of Soul",
+      "model": "Item/Wing05.bmd",
+      "textures": [
+        {
+          "path": "Item/NEWWW.OZJ",
+          "width": 128,
+          "height": 64
+        },
+        {
+          "path": "Item/NEWW_R.OZJ",
+          "width": 128,
+          "height": 64
+        }
+      ],
+      "classes": [
+        {
+          "class": "Dark Wizard",
+          "classIndex": 0,
+          "requiredClassStage": 2,
+          "tier": 1,
+          "requiredLevel": 215,
+          "samples": 48,
+          "animationDelta": 227.9118194580078,
+          "status": "sampled"
+        }
+      ],
+      "limitations": [],
+      "independentWingMotionDelta": 94.401682138443,
+      "status": "sampled",
+      "visualReview": {
+        "pairsReviewed": [
+          "Dark Wizard"
+        ],
+        "evidence": [
+          "/tmp/mu-w95-6148-0.png"
+        ],
+        "status": "no_obvious_geometry_error_in_captured_pose",
+        "issues": [],
+        "note": "Not full sprite/lighting parity certification."
+      }
+    },
+    {
+      "index": 6149,
+      "tier": 2,
+      "name": "Wings of Dragon",
+      "model": "Item/Wing06.bmd",
+      "textures": [
+        {
+          "path": "Item/NDW.OZJ",
+          "width": 128,
+          "height": 64
+        },
+        {
+          "path": "Item/NDW_R.OZJ",
+          "width": 128,
+          "height": 64
+        }
+      ],
+      "classes": [
+        {
+          "class": "Dark Knight",
+          "classIndex": 1,
+          "requiredClassStage": 2,
+          "tier": 1,
+          "requiredLevel": 215,
+          "samples": 48,
+          "animationDelta": 109.15451240539551,
+          "status": "sampled"
+        }
+      ],
+      "limitations": [],
+      "independentWingMotionDelta": 38.99069595336914,
+      "status": "sampled",
+      "visualReview": {
+        "pairsReviewed": [
+          "Dark Knight"
+        ],
+        "evidence": [
+          "/tmp/mu-w95-6149-1.png"
+        ],
+        "status": "no_obvious_geometry_error_in_captured_pose",
+        "issues": [],
+        "note": "Not full sprite/lighting parity certification."
+      }
+    },
+    {
+      "index": 6150,
+      "tier": 2,
+      "name": "Wings of Darkness",
+      "model": "Item/Wing07.bmd",
+      "textures": [
+        {
+          "path": "Item/NDEE.OZT",
+          "width": 64,
+          "height": 32
+        }
+      ],
+      "classes": [
+        {
+          "class": "Magic Gladiator",
+          "classIndex": 3,
+          "requiredClassStage": 1,
+          "tier": 0,
+          "requiredLevel": 215,
+          "samples": 48,
+          "animationDelta": 150.22322463989258,
+          "status": "sampled"
+        }
+      ],
+      "limitations": [],
+      "independentWingMotionDelta": 30.098753929138184,
+      "status": "sampled",
+      "visualReview": {
+        "pairsReviewed": [
+          "Magic Gladiator"
+        ],
+        "evidence": [
+          "/tmp/mu-w95-6150-3.png"
+        ],
+        "status": "needs_work",
+        "issues": [
+          "Missing native thunder/spirit joints and blue flare sprites between wing bones; chrome base pass added but full silhouette/effect parity remains incomplete."
+        ],
+        "note": "Not full sprite/lighting parity certification."
+      }
+    },
+    {
+      "index": 6186,
+      "tier": 2,
+      "name": "Wind of Despair",
+      "model": "Item/Wing43.bmd",
+      "textures": [
+        {
+          "path": "Item/alicewing_02body.OZJ",
+          "width": 128,
+          "height": 128
+        },
+        {
+          "path": "Item/alicewing_02cover.OZJ",
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "classes": [
+        {
+          "class": "Summoner",
+          "classIndex": 5,
+          "requiredClassStage": 2,
+          "tier": 1,
+          "requiredLevel": 215,
+          "samples": 48,
+          "animationDelta": 127.47723388671875,
+          "status": "sampled"
+        }
+      ],
+      "limitations": [],
+      "independentWingMotionDelta": 85.99949073791504,
+      "status": "sampled",
+      "visualReview": {
+        "pairsReviewed": [
+          "Summoner"
+        ],
+        "evidence": [
+          "/tmp/mu-w95-6186-5.png"
+        ],
+        "status": "no_obvious_geometry_error_in_captured_pose",
+        "issues": [],
+        "note": "Not full sprite/lighting parity certification."
+      }
+    },
+    {
+      "index": 6193,
+      "tier": 2,
+      "name": "Cape of Fighter",
+      "model": "Item/Wing50.bmd",
+      "textures": [
+        {
+          "path": "Item/NCcape.OZT",
+          "width": 128,
+          "height": 256
+        }
+      ],
+      "classes": [
+        {
+          "class": "Rage Fighter",
+          "classIndex": 6,
+          "requiredClassStage": 1,
+          "tier": 0,
+          "requiredLevel": 180,
+          "samples": 48,
+          "animationDelta": 71.76604270935059,
+          "status": "sampled"
+        }
+      ],
+      "limitations": [
+        "Native cape cloth/CreateParts/RenderParts path requires separate visual verification; finite sampling does not validate cloth fidelity."
+      ],
+      "independentWingMotionDelta": 0,
+      "status": "sampled",
+      "visualReview": {
+        "pairsReviewed": [
+          "Rage Fighter"
+        ],
+        "evidence": [
+          "/tmp/mu-w95-6193-6.png"
+        ],
+        "status": "needs_work",
+        "issues": [
+          "Cape cloth simulation missing; native RenderLinkObject skips this item and uses physics cloth."
+        ],
+        "note": "Not full sprite/lighting parity certification."
+      }
+    },
+    {
+      "index": 6180,
+      "tier": 3,
+      "name": "Wing of Storm",
+      "model": "Item/Wing08.bmd",
+      "textures": [
+        {
+          "path": "Item/wing3chaking.OZJ",
+          "width": 128,
+          "height": 128
+        },
+        {
+          "path": "Item/lightningblast.OZJ",
+          "width": 256,
+          "height": 64
+        },
+        {
+          "path": "Item/wing3chaking.OZT",
+          "width": 128,
+          "height": 128
+        }
+      ],
+      "classes": [
+        {
+          "class": "Dark Knight",
+          "classIndex": 1,
+          "requiredClassStage": 3,
+          "tier": 2,
+          "requiredLevel": 400,
+          "samples": 48,
+          "animationDelta": 227.07781219482422,
+          "status": "sampled"
+        }
+      ],
+      "limitations": [],
+      "independentWingMotionDelta": 80.83104705810547,
+      "status": "sampled",
+      "visualReview": {
+        "pairsReviewed": [
+          "Dark Knight"
+        ],
+        "evidence": [
+          "/tmp/mu-w95-6180-1.png"
+        ],
+        "status": "needs_work",
+        "issues": [
+          "Native mesh order and additive light passes added; stepped lightning atlas and bone-attached particles remain incomplete."
+        ],
+        "note": "Not full sprite/lighting parity certification."
+      }
+    },
+    {
+      "index": 6181,
+      "tier": 3,
+      "name": "Wing of Eternal",
+      "model": "Item/Wing09.bmd",
+      "textures": [
+        {
+          "path": "Item/magician_wing.OZT",
+          "width": 256,
+          "height": 256
+        }
+      ],
+      "classes": [
+        {
+          "class": "Dark Wizard",
+          "classIndex": 0,
+          "requiredClassStage": 3,
+          "tier": 2,
+          "requiredLevel": 400,
+          "samples": 48,
+          "animationDelta": 158.86883735656738,
+          "status": "sampled"
+        }
+      ],
+      "limitations": [],
+      "independentWingMotionDelta": 31.71600341796875,
+      "status": "sampled",
+      "visualReview": {
+        "pairsReviewed": [
+          "Dark Wizard"
+        ],
+        "evidence": [
+          "/tmp/mu-w95-6181-0.png"
+        ],
+        "status": "no_obvious_geometry_error_in_captured_pose",
+        "issues": [],
+        "note": "Not full sprite/lighting parity certification."
+      }
+    },
+    {
+      "index": 6182,
+      "tier": 3,
+      "name": "Wing of Illusion",
+      "model": "Item/Wing10.bmd",
+      "textures": [
+        {
+          "path": "Item/elfwing3d_R.OZJ",
+          "width": 256,
+          "height": 256
+        }
+      ],
+      "classes": [
+        {
+          "class": "Fairy Elf",
+          "classIndex": 2,
+          "requiredClassStage": 3,
+          "tier": 2,
+          "requiredLevel": 400,
+          "samples": 48,
+          "animationDelta": 209.77385711669922,
+          "status": "sampled"
+        }
+      ],
+      "limitations": [],
+      "independentWingMotionDelta": 22.040315628051758,
+      "status": "sampled",
+      "visualReview": {
+        "pairsReviewed": [
+          "Fairy Elf"
+        ],
+        "evidence": [
+          "/tmp/mu-w95-6182-2.png"
+        ],
+        "status": "no_obvious_geometry_error_in_captured_pose",
+        "issues": [],
+        "note": "Not full sprite/lighting parity certification."
+      }
+    },
+    {
+      "index": 6183,
+      "tier": 3,
+      "name": "Wing of Ruin",
+      "model": "Item/Wing11.bmd",
+      "textures": [
+        {
+          "path": "Item/msword02.OZT",
+          "width": 32,
+          "height": 128
+        },
+        {
+          "path": "Item/msword01.OZJ",
+          "width": 128,
+          "height": 128
+        }
+      ],
+      "classes": [
+        {
+          "class": "Magic Gladiator",
+          "classIndex": 3,
+          "requiredClassStage": 3,
+          "tier": 2,
+          "requiredLevel": 400,
+          "samples": 48,
+          "animationDelta": 77.75504684448242,
+          "status": "sampled"
+        }
+      ],
+      "limitations": [],
+      "independentWingMotionDelta": 7.589337348937988,
+      "status": "sampled",
+      "visualReview": {
+        "pairsReviewed": [
+          "Magic Gladiator"
+        ],
+        "evidence": [
+          "/tmp/mu-w95-6183-3.png"
+        ],
+        "status": "needs_work",
+        "issues": [
+          "Native additive mesh pass added; pulsing luminosity and BITMAP_3RDWING_LAYER overlay remain incomplete."
+        ],
+        "note": "Not full sprite/lighting parity certification."
+      }
+    },
+    {
+      "index": 6184,
+      "tier": 3,
+      "name": "Cape of Emperor",
+      "model": "Item/DarkLordRobe02.bmd",
+      "textures": [
+        {
+          "path": "Item/dl_redwings01.OZJ",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "Item/dl_redwings03.OZT",
+          "width": 32,
+          "height": 128
+        },
+        {
+          "path": "Item/dl_redwings02.OZT",
+          "width": 128,
+          "height": 256
+        }
+      ],
+      "classes": [
+        {
+          "class": "Dark Lord",
+          "classIndex": 4,
+          "requiredClassStage": 3,
+          "tier": 2,
+          "requiredLevel": 400,
+          "samples": 48,
+          "animationDelta": 37.509517669677734,
+          "status": "sampled"
+        }
+      ],
+      "limitations": [
+        "Native cape cloth/CreateParts/RenderParts path requires separate visual verification; finite sampling does not validate cloth fidelity."
+      ],
+      "independentWingMotionDelta": 0,
+      "status": "sampled",
+      "visualReview": {
+        "pairsReviewed": [
+          "Dark Lord"
+        ],
+        "evidence": [
+          "/tmp/mu-w95-6184-4.png"
+        ],
+        "status": "needs_work",
+        "issues": [
+          "Cape cloth simulation missing; static model does not reproduce source cape."
+        ],
+        "note": "Not full sprite/lighting parity certification."
+      }
+    },
+    {
+      "index": 6187,
+      "tier": 3,
+      "name": "Wing of Dimension",
+      "model": "Item/Wing44.bmd",
+      "textures": [
+        {
+          "path": "Item/alicewing_03body.OZJ",
+          "width": 128,
+          "height": 128
+        },
+        {
+          "path": "Item/alicewing_03cover.OZJ",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "Item/alicewing_leather.OZT",
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "classes": [
+        {
+          "class": "Summoner",
+          "classIndex": 5,
+          "requiredClassStage": 3,
+          "tier": 2,
+          "requiredLevel": 400,
+          "samples": 48,
+          "animationDelta": 226.06016540527344,
+          "status": "sampled"
+        }
+      ],
+      "limitations": [],
+      "independentWingMotionDelta": 143.0951156616211,
+      "status": "sampled",
+      "visualReview": {
+        "pairsReviewed": [
+          "Summoner"
+        ],
+        "evidence": [
+          "/tmp/mu-w95-6187-5.png"
+        ],
+        "status": "no_obvious_geometry_error_in_captured_pose",
+        "issues": [],
+        "note": "Not full sprite/lighting parity certification."
+      }
+    },
+    {
+      "index": 6194,
+      "tier": 3,
+      "name": "Cape of Overrule",
+      "model": "Item/Wing51.bmd",
+      "textures": [
+        {
+          "path": "Item/monk_manto02.OZJ",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "Item/monk_manto01.OZT",
+          "width": 32,
+          "height": 256
+        },
+        {
+          "path": "Item/monke_manto.OZT",
+          "width": 128,
+          "height": 256
+        }
+      ],
+      "classes": [
+        {
+          "class": "Rage Fighter",
+          "classIndex": 6,
+          "requiredClassStage": 3,
+          "tier": 2,
+          "requiredLevel": 400,
+          "samples": 48,
+          "animationDelta": 41.41205978393555,
+          "status": "sampled"
+        }
+      ],
+      "limitations": [
+        "Native cape cloth/CreateParts/RenderParts path requires separate visual verification; finite sampling does not validate cloth fidelity."
+      ],
+      "independentWingMotionDelta": 0,
+      "status": "sampled",
+      "visualReview": {
+        "pairsReviewed": [
+          "Rage Fighter"
+        ],
+        "evidence": [
+          "/tmp/mu-w95-6194-6.png"
+        ],
+        "status": "needs_work",
+        "issues": [
+          "Cape cloth simulation and side strips missing."
+        ],
+        "note": "Not full sprite/lighting parity certification."
+      }
+    },
+    {
+      "index": 6686,
+      "tier": 2,
+      "name": "Cape of Lord",
+      "model": "Item/DarkLordRobe.bmd",
+      "textures": [
+        {
+          "path": "Item/DarkLordRobe.OZT",
+          "width": 128,
+          "height": 256
+        }
+      ],
+      "classes": [
+        {
+          "class": "Dark Lord",
+          "classIndex": 4,
+          "requiredClassStage": 1,
+          "tier": 0,
+          "requiredLevel": 180,
+          "samples": 48,
+          "animationDelta": 91.10038566589355,
+          "status": "sampled"
+        }
+      ],
+      "limitations": [
+        "Native cape cloth/CreateParts/RenderParts path requires separate visual verification; finite sampling does not validate cloth fidelity."
+      ],
+      "independentWingMotionDelta": 0,
+      "status": "sampled",
+      "visualReview": {
+        "pairsReviewed": [
+          "Dark Lord"
+        ],
+        "evidence": [
+          "/tmp/mu-w95-6686-4.png"
+        ],
+        "status": "needs_work",
+        "issues": [
+          "Cape cloth simulation missing; native RenderLinkObject skips this item and uses physics cloth."
+        ],
+        "note": "Not full sprite/lighting parity certification."
+      }
+    }
+  ],
+  "sourceEligibility": "Item_eng.bmd classes[0..6]: 0 forbidden, 1 base class, 2 first advancement, 3 second advancement. Test uses minimum allowed stage and recorded required level."
+}
