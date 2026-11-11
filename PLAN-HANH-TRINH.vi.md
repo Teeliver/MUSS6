@@ -182,3 +182,32 @@ Thứ tự: **server an toàn → web chơi được → web đủ tính năng �
 - **L02** — Số procedure không khớp: tài liệu ghi 63, catalog có 57, bản gốc có khoảng 60 (mục 10-C).
 - **L03** — Đường dẫn sai trong `native/README.md` và `RUN-AND-TEST.vi.md`.
 - **L04** — Trade/Zen theo audit OpenMU (23/10): chưa xác nhận trong EX603.
+
+## 13. Câu hỏi: Data client khi lên online sẽ đọc và load thế nào (2026-11-11, chỉ đọc)
+
+Trả lời ngắn: hiện **chưa có đường tải Data online**. Mọi thứ đang đọc từ đĩa local và chỉ dùng cho kiểm thử.
+
+- **Native (macOS)**: đọc thẳng từ `MuClientEX603/Data` trên máy, qua chuỗi Boot 10 tác vụ (catalog item, panel, actor+terrain, tile/light, geometry, skeleton, body, shadow, placement, environment). Cache chỉ trong tiến trình, khởi động lại là đọc lại. Server không gửi Data; GameServer đọc Data riêng của nó (`MuServerEX603/Data`).
+- **Web**: `web/package.json` có `stage:preview` chạy `tools/stage_preview.py`. Script này copy **chỉ** các file cần thiết (theo danh sách model/texture/title/skill/audio) vào `dist/debug/preview-assets/Data/`, kèm manifest (path, size, sha256). Trình duyệt tải `/preview-assets/Data/<path>`, kiểm size và SHA-256 rồi mới giải mã trong WASM. Script ghi rõ: không expose toàn bộ Data, không expose key/config.
+- **Loader có kiểm hash** (`platform/assets/load-resource.js`): giới hạn 64 MiB mỗi model, 2 request đồng thời, deadline 15 giây, không tự tải lúc mở app, không cache ngầm, không fallback model khác khi hash sai.
+- **Chưa có** (theo `RESOURCE-LOADER`, `RESOURCE-MANIFEST`): HTTP staging đúng cho production, scheduler/cache/version, trust/chữ ký manifest, progress nhiều asset.
+
+### Ý nghĩa khi đưa lên online
+
+1. Phải có một **kho asset** (static server/CDN) để phục vụ đúng các file đã staging, không phải thư mục Data nguyên bản.
+2. **Manifest phải được ký** hoặc lấy từ nguồn tin cậy. Hiện runtime chỉ kiểm format và hash, chưa kiểm chữ ký.
+3. **Version phải khớp** giữa client Data, manifest và server Data (`MuServerEX603/Data`). Lệch version gây sai item/monster/skill mà không báo lỗi rõ.
+4. Lần vào đầu tiên phải tải một lượng lớn (Data ~911 MB, 13.660 file). Cần tải theo map/nhân vật, có cache trình duyệt theo hash.
+5. **Vấn đề pháp lý**: Data MU gốc có bản quyền. Đưa công khai cho người lạ cần cân nhắc rủi ro; đây là câu hỏi cho bạn, không phải kỹ thuật.
+
+### Đề xuất (chưa làm, cần bạn duyệt)
+
+- Thiết kế đường tải online: manifest có chữ ký, kho asset theo version, tải theo map, cache theo hash.
+- Thêm một bước kiểm version giữa client và server trước khi vào game.
+
+### Ghi nhận vào nhật ký
+
+- **L05**: Chưa có đường tải Data online; web chỉ có staging local (`stage_preview.py`).
+- **L06**: Manifest chưa có chữ ký/trust.
+- **L07**: Chưa có kiểm version Data giữa client và server.
+- **L08**: Vấn đề bản quyền khi phân phối Data MU công khai (cần bạn quyết định).
