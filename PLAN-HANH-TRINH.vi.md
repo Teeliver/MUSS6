@@ -290,3 +290,65 @@ Các kỹ thuật cụ thể:
 - **L09**: Data chứa `Enc1.dat` và `Dec2.dat` là khóa gói tin. Không được đưa ra ngoài, kể cả trong pack.
 - **L10**: Loader web hiện mặc định 2 request đồng thời; chưa tối ưu cho tải nhiều file nhỏ.
 - **L11**: Chưa đo thời gian tải thực trên mạng thật; số ở mục 14.1 là kích thước, không phải thời gian.
+
+## 15. Kiến trúc đọc asset: local và online phải dùng chung một đường (đề xuất, chưa làm)
+
+### 15.1 Hiện trạng (đã đọc code, chỉ đọc)
+
+- **Native**: đường dẫn thư mục Data được truyền thẳng vào mọi nơi. Ví dụ `WorldAssets::dataDirectory` là `std::filesystem::path`; `mu::assets::load_terrain(data, map)`, `load_actor_catalog(data)`, `playerMeshes(..., dataDirectory)`, và `NSSound initWithContentsOfFile:` dùng đường dẫn trực tiếp. Nghĩa là code **gắn với đĩa**: muốn đọc từ mạng phải sửa khắp nơi.
+- **Web**: đã đi theo hướng đúng hơn: `fetch(url)` theo đường dẫn logic, kiểm size + SHA-256, rồi mới giải mã trong WASM. Nhưng nguồn chỉ là `dist/debug/preview-assets/` do script staging copy vào, nên chỉ dùng được ở máy dev.
+- Hai client đang đi **hai đường khác nhau**, và đường native không thể dùng trực tiếp cho online.
+
+### 15.2 Nguyên tắc đúng
+
+1. **Bộ giải mã chỉ nhận bytes, không nhận đường dẫn.** Hàm như `load_terrain` nên nhận một nguồn asset (`AssetSource`), không nhận `std::filesystem::path`. Ví dụ: `load_terrain(source, "World1/EncTerrain1.map")`.
+2. **Tên logic giống nhau ở mọi nơi.** Ví dụ `World74/Object74/...` là cùng một tên trên máy, trên web và trên CDN. Chỉ nguồn đọc thay đổi.
+3. **Mỗi file có sha256 và kích thước trong manifest.** Client chỉ dùng file đã khớp manifest. Không có fallback, không dùng file thay thế khi thiếu.
+4. **Manifest có version.** Client gửi version lên server khi đăng nhập; lệch version thì từ chối vào game, báo rõ cần cập nhật.
+5. **Nguồn tin cậy.** Manifest phải được ký (chưa có). Enc1/Dec2 không bao giờ nằm trong manifest.
+
+### 15.3 Thiết kế đề xuất
+
+```text
+Logic path:  World74/EncTerrain74.map        (cùng tên ở mọi nơi)
+                     │
+                AssetSource (interface, client-core)
+           ┌─────────┼──────────────────────┐
+  LocalDirectory   HttpCache (web)     HttpCache (native online)
+  đọc đĩa,         fetch + hash +      cùng logic, lưu cache
+  kiểm manifest    cache Cache API /   trên đĩa theo sha256
+  (dev, native)    OPFS theo sha256
+```
+
+- **Máy dev / native local**: `LocalDirectory` đọc file gốc, nhưng vẫn kiểm sha256 với manifest khi khởi động. Nếu Data trên máy khác manifest thì báo lỗi, không im lặng chạy.
+- **Online**: `HttpCache` lấy file qua URL có hash trong tên (`/a/<sha256>`), `Cache-Control: immutable`. Lần sau lấy từ cache trình duyệt/đĩa, không cần kiểm lại từ server.
+- **Nén**: để HTTP làm (Brotli/gzip). Không dùng zip ở đường chính. Gom pack chỉ là tối ưu sau, không đổi kiến trúc.
+
+### 15.4 Lộ trình chuyển (từng bước, trên bản sao, chờ duyệt)
+
+1. **Kiểm kê**: đếm mọi chỗ native dùng đường dẫn Data (grep `dataDirectory`, `initWithContentsOfFile`, `fopen`, `ifstream`, `contentsOfFile`). Lập bảng file → hàm.
+2. **Định nghĩa `AssetSource`** trong `client-core` (C++ thuần, không phụ thuộc macOS) với các hàm: `read(path) -> bytes`, `size(path)`, `has(path)`. Có fixture test.
+3. **Chuyển bộ giải mã** từ path sang `AssetSource`, từng module, mỗi module có test so với kết quả cũ (phải giống hệt byte-by-byte).
+4. **Thêm `LocalDirectory`** và xác nhận native vẫn chạy y như cũ (test hồi quy `ctest` + kịch bản tay).
+5. **Tạo bộ build manifest + object store**: quét danh sách file cần, tính sha256, sinh `manifest.json` (có version, có chữ ký) và thư mục `objects/<sha256>`.
+6. **Thêm `HttpCache` cho web** dùng manifest đó (web đã có phần fetch + hash, chỉ cần đổi nguồn và thêm cache).
+7. **Kiểm version giữa client và server**: GameServer phải trả manifest version khi bắt tay; client so sánh trước khi vào world.
+8. **Chỉ sau khi test trên bản sao đạt**, mới áp vào client thật.
+
+### 15.5 Điều kiện nghiệm thu
+
+- Native với `LocalDirectory` cho kết quả giống hệt trước khi đổi (so sánh hash của terrain, mesh, texture đã giải mã).
+- Web với `HttpCache` tải đúng file, từ chối file sai hash, không tải file ngoài manifest.
+- Lệch version manifest: client báo lỗi rõ, không vào game.
+- Không có Enc1/Dec2 hoặc file config trong object store (có test tự động).
+
+### 15.6 Ghi nhận
+
+- **L12**: Native đang gắn đường dẫn Data vào nhiều chỗ (world_view.mm, audio, cursor, equipment). Muốn online phải có lớp `AssetSource`.
+- **L13**: Web đang đọc từ `preview-assets` do script debug tạo, chưa có nguồn online thật.
+- **L14**: Manifest chưa có chữ ký và chưa được server dùng để kiểm version.
+
+### 15.7 Câu hỏi cần bạn trả lời (khi tới bước này)
+
+1. Native online có cần tải asset qua mạng không, hay vẫn dùng Data trên máy người chơi (kèm kiểm manifest)?
+2. Ai là người giữ kho asset và ký manifest?
