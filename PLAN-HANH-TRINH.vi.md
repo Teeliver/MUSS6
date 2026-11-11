@@ -211,3 +211,82 @@ Trả lời ngắn: hiện **chưa có đường tải Data online**. Mọi th�
 - **L06**: Manifest chưa có chữ ký/trust.
 - **L07**: Chưa có kiểm version Data giữa client và server.
 - **L08**: Vấn đề bản quyền khi phân phối Data MU công khai (cần bạn quyết định).
+
+## 14. Kế hoạch tải asset online và tối ưu màn loading (đề xuất, chưa làm)
+
+### 14.1 Số đo thực (chỉ đọc, 2026-11-11)
+
+| Nhóm | Kích thước thô | Nén gzip (ước tính) | Ghi chú |
+|---|---|---|---|
+| Toàn bộ Data | ~900 MB, 13.664 file | — | Không tải hết |
+| `Interface/` | 41 MB | ~15 MB | Nhiều OZJ/OZT đã nén sẵn nên gzip ít hiệu quả |
+| UI màn login (LSBg, lo_*, login_*, server_*, New_lo_*...) | ~4,5 MB | ~1,5–2 MB (ước tính) | Cần để hiện form login |
+| `World74` (nền chọn server) | 2,5 MB | 1,5 MB | |
+| `Object74` (vật thể nền) | 13 MB | 9,2 MB | **Nặng nhất** màn chọn server |
+| `World78` / `Object78` | 2,7 MB / 4,2 MB | — | Biến thể nền khác (theo source) |
+| `Player/` | 37 MB | 26,5 MB | Model nhân vật, tải theo class đã chọn |
+| `Enc1.dat`, `Dec2.dat` | — | — | **Khóa mã hóa gói tin**. Không được đưa lên web/CDN |
+
+Kết luận từ số đo: màn chọn server phải tải ~15–20 MB nếu tải hết. Phải tách thành phần cần ngay và phần có thể tải nền.
+
+### 14.2 Có nên nén zip rồi đọc không?
+
+**Không nên dùng zip cho trình duyệt.** Lý do:
+- Zip phải tải xong toàn bộ file mới giải nén được; không hiển thị được từng phần khi đang tải.
+- Trình duyệt không có API đọc zip gốc. Phải dùng thư viện JS (fflate) thêm vào bundle.
+- Không tận dụng được cache theo từng file.
+
+**Nên dùng** kết hợp 3 lớp:
+
+1. **Nén ở tầng HTTP**: server gửi `Content-Encoding: br` (Brotli) hoặc `gzip` cho từng file. Trình duyệt tự giải nén, code không cần đổi. Lưu ý: hash kiểm tra phải tính trên dữ liệu đã giải nén (loader hiện đã làm vậy).
+2. **Gom theo màn (pack)** để giảm số request, không gom toàn bộ: `login.pack`, `charselect.pack`, `world-lorencia.pack`... Mỗi pack có **chỉ mục** (tên, offset, kích thước, sha256) ở đầu. Trình duyệt tải bằng HTTP Range để lấy từng file trong pack khi cần. Đây là cách thay cho zip.
+3. **Tên file theo hash** (ví dụ `LSBg01.<sha8>.ozj`): cho cache vĩnh viễn (`Cache-Control: immutable`). Đổi nội dung thì đổi tên, không lo cache cũ.
+
+Khuyến nghị: **pack có chỉ mục + Brotli + Range + tên theo hash**. Zip chỉ dùng khi làm bản tải thủ công.
+
+### 14.3 Thứ tự tải và tối ưu màn loading
+
+Mục tiêu: người chơi thấy form login trong vài giây; phần 3D nền tải tiếp.
+
+| Bước | Tải gì | Chặn UI? | Ghi chú |
+|---|---|---|---|
+| 0 | `index.html`, JS/WASM core, `manifest.json` nhỏ | Có | WASM nên có cache và tải song song |
+| 1 | UI login (~4,5 MB, nén ~2 MB) | Có | Hiện form login ngay khi đủ |
+| 2 | Chọn server: `World74` + `Object74` | Không | Tải nền sau khi hiện form; có thanh tiến trình |
+| 3 | Đăng nhập xong: danh sách nhân vật, `Player` class đã chọn | Có (chỉ phần cần) | Chỉ tải model class của nhân vật |
+| 4 | Vào map: terrain + object của map đó | Có | Có màn loading theo map |
+| 5 | Âm thanh, hiệu ứng, model phụ | Không | Tải nền, không chặn chơi |
+
+Các kỹ thuật cụ thể:
+- **Hiện form trước, 3D sau**: màn chọn server dùng ảnh nền tĩnh (đã có `LSBg*.OZJ`) trong lúc `World74/Object74` tải nền. Chỉ bật camera tour khi đủ dữ liệu.
+- **Prefetch**: khi người chơi đang gõ tài khoản, tải sẵn `World75/79` và model `Player` class đã biết từ lần trước.
+- **Cache trình duyệt**: Cache API hoặc IndexedDB theo sha256; lần sau chỉ kiểm manifest.
+- **Service Worker**: cache offline cho UI và pack đã dùng; chỉ cache sau khi hash khớp.
+- **Song song có giới hạn**: 4–6 request đồng thời (hiện loader mặc định 2 — cần cân nhắc tăng khi làm thật).
+- **Giảm kích thước gốc**: không đổi file gốc. Nếu cần, chỉ tạo bản nén khác có hash riêng, không sửa Data gốc.
+
+### 14.4 Mục tiêu đo lường (đề xuất, cần bạn duyệt)
+
+- Form login hiện trong **≤ 3 giây** trên mạng 20 Mbps, máy desktop thường.
+- Lần thứ hai (có cache): form login ≤ 1 giây.
+- Vào map đầu tiên ≤ 10 giây (không tính mạng chậm).
+- Không kèm `Enc1.dat`, `Dec2.dat`, config, credential trong bất kỳ pack nào. Có test tự động kiểm.
+
+### 14.5 Các bước làm (trên bản sao, chờ bạn duyệt)
+
+1. Tạo script đóng gói: đọc manifest, sinh pack theo màn, tính sha256, nén Brotli. Chạy trên thư mục tạm.
+2. Đo kích thước và thời gian tải của các pack (Chrome, mạng giả lập 20 Mbps và 5 Mbps).
+3. Thêm test: pack không chứa file ngoài danh sách; hash khớp; `Enc1/Dec2` bị chặn.
+4. Chỉ sau khi bạn duyệt số đo mới áp vào client thật.
+
+### 14.6 Câu hỏi cần bạn trả lời (sẽ làm khi các việc cơ bản xong)
+
+1. Mục tiêu thời gian chờ chấp nhận được? (đề xuất mục 14.4)
+2. Có cho phép dùng CDN bên thứ ba không, hay chỉ server riêng?
+3. Chấp nhận tải Object74 nền (9 MB) sau khi đã vào form login không?
+
+### 14.7 Nhật ký
+
+- **L09**: Data chứa `Enc1.dat` và `Dec2.dat` là khóa gói tin. Không được đưa ra ngoài, kể cả trong pack.
+- **L10**: Loader web hiện mặc định 2 request đồng thời; chưa tối ưu cho tải nhiều file nhỏ.
+- **L11**: Chưa đo thời gian tải thực trên mạng thật; số ở mục 14.1 là kích thước, không phải thời gian.
